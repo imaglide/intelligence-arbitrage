@@ -1,0 +1,51 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,timestamp
+phi4_local_baseline_qa,phi4,qa,0,Yes,yes,True,12887.287,2026-02-06T20:28:52.050792
+phi4_local_baseline_qa,phi4,qa,1,None,Chief of Protocol,False,6396.329,2026-02-06T20:28:58.447157
+phi4_local_baseline_qa,phi4,qa,2,Animorphs,Animorphs,True,16276.907000000001,2026-02-06T20:29:14.724111
+phi4_local_baseline_qa,phi4,qa,3,Yes,no,False,8845.395,2026-02-06T20:29:23.569558
+phi4_local_baseline_qa,phi4,qa,4,New York City,"Greenwich Village, New York City",False,4749.674,2026-02-06T20:29:28.319282
+phi4_local_baseline_qa,phi4,qa,5,YG Entertainment,YG Entertainment,True,5575.338000000001,2026-02-06T20:29:33.894663
+phi4_local_baseline_qa,phi4,qa,6,John Naisbitt,Eenasul Fateh,False,6044.275,2026-02-06T20:29:39.938982
+phi4_local_baseline_qa,phi4,qa,7,"5,200","3,677 seated",False,6790.787,2026-02-06T20:29:46.729836
+phi4_local_baseline_qa,phi4,qa,8,Annie Morton,Terry Richardson,False,5267.898999999999,2026-02-06T20:29:51.997778
+phi4_local_baseline_qa,phi4,qa,9,yes,yes,True,5430.799,2026-02-06T20:29:57.428681
+phi4_local_baseline_qa,phi4,qa,10,"Rock Chalk, Jayhawk",Kansas Song,False,5890.477,2026-02-06T20:30:03.319223
+phi4_local_baseline_qa,phi4,qa,11,David Howard,David Weissman,False,10833.880000000001,2026-02-06T20:30:14.153153
+phi4_local_baseline_qa,phi4,qa,12,1991,1999,False,6946.347000000001,2026-02-06T20:30:21.099539
+phi4_local_baseline_qa,phi4,qa,13,Yes,no,False,8771.801,2026-02-06T20:30:29.871386
+phi4_local_baseline_qa,phi4,qa,14,"November 6, 1986, to May 19, 2013",from 1986 to 2013,False,5858.995,2026-02-06T20:30:35.730422
+phi4_local_baseline_qa,phi4,qa,15,Approximately 331 million,"9,984",False,4499.879,2026-02-06T20:30:40.230357
+phi4_local_baseline_qa,phi4,qa,16,Atlantic 10 Conference,the North Atlantic Conference,False,5814.24,2026-02-06T20:30:46.044647
+phi4_local_baseline_qa,phi4,qa,17,Yes,yes,True,7851.501,2026-02-06T20:30:53.896194
+phi4_local_baseline_qa,phi4,qa,18,1969-1974,1969 until 1974,False,5809.4890000000005,2026-02-06T20:30:59.705780
+phi4_local_baseline_qa,phi4,qa,19,Robert Erskine Childers,Robert Erskine Childers DSC,False,8797.205999999998,2026-02-06T20:31:08.503055
+phi4_local_baseline_qa,phi4,qa,20,Esteban Gutiérrez,Pedro Rodríguez,False,9169.978000000001,2026-02-06T20:31:17.673072
+phi4_local_baseline_qa,phi4,qa,21,RJ,Sonic,False,7251.483,2026-02-06T20:31:24.924602
+phi4_local_baseline_qa,phi4,qa,22,"Computer keyboard, mouse, trackpad, or Siri",keyboard function keys,False,8784.501,2026-02-06T20:31:33.709144
+phi4_local_baseline_qa,phi4,qa,23,Badly Drawn Boy,Badly Drawn Boy,True,18564.952,2026-02-06T20:31:52.274131
+phi4_local_baseline_qa,phi4,qa,24,World's Best Goalkeeper,World's Best Goalkeeper,True,8738.182999999999,2026-02-06T20:32:01.012348
+phi4_local_baseline_qa,phi4,qa,25,Lee Hazlewood,Barton Lee Hazlewood,False,5966.902,2026-02-06T20:32:06.979290
+phi4_local_baseline_qa,phi4,qa,26,1968,1838,False,7699.402,2026-02-06T20:32:14.678735
+phi4_local_baseline_qa,phi4,qa,27,Yes,yes,True,7068.3150000000005,2026-02-06T20:32:21.747108
+phi4_local_baseline_qa,phi4,qa,28,Henry J. Kaiser,Henry J. Kaiser,True,10242.597,2026-02-06T20:32:31.989758
+phi4_local_baseline_qa,phi4,qa,29,The Adventure,Arena of Khazan,False,7905.189,2026-02-06T20:32:39.894988
+phi4_local_baseline_qa,phi4,qa,30,"October 23, 2016",2000,False,9454.775,2026-02-06T20:32:49.349823
+phi4_local_baseline_qa,phi4,qa,31,Japan,"Fujioka, Gunma",False,5809.820000000001,2026-02-06T20:32:55.159712
+phi4_local_baseline_qa,phi4,qa,32,Charles Nungesser,Charles Eugène,False,7106.175,2026-02-06T20:33:02.265946
+phi4_local_baseline_qa,phi4,qa,33,No,no,True,11300.883,2026-02-06T20:33:13.566881
+phi4_local_baseline_qa,phi4,qa,34,Letters to Cleo,Letters to Cleo,True,15496.668,2026-02-06T20:33:29.063602
+phi4_local_baseline_qa,phi4,qa,35,1922,October 1922,False,12682.918000000001,2026-02-06T20:33:41.746567
+phi4_local_baseline_qa,phi4,qa,36,1988,2000,False,5521.382,2026-02-06T20:33:47.268005
+phi4_local_baseline_qa,phi4,qa,37,World War I,World War II,False,6282.127,2026-02-06T20:33:53.550182
+phi4_local_baseline_qa,phi4,qa,38,No,no,True,5036.279,2026-02-06T20:33:58.586500
+phi4_local_baseline_qa,phi4,qa,39,Bloomington,New York City,False,6209.768999999999,2026-02-06T20:34:04.796318
+phi4_local_baseline_qa,phi4,qa,40,Scotch Collie,Scotch Collie,True,10696.768,2026-02-06T20:34:15.493130
+phi4_local_baseline_qa,phi4,qa,41,"Menlo Park, California",Mumbai,False,4579.75,2026-02-06T20:34:20.072928
+phi4_local_baseline_qa,phi4,qa,42,1980,1962,False,7494.621,2026-02-06T20:34:27.567628
+phi4_local_baseline_qa,phi4,qa,43,Independence and sovereignty,sovereignty,False,13154.939,2026-02-06T20:34:40.722617
+phi4_local_baseline_qa,phi4,qa,44,Nelson Rockefeller,Nelson Rockefeller,True,6764.189,2026-02-06T20:34:47.486859
+phi4_local_baseline_qa,phi4,qa,45,Firth of Forth,Yellowcraig,False,6543.183,2026-02-06T20:34:54.030105
+phi4_local_baseline_qa,phi4,qa,46,Bert Berns,Phil Spector,False,7864.689,2026-02-06T20:35:01.894834
+phi4_local_baseline_qa,phi4,qa,47,"Mikhail Gorbachev initiated forums focused on peace, cooperation, and global policy discussions through initiatives like the Gorbachev Foundation and Global Policy Forum.",Organizations could come together to address global issues,False,11553.39,2026-02-06T20:35:13.448260
+phi4_local_baseline_qa,phi4,qa,48,yes,yes,True,7797.379,2026-02-06T20:35:21.245677
+phi4_local_baseline_qa,phi4,qa,49,Avro Lincoln,English Electric Canberra,False,11601.15,2026-02-06T20:35:32.846956

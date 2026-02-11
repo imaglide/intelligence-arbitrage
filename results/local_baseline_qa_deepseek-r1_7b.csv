@@ -1,0 +1,51 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,timestamp
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,0,"No, Scott Derrickson and Ed Wood are not of the same nationality.",yes,False,13064.209,2026-02-08T17:16:05.217680
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,1,"Laura Dern did not hold a government position while appearing in ""Kiss and Tell.""",Chief of Protocol,False,18516.517,2026-02-08T17:16:23.734213
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,2,Hyperion,Animorphs,False,26102.566,2026-02-08T17:16:49.836806
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,3,Yes,no,False,16452.041,2026-02-08T17:17:06.288907
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,4,David Ayer,"Greenwich Village, New York City",False,10580.19,2026-02-08T17:17:16.869145
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,5,B.A.P.,YG Entertainment,False,16583.714,2026-02-08T17:17:33.452897
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,6,"Alain Apros, under his stage name Aladin, was a consultant involved in improving organizational performance through methodologies like Lean Six Sigma and TQM.",Eenasul Fateh,False,13091.059,2026-02-08T17:17:46.543978
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,7,"5,000","3,677 seated",False,18083.437,2026-02-08T17:18:04.627458
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,8,Annie Morton is older than Terry Richardson.,Terry Richardson,False,14572.737,2026-02-08T17:18:19.200295
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,9,"No, Local H is from the United States while For Against is from Switzerland.",yes,False,13102.542,2026-02-08T17:18:32.302854
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,10,"""The Jayhawks""",Kansas Song,False,11721.384,2026-02-08T17:18:44.024264
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,11,None,David Weissman,False,38300.185999999994,2026-02-08T17:19:22.324490
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,12,1983,1999,False,17249.091,2026-02-08T17:19:39.573588
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,13,"Yes, both Random House Tower and 888 7th Avenue are associated with real estate activities.",no,False,22011.113999999998,2026-02-08T17:20:01.584719
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,14,Rafa Hierro,from 1986 to 2013,False,11156.655999999999,2026-02-08T17:20:12.741397
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,15,"The country's population is approximately 5,700,000 people.","9,984",False,11681.236,2026-02-08T17:20:24.422652
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,16,Mid-American Conference (MAC),the North Atlantic Conference,False,55780.687,2026-02-08T17:21:20.203359
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,17,"No, only Giuseppe Verdi is an opera composer; Ambroise Thomas is not.",yes,False,13263.244999999999,2026-02-08T17:21:33.466624
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,18,None,1969 until 1974,False,38267.968,2026-02-08T17:22:11.734612
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,19,Both Henry Roth and Robert Erskine Childers were from England.,Robert Erskine Childers DSC,False,18808.887,2026-02-08T17:22:30.543565
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,20,Sergio Pérez,Pedro Rodríguez,False,15201.368999999999,2026-02-08T17:22:45.744968
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,21,The Little Hedgehog,Sonic,False,13412.57,2026-02-08T17:22:59.157563
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,22,QuickDraw applications were controlled by,keyboard function keys,False,38174.022,2026-02-08T17:23:37.331635
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,23,Badly Drawn Boy,Badly Drawn Boy,True,19129.462,2026-02-08T17:23:56.461150
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,24,Peter Schmeichel,World's Best Goalkeeper,False,14858.274,2026-02-08T17:24:11.319448
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,25,"The writer of ""These Boots Are Made for Walkin'"" is Waylon Jennings, and there is no record of someone dying in 2007 connected to the song's creation or its author.",Barton Lee Hazlewood,False,28930.054,2026-02-08T17:24:40.249586
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,26,1882,1838,False,16147.313,2026-02-08T17:24:56.396926
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,27,"No, only Dictyosperma is described as a genus; Huernia is not.",yes,False,18097.587,2026-02-08T17:25:14.494544
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,28,Joseph R. McRae,Henry J. Kaiser,False,11072.251,2026-02-08T17:25:25.566826
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,29,"The adventure in ""Tunnels and Trolls"" is named **The Black Box**.",Arena of Khazan,False,13536.268,2026-02-08T17:25:39.103124
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,30,1983,2000,False,24514.585,2026-02-08T17:26:03.617732
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,31,The United States,"Fujioka, Gunma",False,17848.248000000003,2026-02-08T17:26:21.466015
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,32,None,Charles Eugène,False,38164.339,2026-02-08T17:26:59.630425
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,33,"Yes, both Freakonomics and ""In the Realm of the Hackers"" are American documentaries.",no,False,14676.964999999998,2026-02-08T17:27:14.307413
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,34,Screaming Trees had more members.,Letters to Cleo,False,15423.363,2026-02-08T17:27:29.730800
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,35,The civil war ended in 1918 when the Bolsheviks defeated Alexander Kerensky and other Whites.,October 1922,False,12364.288,2026-02-08T17:27:42.095113
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,36,1984,2000,False,10129.757,2026-02-08T17:27:52.224910
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,37,The Battle of the Bulge,World War II,False,29338.977,2026-02-08T17:28:21.563907
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,38,"Yes, both Elko Regional Airport and Gerald R. Ford International Airport are located in Michigan.",no,False,11500.493,2026-02-08T17:28:33.064451
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,39,The University of Washington in Seattle.,New York City,False,8250.298,2026-02-08T17:28:41.314796
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,40,Manchester Terrier,Scotch Collie,False,11267.656,2026-02-08T17:28:52.582473
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,41,United States,Mumbai,False,8724.323999999999,2026-02-08T17:29:01.306823
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,42,Syougo Kinugasa was born in 1974.,1962,False,18762.934999999998,2026-02-08T17:29:20.069791
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,43,The battle secured Ethiopian independence from Italy.,sovereignty,False,13944.051,2026-02-08T17:29:34.013891
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,44,None,Nelson Rockefeller,False,38276.285,2026-02-08T17:30:12.290220
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,45,The Firth of Forth,Yellowcraig,False,17732.692,2026-02-08T17:30:30.022926
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,46,Pete Townshend,Phil Spector,False,23196.862,2026-02-08T17:30:53.219805
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,47,The New Look,Organizations could come together to address global issues,False,13172.996,2026-02-08T17:31:06.392834
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,48,"Yes, both Ferocactus and Silene are types of plants.",yes,False,15365.184,2026-02-08T17:31:21.758047
+deepseek-r1:7b_local_baseline_qa,deepseek-r1:7b,qa,49,Hurricane,English Electric Canberra,False,16009.835,2026-02-08T17:31:37.767896

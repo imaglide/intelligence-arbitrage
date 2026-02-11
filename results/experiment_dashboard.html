@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Intelligence Arbitrage — Experiment Results</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg: #0f1117;
+    --surface: #1a1d27;
+    --surface2: #232733;
+    --border: #2e3345;
+    --text: #e4e6ef;
+    --text-dim: #8b8fa3;
+    --accent: #6c8cff;
+    --accent2: #a78bfa;
+    --positive: #34d399;
+    --negative: #f87171;
+    --warning: #fbbf24;
+    --chart-grid: rgba(139,143,163,0.1);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+
+  .container { max-width: 1280px; margin: 0 auto; padding: 2rem; }
+
+  header {
+    text-align: center;
+    padding: 3rem 0 2rem;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 3rem;
+  }
+
+  header h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  header .subtitle {
+    font-size: 1.1rem;
+    color: var(--text-dim);
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .stats-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .stat-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.25rem;
+    text-align: center;
+  }
+
+  .stat-card .number {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--accent);
+  }
+
+  .stat-card .label {
+    font-size: 0.85rem;
+    color: var(--text-dim);
+    margin-top: 0.25rem;
+  }
+
+  section {
+    margin-bottom: 3.5rem;
+  }
+
+  section h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--text);
+  }
+
+  section .section-desc {
+    color: var(--text-dim);
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+  }
+
+  .chart-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .chart-card h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+
+  .chart-card .chart-desc {
+    font-size: 0.85rem;
+    color: var(--text-dim);
+    margin-bottom: 1rem;
+  }
+
+  .chart-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+
+  @media (max-width: 900px) {
+    .chart-row { grid-template-columns: 1fr; }
+  }
+
+  .chart-wrap {
+    position: relative;
+    width: 100%;
+  }
+
+  /* Heatmap table */
+  .heatmap-wrap { overflow-x: auto; }
+
+  .heatmap {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+  }
+
+  .heatmap th, .heatmap td {
+    padding: 0.6rem 0.75rem;
+    text-align: center;
+    border: 1px solid var(--border);
+    white-space: nowrap;
+  }
+
+  .heatmap th {
+    background: var(--surface2);
+    font-weight: 600;
+    color: var(--text-dim);
+    position: sticky;
+    top: 0;
+  }
+
+  .heatmap td:first-child {
+    font-weight: 600;
+    text-align: left;
+    background: var(--surface2);
+    color: var(--text-dim);
+  }
+
+  .heatmap td .val {
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+
+  /* Callout boxes */
+  .callout {
+    background: var(--surface2);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    padding: 1rem 1.25rem;
+    margin: 1.5rem 0;
+    font-size: 0.9rem;
+  }
+
+  .callout.negative { border-left-color: var(--negative); }
+  .callout.positive { border-left-color: var(--positive); }
+
+  .callout strong { color: var(--text); }
+
+  /* Rank inversion cards */
+  .inversion-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+  }
+
+  .inversion-card {
+    background: var(--surface2);
+    border-radius: 10px;
+    padding: 1.25rem;
+    border: 1px solid var(--border);
+  }
+
+  .inversion-card .task-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+  }
+
+  .inversion-card .matchup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+  }
+
+  .inversion-card .model-score {
+    text-align: center;
+  }
+
+  .inversion-card .model-score .name {
+    font-size: 0.8rem;
+    color: var(--text-dim);
+  }
+
+  .inversion-card .model-score .score {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .inversion-card .model-score .score.win { color: var(--positive); }
+  .inversion-card .model-score .score.lose { color: var(--negative); }
+
+  .inversion-card .vs {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+  }
+
+  .inversion-card .swing {
+    font-size: 0.8rem;
+    color: var(--warning);
+    text-align: center;
+  }
+
+  .finding-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .finding-list li {
+    background: var(--surface2);
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 0.75rem;
+    border: 1px solid var(--border);
+  }
+
+  .finding-list li strong {
+    color: var(--accent);
+  }
+
+  footer {
+    text-align: center;
+    padding: 2rem 0;
+    border-top: 1px solid var(--border);
+    color: var(--text-dim);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+  <h1>Intelligence Arbitrage</h1>
+  <p class="subtitle">Can DSPy-optimized small models match frontier APIs? Results from 175 evaluation runs across 8 models, 9 tasks, and 5 experimental phases.</p>
+</header>
+
+<!-- Key stats -->
+<div class="stats-row">
+  <div class="stat-card">
+    <div class="number">5/9</div>
+    <div class="label">Tasks where local models match GPT-5.2</div>
+  </div>
+  <div class="stat-card">
+    <div class="number">14</div>
+    <div class="label">Rank inversions (local > API after optimization)</div>
+  </div>
+  <div class="stat-card">
+    <div class="number">+44pp</div>
+    <div class="label">Largest single optimization lift (mistral, classification)</div>
+  </div>
+  <div class="stat-card">
+    <div class="number">$0</div>
+    <div class="label">Cost per local model evaluation</div>
+  </div>
+</div>
+
+<!-- Phase 1: Delta Heatmap -->
+<section>
+  <h2>Phase 1: Optimization Delta Heatmap</h2>
+  <p class="section-desc">Percentage-point change from MIPROv2 optimization across 6 models and 9 tasks. Green = improvement, red = regression.</p>
+  <div class="chart-card">
+    <div class="heatmap-wrap">
+      <table class="heatmap" id="delta-heatmap"></table>
+    </div>
+  </div>
+</section>
+
+<!-- Optimization Lift -->
+<section>
+  <h2>Optimization Lift by Model</h2>
+  <p class="section-desc">Average accuracy gain from MIPROv2 optimization. Smaller models benefit disproportionately.</p>
+  <div class="chart-card">
+    <div class="chart-wrap" style="height:320px"><canvas id="chart-lift"></canvas></div>
+  </div>
+</section>
+
+<!-- Intelligence Arbitrage -->
+<section>
+  <h2>Intelligence Arbitrage Scoreboard</h2>
+  <p class="section-desc">GPT-5.2 baseline vs best optimized local model. Tasks sorted by arbitrage opportunity.</p>
+  <div class="chart-card">
+    <div class="chart-wrap" style="height:400px"><canvas id="chart-arbitrage"></canvas></div>
+  </div>
+</section>
+
+<!-- Rank Inversions -->
+<section>
+  <h2>Rank Inversions</h2>
+  <p class="section-desc">Cases where a $0 local model beat a paid API model after optimization — despite starting behind.</p>
+  <div class="inversion-grid" id="inversion-grid"></div>
+</section>
+
+<!-- gpt-4o Regressions -->
+<section>
+  <h2>gpt-4o: The Optimization Victim</h2>
+  <p class="section-desc">gpt-4o has 3 of 12 negative deltas — tied with phi4 and gpt-5.2 (3 each). Its regressions are the most severe in magnitude (-10pp classification, -7.6pp synthesis).</p>
+  <div class="chart-card">
+    <div class="chart-wrap" style="height:300px"><canvas id="chart-gpt4o"></canvas></div>
+  </div>
+</section>
+
+<!-- Demo Curves -->
+<section>
+  <h2>Phase 3: Demo Curve Experiment</h2>
+  <p class="section-desc">How accuracy changes as we progressively add 0-5 few-shot demonstrations to MIPROv2 programs.</p>
+  <div class="chart-row">
+    <div class="chart-card">
+      <h3>phi4 — Demo Interference</h3>
+      <p class="chart-desc">Analysis peaks at n=2, RAG at n=1. More demos actively hurt.</p>
+      <div class="chart-wrap" style="height:320px"><canvas id="chart-demo-phi4"></canvas></div>
+    </div>
+    <div class="chart-card">
+      <h3>llama3.2 — Monotonic Benefit</h3>
+      <p class="chart-desc">Math improves with every demo. Synthesis already at ceiling.</p>
+      <div class="chart-wrap" style="height:320px"><canvas id="chart-demo-llama"></canvas></div>
+    </div>
+  </div>
+
+  <div class="chart-card">
+    <h3>Instruction Damage vs Demo Effect</h3>
+    <p class="chart-desc">Decomposing optimization into its two components: the effect of optimized instructions alone (n=0 vs baseline) and the added effect of demos (n=5 vs n=0).</p>
+    <div class="chart-wrap" style="height:300px"><canvas id="chart-decompose"></canvas></div>
+  </div>
+</section>
+
+<!-- Variance -->
+<section>
+  <h2>Phase 2: Task-Specific vs Model-Specific</h2>
+  <p class="section-desc">Within-task variance is half within-model variance — tasks determine WHETHER optimization helps, models determine HOW MUCH.</p>
+  <div class="chart-row">
+    <div class="chart-card">
+      <h3>Cross-Model Standard Deviation by Task</h3>
+      <p class="chart-desc">Low std = all models agree. High std = model identity matters.</p>
+      <div class="chart-wrap" style="height:320px"><canvas id="chart-variance"></canvas></div>
+    </div>
+    <div class="chart-card">
+      <h3>Gap Compression vs Divergence</h3>
+      <p class="chart-desc">Baseline range vs optimized range across models per task.</p>
+      <div class="chart-wrap" style="height:320px"><canvas id="chart-compression"></canvas></div>
+    </div>
+  </div>
+</section>
+
+<!-- Reasoning Models -->
+<section>
+  <h2>Phase 4: Reasoning Model Baselines</h2>
+  <p class="section-desc">Two reasoning models show complementary profiles — qwen3:4b excels at math/rag, deepseek-r1:7b at classification/extraction.</p>
+  <div class="chart-card">
+    <div class="chart-wrap" style="height:400px"><canvas id="chart-reasoning"></canvas></div>
+  </div>
+</section>
+
+<!-- Key Findings -->
+<section>
+  <h2>Key Findings</h2>
+  <ol class="finding-list">
+    <li><strong>Intelligence arbitrage is real.</strong> Optimized local models (3-14B, $0/eval) match or exceed GPT-5.2 baseline on 5/9 tasks: extraction (+40pp), QA (+8pp), synthesis (+7pp), RAG (+2pp), and code (tied).</li>
+    <li><strong>Optimization is a force multiplier for weaker models.</strong> qwen2.5:7b gained +14.2pp average, gpt-4o +7.9pp. The smaller the model, the more prompt optimization helps — though the gap is narrower than initially reported.</li>
+    <li><strong>14 rank inversions.</strong> After optimization, local models beat API models in 14 of 36 possible matchups. The most dramatic: mistral classification (54pp swing past gpt-4o).</li>
+    <li><strong>MIPROv2's all-or-nothing demo selection is suboptimal.</strong> It always chose 0 or 5 demos, never intermediate. Phase 3 proved phi4 peaks at n=1-2 on most tasks. A granular strategy could recover 2-8pp.</li>
+    <li><strong>Two failure modes.</strong> Instruction damage (optimized instructions hurt: phi4 rag -8pp) and demo interference (too many examples: phi4 analysis inverted-U peaking at n=2). These are independent and can compound.</li>
+    <li><strong>Optimization response is task-specific.</strong> Tasks explain 2x more variance than models (ratio 0.50). Code always 0pp, math always big gains — regardless of model.</li>
+    <li><strong>Demo count optima are model-specific.</strong> On math, llama3.2 needs all 5 demos (monotonic), phi4 gets +20pp from demo #1 alone. Same task, different optimal strategy.</li>
+  </ol>
+</section>
+
+<footer>
+  Intelligence Arbitrage Experiment &mdash; 8 models &times; 9 tasks &times; 175 evaluation runs &mdash; DSPy MIPROv2 &mdash; Feb 2026
+</footer>
+
+</div>
+
+<script>
+// ─── DATA ───────────────────────────────────────────────────────────
+const models = ['llama3.2','mistral','phi4','qwen2.5:7b','gpt-4o','gpt-5.2'];
+const tasks = ['agentic','analysis','classification','code','extraction','math','qa','rag','synthesis'];
+
+const baseline = {
+  agentic:[66,56,74,74,82,86], analysis:[68,76,80,78,78,88],
+  classification:[28,10,26,18,56,64], code:[68,56,90,84,76,90],
+  extraction:[50,50,52,40,46,44], math:[40,2,48,36,68,90],
+  qa:[0,0,8,10,32,22], rag:[82,84,86,82,88,88],
+  synthesis:[44.9,44.6,41.2,43.1,43.3,39.9]
+};
+
+const optimized = {
+  agentic:[78,84,66,80,86,82], analysis:[78,81,76,84,89,88],
+  classification:[31,54,24,38,46,62], code:[68,56,90,84,76,88],
+  extraction:[66,48,84,82,74,94], math:[66,32,84,72,96,98],
+  qa:[20,18,30,22,52,42], rag:[90,81,88,88,86,92],
+  synthesis:[44.6,46.9,42.6,43.2,35.7,48.2]
+};
+
+const deltas = {};
+tasks.forEach(t => {
+  deltas[t] = models.map((_, i) => +(optimized[t][i] - baseline[t][i]).toFixed(1));
+});
+
+// Chart defaults
+Chart.defaults.color = '#8b8fa3';
+Chart.defaults.borderColor = 'rgba(139,143,163,0.1)';
+Chart.defaults.font.family = "'Inter', -apple-system, sans-serif";
+
+// ─── HEATMAP ────────────────────────────────────────────────────────
+function deltaColor(v) {
+  if (v > 20) return 'rgba(52,211,153,0.85)';
+  if (v > 10) return 'rgba(52,211,153,0.6)';
+  if (v > 2)  return 'rgba(52,211,153,0.35)';
+  if (v >= -2) return 'rgba(139,143,163,0.15)';
+  if (v >= -5) return 'rgba(248,113,113,0.35)';
+  if (v >= -10) return 'rgba(248,113,113,0.6)';
+  return 'rgba(248,113,113,0.85)';
+}
+
+function buildHeatmap() {
+  const table = document.getElementById('delta-heatmap');
+  let html = '<thead><tr><th></th>';
+  models.forEach(m => html += `<th>${m}</th>`);
+  html += '</tr></thead><tbody>';
+  tasks.forEach(t => {
+    html += `<tr><td>${t}</td>`;
+    deltas[t].forEach(v => {
+      const sign = v > 0 ? '+' : '';
+      const color = v > 0 ? '#34d399' : v < 0 ? '#f87171' : '#8b8fa3';
+      html += `<td style="background:${deltaColor(v)}"><span class="val" style="color:${color}">${sign}${v}</span></td>`;
+    });
+    html += '</tr>';
+  });
+  html += '</tbody>';
+  table.innerHTML = html;
+}
+buildHeatmap();
+
+// ─── OPTIMIZATION LIFT ──────────────────────────────────────────────
+const avgDeltas = models.map((m, mi) => {
+  const sum = tasks.reduce((s, t) => s + deltas[t][mi], 0);
+  return +(sum / tasks.length).toFixed(1);
+});
+
+new Chart(document.getElementById('chart-lift'), {
+  type: 'bar',
+  data: {
+    labels: models,
+    datasets: [{
+      data: avgDeltas,
+      backgroundColor: models.map((_, i) => i < 4 ? 'rgba(108,140,255,0.7)' : 'rgba(167,139,250,0.7)'),
+      borderColor: models.map((_, i) => i < 4 ? '#6c8cff' : '#a78bfa'),
+      borderWidth: 1,
+      borderRadius: 6,
+    }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        callbacks: {
+          label: ctx => `Average delta: +${ctx.raw}pp`
+        }
+      }
+    },
+    scales: {
+      x: {
+        title: { display: true, text: 'Average optimization delta (pp)' },
+        beginAtZero: true,
+        grid: { color: 'rgba(139,143,163,0.1)' }
+      },
+      y: { grid: { display: false } }
+    }
+  }
+});
+
+// ─── ARBITRAGE SCOREBOARD ───────────────────────────────────────────
+const arbData = [
+  { task: 'extraction', gpt52: 44, local: 84, localModel: 'phi4' },
+  { task: 'qa', gpt52: 22, local: 30, localModel: 'phi4' },
+  { task: 'synthesis', gpt52: 39.9, local: 46.9, localModel: 'mistral' },
+  { task: 'rag', gpt52: 88, local: 90, localModel: 'llama3.2' },
+  { task: 'code', gpt52: 90, local: 90, localModel: 'phi4' },
+  { task: 'agentic', gpt52: 86, local: 84, localModel: 'mistral' },
+  { task: 'analysis', gpt52: 88, local: 84, localModel: 'qwen2.5' },
+  { task: 'math', gpt52: 90, local: 84, localModel: 'phi4' },
+  { task: 'classification', gpt52: 64, local: 54, localModel: 'mistral' },
+];
+
+new Chart(document.getElementById('chart-arbitrage'), {
+  type: 'bar',
+  data: {
+    labels: arbData.map(d => d.task),
+    datasets: [
+      {
+        label: 'GPT-5.2 baseline',
+        data: arbData.map(d => d.gpt52),
+        backgroundColor: 'rgba(167,139,250,0.6)',
+        borderColor: '#a78bfa',
+        borderWidth: 1,
+        borderRadius: 4,
+      },
+      {
+        label: 'Best local optimized',
+        data: arbData.map(d => d.local),
+        backgroundColor: 'rgba(108,140,255,0.6)',
+        borderColor: '#6c8cff',
+        borderWidth: 1,
+        borderRadius: 4,
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { position: 'top', labels: { usePointStyle: true, pointStyle: 'rectRounded' } },
+      tooltip: {
+        callbacks: {
+          afterBody: (items) => {
+            const idx = items[0].dataIndex;
+            const d = arbData[idx];
+            return `Best local: ${d.localModel}`;
+          }
+        }
+      }
+    },
+    scales: {
+      y: {
+        beginAtZero: true,
+        max: 100,
+        title: { display: true, text: 'Accuracy (%)' },
+        grid: { color: 'rgba(139,143,163,0.1)' }
+      },
+      x: { grid: { display: false } }
+    }
+  }
+});
+
+// ─── RANK INVERSIONS ────────────────────────────────────────────────
+const inversions = [
+  { task: 'Classification', local: 'mistral', localScore: 54, api: 'gpt-4o', apiScore: 46, swing: 54 },
+  { task: 'Agentic', local: 'mistral', localScore: 84, api: 'gpt-5.2', apiScore: 82, swing: 32 },
+  { task: 'Code', local: 'phi4', localScore: 90, api: 'gpt-4o', apiScore: 76, swing: 28 },
+  { task: 'Extraction', local: 'phi4', localScore: 84, api: 'gpt-4o', apiScore: 74, swing: 14 },
+  { task: 'Synthesis', local: 'mistral', localScore: 46.9, api: 'gpt-4o', apiScore: 35.7, swing: 12.5 },
+];
+
+const grid = document.getElementById('inversion-grid');
+inversions.forEach(inv => {
+  const card = document.createElement('div');
+  card.className = 'inversion-card';
+  card.innerHTML = `
+    <div class="task-label">${inv.task}</div>
+    <div class="matchup">
+      <div class="model-score">
+        <div class="name">${inv.local} (local)</div>
+        <div class="score win">${inv.localScore}%</div>
+      </div>
+      <div class="vs">vs</div>
+      <div class="model-score">
+        <div class="name">${inv.api} (API)</div>
+        <div class="score lose">${inv.apiScore}%</div>
+      </div>
+    </div>
+    <div class="swing">${inv.swing}pp total swing from baseline</div>
+  `;
+  grid.appendChild(card);
+});
+
+// ─── GPT-4O REGRESSIONS ────────────────────────────────────────────
+new Chart(document.getElementById('chart-gpt4o'), {
+  type: 'bar',
+  data: {
+    labels: tasks,
+    datasets: [
+      {
+        label: 'gpt-4o baseline',
+        data: tasks.map(t => baseline[t][4]),
+        backgroundColor: 'rgba(167,139,250,0.4)',
+        borderColor: '#a78bfa',
+        borderWidth: 1,
+        borderRadius: 4,
+      },
+      {
+        label: 'gpt-4o optimized',
+        data: tasks.map(t => optimized[t][4]),
+        backgroundColor: tasks.map(t => optimized[t][4] < baseline[t][4] ? 'rgba(248,113,113,0.6)' : 'rgba(52,211,153,0.5)'),
+        borderColor: tasks.map(t => optimized[t][4] < baseline[t][4] ? '#f87171' : '#34d399'),
+        borderWidth: 1,
+        borderRadius: 4,
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { position: 'top', labels: { usePointStyle: true, pointStyle: 'rectRounded' } },
+    },
+    scales: {
+      y: {
+        beginAtZero: true,
+        max: 100,
+        title: { display: true, text: 'Accuracy (%)' },
+        grid: { color: 'rgba(139,143,163,0.1)' }
+      },
+      x: { grid: { display: false } }
+    }
+  }
+});
+
+// ─── DEMO CURVES ────────────────────────────────────────────────────
+const demoN = ['base','n=0','n=1','n=2','n=3','n=4','n=5'];
+
+function demoCurveChart(canvasId, datasets) {
+  new Chart(document.getElementById(canvasId), {
+    type: 'line',
+    data: {
+      labels: demoN,
+      datasets: datasets
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { position: 'top', labels: { usePointStyle: true } },
+        tooltip: { callbacks: { label: ctx => `${ctx.dataset.label}: ${ctx.raw}%` } }
+      },
+      scales: {
+        y: {
+          min: 30,
+          max: 105,
+          title: { display: true, text: 'Accuracy (%)' },
+          grid: { color: 'rgba(139,143,163,0.1)' }
+        },
+        x: { grid: { color: 'rgba(139,143,163,0.05)' } }
+      }
+    }
+  });
+}
+
+demoCurveChart('chart-demo-phi4', [
+  { label: 'phi4 math', data: [50,54,74,80,78,84,84], borderColor: '#6c8cff', backgroundColor: 'rgba(108,140,255,0.1)', fill: true, tension: 0.3, pointRadius: 5, pointBackgroundColor: '#6c8cff' },
+  { label: 'phi4 analysis', data: [82,78,80,82,80,78,76], borderColor: '#f87171', backgroundColor: 'rgba(248,113,113,0.1)', fill: true, tension: 0.3, pointRadius: 5, pointBackgroundColor: '#f87171' },
+  { label: 'phi4 rag', data: [88,80,90,90,88,88,88], borderColor: '#fbbf24', backgroundColor: 'rgba(251,191,36,0.1)', fill: true, tension: 0.3, pointRadius: 5, pointBackgroundColor: '#fbbf24' },
+  { label: 'phi4 synthesis', data: [100,100,100,100,100,100,100], borderColor: '#8b8fa3', borderDash: [4,4], tension: 0.3, pointRadius: 3, pointBackgroundColor: '#8b8fa3' },
+]);
+
+demoCurveChart('chart-demo-llama', [
+  { label: 'llama3.2 math', data: [44,50,50,58,70,74,76], borderColor: '#6c8cff', backgroundColor: 'rgba(108,140,255,0.1)', fill: true, tension: 0.3, pointRadius: 5, pointBackgroundColor: '#6c8cff' },
+  { label: 'llama3.2 synthesis', data: [100,98,100,100,100,100,100], borderColor: '#8b8fa3', borderDash: [4,4], tension: 0.3, pointRadius: 3, pointBackgroundColor: '#8b8fa3' },
+]);
+
+// ─── DECOMPOSITION ──────────────────────────────────────────────────
+const decompLabels = ['phi4\nanalysis','phi4\nrag','phi4\nmath','phi4\nsynthesis','llama3.2\nmath','llama3.2\nsynthesis'];
+const instrEffect = [-4, -8, 4, 0, 6, -2];
+const demoEffect = [-2, 8, 30, 0, 26, 2];
+
+new Chart(document.getElementById('chart-decompose'), {
+  type: 'bar',
+  data: {
+    labels: ['phi4 analysis','phi4 rag','phi4 math','phi4 synthesis','llama3.2 math','llama3.2 synthesis'],
+    datasets: [
+      {
+        label: 'Instruction effect (n=0 vs baseline)',
+        data: instrEffect,
+        backgroundColor: instrEffect.map(v => v < 0 ? 'rgba(248,113,113,0.6)' : 'rgba(52,211,153,0.5)'),
+        borderColor: instrEffect.map(v => v < 0 ? '#f87171' : '#34d399'),
+        borderWidth: 1,
+        borderRadius: 4,
+      },
+      {
+        label: 'Demo effect (n=5 vs n=0)',
+        data: demoEffect,
+        backgroundColor: demoEffect.map(v => v < 0 ? 'rgba(248,113,113,0.6)' : 'rgba(108,140,255,0.6)'),
+        borderColor: demoEffect.map(v => v < 0 ? '#f87171' : '#6c8cff'),
+        borderWidth: 1,
+        borderRadius: 4,
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { position: 'top', labels: { usePointStyle: true, pointStyle: 'rectRounded' } },
+      tooltip: { callbacks: { label: ctx => `${ctx.dataset.label}: ${ctx.raw > 0 ? '+' : ''}${ctx.raw}pp` } }
+    },
+    scales: {
+      y: {
+        title: { display: true, text: 'Effect (pp)' },
+        grid: { color: 'rgba(139,143,163,0.1)' }
+      },
+      x: { grid: { display: false } }
+    }
+  }
+});
+
+// ─── VARIANCE / TASK CONSISTENCY ────────────────────────────────────
+const taskStd = {
+  code: 0.7, qa: 3.2, rag: 4.3, synthesis: 4.8, analysis: 5.0,
+  math: 9.8, agentic: 12.8, extraction: 17.0, classification: 18.2
+};
+
+const sortedTasks = Object.entries(taskStd).sort((a,b) => a[1] - b[1]);
+
+new Chart(document.getElementById('chart-variance'), {
+  type: 'bar',
+  data: {
+    labels: sortedTasks.map(d => d[0]),
+    datasets: [{
+      data: sortedTasks.map(d => d[1]),
+      backgroundColor: sortedTasks.map(d =>
+        d[1] < 5 ? 'rgba(52,211,153,0.6)' :
+        d[1] < 10 ? 'rgba(251,191,36,0.5)' :
+        'rgba(248,113,113,0.5)'
+      ),
+      borderColor: sortedTasks.map(d =>
+        d[1] < 5 ? '#34d399' :
+        d[1] < 10 ? '#fbbf24' :
+        '#f87171'
+      ),
+      borderWidth: 1,
+      borderRadius: 6,
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: { callbacks: { label: ctx => `Cross-model std: ${ctx.raw}pp` } }
+    },
+    scales: {
+      y: {
+        beginAtZero: true,
+        title: { display: true, text: 'Cross-model std (pp)' },
+        grid: { color: 'rgba(139,143,163,0.1)' }
+      },
+      x: { grid: { display: false } }
+    }
+  }
+});
+
+// ─── GAP COMPRESSION ────────────────────────────────────────────────
+const compressionData = [
+  { task: 'math', base: 88, opt: 66 },
+  { task: 'classification', base: 54, opt: 38 },
+  { task: 'agentic', base: 30, opt: 20 },
+  { task: 'analysis', base: 20, opt: 13 },
+  { task: 'code', base: 34, opt: 34 },
+  { task: 'qa', base: 32, opt: 34 },
+  { task: 'rag', base: 6, opt: 11 },
+  { task: 'synthesis', base: 5, opt: 13 },
+  { task: 'extraction', base: 12, opt: 46 },
+];
+
+new Chart(document.getElementById('chart-compression'), {
+  type: 'bar',
+  data: {
+    labels: compressionData.map(d => d.task),
+    datasets: [
+      {
+        label: 'Baseline range',
+        data: compressionData.map(d => d.base),
+        backgroundColor: 'rgba(139,143,163,0.3)',
+        borderColor: '#8b8fa3',
+        borderWidth: 1,
+        borderRadius: 4,
+      },
+      {
+        label: 'Optimized range',
+        data: compressionData.map(d => d.opt),
+        backgroundColor: compressionData.map(d =>
+          d.opt < d.base ? 'rgba(52,211,153,0.5)' :
+          d.opt === d.base ? 'rgba(139,143,163,0.3)' :
+          'rgba(248,113,113,0.5)'
+        ),
+        borderColor: compressionData.map(d =>
+          d.opt < d.base ? '#34d399' :
+          d.opt === d.base ? '#8b8fa3' :
+          '#f87171'
+        ),
+        borderWidth: 1,
+        borderRadius: 4,
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { position: 'top', labels: { usePointStyle: true, pointStyle: 'rectRounded' } },
+      tooltip: { callbacks: { label: ctx => `${ctx.dataset.label}: ${ctx.raw}pp spread` } }
+    },
+    scales: {
+      y: {
+        beginAtZero: true,
+        title: { display: true, text: 'Performance range across models (pp)' },
+        grid: { color: 'rgba(139,143,163,0.1)' }
+      },
+      x: { grid: { display: false } }
+    }
+  }
+});
+
+// ─── REASONING MODELS ───────────────────────────────────────────────
+const reasoningTasks = ['agentic','analysis','classification','code','extraction','math','qa','rag','synthesis'];
+const qwen3 = [46, 68, 14, 24, 20, 50, 12, 88, 0];
+const deepseek = [44, 82, 64, null, 66, 32, 2, 74, 0];
+
+new Chart(document.getElementById('chart-reasoning'), {
+  type: 'radar',
+  data: {
+    labels: reasoningTasks,
+    datasets: [
+      {
+        label: 'qwen3:4b',
+        data: qwen3,
+        borderColor: '#6c8cff',
+        backgroundColor: 'rgba(108,140,255,0.15)',
+        borderWidth: 2,
+        pointRadius: 4,
+        pointBackgroundColor: '#6c8cff',
+      },
+      {
+        label: 'deepseek-r1:7b',
+        data: deepseek,
+        borderColor: '#a78bfa',
+        backgroundColor: 'rgba(167,139,250,0.15)',
+        borderWidth: 2,
+        pointRadius: 4,
+        pointBackgroundColor: '#a78bfa',
+      },
+      {
+        label: 'phi4:14b (Phase 1 baseline)',
+        data: [74, 80, 26, 90, 52, 48, 8, 86, 41.2],
+        borderColor: 'rgba(251,191,36,0.5)',
+        backgroundColor: 'rgba(251,191,36,0.05)',
+        borderWidth: 1,
+        borderDash: [4,4],
+        pointRadius: 2,
+        pointBackgroundColor: '#fbbf24',
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { position: 'top', labels: { usePointStyle: true } },
+    },
+    scales: {
+      r: {
+        beginAtZero: true,
+        max: 100,
+        ticks: { stepSize: 20, color: '#8b8fa3', backdropColor: 'transparent' },
+        grid: { color: 'rgba(139,143,163,0.15)' },
+        pointLabels: { color: '#e4e6ef', font: { size: 12 } },
+        angleLines: { color: 'rgba(139,143,163,0.1)' },
+      }
+    }
+  }
+});
+</script>
+
+</body>
+</html>

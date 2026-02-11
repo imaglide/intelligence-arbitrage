@@ -9,6 +9,8 @@ import seaborn as sns
 # Add project root
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
+from src.results_writer import safe_write_csv, get_run_metadata
+
 from src.tipping_point.optimizer import TippingPointCurve
 from src.tipping_point.regime_classifier import RegimeReport, OptimizationRegime
 
@@ -116,10 +118,17 @@ def generate_heatmap(
         aggfunc="mean" # Average TP across occupations in that complexity
     )
     
-    # Reorder columns manually if possible [low, medium, high]
-    cols = [c for c in ["low", "medium", "high"] if c in pivot.columns]
+    # Reorder columns manually if possible [low, medium, high, standard]
+    cols = [c for c in ["low", "medium", "high", "standard"] if c in pivot.columns]
+    if not cols:
+        print("No columns available for heatmap.")
+        return
     pivot = pivot[cols]
-    
+
+    if pivot.empty:
+        print("No data available for heatmap.")
+        return
+
     plt.figure(figsize=(10, 6))
     sns.heatmap(pivot, annot=True, cmap="YlGnBu", fmt=".1f")
     plt.title("Optimization Tipping Point (Mean Examples)")
@@ -130,12 +139,17 @@ def generate_heatmap(
 def export_results(
     curves: List[TippingPointCurve],
     regime_report: RegimeReport,
-    output_dir: str
+    output_dir: str,
+    force: bool = False,
 ):
     os.makedirs(output_dir, exist_ok=True)
-    
+
     df = aggregate_results(curves, regime_report)
-    df.to_csv(os.path.join(output_dir, "results.csv"), index=False)
+    metadata = get_run_metadata(
+        script="src/tipping_point/analyzer.py",
+        total_curves=len(curves),
+    )
+    safe_write_csv(df, os.path.join(output_dir, "results.csv"), metadata, force=force)
     
     generate_heatmap(df, os.path.join(output_dir, "heatmap.png"))
     

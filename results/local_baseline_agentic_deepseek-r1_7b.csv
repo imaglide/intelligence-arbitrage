@@ -1,0 +1,82 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,timestamp,error
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,0,Yes,No,False,24760.846999999998,2026-02-08T18:07:30.685461,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,1,,,,,2026-02-08T18:07:58.482731,"Adapter JSONAdapter failed to parse the LM response. 
+
+LM Response: { ""reasoning"": ""Kanji are characters used in Japanese and other East Asian languages, distinct from English's alphabetic system. Without knowledge of Hiragana or Katakana, a person who knows only English cannot read Kanji as they lack the necessary scripts to interpret them. Unless exposed to kanji reading beforehand, it is unlikely that such a person can read Kanji effectively."" } 
+
+Expected to find output fields in the LM response: [reasoning, answer] 
+
+Actual output fields parsed from the LM response: [reasoning] 
+
+"
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,2,No,No,True,13870.455,2026-02-08T18:08:12.353198,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,3,Yes,No,False,18636.81,2026-02-08T18:08:30.990028,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,4,Yes,No,False,22078.879,2026-02-08T18:08:53.068937,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,5,No,Yes,False,11315.457,2026-02-08T18:09:04.384412,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,6,No,Yes,False,15434.988000000001,2026-02-08T18:09:19.819431,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,7,No,No,True,18162.773999999998,2026-02-08T18:09:37.982243,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,8,Yes,No,False,41838.084,2026-02-08T18:10:19.820348,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,9,Yes,Yes,True,35556.255,2026-02-08T18:10:55.376627,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,10,No,Yes,False,31851.771,2026-02-08T18:11:27.228428,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,11,No,No,True,21116.551,2026-02-08T18:11:48.345001,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,12,No,No,True,22938.287,2026-02-08T18:12:11.283306,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,13,Yes,Yes,True,20873.788999999997,2026-02-08T18:12:32.157119,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,14,Yes,No,False,22780.924,2026-02-08T18:12:54.938093,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,15,Yes,No,False,19564.152,2026-02-08T18:13:14.502284,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,16,,,,,2026-02-08T18:13:44.495829,"Adapter JSONAdapter failed to parse the LM response. 
+
+LM Response: { ""reasoning"": ""Burning Man is held in a desert location with limited shade, which increases exposure to direct sunlight. Additionally, the festival encourages anonymous behavior, sometimes leading to reduced use of sunscreen as part of the alternative lifestyle. These factors contribute to an increased risk of sunburn compared to typical outdoor settings."" } 
+
+Expected to find output fields in the LM response: [reasoning, answer] 
+
+Actual output fields parsed from the LM response: [reasoning] 
+
+"
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,17,No,Yes,False,26035.5,2026-02-08T18:14:10.531342,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,18,No,No,True,20966.968999999997,2026-02-08T18:14:31.498332,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,19,No,No,True,16258.716,2026-02-08T18:14:47.757068,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,20,No,No,True,15354.298999999999,2026-02-08T18:15:03.111383,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,21,No,No,True,21245.791,2026-02-08T18:15:24.357194,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,22,No,Yes,False,13658.037999999999,2026-02-08T18:15:38.015250,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,23,Yes,Yes,True,11885.951000000001,2026-02-08T18:15:49.901245,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,24,No,Yes,False,17250.621,2026-02-08T18:16:07.151920,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,25,Yes,Yes,True,14193.926,2026-02-08T18:16:21.345877,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,26,No,No,True,15113.426000000001,2026-02-08T18:16:36.459330,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,27,,,,,2026-02-08T18:17:09.129812,"Adapter JSONAdapter failed to parse the LM response. 
+
+LM Response: {
+
+""superhero"":
+{
+  ""reasoning"": ""Superhero fiction has existed long before the digital format. Comic books first featured superheroes in the 1930s and 40s, using analog formats like paper comics. Digital formats like e-books and streaming services have made superheroes more accessible but were not the original invention of superhero fiction."",
+  ""answer"": ""No""
+}
+} 
+
+Expected to find output fields in the LM response: [reasoning, answer] 
+
+Actual output fields parsed from the LM response: [] 
+
+"
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,28,No,Yes,False,19947.704,2026-02-08T18:17:29.077565,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,29,No,Yes,False,31031.213,2026-02-08T18:18:00.108823,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,30,No,Yes,False,20042.734,2026-02-08T18:18:20.151594,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,31,No,Yes,False,19677.64,2026-02-08T18:18:39.829273,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,32,Yes,No,False,24902.929,2026-02-08T18:19:04.732230,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,33,Yes,Yes,True,20753.862999999998,2026-02-08T18:19:25.486116,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,34,No,No,True,11265.067000000001,2026-02-08T18:19:36.751208,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,35,No,Yes,False,11349.572,2026-02-08T18:19:48.100809,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,36,No,No,True,18297.737999999998,2026-02-08T18:20:06.398567,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,37,No,Yes,False,16769.619,2026-02-08T18:20:23.168231,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,38,No,Yes,False,15122.272,2026-02-08T18:20:38.290528,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,39,No,Yes,False,19815.819,2026-02-08T18:20:58.106382,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,40,No,No,True,22936.364,2026-02-08T18:21:21.042774,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,41,No,Yes,False,13350.628999999999,2026-02-08T18:21:34.393423,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,42,Yes,Yes,True,29727.373,2026-02-08T18:22:04.120827,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,43,No,Yes,False,16907.468,2026-02-08T18:22:21.028336,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,44,No,No,True,15572.42,2026-02-08T18:22:36.600799,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,45,No,No,True,27768.853,2026-02-08T18:23:04.369666,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,46,Yes,No,False,17734.829,2026-02-08T18:23:22.104517,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,47,No,No,True,26116.69,2026-02-08T18:23:48.221249,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,48,No,Yes,False,19161.487999999998,2026-02-08T18:24:07.382756,
+deepseek-r1:7b_local_baseline_agentic,deepseek-r1:7b,agentic,49,No,No,True,21241.39,2026-02-08T18:24:28.624165,

@@ -1,0 +1,287 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,timestamp
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,0,"{
+  ""PER"": [],
+  ""ORG"": [""JAPAN"", ""CHINA""],
+  ""LOC"": [],
+  ""MISC"": [""SOCCER"", ""WIN"", ""DEFEAT""]
+}","{""PER"": [""CHINA""], ""ORG"": [], ""LOC"": [""JAPAN""], ""MISC"": []}",False,9978.427,2026-02-08T17:31:51.988605
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,1,"{
+  ""PER"": [],
+  ""ORG"": [""United Arab Emirates""],
+  ""LOC"": [""AL-AIN""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""AL-AIN"", ""United Arab Emirates""], ""MISC"": []}",True,9887.319,2026-02-08T17:32:01.875953
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,2,"{
+  ""PER"": [],
+  ""ORG"": [],
+  ""LOC"": [""Japan"", ""Syria""],
+  ""MISC"": [""Asian Cup title""]
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""Japan"", ""Syria""], ""MISC"": [""Asian Cup""]}",True,11876.062,2026-02-08T17:32:13.752061
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,3,"{
+  ""PER"": [],
+  ""ORG"": [],
+  ""LOC"": [""China"", ""Uzbekistan""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""China"", ""Uzbekistan""], ""MISC"": []}",True,15285.51,2026-02-08T17:32:29.037606
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,4,"{
+  ""PER"": [""Igor Shkvyrin""],
+  ""ORG"": [""China"", ""Uzbekistan""],
+  ""LOC"": [""China"", ""Uzbekistan""],
+  ""MISC"": []
+}","{""PER"": [""Igor Shkvyrin""], ""ORG"": [], ""LOC"": [""China""], ""MISC"": [""Uzbek"", ""Chinese""]}",False,16897.817,2026-02-08T17:32:45.935454
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,5,"{
+  ""PER"": [""Oleg Shatskiku""],
+  ""ORG"": [],
+  ""LOC"": [""just outside the area""],
+  ""MISC"": []
+}","{""PER"": [""Oleg Shatskiku""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",True,10708.932,2026-02-08T17:32:56.644404
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,6,"{
+  ""PER"": [],
+  ""ORG"": [""Soviet republic""],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [], ""LOC"": [], ""MISC"": [""Soviet"", ""Asian Cup""]}",False,14469.747,2026-02-08T17:33:11.114175
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,7,"{
+  ""PER"": [""Uzbekistani people""],
+  ""ORG"": [],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""Uzbekistan""], ""MISC"": [""Asian Games""]}",False,9709.893,2026-02-08T17:33:20.824132
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,8,"{
+  ""PER"": [],
+  ""ORG"": [],
+  ""LOC"": [""Japan"", ""Syria""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""Japan"", ""Syria""], ""MISC"": []}",True,9867.727,2026-02-08T17:33:30.691921
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,9,"{
+  ""PER"": [""Takuya Takagi"", ""Hiroshige Yanagimoto""],
+  ""ORG"": [],
+  ""LOC"": [""Syrian goal""],
+  ""MISC"": [""88th minute""]
+}","{""PER"": [""Takuya Takagi"", ""Hiroshige Yanagimoto"", ""Salem Bitar""], ""ORG"": [], ""LOC"": [], ""MISC"": [""Syrian""]}",True,13268.053,2026-02-08T17:33:43.959994
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,10,"{
+  ""PER"": [],
+  ""ORG"": [""Syria""],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""Syria""], ""MISC"": []}",False,8275.196,2026-02-08T17:33:52.235226
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,11,"{
+  ""PER"": [""Hassan Abbas""],
+  ""ORG"": [""Bitar""],
+  ""LOC"": [],
+  ""MISC"": [""84th minute""]
+}","{""PER"": [""Hassan Abbas"", ""Bitar""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",False,10909.963,2026-02-08T17:34:03.145213
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,12,"{
+  ""PER"": [""Nader Jokhadar""],
+  ""ORG"": [],
+  ""LOC"": [""Syria""],
+  ""MISC"": []
+}","{""PER"": [""Nader Jokhadar""], ""ORG"": [], ""LOC"": [""Syria""], ""MISC"": []}",True,11389.237,2026-02-08T17:34:14.534498
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,13,"{
+  ""PER"": [],
+  ""ORG"": [],
+  ""LOC"": [""Japan"", ""Syria""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""Japan""], ""MISC"": [""Syrian"", ""Syrian""]}",True,9528.905,2026-02-08T17:34:24.063419
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,14,"{
+  ""PER"": [""Bitar""],
+  ""ORG"": [],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [""Bitar""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",True,11054.943,2026-02-08T17:34:35.118391
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,15,"{
+  ""PER"": [""Shu Kamo""],
+  ""ORG"": [],
+  ""LOC"": [""Syria""],
+  ""MISC"": [""We""]
+}","{""PER"": [""Shu Kamo""], ""ORG"": [], ""LOC"": [""Japan""], ""MISC"": [""Syrian""]}",False,9104.73,2026-02-08T17:34:44.223153
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,16,"{
+  ""PER"": [],
+  ""ORG"": [],
+  ""LOC"": [],
+  ""MISC"": [""Syrians"", ""us""]
+}","{""PER"": [], ""ORG"": [], ""LOC"": [], ""MISC"": [""Syrians""]}",True,10388.515,2026-02-08T17:34:54.611709
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,17,"{
+  ""PER"": [],
+  ""ORG"": [""FIFA""],
+  ""LOC"": [""Japan""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [""FIFA""], ""LOC"": [""Japan""], ""MISC"": [""World Cup""]}",True,16257.314,2026-02-08T17:35:10.869058
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,18,"{
+  ""PER"": [],
+  ""ORG"": [],
+  ""LOC"": [""UAE"", ""Kuwait"", ""South Korea"", ""Indonesia""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""UAE"", ""Kuwait"", ""South Korea"", ""Indonesia""], ""MISC"": []}",True,14130.015,2026-02-08T17:35:24.999091
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,19,"{
+  ""PER"": [],
+  ""ORG"": [""UNION""],
+  ""LOC"": [""CUTTITTA"", ""ITALY""],
+  ""MISC"": []
+}","{""PER"": [""CUTTITTA""], ""ORG"": [""RUGBY UNION""], ""LOC"": [""ITALY""], ""MISC"": []}",False,10212.759,2026-02-08T17:35:35.211894
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,20,"{
+  ""PER"": [""30-year-old wing"", ""he""],
+  ""ORG"": [""Heriot-Watt University""],
+  ""LOC"": [""Murrayfield""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""Scotland"", ""Murrayfield""], ""MISC"": []}",False,14418.822,2026-02-08T17:35:49.630765
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,21,"{
+    ""PER"": [""Cuttitta"", ""George Coste""],
+    ""ORG"": [""21-man squad""],
+    ""LOC"": [""Twickenham""]
+}","{""PER"": [""Cuttitta"", ""George Coste""], ""ORG"": [], ""LOC"": [""England"", ""Twickenham""], ""MISC"": []}",True,13002.556,2026-02-08T17:36:02.633372
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,22,"{
+  ""PER"": [""Stefano Bordon"", ""Corrado Covi""],
+  ""ORG"": [],
+  ""LOC"": [""England""],
+  ""MISC"": []
+}","{""PER"": [""Stefano Bordon"", ""Coste"", ""Corrado Covi""], ""ORG"": [], ""LOC"": [""England""], ""MISC"": []}",True,7587.54,2026-02-08T17:36:10.220993
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,23,"{
+  ""PER"": [""Cuttitta""],
+  ""ORG"": [],
+  ""LOC"": [""1995 World Cup"", ""pool stages""],
+  ""MISC"": []
+}","{""PER"": [""Cuttitta""], ""ORG"": [], ""LOC"": [""Italy"", ""England""], ""MISC"": [""1995 World Cup""]}",False,14355.492999999999,2026-02-08T17:36:24.576538
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,24,"{
+  ""PER"": [""Coste""],
+  ""ORG"": [],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [""Coste""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",True,10941.618,2026-02-08T17:36:35.518205
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,25,"{
+  ""PER"": [""Coste""],
+  ""ORG"": [],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [""Coste""], ""ORG"": [], ""LOC"": [], ""MISC"": [""World Cup""]}",True,10499.437,2026-02-08T17:36:46.017684
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,26,"{
+  ""PER"": [""Javier Pertile"", ""Paolo Vaccari"", ""Marcello Cuttitta"", ""Ivan Francescato"", ""Leandro Manteri"", ""Diego Dominguez"", ""Francesco Mazzariol"", ""Alessandro Troncon"", ""Orazio Arancio"", ""Andrea Sgorlon"", ""Massimo Giovanelli"", ""Carlo Checchinato"", ""Walter Cristofoletto"", ""Franco Properzi Curti"", ""Carlo Orlandi"", ""Massimo Cuttitta"", ""Giambatista Croci"", ""Gianluca Guidi"", ""Nicola Mazzucato"", ""Alessandro Moscardi"", ""Andrea Castellani""],
+  ""ORG"": [],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [""Javier Pertile"", ""Paolo Vaccari"", ""Marcello Cuttitta"", ""Ivan Francescato"", ""Leandro Manteri"", ""Diego Dominguez"", ""Francesco Mazzariol"", ""Alessandro Troncon"", ""Orazio Arancio"", ""Andrea Sgorlon"", ""Massimo Giovanelli"", ""Carlo Checchinato"", ""Walter Cristofoletto"", ""Franco Properzi Curti"", ""Carlo Orlandi"", ""Massimo Cuttitta"", ""Giambatista Croci"", ""Gianluca Guidi"", ""Nicola Mazzucato"", ""Alessandro Moscardi"", ""Andrea Castellani""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",True,21734.703,2026-02-08T17:37:07.752407
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,27,"{
+  ""PER"": [],
+  ""ORG"": [],
+  ""LOC"": [],
+  ""MISC"": [""SOCCER""]
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""JAPAN"", ""SYRIA""], ""MISC"": []}",False,10304.087000000001,2026-02-08T17:37:18.056516
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,28,"{
+  ""PER"": [],
+  ""ORG"": [""United Arab Emirates""],
+  ""LOC"": [""AL-AIN""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""AL-AIN"", ""United Arab Emirates""], ""MISC"": []}",True,12.998,2026-02-08T17:37:18.069546
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,29,"{
+  ""PER"": [],
+  ""ORG"": [""Holder""],
+  ""LOC"": [""Japan"", ""Syria""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""Japan"", ""Syria""], ""MISC"": [""Asian Cup""]}",True,11763.04,2026-02-08T17:37:29.832607
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,30,"{
+  ""PER"": [""Takuya Takagi"", ""Salem Bitar""],
+  ""ORG"": [],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [""Takuya Takagi"", ""Salem Bitar""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",True,10016.335,2026-02-08T17:37:39.848961
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,31,"{
+  ""PER"": [],
+  ""ORG"": [],
+  ""LOC"": [""Syrian""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [], ""LOC"": [], ""MISC"": [""Syrian""]}",False,10038.917,2026-02-08T17:37:49.887902
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,32,"{
+  ""PER"": [""Hassan Abbas""],
+  ""ORG"": [""Bitar""],
+  ""LOC"": [],
+  ""MISC"": [""84th minute""]
+}","{""PER"": [""Hassan Abbas"", ""Bitar""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",False,7.542,2026-02-08T17:37:49.895484
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,33,"{
+  ""PER"": [],
+  ""ORG"": [""Syria""],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""Syria""], ""MISC"": []}",False,10577.323,2026-02-08T17:38:00.472841
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,34,"{
+  ""PER"": [""Nader Jokhadar"", ""Ammar Awad"", ""Kenichi Shimokawa""],
+  ""ORG"": [],
+  ""LOC"": [""top right corner""],
+  ""MISC"": []
+}","{""PER"": [""Nader Jokhadar"", ""Ammar Awad"", ""Kenichi Shimokawa""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",True,15105.219,2026-02-08T17:38:15.578110
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,35,"{
+  ""PER"": [""Japan""],
+  ""ORG"": [""Syria""]
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""Japan""], ""MISC"": [""Syrian""]}",False,9625.366,2026-02-08T17:38:25.203507
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,36,"{
+  ""PER"": [""Bitar"", ""Kazuyoshi Miura"", ""Takagi""]
+}","{""PER"": [""Bitar"", ""Kazuyoshi Miura"", ""Takagi""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",True,11716.694,2026-02-08T17:38:36.920219
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,37,"{
+    ""PER"": [""Bitar"", ""Miura""],
+    ""ORG"": [""FC""]
+}","{""PER"": [""Bitar"", ""Miura""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",True,9508.058,2026-02-08T17:38:46.428308
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,38,"{
+  ""PER"": [""Bitar"", ""Naoki Soma""],
+  ""ORG"": [],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [""Bitar"", ""Naoki Soma""], ""ORG"": [], ""LOC"": [""Japan""], ""MISC"": []}",True,12052.396999999999,2026-02-08T17:38:58.480733
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,39,"{
+  ""PER"": [""Kenichi Shimokawa"", ""Hiroshige Yanagimoto"", ""Naoki Soma"", ""Masami Ihara"", ""Norio Omura"", ""Motohiro Yamaguchi"", ""Masakiyo Maezono"", ""Yasuto Honda"", ""Takuya Takagi"", ""Hiroshi Nanami"", ""Kazuyoshi Miura"", ""Hiroaki Morishima"", ""Masayuki Okano""]
+}","{""PER"": [""Kenichi Shimokawa"", ""Hiroshige Yanagimoto"", ""Naoki Soma"", ""Masami Ihara"", ""Norio Omura"", ""Motohiro Yamaguchi"", ""Masakiyo Maezono"", ""Yasuto Honda"", ""Takuya Takagi"", ""Hiroshi Nanami"", ""Kazuyoshi Miura"", ""Hiroaki Morishima"", ""Masayuki Okano""], ""ORG"": [], ""LOC"": [""Japan""], ""MISC"": []}",True,9561.325,2026-02-08T17:39:08.042077
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,40,"{
+  ""PER"": [""Salem Bitar"", ""Bachar Srour"", ""Hassan Abbas"", ""Tarek Jabban"", ""Ammar Awad"", ""Louay Taleb"", ""Nihad al-Boushi"", ""Mohammed Afash"", ""Ali Dib"", ""Abdul Latif Helou"", ""Khaled Zaher"", ""Nader Jokhadar""]
+}","{""PER"": [""Salem Bitar"", ""Bachar Srour"", ""Hassan Abbas"", ""Tarek Jabban"", ""Ammar Awad"", ""Louay Taleb"", ""Nihad al-Boushi"", ""Mohammed Afash"", ""Ali Dib"", ""Abdul Latif Helou"", ""Ammar Rihawiy"", ""Khaled Zaher"", ""Nader Jokhadar""], ""ORG"": [], ""LOC"": [""Syria""], ""MISC"": []}",True,11712.488000000001,2026-02-08T17:39:19.754582
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,41,"{
+  ""PER"": [],
+  ""ORG"": [],
+  ""LOC"": [""SKIING"", ""WORLD CUP"", ""MOGUL""],
+  ""MISC"": [""FREESTYLE"", ""RESULTS""]
+}","{""PER"": [], ""ORG"": [], ""LOC"": [], ""MISC"": [""SKIING-WORLD CUP""]}",False,17595.489,2026-02-08T17:39:37.350085
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,42,"{
+  ""PER"": [],
+  ""ORG"": [],
+  ""LOC"": [""World""],
+  ""MISC"": [""Results of the""]
+}","{""PER"": [], ""ORG"": [], ""LOC"": [], ""MISC"": [""World Cup""]}",False,11618.994,2026-02-08T17:39:48.969114
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,43,"{
+  ""PER"": [""Jesper Ronnback""],
+  ""ORG"": [],
+  ""LOC"": [""Sweden""],
+  ""MISC"": []
+}","{""PER"": [""Jesper Ronnback""], ""ORG"": [], ""LOC"": [""Sweden""], ""MISC"": []}",True,7273.285,2026-02-08T17:39:56.242440
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,44,"{
+  ""PER"": [""Andrei Ivanov""],
+  ""ORG"": [],
+  ""LOC"": [""Russia""],
+  ""MISC"": [""24.88""]
+}","{""PER"": [""Andrei Ivanov""], ""ORG"": [], ""LOC"": [""Russia""], ""MISC"": []}",True,8593.377999999999,2026-02-08T17:40:04.835851
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,45,"{
+    ""PER"": [""Ryan Johnson""],
+    ""ORG"": [],
+    ""LOC"": [""Canada""],
+    ""MISC"": [""24.57""]
+}","{""PER"": [""Ryan Johnson""], ""ORG"": [], ""LOC"": [""Canada""], ""MISC"": []}",True,9268.662,2026-02-08T17:40:14.104551
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,46,"{
+  ""PER"": [""Jean-Luc Brassard""],
+  ""ORG"": [],
+  ""LOC"": [""Canada""],
+  ""MISC"": [""24.40""]
+}","{""PER"": [""Jean-Luc Brassard""], ""ORG"": [], ""LOC"": [""Canada""], ""MISC"": []}",True,9342.224999999999,2026-02-08T17:40:23.446794
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,47,"{
+  ""PER"": [""Korneilus""],
+  ""ORG"": [],
+  ""LOC"": [""Norway""],
+  ""MISC"": []
+}","{""PER"": [""Korneilus Hole""], ""ORG"": [], ""LOC"": [""Norway""], ""MISC"": []}",True,11326.373,2026-02-08T17:40:34.773182
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,48,"{
+  ""PER"": [""Jeremie Collomb-Patton""],
+  ""ORG"": [],
+  ""LOC"": [""France""],
+  ""MISC"": []
+}","{""PER"": [""Jeremie Collomb-Patton""], ""ORG"": [], ""LOC"": [""France""], ""MISC"": []}",True,6637.3769999999995,2026-02-08T17:40:41.410582
+deepseek-r1:7b_local_baseline_extraction,deepseek-r1:7b,extraction,49,"{
+  ""PER"": [""Jim Moran""],
+  ""ORG"": [],
+  ""LOC"": [""U.S.""],
+  ""MISC"": []
+}","{""PER"": [""Jim Moran""], ""ORG"": [], ""LOC"": [""U.S.""], ""MISC"": []}",True,7239.26,2026-02-08T17:40:48.649871

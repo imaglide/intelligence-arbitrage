@@ -6,21 +6,25 @@ Can smaller, locally-running language models match or exceed frontier API models
 
 DSPy's optimization pipeline (teacher bootstrapping + MIPROv2) can close the performance gap between local open-weight models (3B-7B parameters) and frontier API models (GPT-4o, GPT-5.2) on structured NLP tasks.
 
-## Results
+## Key Findings
 
-Benchmark results across 9 models and 9 task domains (50 samples each):
+1. **Yes, on specific tasks.** Optimized local models matched or exceeded GPT-5.2 baseline on 5 of 9 task categories
+2. **Optimization response is task-specific.** Tasks determine WHETHER optimization helps (2x more variance than models)
+3. **MIPROv2 sometimes hurts.** In 12/54 model-task pairs, optimization produced negative deltas
+4. **175 total evaluation runs** across 5 experiment phases
 
-| Model | Agentic | Analysis | Classification | Code | Extraction | Math | QA | RAG | Synthesis |
-|:------|:--------|:---------|:---------------|:-----|:-----------|:-----|:---|:----|:----------|
-| gpt-5.2 | 86.0% | 88.0% | 64.0% | 90.0% | 44.0% | 90.0% | 22.0% | 88.0% | 39.9% |
-| gpt-4o | 82.0% | 78.0% | 56.0% | 76.0% | 46.0% | 68.0% | 32.0% | 88.0% | 43.3% |
-| gpt-4o-mini | 86.0% | 84.0% | 30.0% | 92.0% | 48.0% | 52.0% | 14.0% | 88.0% | 42.8% |
-| phi4 | 74.0% | 80.0% | 26.0% | 90.0% | 52.0% | 48.0% | 8.0% | 86.0% | 41.2% |
-| qwen2.5 (7B) | 74.0% | 78.0% | 18.0% | 84.0% | 40.0% | 36.0% | 10.0% | 82.0% | 43.1% |
-| llama3.2 | 66.0% | 68.0% | 28.0% | 68.0% | 50.0% | 40.0% | 0.0% | 82.0% | 44.9% |
-| mistral | 56.0% | 76.0% | 10.0% | 56.0% | 50.0% | 2.0% | 0.0% | 84.0% | 44.6% |
+### Optimization Lift by Model
 
-Full per-model CSV results are in `results/`.
+| Model | Params | Avg Baseline | Avg Optimized | Avg Delta | Tasks Improved |
+|-------|--------|-------------|--------------|-----------|----------------|
+| qwen2.5:7b | 7B | 51.7% | 65.9% | **+14.2pp** | 8/9 |
+| mistral | 7B | 42.1% | 55.7% | **+13.6pp** | 6/9 |
+| llama3.2 | 3B | 49.7% | 60.2% | **+10.5pp** | 7/9 |
+| gpt-5.2 | API | 68.0% | 77.1% | **+9.1pp** | 5/9 |
+| phi4 | 14B | 56.1% | 65.0% | **+8.8pp** | 5/9 |
+| gpt-4o | API | 63.3% | 71.2% | **+7.9pp** | 5/9 |
+
+See [EXPERIMENT_RESULTS.md](EXPERIMENT_RESULTS.md) for the full write-up with all 5 phases, and `results/` for per-model CSVs.
 
 ## Architecture
 
@@ -131,14 +135,21 @@ intelligence-arbitrage/
 │   ├── run_optimization.py    # Optimization orchestrator
 │   ├── run_optimized_eval.py  # Optimized model evaluation
 │   ├── consolidate_results.py # Result aggregation
-│   └── tasks/                 # Per-domain task definitions
+│   ├── demo_curve_eval.py     # Demo count curve analysis
+│   ├── results_writer.py      # Structured result output
+│   ├── tasks/                 # Per-domain task definitions
+│   └── tipping_point/         # Tipping point experiment modules
 ├── experiments/               # Experiment configurations
 ├── results/                   # CSV results and golden summaries
 │   ├── golden/               # Consolidated benchmark results
+│   ├── demo_curves/          # Demo count optimization curves
+│   ├── tipping_point/        # Tipping point experiment results
 │   ├── api_baseline_*.csv    # Per-model API results
 │   ├── local_baseline_*.csv  # Per-model local results
-│   └── local_optimized_*.csv # DSPy-optimized results
+│   ├── local_optimized_*.csv # DSPy-optimized results
+│   └── api_optimized_*.csv   # API-optimized results
 ├── tests/                     # Test suites
+├── EXPERIMENT_RESULTS.md      # Full experiment write-up (5 phases)
 ├── TECHNICAL_SPEC.md          # Detailed technical specification
 ├── run_experiment.sh          # Full experiment runner
 └── setup_models.sh            # Ollama model setup
@@ -147,7 +158,7 @@ intelligence-arbitrage/
 ## Tech Stack
 
 - **DSPy** — Declarative Self-improving Language Programs
-- **Ollama** — Local model inference (Llama 3.2, Qwen 2.5, Mistral, Phi-4)
+- **Ollama** — Local model inference (Llama 3.2, Qwen 2.5, Mistral, Phi-4, DeepSeek-R1, Qwen3)
 - **OpenAI API** — Frontier baselines and teacher model
 - **HuggingFace Datasets** — Standard benchmark datasets
 - **Pandas** — Result analysis and aggregation

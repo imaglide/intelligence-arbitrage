@@ -1,0 +1,51 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,input_tokens,output_tokens,api_cost_usd,timestamp
+gpt-5.2_baseline_rag,gpt-5.2,rag,0,Denver Broncos,Denver Broncos,True,1954.285,1618,59,0.01795,2026-02-07T12:36:28.648135
+gpt-5.2_baseline_rag,gpt-5.2,rag,1,Carolina Panthers,Carolina Panthers,True,1570.716,1618,65,0.01813,2026-02-07T12:36:30.218893
+gpt-5.2_baseline_rag,gpt-5.2,rag,2,"Levi's Stadium in the San Francisco Bay Area at Santa Clara, California","Santa Clara, California",True,1955.4640000000002,1615,77,0.018459999999999997,2026-02-07T12:36:32.174378
+gpt-5.2_baseline_rag,gpt-5.2,rag,3,Denver Broncos,Denver Broncos,True,1163.51,1615,63,0.018039999999999997,2026-02-07T12:36:33.337921
+gpt-5.2_baseline_rag,gpt-5.2,rag,4,gold,gold,True,1329.8509999999999,1622,48,0.01766,2026-02-07T12:36:34.667804
+gpt-5.2_baseline_rag,gpt-5.2,rag,5,golden anniversary,"""golden anniversary""",True,1383.448,1616,45,0.01751,2026-02-07T12:36:36.051283
+gpt-5.2_baseline_rag,gpt-5.2,rag,6,"February 7, 2016","February 7, 2016",True,1293.5939999999998,1614,55,0.01779,2026-02-07T12:36:37.344901
+gpt-5.2_baseline_rag,gpt-5.2,rag,7,American Football Conference,American Football Conference,True,1333.0439999999999,1613,52,0.01769,2026-02-07T12:36:38.677996
+gpt-5.2_baseline_rag,gpt-5.2,rag,8,golden anniversary,"""golden anniversary""",True,1.9949999999999999,0,0,0.0,2026-02-07T12:36:38.680024
+gpt-5.2_baseline_rag,gpt-5.2,rag,9,American Football Conference,American Football Conference,True,1550.607,1612,51,0.01765,2026-02-07T12:36:40.230652
+gpt-5.2_baseline_rag,gpt-5.2,rag,10,"February 7, 2016","February 7, 2016",True,1085.317,1615,57,0.017859999999999997,2026-02-07T12:36:41.315988
+gpt-5.2_baseline_rag,gpt-5.2,rag,11,Denver Broncos,Denver Broncos,True,1480.3329999999999,1613,59,0.017900000000000003,2026-02-07T12:36:42.796348
+gpt-5.2_baseline_rag,gpt-5.2,rag,12,Levi's Stadium,Levi's Stadium,True,1394.9089999999999,1617,61,0.018000000000000002,2026-02-07T12:36:44.191286
+gpt-5.2_baseline_rag,gpt-5.2,rag,13,"Santa Clara, California",Santa Clara,True,1788.7379999999998,1617,68,0.01821,2026-02-07T12:36:45.980055
+gpt-5.2_baseline_rag,gpt-5.2,rag,14,Super Bowl L,Super Bowl L,True,1287.828,1623,60,0.01803,2026-02-07T12:36:47.267907
+gpt-5.2_baseline_rag,gpt-5.2,rag,15,the 2015 season,2015,True,1520.6200000000001,1618,69,0.01825,2026-02-07T12:36:48.788557
+gpt-5.2_baseline_rag,gpt-5.2,rag,16,2015,2015,True,1378.838,1622,69,0.018289999999999997,2026-02-07T12:36:50.167422
+gpt-5.2_baseline_rag,gpt-5.2,rag,17,"Santa Clara, California",Santa Clara,True,1.416,0,0,0.0,2026-02-07T12:36:50.168863
+gpt-5.2_baseline_rag,gpt-5.2,rag,18,Levi's Stadium,Levi's Stadium,True,1234.574,1617,61,0.018000000000000002,2026-02-07T12:36:51.403455
+gpt-5.2_baseline_rag,gpt-5.2,rag,19,24–10,24–10,True,1062.832,1618,47,0.01759,2026-02-07T12:36:52.466312
+gpt-5.2_baseline_rag,gpt-5.2,rag,20,"February 7, 2016","February 7, 2016",True,1411.927,1621,61,0.01804,2026-02-07T12:36:53.878264
+gpt-5.2_baseline_rag,gpt-5.2,rag,21,2015,2015,True,1478.02,1614,53,0.017730000000000003,2026-02-07T12:36:55.356311
+gpt-5.2_baseline_rag,gpt-5.2,rag,22,Denver Broncos,Denver Broncos,True,1575.385,1613,60,0.01793,2026-02-07T12:36:56.931729
+gpt-5.2_baseline_rag,gpt-5.2,rag,23,Carolina Panthers,Carolina Panthers,True,1570.182,1613,63,0.01802,2026-02-07T12:36:58.501946
+gpt-5.2_baseline_rag,gpt-5.2,rag,24,Denver Broncos,Denver Broncos,True,1.5939999999999999,0,0,0.0,2026-02-07T12:36:58.503561
+gpt-5.2_baseline_rag,gpt-5.2,rag,25,the 2015 season,2015,True,1454.97,1618,72,0.01834,2026-02-07T12:36:59.958547
+gpt-5.2_baseline_rag,gpt-5.2,rag,26,Denver Broncos,Denver Broncos,True,1477.965,1614,64,0.01806,2026-02-07T12:37:01.436534
+gpt-5.2_baseline_rag,gpt-5.2,rag,27,Levi's Stadium,"Santa Clara, California.",False,1353.863,1614,66,0.01812,2026-02-07T12:37:02.790421
+gpt-5.2_baseline_rag,gpt-5.2,rag,28,Super Bowl,Super Bowl,True,1368.5529999999999,1615,66,0.018129999999999997,2026-02-07T12:37:04.159005
+gpt-5.2_baseline_rag,gpt-5.2,rag,29,Denver Broncos,Denver Broncos,True,1682.192,1617,65,0.01812,2026-02-07T12:37:05.841233
+gpt-5.2_baseline_rag,gpt-5.2,rag,30,Cam Newton,Cam Newton,True,1140.58,1583,53,0.01742,2026-02-07T12:37:06.981841
+gpt-5.2_baseline_rag,gpt-5.2,rag,31,eight appearances,8,False,1681.9489999999998,1586,63,0.01775,2026-02-07T12:37:08.663813
+gpt-5.2_baseline_rag,gpt-5.2,rag,32,1995,1995,True,2101.479,1582,52,0.01738,2026-02-07T12:37:10.765315
+gpt-5.2_baseline_rag,gpt-5.2,rag,33,the Arizona Cardinals,Arizona Cardinals,True,1567.507,1580,52,0.01736,2026-02-07T12:37:12.332845
+gpt-5.2_baseline_rag,gpt-5.2,rag,34,the New England Patriots,New England Patriots,True,1412.702,1585,68,0.01789,2026-02-07T12:37:13.745580
+gpt-5.2_baseline_rag,gpt-5.2,rag,35,the Arizona Cardinals,Arizona Cardinals,True,1230.003,1584,51,0.01737,2026-02-07T12:37:14.975620
+gpt-5.2_baseline_rag,gpt-5.2,rag,36,the New England Patriots,New England Patriots,True,1595.915,1583,62,0.01769,2026-02-07T12:37:16.571561
+gpt-5.2_baseline_rag,gpt-5.2,rag,37,the New England Patriots,New England Patriots,True,1528.4070000000002,1581,56,0.01749,2026-02-07T12:37:18.099992
+gpt-5.2_baseline_rag,gpt-5.2,rag,38,four,four,True,1090.288,1585,60,0.01765,2026-02-07T12:37:19.190310
+gpt-5.2_baseline_rag,gpt-5.2,rag,39,Cam Newton,Cam Newton,True,1334.022,1581,54,0.017429999999999998,2026-02-07T12:37:20.524367
+gpt-5.2_baseline_rag,gpt-5.2,rag,40,15–1,15–1,True,1330.0339999999999,1593,55,0.01758,2026-02-07T12:37:21.854431
+gpt-5.2_baseline_rag,gpt-5.2,rag,41,Cam Newton,Cam Newton,True,1291.01,1590,55,0.01755,2026-02-07T12:37:23.145472
+gpt-5.2_baseline_rag,gpt-5.2,rag,42,12–4 record,12–4,True,1573.761,1594,59,0.01771,2026-02-07T12:37:24.719265
+gpt-5.2_baseline_rag,gpt-5.2,rag,43,four teams,4,False,1607.397,1585,63,0.01774,2026-02-07T12:37:26.326689
+gpt-5.2_baseline_rag,gpt-5.2,rag,44,the New England Patriots,New England Patriots,True,1735.0620000000001,1594,71,0.01807,2026-02-07T12:37:28.061785
+gpt-5.2_baseline_rag,gpt-5.2,rag,45,Cam Newton,Cam Newton,True,1186.075,1581,51,0.017339999999999998,2026-02-07T12:37:29.247901
+gpt-5.2_baseline_rag,gpt-5.2,rag,46,the Arizona Cardinals,Arizona Cardinals,True,1387.723,1583,50,0.01733,2026-02-07T12:37:30.635671
+gpt-5.2_baseline_rag,gpt-5.2,rag,47,second,2,False,1240.826,1585,49,0.01732,2026-02-07T12:37:31.876521
+gpt-5.2_baseline_rag,gpt-5.2,rag,48,the New England Patriots,New England Patriots,True,1567.4650000000001,1582,58,0.01756,2026-02-07T12:37:33.444013
+gpt-5.2_baseline_rag,gpt-5.2,rag,49,Cam Newton,Cam Newton,True,1129.982,1587,54,0.017490000000000002,2026-02-07T12:37:34.574021

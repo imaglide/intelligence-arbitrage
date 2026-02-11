@@ -1,0 +1,45 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "question": "James gets a cable program.  The first 100 channels cost $100 and the next 100 channels cost half that much.  He splits it evenly with his roommate.  How much did he pay?",
+        "reasoning": "First, we calculate the total cost for the cable program. The first 100 channels cost $100. The next 100 channels cost half as much, which is $100 / 2 = $50. Therefore, the total cost for 200 channels is $100 + $50 = $150.\n\nSince James splits the cost evenly with his roommate, he pays half of the total cost. So, James pays $150 / 2 = $75.",
+        "answer": "75"
+      },
+      {
+        "augmented": true,
+        "question": "Frankie's parents let him have many pets. He has six more snakes than he has cats. He has one less parrot than cats. Six of his pets have four legs. He has 2 dogs. How many pets does he have in total?",
+        "reasoning": "Let's denote the number of cats Frankie has as \\( C \\).\n\n1. **Snakes**: Frankie has six more snakes than cats, so he has \\( C + 6 \\) snakes.\n\n2. **Parrots**: Frankie has one less parrot than cats, so he has \\( C - 1 \\) parrots.\n\n3. **Dogs**: Frankie has 2 dogs.\n\n4. **Four-legged pets**: We know that six of his pets have four legs. The four-legged pets are the cats and dogs. Since he has 2 dogs, the remaining four-legged pets must be cats. Therefore, the number of cats \\( C \\) is 4.\n\nNow, let's calculate the total number of pets:\n\n- Cats: \\( C = 4 \\)\n- Snakes: \\( C + 6 = 4 + 6 = 10 \\)\n- Parrots: \\( C - 1 = 4 - 1 = 3 \\)\n- Dogs: 2\n\nTotal number of pets = Cats + Snakes + Parrots + Dogs = \\( 4 + 10 + 3 + 2 = 19 \\).",
+        "answer": "19"
+      }
+    ],
+    "signature": {
+      "instructions": "Solve the math word problem. Give the reasoning steps and the final answer.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Reasoning:",
+          "description": "Step-by-step calculation"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "The final numerical answer"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.1.3",
+      "cloudpickle": "3.1"
+    }
+  }
+}

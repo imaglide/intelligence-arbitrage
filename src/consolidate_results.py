@@ -1,13 +1,16 @@
+import argparse
 import os
 import pandas as pd
 import glob
 import shutil
 
+from src.results_writer import safe_write_csv, get_run_metadata
+
 RESULTS_DIR = "results"
 GOLDEN_DIR = os.path.join(RESULTS_DIR, "golden")
 DETAILS_DIR = os.path.join(GOLDEN_DIR, "details")
 
-def main():
+def main(force=False):
     os.makedirs(DETAILS_DIR, exist_ok=True)
     
     # 1. Scan all CSV files
@@ -108,7 +111,12 @@ def main():
         dest_path = os.path.join(DETAILS_DIR, dest_filename)
         
         # Copy to golden/details
-        best["df"].to_csv(dest_path, index=False)
+        detail_meta = get_run_metadata(
+            script="src/consolidate_results.py",
+            model=model, task=task, source=os.path.basename(src_file),
+            count=int(best["count"]), score=float(best["score"]),
+        )
+        safe_write_csv(best["df"], dest_path, detail_meta, force=force)
         print(f"Selected {task} for {model}: {best['count']} rows, {best['score']:.2%} (Source: {os.path.basename(src_file)})")
 
     # 3. Generate Summary Matrix
@@ -129,8 +137,9 @@ def main():
         pivot_count = df_summary.pivot(index="Model", columns="Task", values="Samples")
         
         # Save CSVs
-        pivot.to_csv(os.path.join(GOLDEN_DIR, "summary_scores.csv"))
-        pivot_count.to_csv(os.path.join(GOLDEN_DIR, "summary_counts.csv"))
+        summary_meta = get_run_metadata(script="src/consolidate_results.py")
+        safe_write_csv(pivot, os.path.join(GOLDEN_DIR, "summary_scores.csv"), summary_meta, force=force, index=True)
+        safe_write_csv(pivot_count, os.path.join(GOLDEN_DIR, "summary_counts.csv"), summary_meta, force=force, index=True)
         
         # Save Markdown with clean formatting
         with open(os.path.join(GOLDEN_DIR, "SUMMARY.md"), "w") as f:
@@ -151,4 +160,7 @@ def main():
         print(pivot)
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description="Consolidate experiment results into golden summary")
+    parser.add_argument("--force", action="store_true", help="Overwrite existing golden files")
+    args = parser.parse_args()
+    main(force=args.force)

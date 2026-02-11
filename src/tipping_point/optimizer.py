@@ -144,15 +144,17 @@ class TippingPointOptimizer:
         train_examples = self.prepare_data(train_data, config.task_source)
         test_examples = self.prepare_data(test_data, config.task_source)
         
-        # Metric Logic
-        if config.task_source == "gdpval":
-             optimizer_metric = self._create_gdpval_metric()
-             # Evaluation metric is same
-             eval_metric = optimizer_metric
-        else:
-             # Core task: user provided standard metric
-             optimizer_metric = metric_fn
-             eval_metric = metric_fn
+        # Metric Logic — wrap to handle None predictions from reasoning models
+        raw_metric = self._create_gdpval_metric() if config.task_source == "gdpval" else metric_fn
+
+        def safe_metric(example, prediction, trace=None):
+            try:
+                return raw_metric(example, prediction, trace)
+            except (AttributeError, TypeError):
+                return 0.0
+
+        optimizer_metric = safe_metric
+        eval_metric = safe_metric
 
         # 4. Baseline Evaluation
         print(" Evaluating Baseline...")
@@ -161,26 +163,15 @@ class TippingPointOptimizer:
         baseline_scores = {}
         
         # Evaluate Test Set
-        # For core tasks, we need to iterate and assume index as ID if no task_id
         for i, ex in enumerate(test_examples):
+            key = ex.task_data.get('task_id', f"item_{i}") if config.task_source == "gdpval" else f"item_{i}"
             try:
-                # Predict
                 kwargs = ex.inputs().toDict()
                 pred = baseline_prog(**kwargs)
-                
-                # Scoring
                 score = eval_metric(ex, pred)
-                
-                # Identify key
-                if config.task_source == "gdpval":
-                    # ex.task_data['task_id']
-                    key = ex.task_data.get('task_id', f"item_{i}")
-                else:
-                    key = f"item_{i}"
-                    
                 baseline_scores[key] = float(score) if isinstance(score, (int, float, bool)) else 0.0
             except Exception as e:
-                print(f"Baseline Eval Error {i}: {e}")
+                baseline_scores[key] = 0.0
                 
         mean_baseline = sum(baseline_scores.values()) / len(baseline_scores) if baseline_scores else 0.0
         print(f" Baseline Mean Score: {mean_baseline:.4f}")
@@ -215,10 +206,13 @@ class TippingPointOptimizer:
                 # Verify on Test
                 current_scores = []
                 for ex in test_examples:
-                    kwargs = ex.inputs().toDict()
-                    pred = optimized_prog(**kwargs)
-                    s = eval_metric(ex, pred)
-                    current_scores.append(float(s))
+                    try:
+                        kwargs = ex.inputs().toDict()
+                        pred = optimized_prog(**kwargs)
+                        s = eval_metric(ex, pred)
+                        current_scores.append(float(s))
+                    except Exception:
+                        current_scores.append(0.0)
                 
                 avg_test = sum(current_scores) / len(current_scores) if current_scores else 0.0
                 
@@ -235,16 +229,14 @@ class TippingPointOptimizer:
         optimized_scores = {}
         if best_program:
             for i, ex in enumerate(test_examples):
-                kwargs = ex.inputs().toDict()
-                pred = best_program(**kwargs)
-                s = eval_metric(ex, pred)
-                
-                if config.task_source == "gdpval":
-                    key = ex.task_data.get('task_id', f"item_{i}")
-                else:
-                    key = f"item_{i}"
-                    
-                optimized_scores[key] = float(s)
+                key = ex.task_data.get('task_id', f"item_{i}") if config.task_source == "gdpval" else f"item_{i}"
+                try:
+                    kwargs = ex.inputs().toDict()
+                    pred = best_program(**kwargs)
+                    s = eval_metric(ex, pred)
+                    optimized_scores[key] = float(s)
+                except Exception:
+                    optimized_scores[key] = 0.0
                 
             mean_optimized = sum(optimized_scores.values()) / len(optimized_scores)
             

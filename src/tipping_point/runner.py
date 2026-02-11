@@ -85,7 +85,8 @@ def main():
     parser.add_argument("--gdpval", action="store_true", default=False, help="Include GDPval tasks")
     parser.add_argument("--tasks", nargs="+", help="Specific core tasks to run")
     parser.add_argument("--limit-groups", type=int, default=None, help="Limit number of task groups (occupations/tasks)")
-    
+    parser.add_argument("--force", action="store_true", help="Overwrite existing result files")
+
     args = parser.parse_args()
     
     # Default to GDPval if nothing specified, for backward compat?
@@ -124,7 +125,9 @@ def main():
     
     # 2. Initialize Shared Components
     # Judge is only needed for GDPval metric creation
-    judge = GDPvalJudge(model="gpt-4o") # Cost incurred only if used
+    judge = None
+    if args.gdpval:
+        judge = GDPvalJudge(model="gpt-4o")
     optimizer_module = TippingPointOptimizer(judge=judge, checkpoint_dir=checkpoints_dir)
     
     curves = []
@@ -233,7 +236,7 @@ def main():
         elif r.regime == OptimizationRegime.REGIME_2_OPTIMIZABLE.value: dummy_report.regime_2_count += 1
         elif r.regime == OptimizationRegime.REGIME_3_ALREADY_SOLVED.value: dummy_report.regime_3_count += 1
         
-    export_results(curves, dummy_report, args.output_dir)
+    export_results(curves, dummy_report, args.output_dir, force=args.force)
     print("Done!")
 
 if __name__ == "__main__":

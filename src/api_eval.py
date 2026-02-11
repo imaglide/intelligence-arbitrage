@@ -8,6 +8,7 @@ from datetime import datetime
 # Add project root to path
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 from src.config import Config
+from src.results_writer import safe_write_csv, get_run_metadata
 
 def get_completion_params(model: str, temperature: float = 0.0) -> dict:
     """Handle parameter differences between model families."""
@@ -26,16 +27,13 @@ def setup_lm(model_name, temperature=0.0):
     """Configure the DSPy LM based on the model name."""
     params = get_completion_params(model_name, temperature)
     if "gpt" in model_name:
-        return dspy.OpenAI(model=model_name, api_key=Config.OPENAI_API_KEY, **params)
+        return dspy.LM(f"openai/{model_name}", api_key=Config.OPENAI_API_KEY, **params)
     elif "claude" in model_name:
-        # Fallback for Claude if specific client missing, or use OpenAI client for compatible endpoints
-        # Note: If dspy.Anthropic exists, use it, but keeping simple for now.
-        return dspy.OpenAI(model=model_name, api_key=Config.ANTHROPIC_API_KEY, **params) 
+        return dspy.LM(f"anthropic/{model_name}", api_key=Config.ANTHROPIC_API_KEY, **params)
     else:
-        # Fallback
-        return dspy.OpenAI(model=model_name, api_key=Config.OPENAI_API_KEY, **params)
+        return dspy.LM(f"openai/{model_name}", api_key=Config.OPENAI_API_KEY, **params)
 
-def run_evaluation(model_name, task_type, limit=None, dry_run=False, program_path=None, temperature=0.0, run_id=None):
+def run_evaluation(model_name, task_type, limit=None, dry_run=False, program_path=None, temperature=0.0, run_id=None, force=False):
     print(f"\n--- Starting Evaluation: {model_name} on {task_type} ---")
     
     # Strictly respect cache setting
@@ -90,9 +88,29 @@ def run_evaluation(model_name, task_type, limit=None, dry_run=False, program_pat
     try:
         if program_path and os.path.exists(program_path):
             print(f"Loading optimized program from {program_path}...")
-            # optimize.py saves the module. We try to load it into a COT with same signature.
+            import json as _json
+            with open(program_path) as _f:
+                saved_state = _json.load(_f)
+            inner_state = saved_state.get("self", saved_state)
+
             program = dspy.ChainOfThought(Signature)
-            program.load(program_path)
+
+            # Convert DSPy 2.x state format to 3.x format
+            ext_sig = inner_state.get("extended_signature", inner_state.get("signature", {}))
+            raw_demos = inner_state.get("demos", [])
+            state_3x = {
+                "predict": {
+                    "traces": [],
+                    "train": [],
+                    "demos": raw_demos,
+                    "signature": ext_sig,
+                    "lm": None
+                }
+            }
+            program.load_state(state_3x)
+            demo_count = len(program.predict.demos) if hasattr(program, 'predict') else len(raw_demos)
+            has_custom = bool(ext_sig and ext_sig.get("instructions"))
+            print(f"  Loaded {demo_count} demos, instructions={'custom' if has_custom else 'default'}")
         else:
             if program_path:
                 print(f"Warning: Program path {program_path} does not exist. Using baseline.")
@@ -199,7 +217,12 @@ def run_evaluation(model_name, task_type, limit=None, dry_run=False, program_pat
         filename = f"api_{run_type}_{task_type}_{model_name}.csv"
         
     output_path = os.path.join(output_dir, filename)
-    df.to_csv(output_path, index=False)
+    metadata = get_run_metadata(
+        script="src/api_eval.py",
+        model=model_name, task=task_type, program=program_path,
+        limit=limit, temperature=temperature, dry_run=dry_run, force=force,
+    )
+    safe_write_csv(df, output_path, metadata, force=force or dry_run)
     print(f"Results saved to {output_path}")
 
     # Summary
@@ -216,7 +239,8 @@ if __name__ == "__main__":
     parser.add_argument("--program", type=str, default=None, help="Path to optimized program JSON")
     parser.add_argument("--temperature", type=float, default=0.0, help="Sampling temperature")
     parser.add_argument("--run-id", type=str, default=None, help="Unique run identifier for output filename")
-    
+    parser.add_argument("--force", action="store_true", help="Overwrite existing result file")
+
     args = parser.parse_args()
-    
-    run_evaluation(args.model, args.task, args.limit, args.dry_run, args.program, args.temperature, args.run_id)
+
+    run_evaluation(args.model, args.task, args.limit, args.dry_run, args.program, args.temperature, args.run_id, args.force)

@@ -1,0 +1,51 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,timestamp
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,0,Yes,yes,True,94.553,2026-02-08T13:55:43.244907
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,1,None,Chief of Protocol,False,8.494,2026-02-08T13:55:43.253420
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,2,None,Animorphs,False,8.366999999999999,2026-02-08T13:55:43.261793
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,3,None,no,False,8.548,2026-02-08T13:55:43.270348
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,4,None,"Greenwich Village, New York City",False,8.042,2026-02-08T13:55:43.278396
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,5,None,YG Entertainment,False,7.6290000000000004,2026-02-08T13:55:43.286032
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,6,None,Eenasul Fateh,False,7.781,2026-02-08T13:55:43.293818
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,7,5000,"3,677 seated",False,7.513,2026-02-08T13:55:43.301349
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,8,Terry Richardson,Terry Richardson,True,7.917999999999999,2026-02-08T13:55:43.309278
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,9,None,yes,False,8.827,2026-02-08T13:55:43.318121
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,10,None,Kansas Song,False,8.722000000000001,2026-02-08T13:55:43.326850
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,11,None,David Weissman,False,9.882,2026-02-08T13:55:43.336741
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,12,None,1999,False,8.477,2026-02-08T13:55:43.345228
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,13,None,no,False,7.577999999999999,2026-02-08T13:55:43.352812
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,14,None,from 1986 to 2013,False,7.665,2026-02-08T13:55:43.360484
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,15,0,"9,984",False,7.511,2026-02-08T13:55:43.368000
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,16,None,the North Atlantic Conference,False,7.692,2026-02-08T13:55:43.375702
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,17,Yes,yes,True,7.776,2026-02-08T13:55:43.383485
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,18,None,1969 until 1974,False,7.8340000000000005,2026-02-08T13:55:43.391330
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,19,None,Robert Erskine Childers DSC,False,7.420999999999999,2026-02-08T13:55:43.398756
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,20,None,Pedro Rodríguez,False,7.58,2026-02-08T13:55:43.406342
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,21,None,Sonic,False,7.227,2026-02-08T13:55:43.413573
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,22,None,keyboard function keys,False,7.352,2026-02-08T13:55:43.420930
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,23,None,Badly Drawn Boy,False,7.1450000000000005,2026-02-08T13:55:43.428081
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,24,None,World's Best Goalkeeper,False,7.076,2026-02-08T13:55:43.435162
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,25,None,Barton Lee Hazlewood,False,7.2090000000000005,2026-02-08T13:55:43.442377
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,26,1962,1838,False,7.131,2026-02-08T13:55:43.449513
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,27,None,yes,False,7.2170000000000005,2026-02-08T13:55:43.456740
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,28,Henry Kaiser,Henry J. Kaiser,False,7.908999999999999,2026-02-08T13:55:43.464655
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,29,None,Arena of Khazan,False,7.505000000000001,2026-02-08T13:55:43.472169
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,30,None,2000,False,102.143,2026-02-08T13:55:43.574319
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,31,Japan,"Fujioka, Gunma",False,9.258000000000001,2026-02-08T13:55:43.583583
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,32,None,Charles Eugène,False,8.894,2026-02-08T13:55:43.592493
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,33,No,no,True,9.674999999999999,2026-02-08T13:55:43.602176
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,34,None,Letters to Cleo,False,8.166,2026-02-08T13:55:43.610360
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,35,1922,October 1922,False,8.959999999999999,2026-02-08T13:55:43.619326
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,36,None,2000,False,8.306,2026-02-08T13:55:43.627646
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,37,None,World War II,False,8.076,2026-02-08T13:55:43.635729
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,38,No,no,True,7.64,2026-02-08T13:55:43.643375
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,39,None,New York City,False,76.849,2026-02-08T13:55:43.720236
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,40,None,Scotch Collie,False,8.822999999999999,2026-02-08T13:55:43.729065
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,41,None,Mumbai,False,9.219,2026-02-08T13:55:43.738291
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,42,None,1962,False,7.935,2026-02-08T13:55:43.746232
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,43,None,sovereignty,False,7.941999999999999,2026-02-08T13:55:43.754180
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,44,None,Nelson Rockefeller,False,7.662000000000001,2026-02-08T13:55:43.761848
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,45,None,Yellowcraig,False,8.909,2026-02-08T13:55:43.770764
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,46,None,Phil Spector,False,8.046,2026-02-08T13:55:43.778816
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,47,None,Organizations could come together to address global issues,False,8.413,2026-02-08T13:55:43.787236
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,48,Yes,yes,True,8.968,2026-02-08T13:55:43.796212
+qwen3:4b_local_baseline_qa,qwen3:4b,qa,49,None,English Electric Canberra,False,7.3,2026-02-08T13:55:43.803527

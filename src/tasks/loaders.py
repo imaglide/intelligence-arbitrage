@@ -160,7 +160,7 @@ class QALoader(TaskLoader):
         
     def load_data(self, split="train", limit=None):
         # using distractor setting for multi-hop
-        dataset = load_dataset("hotpot_qa", "distractor", split=split, trust_remote_code=True)
+        dataset = load_dataset("hotpot_qa", "distractor", split=split)
         examples = []
         
         if split == "train":
@@ -593,9 +593,9 @@ class CodeLoader(TaskLoader):
             # Use MBPP for training/optimization
             print("Loading MBPP for Code training...")
             try:
-                dataset = load_dataset("mbpp", split="train", trust_remote_code=True)
+                dataset = load_dataset("mbpp", split="train")
             except:
-                dataset = load_dataset("google-research-datasets/mbpp", split="train", trust_remote_code=True)
+                dataset = load_dataset("google-research-datasets/mbpp", split="train")
                 
             dataset = dataset.shuffle(seed=42)
             
@@ -619,7 +619,7 @@ class CodeLoader(TaskLoader):
             # Use HumanEval for evaluation
             # It only has 'test' split usually
             print("Loading HumanEval for Code evaluation...")
-            dataset = load_dataset("openai_humaneval", split="test", trust_remote_code=True)
+            dataset = load_dataset("openai_humaneval", split="test")
             
             for item in dataset:
                 prompt = item["prompt"]

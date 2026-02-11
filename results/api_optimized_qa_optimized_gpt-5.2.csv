@@ -1,0 +1,51 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,input_tokens,output_tokens,api_cost_usd,timestamp
+gpt-5.2_baseline_qa,gpt-5.2,qa,0,yes,yes,True,2502.9249999999997,829,76,0.01057,2026-02-07T12:34:24.123090
+gpt-5.2_baseline_qa,gpt-5.2,qa,1,United States Ambassador to Ghana,Chief of Protocol,False,2182.874,838,122,0.01204,2026-02-07T12:34:26.305991
+gpt-5.2_baseline_qa,gpt-5.2,qa,2,Animorphs,Animorphs,True,3434.918,847,169,0.01354,2026-02-07T12:34:29.740934
+gpt-5.2_baseline_qa,gpt-5.2,qa,3,no,no,True,2349.763,833,105,0.01148,2026-02-07T12:34:32.090720
+gpt-5.2_baseline_qa,gpt-5.2,qa,4,Greenwich Village,"Greenwich Village, New York City",False,2233.369,836,93,0.01115,2026-02-07T12:34:34.324115
+gpt-5.2_baseline_qa,gpt-5.2,qa,5,YG Entertainment,YG Entertainment,True,1824.9489999999998,837,74,0.010589999999999999,2026-02-07T12:34:36.149096
+gpt-5.2_baseline_qa,gpt-5.2,qa,6,Ison Glasgow,Eenasul Fateh,False,2896.882,836,114,0.011780000000000002,2026-02-07T12:34:39.046006
+gpt-5.2_baseline_qa,gpt-5.2,qa,7,"3,677","3,677 seated",False,1982.335,836,89,0.011030000000000002,2026-02-07T12:34:41.028398
+gpt-5.2_baseline_qa,gpt-5.2,qa,8,Terry Richardson,Terry Richardson,True,1941.435,827,99,0.01124,2026-02-07T12:34:42.969863
+gpt-5.2_baseline_qa,gpt-5.2,qa,9,yes,yes,True,1860.808,829,76,0.01057,2026-02-07T12:34:44.830698
+gpt-5.2_baseline_qa,gpt-5.2,qa,10,I'm a Jayhawk,Kansas Song,False,2202.621,848,105,0.01163,2026-02-07T12:34:47.033344
+gpt-5.2_baseline_qa,gpt-5.2,qa,11,David Diamond,David Weissman,False,2351.496,840,127,0.012210000000000002,2026-02-07T12:34:49.384863
+gpt-5.2_baseline_qa,gpt-5.2,qa,12,1999,1999,True,3455.669,841,135,0.012459999999999999,2026-02-07T12:34:52.840558
+gpt-5.2_baseline_qa,gpt-5.2,qa,13,yes,no,False,2157.93,834,106,0.01152,2026-02-07T12:34:54.998510
+gpt-5.2_baseline_qa,gpt-5.2,qa,14,1986–2013,from 1986 to 2013,False,2138.928,831,102,0.01137,2026-02-07T12:34:57.137463
+gpt-5.2_baseline_qa,gpt-5.2,qa,15,"331,000,000","9,984",False,2355.651,834,103,0.01143,2026-02-07T12:34:59.493143
+gpt-5.2_baseline_qa,gpt-5.2,qa,16,North Atlantic Conference,the North Atlantic Conference,False,2421.547,846,89,0.011129999999999998,2026-02-07T12:35:01.914718
+gpt-5.2_baseline_qa,gpt-5.2,qa,17,yes,yes,True,2878.9790000000003,830,114,0.011720000000000001,2026-02-07T12:35:04.793728
+gpt-5.2_baseline_qa,gpt-5.2,qa,18,1969 to 1974,1969 until 1974,False,2061.523,843,103,0.011519999999999999,2026-02-07T12:35:06.855280
+gpt-5.2_baseline_qa,gpt-5.2,qa,19,Robert Erskine Childers,Robert Erskine Childers DSC,False,1804.349,833,93,0.011120000000000001,2026-02-07T12:35:08.659660
+gpt-5.2_baseline_qa,gpt-5.2,qa,20,Pedro Rodríguez,Pedro Rodríguez,True,3056.81,840,148,0.01284,2026-02-07T12:35:11.716499
+gpt-5.2_baseline_qa,gpt-5.2,qa,21,Herman the Hedgehog,Sonic,False,2358.33,833,104,0.01145,2026-02-07T12:35:14.074858
+gpt-5.2_baseline_qa,gpt-5.2,qa,22,Apple wireless keyboard,keyboard function keys,False,2225.0679999999998,839,103,0.01148,2026-02-07T12:35:16.299950
+gpt-5.2_baseline_qa,gpt-5.2,qa,23,Neither (they’re about equal),Badly Drawn Boy,False,3294.3120000000004,838,165,0.01333,2026-02-07T12:35:19.594291
+gpt-5.2_baseline_qa,gpt-5.2,qa,24,IFFHS World’s Best Goalkeeper,World's Best Goalkeeper,False,2251.6,840,94,0.01122,2026-02-07T12:35:21.845921
+gpt-5.2_baseline_qa,gpt-5.2,qa,25,Lee Hazlewood,Barton Lee Hazlewood,False,1935.7340000000002,838,89,0.01105,2026-02-07T12:35:23.781694
+gpt-5.2_baseline_qa,gpt-5.2,qa,26,1838,1838,True,1922.05,851,81,0.01094,2026-02-07T12:35:25.703772
+gpt-5.2_baseline_qa,gpt-5.2,qa,27,yes,yes,True,2621.0480000000002,834,118,0.01188,2026-02-07T12:35:28.324845
+gpt-5.2_baseline_qa,gpt-5.2,qa,28,Henry J. Kaiser,Henry J. Kaiser,True,2424.268,840,110,0.011700000000000002,2026-02-07T12:35:30.749139
+gpt-5.2_baseline_qa,gpt-5.2,qa,29,solo adventure,Arena of Khazan,False,2102.272,841,96,0.01129,2026-02-07T12:35:32.851436
+gpt-5.2_baseline_qa,gpt-5.2,qa,30,"Poison has no album titled “Shut Up, Make Love” (so there is no release date).",2000,False,2675.4289999999996,832,130,0.012219999999999998,2026-02-07T12:35:35.526898
+gpt-5.2_baseline_qa,gpt-5.2,qa,31,Japan,"Fujioka, Gunma",False,1894.835,835,81,0.01078,2026-02-07T12:35:37.421754
+gpt-5.2_baseline_qa,gpt-5.2,qa,32,Charles Nungesser,Charles Eugène,False,2726.512,831,115,0.01176,2026-02-07T12:35:40.148299
+gpt-5.2_baseline_qa,gpt-5.2,qa,33,yes,no,False,2499.37,833,132,0.01229,2026-02-07T12:35:42.647693
+gpt-5.2_baseline_qa,gpt-5.2,qa,34,Letters to Cleo,Letters to Cleo,True,3202.116,833,139,0.0125,2026-02-07T12:35:45.849837
+gpt-5.2_baseline_qa,gpt-5.2,qa,35,1922,October 1922,False,2062.09,840,87,0.01101,2026-02-07T12:35:47.911956
+gpt-5.2_baseline_qa,gpt-5.2,qa,36,2000,2000,True,2671.297,838,96,0.011260000000000001,2026-02-07T12:35:50.583279
+gpt-5.2_baseline_qa,gpt-5.2,qa,37,World War II,World War II,True,2915.1099999999997,839,135,0.01244,2026-02-07T12:35:53.498416
+gpt-5.2_baseline_qa,gpt-5.2,qa,38,no,no,True,1864.652,834,84,0.01086,2026-02-07T12:35:55.363096
+gpt-5.2_baseline_qa,gpt-5.2,qa,39,New York City,New York City,True,1886.3110000000001,836,71,0.010490000000000001,2026-02-07T12:35:57.249437
+gpt-5.2_baseline_qa,gpt-5.2,qa,40,Scotch Collie,Scotch Collie,True,2532.5510000000004,836,116,0.011840000000000002,2026-02-07T12:35:59.782026
+gpt-5.2_baseline_qa,gpt-5.2,qa,41,"Mumbai, Maharashtra, India",Mumbai,False,1689.432,835,82,0.01081,2026-02-07T12:36:01.471489
+gpt-5.2_baseline_qa,gpt-5.2,qa,42,1962,1962,True,3226.654,847,104,0.01159,2026-02-07T12:36:04.698164
+gpt-5.2_baseline_qa,gpt-5.2,qa,43,Ethiopia’s independence,sovereignty,False,3147.4880000000003,833,125,0.01208,2026-02-07T12:36:07.845685
+gpt-5.2_baseline_qa,gpt-5.2,qa,44,Spiro T. Agnew,Nelson Rockefeller,False,1898.618,844,95,0.01129,2026-02-07T12:36:09.744330
+gpt-5.2_baseline_qa,gpt-5.2,qa,45,Firth of Forth,Yellowcraig,False,2406.181,840,100,0.0114,2026-02-07T12:36:12.150542
+gpt-5.2_baseline_qa,gpt-5.2,qa,46,Phil Spector,Phil Spector,True,3150.904,846,166,0.013439999999999999,2026-02-07T12:36:15.301471
+gpt-5.2_baseline_qa,gpt-5.2,qa,47,international forum,Organizations could come together to address global issues,False,2161.307,829,115,0.01174,2026-02-07T12:36:17.462810
+gpt-5.2_baseline_qa,gpt-5.2,qa,48,yes,yes,True,1913.23,829,82,0.010750000000000001,2026-02-07T12:36:19.376063
+gpt-5.2_baseline_qa,gpt-5.2,qa,49,None,English Electric Canberra,False,3474.0890000000004,838,174,0.013600000000000001,2026-02-07T12:36:22.850176

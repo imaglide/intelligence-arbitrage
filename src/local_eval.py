@@ -8,6 +8,7 @@ from datetime import datetime
 # Add project root to path
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 from src.config import Config
+from src.results_writer import safe_write_csv, get_run_metadata
 import warnings
 # Suppress noisy Pydantic warnings appearing in dspy/litellm interaction
 warnings.filterwarnings("ignore", message=".*Pydantic serializer warnings.*")
@@ -15,15 +16,14 @@ warnings.filterwarnings("ignore", message=".*Pydantic serializer warnings.*")
 
 def setup_local_lm(model_name, temperature=0.0):
     """Configure the DSPy LM for local Ollama."""
-    return dspy.OpenAI(
-        model=model_name, 
-        api_base=f"{Config.OLLAMA_BASE_URL}/v1",
-        api_key="ollama",
+    return dspy.LM(
+        f"ollama_chat/{model_name}",
+        api_base=Config.OLLAMA_BASE_URL,
         temperature=temperature,
-        model_type="chat"
+        max_tokens=1024,
     )
 
-def run_local_evaluation(model_name, task_type, limit=None, dry_run=False, program_path=None, temperature=0.0, run_id=None):
+def run_local_evaluation(model_name, task_type, limit=None, dry_run=False, program_path=None, temperature=0.0, run_id=None, force=False):
     print(f"\n--- Starting Local Evaluation: {model_name} on {task_type} ---")
     
     # Strictly respect cache setting
@@ -81,16 +81,29 @@ def run_local_evaluation(model_name, task_type, limit=None, dry_run=False, progr
     try:
         if program_path and os.path.exists(program_path):
             print(f"Loading optimized program from {program_path}...")
-            # For dspy.Module.load to work, we need an instance of the class first usually,
-            # OR we depend on how it was saved.
-            # optimize.py saves using .save(), which expects .load() on an instance.
-            # We assume it's a ChainOfThought or similar.
-            
-            # Reconstruct the structure used in optimize.py
-            # In optimize.py: program = dspy.ChainOfThought(signature)
-            # So we should be able to load into that.
+            import json as _json
+            with open(program_path) as _f:
+                saved_state = _json.load(_f)
+            inner_state = saved_state.get("self", saved_state)
+
             program = dspy.ChainOfThought(Signature)
-            program.load(program_path)
+
+            # Convert DSPy 2.x state format to 3.x format
+            ext_sig = inner_state.get("extended_signature", inner_state.get("signature", {}))
+            raw_demos = inner_state.get("demos", [])
+            state_3x = {
+                "predict": {
+                    "traces": [],
+                    "train": [],
+                    "demos": raw_demos,
+                    "signature": ext_sig,
+                    "lm": None
+                }
+            }
+            program.load_state(state_3x)
+            demo_count = len(program.predict.demos) if hasattr(program, 'predict') else len(raw_demos)
+            has_custom = bool(ext_sig and ext_sig.get("instructions"))
+            print(f"  Loaded {demo_count} demos, instructions={'custom' if has_custom else 'default'}")
         else:
             if program_path:
                 print(f"Warning: Program path {program_path} does not exist. Using baseline.")
@@ -190,7 +203,12 @@ def run_local_evaluation(model_name, task_type, limit=None, dry_run=False, progr
         filename = f"local_{run_type}_{task_type}_{safe_model_name}.csv"
         
     output_path = os.path.join(output_dir, filename)
-    df.to_csv(output_path, index=False)
+    metadata = get_run_metadata(
+        script="src/local_eval.py",
+        model=model_name, task=task_type, program=program_path,
+        limit=limit, temperature=temperature, dry_run=dry_run, force=force,
+    )
+    safe_write_csv(df, output_path, metadata, force=force or dry_run)
     print(f"Results saved to {output_path}")
 
     if "is_correct" in df.columns:
@@ -206,7 +224,8 @@ if __name__ == "__main__":
     parser.add_argument("--program", type=str, default=None, help="Path to optimized program JSON")
     parser.add_argument("--temperature", type=float, default=0.0, help="Sampling temperature")
     parser.add_argument("--run-id", type=str, default=None, help="Unique run identifier for output filename")
-    
+    parser.add_argument("--force", action="store_true", help="Overwrite existing result file")
+
     args = parser.parse_args()
-    
-    run_local_evaluation(args.model, args.task, args.limit, args.dry_run, args.program, args.temperature, args.run_id)
+
+    run_local_evaluation(args.model, args.task, args.limit, args.dry_run, args.program, args.temperature, args.run_id, args.force)

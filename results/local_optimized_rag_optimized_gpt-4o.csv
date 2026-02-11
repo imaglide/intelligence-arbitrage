@@ -1,0 +1,51 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,timestamp
+gpt-4o_local_baseline_rag,gpt-4o,rag,0,Denver Broncos,Denver Broncos,True,1157.329,2026-02-05T22:28:37.198839
+gpt-4o_local_baseline_rag,gpt-4o,rag,1,Carolina Panthers,Carolina Panthers,True,1532.357,2026-02-05T22:28:38.731228
+gpt-4o_local_baseline_rag,gpt-4o,rag,2,"Levi's Stadium in Santa Clara, California.","Santa Clara, California",True,1009.4110000000001,2026-02-05T22:28:39.740661
+gpt-4o_local_baseline_rag,gpt-4o,rag,3,The Denver Broncos won Super Bowl 50.,Denver Broncos,True,1127.0739999999998,2026-02-05T22:28:40.867762
+gpt-4o_local_baseline_rag,gpt-4o,rag,4,gold,gold,True,1554.028,2026-02-05T22:28:42.421834
+gpt-4o_local_baseline_rag,gpt-4o,rag,5,"the ""golden anniversary"" with various gold-themed initiatives.","""golden anniversary""",True,1731.8139999999999,2026-02-05T22:28:44.153687
+gpt-4o_local_baseline_rag,gpt-4o,rag,6,"February 7, 2016","February 7, 2016",True,1025.269,2026-02-05T22:28:45.178977
+gpt-4o_local_baseline_rag,gpt-4o,rag,7,American Football Conference,American Football Conference,True,1510.298,2026-02-05T22:28:46.689305
+gpt-4o_local_baseline_rag,gpt-4o,rag,8,"the ""golden anniversary"" with various gold-themed initiatives.","""golden anniversary""",True,0.212,2026-02-05T22:28:46.689527
+gpt-4o_local_baseline_rag,gpt-4o,rag,9,American Football Conference,American Football Conference,True,1046.6660000000002,2026-02-05T22:28:47.736203
+gpt-4o_local_baseline_rag,gpt-4o,rag,10,"February 7, 2016","February 7, 2016",True,1023.897,2026-02-05T22:28:48.760116
+gpt-4o_local_baseline_rag,gpt-4o,rag,11,Denver Broncos,Denver Broncos,True,923.0319999999999,2026-02-05T22:28:49.683165
+gpt-4o_local_baseline_rag,gpt-4o,rag,12,Levi's Stadium,Levi's Stadium,True,920.653,2026-02-05T22:28:50.603838
+gpt-4o_local_baseline_rag,gpt-4o,rag,13,Santa Clara,Santa Clara,True,1419.23,2026-02-05T22:28:52.023085
+gpt-4o_local_baseline_rag,gpt-4o,rag,14,Super Bowl L,Super Bowl L,True,1147.699,2026-02-05T22:28:53.170802
+gpt-4o_local_baseline_rag,gpt-4o,rag,15,2015 season,2015,True,1195.9360000000001,2026-02-05T22:28:54.366761
+gpt-4o_local_baseline_rag,gpt-4o,rag,16,2016,2015,False,1049.9019999999998,2026-02-05T22:28:55.416689
+gpt-4o_local_baseline_rag,gpt-4o,rag,17,Santa Clara,Santa Clara,True,0.18000000000000002,2026-02-05T22:28:55.416877
+gpt-4o_local_baseline_rag,gpt-4o,rag,18,Levi's Stadium,Levi's Stadium,True,924.519,2026-02-05T22:28:56.341411
+gpt-4o_local_baseline_rag,gpt-4o,rag,19,24–10,24–10,True,874.419,2026-02-05T22:28:57.215857
+gpt-4o_local_baseline_rag,gpt-4o,rag,20,"February 7, 2016","February 7, 2016",True,980.9290000000001,2026-02-05T22:28:58.196818
+gpt-4o_local_baseline_rag,gpt-4o,rag,21,2016,2015,False,861.839,2026-02-05T22:28:59.058684
+gpt-4o_local_baseline_rag,gpt-4o,rag,22,Denver Broncos,Denver Broncos,True,1179.38,2026-02-05T22:29:00.238090
+gpt-4o_local_baseline_rag,gpt-4o,rag,23,Carolina Panthers,Carolina Panthers,True,855.924,2026-02-05T22:29:01.094049
+gpt-4o_local_baseline_rag,gpt-4o,rag,24,Denver Broncos,Denver Broncos,True,0.35100000000000003,2026-02-05T22:29:01.094420
+gpt-4o_local_baseline_rag,gpt-4o,rag,25,2015 season,2015,True,2890.737,2026-02-05T22:29:03.985172
+gpt-4o_local_baseline_rag,gpt-4o,rag,26,The Denver Broncos.,Denver Broncos,True,1569.7,2026-02-05T22:29:05.554895
+gpt-4o_local_baseline_rag,gpt-4o,rag,27,"Levi's Stadium in Santa Clara, California.","Santa Clara, California.",True,1126.158,2026-02-05T22:29:06.681073
+gpt-4o_local_baseline_rag,gpt-4o,rag,28,Super Bowl,Super Bowl,True,909.336,2026-02-05T22:29:07.590427
+gpt-4o_local_baseline_rag,gpt-4o,rag,29,Denver Broncos,Denver Broncos,True,2265.746,2026-02-05T22:29:09.856196
+gpt-4o_local_baseline_rag,gpt-4o,rag,30,Cam Newton,Cam Newton,True,1250.817,2026-02-05T22:29:11.107031
+gpt-4o_local_baseline_rag,gpt-4o,rag,31,eight appearances,8,False,995.465,2026-02-05T22:29:12.102512
+gpt-4o_local_baseline_rag,gpt-4o,rag,32,1995,1995,True,929.301,2026-02-05T22:29:13.031826
+gpt-4o_local_baseline_rag,gpt-4o,rag,33,Arizona Cardinals,Arizona Cardinals,True,840.65,2026-02-05T22:29:13.872497
+gpt-4o_local_baseline_rag,gpt-4o,rag,34,the New England Patriots,New England Patriots,True,1296.636,2026-02-05T22:29:15.169161
+gpt-4o_local_baseline_rag,gpt-4o,rag,35,Arizona Cardinals,Arizona Cardinals,True,1099.2569999999998,2026-02-05T22:29:16.268453
+gpt-4o_local_baseline_rag,gpt-4o,rag,36,New England Patriots,New England Patriots,True,903.457,2026-02-05T22:29:17.171951
+gpt-4o_local_baseline_rag,gpt-4o,rag,37,New England Patriots,New England Patriots,True,1289.1999999999998,2026-02-05T22:29:18.461186
+gpt-4o_local_baseline_rag,gpt-4o,rag,38,Four teams have been in the Super Bowl eight times.,four,True,954.622,2026-02-05T22:29:19.415836
+gpt-4o_local_baseline_rag,gpt-4o,rag,39,Cam Newton,Cam Newton,True,1200.155,2026-02-05T22:29:20.616006
+gpt-4o_local_baseline_rag,gpt-4o,rag,40,15/1,15–1,False,1738.8790000000001,2026-02-05T22:29:22.354911
+gpt-4o_local_baseline_rag,gpt-4o,rag,41,Cam Newton,Cam Newton,True,1221.1970000000001,2026-02-05T22:29:23.576132
+gpt-4o_local_baseline_rag,gpt-4o,rag,42,12 wins and 4 losses,12–4,False,1334.223,2026-02-05T22:29:24.910384
+gpt-4o_local_baseline_rag,gpt-4o,rag,43,Four teams,4,False,1537.279,2026-02-05T22:29:26.447698
+gpt-4o_local_baseline_rag,gpt-4o,rag,44,New England Patriots,New England Patriots,True,1171.046,2026-02-05T22:29:27.618778
+gpt-4o_local_baseline_rag,gpt-4o,rag,45,Cam Newton,Cam Newton,True,2311.225,2026-02-05T22:29:29.930037
+gpt-4o_local_baseline_rag,gpt-4o,rag,46,Arizona Cardinals,Arizona Cardinals,True,1106.6039999999998,2026-02-05T22:29:31.036669
+gpt-4o_local_baseline_rag,gpt-4o,rag,47,two,2,False,1029.2730000000001,2026-02-05T22:29:32.065961
+gpt-4o_local_baseline_rag,gpt-4o,rag,48,New England Patriots,New England Patriots,True,1215.249,2026-02-05T22:29:33.281239
+gpt-4o_local_baseline_rag,gpt-4o,rag,49,Cam Newton,Cam Newton,True,1049.876,2026-02-05T22:29:34.331155

@@ -1,0 +1,51 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,timestamp
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,0,Denver Broncos,Denver Broncos,True,13227.187,2026-02-08T18:24:45.408329
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,1,Carolina Panthers,Carolina Panthers,True,8501.692000000001,2026-02-08T18:24:53.910040
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,2,"Levi's Stadium, Santa Clara, California","Santa Clara, California",True,9679.197,2026-02-08T18:25:03.589266
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,3,Denver Broncos,Denver Broncos,True,10242.386,2026-02-08T18:25:13.831671
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,4,gold,gold,True,12043.077000000001,2026-02-08T18:25:25.874779
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,5,"The theme of Super Bowl 50 was the ""golden anniversary,"" celebrating its 50th year with gold-themed events.","""golden anniversary""",False,11816.151,2026-02-08T18:25:37.690955
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,6,"February 7, 2016.","February 7, 2016",True,25265.075,2026-02-08T18:26:02.956053
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,7,AFC,American Football Conference,False,10330.975,2026-02-08T18:26:13.287081
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,8,"The theme of Super Bowl 50 was the ""golden anniversary,"" celebrating its 50th year with gold-themed events.","""golden anniversary""",False,16.164,2026-02-08T18:26:13.303277
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,9,AFC stands for American Football Conference.,American Football Conference,True,9933.448,2026-02-08T18:26:23.236748
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,10,Sunday,"February 7, 2016",False,24927.536,2026-02-08T18:26:48.164305
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,11,Denver Broncos,Denver Broncos,True,7767.433,2026-02-08T18:26:55.931763
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,12,"Levi's Stadium, San Francisco Bay Area, California",Levi's Stadium,True,10717.856,2026-02-08T18:27:06.649638
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,13,San Francisco,Santa Clara,False,10283.56,2026-02-08T18:27:16.933226
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,14,Super Bowl L,Super Bowl L,True,12919.297,2026-02-08T18:27:29.852541
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,15,The NFL champion for the 2015 season.,2015,True,12590.482,2026-02-08T18:27:42.443044
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,16,2016,2015,False,12928.446,2026-02-08T18:27:55.371527
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,17,San Francisco,Santa Clara,False,18.058999999999997,2026-02-08T18:27:55.389627
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,18,"Levi's Stadium, Santa Clara, California",Levi's Stadium,True,8911.568000000001,2026-02-08T18:28:04.301225
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,19,24–10,24–10,True,12008.001,2026-02-08T18:28:16.309272
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,20,"February 7, 2016","February 7, 2016",True,8349.523,2026-02-08T18:28:24.658809
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,21,2016,2015,False,13037.571,2026-02-08T18:28:37.696398
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,22,Denver Broncos,Denver Broncos,True,19404.104,2026-02-08T18:28:57.100528
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,23,Carolina Panthers,Carolina Panthers,True,10618.413,2026-02-08T18:29:07.718960
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,24,Denver Broncos,Denver Broncos,True,17.003999999999998,2026-02-08T18:29:07.735993
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,25,2015,2015,True,9987.852,2026-02-08T18:29:17.723866
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,26,Denver Broncos,Denver Broncos,True,9164.444,2026-02-08T18:29:26.888342
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,27,"Levi's Stadium, Santa Clara, California","Santa Clara, California.",False,9679.529,2026-02-08T18:29:36.567886
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,28,Super Bowl 50,Super Bowl,True,14419.344000000001,2026-02-08T18:29:50.987254
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,29,Denver Broncos,Denver Broncos,True,14631.497,2026-02-08T18:30:05.618788
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,30,Cam Newton,Cam Newton,True,10896.409,2026-02-08T18:30:16.515239
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,31,8,8,True,10455.66,2026-02-08T18:30:26.970918
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,32,1993,1995,False,19778.932999999997,2026-02-08T18:30:46.749871
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,33,Arizona Cardinals,Arizona Cardinals,True,8497.462000000001,2026-02-08T18:30:55.247367
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,34,The New England Patriots were prevented from going to the Super Bowl.,New England Patriots,True,10251.935,2026-02-08T18:31:05.499345
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,35,Arizona Cardinals,Arizona Cardinals,True,14310.069,2026-02-08T18:31:19.809435
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,36,New England Patriots,New England Patriots,True,9571.991,2026-02-08T18:31:29.381465
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,37,Denver Broncos,New England Patriots,False,11729.018,2026-02-08T18:31:41.110504
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,38,4,four,False,12338.660000000002,2026-02-08T18:31:53.449196
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,39,Cam Newton,Cam Newton,True,9004.341999999999,2026-02-08T18:32:02.453560
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,40,15–1,15–1,True,8958.168000000001,2026-02-08T18:32:11.411774
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,41,Cam Newton,Cam Newton,True,10062.273,2026-02-08T18:32:21.474099
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,42,Denver Broncos: 12–4,12–4,True,9024.091,2026-02-08T18:32:30.498221
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,43,4,4,True,9166.537,2026-02-08T18:32:39.664800
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,44,None,New England Patriots,False,38250.719,2026-02-08T18:33:17.915540
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,45,Cam Newton,Cam Newton,True,10370.658000000001,2026-02-08T18:33:28.286207
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,46,Arizona Cardinals,Arizona Cardinals,True,13605.001,2026-02-08T18:33:41.891249
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,47,2,2,True,9658.434,2026-02-08T18:33:51.549723
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,48,Denver beat the New England Patriots.,New England Patriots,True,7708.819,2026-02-08T18:33:59.258582
+deepseek-r1:7b_local_baseline_rag,deepseek-r1:7b,rag,49,Cam Newton,Cam Newton,True,15732.248,2026-02-08T18:34:14.990858

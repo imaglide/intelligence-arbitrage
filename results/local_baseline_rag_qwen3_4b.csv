@@ -1,0 +1,51 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,timestamp
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,0,Denver Broncos,Denver Broncos,True,91.09,2026-02-08T16:13:07.316756
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,1,Carolina Panthers,Carolina Panthers,True,8.097,2026-02-08T16:13:07.324874
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,2,"Levi's Stadium in Santa Clara, California","Santa Clara, California",True,8.201,2026-02-08T16:13:07.333092
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,3,Denver Broncos,Denver Broncos,True,8.678999999999998,2026-02-08T16:13:07.341790
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,4,gold,gold,True,7.6930000000000005,2026-02-08T16:13:07.349499
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,5,golden anniversary,"""golden anniversary""",True,9055.194,2026-02-08T16:13:16.404708
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,6,February 7,"February 7, 2016",True,7718.824,2026-02-08T16:13:24.123549
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,7,American Football Conference,American Football Conference,True,7686.358,2026-02-08T16:13:31.809944
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,8,golden anniversary,"""golden anniversary""",True,9.891,2026-02-08T16:13:31.819855
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,9,American Football Conference,American Football Conference,True,5130.286,2026-02-08T16:13:36.950160
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,10,February 7,"February 7, 2016",True,6869.484,2026-02-08T16:13:43.819666
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,11,Denver Broncos,Denver Broncos,True,8176.265000000001,2026-02-08T16:13:51.995947
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,12,Levi's Stadium,Levi's Stadium,True,7682.974,2026-02-08T16:13:59.678943
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,13,Santa Clara,Santa Clara,True,6687.7880000000005,2026-02-08T16:14:06.366750
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,14,Super Bowl L,Super Bowl L,True,13095.894,2026-02-08T16:14:19.462668
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,15,2015,2015,True,12006.743,2026-02-08T16:14:31.469436
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,16,2016,2015,False,12715.326,2026-02-08T16:14:44.184791
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,17,Santa Clara,Santa Clara,True,9.555,2026-02-08T16:14:44.194393
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,18,Levi's Stadium,Levi's Stadium,True,7745.451,2026-02-08T16:14:51.939867
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,19,24–10,24–10,True,6900.416,2026-02-08T16:14:58.840309
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,20,"February 7, 2016","February 7, 2016",True,9808.724,2026-02-08T16:15:08.649054
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,21,2016,2015,False,9610.792,2026-02-08T16:15:18.259865
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,22,Denver Broncos,Denver Broncos,True,5463.075,2026-02-08T16:15:23.722963
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,23,Carolina Panthers,Carolina Panthers,True,7912.012,2026-02-08T16:15:31.634996
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,24,Denver Broncos,Denver Broncos,True,9.813,2026-02-08T16:15:31.644831
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,25,2015 season,2015,True,15450.697999999999,2026-02-08T16:15:47.095556
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,26,Denver Broncos,Denver Broncos,True,8845.104,2026-02-08T16:15:55.940733
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,27,"Santa Clara, California","Santa Clara, California.",True,22524.076,2026-02-08T16:16:18.464854
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,28,None,Super Bowl,False,50548.779,2026-02-08T16:17:09.013674
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,29,Denver Broncos,Denver Broncos,True,9636.013,2026-02-08T16:17:18.649694
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,30,Cam Newton,Cam Newton,True,7832.387,2026-02-08T16:17:26.482106
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,31,8,8,True,8895.92,2026-02-08T16:17:35.378045
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,32,1995,1995,True,20121.626,2026-02-08T16:17:55.499695
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,33,Arizona Cardinals,Arizona Cardinals,True,6403.701,2026-02-08T16:18:01.903446
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,34,New England Patriots,New England Patriots,True,9456.396,2026-02-08T16:18:11.359868
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,35,Arizona Cardinals,Arizona Cardinals,True,7077.356,2026-02-08T16:18:18.437279
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,36,New England Patriots,New England Patriots,True,8642.732,2026-02-08T16:18:27.080054
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,37,New England Patriots,New England Patriots,True,11379.909,2026-02-08T16:18:38.460058
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,38,4,four,False,14469.352,2026-02-08T16:18:52.929471
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,39,Cam Newton,Cam Newton,True,6570.503000000001,2026-02-08T16:18:59.500030
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,40,15–1,15–1,True,22210.141,2026-02-08T16:19:21.710225
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,41,None,Cam Newton,False,24998.934999999998,2026-02-08T16:19:46.709202
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,42,None,12–4,False,24997.036,2026-02-08T16:20:11.706261
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,43,4,4,True,11884.518999999998,2026-02-08T16:20:23.590808
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,44,New England Patriots,New England Patriots,True,23337.309,2026-02-08T16:20:46.928167
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,45,Cam Newton,Cam Newton,True,7502.500999999999,2026-02-08T16:20:54.430689
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,46,Arizona Cardinals,Arizona Cardinals,True,7844.582,2026-02-08T16:21:02.275291
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,47,2,2,True,6907.642,2026-02-08T16:21:09.182954
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,48,New England Patriots,New England Patriots,True,7038.981,2026-02-08T16:21:16.221960
+qwen3:4b_local_baseline_rag,qwen3:4b,rag,49,Cam Newton,Cam Newton,True,11426.933,2026-02-08T16:21:27.648924

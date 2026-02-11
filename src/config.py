@@ -23,23 +23,21 @@ class Config:
         "qwen2.5_7b": "qwen2.5:7b",
         "mistral": "mistral:latest",
         # Reasoning models for tipping point experiment
-        "qwen3:4b-q4_K_M": "qwen3:4b-q4_K_M", 
-        "deepseek-r1:7b-q4_K_M": "deepseek-r1:7b-q4_K_M"
+        "qwen3:4b": "qwen3:4b",
+        "deepseek-r1:7b": "deepseek-r1:7b"
     }
     
     # Detailed Model Configs (New in Tipping Point Spec)
     MODEL_METADATA = {
-        "qwen3:4b-q4_K_M": {
-            "name": "qwen3:4b-q4_K_M",
+        "qwen3:4b": {
+            "name": "qwen3:4b",
             "context_length": 32768,
-            "quantization": "Q4_K_M",
             "memory_gb": 2.5,
             "supports_thinking": True,
         },
-        "deepseek-r1:7b-q4_K_M": {
-            "name": "deepseek-r1:7b-q4_K_M",
+        "deepseek-r1:7b": {
+            "name": "deepseek-r1:7b",
             "context_length": 65536,
-            "quantization": "Q4_K_M",
             "memory_gb": 4.5,
             "supports_thinking": True,
         },
@@ -57,7 +55,7 @@ class Config:
         print(f"Config Warning: {e}")
 
     TIPPING_POINT_CONFIG = {
-        "models": ["qwen3:4b-q4_K_M", "deepseek-r1:7b-q4_K_M"],
+        "models": ["qwen3:4b", "deepseek-r1:7b"],
         "example_counts_per_occupation": [0, 1, 2],
         "example_counts_pooled": [0, 1, 2, 3, 5, 8],
         "regime_thresholds": {

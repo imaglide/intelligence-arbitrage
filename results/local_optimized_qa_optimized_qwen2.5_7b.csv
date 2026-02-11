@@ -1,0 +1,51 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,timestamp
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,0,yes,yes,True,6715.245999999999,2026-02-06T21:29:27.534336
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,1,U.S. Ambassador to the United Nations Human Rights Commission,Chief of Protocol,False,6034.93,2026-02-06T21:29:33.569283
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,2,The Expanse,Animorphs,False,7970.273,2026-02-06T21:29:41.539586
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,3,yes,no,False,3738.5519999999997,2026-02-06T21:29:45.278171
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,4,New York City,"Greenwich Village, New York City",False,3667.719,2026-02-06T21:29:48.945940
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,5,SM Entertainment,YG Entertainment,False,4961.926,2026-02-06T21:29:53.907882
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,6,Aladin Kassam,Eenasul Fateh,False,8199.457,2026-02-06T21:30:02.107357
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,7,"5,279","3,677 seated",False,4545.459,2026-02-06T21:30:06.652848
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,8,Terry Richardson,Terry Richardson,True,3586.358,2026-02-06T21:30:10.239248
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,9,No,yes,False,4136.134,2026-02-06T21:30:14.375412
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,10,Kansan Fight Song,Kansas Song,False,3880.676,2026-02-06T21:30:18.256113
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,11,David Twohy,David Weissman,False,5584.021,2026-02-06T21:30:23.840154
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,12,1994,1999,False,5441.54,2026-02-06T21:30:29.281711
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,13,yes,no,False,5504.072,2026-02-06T21:30:34.785802
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,14,1992,from 1986 to 2013,False,3804.493,2026-02-06T21:30:38.590315
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,15,331 million,"9,984",False,5118.37,2026-02-06T21:30:43.708726
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,16,Northeastern Collegiate Soccer Association,the North Atlantic Conference,False,4039.0139999999997,2026-02-06T21:30:47.747756
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,17,yes,yes,True,4471.684,2026-02-06T21:30:52.219464
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,18,1963 to 1969,1969 until 1974,False,4997.636,2026-02-06T21:30:57.217122
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,19,Robert Erskine Childers,Robert Erskine Childers DSC,False,5037.394,2026-02-06T21:31:02.254564
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,20,Esteban Gutierrez,Pedro Rodríguez,False,4407.785,2026-02-06T21:31:06.662364
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,21,Timothy Spall,Sonic,False,4839.501,2026-02-06T21:31:11.501883
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,22,PlayStation 3 (with the appropriate adapter),keyboard function keys,False,3437.249,2026-02-06T21:31:14.939156
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,23,Badly Drawn Boy,Badly Drawn Boy,True,6635.3679999999995,2026-02-06T21:31:21.574541
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,24,one of the best goalkeepers of all time,World's Best Goalkeeper,False,5882.2029999999995,2026-02-06T21:31:27.456773
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,25,Bobby Hoback,Barton Lee Hazlewood,False,4070.6939999999995,2026-02-06T21:31:31.527485
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,26,1838,1838,True,5930.899,2026-02-06T21:31:37.458400
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,27,yes,yes,True,13116.193000000001,2026-02-06T21:31:50.574625
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,28,Joseph Henry Kaiser,Henry J. Kaiser,False,5512.104,2026-02-06T21:31:56.086767
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,29,"The name of the adventure in ""Tunnels and Trolls"" is The Temple of Llyr.",Arena of Khazan,False,7070.502,2026-02-06T21:32:03.157293
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,30,"The album ""Shut Up, Make Love"" by Poison was released in 1987.",2000,False,3812.625,2026-02-06T21:32:06.970272
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,31,Japan,"Fujioka, Gunma",False,2699.779,2026-02-06T21:32:09.670088
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,32,René Cointreau,Charles Eugène,False,4218.526,2026-02-06T21:32:13.888649
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,33,yes,no,False,4542.32,2026-02-06T21:32:18.430998
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,34,Letters to Cleo,Letters to Cleo,True,7476.244000000001,2026-02-06T21:32:25.907262
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,35,early 1920,October 1922,False,6487.174999999999,2026-02-06T21:32:32.394462
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,36,2008,2000,False,3585.477,2026-02-06T21:32:35.979955
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,37,World War I,World War II,False,9702.105,2026-02-06T21:32:45.682083
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,38,No,no,True,3884.149,2026-02-06T21:32:49.566275
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,39,Pittsburgh,New York City,False,2065.852,2026-02-06T21:32:51.632160
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,40,Scotch Collie,Scotch Collie,True,6589.598,2026-02-06T21:32:58.221790
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,41,"Seattle, Washington",Mumbai,False,3914.4030000000002,2026-02-06T21:33:02.136210
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,42,1987,1962,False,5665.3460000000005,2026-02-06T21:33:07.801574
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,43,control over much of Ethiopia,sovereignty,False,4248.274,2026-02-06T21:33:12.049868
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,44,Hubert Humphrey,Nelson Rockefeller,False,4065.0579999999995,2026-02-06T21:33:16.114953
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,45,Firth of Forth,Yellowcraig,False,4807.853,2026-02-06T21:33:20.922828
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,46,Neil Young,Phil Spector,False,7770.1140000000005,2026-02-06T21:33:28.692969
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,47,"International Forum ""Bridges""",Organizations could come together to address global issues,False,5384.236,2026-02-06T21:33:34.077231
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,48,yes,yes,True,4127.37,2026-02-06T21:33:38.204620
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,49,English Electric Canberra,English Electric Canberra,True,12329.074999999999,2026-02-06T21:33:50.533715
