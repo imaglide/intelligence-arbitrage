@@ -1,0 +1,51 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,input_tokens,output_tokens,api_cost_usd,timestamp
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,0,18,18,True,7088.527,238,165,0.0,2026-01-19T15:32:21.044135
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,1,3 bolts,3,False,2963.347,201,138,0.0,2026-01-19T15:32:24.008844
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,2,"$70,000",70000,False,11051.811000000002,224,273,0.0,2026-01-19T15:32:35.083369
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,3,James runs a total of 540 meters each week.,540,False,32623.676000000003,209,175,0.0,2026-01-19T15:33:08.003113
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,4,20 cups,20,False,3212.588,282,176,0.0,2026-01-19T15:33:11.215752
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,5,$64,64,False,2745.572,227,175,0.0,2026-01-19T15:33:13.961364
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,6,260,260,True,4811.317,216,174,0.0,2026-01-19T15:33:18.777186
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,7,160 minutes (which is 2 hours and 40 minutes),160,False,5993.426,241,341,0.0,2026-01-19T15:33:24.772892
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,8,45 miles,45,False,9773.245,276,457,0.0,2026-01-19T15:33:34.549237
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,9,$460,460,False,3977.735,232,190,0.0,2026-01-19T15:33:38.536367
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,10,366,366,True,3673.102,233,226,0.0,2026-01-19T15:33:42.212667
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,11,$694,694,False,3018.91,234,222,0.0,2026-01-19T15:33:45.231596
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,12,12 years,13,False,19635.054,240,425,0.0,2026-01-19T15:34:04.880256
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,13,Melanie started with **18 vacuum cleaners**.,18,False,13204.601,233,367,0.0,2026-01-19T15:34:18.222836
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,14,60%,60,False,21930.584,224,257,0.0,2026-01-19T15:34:40.193085
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,15,$125,125,False,5420.589,265,278,0.0,2026-01-19T15:34:45.618276
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,16,Each train covers a total distance of 230 miles over the two days.,230,False,6920.028,224,164,0.0,2026-01-19T15:34:52.550404
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,17,"$57,500",57500,False,9503.778,227,223,0.0,2026-01-19T15:35:02.101475
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,18,7 dozen,7,False,4874.466,202,210,0.0,2026-01-19T15:35:06.976147
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,19,6,6,True,6135.961,239,266,0.0,2026-01-19T15:35:13.112980
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,20,15 liters,15,False,8078.655,235,360,0.0,2026-01-19T15:35:21.201378
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,21,14 years ago,14,False,3441.868,219,160,0.0,2026-01-19T15:35:24.675489
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,22,7,7,True,4015.952999999999,229,168,0.0,2026-01-19T15:35:28.691593
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,23,8 centimeters,8,False,8866.903,211,211,0.0,2026-01-19T15:35:37.559038
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,24,$26.00,26,False,5107.99,210,197,0.0,2026-01-19T15:35:42.667227
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,25,Marie ordered **2 boxes of pizza**.,2,False,4468.284,238,252,0.0,2026-01-19T15:35:47.135554
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,26,243,243,True,3299.578,239,178,0.0,2026-01-19T15:35:50.435210
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,27,\$16.00,16,False,3121.5449999999996,228,187,0.0,2026-01-19T15:35:53.556853
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,28,25 miles,25,False,8509.355,222,164,0.0,2026-01-19T15:36:02.066695
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,29,104,104,True,8220.786,242,161,0.0,2026-01-19T15:36:10.297467
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,30,Allen’s age 10 years from now will be **109 years**.,109,False,9734.401,210,272,0.0,2026-01-19T15:36:20.035810
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,31,80,80,True,5221.79,235,194,0.0,2026-01-19T15:36:25.258323
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,32,35 hours,35,False,3380.005,215,155,0.0,2026-01-19T15:36:28.642716
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,33,Gretchen has 70 gold coins.,70,False,3499.851,203,209,0.0,2026-01-19T15:36:32.142914
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,34,23,23,True,2801.996,215,168,0.0,2026-01-19T15:36:34.945007
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,35,9,9,True,4211.605,223,222,0.0,2026-01-19T15:36:39.156751
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,36,\$75,75,False,5292.9259999999995,215,295,0.0,2026-01-19T15:36:44.451195
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,37,2,2,True,5740.672,233,335,0.0,2026-01-19T15:36:50.191948
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,38,10 miles per hour,10,False,4331.034,218,193,0.0,2026-01-19T15:36:54.524394
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,39,18,18,True,6901.919999999999,247,427,0.0,2026-01-19T15:37:01.427126
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,40,8 years,8,False,5576.473,226,293,0.0,2026-01-19T15:37:07.004796
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,41,200 feet,200,False,4110.388000000001,297,193,0.0,2026-01-19T15:37:11.116911
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,42,26,26,True,4880.46,254,210,0.0,2026-01-19T15:37:15.997589
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,43,You can eat **48 grams** of chips.,48,False,3558.028,228,211,0.0,2026-01-19T15:37:19.558288
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,44,$20.00,20,False,3446.028,244,222,0.0,2026-01-19T15:37:23.004373
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,45,Meredith spent a total of **104 hours** writing articles over the three days.,104,False,5407.844,268,272,0.0,2026-01-19T15:37:28.412797
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,46,163,163,True,6243.203,264,233,0.0,2026-01-19T15:37:34.662894
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,47,\$800,800,False,5745.877,221,345,0.0,2026-01-19T15:37:40.408916
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,48,8,8,True,2421.056,212,110,0.0,2026-01-19T15:37:42.830063
+gpt-5.2-chat-latest_baseline_math,gpt-5.2-chat-latest,math,49,30,30,True,2495.507,216,114,0.0,2026-01-19T15:37:45.325612

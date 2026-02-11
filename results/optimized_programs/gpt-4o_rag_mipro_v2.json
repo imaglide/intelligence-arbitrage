@@ -1,0 +1,85 @@
+{
+  "self": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "context": "Following the German unconditional surrender, Eisenhower was appointed Military Governor of the U.S. Occupation Zone, based at the IG Farben Building in Frankfurt am Main. He had no responsibility for the other three zones, controlled by Britain, France and the Soviet Union, except for the city of Berlin, which was managed by the Four-Power Authorities through the Allied Kommandatura as the governing body. Upon discovery of the Nazi concentration camps, he ordered camera crews to document evidence of the atrocities in them for use in the Nuremberg Trials. He reclassified German prisoners of war (POWs) in U.S. custody as Disarmed Enemy Forces (DEFs), who were no longer subject to the Geneva Convention. Eisenhower followed the orders laid down by the Joint Chiefs of Staff (JCS) in directive JCS 1067, but softened them by bringing in 400,000 tons of food for civilians and allowing more fraternization. In response to the devastation in Germany, including food shortages and an influx of refugees, he arranged distribution of American food and medical equipment. His actions reflected the new American attitudes of the German people as Nazi victims not villains, while aggressively purging the ex-Nazis.",
+        "question": "What was Eisenhower's title after Germany's surrender?",
+        "reasoning": "After Germany's unconditional surrender, Eisenhower was appointed as the Military Governor of the U.S. Occupation Zone. This title reflects his role in overseeing the American-controlled area of post-war Germany, where he was responsible for implementing policies and managing the zone's administration.",
+        "answer": "Military Governor of the U.S. Occupation Zone"
+      },
+      {
+        "context": "These regions were occupied by \"the brown men,\" with the yellow in the Far East and the black in Africa. The color issue was not settled until Kenya became independent in 1963, ending the last vestige of the British Empire.",
+        "question": "These regions were occupied by who?",
+        "answer": "the brown men"
+      },
+      {
+        "context": "One important aspect of the rule-of-law initiatives is the study and analysis of the rule of law\u2019s impact on economic development. The rule-of-law movement cannot be fully successful in transitional and developing countries without an answer to the question: does the rule of law matter for economic development or not? Constitutional economics is the study of the compatibility of economic and financial decisions within existing constitutional law frameworks, and such a framework includes government spending on the judiciary, which, in many transitional and developing countries, is completely controlled by the executive. It is useful to distinguish between the two methods of corruption of the judiciary: corruption by the executive branch, in contrast to corruption by private actors.",
+        "question": "In developing countries, who makes most of the spending decisions?",
+        "answer": "the executive"
+      },
+      {
+        "context": "The Ann Arbor Hands-On Museum is located in a renovated and expanded historic downtown fire station. Multiple art galleries exist in the city, notably in the downtown area and around the University of Michigan campus. Aside from a large restaurant scene in the Main Street, South State Street, and South University Avenue areas, Ann Arbor ranks first among U.S. cities in the number of booksellers and books sold per capita. The Ann Arbor District Library maintains four branch outlets in addition to its main downtown building. The city is also home to the Gerald R. Ford Presidential Library.",
+        "question": "Ann Arbor ranks 1st among what goods sold?",
+        "answer": "books"
+      },
+      {
+        "context": "In December 1547, Francis was in Malacca (Malaysia) waiting to return to Goa (India) when he met a low-ranked samurai named Anjiro (possibly spelled \"Yajiro\"). Anjiro was not an intellectual, but he impressed Xavier because he took careful notes of everything he said in church. Xavier made the decision to go to Japan in part because this low-ranking samurai convinced him in Portuguese that the Japanese people were highly educated and eager to learn. They were hard workers and respectful of authority. In their laws and customs they were led by reason, and, should the Christian faith convince them of its truth, they would accept it en masse.",
+        "question": "Who impressed Xavier by taking notes in church?",
+        "answer": "Anjiro"
+      }
+    ],
+    "signature": {
+      "instructions": "Answer the question using the provided context.",
+      "fields": [
+        {
+          "prefix": "Context:",
+          "description": "Relevant information to answer the question"
+        },
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "The answer, extracted from the context. Keep it concise."
+        }
+      ]
+    },
+    "extended_signature": {
+      "instructions": "Utilize the given context to determine the answer to the question by following a logical reasoning process. Begin by thoroughly analyzing the information within the context, then derive a concise and accurate answer directly from this analysis. Ensure that the reasoning is clear and structured, demonstrating the step-by-step thought process leading to the final answer.",
+      "fields": [
+        {
+          "prefix": "Context:",
+          "description": "Relevant information to answer the question"
+        },
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "The answer, extracted from the context. Keep it concise."
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11.6",
+      "dspy": "2.6.27",
+      "cloudpickle": "3.1.2"
+    }
+  }
+}

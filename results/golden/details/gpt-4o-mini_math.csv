@@ -1,0 +1,51 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,input_tokens,output_tokens,api_cost_usd,timestamp
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,0,18,18,True,4.471,239,197,0.0001540499999999,2026-01-19T15:20:57.408659
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,1,3 bolts,3,False,1.434,202,142,0.0001154999999999,2026-01-19T15:20:57.410104
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,2,"$70,000",70000,False,4.5760000000000005,225,263,0.00019155,2026-01-19T15:20:57.414692
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,3,540 meters,540,False,1.305,210,215,0.0001605,2026-01-19T15:20:57.416007
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,4,20 cups,20,False,1.0790000000000002,283,244,0.0001888499999999,2026-01-19T15:20:57.417097
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,5,64,64,True,1.793,228,260,0.0001901999999999,2026-01-19T15:20:57.418901
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,6,260,260,True,1.354,217,198,0.00015135,2026-01-19T15:20:57.420265
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,7,160 minutes,160,False,1.33,242,270,0.0001983,2026-01-19T15:20:57.421611
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,8,45 miles,45,False,1.431,277,371,0.00026415,2026-01-19T15:20:57.423053
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,9,460,460,True,1.34,233,212,0.00016215,2026-01-19T15:20:57.424403
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,10,366,366,True,1.328,234,192,0.0001503,2026-01-19T15:20:57.425740
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,11,694,694,True,1.031,235,263,0.0001930499999999,2026-01-19T15:20:57.426778
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,12,12,13,False,1.2979999999999998,241,409,0.00028155,2026-01-19T15:20:57.428085
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,13,18,18,True,0.674,234,614,0.0004034999999999,2026-01-19T15:20:57.428771
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,14,60%,60,False,9.209,225,262,0.00019095,2026-01-19T15:20:57.437991
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,15,The profit from the jewelry purchase plan is $125.,125,False,1.714,266,253,0.0001917,2026-01-19T15:20:57.439720
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,16,230 miles,230,False,9.345,225,145,0.00012075,2026-01-19T15:20:57.449074
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,17,57500,57500,True,5.268,228,431,0.0002928,2026-01-19T15:20:57.454364
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,18,7 dozens,7,False,5.4990000000000006,203,248,0.00017925,2026-01-19T15:20:57.459891
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,19,6 mph,6,False,12.711,240,283,0.0002058,2026-01-19T15:20:57.472788
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,20,15 liters,15,False,2.67,236,309,0.0002207999999999,2026-01-19T15:20:57.475481
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,21,14,14,True,1.863,220,183,0.0001428,2026-01-19T15:20:57.477358
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,22,7,7,True,3.119,230,201,0.0001551,2026-01-19T15:20:57.480493
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,23,8 cm,8,False,1.362,212,164,0.0001302,2026-01-19T15:20:57.481874
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,24,26.00,26,True,3.144,211,242,0.00017685,2026-01-19T15:20:57.485031
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,25,2,2,True,3.1380000000000003,239,289,0.00020925,2026-01-19T15:20:57.488190
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,26,243.00,243,True,3.142,240,301,0.0002166,2026-01-19T15:20:57.491345
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,27,16.00,16,True,3.434,229,221,0.00016695,2026-01-19T15:20:57.494792
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,28,25 miles,25,False,1.649,223,191,0.00014805,2026-01-19T15:20:57.496453
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,29,104,104,True,1.008,243,191,0.0001510499999999,2026-01-19T15:20:57.497470
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,30,109,109,True,1.3,211,189,0.00014505,2026-01-19T15:20:57.498779
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,31,80,80,True,1.009,236,285,0.0002063999999999,2026-01-19T15:20:57.499796
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,32,35 hours,35,False,1.041,216,211,0.000159,2026-01-19T15:20:57.500847
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,33,70,70,True,1.063,204,240,0.0001746,2026-01-19T15:20:57.501918
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,34,23,23,True,1.229,216,211,0.000159,2026-01-19T15:20:57.503155
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,35,9,9,True,0.93,224,201,0.0001542,2026-01-19T15:20:57.504091
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,36,$75.00,75,False,2.069,216,196,0.00015,2026-01-19T15:20:57.506171
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,37,13,2,False,1.584,234,285,0.0002060999999999,2026-01-19T15:20:57.507767
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,38,10 miles per hour,10,False,3.26,219,348,0.00024165,2026-01-19T15:20:57.511038
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,39,18 miles,18,False,2.712,248,300,0.0002172,2026-01-19T15:20:57.513761
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,40,8,8,True,1.224,227,176,0.0001396499999999,2026-01-19T15:20:57.514996
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,41,200 feet,200,False,1.0790000000000002,298,226,0.0001803,2026-01-19T15:20:57.516085
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,42,26,26,True,1.049,255,157,0.00013245,2026-01-19T15:20:57.517141
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,43,48g,48,False,0.837,229,306,0.0002179499999999,2026-01-19T15:20:57.517985
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,44,$20.00,20,False,1.262,245,281,0.00020535,2026-01-19T15:20:57.519255
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,45,104,104,True,1.046,269,256,0.00019395,2026-01-19T15:20:57.520309
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,46,163,163,True,0.978,265,218,0.00017055,2026-01-19T15:20:57.521295
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,47,$800,800,False,0.927,222,326,0.0002289,2026-01-19T15:20:57.522231
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,48,8,8,True,1.51,213,145,0.0001189499999999,2026-01-19T15:20:57.523749
+gpt-4o-mini_baseline_math,gpt-4o-mini,math,49,30,30,True,0.888,217,221,0.00016515,2026-01-19T15:20:57.524646

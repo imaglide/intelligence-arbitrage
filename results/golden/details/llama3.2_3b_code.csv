@@ -1,0 +1,1045 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,timestamp
+llama3.2_local_baseline_code,llama3.2,code,0,"def has_close_elements(numbers: List[float], threshold: float) -> bool:
+    for i in range(len(numbers)):
+        for j in range(i + 1, len(numbers)):
+            if abs(numbers[i] - numbers[j]) < threshold:
+                return True
+    return False","    for idx, elem in enumerate(numbers):
+        for idx2, elem2 in enumerate(numbers):
+            if idx != idx2:
+                distance = abs(elem - elem2)
+                if distance < threshold:
+                    return True
+
+    return False
+",True,3.647,2026-01-18T14:29:00.397502
+llama3.2_local_baseline_code,llama3.2,code,1,"from typing import List
+
+def separate_paren_groups(paren_string: str) -> List[str]:
+    """"""
+    Input to this function is a string containing multiple groups of nested parentheses.
+    Your goal is to separate those groups into separate strings and return the list of those.
+    Separate groups are balanced (each open brace is properly closed) and not nested within each other
+    Ignore any spaces in the input string.
+
+    :param paren_string: The input string containing multiple groups of nested parentheses.
+    :return: A list of strings, where each string represents a separate group of parentheses.
+    """"""
+    result = []
+    stack = []
+    
+    for char in paren_string:
+        if char == '(':
+            stack.append(char)
+        elif char == ')':
+            if stack:
+                stack.pop()
+            else:
+                result.append(char)
+    
+    # Add any remaining opening parentheses to the result
+    while stack:
+        result.append(')')
+        stack.pop()
+
+    return [''.join(group) for group in result]","    result = []
+    current_string = []
+    current_depth = 0
+
+    for c in paren_string:
+        if c == '(':
+            current_depth += 1
+            current_string.append(c)
+        elif c == ')':
+            current_depth -= 1
+            current_string.append(c)
+
+            if current_depth == 0:
+                result.append(''.join(current_string))
+                current_string.clear()
+
+    return result
+",False,3.437,2026-01-18T14:29:00.400948
+llama3.2_local_baseline_code,llama3.2,code,2,"def truncate_number(number: float) -> float:
+    """""" Given a positive floating point number, it can be decomposed into
+    and integer part (largest integer smaller than given number) and decimals
+    (leftover part always smaller than 1).
+
+    Return the decimal part of the number.
+    >>> truncate_number(3.5)
+    0.5
+    """"""
+    return number - int(number)","    return number % 1.0
+",True,2.676,2026-01-18T14:29:00.403630
+llama3.2_local_baseline_code,llama3.2,code,3,"from typing import List
+
+def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account fallls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    >>> below_zero([1, 2, 3])
+    False
+    >>> below_zero([1, 2, -4, 5])
+    True
+    """"""
+    balance = 0
+    for operation in operations:
+        if balance < 0:
+            return True
+        balance += operation
+    return False","    balance = 0
+
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+
+    return False
+",False,4.335,2026-01-18T14:29:00.407971
+llama3.2_local_baseline_code,llama3.2,code,4,"from typing import List
+
+def mean_absolute_deviation(numbers: List[float]) -> float:
+    """""" For a given list of input numbers, calculate Mean Absolute Deviation
+    around the mean of this dataset.
+    Mean Absolute Deviation is the average absolute difference between each
+    element and a centerpoint (mean in this case):
+    MAD = average | x - x_mean |
+    >>> mean_absolute_deviation([1.0, 2.0, 3.0, 4.0])
+    1.0
+    """"""
+    
+    # Calculate the mean of the input list
+    mean = sum(numbers) / len(numbers)
+    
+    # Initialize a variable to store the total absolute deviation
+    total_deviation = 0
+    
+    # Iterate over each number in the list
+    for num in numbers:
+        # Calculate the absolute difference between the current number and the mean
+        deviation = abs(num - mean)
+        
+        # Add this deviation to the total deviation
+        total_deviation += deviation
+    
+    # Calculate the average deviation by dividing the total deviation by the count of numbers
+    mad = total_deviation / len(numbers)
+    
+    # Return the calculated Mean Absolute Deviation
+    return mad","    mean = sum(numbers) / len(numbers)
+    return sum(abs(x - mean) for x in numbers) / len(numbers)
+",True,1.639,2026-01-18T14:29:00.409614
+llama3.2_local_baseline_code,llama3.2,code,5,"from typing import List
+
+def intersperse(numbers: List[int], delimeter: int) -> List[int]:
+    result = []
+    for i in range(len(numbers)):
+        if i < len(numbers) - 1:
+            result.append(numbers[i])
+            result.append(delimeter)
+        else:
+            result.append(numbers[i])
+    return result","    if not numbers:
+        return []
+
+    result = []
+
+    for n in numbers[:-1]:
+        result.append(n)
+        result.append(delimeter)
+
+    result.append(numbers[-1])
+
+    return result
+",True,0.772,2026-01-18T14:29:00.410392
+llama3.2_local_baseline_code,llama3.2,code,6,"from typing import List
+def parse_nested_parens(paren_string: str) -> List[int]:
+    groups = paren_string.split()
+    result = []
+    
+    for group in groups:
+        stack = []
+        max_level = 0
+        
+        for char in group:
+            if char == '(':
+                stack.append(char)
+                max_level = max(max_level, len(stack))
+            elif char == ')':
+                stack.pop()
+        
+        result.append(max_level)
+    
+    return result","    def parse_paren_group(s):
+        depth = 0
+        max_depth = 0
+        for c in s:
+            if c == '(':
+                depth += 1
+                max_depth = max(depth, max_depth)
+            else:
+                depth -= 1
+
+        return max_depth
+
+    return [parse_paren_group(x) for x in paren_string.split(' ') if x]
+",True,1.743,2026-01-18T14:29:00.412140
+llama3.2_local_baseline_code,llama3.2,code,7,"def filter_by_substring(strings: List[str], substring: str) -> List[str]:
+    return [s for s in strings if substring in s]","    return [x for x in strings if substring in x]
+",True,2.4250000000000003,2026-01-18T14:29:00.414577
+llama3.2_local_baseline_code,llama3.2,code,8,"from typing import List, Tuple
+
+def sum_product(numbers: List[int]) -> Tuple[int, int]:
+    """""" For a given list of integers, return a tuple consisting of a sum and a product of all the integers in a list.
+    Empty sum should be equal to 0 and empty product should be equal to 1.
+    >>> sum_product([])
+    (0, 1)
+    >>> sum_product([1, 2, 3, 4])
+    (10, 24)
+    """"""
+    
+    # Initialize the sum and product variables
+    total_sum = 0
+    total_product = 1
+    
+    # Calculate the sum of all integers in the list
+    for num in numbers:
+        total_sum += num
+    
+    # Calculate the product of all integers in the list using a loop
+    for num in numbers:
+        total_product *= num
+    
+    # Return the tuple consisting of the sum and product
+    return total_sum, total_product","    sum_value = 0
+    prod_value = 1
+
+    for n in numbers:
+        sum_value += n
+        prod_value *= n
+    return sum_value, prod_value
+",True,1.739,2026-01-18T14:29:00.416321
+llama3.2_local_baseline_code,llama3.2,code,9,"from typing import List
+
+def rolling_max(numbers: List[int]) -> List[int]:
+    max_values = [numbers[0]]
+    for num in numbers[1:]:
+        if num >= max_values[-1]:
+            max_values.append(num)
+        else:
+            idx = max_values.index(max([x for x in max_values if x < num]))
+            max_values[idx] = num
+    return max_values","    running_max = None
+    result = []
+
+    for n in numbers:
+        if running_max is None:
+            running_max = n
+        else:
+            running_max = max(running_max, n)
+
+        result.append(running_max)
+
+    return result
+",False,1.631,2026-01-18T14:29:00.417957
+llama3.2_local_baseline_code,llama3.2,code,10,"def is_palindrome(string: str) -> bool:
+    """""" Test if given string is a palindrome """"""
+    return string == string[::-1]
+
+
+def make_palindrome(string: str) -> str:
+    """""" Find the shortest palindrome that begins with a supplied string.
+    Algorithm idea is simple:
+    - Find the longest postfix of supplied string that is a palindrome.
+    - Append to the end of the string reverse of a string prefix that comes before the palindromic suffix.
+    >>> make_palindrome('')
+    ''
+    >>> make_palindrome('cat')
+    'catac'
+    >>> make_palindrome('cata')
+    'catac'
+    """"""
+    if len(string) == 0:
+        return """"
+    for i in range(len(string)):
+        prefix = string[:i]
+        suffix = string[i:]
+        if suffix == suffix[::-1]:
+            return prefix + suffix + prefix[::-1]
+    return string","    if not string:
+        return ''
+
+    beginning_of_suffix = 0
+
+    while not is_palindrome(string[beginning_of_suffix:]):
+        beginning_of_suffix += 1
+
+    return string + string[:beginning_of_suffix][::-1]
+",True,1.621,2026-01-18T14:29:00.419582
+llama3.2_local_baseline_code,llama3.2,code,11,"from typing import List
+
+def string_xor(a: str, b: str) -> str:
+    """""" Input are two strings a and b consisting only of 1s and 0s.
+    Perform binary XOR on these inputs and return result also as a string.
+    >>> string_xor('010', '110')
+    '100'
+    """"""
+    if len(a) != len(b):
+        raise ValueError(""Both strings must be the same length"")
+
+    result = ''
+    for char_a, char_b in zip(a, b):
+        # Convert characters to integers (base 2), perform XOR, and convert back to string
+        xor_result = str(int(char_a, 2) ^ int(char_b, 2))
+        result += xor_result
+
+    return result","    def xor(i, j):
+        if i == j:
+            return '0'
+        else:
+            return '1'
+
+    return ''.join(xor(x, y) for x, y in zip(a, b))
+",True,1.667,2026-01-18T14:29:00.421253
+llama3.2_local_baseline_code,llama3.2,code,12,"from typing import List, Optional
+
+def longest(strings: List[str]) -> Optional[str]:
+    """""" Out of list of strings, return the longest one. Return the first one in case of multiple
+    strings of the same length. Return None in case the input list is empty.
+    
+    >>> longest([])
+
+    >>> longest(['a', 'b', 'c'])
+    'a'
+    >>> longest(['a', 'bb', 'ccc'])
+    'ccc'
+    """"""
+    if not strings:
+        return None
+    return strings[0]","    if not strings:
+        return None
+
+    maxlen = max(len(x) for x in strings)
+    for s in strings:
+        if len(s) == maxlen:
+            return s
+",False,1.4300000000000002,2026-01-18T14:29:00.422688
+llama3.2_local_baseline_code,llama3.2,code,13,"```python
+def greatest_common_divisor(a: int, b: int) -> int:
+    """"""
+    Return a greatest common divisor of two integers a and b
+    
+    >>> greatest_common_divisor(3, 5)
+    1
+    >>> greatest_common_divisor(25, 15)
+    5
+    """"""
+    while b != 0:
+        a, b = b, a % b
+    return abs(a)
+```","    while b:
+        a, b = b, a % b
+    return a
+",True,1.397,2026-01-18T14:29:00.424090
+llama3.2_local_baseline_code,llama3.2,code,14,"from typing import List
+
+def all_prefixes(string: str) -> List[str]:
+    """""" Return list of all prefixes from shortest to longest of the input string
+    >>> all_prefixes('abc')
+    ['a', 'ab', 'abc']
+    """"""
+    return [string[:i+1] for i in range(len(string))]","    result = []
+
+    for i in range(len(string)):
+        result.append(string[:i+1])
+    return result
+",True,1.599,2026-01-18T14:29:00.425692
+llama3.2_local_baseline_code,llama3.2,code,15,"```python
+def string_sequence(n: int) -> str:
+    """""" Return a string containing space-delimited numbers starting from 0 upto n inclusive.
+    
+    Args:
+        n (int): The upper limit of the sequence.
+    
+    Returns:
+        str: A string containing space-delimited numbers from 0 to n.
+    """"""
+    return ' '.join(str(i) for i in range(n + 1))
+```","    return ' '.join([str(x) for x in range(n + 1)])
+",True,1.527,2026-01-18T14:29:00.427222
+llama3.2_local_baseline_code,llama3.2,code,16,"```python
+def count_distinct_characters(string: str) -> int:
+    """""" Given a string, find out how many distinct characters (regardless of case) does it consist of
+    
+    >>> count_distinct_characters('xyzXYZ')
+    3
+    >>> count_distinct_characters('Jerry')
+    4
+    """"""
+    
+    # Convert the input string to lower case and store it in a set
+    distinct_chars = set(string.lower())
+    
+    # Return the number of unique characters, which is the size of the set
+    return len(distinct_chars)
+```","    return len(set(string.lower()))
+",True,1.758,2026-01-18T14:29:00.428984
+llama3.2_local_baseline_code,llama3.2,code,17,"from typing import List
+
+def parse_music(music_string: str) -> List[int]:
+    """""" Input to this function is a string representing musical notes in a special ASCII format.
+    Your task is to parse this string and return list of integers corresponding to how many beats does each
+    not last.
+
+    Here is a legend:
+    'o' - whole note, lasts four beats
+    'o|' - half note, lasts two beats
+    '.|' - quater note, lasts one beat
+
+    >>> parse_music('o o| .| o| o| .| .| .| .| o o')
+    [4, 2, 1, 2, 2, 1, 1, 1, 1, 4, 4]
+    """"""
+    notes = {'o': 4, 'o|': 2, '.|': 1}
+    result = []
+    total_beats = 0
+    for char in music_string:
+        if char in notes:
+            total_beats += notes[char]
+            result.append(total_beats)
+    return result","    note_map = {'o': 4, 'o|': 2, '.|': 1}
+    return [note_map[x] for x in music_string.split(' ') if x]
+",False,1.375,2026-01-18T14:29:00.430363
+llama3.2_local_baseline_code,llama3.2,code,18,"```python
+def how_many_times(string: str, substring: str) -> int:
+    """"""
+    Find how many times a given substring can be found in the original string. Count overlapping cases.
+    
+    Args:
+        string (str): The original string to search in.
+        substring (str): The substring to search for.
+    
+    Returns:
+        int: The number of times the substring is found in the string.
+    """"""
+    count = 0
+    if not string or not substring:
+        return count
+    
+    i = 0
+    while i < len(string):
+        j = 0
+        while i + j < len(string) and j < len(substring) and string[i + j] == substring[j]:
+            j += 1
+        count += 1
+        i += 1
+    
+    return count
+```","    times = 0
+
+    for i in range(len(string) - len(substring) + 1):
+        if string[i:i+len(substring)] == substring:
+            times += 1
+
+    return times
+",False,2.064,2026-01-18T14:29:00.432431
+llama3.2_local_baseline_code,llama3.2,code,19,"from typing import List
+
+def sort_numbers(numbers: str) -> str:
+    """""" Input is a space-delimited string of numberals from 'zero' to 'nine'.
+    Valid choices are 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight' and 'nine'.
+    Return the string with numbers sorted from smallest to largest
+    >>> sort_numbers('three one five')
+    'one three five'
+    """"""
+    
+    # Define a dictionary to map number strings to integers
+    num_map = {'zero': 0, 'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5, 
+               'six': 6, 'seven': 7, 'eight': 8, 'nine': 9}
+    
+    # Split the input string into a list of numbers
+    num_list = numbers.split()
+    
+    # Convert each number to an integer using the dictionary and sort the list
+    sorted_num_list = sorted(num_list, key=lambda x: num_map[x])
+    
+    # Join the sorted list back into a string with spaces in between
+    result = ' '.join(sorted_num_list)
+    
+    return result","    value_map = {
+        'zero': 0,
+        'one': 1,
+        'two': 2,
+        'three': 3,
+        'four': 4,
+        'five': 5,
+        'six': 6,
+        'seven': 7,
+        'eight': 8,
+        'nine': 9
+    }
+    return ' '.join(sorted([x for x in numbers.split(' ') if x], key=lambda x: value_map[x]))
+",True,1.503,2026-01-18T14:29:00.433939
+llama3.2_local_baseline_code,llama3.2,code,20,"from typing import List, Tuple
+
+def find_closest_elements(numbers: List[float]) -> Tuple[float, float]:
+    """"""
+    From a supplied list of numbers (of length at least two) select and return two that are the closest to each
+    other and return them in order (smaller number, larger number).
+    
+    Args:
+        numbers: A list of floating point numbers.
+    
+    Returns:
+        A tuple containing two numbers from the input list that are closest to each other.
+    """"""
+    # Sort the list of numbers in ascending order
+    sorted_numbers = sorted(numbers)
+    
+    # Initialize variables to keep track of the minimum difference and the corresponding pair of numbers
+    min_diff = float('inf')
+    closest_pair = (None, None)
+    
+    # Calculate the difference between each pair of adjacent elements in the sorted list
+    for i in range(len(sorted_numbers) - 1):
+        diff = sorted_numbers[i + 1] - sorted_numbers[i]
+        
+        # If the current difference is smaller than the minimum difference found so far, update the minimum difference and the corresponding pair of numbers
+        if diff < min_diff:
+            min_diff = diff
+            closest_pair = (sorted_numbers[i], sorted_numbers[i + 1])
+    
+    # Return the pair of numbers that are closest to each other
+    return closest_pair","    closest_pair = None
+    distance = None
+
+    for idx, elem in enumerate(numbers):
+        for idx2, elem2 in enumerate(numbers):
+            if idx != idx2:
+                if distance is None:
+                    distance = abs(elem - elem2)
+                    closest_pair = tuple(sorted([elem, elem2]))
+                else:
+                    new_distance = abs(elem - elem2)
+                    if new_distance < distance:
+                        distance = new_distance
+                        closest_pair = tuple(sorted([elem, elem2]))
+
+    return closest_pair
+",True,1.703,2026-01-18T14:29:00.435645
+llama3.2_local_baseline_code,llama3.2,code,21,"from typing import List
+
+def rescale_to_unit(numbers: List[float]) -> List[float]:
+    """""" Given list of numbers (of at least two elements), apply a linear transform to that list,
+    such that the smallest number will become 0 and the largest will become 1
+    >>> rescale_to_unit([1.0, 2.0, 3.0, 4.0, 5.0])
+    [0.0, 0.25, 0.5, 0.75, 1.0]
+    """"""
+    if len(numbers) < 2:
+        raise ValueError(""List must contain at least two elements"")
+    
+    min_value = min(numbers)
+    max_value = max(numbers)
+    
+    return [(num - min_value) / (max_value - min_value) for num in numbers]","    min_number = min(numbers)
+    max_number = max(numbers)
+    return [(x - min_number) / (max_number - min_number) for x in numbers]
+",True,1.631,2026-01-18T14:29:00.437280
+llama3.2_local_baseline_code,llama3.2,code,22,"from typing import List, Any
+
+def filter_integers(values: List[Any]) -> List[int]:
+    return [value for value in values if isinstance(value, int)]","    return [x for x in values if isinstance(x, int)]
+",True,0.754,2026-01-18T14:29:00.438039
+llama3.2_local_baseline_code,llama3.2,code,23,"def strlen(string: str) -> int:
+    return len(string)","    return len(string)
+",True,2.104,2026-01-18T14:29:00.440146
+llama3.2_local_baseline_code,llama3.2,code,24,"def largest_divisor(n: int) -> int:
+    for i in range(2, n):
+        if n % i == 0:
+            return i
+    return n - 1","    for i in reversed(range(n)):
+        if n % i == 0:
+            return i
+",False,1.499,2026-01-18T14:29:00.441649
+llama3.2_local_baseline_code,llama3.2,code,25,"from typing import List
+
+def factorize(n: int) -> List[int]:
+    """""" Return list of prime factors of given integer in the order from smallest to largest.
+    Each of the factors should be listed number of times corresponding to how many times it appeares in factorization.
+    Input number should be equal to the product of all factors
+    >>> factorize(8)
+    [2, 2, 2]
+    >>> factorize(25)
+    [5, 5]
+    >>> factorize(70)
+    [2, 5, 7]
+    """"""
+    i = 2
+    factors = []
+    while i * i <= n:
+        if n % i:
+            i += 1
+        else:
+            n //= i
+            factors.append(i)
+    if n > 1:
+        factors.append(n)
+    return factors","    import math
+    fact = []
+    i = 2
+    while i <= int(math.sqrt(n) + 1):
+        if n % i == 0:
+            fact.append(i)
+            n //= i
+        else:
+            i += 1
+
+    if n > 1:
+        fact.append(n)
+    return fact
+",True,1.699,2026-01-18T14:29:00.443351
+llama3.2_local_baseline_code,llama3.2,code,26,"from typing import List
+
+def remove_duplicates(numbers: List[int]) -> List[int]:
+    seen = {}
+    output = []
+    
+    for num in numbers:
+        if num not in seen:
+            seen[num] = True
+            output.append(num)
+            
+    return output","    import collections
+    c = collections.Counter(numbers)
+    return [n for n in numbers if c[n] <= 1]
+",False,1.567,2026-01-18T14:29:00.444922
+llama3.2_local_baseline_code,llama3.2,code,27,"def flip_case(string: str) -> str:
+    return string.swapcase()","    return string.swapcase()
+",True,1.385,2026-01-18T14:29:00.446311
+llama3.2_local_baseline_code,llama3.2,code,28,"def concatenate(strings: List[str]) -> str:
+    return ''.join(strings)","    return ''.join(strings)
+",True,1.507,2026-01-18T14:29:00.447823
+llama3.2_local_baseline_code,llama3.2,code,29,"def filter_by_prefix(strings: List[str], prefix: str) -> List[str]:
+    return [s for s in strings if s.startswith(prefix)]","    return [x for x in strings if x.startswith(prefix)]
+",True,1.7,2026-01-18T14:29:00.449527
+llama3.2_local_baseline_code,llama3.2,code,30,"```python
+def get_positive(l: list):
+    """"""Return only positive numbers in the list.
+    
+    >>> get_positive([-1, 2, -4, 5, 6])
+    [2, 5, 6]
+    
+    >>> get_positive([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])
+    [5, 3, 2, 3, 9, 123, 1]
+    """"""
+    return [num for num in l if num > 0]
+```","    return [e for e in l if e > 0]
+",True,1.4760000000000002,2026-01-18T14:29:00.451007
+llama3.2_local_baseline_code,llama3.2,code,31,"```python
+def is_prime(n):
+    """"""Return true if a given number is prime, and false otherwise.
+    
+    >>> is_prime(6)
+    False
+    >>> is_prime(101)
+    True
+    >>> is_prime(11)
+    True
+    >>> is_prime(13441)
+    True
+    >>> is_prime(61)
+    True
+    >>> is_prime(4)
+    False
+    >>> is_prime(1)
+    False
+    """"""
+    if n <= 1:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+```","    if n < 2:
+        return False
+    for k in range(2, n - 1):
+        if n % k == 0:
+            return False
+    return True
+",True,1.685,2026-01-18T14:29:00.452697
+llama3.2_local_baseline_code,llama3.2,code,32,"def find_zero(xs: list):
+    if len(xs) % 2 != 0:
+        raise ValueError(""List of coefficients must have even number of elements"")
+    
+    x = -1 / 2
+    return round(poly([x] + xs), 2)","    begin, end = -1., 1.
+    while poly(xs, begin) * poly(xs, end) > 0:
+        begin *= 2.0
+        end *= 2.0
+    while end - begin > 1e-10:
+        center = (begin + end) / 2.0
+        if poly(xs, center) * poly(xs, begin) > 0:
+            begin = center
+        else:
+            end = center
+    return begin
+",False,1.649,2026-01-18T14:29:00.454350
+llama3.2_local_baseline_code,llama3.2,code,33,"def sort_third(l: list):
+    """"""This function takes a list l and returns a list l' such that
+    l' is identical to l in the indicies that are not divisible by three, while its values at the indicies that are divisible by three are equal
+    to the values of the corresponding indicies of l, but sorted.
+    >>> sort_third([1, 2, 3])
+    [1, 2, 3]
+    >>> sort_third([5, 6, 3, 4, 8, 9, 2])
+    [2, 6, 3, 4, 8, 9, 5]
+    """"""
+    return [x for i, x in enumerate(l) if i % 3 != 0] + sorted([x for i, x in enumerate(l) if i % 3 == 0])","    l = list(l)
+    l[::3] = sorted(l[::3])
+    return l
+",False,1.541,2026-01-18T14:29:00.455895
+llama3.2_local_baseline_code,llama3.2,code,34,"def unique(l: list):
+    """"""Return sorted unique elements in a list
+    >>> unique([5, 3, 5, 2, 3, 3, 9, 0, 123])
+    [0, 2, 3, 5, 9, 123]
+    """"""
+    return sorted(set(l))","    return sorted(list(set(l)))
+",True,1.716,2026-01-18T14:29:00.457615
+llama3.2_local_baseline_code,llama3.2,code,35,"```python
+def max_element(l: list):
+    """"""Return maximum element in the list.
+    >>> max_element([1, 2, 3])
+    3
+    >>> max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])
+    123
+    """"""
+    if not l:
+        raise ValueError(""List is empty"")
+
+    max_val = l[0]
+    for num in l[1:]:
+        if num > max_val:
+            max_val = num
+    return max_val
+```","    m = l[0]
+    for e in l:
+        if e > m:
+            m = e
+    return m
+",True,1.683,2026-01-18T14:29:00.459303
+llama3.2_local_baseline_code,llama3.2,code,36,"```python
+def fizz_buzz(n: int):
+    """"""Return the number of times the digit 7 appears in integers less than n which are divisible by 11 or 13.
+    
+    >>> fizz_buzz(50)
+    0
+    >>> fizz_buzz(78)
+    2
+    >>> fizz_buzz(79)
+    3
+    """"""
+    count = 0
+    for i in range(1, n):
+        if i % 11 == 0 or i % 13 == 0:
+            count += str(i).count('7')
+    return count
+```","    ns = []
+    for i in range(n):
+        if i % 11 == 0 or i % 13 == 0:
+            ns.append(i)
+    s = ''.join(list(map(str, ns)))
+    ans = 0
+    for c in s:
+        ans += (c == '7')
+    return ans
+",True,8.324,2026-01-18T14:29:00.467630
+llama3.2_local_baseline_code,llama3.2,code,37,"def sort_even(l: list):
+    """"""This function takes a list l and returns a list l' such that
+    l' is identical to l in the odd indicies, while its values at the even indicies are equal
+    to the values of the even indicies of l, but sorted.
+    >>> sort_even([1, 2, 3])
+    [1, 2, 3]
+    >>> sort_even([5, 6, 3, 4])
+    [3, 6, 5, 4]
+    """"""
+    return l[::2] + [sorted(l[1::2][i]) for i in range(len(l[1::2]))]","    evens = l[::2]
+    odds = l[1::2]
+    evens.sort()
+    ans = []
+    for e, o in zip(evens, odds):
+        ans.extend([e, o])
+    if len(evens) > len(odds):
+        ans.append(evens[-1])
+    return ans
+",False,0.866,2026-01-18T14:29:00.468500
+llama3.2_local_baseline_code,llama3.2,code,38,"```python
+def encode_cyclic(s: str):
+    """"""
+    returns encoded string by cycling groups of three characters.
+    """"""
+    # split string to groups. Each of length 3.
+    groups = [s[(3 * i):min((3 * i + 3), len(s))] for i in range((len(s) + 2) // 3)]
+    # cycle elements in each group. Unless group has fewer elements than 3.
+    groups = [(group[1:] + group[0]) if len(group) == 3 else group for group in groups]
+    return """".join(groups)
+
+
+def decode_cyclic(s: str):
+    """"""
+    takes as input string encoded with encode_cyclic function. Returns decoded string.
+    """"""
+    # split string to groups of three characters
+    groups = [s[i:i+3] for i in range(0, len(s), 3)]
+    
+    # cycle elements in each group
+    decoded_groups = []
+    for group in groups:
+        if len(group) == 3:
+            decoded_group = group[1:] + group[0]
+        else:
+            decoded_group = group
+        decoded_groups.append(decoded_group)
+    
+    # join the decoded groups into a single string
+    return """".join(decoded_groups)","    return encode_cyclic(encode_cyclic(s))
+",False,2.6159999999999997,2026-01-18T14:29:00.471120
+llama3.2_local_baseline_code,llama3.2,code,39,"```python
+def is_prime(num: int) -> bool:
+    """"""
+    Checks if a number is prime.
+    
+    Args:
+        num (int): The number to check.
+    
+    Returns:
+        bool: True if the number is prime, False otherwise.
+    """"""
+    if num < 2:
+        return False
+    for i in range(2, int(num ** 0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
+
+
+def prime_fib(n: int) -> int:
+    """"""
+    Returns the n-th number that is a Fibonacci number and it's also prime.
+    
+    Args:
+        n (int): The position of the Fibonacci number to find.
+    
+    Returns:
+        int: The n-th Fibonacci prime number.
+    """"""
+    a, b = 0, 1
+    count = 0
+    while True:
+        if is_prime(a):
+            count += 1
+            if count == n:
+                return a
+        a, b = b, a + b","    import math
+
+    def is_prime(p):
+        if p < 2:
+            return False
+        for k in range(2, min(int(math.sqrt(p)) + 1, p - 1)):
+            if p % k == 0:
+                return False
+        return True
+    f = [0, 1]
+    while True:
+        f.append(f[-1] + f[-2])
+        if is_prime(f[-1]):
+            n -= 1
+        if n == 0:
+            return f[-1]
+",False,1.731,2026-01-18T14:29:00.472856
+llama3.2_local_baseline_code,llama3.2,code,40,"def triples_sum_to_zero(l: list):
+    """"""
+    triples_sum_to_zero takes a list of integers as an input.
+    it returns True if there are three distinct elements in the list that
+    sum to zero, and False otherwise.
+
+    >>> triples_sum_to_zero([1, 3, 5, 0])
+    False
+    >>> triples_sum_to_zero([1, 3, -2, 1])
+    True
+    >>> triples_sum_to_zero([1, 2, 3, 7])
+    False
+    >>> triples_sum_to_zero([2, 4, -5, 3, 9, 7])
+    True
+    >>> triples_sum_to_zero([1])
+    False
+    """"""
+    seen = set()
+    for num in l:
+        if -num in seen and len(seen) > 2:
+            return True
+        seen.add(num)
+    return False","    for i in range(len(l)):
+        for j in range(i + 1, len(l)):
+            for k in range(j + 1, len(l)):
+                if l[i] + l[j] + l[k] == 0:
+                    return True
+    return False
+",False,1.634,2026-01-18T14:29:00.474493
+llama3.2_local_baseline_code,llama3.2,code,41,"def car_race_collision(n: int):
+    """"""
+    Imagine a road that's a perfectly straight infinitely long line.
+    n cars are driving left to right;  simultaneously, a different set of n cars
+    are driving right to left.   The two sets of cars start out being very far from
+    each other.  All cars move in the same speed.  Two cars are said to collide
+    when a car that's moving left to right hits a car that's moving right to left.
+    However, the cars are infinitely sturdy and strong; as a result, they continue moving
+    in their trajectory as if they did not collide.
+
+    This function outputs the number of such collisions.
+    """"""
+    
+    # Initialize variables to keep track of the distance between cars in each direction
+    left_distance = n
+    right_distance = n
+    
+    # Initialize variable to count the number of collisions
+    collisions = 0
+    
+    # Since the cars are moving at the same speed, we can consider one direction first
+    while left_distance > 0 and right_distance > 0:
+        # If a car in the left direction is closer than the car in the right direction,
+        # it will collide with the car in the right direction
+        if left_distance < right_distance:
+            collisions += right_distance - left_distance
+            right_distance = 0
+        else:
+            collisions += left_distance
+            left_distance = 0
+    
+    return collisions","    return n**2
+",False,1.631,2026-01-18T14:29:00.476128
+llama3.2_local_baseline_code,llama3.2,code,42,"```python
+def incr_list(l: list):
+    """"""Return list with elements incremented by 1.
+    
+    >>> incr_list([1, 2, 3])
+    [2, 3, 4]
+    >>> incr_list([5, 3, 5, 2, 3, 3, 9, 0, 123])
+    [6, 4, 6, 3, 4, 4, 10, 1, 124]
+    """"""
+    return [x + 1 for x in l]
+```","    return [(e + 1) for e in l]
+",True,1.575,2026-01-18T14:29:00.477708
+llama3.2_local_baseline_code,llama3.2,code,43,"def pairs_sum_to_zero(l):
+    seen = set()
+    for num in l:
+        if -num in seen:
+            return True
+        seen.add(num)
+    return False","    for i, l1 in enumerate(l):
+        for j in range(i + 1, len(l)):
+            if l1 + l[j] == 0:
+                return True
+    return False
+",True,1.683,2026-01-18T14:29:00.479395
+llama3.2_local_baseline_code,llama3.2,code,44,"```python
+def change_base(x: int, base: int):
+    """"""Change numerical base of input number x to base.
+    return string representation after the conversion.
+    base numbers are less than 10.
+    >>> change_base(8, 3)
+    '22'
+    >>> change_base(8, 2)
+    '1000'
+    >>> change_base(7, 2)
+    '111'
+    """"""
+    
+    if not isinstance(x, int) or not isinstance(base, int):
+        raise ValueError(""Both inputs must be integers."")
+    if base < 2 or base > 10:
+        raise ValueError(""Base numbers are less than 2 and greater than 10."")
+
+    result = """"
+    while x > 0:
+        remainder = x % base
+        result = str(remainder) + result
+        x //= base
+
+    return result
+```","    ret = """"
+    while x > 0:
+        ret = str(x % base) + ret
+        x //= base
+    return ret
+",True,1.712,2026-01-18T14:29:00.481110
+llama3.2_local_baseline_code,llama3.2,code,45,"def triangle_area(a, h):
+    """"""Given length of a side and high return area for a triangle.
+    >>> triangle_area(5, 3)
+    7.5
+    """"""
+    return (a * h) / 2","    return a * h / 2.0
+",True,1.491,2026-01-18T14:29:00.482604
+llama3.2_local_baseline_code,llama3.2,code,46,"def fib4(n: int):
+    memo = {0: 0, 1: 0}
+    for i in range(2, n+1):
+        memo[i] = memo[i-1] + memo[i-2] + memo[i-3] + memo[i-4]
+    return memo[n]","    results = [0, 0, 2, 0]
+    if n < 4:
+        return results[n]
+
+    for _ in range(4, n + 1):
+        results.append(results[-1] + results[-2] + results[-3] + results[-4])
+        results.pop(0)
+
+    return results[-1]
+",False,1.498,2026-01-18T14:29:00.484109
+llama3.2_local_baseline_code,llama3.2,code,47,"def median(l: list):
+    sorted_l = sorted(l)
+    n = len(sorted_l)
+    
+    if n % 2 == 1:
+        return sorted_l[n // 2]
+    else:
+        return (sorted_l[n // 2 - 1] + sorted_l[n // 2]) / 2","    l = sorted(l)
+    if len(l) % 2 == 1:
+        return l[len(l) // 2]
+    else:
+        return (l[len(l) // 2 - 1] + l[len(l) // 2]) / 2.0
+",True,1.5590000000000002,2026-01-18T14:29:00.485671
+llama3.2_local_baseline_code,llama3.2,code,48,"def is_palindrome(text: str):
+    """"""
+    Checks if given string is a palindrome
+    >>> is_palindrome('')
+    True
+    >>> is_palindrome('aba')
+    True
+    >>> is_palindrome('aaaaa')
+    True
+    >>> is_palindrome('zbcd')
+    False
+    """"""
+    return text == ''.join(reversed(text))","    for i in range(len(text)):
+        if text[i] != text[len(text) - 1 - i]:
+            return False
+    return True
+",True,1.568,2026-01-18T14:29:00.487242
+llama3.2_local_baseline_code,llama3.2,code,49,"def modp(n: int, p: int):
+    """"""Return 2^n modulo p (be aware of numerics).
+    
+    >>> modp(3, 5)
+    3
+    >>> modp(1101, 101)
+    2
+    >>> modp(0, 101)
+    1
+    >>> modp(3, 11)
+    8
+    >>> modp(100, 101)
+    1
+    """"""
+    if n < 0 or p <= 0:
+        raise ValueError(""n must be non-negative and p must be positive"")
+    return pow(2, n, p)","    ret = 1
+    for i in range(n):
+        ret = (2 * ret) % p
+    return ret
+",True,1.394,2026-01-18T14:29:00.488640

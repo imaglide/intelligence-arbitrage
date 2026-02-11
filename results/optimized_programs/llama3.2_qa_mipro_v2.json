@@ -1,0 +1,70 @@
+{
+  "self": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "question": "Sir Thomas Kyriell was executed after which battle from the Wars of the Roses?",
+        "answer": "Second Battle of St Albans"
+      },
+      {
+        "question": "What event occured at the Red Bull Arena in Salzburg, Austria and Switzerland in 2008?",
+        "answer": "UEFA Euro 2008"
+      },
+      {
+        "question": "What direction does the river that Austrolebias bellotti are found in flow?",
+        "answer": "north to south"
+      },
+      {
+        "question": "What city, other than San Jose del Cabo, is at the the southern tip of Baja California Peninsula and is also encompassed in the Los Cabos Municipality?",
+        "answer": "Cabo San Lucas"
+      },
+      {
+        "question": "Sky High starred the actress who is married to which actor?",
+        "answer": "John Travolta"
+      }
+    ],
+    "signature": {
+      "instructions": "Answer the question based on common knowledge or context.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Short answer to the question"
+        }
+      ]
+    },
+    "extended_signature": {
+      "instructions": "You are an expert on geography in the United States and need to answer the following question based on common knowledge or context.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Short answer to the question"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11.6",
+      "dspy": "2.6.27",
+      "cloudpickle": "3.1.2"
+    }
+  }
+}

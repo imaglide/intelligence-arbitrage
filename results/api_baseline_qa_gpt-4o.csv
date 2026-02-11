@@ -1,0 +1,51 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,input_tokens,output_tokens,api_cost_usd,timestamp
+gpt-4o_baseline_qa,gpt-4o,qa,0,"Yes, both Scott Derrickson and Ed Wood were American.",yes,False,6.315,179,102,0.0014675,2026-01-19T15:21:02.545434
+gpt-4o_baseline_qa,gpt-4o,qa,1,U.S. Ambassador,Chief of Protocol,False,4.333,188,112,0.0015899999999999998,2026-01-19T15:21:02.549785
+gpt-4o_baseline_qa,gpt-4o,qa,2,Animorphs,Animorphs,True,5.388999999999999,197,121,0.0017025,2026-01-19T15:21:02.555191
+gpt-4o_baseline_qa,gpt-4o,qa,3,"No, they are not located in the same neighborhood.",no,False,4.209,183,123,0.0016875000000000002,2026-01-19T15:21:02.559415
+gpt-4o_baseline_qa,gpt-4o,qa,4,New York City,"Greenwich Village, New York City",False,2.529,186,76,0.001225,2026-01-19T15:21:02.561959
+gpt-4o_baseline_qa,gpt-4o,qa,5,YG Entertainment,YG Entertainment,True,2.143,187,102,0.0014875,2026-01-19T15:21:02.564115
+gpt-4o_baseline_qa,gpt-4o,qa,6,The specific individual known as Aladin in this context is not widely recognized in public records.,Eenasul Fateh,False,1.049,186,115,0.001615,2026-01-19T15:21:02.565174
+gpt-4o_baseline_qa,gpt-4o,qa,7,"3,677","3,677 seated",False,1.0970000000000002,186,87,0.001335,2026-01-19T15:21:02.566289
+gpt-4o_baseline_qa,gpt-4o,qa,8,Terry Richardson,Terry Richardson,True,1.732,177,82,0.0012625,2026-01-19T15:21:02.568031
+gpt-4o_baseline_qa,gpt-4o,qa,9,"Yes, both Local H and For Against are from the United States.",yes,False,1.117,179,95,0.0013975,2026-01-19T15:21:02.569159
+gpt-4o_baseline_qa,gpt-4o,qa,10,I'm a Jayhawk,Kansas Song,False,1.017,198,63,0.0011250000000000001,2026-01-19T15:21:02.570184
+gpt-4o_baseline_qa,gpt-4o,qa,11,David Diamond and David Weissman,David Weissman,False,2.315,190,92,0.001395,2026-01-19T15:21:02.572510
+gpt-4o_baseline_qa,gpt-4o,qa,12,1999,1999,True,1.6620000000000001,191,90,0.0013775,2026-01-19T15:21:02.574182
+gpt-4o_baseline_qa,gpt-4o,qa,13,"Yes, both are used for real estate.",no,False,1.3259999999999998,184,152,0.00198,2026-01-19T15:21:02.575517
+gpt-4o_baseline_qa,gpt-4o,qa,14,1986 to 2013,from 1986 to 2013,False,1.503,181,87,0.0013224999999999999,2026-01-19T15:21:02.577029
+gpt-4o_baseline_qa,gpt-4o,qa,15,Approximately 331 million inhabitants,"9,984",False,1.851,184,54,0.001,2026-01-19T15:21:02.578888
+gpt-4o_baseline_qa,gpt-4o,qa,16,North Atlantic Conference,the North Atlantic Conference,False,1.242,196,67,0.00116,2026-01-19T15:21:02.580139
+gpt-4o_baseline_qa,gpt-4o,qa,17,"Yes, Giuseppe Verdi and Ambroise Thomas are both opera composers.",yes,False,1.42,180,144,0.0018900000000000002,2026-01-19T15:21:02.581569
+gpt-4o_baseline_qa,gpt-4o,qa,18,1969-1974,1969 until 1974,False,1.5939999999999999,193,83,0.0013125,2026-01-19T15:21:02.583172
+gpt-4o_baseline_qa,gpt-4o,qa,19,Robert Erskine Childers,Robert Erskine Childers DSC,False,1.124,183,158,0.0020375,2026-01-19T15:21:02.584306
+gpt-4o_baseline_qa,gpt-4o,qa,20,Pedro Rodríguez,Pedro Rodríguez,True,1.047,190,87,0.001345,2026-01-19T15:21:02.585360
+gpt-4o_baseline_qa,gpt-4o,qa,21,Sterling Holloway did not voice a hedgehog character.,Sonic,False,0.94,183,185,0.0023075,2026-01-19T15:21:02.586308
+gpt-4o_baseline_qa,gpt-4o,qa,22,Keyboard and mouse,keyboard function keys,False,1.0230000000000001,189,85,0.0013225,2026-01-19T15:21:02.587339
+gpt-4o_baseline_qa,gpt-4o,qa,23,Badly Drawn Boy,Badly Drawn Boy,True,1.073,188,251,0.0029799999999999996,2026-01-19T15:21:02.588421
+gpt-4o_baseline_qa,gpt-4o,qa,24,World's Best Goalkeeper,World's Best Goalkeeper,True,1.118,190,98,0.0014550000000000001,2026-01-19T15:21:02.589548
+gpt-4o_baseline_qa,gpt-4o,qa,25,Lee Hazlewood,Barton Lee Hazlewood,False,1.038,188,65,0.00112,2026-01-19T15:21:02.590594
+gpt-4o_baseline_qa,gpt-4o,qa,26,1838,1838,True,0.9610000000000001,201,73,0.0012325,2026-01-19T15:21:02.591561
+gpt-4o_baseline_qa,gpt-4o,qa,27,"Yes, both Dictyosperma and Huernia are described as genera.",yes,False,1.106,184,131,0.0017700000000000003,2026-01-19T15:21:02.592675
+gpt-4o_baseline_qa,gpt-4o,qa,28,Henry J. Kaiser,Henry J. Kaiser,True,0.9700000000000001,190,97,0.001445,2026-01-19T15:21:02.593654
+gpt-4o_baseline_qa,gpt-4o,qa,29,Buffalo Castle,Arena of Khazan,False,0.786,191,94,0.0014175,2026-01-19T15:21:02.594447
+gpt-4o_baseline_qa,gpt-4o,qa,30,"March 14, 2000",2000,False,1.124,182,99,0.001445,2026-01-19T15:21:02.595578
+gpt-4o_baseline_qa,gpt-4o,qa,31,Japan,"Fujioka, Gunma",False,0.963,185,72,0.0011825,2026-01-19T15:21:02.596548
+gpt-4o_baseline_qa,gpt-4o,qa,32,Charles Nungesser,Charles Eugène,False,0.993,181,115,0.0016025,2026-01-19T15:21:02.597550
+gpt-4o_baseline_qa,gpt-4o,qa,33,"No, only ""Freakonomics"" is an American documentary.",no,False,1.317,183,137,0.0018275,2026-01-19T15:21:02.598878
+gpt-4o_baseline_qa,gpt-4o,qa,34,Letters to Cleo,Letters to Cleo,True,0.972,183,136,0.0018175,2026-01-19T15:21:02.599858
+gpt-4o_baseline_qa,gpt-4o,qa,35,1922,October 1922,False,0.864,190,135,0.0018250000000000002,2026-01-19T15:21:02.600729
+gpt-4o_baseline_qa,gpt-4o,qa,36,2000,2000,True,0.8490000000000001,188,64,0.0011099999999999999,2026-01-19T15:21:02.601587
+gpt-4o_baseline_qa,gpt-4o,qa,37,World War II,World War II,True,1.143,189,116,0.0016325,2026-01-19T15:21:02.602738
+gpt-4o_baseline_qa,gpt-4o,qa,38,"No, only Gerald R. Ford International Airport is located in Michigan.",no,False,1.27,184,89,0.00135,2026-01-19T15:21:02.604016
+gpt-4o_baseline_qa,gpt-4o,qa,39,New York City,New York City,True,0.873,186,73,0.0011949999999999999,2026-01-19T15:21:02.604896
+gpt-4o_baseline_qa,gpt-4o,qa,40,Scotch Collie,Scotch Collie,True,0.8170000000000001,186,168,0.0021449999999999998,2026-01-19T15:21:02.605720
+gpt-4o_baseline_qa,gpt-4o,qa,41,"Bangalore, India",Mumbai,False,1.004,185,92,0.0013825,2026-01-19T15:21:02.606733
+gpt-4o_baseline_qa,gpt-4o,qa,42,1962,1962,True,1.173,197,79,0.0012824999999999998,2026-01-19T15:21:02.607916
+gpt-4o_baseline_qa,gpt-4o,qa,43,The Battle of Adwa secured Ethiopia's sovereignty and independence.,sovereignty,False,0.9420000000000001,183,138,0.0018375,2026-01-19T15:21:02.608865
+gpt-4o_baseline_qa,gpt-4o,qa,44,Hubert H. Humphrey,Nelson Rockefeller,False,0.953,194,92,0.001405,2026-01-19T15:21:02.609827
+gpt-4o_baseline_qa,gpt-4o,qa,45,Firth of Forth,Yellowcraig,False,1.0150000000000001,190,101,0.0014850000000000002,2026-01-19T15:21:02.610850
+gpt-4o_baseline_qa,gpt-4o,qa,46,Phil Spector,Phil Spector,True,1.289,196,76,0.00125,2026-01-19T15:21:02.612147
+gpt-4o_baseline_qa,gpt-4o,qa,47,World Political Forum,Organizations could come together to address global issues,False,0.901,179,95,0.0013975,2026-01-19T15:21:02.613055
+gpt-4o_baseline_qa,gpt-4o,qa,48,"Yes, both Ferocactus and Silene are types of plants.",yes,False,1.02,179,127,0.0017174999999999998,2026-01-19T15:21:02.614083
+gpt-4o_baseline_qa,gpt-4o,qa,49,None,English Electric Canberra,False,0.885,188,152,0.00199,2026-01-19T15:21:02.614975

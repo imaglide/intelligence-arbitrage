@@ -1,0 +1,283 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,timestamp
+mistral_local_baseline_extraction,mistral,extraction,0,"{
+  ""PER"": [""he""],
+  ""ORG"": [],
+  ""LOC"": [""India"", ""Adyar""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""India"", ""Adyar""], ""MISC"": []}",True,3766.159,2026-01-18T14:45:39.799937
+mistral_local_baseline_extraction,mistral,extraction,1,"{
+  ""PER"": [""Kanye West"", ""Jamie Foxx""],
+  ""ORG"": [],
+  ""LOC"": [],
+  ""MISC"": [""Gold Digger"", ""( 2005 )""]
+}","{""PER"": [""Kanye West"", ""Jamie Foxx""], ""ORG"": [""Gold Digger""], ""LOC"": [], ""MISC"": []}",True,2953.341,2026-01-18T14:45:42.753617
+mistral_local_baseline_extraction,mistral,extraction,2,"{
+  ""PER"": [""Mycalesis"", ""Perseus"", ""Hewitson""],
+  ""ORG"": [],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""Mycalesis perseus lalassis""], ""MISC"": []}",False,2617.1389999999997,2026-01-18T14:45:45.370773
+mistral_local_baseline_extraction,mistral,extraction,3,"{
+  ""PER"": [""Jonny Lee Miller""],
+  ""ORG"": [],
+  ""LOC"": [],
+  ""MISC"": [""Eli Stone""]
+}","{""PER"": [""Jonny Lee Miller""], ""ORG"": [""Eli Stone""], ""LOC"": [], ""MISC"": []}",True,2416.154,2026-01-18T14:45:47.786955
+mistral_local_baseline_extraction,mistral,extraction,4,"{
+  ""PER"": [],
+  ""ORG"": [""United States""],
+  ""LOC"": [""United States""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [""Admission to the bar in the United States""], ""LOC"": [], ""MISC"": []}",False,2652.567,2026-01-18T14:45:50.439560
+mistral_local_baseline_extraction,mistral,extraction,5,"{
+  ""PER"": [""Willy Unger""],
+  ""LOC"": [""11""],
+  ""MISC"": []
+}","{""PER"": [""Willy Unger""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",True,2266.1910000000003,2026-01-18T14:45:52.705866
+mistral_local_baseline_extraction,mistral,extraction,6,"{
+  ""PER"": [],
+  ""ORG"": [""Palermo Cathedral""],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [""Palermo Cathedral""], ""LOC"": [], ""MISC"": []}",True,2240.275,2026-01-18T14:45:54.946175
+mistral_local_baseline_extraction,mistral,extraction,7,"{
+  ""PER"": [""Seth Cohen"", ""Ryan Atwood"", ""Marissa Cooper"", ""Summer Roberts"", ""Kirsten Cohen"", ""Sandy Cohen"", ""Caleb Nichol"", ""Jimmy Cooper"", ""John Rowland"", ""Teresa Brisco"", ""Luke Ward"", ""Oliver Trask"", ""Kaitlin Cooper"", ""Alex Kelly"", ""Taylor Townsend"", ""Chrissy Ike"", ""Duanne 'Dookie' Gibson"", ""Cindy Sanders"", ""Julie Cooper"", ""Karen McCluskey"", ""Harper Stanhope"", ""Bree Taylor"", ""Oliver Oswald"", ""Marissa Tucker"", ""Sandy's Mother"", ""Sandy's Father"", ""Coach Boland"", ""Coach Harrington"", ""Coach Moseby"", ""Coach Wittenberg"", ""Coach Cal"", ""Coach Fleming"", ""Coach O'Neill"", ""Coach Mitchell"", ""Coach Thompson"", ""Coach Turner"", ""Coach Wilson"", ""Coach Weber"", ""Coach Williams"", ""Coach Young"", ""Coach Zuckerman""],
+  ""ORG"": [""The O.C."", ""Newport High School"", ""Harbor High School"", ""University of California, Berkeley"", ""Caltech"", ""Newport Beach Police Department"", ""Newport Harbor Yacht Club"", ""Newport Group"", ""Newport Academy"", ""Newport Hospital"", ""Newport Country Club"", ""The O.C. Weekly"", ""The Newport Gazette"", ""The Orange County Register"", ""The Los Angeles Times"", ""The Daily Pilot"", ""The O.C. Blade"", ""The O.C. Beacon"", ""The O.C. Sentinel"", ""The O.C. Tribune"", ""The O.C. Herald"", ""The O.C. Chronicle"", ""The O.C. Examiner"", ""The O.C. Dispatch"", ""The O.C. Observer"", ""The O.C. Advocate"", ""The O.C. Journal"", ""The O.C. Post"", ""The O.C. Review"", ""The O.C. Times"", ""The O.C. Voice"", ""The O.C. Echo"", ""The O.C. Star"", ""The O.C. Sun"", ""The O.C. News"", ""The O.C. Press"", ""The O.C. Gazette"", ""The O.C. Herald-Tribune"", ""The O.C. Sentinel-Examiner"", ""The O.C. Register-Dispatch"", ""The O.C. Chronicle-Observer"", ""The O.C. Post-Review"", ""The O.C. Times-Journal"", ""The O.C. Voice-Echo"", ""The O.C. Star-Sun"", ""The O.C. News-Press"", ""The O.C. Gazette-Tribune"", ""The O.C. Sentinel-Herald"", ""The O.C. Examiner-Post"", ""The O.C. Chronicle-Times"", ""The O.C. Herald-Review"", ""The O.C. Tribune-Echo"", ""The O.C. Register-Star"", ""The O.C. Gazette-Sun"", ""The O.C. Sentinel-News"", ""The O.C. Examiner-Times"", ""The O.C. Chronicle-Journal"", ""The O.C. Herald-Post"", ""The O.C. Tribune-Echo"", ""The O.C. Register-Review"", ""The O.C. Gazette-Times"", ""The O.C. Sentinel-Star"", ""The O.C. Examiner-News"", ""The O.C. Chronicle-Sun"", ""The O.C. Herald-Echo"", ""The O.C. Tribune-Journal"", ""The O.C. Register-Times"", ""The O.C. Gazette-Post"", ""The O.C. Sentinel-Review"", ""The O.C. Examiner-News"", ""The O.C. Chronicle-Star"", ""The O.C. Herald-Sun"", ""The O.C. Tribune-Echo"", ""The O.C. Register-Times"", ""The O.C. Gazette-Post"", ""The O.C. Sentinel-Review"", ""The O","{""PER"": [""List of The O.C. characters""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",False,39161.161,2026-01-18T14:46:34.107359
+mistral_local_baseline_extraction,mistral,extraction,8,"{
+  ""PER"": [],
+  ""ORG"": [""Cardiff Royal Infirmary""],
+  ""LOC"": [""Roath"", ""Cardiff""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [""Cardiff Royal Infirmary""], ""LOC"": [""Roath , Cardiff""], ""MISC"": []}",False,2725.665,2026-01-18T14:46:36.833095
+mistral_local_baseline_extraction,mistral,extraction,9,"{
+  ""PER"": [""Roger Houdet""],
+  ""LOC"": [],
+  ""ORG"": [],
+  ""MISC"": []
+}","{""PER"": [""Roger Houdet""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",True,2326.593,2026-01-18T14:46:39.159721
+mistral_local_baseline_extraction,mistral,extraction,10,"{
+  ""PER"": [""Dorothy Gale"", ""Scarecrow"", ""Tin Man"", ""Lion"", ""Glinda the Good Witch"", ""Wicked Witch of the West"", ""Professor Marvel"", ""Cowardly Lion"", ""Toto""] ,
+  ""ORG"": [""Oz (TV series)""],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [""List of Oz ( TV series ) characters""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",False,4529.425,2026-01-18T14:46:43.689163
+mistral_local_baseline_extraction,mistral,extraction,11,"{
+  ""PER"": [""John Mellencamp""],
+  ""ORG"": [],
+  ""LOC"": [],
+  ""MISC"": [""Jack and Diane"", ""( Top 11 )""]
+}","{""PER"": [""John Mellencamp""], ""ORG"": [""Jack and Diane""], ""LOC"": [], ""MISC"": []}",False,2748.272,2026-01-18T14:46:46.437475
+mistral_local_baseline_extraction,mistral,extraction,12,"{
+  ""PER"": [],
+  ""ORG"": [],
+  ""LOC"": [""Antarctic"", ""sub-Antarctic islands""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [""List of Antarctic and sub-Antarctic islands""], ""LOC"": [], ""MISC"": []}",False,2562.007,2026-01-18T14:46:48.999506
+mistral_local_baseline_extraction,mistral,extraction,13,"{
+  ""PER"": [],
+  ""ORG"": [""1st Foreign Legion Cavalry Regiment""],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [""1st Foreign Legion Cavalry Regiment""], ""LOC"": [], ""MISC"": []}",True,2406.098,2026-01-18T14:46:51.405652
+mistral_local_baseline_extraction,mistral,extraction,14,"{
+  ""PER"": [""John Reid""],
+  ""LOC"": [],
+  ""ORG"": [],
+  ""MISC"": []
+}","{""PER"": [""John Reid""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",True,2188.953,2026-01-18T14:46:53.594619
+mistral_local_baseline_extraction,mistral,extraction,15,"{
+  ""PER"": [""Manuel"", ""Flaco"", ""Ibáñez""],
+  ""MISC"": []
+}","{""PER"": [""Manuel `` Flaco '' Ib\u00e1\u00f1ez""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",False,2065.28,2026-01-18T14:46:55.659907
+mistral_local_baseline_extraction,mistral,extraction,16,"{
+  ""PER"": [],
+  ""ORG"": [],
+  ""LOC"": [""Moments"", ""Mine"", ""1981""],
+  ""MISC"": [""'7'"", ""'single'""]
+}","{""PER"": [], ""ORG"": [""Moments and Mine""], ""LOC"": [], ""MISC"": []}",False,2796.2729999999997,2026-01-18T14:46:58.456189
+mistral_local_baseline_extraction,mistral,extraction,17,"{
+  ""PER"": [""Akritas""],
+  ""LOC"": [""Chlorakas""]
+}","{""PER"": [], ""ORG"": [""Akritas Chlorakas""], ""LOC"": [], ""MISC"": []}",False,1950.405,2026-01-18T14:47:00.406618
+mistral_local_baseline_extraction,mistral,extraction,18,"{
+  ""PER"": [],
+  ""ORG"": [""Farmers ' Almanac""],
+  ""LOC"": [],
+  ""MISC"": [""(1818–present)""]
+}","{""PER"": [], ""ORG"": [""Farmers ' Almanac""], ""LOC"": [], ""MISC"": []}",True,2735.019,2026-01-18T14:47:03.141676
+mistral_local_baseline_extraction,mistral,extraction,19,"{
+  ""PER"": [],
+  ""ORG"": [""Kuomintang""],
+  ""LOC"": [""Tianjin""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [""Kuomintang""], ""LOC"": [""Tianjin""], ""MISC"": []}",True,2636.127,2026-01-18T14:47:05.777824
+mistral_local_baseline_extraction,mistral,extraction,20,"{
+  ""PER"": [],
+  ""ORG"": [],
+  ""LOC"": [""Peru""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""Peru""], ""MISC"": []}",True,2151.405,2026-01-18T14:47:07.929279
+mistral_local_baseline_extraction,mistral,extraction,21,"{
+  ""PER"": [""Han Suyin""],
+  ""MISC"": [""their overthrow""]
+}","{""PER"": [""Han Suyin""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",True,1960.7669999999998,2026-01-18T14:47:09.890057
+mistral_local_baseline_extraction,mistral,extraction,22,"{
+  ""PER"": [""Bishop John J. Kinney""],
+  ""ORG"": [""Bishop of Bismarck"", ""Bishop of Saint Cloud""],
+  ""LOC"": []
+}","{""PER"": [""Bishop John J. Kinney""], ""ORG"": [], ""LOC"": [""Bishop of Bismarck"", ""Bishop of Saint Cloud""], ""MISC"": []}",False,2737.569,2026-01-18T14:47:12.627635
+mistral_local_baseline_extraction,mistral,extraction,23,"{
+  ""PER"": [""Wilson""],
+  ""ORG"": [],
+  ""LOC"": [""Eau Claire County"", ""Wisconsin""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""Wilson , Eau Claire County , Wisconsin""], ""MISC"": []}",False,2564.531,2026-01-18T14:47:15.192182
+mistral_local_baseline_extraction,mistral,extraction,24,"{
+  ""PER"": [],
+  ""ORG"": [""Sydney Theatre Company""],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [""Sydney Theatre Company""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",False,2259.038,2026-01-18T14:47:17.451229
+mistral_local_baseline_extraction,mistral,extraction,25,"{
+  ""PER"": [],
+  ""ORG"": [""John Mayer""],
+  ""LOC"": [],
+  ""MISC"": [""Time Well Wasted"", ""2005 album""]
+}","{""PER"": [], ""ORG"": [""Time Well Wasted""], ""LOC"": [], ""MISC"": []}",False,2714.63,2026-01-18T14:47:20.166059
+mistral_local_baseline_extraction,mistral,extraction,26,"{
+  ""PER"": [],
+  ""ORG"": [],
+  ""LOC"": [""Jhansi""],
+  ""MISC"": [""JHS""]
+}","{""PER"": [], ""ORG"": [""Jhansi""], ""LOC"": [], ""MISC"": []}",False,2352.437,2026-01-18T14:47:22.518556
+mistral_local_baseline_extraction,mistral,extraction,27,"{
+  ""PER"": [],
+  ""ORG"": [""Kashiwa Reysol"", ""Jeonbuk Hyundai Motors""],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [""Kashiwa Reysol"", ""Jeonbuk Hyundai Motors""], ""LOC"": [], ""MISC"": []}",True,2871.616,2026-01-18T14:47:25.390197
+mistral_local_baseline_extraction,mistral,extraction,28,"{
+  ""PER"": [],
+  ""ORG"": [],
+  ""LOC"": [""Merritt Island"", ""Florida""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""Merritt Island , Florida""], ""MISC"": []}",False,2439.319,2026-01-18T14:47:27.829572
+mistral_local_baseline_extraction,mistral,extraction,29,"{
+  ""PER"": [],
+  ""ORG"": [""Roman Catholic Archdiocese of Edmonton""],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""Roman Catholic Archdiocese of Edmonton""], ""MISC"": []}",False,2460.066,2026-01-18T14:47:30.289653
+mistral_local_baseline_extraction,mistral,extraction,30,"{
+  ""PER"": [""He""],
+  ""ORG"": [],
+  ""LOC"": [""St. Louis Rams""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [""St. Louis Rams""], ""LOC"": [], ""MISC"": []}",False,2474.118,2026-01-18T14:47:32.763789
+mistral_local_baseline_extraction,mistral,extraction,31,"{
+  ""PER"": [""Jean Colombera""],
+  ""ORG"": [""Alternative Democratic Reform Party""],
+  ""LOC"": []
+}","{""PER"": [""Jean Colombera""], ""ORG"": [""Chamber of Deputies"", ""Alternative Democratic Reform Party"", ""2009 election""], ""LOC"": [], ""MISC"": []}",True,2432.461,2026-01-18T14:47:35.196278
+mistral_local_baseline_extraction,mistral,extraction,32,"{
+  ""PER"": [""Ashley Tappin"", ""Erin Phenix"", ""Courtney Shealy"", ""Amy Van Dyken""],
+  ""MISC"": []
+}","{""PER"": [""Ashley Tappin"", ""Erin Phenix"", ""Courtney Shealy"", ""Amy Van Dyken""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",True,2792.6600000000003,2026-01-18T14:47:37.988951
+mistral_local_baseline_extraction,mistral,extraction,33,"{
+  ""PER"": [""Romy Kermer"", ""Rolf Österreich""],
+  ""ORG"": [],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [""Romy Kermer"", ""Rolf \u00d6sterreich""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",True,2468.5800000000004,2026-01-18T14:47:40.457566
+mistral_local_baseline_extraction,mistral,extraction,34,"{
+  ""PER"": [],
+  ""ORG"": [""Gates-Chili High School""],
+  ""LOC"": [""Gates""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [""Gates-Chili High School""], ""LOC"": [""Gates""], ""MISC"": []}",True,2452.108,2026-01-18T14:47:42.909685
+mistral_local_baseline_extraction,mistral,extraction,35,"{
+  ""PER"": [""Riki Lindhome""],
+  ""ORG"": [],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [""Riki Lindhome""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",True,2218.1839999999997,2026-01-18T14:47:45.127875
+mistral_local_baseline_extraction,mistral,extraction,36,"{
+  ""PER"": [],
+  ""ORG"": [],
+  ""LOC"": [],
+  ""MISC"": [""Raindrops"", ""Head""]
+}","{""PER"": [], ""ORG"": [""Raindrops Keep Fallin ' on My Head""], ""LOC"": [], ""MISC"": []}",False,2346.083,2026-01-18T14:47:47.473969
+mistral_local_baseline_extraction,mistral,extraction,37,"{
+  ""PER"": [],
+  ""ORG"": [],
+  ""LOC"": [""Hermanus"", ""Western Cape"", ""South Africa"", ""Israel""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""Hermanus"", ""Western Cape"", ""South Africa"", ""Israel""], ""MISC"": []}",True,2744.328,2026-01-18T14:47:50.218312
+mistral_local_baseline_extraction,mistral,extraction,38,"{
+  ""PER"": [],
+  ""ORG"": [],
+  ""LOC"": [],
+  ""MISC"": [""Type 1 Diabetes""]
+}","{""PER"": [], ""ORG"": [""Type 1 Diabetes""], ""LOC"": [], ""MISC"": []}",False,2317.207,2026-01-18T14:47:52.535534
+mistral_local_baseline_extraction,mistral,extraction,39,"{
+  ""PER"": [],
+  ""ORG"": [],
+  ""LOC"": [""Earls Court"", ""West Norwood Cemetery""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [""West Norwood Cemetery""], ""LOC"": [""Earls Court""], ""MISC"": []}",True,2495.91,2026-01-18T14:47:55.031453
+mistral_local_baseline_extraction,mistral,extraction,40,"{
+  ""PER"": [],
+  ""ORG"": [""Seattle Seahawks"", ""New England Patriots""],
+  ""LOC"": [""Super Bowl XLIX""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [""Super Bowl XLIX""], ""LOC"": [], ""MISC"": []}",False,2725.42,2026-01-18T14:47:57.756880
+mistral_local_baseline_extraction,mistral,extraction,41,"{
+  ""PER"": [],
+  ""ORG"": [""Encash Network Service""],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""Encash Network Service""], ""MISC"": []}",False,2226.9860000000003,2026-01-18T14:47:59.983876
+mistral_local_baseline_extraction,mistral,extraction,42,"{
+  ""PER"": [],
+  ""ORG"": [""Turning Stone Casino""],
+  ""LOC"": [""Verona"", ""New York"", ""United States""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [""Turning Stone Casino""], ""LOC"": [""Verona , New York"", ""United States""], ""MISC"": []}",True,3109.0930000000003,2026-01-18T14:48:03.093012
+mistral_local_baseline_extraction,mistral,extraction,43,"{
+  ""PER"": [],
+  ""ORG"": [""Crown""],
+  ""LOC"": [""Monongalia County"", ""West Virginia""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""Crown , Monongalia County , West Virginia""], ""MISC"": []}",False,2546.578,2026-01-18T14:48:05.639784
+mistral_local_baseline_extraction,mistral,extraction,44,"{
+  ""PER"": [""Tang Yik Chun"", ""Lai Chun Ho"", ""Ng Ka Fung"", ""Tsui Chi Ho""],
+  ""ORG"": [],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [""Tang Yik Chun"", ""Lai Chun Ho"", ""Ng Ka Fung"", ""Tsui Chi Ho""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",True,3085.345,2026-01-18T14:48:08.725150
+mistral_local_baseline_extraction,mistral,extraction,45,"{
+  ""PER"": [""Prince""],
+  ""YEAR"": [""1999""]
+}","{""PER"": [""Prince""], ""ORG"": [""1999""], ""LOC"": [], ""MISC"": []}",True,1798.334,2026-01-18T14:48:10.523492
+mistral_local_baseline_extraction,mistral,extraction,46,"{
+  ""PER"": [],
+  ""ORG"": [],
+  ""LOC"": [""Heathcliff""],
+  ""MISC"": [""(1980)""]
+}","{""PER"": [""Heathcliff""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",False,2506.1969999999997,2026-01-18T14:48:13.029709
+mistral_local_baseline_extraction,mistral,extraction,47,"{
+  ""PER"": [],
+  ""ORG"": [""Galician Academy""],
+  ""LOC"": [],
+  ""MISC"": [""private""]
+}","{""PER"": [], ""ORG"": [""Galician Academy""], ""LOC"": [], ""MISC"": []}",True,2302.646,2026-01-18T14:48:15.332393
+mistral_local_baseline_extraction,mistral,extraction,48,"{
+  ""PER"": [],
+  ""ORG"": [],
+  ""LOC"": [],
+  ""MISC"": [""Thysanoplusia orichalcea"", ""Fabricius""]
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""Thysanoplusia orichalcea""], ""MISC"": []}",False,2686.452,2026-01-18T14:48:18.018852
+mistral_local_baseline_extraction,mistral,extraction,49,"{
+  ""PER"": [""George III""],
+  ""ORG"": [""Chaplain-in-Ordinary""]
+}","{""PER"": [], ""ORG"": [""George III"", ""Chaplain-in-Ordinary""], ""LOC"": [], ""MISC"": []}",True,2053.4500000000003,2026-01-18T14:48:20.072320

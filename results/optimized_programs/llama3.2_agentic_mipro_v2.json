@@ -1,0 +1,72 @@
+{
+  "self": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "question": "Is Menthol associated with Thanksgiving?",
+        "reasoning": "Menthol is a common ingredient in cough drops and other medications, which are often associated with cold and flu season. Thanksgiving, on the other hand, is a holiday typically celebrated in November in the United States. While there may be some seasonal similarities between the two, Menthol is not directly associated with Thanksgiving.",
+        "answer": "No"
+      },
+      {
+        "question": "Could one Amazon share ever buy twenty year Netflix subscription?",
+        "answer": "Yes"
+      },
+      {
+        "question": "Would a packed Wembley stadium be likely to have a descendant of the Mongols inside?",
+        "answer": "Yes"
+      },
+      {
+        "question": "Can a strawberry get worms similar to dogs?",
+        "answer": "Yes"
+      },
+      {
+        "question": "Can Hulk's alter ego explain atomic events?",
+        "answer": "Yes"
+      }
+    ],
+    "signature": {
+      "instructions": "Answer the question that requires multi-step reasoning. Give the Answer as Yes or No.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Reasoning:",
+          "description": "Step-by-step reasoning"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Yes or No"
+        }
+      ]
+    },
+    "extended_signature": {
+      "instructions": "Prompt the Language Model to answer the question that requires multi-step reasoning by providing explicit instructions on how to approach the task.\n\nAnswer: Answer the question that requires multi-step reasoning. Give the reasonings as detailed step-by-step explanations leading to a final yes or no answer. Format your response with each question accompanied by its corresponding answer and a clear indication of whether the answer should be 'Yes' or 'No'.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Reasoning:",
+          "description": "Step-by-step reasoning"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Yes or No"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11.6",
+      "dspy": "2.6.27",
+      "cloudpickle": "3.1.2"
+    }
+  }
+}

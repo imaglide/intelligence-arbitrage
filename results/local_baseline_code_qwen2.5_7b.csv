@@ -1,0 +1,1017 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,timestamp
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,0,"from typing import List
+
+
+def has_close_elements(numbers: List[float], threshold: float) -> bool:
+    # Sort the list of numbers
+    sorted_numbers = sorted(numbers)
+    
+    # Iterate through the sorted list and check differences between consecutive elements
+    for i in range(len(sorted_numbers) - 1):
+        if sorted_numbers[i + 1] - sorted_numbers[i] < threshold:
+            return True
+    
+    return False","    for idx, elem in enumerate(numbers):
+        for idx2, elem2 in enumerate(numbers):
+            if idx != idx2:
+                distance = abs(elem - elem2)
+                if distance < threshold:
+                    return True
+
+    return False
+",True,4.17,2026-01-18T17:13:52.765749
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,1,"from typing import List
+
+
+def separate_paren_groups(paren_string: str) -> List[str]:
+    result = []
+    balance = 0
+    current_group = ''
+    
+    for char in paren_string.replace(' ', ''):  # Ignore spaces
+        current_group += char
+        if char == '(':
+            balance += 1
+        elif char == ')':
+            balance -= 1
+        
+        if balance == 0 and current_group:
+            result.append(current_group)
+            current_group = ''
+    
+    return result","    result = []
+    current_string = []
+    current_depth = 0
+
+    for c in paren_string:
+        if c == '(':
+            current_depth += 1
+            current_string.append(c)
+        elif c == ')':
+            current_depth -= 1
+            current_string.append(c)
+
+            if current_depth == 0:
+                result.append(''.join(current_string))
+                current_string.clear()
+
+    return result
+",True,1.239,2026-01-18T17:13:52.766996
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,2,"```python
+def truncate_number(number: float) -> float:
+    """""" Given a positive floating point number, it can be decomposed into
+    and integer part (largest integer smaller than given number) and decimals
+    (leftover part always smaller than 1).
+
+    Return the decimal part of the number.
+    """"""
+    return number - int(number)
+
+# Test the function with the provided example
+assert truncate_number(3.5) == 0.5
+```","    return number % 1.0
+",True,4.494,2026-01-18T17:13:52.771497
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,3,"from typing import List
+
+
+def below_zero(operations: List[int]) -> bool:
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False","    balance = 0
+
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+
+    return False
+",True,2.326,2026-01-18T17:13:52.773828
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,4,"from typing import List
+
+
+def mean_absolute_deviation(numbers: List[float]) -> float:
+    # Calculate the mean of the numbers
+    mean_value = sum(numbers) / len(numbers)
+    
+    # Compute the absolute differences from the mean
+    abs_diffs = [abs(x - mean_value) for x in numbers]
+    
+    # Calculate the average of these absolute differences
+    mad = sum(abs_diffs) / len(numbers)
+    
+    return mad","    mean = sum(numbers) / len(numbers)
+    return sum(abs(x - mean) for x in numbers) / len(numbers)
+",True,2.075,2026-01-18T17:13:52.775911
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,5,"from typing import List
+
+
+def intersperse(numbers: List[int], delimiter: int) -> List[int]:
+    result = []
+    for i, num in enumerate(numbers):
+        result.append(num)
+        if i < len(numbers) - 1:
+            result.append(delimiter)
+    return result","    if not numbers:
+        return []
+
+    result = []
+
+    for n in numbers[:-1]:
+        result.append(n)
+        result.append(delimeter)
+
+    result.append(numbers[-1])
+
+    return result
+",True,7.047000000000001,2026-01-18T17:13:52.782963
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,6,"from typing import List
+
+
+def parse_nested_parens(paren_string: str) -> List[int]:
+    groups = paren_string.split()
+    result = []
+
+    for group in groups:
+        max_depth = 0
+        current_depth = 0
+
+        for char in group:
+            if char == '(':
+                current_depth += 1
+                max_depth = max(max_depth, current_depth)
+            elif char == ')':
+                current_depth -= 1
+
+        result.append(max_depth)
+
+    return result","    def parse_paren_group(s):
+        depth = 0
+        max_depth = 0
+        for c in s:
+            if c == '(':
+                depth += 1
+                max_depth = max(depth, max_depth)
+            else:
+                depth -= 1
+
+        return max_depth
+
+    return [parse_paren_group(x) for x in paren_string.split(' ') if x]
+",True,1.829,2026-01-18T17:13:52.784797
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,7,"from typing import List
+
+
+def filter_by_substring(strings: List[str], substring: str) -> List[str]:
+    """""" Filter an input list of strings only for ones that contain given substring
+    >>> filter_by_substring([], 'a')
+    []
+    >>> filter_by_substring(['abc', 'bacd', 'cde', 'array'], 'a')
+    ['abc', 'bacd', 'array']
+    """"""
+    filtered_strings = [s for s in strings if substring in s]
+    return filtered_strings","    return [x for x in strings if substring in x]
+",True,1.735,2026-01-18T17:13:52.786546
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,8,"from typing import List, Tuple
+
+
+def sum_product(numbers: List[int]) -> Tuple[int, int]:
+    # Initialize sum and product
+    total_sum = 0
+    total_product = 1
+
+    # Iterate through each number in the list
+    for num in numbers:
+        total_sum += num
+        total_product *= num
+
+    return (total_sum, total_product)","    sum_value = 0
+    prod_value = 1
+
+    for n in numbers:
+        sum_value += n
+        prod_value *= n
+    return sum_value, prod_value
+",True,1.742,2026-01-18T17:13:52.788292
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,9,"from typing import List, Tuple
+
+
+def rolling_max(numbers: List[int]) -> List[int]:
+    max_so_far = numbers[0]
+    rolling_max_list = [max_so_far]
+
+    for number in numbers[1:]:
+        if number > max_so_far:
+            max_so_far = number
+        rolling_max_list.append(max_so_far)
+
+    return rolling_max_list","    running_max = None
+    result = []
+
+    for n in numbers:
+        if running_max is None:
+            running_max = n
+        else:
+            running_max = max(running_max, n)
+
+        result.append(running_max)
+
+    return result
+",False,1.714,2026-01-18T17:13:52.790010
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,10,"```python
+def is_palindrome(string: str) -> bool:
+    """""" Test if given string is a palindrome """"""
+    return string == string[::-1]
+
+
+def make_palindrome(string: str) -> str:
+    """""" Find the shortest palindrome that begins with a supplied string.
+    Algorithm idea is simple:
+    - Find the longest postfix of supplied string that is a palindrome.
+    - Append to the end of the string reverse of a string prefix that comes before the palindromic suffix.
+    """"""
+    if not string:
+        return ''
+
+    for i in range(len(string)):
+        # Check from the start, and see how long the suffix can be
+        if is_palindrome(string[i:]):
+            # Once we find the longest palindrome starting at index i,
+            # break out of the loop as it's the longest possible.
+            break
+
+    # The prefix to reverse will be everything before this palindromic suffix
+    prefix_to_reverse = string[:i]
+    reversed_prefix = prefix_to_reverse[::-1]
+
+    return string + reversed_prefix
+
+
+# Test cases
+assert make_palindrome('') == ''
+assert make_palindrome('cat') == 'catac'
+assert make_palindrome('cata') == 'catac'
+```","    if not string:
+        return ''
+
+    beginning_of_suffix = 0
+
+    while not is_palindrome(string[beginning_of_suffix:]):
+        beginning_of_suffix += 1
+
+    return string + string[:beginning_of_suffix][::-1]
+",False,1.6980000000000002,2026-01-18T17:13:52.791712
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,11,"from typing import List
+
+
+def string_xor(a: str, b: str) -> str:
+    """""" Input are two strings a and b consisting only of 1s and 0s.
+    Perform binary XOR on these inputs and return result also as a string.
+    """"""
+    result = ''
+    for i in range(len(a)):
+        # XOR the bits and append to the result
+        if a[i] == b[i]:
+            result += '0'
+        else:
+            result += '1'
+    return result
+
+
+# Test the function with provided test case
+assert string_xor('010', '110') == '100'","    def xor(i, j):
+        if i == j:
+            return '0'
+        else:
+            return '1'
+
+    return ''.join(xor(x, y) for x, y in zip(a, b))
+",True,1.736,2026-01-18T17:13:52.793452
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,12,"from typing import List, Optional
+
+
+def longest(strings: List[str]) -> Optional[str]:
+    """""" Out of list of strings, return the longest one. Return the first one in case of multiple
+    strings of the same length. Return None in case the input list is empty.
+    """"""
+    if not strings:
+        return None
+
+    longest_string = """"
+    max_length = 0
+
+    for string in strings:
+        if len(string) > max_length:
+            longest_string = string
+            max_length = len(string)
+
+    return longest_string","    if not strings:
+        return None
+
+    maxlen = max(len(x) for x in strings)
+    for s in strings:
+        if len(s) == maxlen:
+            return s
+",True,1.485,2026-01-18T17:13:52.794941
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,13,"```python
+def greatest_common_divisor(a: int, b: int) -> int:
+    while b != 0:
+        a, b = b, a % b
+    return abs(a)
+```","    while b:
+        a, b = b, a % b
+    return a
+",True,1.391,2026-01-18T17:13:52.796336
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,14,"from typing import List
+
+
+def all_prefixes(string: str) -> List[str]:
+    """""" Return list of all prefixes from shortest to longest of the input string
+    >>> all_prefixes('abc')
+    ['a', 'ab', 'abc']
+    """"""
+    return [string[:i] for i in range(1, len(string) + 1)]","    result = []
+
+    for i in range(len(string)):
+        result.append(string[:i+1])
+    return result
+",True,1.6689999999999998,2026-01-18T17:13:52.798009
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,15,"```python
+def string_sequence(n: int) -> str:
+    """""" Return a string containing space-delimited numbers starting from 0 upto n inclusive.
+    >>> string_sequence(0)
+    '0'
+    >>> string_sequence(5)
+    '0 1 2 3 4 5'
+    """"""
+    return ' '.join(str(i) for i in range(n + 1))
+```","    return ' '.join([str(x) for x in range(n + 1)])
+",True,1.642,2026-01-18T17:13:52.799655
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,16,"```python
+def count_distinct_characters(string: str) -> int:
+    # Convert the string to lowercase to ignore case sensitivity
+    lower_string = string.lower()
+    
+    # Use a set to store unique characters
+    unique_chars = set(lower_string)
+    
+    # The number of distinct characters is the size of the set
+    return len(unique_chars)
+```","    return len(set(string.lower()))
+",True,1.5939999999999999,2026-01-18T17:13:52.801254
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,17,"from typing import List
+
+
+def parse_music(music_string: str) -> List[int]:
+    """""" Input to this function is a string representing musical notes in a special ASCII format.
+    Your task is to parse this string and return list of integers corresponding to how many beats does each
+    not last.
+
+    Here is a legend:
+    'o' - whole note, lasts four beats
+    'o|' - half note, lasts two beats
+    '.|' - quater note, lasts one beat
+
+    >>> parse_music('o o| .| o| o| .| .| .| .| o o')
+    [4, 2, 1, 2, 2, 1, 1, 1, 1, 4, 4]
+    """"""
+    result = []
+    i = 0
+    while i < len(music_string):
+        if music_string[i] == 'o':
+            result.append(4)
+            i += 1
+        elif music_string[i:i+2] == 'o|':
+            result.append(2)
+            i += 2
+        elif music_string[i:i+2] == '.|':
+            result.append(1)
+            i += 2
+    return result","    note_map = {'o': 4, 'o|': 2, '.|': 1}
+    return [note_map[x] for x in music_string.split(' ') if x]
+",False,5006.628,2026-01-18T17:13:57.807893
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,18,"```python
+def how_many_times(string: str, substring: str) -> int:
+    if not substring or len(substring) > len(string):
+        return 0
+    
+    count = 0
+    for i in range(len(string) - len(substring) + 1):
+        if string[i:i+len(substring)] == substring:
+            count += 1
+            
+    return count
+
+# Test cases
+print(how_many_times('', 'a'))  # Expected output: 0
+print(how_many_times('aaa', 'a'))  # Expected output: 3
+print(how_many_times('aaaa', 'aa'))  # Expected output: 3
+```","    times = 0
+
+    for i in range(len(string) - len(substring) + 1):
+        if string[i:i+len(substring)] == substring:
+            times += 1
+
+    return times
+",True,2.5799999999999996,2026-01-18T17:13:57.810486
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,19,"from typing import List
+
+
+def sort_numbers(numbers: str) -> str:
+    # Mapping from number words to integers
+    num_map = {
+        'zero': 0,
+        'one': 1,
+        'two': 2,
+        'three': 3,
+        'four': 4,
+        'five': 5,
+        'six': 6,
+        'seven': 7,
+        'eight': 8,
+        'nine': 9
+    }
+
+    # Split the input string into a list of numbers
+    number_list = numbers.split()
+
+    # Sort the list based on their integer values using the mapping dictionary
+    sorted_numbers = sorted(number_list, key=lambda x: num_map[x])
+
+    # Join the sorted list back into a single space-delimited string
+    return ' '.join(sorted_numbers)","    value_map = {
+        'zero': 0,
+        'one': 1,
+        'two': 2,
+        'three': 3,
+        'four': 4,
+        'five': 5,
+        'six': 6,
+        'seven': 7,
+        'eight': 8,
+        'nine': 9
+    }
+    return ' '.join(sorted([x for x in numbers.split(' ') if x], key=lambda x: value_map[x]))
+",True,1.677,2026-01-18T17:13:57.812168
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,20,"from typing import List, Tuple
+
+
+def find_closest_elements(numbers: List[float]) -> Tuple[float, float]:
+    # Sort the list to ensure all potential pairs are adjacent
+    sorted_numbers = sorted(numbers)
+    
+    # Initialize variables to store the closest pair and their minimum difference
+    min_diff = float('inf')
+    closest_pair = (0.0, 0.0)
+    
+    # Iterate through the sorted list to find the closest pair
+    for i in range(len(sorted_numbers) - 1):
+        diff = abs(sorted_numbers[i] - sorted_numbers[i + 1])
+        if diff < min_diff:
+            min_diff = diff
+            closest_pair = (sorted_numbers[i], sorted_numbers[i + 1])
+    
+    return closest_pair","    closest_pair = None
+    distance = None
+
+    for idx, elem in enumerate(numbers):
+        for idx2, elem2 in enumerate(numbers):
+            if idx != idx2:
+                if distance is None:
+                    distance = abs(elem - elem2)
+                    closest_pair = tuple(sorted([elem, elem2]))
+                else:
+                    new_distance = abs(elem - elem2)
+                    if new_distance < distance:
+                        distance = new_distance
+                        closest_pair = tuple(sorted([elem, elem2]))
+
+    return closest_pair
+",True,1.794,2026-01-18T17:13:57.813967
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,21,"from typing import List
+
+
+def rescale_to_unit(numbers: List[float]) -> List[float]:
+    min_val = min(numbers)
+    max_val = max(numbers)
+    
+    return [(num - min_val) / (max_val - min_val) for num in numbers]","    min_number = min(numbers)
+    max_number = max(numbers)
+    return [(x - min_number) / (max_number - min_number) for x in numbers]
+",True,1.883,2026-01-18T17:13:57.815855
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,22,"from typing import List, Any
+
+
+def filter_integers(values: List[Any]) -> List[int]:
+    """""" Filter given list of any python values only for integers
+    >>> filter_integers(['a', 3.14, 5])
+    [5]
+    >>> filter_integers([1, 2, 3, 'abc', {}, []])
+    [1, 2, 3]
+    """"""
+    return [value for value in values if isinstance(value, int)]","    return [x for x in values if isinstance(x, int)]
+",True,1.6700000000000002,2026-01-18T17:13:57.817529
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,23,"def strlen(string: str) -> int:
+    """""" Return length of given string
+    >>> strlen('')
+    0
+    >>> strlen('abc')
+    3
+    """"""
+    return len(string)","    return len(string)
+",True,1.606,2026-01-18T17:13:57.819139
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,24,"```python
+def largest_divisor(n: int) -> int:
+    for i in range(n - 1, 0, -1):
+        if n % i == 0:
+            return i
+    return 1
+
+# Test cases
+print(largest_divisor(15))  # Expected output: 5
+```","    for i in reversed(range(n)):
+        if n % i == 0:
+            return i
+",True,1.63,2026-01-18T17:13:57.820773
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,25,"from typing import List
+
+
+def factorize(n: int) -> List[int]:
+    """""" Return list of prime factors of given integer in the order from smallest to largest.
+    Each of the factors should be listed number of times corresponding to how many times it appeares in factorization.
+    Input number should be equal to the product of all factors
+    >>> factorize(8)
+    [2, 2, 2]
+    >>> factorize(25)
+    [5, 5]
+    >>> factorize(70)
+    [2, 5, 7]
+    """"""
+    factors = []
+    
+    # Divide n by 2 to get rid of all even factors
+    while n % 2 == 0:
+        factors.append(2)
+        n //= 2
+    
+    # Check for odd factors from 3 onwards
+    i = 3
+    while i * i <= n:
+        while n % i == 0:
+            factors.append(i)
+            n //= i
+        i += 2
+    
+    # If n is a prime number greater than 2
+    if n > 2:
+        factors.append(n)
+    
+    return factors","    import math
+    fact = []
+    i = 2
+    while i <= int(math.sqrt(n) + 1):
+        if n % i == 0:
+            fact.append(i)
+            n //= i
+        else:
+            i += 1
+
+    if n > 1:
+        fact.append(n)
+    return fact
+",True,1.903,2026-01-18T17:13:57.822681
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,26,"from typing import List
+
+
+def remove_duplicates(numbers: List[int]) -> List[int]:
+    num_count = {}
+    for num in numbers:
+        if num in num_count:
+            num_count[num] += 1
+        else:
+            num_count[num] = 1
+
+    result = [num for num in numbers if num_count[num] == 1]
+    return result","    import collections
+    c = collections.Counter(numbers)
+    return [n for n in numbers if c[n] <= 1]
+",True,1.608,2026-01-18T17:13:57.824292
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,27,"```python
+def flip_case(string: str) -> str:
+    result = """"
+    for char in string:
+        if 'a' <= char <= 'z':
+            result += chr(ord(char) - 32)
+        elif 'A' <= char <= 'Z':
+            result += chr(ord(char) + 32)
+        else:
+            result += char
+    return result
+```","    return string.swapcase()
+",True,1.7409999999999999,2026-01-18T17:13:57.826037
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,28,"from typing import List
+
+
+def concatenate(strings: List[str]) -> str:
+    return ''.join(strings)","    return ''.join(strings)
+",True,1.865,2026-01-18T17:13:57.827909
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,29,"from typing import List
+
+
+def filter_by_prefix(strings: List[str], prefix: str) -> List[str]:
+    """""" Filter an input list of strings only for ones that start with a given prefix.
+    >>> filter_by_prefix([], 'a')
+    []
+    >>> filter_by_prefix(['abc', 'bcd', 'cde', 'array'], 'a')
+    ['abc', 'array']
+    """"""
+    return [s for s in strings if s.startswith(prefix)]","    return [x for x in strings if x.startswith(prefix)]
+",True,1.905,2026-01-18T17:13:57.829821
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,30,"```python
+def get_positive(l: list):
+    """"""Return only positive numbers in the list.
+    >>> get_positive([-1, 2, -4, 5, 6])
+    [2, 5, 6]
+    >>> get_positive([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])
+    [5, 3, 2, 3, 9, 123, 1]
+    """"""
+    return [num for num in l if num > 0]
+```","    return [e for e in l if e > 0]
+",True,1.6620000000000001,2026-01-18T17:13:57.831489
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,31,"```python
+import math
+
+def is_prime(n):
+    if n <= 1:
+        return False
+    for i in range(2, int(math.sqrt(n)) + 1):
+        if n % i == 0:
+            return False
+    return True
+```","    if n < 2:
+        return False
+    for k in range(2, n - 1):
+        if n % k == 0:
+            return False
+    return True
+",False,1.676,2026-01-18T17:13:57.833169
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,32,"import math
+
+
+def poly(xs: list, x: float):
+    """"""
+    Evaluates polynomial with coefficients xs at point x.
+    return xs[0] + xs[1] * x + xs[1] * x^2 + .... xs[n] * x^n
+    """"""
+    return sum([coeff * math.pow(x, i) for i, coeff in enumerate(xs)])
+
+
+def find_zero(xs: list):
+    """""" xs are coefficients of a polynomial.
+    find_zero find x such that poly(x) = 0.
+    find_zero returns only only zero point, even if there are many.
+    Moreover, find_zero only takes list xs having even number of coefficients
+    and largest non zero coefficient as it guarantees
+    a solution.
+    >>> round(find_zero([1, 2]), 2) # f(x) = 1 + 2x
+    -0.5
+    >>> round(find_zero([-6, 11, -6, 1]), 2) # (x - 1) * (x - 2) * (x - 3) = -6 + 11x - 6x^2 + x^3
+    1.0
+    """"""
+    a, b = -10, 10  # Initial interval
+    tol = 1e-5  # Tolerance for the root
+
+    while (b - a) / 2 > tol:
+        c = (a + b) / 2
+        if poly(xs, c) == 0:
+            return c
+        elif poly(xs, a) * poly(xs, c) < 0:
+            b = c
+        else:
+            a = c
+
+    return (a + b) / 2","    begin, end = -1., 1.
+    while poly(xs, begin) * poly(xs, end) > 0:
+        begin *= 2.0
+        end *= 2.0
+    while end - begin > 1e-10:
+        center = (begin + end) / 2.0
+        if poly(xs, center) * poly(xs, begin) > 0:
+            begin = center
+        else:
+            end = center
+    return begin
+",False,1.981,2026-01-18T17:13:57.835155
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,33,"```python
+def sort_third(l: list):
+    # Extract elements at indices divisible by 3
+    third_indices = [l[i] for i in range(len(l)) if (i + 1) % 3 == 0]
+    
+    # Sort the extracted elements
+    sorted_third_indices = sorted(third_indices)
+    
+    # Reconstruct the new list with sorted elements at appropriate indices
+    l_prime = l.copy()
+    sorted_index = 0
+    for i in range(len(l)):
+        if (i + 1) % 3 == 0:
+            l_prime[i] = sorted_third_indices[sorted_index]
+            sorted_index += 1
+    
+    return l_prime
+```","    l = list(l)
+    l[::3] = sorted(l[::3])
+    return l
+",False,1.772,2026-01-18T17:13:57.836931
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,34,"```python
+def unique(l: list):
+    """"""Return sorted unique elements in a list
+    >>> unique([5, 3, 5, 2, 3, 3, 9, 0, 123])
+    [0, 2, 3, 5, 9, 123]
+    """"""
+    return sorted(set(l))
+```","    return sorted(list(set(l)))
+",True,1.5690000000000002,2026-01-18T17:13:57.838503
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,35,"def max_element(l: list):
+    """"""Return maximum element in the list.
+    >>> max_element([1, 2, 3])
+    3
+    >>> max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])
+    123
+    """"""
+    return max(l)","    m = l[0]
+    for e in l:
+        if e > m:
+            m = e
+    return m
+",True,1.706,2026-01-18T17:13:57.840217
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,36,"```python
+def fizz_buzz(n: int) -> int:
+    """"""Return the number of times the digit 7 appears in integers less than n which are divisible by 11 or 13.
+    >>> fizz_buzz(50)
+    0
+    >>> fizz_buzz(78)
+    2
+    >>> fizz_buzz(79)
+    3
+    """"""
+    count = 0
+    for i in range(1, n):
+        if i % 11 == 0 or i % 13 == 0:
+            count += str(i).count('7')
+    return count
+```","    ns = []
+    for i in range(n):
+        if i % 11 == 0 or i % 13 == 0:
+            ns.append(i)
+    s = ''.join(list(map(str, ns)))
+    ans = 0
+    for c in s:
+        ans += (c == '7')
+    return ans
+",True,8.551,2026-01-18T17:13:57.848773
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,37,"```python
+def sort_even(l: list):
+    # Extract elements at even indices (0, 2, 4, ...)
+    even_elements = [l[i] for i in range(0, len(l), 2)]
+    
+    # Sort the extracted even-indexed elements
+    sorted_even_elements = sorted(even_elements)
+    
+    # Merge the sorted even-indexed elements back into their original positions
+    l_prime = []
+    even_index = 0
+    for i in range(len(l)):
+        if i % 2 == 0:
+            l_prime.append(sorted_even_elements[even_index])
+            even_index += 1
+        else:
+            l_prime.append(l[i])
+    
+    return l_prime
+
+
+# Test cases
+print(sort_even([1, 2, 3]))  # Expected output: [1, 2, 3]
+print(sort_even([5, 6, 3, 4]))  # Expected output: [3, 6, 5, 4]
+```","    evens = l[::2]
+    odds = l[1::2]
+    evens.sort()
+    ans = []
+    for e, o in zip(evens, odds):
+        ans.extend([e, o])
+    if len(evens) > len(odds):
+        ans.append(evens[-1])
+    return ans
+",True,1.768,2026-01-18T17:13:57.850544
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,38,"```python
+def decode_cyclic(s: str):
+    """"""
+    takes as input string encoded with encode_cyclic function. Returns decoded string.
+    """"""
+    # split string to groups. Each of length 3.
+    groups = [s[(3 * i):min((3 * i + 3), len(s))] for i in range((len(s) + 2) // 3)]
+    # cycle elements in each group back. Unless group has fewer elements than 3.
+    groups = [(group[-1] + group[:-1]) if len(group) == 3 else group for group in groups]
+    return """".join(groups)
+```","    return encode_cyclic(encode_cyclic(s))
+",False,1.814,2026-01-18T17:13:57.852363
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,39,"```python
+def prime_fib(n: int) -> int:
+    """"""
+    prime_fib returns n-th number that is a Fibonacci number and it's also prime.
+    """"""
+
+    def is_prime(num: int) -> bool:
+        if num < 2:
+            return False
+        for i in range(2, int(num ** 0.5) + 1):
+            if num % i == 0:
+                return False
+        return True
+
+    a, b = 0, 1
+    count = 0
+    while count < n:
+        a, b = b, a + b
+        if is_prime(a):
+            count += 1
+    return a
+
+
+# Test cases
+print(prime_fib(1))  # Output: 2
+print(prime_fib(2))  # Output: 3
+print(prime_fib(3))  # Output: 5
+print(prime_fib(4))  # Output: 13
+print(prime_fib(5))  # Output: 89
+```","    import math
+
+    def is_prime(p):
+        if p < 2:
+            return False
+        for k in range(2, min(int(math.sqrt(p)) + 1, p - 1)):
+            if p % k == 0:
+                return False
+        return True
+    f = [0, 1]
+    while True:
+        f.append(f[-1] + f[-2])
+        if is_prime(f[-1]):
+            n -= 1
+        if n == 0:
+            return f[-1]
+",True,2.599,2026-01-18T17:13:57.854966
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,40,"```python
+def triples_sum_to_zero(l: list) -> bool:
+    n = len(l)
+    for i in range(n):
+        for j in range(i + 1, n):
+            for k in range(j + 1, n):
+                if l[i] + l[j] + l[k] == 0:
+                    return True
+    return False
+
+# Test cases
+print(triples_sum_to_zero([1, 3, 5, 0]))  # Output: False
+print(triples_sum_to_zero([1, 3, -2, 1]))  # Output: True
+print(triples_sum_to_zero([1, 2, 3, 7]))  # Output: False
+print(triples_sum_to_zero([2, 4, -5, 3, 9, 7]))  # Output: True
+print(triples_sum_to_zero([1]))  # Output: False
+```","    for i in range(len(l)):
+        for j in range(i + 1, len(l)):
+            for k in range(j + 1, len(l)):
+                if l[i] + l[j] + l[k] == 0:
+                    return True
+    return False
+",True,2.0309999999999997,2026-01-18T17:13:57.857003
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,41,"def car_race_collision(n: int) -> int:
+    """"""
+    Imagine a road that's a perfectly straight infinitely long line.
+    n cars are driving left to right;  simultaneously, a different set of n cars
+    are driving right to left.   The two sets of cars start out being very far from
+    each other.  All cars move in the same speed.  Two cars are said to collide
+    when a car that's moving left to right hits a car that's moving right to left.
+    However, the cars are infinitely sturdy and strong; as a result, they continue moving
+    in their trajectory as if they did not collide.
+
+    This function outputs the number of such collisions.
+    """"""
+    return n * n","    return n**2
+",True,1.547,2026-01-18T17:13:57.858553
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,42,"```py
+def incr_list(l: list):
+    return [x + 1 for x in l]
+```","    return [(e + 1) for e in l]
+",False,1.665,2026-01-18T17:13:57.860223
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,43,"def pairs_sum_to_zero(l):
+    seen = set()
+    for num in l:
+        if -num in seen:
+            return True
+        seen.add(num)
+    return False","    for i, l1 in enumerate(l):
+        for j in range(i + 1, len(l)):
+            if l1 + l[j] == 0:
+                return True
+    return False
+",True,1.661,2026-01-18T17:13:57.861887
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,44,"```python
+def change_base(x: int, base: int) -> str:
+    """"""Change numerical base of input number x to base.
+    return string representation after the conversion.
+    base numbers are less than 10.
+    """"""
+    if base < 2 or base > 9:
+        raise ValueError(""Base must be between 2 and 9"")
+    
+    digits = []
+    while x > 0:
+        digits.append(str(x % base))
+        x //= base
+    return ''.join(digits[::-1])
+
+# Test cases
+print(change_base(8, 3))  # Expected output: '22'
+print(change_base(8, 2))  # Expected output: '1000'
+print(change_base(7, 2))  # Expected output: '111'
+```","    ret = """"
+    while x > 0:
+        ret = str(x % base) + ret
+        x //= base
+    return ret
+",True,1.7309999999999999,2026-01-18T17:13:57.863625
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,45,"```python
+def triangle_area(a, h):
+    return 0.5 * a * h
+```","    return a * h / 2.0
+",True,1.562,2026-01-18T17:13:57.865191
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,46,"def fib4(n: int) -> int:
+    if n == 0 or n == 1:
+        return 0
+    elif n == 2:
+        return 2
+    elif n == 3:
+        return 0
+
+    # Initialize the first four values of the sequence
+    a, b, c, d = 0, 0, 2, 0
+
+    # Compute fib4(n) iteratively
+    for _ in range(4, n + 1):
+        a, b, c, d = b, c, d, a + b + c + d
+
+    return d","    results = [0, 0, 2, 0]
+    if n < 4:
+        return results[n]
+
+    for _ in range(4, n + 1):
+        results.append(results[-1] + results[-2] + results[-3] + results[-4])
+        results.pop(0)
+
+    return results[-1]
+",True,1.704,2026-01-18T17:13:57.866899
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,47,"```python
+def median(l: list):
+    sorted_l = sorted(l)
+    n = len(sorted_l)
+    
+    if n % 2 == 1:
+        return sorted_l[n // 2]
+    else:
+        return (sorted_l[(n // 2) - 1] + sorted_l[n // 2]) / 2
+```","    l = sorted(l)
+    if len(l) % 2 == 1:
+        return l[len(l) // 2]
+    else:
+        return (l[len(l) // 2 - 1] + l[len(l) // 2]) / 2.0
+",True,1.557,2026-01-18T17:13:57.868459
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,48,"```python
+def is_palindrome(text: str) -> bool:
+    """"""
+    Checks if given string is a palindrome
+    >>> is_palindrome('')
+    True
+    >>> is_palindrome('aba')
+    True
+    >>> is_palindrome('aaaaa')
+    True
+    >>> is_palindrome('zbcd')
+    False
+    """"""
+    return text == text[::-1]
+```","    for i in range(len(text)):
+        if text[i] != text[len(text) - 1 - i]:
+            return False
+    return True
+",True,1.528,2026-01-18T17:13:57.869991
+qwen2.5:7b_local_baseline_code,qwen2.5:7b,code,49,"```python
+def modp(n: int, p: int) -> int:
+    return pow(2, n, p)
+```","    ret = 1
+    for i in range(n):
+        ret = (2 * ret) % p
+    return ret
+",True,1.506,2026-01-18T17:13:57.871500

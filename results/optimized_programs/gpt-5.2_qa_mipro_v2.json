@@ -1,0 +1,70 @@
+{
+  "self": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "question": "What event occured at the Red Bull Arena in Salzburg, Austria and Switzerland in 2008?",
+        "answer": "UEFA Euro 2008"
+      },
+      {
+        "question": "Sir Thomas Kyriell was executed after which battle from the Wars of the Roses?",
+        "answer": "Second Battle of St Albans"
+      },
+      {
+        "question": "Were both Gabriela Mistral and G. K. Chesterton authors?",
+        "answer": "yes"
+      },
+      {
+        "question": "Which airport is located in Maine, Sacramento International Airport or Knox County Regional Airport?",
+        "answer": "Knox County Regional Airport"
+      },
+      {
+        "question": "What direction does the river that Austrolebias bellotti are found in flow?",
+        "answer": "north to south"
+      }
+    ],
+    "signature": {
+      "instructions": "Answer the question based on common knowledge or context.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Short answer to the question"
+        }
+      ]
+    },
+    "extended_signature": {
+      "instructions": "You are an expert open-domain factoid QA system. Given a single natural-language question, produce (1) a brief step-by-step reasoning trace that decomposes the question into the necessary factual hops\/constraints (e.g., identify the entity, apply qualifiers like \u201cwho is married to,\u201d handle comparisons\/disambiguation, then combine the results), and (2) a final short answer.\n\nGuidelines:\n- Use widely accepted general knowledge; if the question implies a specific relation (spouse, birthplace, author, capital, etc.), retrieve that exact property.\n- Resolve ambiguity by using all constraints in the question (time period, nationality, \u201cthe one that\u2026\u201d, superlatives, comparisons). Prefer the most commonly referenced entity if still ambiguous.\n- For multi-hop questions, explicitly chain the intermediate facts in the reasoning, ensuring each hop supports the next.\n- Keep the final answer minimal: usually a single entity name (or short phrase) with no extra explanation, punctuation, or multiple candidates unless the question explicitly asks for more than one.\n- If the question cannot be confidently answered from common knowledge, state that in the reasoning and give the best-supported guess in the answer (still concise).\n\nOutput format:\nReasoning: Let's think step by step in order to ...\nAnswer: <short final answer>",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Short answer to the question"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11.6",
+      "dspy": "2.6.27",
+      "cloudpickle": "3.1.2"
+    }
+  }
+}

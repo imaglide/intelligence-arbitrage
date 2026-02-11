@@ -1,0 +1,1001 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,timestamp
+mistral:latest_local_baseline_rag,mistral:latest,rag,0,Denver Broncos,Denver Broncos,True,5.22,2026-01-23T08:47:44.910567
+mistral:latest_local_baseline_rag,mistral:latest,rag,1,Carolina Panthers,Carolina Panthers,True,2.369,2026-01-23T08:47:44.912944
+mistral:latest_local_baseline_rag,mistral:latest,rag,2,"Levi's Stadium, Santa Clara, California","Santa Clara, California",True,2.342,2026-01-23T08:47:44.915291
+mistral:latest_local_baseline_rag,mistral:latest,rag,3,Denver Broncos,Denver Broncos,True,1.13,2026-01-23T08:47:44.916428
+mistral:latest_local_baseline_rag,mistral:latest,rag,4,Gold,gold,True,3.263,2026-01-23T08:47:44.919696
+mistral:latest_local_baseline_rag,mistral:latest,rag,5,Golden,"""golden anniversary""",True,4.473000000000001,2026-01-23T08:47:44.924174
+mistral:latest_local_baseline_rag,mistral:latest,rag,6,"February 7, 2016","February 7, 2016",True,1.436,2026-01-23T08:47:44.925616
+mistral:latest_local_baseline_rag,mistral:latest,rag,7,American Football Conference (AFC),American Football Conference,True,1.567,2026-01-23T08:47:44.927193
+mistral:latest_local_baseline_rag,mistral:latest,rag,8,Golden,"""golden anniversary""",True,0.22,2026-01-23T08:47:44.927418
+mistral:latest_local_baseline_rag,mistral:latest,rag,9,American Football Conference (AFC),American Football Conference,True,1.31,2026-01-23T08:47:44.928732
+mistral:latest_local_baseline_rag,mistral:latest,rag,10,"February 7, 2016","February 7, 2016",True,1.267,2026-01-23T08:47:44.930002
+mistral:latest_local_baseline_rag,mistral:latest,rag,11,Denver Broncos,Denver Broncos,True,1.572,2026-01-23T08:47:44.931579
+mistral:latest_local_baseline_rag,mistral:latest,rag,12,Levi's Stadium,Levi's Stadium,True,1.35,2026-01-23T08:47:44.932933
+mistral:latest_local_baseline_rag,mistral:latest,rag,13,"Levi's Stadium is located in Santa Clara, California.",Santa Clara,True,1.423,2026-01-23T08:47:44.934360
+mistral:latest_local_baseline_rag,mistral:latest,rag,14,"Super Bowl 50 would have been called ""Super Bowl L"" if Roman numerals were used.",Super Bowl L,True,1.314,2026-01-23T08:47:44.935678
+mistral:latest_local_baseline_rag,mistral:latest,rag,15,2015,2015,True,1.497,2026-01-23T08:47:44.937180
+mistral:latest_local_baseline_rag,mistral:latest,rag,16,2016,2015,False,1.31,2026-01-23T08:47:44.938494
+mistral:latest_local_baseline_rag,mistral:latest,rag,17,"Levi's Stadium is located in Santa Clara, California.",Santa Clara,True,0.214,2026-01-23T08:47:44.938711
+mistral:latest_local_baseline_rag,mistral:latest,rag,18,Levi's Stadium,Levi's Stadium,True,1.367,2026-01-23T08:47:44.940082
+mistral:latest_local_baseline_rag,mistral:latest,rag,19,24-10 (Denver Broncos vs Carolina Panthers),24–10,False,1.398,2026-01-23T08:47:44.941484
+mistral:latest_local_baseline_rag,mistral:latest,rag,20,"February 7, 2016","February 7, 2016",True,1.502,2026-01-23T08:47:44.942992
+mistral:latest_local_baseline_rag,mistral:latest,rag,21,2016,2015,False,1.5579999999999998,2026-01-23T08:47:44.944558
+mistral:latest_local_baseline_rag,mistral:latest,rag,22,Denver Broncos,Denver Broncos,True,0.856,2026-01-23T08:47:44.945418
+mistral:latest_local_baseline_rag,mistral:latest,rag,23,Carolina Panthers,Carolina Panthers,True,2.1510000000000002,2026-01-23T08:47:44.947573
+mistral:latest_local_baseline_rag,mistral:latest,rag,24,Denver Broncos,Denver Broncos,True,0.224,2026-01-23T08:47:44.947801
+mistral:latest_local_baseline_rag,mistral:latest,rag,25,2015,2015,True,1.3339999999999999,2026-01-23T08:47:44.949138
+mistral:latest_local_baseline_rag,mistral:latest,rag,26,Denver Broncos,Denver Broncos,True,1.31,2026-01-23T08:47:44.950451
+mistral:latest_local_baseline_rag,mistral:latest,rag,27,"Levi's Stadium, San Francisco Bay Area, Santa Clara, California","Santa Clara, California.",False,1.305,2026-01-23T08:47:44.951760
+mistral:latest_local_baseline_rag,mistral:latest,rag,28,"The NFL championship game was not named Super Bowl 50 in this context due to the league's temporary suspension of Roman numerals for the ""golden anniversary.""",Super Bowl,True,1.434,2026-01-23T08:47:44.953200
+mistral:latest_local_baseline_rag,mistral:latest,rag,29,Denver Broncos,Denver Broncos,True,1.353,2026-01-23T08:47:44.954557
+mistral:latest_local_baseline_rag,mistral:latest,rag,30,Cam Newton,Cam Newton,True,1.303,2026-01-23T08:47:44.955864
+mistral:latest_local_baseline_rag,mistral:latest,rag,31,8,8,True,1.592,2026-01-23T08:47:44.957462
+mistral:latest_local_baseline_rag,mistral:latest,rag,32,The context does not provide the year when the Carolina Panthers franchise was founded.,1995,False,1.359,2026-01-23T08:47:44.958826
+mistral:latest_local_baseline_rag,mistral:latest,rag,33,The Panthers defeated the Arizona Cardinals.,Arizona Cardinals,True,1.371,2026-01-23T08:47:44.960201
+mistral:latest_local_baseline_rag,mistral:latest,rag,34,The New England Patriots,New England Patriots,True,1.3619999999999999,2026-01-23T08:47:44.961567
+mistral:latest_local_baseline_rag,mistral:latest,rag,35,Arizona Cardinals,Arizona Cardinals,True,0.48899999999999993,2026-01-23T08:47:44.962059
+mistral:latest_local_baseline_rag,mistral:latest,rag,36,The New England Patriots lost to the Broncos in the AFC Championship.,New England Patriots,True,2.506,2026-01-23T08:47:44.964569
+mistral:latest_local_baseline_rag,mistral:latest,rag,37,Not determinable from the provided context.,New England Patriots,False,1.409,2026-01-23T08:47:44.965983
+mistral:latest_local_baseline_rag,mistral:latest,rag,38,"Four teams have been in the Super Bowl eight times: Panthers, Broncos, Patriots, and Pittsburgh Steelers.",four,True,1.3190000000000002,2026-01-23T08:47:44.967306
+mistral:latest_local_baseline_rag,mistral:latest,rag,39,Cam Newton,Cam Newton,True,1.3439999999999999,2026-01-23T08:47:44.968654
+mistral:latest_local_baseline_rag,mistral:latest,rag,40,"The win/loss ratio for the Carolina Panthers during their regular season in 2015 was 15-1, which simplifies to 0.9375 or approximately 94%.",15–1,False,1.3,2026-01-23T08:47:44.969957
+mistral:latest_local_baseline_rag,mistral:latest,rag,41,Cam Newton,Cam Newton,True,1.4469999999999998,2026-01-23T08:47:44.971409
+mistral:latest_local_baseline_rag,mistral:latest,rag,42,The Denver Broncos had a 12–4 win-loss record in their regular season in 2015.,12–4,True,1.565,2026-01-23T08:47:44.972982
+mistral:latest_local_baseline_rag,mistral:latest,rag,43,4 teams have played in the Super Bowl eight times.,4,True,1.359,2026-01-23T08:47:44.974345
+mistral:latest_local_baseline_rag,mistral:latest,rag,44,New England Patriots,New England Patriots,True,1.6700000000000002,2026-01-23T08:47:44.976019
+mistral:latest_local_baseline_rag,mistral:latest,rag,45,Cam Newton,Cam Newton,True,1.4040000000000001,2026-01-23T08:47:44.977428
+mistral:latest_local_baseline_rag,mistral:latest,rag,46,Carolina beat the Arizona Cardinals.,Arizona Cardinals,True,1.6340000000000001,2026-01-23T08:47:44.979065
+mistral:latest_local_baseline_rag,mistral:latest,rag,47,2 times,2,True,1.3079999999999998,2026-01-23T08:47:44.980376
+mistral:latest_local_baseline_rag,mistral:latest,rag,48,New England Patriots,New England Patriots,True,1.302,2026-01-23T08:47:44.981682
+mistral:latest_local_baseline_rag,mistral:latest,rag,49,Cam Newton,Cam Newton,True,1.251,2026-01-23T08:47:44.982937
+mistral:latest_local_baseline_rag,mistral:latest,rag,50,New England Patriots,New England Patriots,True,1.328,2026-01-23T08:47:44.984269
+mistral:latest_local_baseline_rag,mistral:latest,rag,51,Carolina Panthers beat the Arizona Cardinals.,Arizona Cardinals,True,1.391,2026-01-23T08:47:44.985665
+mistral:latest_local_baseline_rag,mistral:latest,rag,52,Cam Newton,Cam Newton,True,1.371,2026-01-23T08:47:44.987041
+mistral:latest_local_baseline_rag,mistral:latest,rag,53,Arizona Cardinals,Arizona Cardinals,True,0.5720000000000001,2026-01-23T08:47:44.987616
+mistral:latest_local_baseline_rag,mistral:latest,rag,54,1995,1995.,True,2.443,2026-01-23T08:47:44.990064
+mistral:latest_local_baseline_rag,mistral:latest,rag,55,Von Miller,Von Miller,True,1.45,2026-01-23T08:47:44.991519
+mistral:latest_local_baseline_rag,mistral:latest,rag,56,2,2,True,1.728,2026-01-23T08:47:44.993254
+mistral:latest_local_baseline_rag,mistral:latest,rag,57,Broncos,Broncos,True,1.46,2026-01-23T08:47:44.994719
+mistral:latest_local_baseline_rag,mistral:latest,rag,58,Von Miller,linebacker Von Miller,True,1.3,2026-01-23T08:47:44.996024
+mistral:latest_local_baseline_rag,mistral:latest,rag,59,5,five solo tackles,False,2.112,2026-01-23T08:47:44.998141
+mistral:latest_local_baseline_rag,mistral:latest,rag,60,Cam Newton,Newton was limited by Denver's defense,False,1.738,2026-01-23T08:47:44.999885
+mistral:latest_local_baseline_rag,mistral:latest,rag,61,7,seven,False,1.339,2026-01-23T08:47:45.001229
+mistral:latest_local_baseline_rag,mistral:latest,rag,62,Von Miller,Von Miller,True,1.6620000000000001,2026-01-23T08:47:45.002895
+mistral:latest_local_baseline_rag,mistral:latest,rag,63,3,three,False,1.497,2026-01-23T08:47:45.004396
+mistral:latest_local_baseline_rag,mistral:latest,rag,64,1,two,False,1.38,2026-01-23T08:47:45.005780
+mistral:latest_local_baseline_rag,mistral:latest,rag,65,Von Miller,Von Miller,True,1.3780000000000001,2026-01-23T08:47:45.007162
+mistral:latest_local_baseline_rag,mistral:latest,rag,66,Von Miller plays as a Linebacker for the Denver Broncos.,linebacker,True,1.333,2026-01-23T08:47:45.008499
+mistral:latest_local_baseline_rag,mistral:latest,rag,67,5,5,True,1.287,2026-01-23T08:47:45.009789
+mistral:latest_local_baseline_rag,mistral:latest,rag,68,2,2,True,1.27,2026-01-23T08:47:45.011063
+mistral:latest_local_baseline_rag,mistral:latest,rag,69,Von Miller,Von Miller,True,1.252,2026-01-23T08:47:45.012318
+mistral:latest_local_baseline_rag,mistral:latest,rag,70,5,5,True,1.245,2026-01-23T08:47:45.013566
+mistral:latest_local_baseline_rag,mistral:latest,rag,71,7,seven,False,1.261,2026-01-23T08:47:45.014831
+mistral:latest_local_baseline_rag,mistral:latest,rag,72,3,three,False,1.307,2026-01-23T08:47:45.016142
+mistral:latest_local_baseline_rag,mistral:latest,rag,73,Fumble,a fumble,True,1.355,2026-01-23T08:47:45.017500
+mistral:latest_local_baseline_rag,mistral:latest,rag,74,Von Miller,Von Miller,True,1.2570000000000001,2026-01-23T08:47:45.018762
+mistral:latest_local_baseline_rag,mistral:latest,rag,75,Linebacker,linebacker,True,1.268,2026-01-23T08:47:45.020033
+mistral:latest_local_baseline_rag,mistral:latest,rag,76,7,seven,False,1.467,2026-01-23T08:47:45.021503
+mistral:latest_local_baseline_rag,mistral:latest,rag,77,2,three,False,1.4120000000000001,2026-01-23T08:47:45.022919
+mistral:latest_local_baseline_rag,mistral:latest,rag,78,Von Miller (at least one fumble),Von Miller,True,1.284,2026-01-23T08:47:45.024206
+mistral:latest_local_baseline_rag,mistral:latest,rag,79,5,five,False,1.242,2026-01-23T08:47:45.025452
+mistral:latest_local_baseline_rag,mistral:latest,rag,80,CBS,CBS,True,1.2910000000000001,2026-01-23T08:47:45.026746
+mistral:latest_local_baseline_rag,mistral:latest,rag,81,$5 million,$5 million,True,1.2750000000000001,2026-01-23T08:47:45.028024
+mistral:latest_local_baseline_rag,mistral:latest,rag,82,Coldplay,Coldplay,True,1.261,2026-01-23T08:47:45.029289
+mistral:latest_local_baseline_rag,mistral:latest,rag,83,Beyoncé and Bruno Mars,Beyoncé and Bruno Mars,True,1.322,2026-01-23T08:47:45.030617
+mistral:latest_local_baseline_rag,mistral:latest,rag,84,Super Bowl XLVII,Super Bowl XLVII,True,1.2409999999999999,2026-01-23T08:47:45.031863
+mistral:latest_local_baseline_rag,mistral:latest,rag,85,CBS,CBS,True,1.253,2026-01-23T08:47:45.033119
+mistral:latest_local_baseline_rag,mistral:latest,rag,86,$5 million,$5 million,True,1.271,2026-01-23T08:47:45.034395
+mistral:latest_local_baseline_rag,mistral:latest,rag,87,Beyoncé,Beyoncé,True,1.288,2026-01-23T08:47:45.035687
+mistral:latest_local_baseline_rag,mistral:latest,rag,88,Bruno Mars,Bruno Mars,True,1.312,2026-01-23T08:47:45.037003
+mistral:latest_local_baseline_rag,mistral:latest,rag,89,Coldplay,Coldplay,True,1.279,2026-01-23T08:47:45.038287
+mistral:latest_local_baseline_rag,mistral:latest,rag,90,CBS,CBS,True,1.2550000000000001,2026-01-23T08:47:45.039546
+mistral:latest_local_baseline_rag,mistral:latest,rag,91,$5 million,$5 million,True,1.313,2026-01-23T08:47:45.040862
+mistral:latest_local_baseline_rag,mistral:latest,rag,92,Bruno Mars,Bruno Mars,True,1.4300000000000002,2026-01-23T08:47:45.042296
+mistral:latest_local_baseline_rag,mistral:latest,rag,93,Third,third,True,1.971,2026-01-23T08:47:45.044274
+mistral:latest_local_baseline_rag,mistral:latest,rag,94,CBS,CBS,True,1.454,2026-01-23T08:47:45.045733
+mistral:latest_local_baseline_rag,mistral:latest,rag,95,A half-minute commercial during Super Bowl 50 would have cost $10 million.,$5 million,False,1.463,2026-01-23T08:47:45.047202
+mistral:latest_local_baseline_rag,mistral:latest,rag,96,Coldplay,Coldplay,True,1.529,2026-01-23T08:47:45.048737
+mistral:latest_local_baseline_rag,mistral:latest,rag,97,Beyoncé and Bruno Mars,Beyoncé and Bruno Mars,True,1.461,2026-01-23T08:47:45.050204
+mistral:latest_local_baseline_rag,mistral:latest,rag,98,CBS,CBS,True,1.7930000000000001,2026-01-23T08:47:45.052001
+mistral:latest_local_baseline_rag,mistral:latest,rag,99,Coldplay,Coldplay,True,1.4300000000000002,2026-01-23T08:47:45.053437
+mistral:latest_local_baseline_rag,mistral:latest,rag,100,Beyoncé and Bruno Mars,Beyoncé and Bruno Mars,True,1.3619999999999999,2026-01-23T08:47:45.054803
+mistral:latest_local_baseline_rag,mistral:latest,rag,101,Super Bowl XLVII,Super Bowl XLVII,True,1.4649999999999999,2026-01-23T08:47:45.056273
+mistral:latest_local_baseline_rag,mistral:latest,rag,102,$10 million (since 2 * $5 million = $10 million),$5 million,True,1.414,2026-01-23T08:47:45.057692
+mistral:latest_local_baseline_rag,mistral:latest,rag,103,Coldplay led the Super Bowl 50 halftime performance.,Coldplay,True,1.345,2026-01-23T08:47:45.059040
+mistral:latest_local_baseline_rag,mistral:latest,rag,104,Beyoncé and Bruno Mars,Beyoncé and Bruno Mars,True,1.345,2026-01-23T08:47:45.060390
+mistral:latest_local_baseline_rag,mistral:latest,rag,105,Bruno Mars,Bruno Mars,True,1.4580000000000002,2026-01-23T08:47:45.061853
+mistral:latest_local_baseline_rag,mistral:latest,rag,106,Roger Goodell,Roger Goodell,True,1.792,2026-01-23T08:47:45.063651
+mistral:latest_local_baseline_rag,mistral:latest,rag,107,Super Bowl 50,the 50th Super Bowl,False,1.6520000000000001,2026-01-23T08:47:45.065308
+mistral:latest_local_baseline_rag,mistral:latest,rag,108,2012,2012,True,1.438,2026-01-23T08:47:45.066751
+mistral:latest_local_baseline_rag,mistral:latest,rag,109,Roger Goodell,Roger Goodell,True,1.3840000000000001,2026-01-23T08:47:45.068143
+mistral:latest_local_baseline_rag,mistral:latest,rag,110,Early 2012,early 2012,True,1.363,2026-01-23T08:47:45.069514
+mistral:latest_local_baseline_rag,mistral:latest,rag,111,Roger Goodell,Roger Goodell,True,1.281,2026-01-23T08:47:45.070799
+mistral:latest_local_baseline_rag,mistral:latest,rag,112,Roger Goodell,Roger Goodell,True,1.278,2026-01-23T08:47:45.072080
+mistral:latest_local_baseline_rag,mistral:latest,rag,113,Roger Goodell,Roger Goodell,True,1.304,2026-01-23T08:47:45.073389
+mistral:latest_local_baseline_rag,mistral:latest,rag,114,Spectacular,spectacular,True,1.331,2026-01-23T08:47:45.074723
+mistral:latest_local_baseline_rag,mistral:latest,rag,115,Spectacular,spectacular,True,1.383,2026-01-23T08:47:45.076111
+mistral:latest_local_baseline_rag,mistral:latest,rag,116,2015,2012,False,1.4569999999999999,2026-01-23T08:47:45.077572
+mistral:latest_local_baseline_rag,mistral:latest,rag,117,New Orleans' Mercedes-Benz Superdome,New Orleans' Mercedes-Benz Superdome,True,1.324,2026-01-23T08:47:45.078899
+mistral:latest_local_baseline_rag,mistral:latest,rag,118,Miami's Sun Life Stadium,Miami's Sun Life Stadium,True,1.3470000000000002,2026-01-23T08:47:45.080250
+mistral:latest_local_baseline_rag,mistral:latest,rag,119,Levi's Stadium,San Francisco Bay Area's Levi's Stadium,True,1.3010000000000002,2026-01-23T08:47:45.081556
+mistral:latest_local_baseline_rag,mistral:latest,rag,120,Miami's Sun Life Stadium,Sun Life Stadium,True,1.335,2026-01-23T08:47:45.082895
+mistral:latest_local_baseline_rag,mistral:latest,rag,121,Levi's Stadium,Levi's Stadium,True,1.289,2026-01-23T08:47:45.084188
+mistral:latest_local_baseline_rag,mistral:latest,rag,122,Levi's Stadium,Levi's Stadium,True,1.3010000000000002,2026-01-23T08:47:45.085493
+mistral:latest_local_baseline_rag,mistral:latest,rag,123,The name of New Orleans' Superdome during Super Bowl 50 cannot be determined with the provided context.,Mercedes-Benz Superdome,False,1.3760000000000001,2026-01-23T08:47:45.086873
+mistral:latest_local_baseline_rag,mistral:latest,rag,124,Sun Life Stadium,Sun Life Stadium,True,1.335,2026-01-23T08:47:45.088212
+mistral:latest_local_baseline_rag,mistral:latest,rag,125,"New Orleans' Mercedes-Benz Superdome, Miami's Sun Life Stadium, and the San Francisco Bay Area's Levi's Stadium","New Orleans' Mercedes-Benz Superdome, Miami's Sun Life Stadium, and the San Francisco Bay Area's Levi's Stadium",True,1.359,2026-01-23T08:47:45.089575
+mistral:latest_local_baseline_rag,mistral:latest,rag,126,3,three,False,1.2750000000000001,2026-01-23T08:47:45.090854
+mistral:latest_local_baseline_rag,mistral:latest,rag,127,New Orleans,New Orleans,True,1.303,2026-01-23T08:47:45.092161
+mistral:latest_local_baseline_rag,mistral:latest,rag,128,Miami's Sun Life Stadium,Sun Life Stadium,True,1.3159999999999998,2026-01-23T08:47:45.093485
+mistral:latest_local_baseline_rag,mistral:latest,rag,129,San Francisco Bay Area,San Francisco,True,1.617,2026-01-23T08:47:45.095106
+mistral:latest_local_baseline_rag,mistral:latest,rag,130,Levi's Stadium,Levi's Stadium.,True,1.398,2026-01-23T08:47:45.096514
+mistral:latest_local_baseline_rag,mistral:latest,rag,131,Miami's Sun Life Stadium,Sun Life Stadium,True,1.342,2026-01-23T08:47:45.097861
+mistral:latest_local_baseline_rag,mistral:latest,rag,132,Mercedes-Benz Superdome,Mercedes-Benz Superdome,True,1.367,2026-01-23T08:47:45.099234
+mistral:latest_local_baseline_rag,mistral:latest,rag,133,Not specified in the provided context.,Levi's Stadium.,False,1.739,2026-01-23T08:47:45.100978
+mistral:latest_local_baseline_rag,mistral:latest,rag,134,"October 16, 2012","October 16, 2012",True,1.646,2026-01-23T08:47:45.102628
+mistral:latest_local_baseline_rag,mistral:latest,rag,135,10 times,10,True,5187.484,2026-01-23T08:47:50.290118
+mistral:latest_local_baseline_rag,mistral:latest,rag,136,Super Bowl XLIV,Super Bowl XLIV,True,3149.8309999999997,2026-01-23T08:47:53.439983
+mistral:latest_local_baseline_rag,mistral:latest,rag,137,Super Bowl XLIV was held in 2010.,2010,True,3387.757,2026-01-23T08:47:56.827782
+mistral:latest_local_baseline_rag,mistral:latest,rag,138,1985,1985,True,2460.4629999999997,2026-01-23T08:47:59.288260
+mistral:latest_local_baseline_rag,mistral:latest,rag,139,Sun Life Stadium,Sun Life Stadium,True,3135.634,2026-01-23T08:48:02.423931
+mistral:latest_local_baseline_rag,mistral:latest,rag,140,"October 16, 2012","October 16, 2012",True,2514.461,2026-01-23T08:48:04.938414
+mistral:latest_local_baseline_rag,mistral:latest,rag,141,Stanford Stadium,Stanford Stadium,True,3320.528,2026-01-23T08:48:08.259002
+mistral:latest_local_baseline_rag,mistral:latest,rag,142,"May 3, 2013","May 3, 2013",True,4684.261,2026-01-23T08:48:12.943378
+mistral:latest_local_baseline_rag,mistral:latest,rag,143,Super Bowl XLIV was held in 2010.,2010,True,3348.508,2026-01-23T08:48:16.291931
+mistral:latest_local_baseline_rag,mistral:latest,rag,144,Once,two,False,3276.2639999999997,2026-01-23T08:48:19.568220
+mistral:latest_local_baseline_rag,mistral:latest,rag,145,"Super Bowl XLIV (February 7, 2010)",Super Bowl XLIV,True,4072.7279999999996,2026-01-23T08:48:23.640990
+mistral:latest_local_baseline_rag,mistral:latest,rag,146,2,two,False,3585.181,2026-01-23T08:48:27.226248
+mistral:latest_local_baseline_rag,mistral:latest,rag,147,The Florida legislature,Florida legislature,True,3092.92,2026-01-23T08:48:30.319192
+mistral:latest_local_baseline_rag,mistral:latest,rag,148,San Francisco last hosted a Super Bowl in 1985.,1985,True,3941.595,2026-01-23T08:48:34.260806
+mistral:latest_local_baseline_rag,mistral:latest,rag,149,South Florida/Miami,New Orleans,False,3409.658,2026-01-23T08:48:37.670506
+mistral:latest_local_baseline_rag,mistral:latest,rag,150,"October 16, 2012","October 16, 2012",True,3240.346,2026-01-23T08:48:40.910882
+mistral:latest_local_baseline_rag,mistral:latest,rag,151,At least 1 time,10.,False,5647.344,2026-01-23T08:48:46.558254
+mistral:latest_local_baseline_rag,mistral:latest,rag,152,New Orleans,New Orleans,True,2913.893,2026-01-23T08:48:49.472187
+mistral:latest_local_baseline_rag,mistral:latest,rag,153,1985,1985,True,3324.363,2026-01-23T08:48:52.796592
+mistral:latest_local_baseline_rag,mistral:latest,rag,154,The Florida legislature,Florida legislature,True,4351.613,2026-01-23T08:48:57.148262
+mistral:latest_local_baseline_rag,mistral:latest,rag,155,"May 21, 2013","May 21, 2013",True,4227.927000000001,2026-01-23T08:49:01.376233
+mistral:latest_local_baseline_rag,mistral:latest,rag,156,NFL owners,NFL owners,True,3312.768,2026-01-23T08:49:04.689035
+mistral:latest_local_baseline_rag,mistral:latest,rag,157,2014,2014,True,2205.2619999999997,2026-01-23T08:49:06.894329
+mistral:latest_local_baseline_rag,mistral:latest,rag,158,$1.2 billion,$1.2 billion,True,4631.15,2026-01-23T08:49:11.525511
+mistral:latest_local_baseline_rag,mistral:latest,rag,159,San Francisco Bay Area,San Diego,False,4083.4840000000004,2026-01-23T08:49:15.609022
+mistral:latest_local_baseline_rag,mistral:latest,rag,160,Boston,Boston,True,2145.075,2026-01-23T08:49:17.754125
+mistral:latest_local_baseline_rag,mistral:latest,rag,161,"May 21, 2013","May 21, 2013",True,2782.424,2026-01-23T08:49:20.536567
+mistral:latest_local_baseline_rag,mistral:latest,rag,162,$1.2 billion,$1.2 billion,True,0.47600000000000003,2026-01-23T08:49:20.537052
+mistral:latest_local_baseline_rag,mistral:latest,rag,163,Super Bowl XXXVII,Super Bowl XXXVII,True,3995.753,2026-01-23T08:49:24.532821
+mistral:latest_local_baseline_rag,mistral:latest,rag,164,San Diego,San Diego,True,3187.397,2026-01-23T08:49:27.720247
+mistral:latest_local_baseline_rag,mistral:latest,rag,165,Levi's Stadium became fully approved to host Super Bowl 50 in the year 2014 (after it opened).,2013,False,5307.322,2026-01-23T08:49:33.027663
+mistral:latest_local_baseline_rag,mistral:latest,rag,166,2014,2014,True,2145.2960000000003,2026-01-23T08:49:35.172974
+mistral:latest_local_baseline_rag,mistral:latest,rag,167,$1.2 billion,$1.2 billion,True,4844.121999999999,2026-01-23T08:49:40.017107
+mistral:latest_local_baseline_rag,mistral:latest,rag,168,1985,1985,True,5243.186,2026-01-23T08:49:45.260317
+mistral:latest_local_baseline_rag,mistral:latest,rag,169,Super Bowl XXXVII,Super Bowl XXXVII,True,3690.5809999999997,2026-01-23T08:49:48.950933
+mistral:latest_local_baseline_rag,mistral:latest,rag,170,San Francisco was voted to be the location for Super Bowl 50 in 2013.,"May 21, 2013",False,5390.796,2026-01-23T08:49:54.341741
+mistral:latest_local_baseline_rag,mistral:latest,rag,171,2014,2014,True,2131.14,2026-01-23T08:49:56.472905
+mistral:latest_local_baseline_rag,mistral:latest,rag,172,"Super Bowl XXXVII, which took place in 2003.",2003,True,3797.527,2026-01-23T08:50:00.270440
+mistral:latest_local_baseline_rag,mistral:latest,rag,173,Boston,Boston,True,2371.634,2026-01-23T08:50:02.642091
+mistral:latest_local_baseline_rag,mistral:latest,rag,174,Super Bowl 50 was picked for Levi's Stadium in 2013.,"May 21, 2013",False,5661.607,2026-01-23T08:50:08.303708
+mistral:latest_local_baseline_rag,mistral:latest,rag,175,2014,2014.,True,0.866,2026-01-23T08:50:08.304599
+mistral:latest_local_baseline_rag,mistral:latest,rag,176,$1.2 billion,$1.2 billion,True,2059.063,2026-01-23T08:50:10.363668
+mistral:latest_local_baseline_rag,mistral:latest,rag,177,Super Bowl XXXVII took place in San Diego in 2003.,2003.,True,6413.960999999999,2026-01-23T08:50:16.777639
+mistral:latest_local_baseline_rag,mistral:latest,rag,178,"John Fox coached the Carolina Panthers in their most recent Super Bowl appearance prior to Super Bowl 50 (Super Bowl XXXVIII), and he also coached the Denver Broncos in their most recent Super Bowl appearance prior to Super Bowl 50 (Super Bowl XLVIII).",John Fox,True,7412.901,2026-01-23T08:50:24.190599
+mistral:latest_local_baseline_rag,mistral:latest,rag,179,1 (The Carolina Panthers),ten,False,4935.479,2026-01-23T08:50:29.126106
+mistral:latest_local_baseline_rag,mistral:latest,rag,180,6,six,False,2528.6499999999996,2026-01-23T08:50:31.654782
+mistral:latest_local_baseline_rag,mistral:latest,rag,181,Carolina Panthers,Carolina Panthers,True,3512.452,2026-01-23T08:50:35.167247
+mistral:latest_local_baseline_rag,mistral:latest,rag,182,Super Bowl XLVIII,Super Bowl XLVIII,True,3859.286,2026-01-23T08:50:39.026564
+mistral:latest_local_baseline_rag,mistral:latest,rag,183,Peyton Manning (the quarterback of the Broncos at that time) was not the head coach; John Fox was the head coach of the Denver Broncos in Super Bowl XLVIII.,John Fox,True,5751.073,2026-01-23T08:50:44.777661
+mistral:latest_local_baseline_rag,mistral:latest,rag,184,1 (time),eight,False,3277.406,2026-01-23T08:50:48.055093
+mistral:latest_local_baseline_rag,mistral:latest,rag,185,10,ten,False,3357.8540000000003,2026-01-23T08:50:51.412968
+mistral:latest_local_baseline_rag,mistral:latest,rag,186,Super Bowl XXXVIII,Super Bowl XXXVIII,True,3878.784,2026-01-23T08:50:55.291782
+mistral:latest_local_baseline_rag,mistral:latest,rag,187,One team (Carolina Panthers),six,False,4009.2400000000002,2026-01-23T08:50:59.301054
+mistral:latest_local_baseline_rag,mistral:latest,rag,188,The Carolina Panthers were the number one seed.,number one,True,3923.19,2026-01-23T08:51:03.224266
+mistral:latest_local_baseline_rag,mistral:latest,rag,189,The Denver Broncos were the number 1 seed from their conference.,number one,False,4313.852,2026-01-23T08:51:07.538130
+mistral:latest_local_baseline_rag,mistral:latest,rag,190,2014,Super Bowl XLVIII,False,4559.419,2026-01-23T08:51:12.097585
+mistral:latest_local_baseline_rag,mistral:latest,rag,191,The Carolina Panthers were last in the Super Bowl during Super Bowl XXXVIII.,Super Bowl XXXVIII.,True,4373.077,2026-01-23T08:51:16.470705
+mistral:latest_local_baseline_rag,mistral:latest,rag,192,One team (Carolina Panthers),six,False,4049.703,2026-01-23T08:51:20.520456
+mistral:latest_local_baseline_rag,mistral:latest,rag,193,The Panthers lost 1 game in the regular season before Super Bowl 50.,one,False,4172.008,2026-01-23T08:51:24.692484
+mistral:latest_local_baseline_rag,mistral:latest,rag,194,1 team (Denver Broncos),four,False,4647.24,2026-01-23T08:51:29.339755
+mistral:latest_local_baseline_rag,mistral:latest,rag,195,John Fox,John Fox,True,4892.719999999999,2026-01-23T08:51:34.232534
+mistral:latest_local_baseline_rag,mistral:latest,rag,196,DeAngelo Williams,DeAngelo Williams,True,3775.1299999999997,2026-01-23T08:51:38.007688
+mistral:latest_local_baseline_rag,mistral:latest,rag,197,Kelvin Benjamin,Kelvin Benjamin,True,2811.518,2026-01-23T08:51:40.819218
+mistral:latest_local_baseline_rag,mistral:latest,rag,198,7,7,True,3866.694,2026-01-23T08:51:44.685924
+mistral:latest_local_baseline_rag,mistral:latest,rag,199,1978,1978,True,3830.664,2026-01-23T08:51:48.516612
+mistral:latest_local_baseline_rag,mistral:latest,rag,200,Carolina Panthers,Carolina Panthers,True,4151.170999999999,2026-01-23T08:51:52.667799
+mistral:latest_local_baseline_rag,mistral:latest,rag,201,10,Ten,False,29197.223,2026-01-23T08:52:21.865054
+mistral:latest_local_baseline_rag,mistral:latest,rag,202,8,eight,False,26471.785,2026-01-23T08:52:48.336866
+mistral:latest_local_baseline_rag,mistral:latest,rag,203,Kelvin Benjamin,Kelvin Benjamin,True,26531.33,2026-01-23T08:53:14.868236
+mistral:latest_local_baseline_rag,mistral:latest,rag,204,The NFL expanded its regular season from 14 to 16 games in 1978.,1978,True,29947.668,2026-01-23T08:53:44.815942
+mistral:latest_local_baseline_rag,mistral:latest,rag,205,The New Orleans Saints hit a 13-0 record in the year 2009.,2009,True,4475.933,2026-01-23T08:53:49.291901
+mistral:latest_local_baseline_rag,mistral:latest,rag,206,The Green Bay Packers reached a record of 13-0 in the 2011 season.,2011,True,43558.171,2026-01-23T08:54:32.850089
+mistral:latest_local_baseline_rag,mistral:latest,rag,207,Kelvin Benjamin suffered a torn ACL in the Carolina Panthers' preseason.,torn ACL,True,33367.711,2026-01-23T08:55:06.217835
+mistral:latest_local_baseline_rag,mistral:latest,rag,208,Kelvin Benjamin,Kelvin Benjamin,True,38679.461,2026-01-23T08:55:44.897332
+mistral:latest_local_baseline_rag,mistral:latest,rag,209,DeAngelo Williams,DeAngelo Williams,True,33340.808000000005,2026-01-23T08:56:18.238171
+mistral:latest_local_baseline_rag,mistral:latest,rag,210,1978,1978,True,31531.652000000002,2026-01-23T08:56:49.769850
+mistral:latest_local_baseline_rag,mistral:latest,rag,211,10 players were selected to the Pro Bowl.,Ten,False,3050.818,2026-01-23T08:56:52.820694
+mistral:latest_local_baseline_rag,mistral:latest,rag,212,Carolina Panthers,Carolina Panthers,True,42675.108,2026-01-23T08:57:35.495814
+mistral:latest_local_baseline_rag,mistral:latest,rag,213,1978,1978.,True,40745.263,2026-01-23T08:58:16.241575
+mistral:latest_local_baseline_rag,mistral:latest,rag,214,Carolina Panthers,Carolina Panthers,True,49819.291999999994,2026-01-23T08:59:06.060893
+mistral:latest_local_baseline_rag,mistral:latest,rag,215,10,Ten,False,44395.881,2026-01-23T08:59:50.456810
+mistral:latest_local_baseline_rag,mistral:latest,rag,216,6,six,False,48328.868,2026-01-23T09:00:38.786192
+mistral:latest_local_baseline_rag,mistral:latest,rag,217,45,45,True,3478.5840000000003,2026-01-23T09:00:42.264980
+mistral:latest_local_baseline_rag,mistral:latest,rag,218,10,10,True,38674.701,2026-01-23T09:01:20.939705
+mistral:latest_local_baseline_rag,mistral:latest,rag,219,Ted Ginn Jr. returned 27 punts.,27,True,36309.329,2026-01-23T09:01:57.249072
+mistral:latest_local_baseline_rag,mistral:latest,rag,220,Greg Olsen,Greg Olsen,True,37916.153,2026-01-23T09:02:35.165273
+mistral:latest_local_baseline_rag,mistral:latest,rag,221,45,45,True,32874.342,2026-01-23T09:03:08.039861
+mistral:latest_local_baseline_rag,mistral:latest,rag,222,99.4,99.4,True,33381.812,2026-01-23T09:03:41.421702
+mistral:latest_local_baseline_rag,mistral:latest,rag,223,Greg Olsen caught 77 passes in the season.,77 passes,True,2971.767,2026-01-23T09:03:44.393509
+mistral:latest_local_baseline_rag,mistral:latest,rag,224,Receiver,receivers,True,42632.629,2026-01-23T09:04:27.026165
+mistral:latest_local_baseline_rag,mistral:latest,rag,225,Jonathan Stewart,Jonathan Stewart,True,42115.181,2026-01-23T09:05:09.141733
+mistral:latest_local_baseline_rag,mistral:latest,rag,226,6,six,False,41568.632,2026-01-23T09:05:50.710389
+mistral:latest_local_baseline_rag,mistral:latest,rag,227,Cam Newton,Cam Newton,True,37273.656,2026-01-23T09:06:27.984080
+mistral:latest_local_baseline_rag,mistral:latest,rag,228,"3,837 yards","3,837",True,39995.527,2026-01-23T09:07:07.979639
+mistral:latest_local_baseline_rag,mistral:latest,rag,229,45,45,True,2969.828,2026-01-23T09:07:10.949494
+mistral:latest_local_baseline_rag,mistral:latest,rag,230,Jonathan Stewart had 6 touchdowns in 13 games.,six,False,72002.751,2026-01-23T09:08:22.952255
+mistral:latest_local_baseline_rag,mistral:latest,rag,231,500 points,500,True,55372.011999999995,2026-01-23T09:09:18.324304
+mistral:latest_local_baseline_rag,mistral:latest,rag,232,"3,837 yards","3,837",True,65366.797000000006,2026-01-23T09:10:23.691344
+mistral:latest_local_baseline_rag,mistral:latest,rag,233,45,45,True,61683.177,2026-01-23T09:11:25.374583
+mistral:latest_local_baseline_rag,mistral:latest,rag,234,99.4,99.4.,True,70370.764,2026-01-23T09:12:35.745393
+mistral:latest_local_baseline_rag,mistral:latest,rag,235,39 receptions,39,True,3270.321,2026-01-23T09:12:39.015745
+mistral:latest_local_baseline_rag,mistral:latest,rag,236,308 points,308,True,4137.188,2026-01-23T09:12:43.152958
+mistral:latest_local_baseline_rag,mistral:latest,rag,237,136,136,True,3702.3799999999997,2026-01-23T09:12:46.855428
+mistral:latest_local_baseline_rag,mistral:latest,rag,238,Luke Kuechly led the team in tackles with 118.,118,True,8398.192,2026-01-23T09:12:55.254193
+mistral:latest_local_baseline_rag,mistral:latest,rag,239,4 interceptions,four,False,5612.849999999999,2026-01-23T09:13:00.867711
+mistral:latest_local_baseline_rag,mistral:latest,rag,240,Kawann Short,Kawann Short,True,6621.076,2026-01-23T09:13:07.490303
+mistral:latest_local_baseline_rag,mistral:latest,rag,241,24,24,True,3368.5330000000004,2026-01-23T09:13:10.858916
+mistral:latest_local_baseline_rag,mistral:latest,rag,242,Kawann Short,Kawann Short,True,6326.259,2026-01-23T09:13:17.185347
+mistral:latest_local_baseline_rag,mistral:latest,rag,243,4 Panthers defense players were selected for the Pro Bowl.,four,False,6287.573,2026-01-23T09:13:23.475780
+mistral:latest_local_baseline_rag,mistral:latest,rag,244,4,four,False,4243.635,2026-01-23T09:13:27.719527
+mistral:latest_local_baseline_rag,mistral:latest,rag,245,Kurt Coleman,Kurt Coleman,True,7587.5560000000005,2026-01-23T09:13:35.309219
+mistral:latest_local_baseline_rag,mistral:latest,rag,246,24,24,True,5063.759,2026-01-23T09:13:40.373652
+mistral:latest_local_baseline_rag,mistral:latest,rag,247,Kony Ealy,Kony Ealy,True,6451.0560000000005,2026-01-23T09:13:46.824864
+mistral:latest_local_baseline_rag,mistral:latest,rag,248,Not specified in the provided context.,Luke Kuechly.,False,13409.007000000001,2026-01-23T09:14:00.235601
+mistral:latest_local_baseline_rag,mistral:latest,rag,249,2,two.,False,6849.475,2026-01-23T09:14:07.085970
+mistral:latest_local_baseline_rag,mistral:latest,rag,250,Gary Kubiak,Gary Kubiak,True,7259.95,2026-01-23T09:14:14.346190
+mistral:latest_local_baseline_rag,mistral:latest,rag,251,Brock Osweiler,Brock Osweiler,True,3355.023,2026-01-23T09:14:17.701330
+mistral:latest_local_baseline_rag,mistral:latest,rag,252,Indianapolis Colts,Indianapolis Colts,True,3991.605,2026-01-23T09:14:21.692972
+mistral:latest_local_baseline_rag,mistral:latest,rag,253,The Denver Broncos played against the San Diego Chargers in the last week of the regular season.,San Diego Chargers,True,5906.31,2026-01-23T09:14:27.599309
+mistral:latest_local_baseline_rag,mistral:latest,rag,254,Wade Phillips,Wade Phillips,True,11134.514,2026-01-23T09:14:38.733913
+mistral:latest_local_baseline_rag,mistral:latest,rag,255,4 years,four,False,5879.8,2026-01-23T09:14:44.614263
+mistral:latest_local_baseline_rag,mistral:latest,rag,256,Gary Kubiak,Gary Kubiak,True,6162.286,2026-01-23T09:14:50.777063
+mistral:latest_local_baseline_rag,mistral:latest,rag,257,Indianapolis Colts,Indianapolis Colts,True,5089.57,2026-01-23T09:14:55.866715
+mistral:latest_local_baseline_rag,mistral:latest,rag,258,Peyton Manning was 39 years old in 2015.,39,True,6180.729,2026-01-23T09:15:02.047498
+mistral:latest_local_baseline_rag,mistral:latest,rag,259,Peyton Manning suffered a partial tear of the plantar fasciitis in his left foot during week 10 of the 2015 season.,plantar fasciitis,True,8065.772000000001,2026-01-23T09:15:10.113723
+mistral:latest_local_baseline_rag,mistral:latest,rag,260,Gary Kubiak,Gary Kubiak,True,7433.903,2026-01-23T09:15:17.547865
+mistral:latest_local_baseline_rag,mistral:latest,rag,261,Peyton Manning,Peyton Manning,True,5822.879000000001,2026-01-23T09:15:23.391789
+mistral:latest_local_baseline_rag,mistral:latest,rag,262,Plantar Fasciitis,a plantar fasciitis injury,True,2901.846,2026-01-23T09:15:26.293671
+mistral:latest_local_baseline_rag,mistral:latest,rag,263,39 years old,39,True,4905.363,2026-01-23T09:15:31.199051
+mistral:latest_local_baseline_rag,mistral:latest,rag,264,The Denver Broncos lost at least 1 game during their regular 2015 season.,four,False,8566.367,2026-01-23T09:15:39.765453
+mistral:latest_local_baseline_rag,mistral:latest,rag,265,John Fox,John Fox,True,2797.1620000000003,2026-01-23T09:15:42.562677
+mistral:latest_local_baseline_rag,mistral:latest,rag,266,Peyton Manning,Peyton Manning,True,9613.036,2026-01-23T09:15:52.175824
+mistral:latest_local_baseline_rag,mistral:latest,rag,267,Gary Kubiak,Gary Kubiak,True,12923.161,2026-01-23T09:16:05.099764
+mistral:latest_local_baseline_rag,mistral:latest,rag,268,Left foot,left foot.,True,4838.522,2026-01-23T09:16:09.938319
+mistral:latest_local_baseline_rag,mistral:latest,rag,269,Wade Phillips,Wade Phillips,True,9873.385,2026-01-23T09:16:19.811773
+mistral:latest_local_baseline_rag,mistral:latest,rag,270,Peyton Manning's passer rating for the season was 67.9.,67.9,True,6389.1140000000005,2026-01-23T09:16:26.200928
+mistral:latest_local_baseline_rag,mistral:latest,rag,271,17,17,True,2931.752,2026-01-23T09:16:29.132710
+mistral:latest_local_baseline_rag,mistral:latest,rag,272,Demaryius Thomas,Demaryius Thomas,True,2990.5550000000003,2026-01-23T09:16:32.123311
+mistral:latest_local_baseline_rag,mistral:latest,rag,273,C. J. Anderson,C. J. Anderson,True,9545.542,2026-01-23T09:16:41.668978
+mistral:latest_local_baseline_rag,mistral:latest,rag,274,10,10,True,4726.1179999999995,2026-01-23T09:16:46.395175
+mistral:latest_local_baseline_rag,mistral:latest,rag,275,67.9,67.9,True,6057.362,2026-01-23T09:16:52.456513
+mistral:latest_local_baseline_rag,mistral:latest,rag,276,"2,249 yards","2,249",True,5416.097,2026-01-23T09:16:57.872645
+mistral:latest_local_baseline_rag,mistral:latest,rag,277,17,nine,False,4302.514,2026-01-23T09:17:02.175208
+mistral:latest_local_baseline_rag,mistral:latest,rag,278,Demaryius Thomas,Demaryius Thomas,True,5028.937,2026-01-23T09:17:07.204171
+mistral:latest_local_baseline_rag,mistral:latest,rag,279,Demaryius Thomas plays as a receiver.,receiver,True,4015.7499999999995,2026-01-23T09:17:11.219971
+mistral:latest_local_baseline_rag,mistral:latest,rag,280,67.9,67.9,True,6136.344,2026-01-23T09:17:17.356354
+mistral:latest_local_baseline_rag,mistral:latest,rag,281,17,17,True,5377.611,2026-01-23T09:17:22.734191
+mistral:latest_local_baseline_rag,mistral:latest,rag,282,Demaryius Thomas led the Broncos with 105 receptions.,Demaryius Thomas,True,5982.985000000001,2026-01-23T09:17:28.717604
+mistral:latest_local_baseline_rag,mistral:latest,rag,283,5,5,True,4653.32,2026-01-23T09:17:33.371202
+mistral:latest_local_baseline_rag,mistral:latest,rag,284,67.9,67.9,True,6015.167,2026-01-23T09:17:39.386422
+mistral:latest_local_baseline_rag,mistral:latest,rag,285,17 interceptions,17,True,6552.609,2026-01-23T09:17:45.939306
+mistral:latest_local_baseline_rag,mistral:latest,rag,286,Emmanuel Sanders,Emmanuel Sanders,True,11895.791,2026-01-23T09:17:57.836861
+mistral:latest_local_baseline_rag,mistral:latest,rag,287,C. J. Anderson,C. J. Anderson,True,10073.973,2026-01-23T09:18:07.911155
+mistral:latest_local_baseline_rag,mistral:latest,rag,288,Ronnie Hillman's average yards per carry in 2015 was approximately 4.7 (759 carries / 162 total team rushing attempts excluding Anderson's runs).,4.7,True,8535.776,2026-01-23T09:18:16.447312
+mistral:latest_local_baseline_rag,mistral:latest,rag,289,"4,530 yards","4,530",True,3944.5420000000004,2026-01-23T09:18:20.391910
+mistral:latest_local_baseline_rag,mistral:latest,rag,290,5½ sacks,5½,True,4807.4890000000005,2026-01-23T09:18:25.199697
+mistral:latest_local_baseline_rag,mistral:latest,rag,291,Brandon Marshall,Brandon Marshall,True,7925.576999999999,2026-01-23T09:18:33.125319
+mistral:latest_local_baseline_rag,mistral:latest,rag,292,3,three,False,3666.3700000000003,2026-01-23T09:18:36.791750
+mistral:latest_local_baseline_rag,mistral:latest,rag,293,Linebacker,Linebacker,True,3729.536,2026-01-23T09:18:40.521341
+mistral:latest_local_baseline_rag,mistral:latest,rag,294,Linebacker,Linebacker,True,4511.7029999999995,2026-01-23T09:18:45.033232
+mistral:latest_local_baseline_rag,mistral:latest,rag,295,Defensive End,Defensive ends,True,4152.599,2026-01-23T09:18:49.185866
+mistral:latest_local_baseline_rag,mistral:latest,rag,296,296,296,True,5049.111,2026-01-23T09:18:54.235029
+mistral:latest_local_baseline_rag,mistral:latest,rag,297,Von Miller,Von Miller,True,5199.27,2026-01-23T09:18:59.434569
+mistral:latest_local_baseline_rag,mistral:latest,rag,298,Brandon Marshall,Brandon Marshall,True,7178.343,2026-01-23T09:19:06.613125
+mistral:latest_local_baseline_rag,mistral:latest,rag,299,3,three.,False,4938.003,2026-01-23T09:19:11.551183
+mistral:latest_local_baseline_rag,mistral:latest,rag,300,Von Miller,Von Miller,True,3386.2329999999997,2026-01-23T09:19:14.937463
+mistral:latest_local_baseline_rag,mistral:latest,rag,301,Brandon Marshall,Linebacker Brandon Marshall,True,5067.591,2026-01-23T09:19:20.005095
+mistral:latest_local_baseline_rag,mistral:latest,rag,302,Derek Wolfe and Malik Jackson,Derek Wolfe and Malik Jackson,True,6611.9349999999995,2026-01-23T09:19:26.617240
+mistral:latest_local_baseline_rag,mistral:latest,rag,303,Seattle Seahawks,Seattle Seahawks,True,3749.5389999999998,2026-01-23T09:19:30.366806
+mistral:latest_local_baseline_rag,mistral:latest,rag,304,Arizona Cardinals,Arizona Cardinals,True,3956.339,2026-01-23T09:19:34.323157
+mistral:latest_local_baseline_rag,mistral:latest,rag,305,487 yards,487,True,4470.541,2026-01-23T09:19:38.794470
+mistral:latest_local_baseline_rag,mistral:latest,rag,306,7,seven,False,6124.049,2026-01-23T09:19:44.924648
+mistral:latest_local_baseline_rag,mistral:latest,rag,307,31-24,31–24,False,11322.26,2026-01-23T09:19:56.248912
+mistral:latest_local_baseline_rag,mistral:latest,rag,308,The team that Carolina Panthers played immediately prior to the NFC Championship game was the Seattle Seahawks.,Seattle Seahawks,True,7937.476000000001,2026-01-23T09:20:04.186444
+mistral:latest_local_baseline_rag,mistral:latest,rag,309,31–24 (Panthers won),31–24,True,8330.331,2026-01-23T09:20:12.516991
+mistral:latest_local_baseline_rag,mistral:latest,rag,310,487 yards,487,True,4994.143,2026-01-23T09:20:17.511851
+mistral:latest_local_baseline_rag,mistral:latest,rag,311,Seattle Seahawks,Seattle Seahawks,True,4594.875,2026-01-23T09:20:22.106776
+mistral:latest_local_baseline_rag,mistral:latest,rag,312,Seattle Seahawks,Arizona Cardinals,False,4504.216,2026-01-23T09:20:26.611484
+mistral:latest_local_baseline_rag,mistral:latest,rag,313,7,seven,False,3175.68,2026-01-23T09:20:29.787215
+mistral:latest_local_baseline_rag,mistral:latest,rag,314,Seattle Seahawks,Seattle Seahawks,True,2990.172,2026-01-23T09:20:32.777395
+mistral:latest_local_baseline_rag,mistral:latest,rag,315,49–15,49–15,True,3692.588,2026-01-23T09:20:36.469993
+mistral:latest_local_baseline_rag,mistral:latest,rag,316,Arizona Cardinals,Arizona Cardinals,True,3329.814,2026-01-23T09:20:39.799822
+mistral:latest_local_baseline_rag,mistral:latest,rag,317,487 yards,487,True,3590.2799999999997,2026-01-23T09:20:43.390112
+mistral:latest_local_baseline_rag,mistral:latest,rag,318,Pittsburgh Steelers,Pittsburgh Steelers,True,3873.9,2026-01-23T09:20:47.264024
+mistral:latest_local_baseline_rag,mistral:latest,rag,319,11 points,11,True,3629.541,2026-01-23T09:20:50.893577
+mistral:latest_local_baseline_rag,mistral:latest,rag,320,The context does not provide information about who won Super Bowl XLIX.,New England Patriots,False,4887.789,2026-01-23T09:20:55.781384
+mistral:latest_local_baseline_rag,mistral:latest,rag,321,20-18,20–18,False,3431.052,2026-01-23T09:20:59.212444
+mistral:latest_local_baseline_rag,mistral:latest,rag,322,17 seconds,17 seconds,True,4816.467000000001,2026-01-23T09:21:04.028932
+mistral:latest_local_baseline_rag,mistral:latest,rag,323,Broncos,Broncos,True,3084.2670000000003,2026-01-23T09:21:07.113235
+mistral:latest_local_baseline_rag,mistral:latest,rag,324,23–16,23–16,True,3162.33,2026-01-23T09:21:10.275587
+mistral:latest_local_baseline_rag,mistral:latest,rag,325,The context does not provide information about who won Super Bowl XLIX.,New England Patriots,False,3.312,2026-01-23T09:21:10.278919
+mistral:latest_local_baseline_rag,mistral:latest,rag,326,The context does not provide the exact number of seconds left in the game when the Broncos intercepted the pass that won the game.,17,False,5604.015,2026-01-23T09:21:15.882943
+mistral:latest_local_baseline_rag,mistral:latest,rag,327,Peyton Manning did not make any passes during the Broncos' playoff games.,Manning,True,4639.115000000001,2026-01-23T09:21:20.522067
+mistral:latest_local_baseline_rag,mistral:latest,rag,328,Pittsburgh Steelers,Pittsburgh Steelers,True,2919.99,2026-01-23T09:21:23.442071
+mistral:latest_local_baseline_rag,mistral:latest,rag,329,11 points,11,True,4691.802,2026-01-23T09:21:28.133905
+mistral:latest_local_baseline_rag,mistral:latest,rag,330,New England Patriots,New England Patriots,True,2591.709,2026-01-23T09:21:30.725627
+mistral:latest_local_baseline_rag,mistral:latest,rag,331,Pittsburgh Steelers,Pittsburgh Steelers,True,2316.402,2026-01-23T09:21:33.042042
+mistral:latest_local_baseline_rag,mistral:latest,rag,332,New England Patriots,New England Patriots,True,2968.391,2026-01-23T09:21:36.010441
+mistral:latest_local_baseline_rag,mistral:latest,rag,333,17 seconds,17,True,3370.4320000000002,2026-01-23T09:21:39.380883
+mistral:latest_local_baseline_rag,mistral:latest,rag,334,Thomas Davis,Thomas Davis,True,2623.708,2026-01-23T09:21:42.004606
+mistral:latest_local_baseline_rag,mistral:latest,rag,335,Broken Arm,a broken arm,True,3026.528,2026-01-23T09:21:45.031144
+mistral:latest_local_baseline_rag,mistral:latest,rag,336,3 times,three,False,1999.969,2026-01-23T09:21:47.031121
+mistral:latest_local_baseline_rag,mistral:latest,rag,337,11 years,11,True,2080.801,2026-01-23T09:21:49.111930
+mistral:latest_local_baseline_rag,mistral:latest,rag,338,ACL Tears (3 times),ACL tears,True,3373.1330000000003,2026-01-23T09:21:52.485072
+mistral:latest_local_baseline_rag,mistral:latest,rag,339,Thomas Davis broke his arm.,arm,True,2509.828,2026-01-23T09:21:54.994918
+mistral:latest_local_baseline_rag,mistral:latest,rag,340,11 years,11,True,0.87,2026-01-23T09:21:54.995803
+mistral:latest_local_baseline_rag,mistral:latest,rag,341,Super Bowl,Super Bowl,True,3912.352,2026-01-23T09:21:58.908167
+mistral:latest_local_baseline_rag,mistral:latest,rag,342,3,three,False,2625.8810000000003,2026-01-23T09:22:01.534065
+mistral:latest_local_baseline_rag,mistral:latest,rag,343,Thomas Davis suffered a broken arm during the playoff games.,broken arm,True,2897.742,2026-01-23T09:22:04.431815
+mistral:latest_local_baseline_rag,mistral:latest,rag,344,Thomas Davis had played for 11 years in the league when he broke his arm during the NFC Championship game.,11,True,6011.098,2026-01-23T09:22:10.442921
+mistral:latest_local_baseline_rag,mistral:latest,rag,345,Thomas Davis,Thomas Davis,True,2291.026,2026-01-23T09:22:12.733963
+mistral:latest_local_baseline_rag,mistral:latest,rag,346,Peyton Manning was 39 years old when he played in Super Bowl 50.,39,True,5963.072,2026-01-23T09:22:18.697058
+mistral:latest_local_baseline_rag,mistral:latest,rag,347,John Elway,John Elway,True,4357.932,2026-01-23T09:22:23.055030
+mistral:latest_local_baseline_rag,mistral:latest,rag,348,John Elway was 38 years old when he played in Super Bowl XXXIII.,38,True,5022.509,2026-01-23T09:22:28.077580
+mistral:latest_local_baseline_rag,mistral:latest,rag,349,Denver's Executive Vice President of Football Operations and General Manager,Executive Vice President of Football Operations and General Manager,True,3160.686,2026-01-23T09:22:31.238300
+mistral:latest_local_baseline_rag,mistral:latest,rag,350,Denver Broncos,Broncos,True,2948.9770000000003,2026-01-23T09:22:34.187287
+mistral:latest_local_baseline_rag,mistral:latest,rag,351,Denver (Broncos),Broncos,True,4208.97,2026-01-23T09:22:38.396294
+mistral:latest_local_baseline_rag,mistral:latest,rag,352,John Elway,John Elway,True,2255.7299999999996,2026-01-23T09:22:40.652043
+mistral:latest_local_baseline_rag,mistral:latest,rag,353,38 years old,38,True,3234.5139999999997,2026-01-23T09:22:43.886578
+mistral:latest_local_baseline_rag,mistral:latest,rag,354,Peyton Manning,Peyton Manning,True,4089.6530000000002,2026-01-23T09:22:47.976260
+mistral:latest_local_baseline_rag,mistral:latest,rag,355,2 teams (Indianapolis Colts and Denver Broncos),two,False,4600.021,2026-01-23T09:22:52.576304
+mistral:latest_local_baseline_rag,mistral:latest,rag,356,2,two,False,2217.038,2026-01-23T09:22:54.793353
+mistral:latest_local_baseline_rag,mistral:latest,rag,357,Peyton Manning,Peyton Manning,True,3371.294,2026-01-23T09:22:58.164677
+mistral:latest_local_baseline_rag,mistral:latest,rag,358,John Elway,John Elway,True,4112.174000000001,2026-01-23T09:23:02.276901
+mistral:latest_local_baseline_rag,mistral:latest,rag,359,Super Bowl XXXIII,Super Bowl XXXIII,True,2366.889,2026-01-23T09:23:04.643819
+mistral:latest_local_baseline_rag,mistral:latest,rag,360,Peyton Manning,Peyton Manning,True,2618.886,2026-01-23T09:23:07.262716
+mistral:latest_local_baseline_rag,mistral:latest,rag,361,Peyton Manning was born in 1976.,39.,False,5059.835,2026-01-23T09:23:12.322580
+mistral:latest_local_baseline_rag,mistral:latest,rag,362,John Elway,John Elway,True,3501.055,2026-01-23T09:23:15.823676
+mistral:latest_local_baseline_rag,mistral:latest,rag,363,1998,1998,True,3942.7940000000003,2026-01-23T09:23:19.766514
+mistral:latest_local_baseline_rag,mistral:latest,rag,364,2011,2011,True,2228.418,2026-01-23T09:23:21.994978
+mistral:latest_local_baseline_rag,mistral:latest,rag,365,26 years old,26,True,4017.3579999999997,2026-01-23T09:23:26.012393
+mistral:latest_local_baseline_rag,mistral:latest,rag,366,13 years,13 years and 48 days,True,4644.21,2026-01-23T09:23:30.656613
+mistral:latest_local_baseline_rag,mistral:latest,rag,367,"The #2 pick in the 2011 NFL Draft was Cam Newton's teammate, Aaron Donald.",Von Miller,False,4240.509999999999,2026-01-23T09:23:34.897154
+mistral:latest_local_baseline_rag,mistral:latest,rag,368,Eli Manning,Manning,True,2243.8570000000004,2026-01-23T09:23:37.141019
+mistral:latest_local_baseline_rag,mistral:latest,rag,369,Cam Newton,Newton,True,2095.401,2026-01-23T09:23:39.236435
+mistral:latest_local_baseline_rag,mistral:latest,rag,370,26 years old,26,True,0.34299999999999997,2026-01-23T09:23:39.236784
+mistral:latest_local_baseline_rag,mistral:latest,rag,371,Quarterback,quarterback,True,3291.3269999999998,2026-01-23T09:23:42.528116
+mistral:latest_local_baseline_rag,mistral:latest,rag,372,1998,1998,True,2218.365,2026-01-23T09:23:44.746492
+mistral:latest_local_baseline_rag,mistral:latest,rag,373,2011,2011,True,2074.595,2026-01-23T09:23:46.821195
+mistral:latest_local_baseline_rag,mistral:latest,rag,374,Aaron Rodgers (Green Bay Packers) was the number two draft pick for 2011.,Von Miller,False,5033.838000000001,2026-01-23T09:23:51.855051
+mistral:latest_local_baseline_rag,mistral:latest,rag,375,2011,2011.,True,2943.596,2026-01-23T09:23:54.798673
+mistral:latest_local_baseline_rag,mistral:latest,rag,376,26 (years old),26,True,4821.476,2026-01-23T09:23:59.620163
+mistral:latest_local_baseline_rag,mistral:latest,rag,377,13 years,13 years and 48 days,True,3686.4159999999997,2026-01-23T09:24:03.306687
+mistral:latest_local_baseline_rag,mistral:latest,rag,378,Super Bowl XX,Super Bowl XX,True,2252.9530000000004,2026-01-23T09:24:05.559648
+mistral:latest_local_baseline_rag,mistral:latest,rag,379,Chicago Bears,Chicago Bears,True,3122.347,2026-01-23T09:24:08.682010
+mistral:latest_local_baseline_rag,mistral:latest,rag,380,Linebacker,linebacker,True,2383.915,2026-01-23T09:24:11.065934
+mistral:latest_local_baseline_rag,mistral:latest,rag,381,John Elway,Elway,True,3404.242,2026-01-23T09:24:14.470188
+mistral:latest_local_baseline_rag,mistral:latest,rag,382,Gary Kubiak did not play for any team in Super Bowl XXI.,Broncos,False,4044.3579999999997,2026-01-23T09:24:18.514561
+mistral:latest_local_baseline_rag,mistral:latest,rag,383,Linebacker,linebacker,True,2407.77,2026-01-23T09:24:20.922385
+mistral:latest_local_baseline_rag,mistral:latest,rag,384,John Elway,Elway,True,3655.459,2026-01-23T09:24:24.577891
+mistral:latest_local_baseline_rag,mistral:latest,rag,385,Not determinable from the provided context.,Rivera,False,3410.605,2026-01-23T09:24:27.988580
+mistral:latest_local_baseline_rag,mistral:latest,rag,386,Super Bowl XX,Super Bowl XX,True,3138.7200000000003,2026-01-23T09:24:31.127343
+mistral:latest_local_baseline_rag,mistral:latest,rag,387,Justin Tucker,Justin Tucker,True,4503.866999999999,2026-01-23T09:24:35.631227
+mistral:latest_local_baseline_rag,mistral:latest,rag,388,Hybrid Bermuda 419 Turf,Bermuda 419,True,4083.3269999999998,2026-01-23T09:24:39.714567
+mistral:latest_local_baseline_rag,mistral:latest,rag,389,Ed Mangan,Ed Mangan,True,2005.455,2026-01-23T09:24:41.720045
+mistral:latest_local_baseline_rag,mistral:latest,rag,390,Justin Tucker plays for the Baltimore Ravens.,Baltimore Ravens,True,5255.201999999999,2026-01-23T09:24:46.975266
+mistral:latest_local_baseline_rag,mistral:latest,rag,391,Justin Tucker is a kicker.,kicker,True,3598.204,2026-01-23T09:24:50.573494
+mistral:latest_local_baseline_rag,mistral:latest,rag,392,Justin Tucker,Justin Tucker,True,4561.26,2026-01-23T09:24:55.134766
+mistral:latest_local_baseline_rag,mistral:latest,rag,393,Justin Tucker plays as a Kicker for the Baltimore Ravens.,kicker,True,3577.183,2026-01-23T09:24:58.711957
+mistral:latest_local_baseline_rag,mistral:latest,rag,394,Hybrid Bermuda 419 turf,hybrid Bermuda 419 turf,True,5450.477,2026-01-23T09:25:04.162448
+mistral:latest_local_baseline_rag,mistral:latest,rag,395,Justin Tucker,Justin Tucker,True,3390.963,2026-01-23T09:25:07.553424
+mistral:latest_local_baseline_rag,mistral:latest,rag,396,A new hybrid Bermuda 419 turf was installed on the playing field at Levi's Stadium.,a new playing surface,False,3652.598,2026-01-23T09:25:11.206037
+mistral:latest_local_baseline_rag,mistral:latest,rag,397,Hybrid Bermuda 419 turf,a hybrid Bermuda 419 turf.,True,3794.3410000000003,2026-01-23T09:25:15.000388
+mistral:latest_local_baseline_rag,mistral:latest,rag,398,A lot of players needed to change their cleats during Super Bowl 50 due to the condition of the field.,their cleats,True,4465.463,2026-01-23T09:25:19.465880
+mistral:latest_local_baseline_rag,mistral:latest,rag,399,Justin Tucker (Baltimore Ravens kicker),Justin Tucker,True,4425.889,2026-01-23T09:25:23.891804
+mistral:latest_local_baseline_rag,mistral:latest,rag,400,Hybrid Bermuda 419 turf,natural grass,False,4699.867,2026-01-23T09:25:28.591681
+mistral:latest_local_baseline_rag,mistral:latest,rag,401,Broncos,Broncos,True,3419.68,2026-01-23T09:25:32.011391
+mistral:latest_local_baseline_rag,mistral:latest,rag,402,34–19,34–19,True,3453.9300000000003,2026-01-23T09:25:35.465330
+mistral:latest_local_baseline_rag,mistral:latest,rag,403,Atlanta Falcons,Atlanta Falcons,True,2755.864,2026-01-23T09:25:38.221204
+mistral:latest_local_baseline_rag,mistral:latest,rag,404,White pants,white,True,4622.591,2026-01-23T09:25:42.843812
+mistral:latest_local_baseline_rag,mistral:latest,rag,405,Super Bowl XXXIII,Super Bowl XXXIII,True,2842.7380000000003,2026-01-23T09:25:45.686559
+mistral:latest_local_baseline_rag,mistral:latest,rag,406,Super Bowl XXXIII,Super Bowl XXXIII,True,4083.989,2026-01-23T09:25:49.770558
+mistral:latest_local_baseline_rag,mistral:latest,rag,407,34–19,34–19,True,3784.754,2026-01-23T09:25:53.555328
+mistral:latest_local_baseline_rag,mistral:latest,rag,408,Atlanta Falcons,Atlanta Falcons,True,3459.9959999999996,2026-01-23T09:25:57.015332
+mistral:latest_local_baseline_rag,mistral:latest,rag,409,White,white,True,2207.959,2026-01-23T09:25:59.223303
+mistral:latest_local_baseline_rag,mistral:latest,rag,410,White jerseys,road white jerseys,True,4317.801,2026-01-23T09:26:03.541118
+mistral:latest_local_baseline_rag,mistral:latest,rag,411,Pittsburgh Steelers,Pittsburgh Steelers,True,4558.6669999999995,2026-01-23T09:26:08.099799
+mistral:latest_local_baseline_rag,mistral:latest,rag,412,Super Bowl XXXIII,Super Bowl XXXIII,True,2782.073,2026-01-23T09:26:10.881918
+mistral:latest_local_baseline_rag,mistral:latest,rag,413,blue,blue,True,2598.016,2026-01-23T09:26:13.479941
+mistral:latest_local_baseline_rag,mistral:latest,rag,414,Orange jersey,orange,True,2263.674,2026-01-23T09:26:15.743642
+mistral:latest_local_baseline_rag,mistral:latest,rag,415,Black jerseys with silver pants,black jerseys with silver pants.,True,3557.28,2026-01-23T09:26:19.300944
+mistral:latest_local_baseline_rag,mistral:latest,rag,416,San Jose State University,San Jose State,True,2815.38,2026-01-23T09:26:22.116364
+mistral:latest_local_baseline_rag,mistral:latest,rag,417,Stanford University,Stanford University,True,2605.197,2026-01-23T09:26:24.721571
+mistral:latest_local_baseline_rag,mistral:latest,rag,418,San Jose,San Jose,True,1971.272,2026-01-23T09:26:26.692887
+mistral:latest_local_baseline_rag,mistral:latest,rag,419,Santa Clara,Santa Clara,True,3758.715,2026-01-23T09:26:30.451634
+mistral:latest_local_baseline_rag,mistral:latest,rag,420,San Jose Marriott,San Jose Marriott,True,3975.041,2026-01-23T09:26:34.426689
+mistral:latest_local_baseline_rag,mistral:latest,rag,421,San Jose Marriott,Santa Clara Marriott,False,2509.369,2026-01-23T09:26:36.936070
+mistral:latest_local_baseline_rag,mistral:latest,rag,422,San Jose State practice facility,San Jose State practice facility,True,2010.92,2026-01-23T09:26:38.947009
+mistral:latest_local_baseline_rag,mistral:latest,rag,423,Stanford University,Stanford University,True,2613.0110000000004,2026-01-23T09:26:41.560040
+mistral:latest_local_baseline_rag,mistral:latest,rag,424,The context does not provide enough information to determine where the Panthers practiced for the Super Bowl.,San Jose State practice facility,False,4616.6900000000005,2026-01-23T09:26:46.176746
+mistral:latest_local_baseline_rag,mistral:latest,rag,425,San Jose Marriott,San Jose Marriott.,True,2795.667,2026-01-23T09:26:48.972422
+mistral:latest_local_baseline_rag,mistral:latest,rag,426,Stanford University,Stanford University,True,2563.356,2026-01-23T09:26:51.535813
+mistral:latest_local_baseline_rag,mistral:latest,rag,427,Santa Clara Marriott,Santa Clara Marriott.,True,3238.1169999999997,2026-01-23T09:26:54.773942
+mistral:latest_local_baseline_rag,mistral:latest,rag,428,San Jose State,San Jose,True,3294.138,2026-01-23T09:26:58.068110
+mistral:latest_local_baseline_rag,mistral:latest,rag,429,San Jose Marriott,San Jose Marriott.,True,2541.783,2026-01-23T09:27:00.609911
+mistral:latest_local_baseline_rag,mistral:latest,rag,430,Stanford University,Stanford University,True,0.871,2026-01-23T09:27:00.610800
+mistral:latest_local_baseline_rag,mistral:latest,rag,431,Santa Clara Marriott,Santa Clara Marriott.,True,3129.983,2026-01-23T09:27:03.740799
+mistral:latest_local_baseline_rag,mistral:latest,rag,432,"June 4, 2014","June 4, 2014",True,3922.7560000000003,2026-01-23T09:27:07.663574
+mistral:latest_local_baseline_rag,mistral:latest,rag,433,Super Bowl V,Super Bowl V,True,2923.3940000000002,2026-01-23T09:27:10.587009
+mistral:latest_local_baseline_rag,mistral:latest,rag,434,Jaime Weston,Jaime Weston,True,2752.695,2026-01-23T09:27:13.339710
+mistral:latest_local_baseline_rag,mistral:latest,rag,435,Super Bowl XLV (45) was the first Super Bowl to use the standardized logo template.,Super Bowl XLV,True,3653.213,2026-01-23T09:27:16.992935
+mistral:latest_local_baseline_rag,mistral:latest,rag,436,Vince Lombardi,Vince Lombardi,True,3420.644,2026-01-23T09:27:20.413595
+mistral:latest_local_baseline_rag,mistral:latest,rag,437,2014,2014,True,2920.603,2026-01-23T09:27:23.334238
+mistral:latest_local_baseline_rag,mistral:latest,rag,438,Super Bowl LI,Super Bowl LI,True,3527.824,2026-01-23T09:27:26.862074
+mistral:latest_local_baseline_rag,mistral:latest,rag,439,L,L,True,4311.715,2026-01-23T09:27:31.173799
+mistral:latest_local_baseline_rag,mistral:latest,rag,440,Gold,gold,True,2932.916,2026-01-23T09:27:34.106734
+mistral:latest_local_baseline_rag,mistral:latest,rag,441,"June 4, 2014","June 4, 2014",True,3993.498,2026-01-23T09:27:38.100254
+mistral:latest_local_baseline_rag,mistral:latest,rag,442,Arabic numerals,Arabic numerals,True,3366.037,2026-01-23T09:27:41.466300
+mistral:latest_local_baseline_rag,mistral:latest,rag,443,The Roman numeral for 50 is L.,L.,True,5903.669,2026-01-23T09:27:47.369977
+mistral:latest_local_baseline_rag,mistral:latest,rag,444,Gold,gold,True,2796.254,2026-01-23T09:27:50.166245
+mistral:latest_local_baseline_rag,mistral:latest,rag,445,Super Bowl LI,Super Bowl LI.,True,3330.9669999999996,2026-01-23T09:27:53.497226
+mistral:latest_local_baseline_rag,mistral:latest,rag,446,Arabic numerals,Arabic,True,2975.32,2026-01-23T09:27:56.472553
+mistral:latest_local_baseline_rag,mistral:latest,rag,447,Super Bowl 51's Roman numeral is LII.,LI.,False,4140.338,2026-01-23T09:28:00.612899
+mistral:latest_local_baseline_rag,mistral:latest,rag,448,Gold,gold,True,4061.0470000000005,2026-01-23T09:28:04.673958
+mistral:latest_local_baseline_rag,mistral:latest,rag,449,Week 7,week 7,True,2866.838,2026-01-23T09:28:07.540808
+mistral:latest_local_baseline_rag,mistral:latest,rag,450,The 50-yard line on the field,50,True,3319.0719999999997,2026-01-23T09:28:10.859891
+mistral:latest_local_baseline_rag,mistral:latest,rag,451,Gold,gold,True,2933.742,2026-01-23T09:28:13.793647
+mistral:latest_local_baseline_rag,mistral:latest,rag,452,Gold,gold,True,2786.954,2026-01-23T09:28:16.580617
+mistral:latest_local_baseline_rag,mistral:latest,rag,453,"""The Golden Super Bowl""",Golden Super Bowl,True,2833.8179999999998,2026-01-23T09:28:19.414445
+mistral:latest_local_baseline_rag,mistral:latest,rag,454,Gold footballs,Gold footballs,True,2541.6150000000002,2026-01-23T09:28:21.956102
+mistral:latest_local_baseline_rag,mistral:latest,rag,455,Gold-colored 50-yard line,the 50-yard line,False,3627.5840000000003,2026-01-23T09:28:25.583696
+mistral:latest_local_baseline_rag,mistral:latest,rag,456,Gold,gold,True,3322.715,2026-01-23T09:28:28.906423
+mistral:latest_local_baseline_rag,mistral:latest,rag,457,Moscone Center,Moscone Center,True,2889.627,2026-01-23T09:28:31.796105
+mistral:latest_local_baseline_rag,mistral:latest,rag,458,San Francisco,San Francisco,True,2863.2599999999998,2026-01-23T09:28:34.659387
+mistral:latest_local_baseline_rag,mistral:latest,rag,459,Ed Lee,Ed Lee,True,2159.54,2026-01-23T09:28:36.818946
+mistral:latest_local_baseline_rag,mistral:latest,rag,460,Jane Kim,Jane Kim,True,2477.133,2026-01-23T09:28:39.296102
+mistral:latest_local_baseline_rag,mistral:latest,rag,461,January 30,January 30,True,2978.048,2026-01-23T09:28:42.274211
+mistral:latest_local_baseline_rag,mistral:latest,rag,462,More than 1 million people,1 million,True,3629.288,2026-01-23T09:28:45.903512
+mistral:latest_local_baseline_rag,mistral:latest,rag,463,Ed Lee,Ed Lee,True,2100.452,2026-01-23T09:28:48.003981
+mistral:latest_local_baseline_rag,mistral:latest,rag,464,Moscone Center,Moscone Center,True,2125.448,2026-01-23T09:28:50.129453
+mistral:latest_local_baseline_rag,mistral:latest,rag,465,Super Bowl City,Super Bowl City,True,4500.307000000001,2026-01-23T09:28:54.629770
+mistral:latest_local_baseline_rag,mistral:latest,rag,466,"Moscone Center, San Francisco",Moscone Center,True,2354.542,2026-01-23T09:28:56.984327
+mistral:latest_local_baseline_rag,mistral:latest,rag,467,Super Bowl City,Super Bowl City,True,2837.146,2026-01-23T09:28:59.821496
+mistral:latest_local_baseline_rag,mistral:latest,rag,468,Ed Lee,Ed Lee,True,0.867,2026-01-23T09:28:59.822379
+mistral:latest_local_baseline_rag,mistral:latest,rag,469,Super Bowl City,Super Bowl City,True,4176.9800000000005,2026-01-23T09:29:03.999370
+mistral:latest_local_baseline_rag,mistral:latest,rag,470,Over 1 million people,More than 1 million,False,4089.0550000000003,2026-01-23T09:29:08.088441
+mistral:latest_local_baseline_rag,mistral:latest,rag,471,San Francisco mayor Ed Lee,mayor Ed Lee,True,2261.8680000000004,2026-01-23T09:29:10.350364
+mistral:latest_local_baseline_rag,mistral:latest,rag,472,San Francisco did not receive $5 million for providing services during the Super Bowl.,$5 million.,False,4376.79,2026-01-23T09:29:14.727165
+mistral:latest_local_baseline_rag,mistral:latest,rag,473,The annual NFL Experience,The annual NFL Experience,True,2889.6169999999997,2026-01-23T09:29:17.616794
+mistral:latest_local_baseline_rag,mistral:latest,rag,474,Santa Clara University,Santa Clara University,True,4098.131,2026-01-23T09:29:21.714941
+mistral:latest_local_baseline_rag,mistral:latest,rag,475,$2 million,$2 million,True,4413.897999999999,2026-01-23T09:29:26.128860
+mistral:latest_local_baseline_rag,mistral:latest,rag,476,1 week,a week,False,2485.182,2026-01-23T09:29:28.614055
+mistral:latest_local_baseline_rag,mistral:latest,rag,477,$2 million,$2 million,True,4766.696,2026-01-23T09:29:33.380766
+mistral:latest_local_baseline_rag,mistral:latest,rag,478,Pep Rally,pep rally,True,2082.7369999999996,2026-01-23T09:29:35.463570
+mistral:latest_local_baseline_rag,mistral:latest,rag,479,City Council,city council,True,3108.568,2026-01-23T09:29:38.572162
+mistral:latest_local_baseline_rag,mistral:latest,rag,480,"The beer, wine and food festival was held at Bellomy Field at Santa Clara University.",Bellomy Field,True,3251.862,2026-01-23T09:29:41.824041
+mistral:latest_local_baseline_rag,mistral:latest,rag,481,A professional fundraiser helped find sponsors and donors to help with the cost.,A professional fundraiser,True,2841.65,2026-01-23T09:29:44.665734
+mistral:latest_local_baseline_rag,mistral:latest,rag,482,The city council,city council,True,2248.979,2026-01-23T09:29:46.914765
+mistral:latest_local_baseline_rag,mistral:latest,rag,483,$2 million (estimated),$2 million,True,6279.662,2026-01-23T09:29:53.194493
+mistral:latest_local_baseline_rag,mistral:latest,rag,484,The city council,city council,True,3972.419,2026-01-23T09:29:57.166960
+mistral:latest_local_baseline_rag,mistral:latest,rag,485,Monday,Monday,True,3619.107,2026-01-23T09:30:00.786081
+mistral:latest_local_baseline_rag,mistral:latest,rag,486,"In 2016, the Super Bowl media day took place on Monday.",Tuesday,False,3274.2110000000002,2026-01-23T09:30:04.060320
+mistral:latest_local_baseline_rag,mistral:latest,rag,487,SAP Center in San Jose,SAP Center,True,2239.506,2026-01-23T09:30:06.299841
+mistral:latest_local_baseline_rag,mistral:latest,rag,488,San Jose,San Jose,True,2783.131,2026-01-23T09:30:09.082981
+mistral:latest_local_baseline_rag,mistral:latest,rag,489,A replica of the Golden Gate Bridge,the Golden Gate Bridge,True,4161.762000000001,2026-01-23T09:30:13.244777
+mistral:latest_local_baseline_rag,mistral:latest,rag,490,Tuesday,Tuesday,True,3964.811,2026-01-23T09:30:17.209599
+mistral:latest_local_baseline_rag,mistral:latest,rag,491,Monday,Monday,True,3792.198,2026-01-23T09:30:21.001830
+mistral:latest_local_baseline_rag,mistral:latest,rag,492,Super Bowl Opening Night,Super Bowl Opening Night,True,3352.486,2026-01-23T09:30:24.354354
+mistral:latest_local_baseline_rag,mistral:latest,rag,493,SAP Center,SAP Center,True,3208.54,2026-01-23T09:30:27.562907
+mistral:latest_local_baseline_rag,mistral:latest,rag,494,San Jose,San Jose,True,3162.871,2026-01-23T09:30:30.725847
+mistral:latest_local_baseline_rag,mistral:latest,rag,495,"The game's media day is usually held on the Tuesday afternoon prior to the game, but in 2016 it was moved to Monday evening.",the Tuesday afternoon prior to the game,True,4558.28,2026-01-23T09:30:35.284163
+mistral:latest_local_baseline_rag,mistral:latest,rag,496,Super Bowl Opening Night,Super Bowl Opening Night.,True,2323.2059999999997,2026-01-23T09:30:37.607377
+mistral:latest_local_baseline_rag,mistral:latest,rag,497,SAP Center in San Jose,SAP Center in San Jose.,True,2242.4089999999997,2026-01-23T09:30:39.849793
+mistral:latest_local_baseline_rag,mistral:latest,rag,498,A replica of the Golden Gate Bridge,the Golden Gate Bridge.,False,4025.252,2026-01-23T09:30:43.875058
+mistral:latest_local_baseline_rag,mistral:latest,rag,499,Monday,Monday,True,3687.501,2026-01-23T09:30:47.562576
+mistral:latest_local_baseline_rag,mistral:latest,rag,500,Super Bowl Opening Night,Super Bowl Opening Night.,True,2554.721,2026-01-23T09:30:50.117306
+mistral:latest_local_baseline_rag,mistral:latest,rag,501,SAP Center in San Jose,SAP Center in San Jose.,True,2335.281,2026-01-23T09:30:52.452604
+mistral:latest_local_baseline_rag,mistral:latest,rag,502,Golden Gate Bridge,Golden Gate Bridge.,True,3370.831,2026-01-23T09:30:55.823458
+mistral:latest_local_baseline_rag,mistral:latest,rag,503,"February 1, 2016","February 1, 2016",True,3523.24,2026-01-23T09:30:59.346705
+mistral:latest_local_baseline_rag,mistral:latest,rag,504,Business Connect,Business Connect,True,3047.26,2026-01-23T09:31:02.393975
+mistral:latest_local_baseline_rag,mistral:latest,rag,505,$40 million,$40 million,True,2745.846,2026-01-23T09:31:05.139836
+mistral:latest_local_baseline_rag,mistral:latest,rag,506,Dignity Health,Dignity Health,True,3492.1220000000003,2026-01-23T09:31:08.631970
+mistral:latest_local_baseline_rag,mistral:latest,rag,507,Gap,Gap,True,2764.719,2026-01-23T09:31:11.396747
+mistral:latest_local_baseline_rag,mistral:latest,rag,508,Chevron,Chevron,True,2676.27,2026-01-23T09:31:14.073036
+mistral:latest_local_baseline_rag,mistral:latest,rag,509,The Super Bowl 50 Host Committee,Super Bowl 50 Host Committee,True,4394.8369999999995,2026-01-23T09:31:18.467893
+mistral:latest_local_baseline_rag,mistral:latest,rag,510,$40 million,over $40 million,True,2722.2599999999998,2026-01-23T09:31:21.190167
+mistral:latest_local_baseline_rag,mistral:latest,rag,511,The Super Bowl 50 Host Committee raised money through sponsors.,sponsors,True,3129.864,2026-01-23T09:31:24.320060
+mistral:latest_local_baseline_rag,mistral:latest,rag,512,Business Connect,Business Connect,True,2973.059,2026-01-23T09:31:27.293134
+mistral:latest_local_baseline_rag,mistral:latest,rag,513,Business Connect,Business Connect,True,3146.794,2026-01-23T09:31:30.439964
+mistral:latest_local_baseline_rag,mistral:latest,rag,514,$40 million,over $40 million,True,2015.2649999999999,2026-01-23T09:31:32.455241
+mistral:latest_local_baseline_rag,mistral:latest,rag,515,25%,25,True,3970.526,2026-01-23T09:31:36.425786
+mistral:latest_local_baseline_rag,mistral:latest,rag,516,The 50 Fund,the 50 fund,True,3282.676,2026-01-23T09:31:39.708472
+mistral:latest_local_baseline_rag,mistral:latest,rag,517,25%,25 percent,False,4954.438,2026-01-23T09:31:44.662924
+mistral:latest_local_baseline_rag,mistral:latest,rag,518,The 50 fund,50 fund,True,3866.715,2026-01-23T09:31:48.529649
+mistral:latest_local_baseline_rag,mistral:latest,rag,519,"""Giving"" in this context means charitable or generous, so the Super Bowl 50 Host Committee aims to be the most charitable or generous Super Bowl ever.",the most giving Super Bowl ever,False,4155.12,2026-01-23T09:31:52.684799
+mistral:latest_local_baseline_rag,mistral:latest,rag,520,The Super Bowl 50 Host Committee will dedicate 25% of all funds raised to local charities.,25 percent,False,4690.754,2026-01-23T09:31:57.375570
+mistral:latest_local_baseline_rag,mistral:latest,rag,521,The 50 Fund,the 50 fund,True,3704.757,2026-01-23T09:32:01.080360
+mistral:latest_local_baseline_rag,mistral:latest,rag,522,25%,25 percent,False,4781.765,2026-01-23T09:32:05.862151
+mistral:latest_local_baseline_rag,mistral:latest,rag,523,The 50 fund,50 fund,True,3515.054,2026-01-23T09:32:09.377213
+mistral:latest_local_baseline_rag,mistral:latest,rag,524,Not named after anyone specifically.,Vince Lombardi,False,4007.4180000000006,2026-01-23T09:32:13.384644
+mistral:latest_local_baseline_rag,mistral:latest,rag,525,18 karats,18,True,2978.799,2026-01-23T09:32:16.365814
+mistral:latest_local_baseline_rag,mistral:latest,rag,526,66 lb (30 kg),66,True,4752.655,2026-01-23T09:32:21.118491
+mistral:latest_local_baseline_rag,mistral:latest,rag,527,Tiffany & Co.,Tiffany & Co.,True,2582.766,2026-01-23T09:32:23.701280
+mistral:latest_local_baseline_rag,mistral:latest,rag,528,The context does not provide information about who designed the Vince Lombardi Trophy.,Tiffany & Co.,False,4478.401,2026-01-23T09:32:28.179690
+mistral:latest_local_baseline_rag,mistral:latest,rag,529,Vince Lombardi Trophy,Vince Lombardi Trophy,True,4077.458,2026-01-23T09:32:32.257177
+mistral:latest_local_baseline_rag,mistral:latest,rag,530,18-karat gold,18-karat gold-plated,True,3536.508,2026-01-23T09:32:35.793695
+mistral:latest_local_baseline_rag,mistral:latest,rag,531,Tiffany & Co.,Tiffany & Co,True,3352.375,2026-01-23T09:32:39.146079
+mistral:latest_local_baseline_rag,mistral:latest,rag,532,"The ""50"" trophy",the Vince Lombardi Trophy,False,4517.089999999999,2026-01-23T09:32:43.663188
+mistral:latest_local_baseline_rag,mistral:latest,rag,533,Tiffany & Co.,Tiffany & Co.,True,3432.191,2026-01-23T09:32:47.095387
+mistral:latest_local_baseline_rag,mistral:latest,rag,534,CBS,CBS,True,2839.029,2026-01-23T09:32:49.934425
+mistral:latest_local_baseline_rag,mistral:latest,rag,535,Phil Simms,Phil Simms,True,3248.4809999999998,2026-01-23T09:32:53.182917
+mistral:latest_local_baseline_rag,mistral:latest,rag,536,Tracy Wolfson,Tracy Wolfson,True,2937.0389999999998,2026-01-23T09:32:56.119967
+mistral:latest_local_baseline_rag,mistral:latest,rag,537,36,36,True,3477.052,2026-01-23T09:32:59.597047
+mistral:latest_local_baseline_rag,mistral:latest,rag,538,5K resolution,5K,True,3167.086,2026-01-23T09:33:02.764156
+mistral:latest_local_baseline_rag,mistral:latest,rag,539,3,three,False,3099.981,2026-01-23T09:33:05.864164
+mistral:latest_local_baseline_rag,mistral:latest,rag,540,Tracy Wolfson was announcing from the venue where Super Bowl 50 was held.,sidelines,False,3993.028,2026-01-23T09:33:09.857209
+mistral:latest_local_baseline_rag,mistral:latest,rag,541,The new cameras introduced for the game provide a 360-degree view to viewers.,360-degree,True,4912.6810000000005,2026-01-23T09:33:14.769916
+mistral:latest_local_baseline_rag,mistral:latest,rag,542,5K resolution,5K resolution,True,3408.5299999999997,2026-01-23T09:33:18.178453
+mistral:latest_local_baseline_rag,mistral:latest,rag,543,On the sidelines,sidelines,True,2207.864,2026-01-23T09:33:20.386329
+mistral:latest_local_baseline_rag,mistral:latest,rag,544,CBS,CBS,True,2964.156,2026-01-23T09:33:23.350502
+mistral:latest_local_baseline_rag,mistral:latest,rag,545,3,three,False,2456.655,2026-01-23T09:33:25.807204
+mistral:latest_local_baseline_rag,mistral:latest,rag,546,CBS,CBS,True,3023.919,2026-01-23T09:33:28.831138
+mistral:latest_local_baseline_rag,mistral:latest,rag,547,Jim Nantz and Phil Simms,Jim Nantz and Phil Simms,True,3528.5299999999997,2026-01-23T09:33:32.359695
+mistral:latest_local_baseline_rag,mistral:latest,rag,548,Tracy Wolfson and Evan Washburn,Tracy Wolfson and Evan Washburn,True,3297.408,2026-01-23T09:33:35.657131
+mistral:latest_local_baseline_rag,mistral:latest,rag,549,5K resolution,5K,True,2746.235,2026-01-23T09:33:38.403387
+mistral:latest_local_baseline_rag,mistral:latest,rag,550,"Based on the given context, there is no information available about anything being put on pylons for Super Bowl 50.",cameras,False,4886.2519999999995,2026-01-23T09:33:43.289654
+mistral:latest_local_baseline_rag,mistral:latest,rag,551,ESPN Deportes,ESPN Deportes,True,3533.7679999999996,2026-01-23T09:33:46.823440
+mistral:latest_local_baseline_rag,mistral:latest,rag,552,John Sutcliffe,John Sutcliffe,True,2691.097,2026-01-23T09:33:49.514587
+mistral:latest_local_baseline_rag,mistral:latest,rag,553,Alvaro Martin,Alvaro Martin,True,3958.523,2026-01-23T09:33:53.473118
+mistral:latest_local_baseline_rag,mistral:latest,rag,554,"December 28, 2015","December 28, 2015",True,3493.1040000000003,2026-01-23T09:33:56.966240
+mistral:latest_local_baseline_rag,mistral:latest,rag,555,Spanish,Spanish,True,3567.487,2026-01-23T09:34:00.533738
+mistral:latest_local_baseline_rag,mistral:latest,rag,556,ESPN Deportes,CBS,False,2745.013,2026-01-23T09:34:03.278769
+mistral:latest_local_baseline_rag,mistral:latest,rag,557,ESPN Deportes,ESPN Deportes,True,3640.19,2026-01-23T09:34:06.918969
+mistral:latest_local_baseline_rag,mistral:latest,rag,558,John Sutcliffe,John Sutcliffe.,True,2884.594,2026-01-23T09:34:09.803578
+mistral:latest_local_baseline_rag,mistral:latest,rag,559,ESPN Deportes,ESPN Deportes,True,3466.362,2026-01-23T09:34:13.269955
+mistral:latest_local_baseline_rag,mistral:latest,rag,560,"Alvaro Martin, Raul Allegre, and John Sutcliffe",Alvaro Martin and Raul Allegre,False,4337.398,2026-01-23T09:34:17.607386
+mistral:latest_local_baseline_rag,mistral:latest,rag,561,John Sutcliffe,John Sutcliffe.,True,2880.135,2026-01-23T09:34:20.487564
+mistral:latest_local_baseline_rag,mistral:latest,rag,562,NFL Mobile,NFL Mobile,True,3500.125,2026-01-23T09:34:23.987716
+mistral:latest_local_baseline_rag,mistral:latest,rag,563,WatchESPN,WatchESPN,True,2168.6290000000004,2026-01-23T09:34:26.156363
+mistral:latest_local_baseline_rag,mistral:latest,rag,564,CBSSports.com,CBSSports.com,True,2882.557,2026-01-23T09:34:29.038942
+mistral:latest_local_baseline_rag,mistral:latest,rag,565,Xbox One,Xbox One,True,2085.114,2026-01-23T09:34:31.124234
+mistral:latest_local_baseline_rag,mistral:latest,rag,566,Windows 10,10,True,3044.7000000000003,2026-01-23T09:34:34.168942
+mistral:latest_local_baseline_rag,mistral:latest,rag,567,CBSSports.com,CBSSports.com,True,2357.279,2026-01-23T09:34:36.526237
+mistral:latest_local_baseline_rag,mistral:latest,rag,568,Xbox One,Xbox One,True,2396.2659999999996,2026-01-23T09:34:38.922523
+mistral:latest_local_baseline_rag,mistral:latest,rag,569,Verizon Wireless customers,Verizon Wireless customers,True,3092.0480000000002,2026-01-23T09:34:42.014593
+mistral:latest_local_baseline_rag,mistral:latest,rag,570,NFL Mobile,NFL Mobile service,True,3375.715,2026-01-23T09:34:45.390328
+mistral:latest_local_baseline_rag,mistral:latest,rag,571,Verizon Communications,Verizon,True,2748.198,2026-01-23T09:34:48.138540
+mistral:latest_local_baseline_rag,mistral:latest,rag,572,NFL Mobile service,NFL Mobile service.,True,3594.497,2026-01-23T09:34:51.733053
+mistral:latest_local_baseline_rag,mistral:latest,rag,573,"CBS provided digital streams of the Super Bowl 50 broadcast for its website, some apps, and media players.",digital streams of the game,False,4776.244000000001,2026-01-23T09:34:56.509309
+mistral:latest_local_baseline_rag,mistral:latest,rag,574,Verizon Communications,Verizon,True,3350.583,2026-01-23T09:34:59.859907
+mistral:latest_local_baseline_rag,mistral:latest,rag,575,WatchESPN,WatchESPN.,True,2252.3019999999997,2026-01-23T09:35:02.112224
+mistral:latest_local_baseline_rag,mistral:latest,rag,576,The Late Show with Stephen Colbert,The Late Show with Stephen Colbert,True,2841.182,2026-01-23T09:35:04.953420
+mistral:latest_local_baseline_rag,mistral:latest,rag,577,The Late Late Show with James Corden,The Late Late Show with James Corden,True,3435.72,2026-01-23T09:35:08.389156
+mistral:latest_local_baseline_rag,mistral:latest,rag,578,The Late Show with Stephen Colbert,The Late Show with Stephen Colbert,True,3500.953,2026-01-23T09:35:11.890120
+mistral:latest_local_baseline_rag,mistral:latest,rag,579,The Late Late Show with James Corden,The Late Late Show with James Corden,True,4231.507,2026-01-23T09:35:16.121636
+mistral:latest_local_baseline_rag,mistral:latest,rag,580,The Late Show with Stephen Colbert,The Late Show with Stephen Colbert,True,2768.683,2026-01-23T09:35:18.890328
+mistral:latest_local_baseline_rag,mistral:latest,rag,581,The Late Late Show with James Corden,late local programming,False,4226.064,2026-01-23T09:35:23.116408
+mistral:latest_local_baseline_rag,mistral:latest,rag,582,A special episode of The Late Late Show with James Corden followed the late local programming after Super Bowl 50.,The Late Late Show with James Corden.,False,3866.93,2026-01-23T09:35:26.983355
+mistral:latest_local_baseline_rag,mistral:latest,rag,583,"$5,000,000","$5,000,000",True,4274.397,2026-01-23T09:35:31.257770
+mistral:latest_local_baseline_rag,mistral:latest,rag,584,Anheuser-Busch InBev,Anheuser-Busch InBev,True,3170.057,2026-01-23T09:35:34.427847
+mistral:latest_local_baseline_rag,mistral:latest,rag,585,Doritos,Doritos,True,2752.43,2026-01-23T09:35:37.180292
+mistral:latest_local_baseline_rag,mistral:latest,rag,586,20th anniversary,20th,True,2790.1319999999996,2026-01-23T09:35:39.970440
+mistral:latest_local_baseline_rag,mistral:latest,rag,587,"$5,000,000","$5,000,000",True,3698.6059999999998,2026-01-23T09:35:43.669070
+mistral:latest_local_baseline_rag,mistral:latest,rag,588,Anheuser-Busch InBev,Anheuser-Busch InBev,True,3272.683,2026-01-23T09:35:46.941761
+mistral:latest_local_baseline_rag,mistral:latest,rag,589,Doritos,Doritos,True,3499.67,2026-01-23T09:35:50.441464
+mistral:latest_local_baseline_rag,mistral:latest,rag,590,Nintendo and The Pokémon Company,Nintendo,True,2593.5510000000004,2026-01-23T09:35:53.035027
+mistral:latest_local_baseline_rag,mistral:latest,rag,591,Nintendo,The Pokémon Company,False,2834.149,2026-01-23T09:35:55.869192
+mistral:latest_local_baseline_rag,mistral:latest,rag,592,Anheuser-Busch InBev,Anheuser-Busch InBev,True,3109.8940000000002,2026-01-23T09:35:58.979155
+mistral:latest_local_baseline_rag,mistral:latest,rag,593,Doritos,Doritos,True,3392.5950000000003,2026-01-23T09:36:02.371813
+mistral:latest_local_baseline_rag,mistral:latest,rag,594,Anheuser-Busch InBev,Anheuser-Busch InBev,True,4929.081,2026-01-23T09:36:07.300917
+mistral:latest_local_baseline_rag,mistral:latest,rag,595,Doritos,Doritos,True,4846.63,2026-01-23T09:36:12.147613
+mistral:latest_local_baseline_rag,mistral:latest,rag,596,"""Crash the Super Bowl""",Crash the Super Bowl,True,4025.303,2026-01-23T09:36:16.172997
+mistral:latest_local_baseline_rag,mistral:latest,rag,597,Small Business Big Game,"""Small Business Big Game""",True,3205.797,2026-01-23T09:36:19.378871
+mistral:latest_local_baseline_rag,mistral:latest,rag,598,Death Wish Coffee,Death Wish Coffee,True,3476.4689999999996,2026-01-23T09:36:22.855413
+mistral:latest_local_baseline_rag,mistral:latest,rag,599,30 seconds,30-second,False,3357.9,2026-01-23T09:36:26.213358
+mistral:latest_local_baseline_rag,mistral:latest,rag,600,9,nine,False,2854.873,2026-01-23T09:36:29.068248
+mistral:latest_local_baseline_rag,mistral:latest,rag,601,Death Wish Coffee,Death Wish Coffee,True,3833.701,2026-01-23T09:36:32.902000
+mistral:latest_local_baseline_rag,mistral:latest,rag,602,Death Wish Coffee beat out 9 other contestants.,nine,False,3688.2830000000004,2026-01-23T09:36:36.590322
+mistral:latest_local_baseline_rag,mistral:latest,rag,603,QuickBooks,QuickBooks.,True,2901.253,2026-01-23T09:36:39.491585
+mistral:latest_local_baseline_rag,mistral:latest,rag,604,Death Wish Coffee,Death Wish Coffee,True,3838.781,2026-01-23T09:36:43.330376
+mistral:latest_local_baseline_rag,mistral:latest,rag,605,9,ten,False,3317.868,2026-01-23T09:36:46.648316
+mistral:latest_local_baseline_rag,mistral:latest,rag,606,QuickBooks,QuickBooks.,True,3534.4350000000004,2026-01-23T09:36:50.182773
+mistral:latest_local_baseline_rag,mistral:latest,rag,607,Death Wish Coffee,Death Wish Coffee,True,3712.614,2026-01-23T09:36:53.895435
+mistral:latest_local_baseline_rag,mistral:latest,rag,608,Jason Bourne,Jason Bourne,True,3700.324,2026-01-23T09:36:57.595769
+mistral:latest_local_baseline_rag,mistral:latest,rag,609,Gods of Egypt,Gods of Egypt,True,4042.0109999999995,2026-01-23T09:37:01.637809
+mistral:latest_local_baseline_rag,mistral:latest,rag,610,Teenage Mutant Ninja Turtles: Out of the Shadows,Teenage Mutant Ninja Turtles: Out of the Shadows,True,4663.754,2026-01-23T09:37:06.301599
+mistral:latest_local_baseline_rag,mistral:latest,rag,611,Resurgence,Resurgence,True,3946.1560000000004,2026-01-23T09:37:10.247804
+mistral:latest_local_baseline_rag,mistral:latest,rag,612,Gods of Egypt,Gods of Egypt,True,3188.87,2026-01-23T09:37:13.436714
+mistral:latest_local_baseline_rag,mistral:latest,rag,613,Paramount paid for 10 Cloverfield Lane to be aired during the Super Bowl and did not pay for any other film trailer.,Teenage Mutant Ninja Turtles: Out of the Shadows,False,5696.339,2026-01-23T09:37:19.133073
+mistral:latest_local_baseline_rag,mistral:latest,rag,614,Universal paid for the debut trailer for Jason Bourne.,Jason Bourne,True,4060.1760000000004,2026-01-23T09:37:23.193264
+mistral:latest_local_baseline_rag,mistral:latest,rag,615,No other film trailer was mentioned for Disney in the provided context.,Captain America: Civil War,False,4339.516,2026-01-23T09:37:27.532796
+mistral:latest_local_baseline_rag,mistral:latest,rag,616,Independence Day: Resurgence,Independence Day,True,4653.365,2026-01-23T09:37:32.186195
+mistral:latest_local_baseline_rag,mistral:latest,rag,617,Universal Pictures,Universal,True,2439.106,2026-01-23T09:37:34.625312
+mistral:latest_local_baseline_rag,mistral:latest,rag,618,20th Century Fox,Fox,True,4393.3099999999995,2026-01-23T09:37:39.018633
+mistral:latest_local_baseline_rag,mistral:latest,rag,619,Westwood One,Westwood One,True,2873.118,2026-01-23T09:37:41.891767
+mistral:latest_local_baseline_rag,mistral:latest,rag,620,Kevin Harlan,Kevin Harlan,True,2976.9990000000003,2026-01-23T09:37:44.868781
+mistral:latest_local_baseline_rag,mistral:latest,rag,621,Jim Gray,Jim Gray,True,2231.1510000000003,2026-01-23T09:37:47.099941
+mistral:latest_local_baseline_rag,mistral:latest,rag,622,Dan Fouts served as a color analyst alongside Kevin Harlan (play-by-play announcer).,Boomer Esiason,False,3135.359,2026-01-23T09:37:50.235315
+mistral:latest_local_baseline_rag,mistral:latest,rag,623,James Lofton,James Lofton,True,2959.767,2026-01-23T09:37:53.195105
+mistral:latest_local_baseline_rag,mistral:latest,rag,624,2,two,False,3279.352,2026-01-23T09:37:56.474465
+mistral:latest_local_baseline_rag,mistral:latest,rag,625,Kevin Harlan,Kevin Harlan,True,3048.587,2026-01-23T09:37:59.523059
+mistral:latest_local_baseline_rag,mistral:latest,rag,626,Westwood One,Westwood One,True,2659.4359999999997,2026-01-23T09:38:02.182509
+mistral:latest_local_baseline_rag,mistral:latest,rag,627,Kevin Harlan,Kevin Harlan,True,2539.2619999999997,2026-01-23T09:38:04.721786
+mistral:latest_local_baseline_rag,mistral:latest,rag,628,Jim Gray,Jim Gray,True,2738.896,2026-01-23T09:38:07.460699
+mistral:latest_local_baseline_rag,mistral:latest,rag,629,Kevin Harlan,Kevin Harlan,True,4088.654,2026-01-23T09:38:11.549370
+mistral:latest_local_baseline_rag,mistral:latest,rag,630,Boomer Esiason and Dan Fouts,Boomer Esiason and Dan Fouts,True,3191.047,2026-01-23T09:38:14.740444
+mistral:latest_local_baseline_rag,mistral:latest,rag,631,James Lofton and Mark Malone,James Lofton and Mark Malone,True,2650.7999999999997,2026-01-23T09:38:17.391257
+mistral:latest_local_baseline_rag,mistral:latest,rag,632,Jim Gray covered the pre-game and halftime coverage.,pre-game and halftime coverage.,True,2642.368,2026-01-23T09:38:20.033641
+mistral:latest_local_baseline_rag,mistral:latest,rag,633,North America,North America,True,3749.567,2026-01-23T09:38:23.783220
+mistral:latest_local_baseline_rag,mistral:latest,rag,634,KRFX (103.5 FM),KRFX,True,5483.43,2026-01-23T09:38:29.266693
+mistral:latest_local_baseline_rag,mistral:latest,rag,635,Dave Logan,Dave Logan,True,4158.683,2026-01-23T09:38:33.425725
+mistral:latest_local_baseline_rag,mistral:latest,rag,636,1110 AM,1110 AM,True,4249.7970000000005,2026-01-23T09:38:37.675538
+mistral:latest_local_baseline_rag,mistral:latest,rag,637,"Chester, South Carolina","Chester, South Carolina",True,3830.143,2026-01-23T09:38:41.505722
+mistral:latest_local_baseline_rag,mistral:latest,rag,638,Mick Mixon,Mick Mixon,True,2565.6150000000002,2026-01-23T09:38:44.071347
+mistral:latest_local_baseline_rag,mistral:latest,rag,639,Dave Logan,Dave Logan,True,3177.665,2026-01-23T09:38:47.249022
+mistral:latest_local_baseline_rag,mistral:latest,rag,640,Ed McCaffrey,Ed McCaffrey,True,4703.064,2026-01-23T09:38:51.952103
+mistral:latest_local_baseline_rag,mistral:latest,rag,641,WBT (1110 AM),WBT,True,3095.2980000000002,2026-01-23T09:38:55.047437
+mistral:latest_local_baseline_rag,mistral:latest,rag,642,Mick Mixon,Mick Mixon,True,2442.8160000000003,2026-01-23T09:38:57.490266
+mistral:latest_local_baseline_rag,mistral:latest,rag,643,KOA (850 AM) and KRFX (103.5 FM),KOA (850 AM) and KRFX (103.5 FM),True,3679.688,2026-01-23T09:39:01.169977
+mistral:latest_local_baseline_rag,mistral:latest,rag,644,The provided context does not specify a radio station in South Carolina that carried the Super Bowl 50 game.,WBT-FM (99.3 FM),False,7041.272,2026-01-23T09:39:08.211278
+mistral:latest_local_baseline_rag,mistral:latest,rag,645,BBC Radio 5 Live,BBC Radio 5,True,4011.228,2026-01-23T09:39:12.222522
+mistral:latest_local_baseline_rag,mistral:latest,rag,646,No other radio station is mentioned in the context.,5 Live Sports Extra,False,3824.627,2026-01-23T09:39:16.047167
+mistral:latest_local_baseline_rag,mistral:latest,rag,647,Darren Fletcher,Darren Fletcher,True,3325.59,2026-01-23T09:39:19.372793
+mistral:latest_local_baseline_rag,mistral:latest,rag,648,BBC,BBC,True,3127.042,2026-01-23T09:39:22.499852
+mistral:latest_local_baseline_rag,mistral:latest,rag,649,Greg Brady,Greg Brady,True,3316.0319999999997,2026-01-23T09:39:25.815901
+mistral:latest_local_baseline_rag,mistral:latest,rag,650,Bart Starr,Bart Starr,True,6184.782,2026-01-23T09:39:32.000706
+mistral:latest_local_baseline_rag,mistral:latest,rag,651,Chuck Howley,Chuck Howley,True,4403.292,2026-01-23T09:39:36.404017
+mistral:latest_local_baseline_rag,mistral:latest,rag,652,Peyton Manning,Peyton Manning,True,3671.1800000000003,2026-01-23T09:39:40.075231
+mistral:latest_local_baseline_rag,mistral:latest,rag,653,2001,2001,True,4059.9100000000003,2026-01-23T09:39:44.135149
+mistral:latest_local_baseline_rag,mistral:latest,rag,654,Peyton Manning,Peyton Manning,True,2821.0890000000004,2026-01-23T09:39:46.956254
+mistral:latest_local_baseline_rag,mistral:latest,rag,655,37,39,False,6183.102,2026-01-23T09:39:53.139371
+mistral:latest_local_baseline_rag,mistral:latest,rag,656,Peyton Manning,Peyton Manning,True,3756.8039999999996,2026-01-23T09:39:56.896184
+mistral:latest_local_baseline_rag,mistral:latest,rag,657,Harvey Martin,Harvey Martin,True,4466.861,2026-01-23T09:40:01.363064
+mistral:latest_local_baseline_rag,mistral:latest,rag,658,There have been 39 Most Valuable Players for the Super Bowl.,43,False,4332.887000000001,2026-01-23T09:40:05.695981
+mistral:latest_local_baseline_rag,mistral:latest,rag,659,39 out of 43 previous Super Bowl MVPs were present for the pregame ceremony.,39,True,6203.55,2026-01-23T09:40:11.899540
+mistral:latest_local_baseline_rag,mistral:latest,rag,660,Bart Starr,Bart Starr,True,4307.736,2026-01-23T09:40:16.207284
+mistral:latest_local_baseline_rag,mistral:latest,rag,661,Peyton Manning,Peyton Manning,True,3533.11,2026-01-23T09:40:19.740409
+mistral:latest_local_baseline_rag,mistral:latest,rag,662,Harvey Martin,Harvey Martin,True,4633.5689999999995,2026-01-23T09:40:24.373997
+mistral:latest_local_baseline_rag,mistral:latest,rag,663,6,Six,False,2143.56,2026-01-23T09:40:26.517610
+mistral:latest_local_baseline_rag,mistral:latest,rag,664,Lady Gaga sang the national anthem.,the national anthem,True,2387.6490000000003,2026-01-23T09:40:28.905271
+mistral:latest_local_baseline_rag,mistral:latest,rag,665,Academy Award,Academy Award,True,2330.32,2026-01-23T09:40:31.235618
+mistral:latest_local_baseline_rag,mistral:latest,rag,666,Marlee Matlin translated the national anthem.,the national anthem,True,2706.6240000000003,2026-01-23T09:40:33.942297
+mistral:latest_local_baseline_rag,mistral:latest,rag,667,American Sign Language (ASL),American Sign Language,True,3288.484,2026-01-23T09:40:37.230787
+mistral:latest_local_baseline_rag,mistral:latest,rag,668,Lady Gaga,Lady Gaga,True,2102.535,2026-01-23T09:40:39.333332
+mistral:latest_local_baseline_rag,mistral:latest,rag,669,Marlee Matlin,Marlee Matlin,True,2735.761,2026-01-23T09:40:42.069107
+mistral:latest_local_baseline_rag,mistral:latest,rag,670,Lady Gaga,Lady Gaga,True,2771.6929999999998,2026-01-23T09:40:44.840821
+mistral:latest_local_baseline_rag,mistral:latest,rag,671,Marlee Matlin,Marlee Matlin,True,3254.028,2026-01-23T09:40:48.094894
+mistral:latest_local_baseline_rag,mistral:latest,rag,672,Lady Gaga,Lady Gaga,True,2734.949,2026-01-23T09:40:50.829870
+mistral:latest_local_baseline_rag,mistral:latest,rag,673,6,Six,False,1911.09,2026-01-23T09:40:52.740979
+mistral:latest_local_baseline_rag,mistral:latest,rag,674,Marlee Matlin,Marlee Matlin,True,3124.096,2026-01-23T09:40:55.865084
+mistral:latest_local_baseline_rag,mistral:latest,rag,675,"December 3, 2015",December 3,True,3803.0629999999996,2026-01-23T09:40:59.668165
+mistral:latest_local_baseline_rag,mistral:latest,rag,676,United Kingdom,British,False,3967.619,2026-01-23T09:41:03.635800
+mistral:latest_local_baseline_rag,mistral:latest,rag,677,Super Bowl XLVII,Super Bowl XLVII,True,2311.245,2026-01-23T09:41:05.947058
+mistral:latest_local_baseline_rag,mistral:latest,rag,678,"""Hymn for the Weekend""","""Hymn for the Weekend""",True,2701.879,2026-01-23T09:41:08.648944
+mistral:latest_local_baseline_rag,mistral:latest,rag,679,Bruno Mars headlined the Super Bowl XLVIII halftime show.,Super Bowl XLVIII,True,3291.925,2026-01-23T09:41:11.940884
+mistral:latest_local_baseline_rag,mistral:latest,rag,680,Coldplay,Coldplay.,True,2235.768,2026-01-23T09:41:14.176661
+mistral:latest_local_baseline_rag,mistral:latest,rag,681,Pepsi,Pepsi,True,3250.268,2026-01-23T09:41:17.426940
+mistral:latest_local_baseline_rag,mistral:latest,rag,682,"""Hymn for the Weekend""","""Hymn for the Weekend""",True,3953.713,2026-01-23T09:41:21.380665
+mistral:latest_local_baseline_rag,mistral:latest,rag,683,Coldplay,Coldplay.,True,2239.44,2026-01-23T09:41:23.620132
+mistral:latest_local_baseline_rag,mistral:latest,rag,684,Beyoncé,Beyoncé,True,3143.833,2026-01-23T09:41:26.763981
+mistral:latest_local_baseline_rag,mistral:latest,rag,685,"""Hymn for the Weekend""",Hymn for the Weekend,True,2909.814,2026-01-23T09:41:29.673819
+mistral:latest_local_baseline_rag,mistral:latest,rag,686,Bruno Mars,Bruno Mars,True,2749.188,2026-01-23T09:41:32.423023
+mistral:latest_local_baseline_rag,mistral:latest,rag,687,Denver,Denver,True,3152.571,2026-01-23T09:41:35.575608
+mistral:latest_local_baseline_rag,mistral:latest,rag,688,Andre Caldwell,Andre Caldwell,True,3435.8379999999997,2026-01-23T09:41:39.011465
+mistral:latest_local_baseline_rag,mistral:latest,rag,689,Ronnie Hillman,Ronnie Hillman,True,3140.7110000000002,2026-01-23T09:41:42.152399
+mistral:latest_local_baseline_rag,mistral:latest,rag,690,Brandon McManus,Brandon McManus,True,3136.411,2026-01-23T09:41:45.288821
+mistral:latest_local_baseline_rag,mistral:latest,rag,691,C. J. Anderson,C. J. Anderson,True,3128.375,2026-01-23T09:41:48.417207
+mistral:latest_local_baseline_rag,mistral:latest,rag,692,18 yards,18,True,3159.492,2026-01-23T09:41:51.576714
+mistral:latest_local_baseline_rag,mistral:latest,rag,693,Shaq Thompson,Shaq Thompson,True,2562.8799999999997,2026-01-23T09:41:54.139623
+mistral:latest_local_baseline_rag,mistral:latest,rag,694,Brandon McManus,Brandon McManus,True,4294.732,2026-01-23T09:41:58.434370
+mistral:latest_local_baseline_rag,mistral:latest,rag,695,First deficit in the postseason,a deficit.,False,3446.628,2026-01-23T09:42:01.881031
+mistral:latest_local_baseline_rag,mistral:latest,rag,696,Denver,Denver,True,1978.216,2026-01-23T09:42:03.859273
+mistral:latest_local_baseline_rag,mistral:latest,rag,697,Owen Daniels,Owen Daniels,True,3232.6000000000004,2026-01-23T09:42:07.091887
+mistral:latest_local_baseline_rag,mistral:latest,rag,698,C.J. Anderson,C. J. Anderson,False,2901.413,2026-01-23T09:42:09.993308
+mistral:latest_local_baseline_rag,mistral:latest,rag,699,Brandon McManus,Brandon McManus,True,3401.688,2026-01-23T09:42:13.395020
+mistral:latest_local_baseline_rag,mistral:latest,rag,700,Carolina faced a deficit for the first time in the entire postseason.,a deficit.,False,3894.54,2026-01-23T09:42:17.289589
+mistral:latest_local_baseline_rag,mistral:latest,rag,701,Mike Carey,Mike Carey,True,2729.382,2026-01-23T09:42:20.023148
+mistral:latest_local_baseline_rag,mistral:latest,rag,702,Cam Newton,Cam Newton,True,3620.519,2026-01-23T09:42:23.643682
+mistral:latest_local_baseline_rag,mistral:latest,rag,703,Von Miller,Von Miller,True,3188.6169999999997,2026-01-23T09:42:26.832318
+mistral:latest_local_baseline_rag,mistral:latest,rag,704,Malik Jackson,Malik Jackson,True,2763.6479999999997,2026-01-23T09:42:29.595991
+mistral:latest_local_baseline_rag,mistral:latest,rag,705,Super Bowl XXVIII,Super Bowl XXVIII,True,4153.794000000001,2026-01-23T09:42:33.749808
+mistral:latest_local_baseline_rag,mistral:latest,rag,706,Jerricho Cotchery,Jerricho Cotchery,True,4633.412,2026-01-23T09:42:38.383232
+mistral:latest_local_baseline_rag,mistral:latest,rag,707,Mike Carey,Mike Carey,True,2756.411,2026-01-23T09:42:41.139683
+mistral:latest_local_baseline_rag,mistral:latest,rag,708,Von Miller,Von Miller,True,2548.027,2026-01-23T09:42:43.687724
+mistral:latest_local_baseline_rag,mistral:latest,rag,709,Malik Jackson,Malik Jackson,True,3248.7,2026-01-23T09:42:46.936436
+mistral:latest_local_baseline_rag,mistral:latest,rag,710,1993,1993,True,4821.366,2026-01-23T09:42:51.757817
+mistral:latest_local_baseline_rag,mistral:latest,rag,711,Mike Carey,Mike Carey,True,3628.8239999999996,2026-01-23T09:42:55.386654
+mistral:latest_local_baseline_rag,mistral:latest,rag,712,Von Miller,Von Miller,True,3570.381,2026-01-23T09:42:58.957051
+mistral:latest_local_baseline_rag,mistral:latest,rag,713,Malik Jackson,Malik Jackson,True,3331.0840000000003,2026-01-23T09:43:02.288166
+mistral:latest_local_baseline_rag,mistral:latest,rag,714,The last time a fumble return touchdown happened in a Super Bowl was at the end of the 1993 season.,Super Bowl XXVIII,False,4219.964,2026-01-23T09:43:06.508158
+mistral:latest_local_baseline_rag,mistral:latest,rag,715,Jonathan Stewart,Jonathan Stewart,True,3788.492,2026-01-23T09:43:10.296665
+mistral:latest_local_baseline_rag,mistral:latest,rag,716,Brad Nortman,Brad Nortman,True,2558.364,2026-01-23T09:43:12.855049
+mistral:latest_local_baseline_rag,mistral:latest,rag,717,28 yards,28,True,2750.6279999999997,2026-01-23T09:43:15.605689
+mistral:latest_local_baseline_rag,mistral:latest,rag,718,61 yards,61,True,2438.265,2026-01-23T09:43:18.043960
+mistral:latest_local_baseline_rag,mistral:latest,rag,719,33 yards,33,True,4265.629,2026-01-23T09:43:22.309601
+mistral:latest_local_baseline_rag,mistral:latest,rag,720,51 yards,51,True,3008.448,2026-01-23T09:43:25.318068
+mistral:latest_local_baseline_rag,mistral:latest,rag,721,Jonathan Stewart,Jonathan Stewart,True,3328.0539999999996,2026-01-23T09:43:28.646157
+mistral:latest_local_baseline_rag,mistral:latest,rag,722,11:28 - (9 plays * average play duration) = 11:15 (approximately),11:28,True,6197.629,2026-01-23T09:43:34.843806
+mistral:latest_local_baseline_rag,mistral:latest,rag,723,Jordan Norwood got a 61-yard return when players thought he called for a fair catch but did not.,Jordan Norwood,True,4622.384,2026-01-23T09:43:39.466218
+mistral:latest_local_baseline_rag,mistral:latest,rag,724,33 yards,33,True,5028.196,2026-01-23T09:43:44.494470
+mistral:latest_local_baseline_rag,mistral:latest,rag,725,Jonathan Stewart,Jonathan Stewart,True,3234.188,2026-01-23T09:43:47.728687
+mistral:latest_local_baseline_rag,mistral:latest,rag,726,Field Goal (by McManus),field goal,True,3547.462,2026-01-23T09:43:51.276195
+mistral:latest_local_baseline_rag,mistral:latest,rag,727,Darian Stewart,Darian Stewart,True,2959.029,2026-01-23T09:43:54.235233
+mistral:latest_local_baseline_rag,mistral:latest,rag,728,Linebacker,linebacker,True,2639.4739999999997,2026-01-23T09:43:56.874726
+mistral:latest_local_baseline_rag,mistral:latest,rag,729,Kony Ealy,Kony Ealy,True,3225.558,2026-01-23T09:44:00.100298
+mistral:latest_local_baseline_rag,mistral:latest,rag,730,Cam Newton,Newton,True,2945.048,2026-01-23T09:44:03.045354
+mistral:latest_local_baseline_rag,mistral:latest,rag,731,DeMarcus Ware,DeMarcus Ware,True,2520.8430000000003,2026-01-23T09:44:05.566205
+mistral:latest_local_baseline_rag,mistral:latest,rag,732,Mike Tolbert,Mike Tolbert,True,2503.078,2026-01-23T09:44:08.069298
+mistral:latest_local_baseline_rag,mistral:latest,rag,733,Kony Ealy,Kony Ealy,True,3454.2039999999997,2026-01-23T09:44:11.523511
+mistral:latest_local_baseline_rag,mistral:latest,rag,734,19 yards,19,True,2750.89,2026-01-23T09:44:14.274410
+mistral:latest_local_baseline_rag,mistral:latest,rag,735,DeMarcus Ware,DeMarcus Ware,True,2831.754,2026-01-23T09:44:17.106182
+mistral:latest_local_baseline_rag,mistral:latest,rag,736,Mike Tolbert,Mike Tolbert,True,3256.972,2026-01-23T09:44:20.363162
+mistral:latest_local_baseline_rag,mistral:latest,rag,737,Danny Trevathan,Danny Trevathan,True,4809.32,2026-01-23T09:44:25.172488
+mistral:latest_local_baseline_rag,mistral:latest,rag,738,Kony Ealy,Kony Ealy,True,3069.1459999999997,2026-01-23T09:44:28.241651
+mistral:latest_local_baseline_rag,mistral:latest,rag,739,The Panthers had to punt.,punt,True,3179.127,2026-01-23T09:44:31.420807
+mistral:latest_local_baseline_rag,mistral:latest,rag,740,DeMarcus Ware,DeMarcus Ware,True,2543.3880000000004,2026-01-23T09:44:33.964218
+mistral:latest_local_baseline_rag,mistral:latest,rag,741,Ted Ginn Jr.,Ted Ginn Jr.,True,4296.165,2026-01-23T09:44:38.260428
+mistral:latest_local_baseline_rag,mistral:latest,rag,742,Graham Gano,Graham Gano,True,3124.741,2026-01-23T09:44:41.385188
+mistral:latest_local_baseline_rag,mistral:latest,rag,743,44 yards,44,True,2168.114,2026-01-23T09:44:43.553330
+mistral:latest_local_baseline_rag,mistral:latest,rag,744,Brandon McManus,McManus,True,3466.5789999999997,2026-01-23T09:44:47.019918
+mistral:latest_local_baseline_rag,mistral:latest,rag,745,T.J. Ward,T. J. Ward,False,3532.6659999999997,2026-01-23T09:44:50.552592
+mistral:latest_local_baseline_rag,mistral:latest,rag,746,Ted Ginn Jr.,Ted Ginn Jr.,True,4353.404,2026-01-23T09:44:54.906009
+mistral:latest_local_baseline_rag,mistral:latest,rag,747,Graham Gano's 44-yard field goal attempt was a miss.,the uprights,False,3398.904,2026-01-23T09:44:58.304958
+mistral:latest_local_baseline_rag,mistral:latest,rag,748,T.J. Ward,T. J. Ward.,False,3861.377,2026-01-23T09:45:02.166362
+mistral:latest_local_baseline_rag,mistral:latest,rag,749,Trevathan recovered Ward's fumble.,Trevathan,True,4466.878000000001,2026-01-23T09:45:06.633251
+mistral:latest_local_baseline_rag,mistral:latest,rag,750,Ted Ginn Jr.,Ted Ginn Jr.,True,2918.1189999999997,2026-01-23T09:45:09.551388
+mistral:latest_local_baseline_rag,mistral:latest,rag,751,26-yard line,26-yard line,True,3430.158,2026-01-23T09:45:12.981562
+mistral:latest_local_baseline_rag,mistral:latest,rag,752,Graham Gano,Graham Gano,True,2633.512,2026-01-23T09:45:15.615090
+mistral:latest_local_baseline_rag,mistral:latest,rag,753,Emmanuel Sanders,Emmanuel Sanders,True,4845.506,2026-01-23T09:45:20.460613
+mistral:latest_local_baseline_rag,mistral:latest,rag,754,Ealy,Ealy,True,3342.594,2026-01-23T09:45:23.803266
+mistral:latest_local_baseline_rag,mistral:latest,rag,755,39 yards,39,True,3468.197,2026-01-23T09:45:27.271472
+mistral:latest_local_baseline_rag,mistral:latest,rag,756,Devin Funchess,Devin Funchess,True,4607.106,2026-01-23T09:45:31.878594
+mistral:latest_local_baseline_rag,mistral:latest,rag,757,Stewart,Stewart,True,2148.6960000000004,2026-01-23T09:45:34.027331
+mistral:latest_local_baseline_rag,mistral:latest,rag,758,41 yards,41-yard line.,False,2628.745,2026-01-23T09:45:36.656084
+mistral:latest_local_baseline_rag,mistral:latest,rag,759,Ealy,Ealy,True,3290.332,2026-01-23T09:45:39.946426
+mistral:latest_local_baseline_rag,mistral:latest,rag,760,The ball was recovered at the 50-yard line.,50-yard line.,True,4040.5490000000004,2026-01-23T09:45:43.986990
+mistral:latest_local_baseline_rag,mistral:latest,rag,761,The next three drives resulted in punts.,punts.,True,2694.7290000000003,2026-01-23T09:45:46.681803
+mistral:latest_local_baseline_rag,mistral:latest,rag,762,Ealy,Ealy,True,3667.535,2026-01-23T09:45:50.349357
+mistral:latest_local_baseline_rag,mistral:latest,rag,763,41 yards,50-yard line.,False,3360.6530000000002,2026-01-23T09:45:53.710020
+mistral:latest_local_baseline_rag,mistral:latest,rag,764,39 yards (16 + 12),39-yard,False,5458.746999999999,2026-01-23T09:45:59.168778
+mistral:latest_local_baseline_rag,mistral:latest,rag,765,3,three,False,2902.222,2026-01-23T09:46:02.071029
+mistral:latest_local_baseline_rag,mistral:latest,rag,766,Carolina began with the ball on their own 24-yard line.,24,True,4199.290999999999,2026-01-23T09:46:06.270333
+mistral:latest_local_baseline_rag,mistral:latest,rag,767,Cam Newton,Newton,True,2947.9030000000002,2026-01-23T09:46:09.218249
+mistral:latest_local_baseline_rag,mistral:latest,rag,768,"No Panther defender was called for holding on third down, according to the provided context.",Josh Norman,False,4062.317,2026-01-23T09:46:13.280614
+mistral:latest_local_baseline_rag,mistral:latest,rag,769,Anderson,Anderson,True,3034.662,2026-01-23T09:46:16.315287
+mistral:latest_local_baseline_rag,mistral:latest,rag,770,Bennie Fowler,Bennie Fowler,True,4644.701,2026-01-23T09:46:20.959999
+mistral:latest_local_baseline_rag,mistral:latest,rag,771,Miller,Miller,True,2575.122,2026-01-23T09:46:23.535164
+mistral:latest_local_baseline_rag,mistral:latest,rag,772,Ward,wards,True,3313.92,2026-01-23T09:46:26.849101
+mistral:latest_local_baseline_rag,mistral:latest,rag,773,Cam Newton,Newton,True,3673.197,2026-01-23T09:46:30.522311
+mistral:latest_local_baseline_rag,mistral:latest,rag,774,Josh Norman,Josh Norman,True,2794.824,2026-01-23T09:46:33.317176
+mistral:latest_local_baseline_rag,mistral:latest,rag,775,The game had 1:43 minutes left when Denver took the score to 24-10.,3:08,False,6118.161,2026-01-23T09:46:39.435357
+mistral:latest_local_baseline_rag,mistral:latest,rag,776,4:51,4:51,True,3854.3940000000002,2026-01-23T09:46:43.289761
+mistral:latest_local_baseline_rag,mistral:latest,rag,777,Ward,Miller,False,3455.0860000000002,2026-01-23T09:46:46.744856
+mistral:latest_local_baseline_rag,mistral:latest,rag,778,Ward (likely the same last name as Newton),wards,False,7439.006,2026-01-23T09:46:54.183911
+mistral:latest_local_baseline_rag,mistral:latest,rag,779,3 plays,three,False,3776.754,2026-01-23T09:46:57.960701
+mistral:latest_local_baseline_rag,mistral:latest,rag,780,Anderson,Anderson,True,3206.627,2026-01-23T09:47:01.167344
+mistral:latest_local_baseline_rag,mistral:latest,rag,781,1½,five,False,6725.155,2026-01-23T09:47:07.892516
+mistral:latest_local_baseline_rag,mistral:latest,rag,782,0 touchdowns,zero,False,2922.2419999999997,2026-01-23T09:47:10.814792
+mistral:latest_local_baseline_rag,mistral:latest,rag,783,4 field goals,four,False,5045.246999999999,2026-01-23T09:47:15.860050
+mistral:latest_local_baseline_rag,mistral:latest,rag,784,Thomas Davis,Thomas Davis,True,3247.783,2026-01-23T09:47:19.107847
+mistral:latest_local_baseline_rag,mistral:latest,rag,785,1,one,False,3481.215,2026-01-23T09:47:22.589106
+mistral:latest_local_baseline_rag,mistral:latest,rag,786,One interception,one,True,3808.2250000000004,2026-01-23T09:47:26.397386
+mistral:latest_local_baseline_rag,mistral:latest,rag,787,0 touchdowns,zero,False,2286.558,2026-01-23T09:47:28.684003
+mistral:latest_local_baseline_rag,mistral:latest,rag,788,Anderson,Anderson,True,3440.268,2026-01-23T09:47:32.124293
+mistral:latest_local_baseline_rag,mistral:latest,rag,789,Sanders,Sanders,True,2497.489,2026-01-23T09:47:34.622799
+mistral:latest_local_baseline_rag,mistral:latest,rag,790,Thomas Davis,Thomas Davis,True,3596.48,2026-01-23T09:47:38.219288
+mistral:latest_local_baseline_rag,mistral:latest,rag,791,Sanders,Sanders,True,3917.561,2026-01-23T09:47:42.136866
+mistral:latest_local_baseline_rag,mistral:latest,rag,792,Anderson,Anderson,True,4388.528,2026-01-23T09:47:46.525428
+mistral:latest_local_baseline_rag,mistral:latest,rag,793,4,all four,False,5799.283,2026-01-23T09:47:52.324760
+mistral:latest_local_baseline_rag,mistral:latest,rag,794,1,one,False,4017.249,2026-01-23T09:47:56.342106
+mistral:latest_local_baseline_rag,mistral:latest,rag,795,4 total tackles,four,False,3460.5350000000003,2026-01-23T09:47:59.802692
+mistral:latest_local_baseline_rag,mistral:latest,rag,796,Denver gained 194 yards.,194,True,4271.806,2026-01-23T09:48:04.074580
+mistral:latest_local_baseline_rag,mistral:latest,rag,797,11,11,True,4072.634,2026-01-23T09:48:08.147269
+mistral:latest_local_baseline_rag,mistral:latest,rag,798,Baltimore Ravens,Baltimore Ravens,True,3060.597,2026-01-23T09:48:11.207893
+mistral:latest_local_baseline_rag,mistral:latest,rag,799,Jordan Norwood,Jordan Norwood,True,3901.9,2026-01-23T09:48:15.109819
+mistral:latest_local_baseline_rag,mistral:latest,rag,800,Manning,Manning,True,4856.795,2026-01-23T09:48:19.966663
+mistral:latest_local_baseline_rag,mistral:latest,rag,801,194 yards,194,True,3353.191,2026-01-23T09:48:23.319892
+mistral:latest_local_baseline_rag,mistral:latest,rag,802,11,11,True,2896.174,2026-01-23T09:48:26.216115
+mistral:latest_local_baseline_rag,mistral:latest,rag,803,Chicago Bears,Chicago Bears,True,2535.173,2026-01-23T09:48:28.751321
+mistral:latest_local_baseline_rag,mistral:latest,rag,804,Denver Broncos,Broncos,True,3643.2250000000004,2026-01-23T09:48:32.394568
+mistral:latest_local_baseline_rag,mistral:latest,rag,805,The Panthers had 21 first downs in Super Bowl 50.,21,True,5081.473,2026-01-23T09:48:37.476087
+mistral:latest_local_baseline_rag,mistral:latest,rag,806,11,11,True,3569.4210000000003,2026-01-23T09:48:41.045550
+mistral:latest_local_baseline_rag,mistral:latest,rag,807,Denver,The Broncos,False,3059.837,2026-01-23T09:48:44.105434
+mistral:latest_local_baseline_rag,mistral:latest,rag,808,Chicago Bears,Chicago Bears,True,2437.367,2026-01-23T09:48:46.542831
+mistral:latest_local_baseline_rag,mistral:latest,rag,809,1,two,False,3090.525,2026-01-23T09:48:49.633365
+mistral:latest_local_baseline_rag,mistral:latest,rag,810,Nobel Prize,Nobel Prize,True,4232.408,2026-01-23T09:48:53.865789
+mistral:latest_local_baseline_rag,mistral:latest,rag,811,1745,1745,True,3167.9900000000002,2026-01-23T09:48:57.033812
+mistral:latest_local_baseline_rag,mistral:latest,rag,812,Maria Skłodowska-Curie,Maria Skłodowska-Curie,True,3613.55,2026-01-23T09:49:00.647392
+mistral:latest_local_baseline_rag,mistral:latest,rag,813,Frédéric Chopin was a famous Polish musician who lived in Warsaw.,Famous musicians,False,4251.17,2026-01-23T09:49:04.898640
+mistral:latest_local_baseline_rag,mistral:latest,rag,814,Chopin was seven months old when he moved to Warsaw.,seven months old,True,4800.688,2026-01-23T09:49:09.699343
+mistral:latest_local_baseline_rag,mistral:latest,rag,815,Over 100 species of trees,100,True,4263.897,2026-01-23T09:49:13.963270
+mistral:latest_local_baseline_rag,mistral:latest,rag,816,Krasiński Palace Garden,Krasiński Palace Garden,True,4332.398999999999,2026-01-23T09:49:18.295693
+mistral:latest_local_baseline_rag,mistral:latest,rag,817,Saxon Garden,The Saxon Garden,True,2008.934,2026-01-23T09:49:20.304641
+mistral:latest_local_baseline_rag,mistral:latest,rag,818,East end,east end,True,3594.808,2026-01-23T09:49:23.899480
+mistral:latest_local_baseline_rag,mistral:latest,rag,819,Łazienki Park,Łazienki,True,2861.972,2026-01-23T09:49:26.761479
+mistral:latest_local_baseline_rag,mistral:latest,rag,820,15 kilometers (9 miles),15 kilometres,False,3508.9640000000004,2026-01-23T09:49:30.270451
+mistral:latest_local_baseline_rag,mistral:latest,rag,821,"Otter, beaver, and hundreds of bird species","otter, beaver and hundreds of bird species",False,3752.767,2026-01-23T09:49:34.023232
+mistral:latest_local_baseline_rag,mistral:latest,rag,822,13,13,True,4012.811,2026-01-23T09:49:38.036068
+mistral:latest_local_baseline_rag,mistral:latest,rag,823,More than three,several,False,4119.669,2026-01-23T09:49:42.155768
+mistral:latest_local_baseline_rag,mistral:latest,rag,824,To clean them of plants and sediments.,to clean them,True,3156.1330000000003,2026-01-23T09:49:45.311921
+mistral:latest_local_baseline_rag,mistral:latest,rag,825,Warsaw was the most diverse city in Poland.,city,True,3955.408,2026-01-23T09:49:49.267356
+mistral:latest_local_baseline_rag,mistral:latest,rag,826,"833,500","833,500",True,4281.909,2026-01-23T09:49:53.549293
+mistral:latest_local_baseline_rag,mistral:latest,rag,827,34%,around 34%,True,4346.874,2026-01-23T09:49:57.896231
+mistral:latest_local_baseline_rag,mistral:latest,rag,828,Jews,Jewish,False,4470.823,2026-01-23T09:50:02.367108
+mistral:latest_local_baseline_rag,mistral:latest,rag,829,Internal migration and urbanization,migration and urbanisation,False,3086.275,2026-01-23T09:50:05.453415
+mistral:latest_local_baseline_rag,mistral:latest,rag,830,Warsaw University of Technology,Warsaw University of Technology,True,5877.626,2026-01-23T09:50:11.331055
+mistral:latest_local_baseline_rag,mistral:latest,rag,831,"2,000","2,000",True,2924.607,2026-01-23T09:50:14.255689
+mistral:latest_local_baseline_rag,mistral:latest,rag,832,Medical University of Warsaw,Medical University of Warsaw,True,3343.699,2026-01-23T09:50:17.599411
+mistral:latest_local_baseline_rag,mistral:latest,rag,833,1816,1816,True,2869.453,2026-01-23T09:50:20.468883
+mistral:latest_local_baseline_rag,mistral:latest,rag,834,Fryderyk Chopin University of Music is one of the largest music schools in Europe.,Fryderyk Chopin University of Music,True,3284.154,2026-01-23T09:50:23.753052
+mistral:latest_local_baseline_rag,mistral:latest,rag,835,1816,1816,True,3371.174,2026-01-23T09:50:27.124274
+mistral:latest_local_baseline_rag,mistral:latest,rag,836,"2,000,000+",over two million,False,2673.5,2026-01-23T09:50:29.797787
+mistral:latest_local_baseline_rag,mistral:latest,rag,837,Architect,architects,True,2351.3630000000003,2026-01-23T09:50:32.149182
+mistral:latest_local_baseline_rag,mistral:latest,rag,838,Irena Bajerska,Irena Bajerska,True,2625.741,2026-01-23T09:50:34.774951
+mistral:latest_local_baseline_rag,mistral:latest,rag,839,"10,000 m2 (107,639.10 sq ft)","10,000 m2",True,3957.707,2026-01-23T09:50:38.732680
+mistral:latest_local_baseline_rag,mistral:latest,rag,840,Infrastructure,infrastructure,True,3370.616,2026-01-23T09:50:42.103313
+mistral:latest_local_baseline_rag,mistral:latest,rag,841,The initial Three-Year Plan,Three-Year Plan,True,2939.152,2026-01-23T09:50:45.042481
+mistral:latest_local_baseline_rag,mistral:latest,rag,842,"Economic growth, foreign investment, and EU funding have led to improvements in Warsaw's infrastructure, particularly its metro, roads, sidewalks, health care facilities, and sanitation facilities.",solid economic growth,False,4105.975,2026-01-23T09:50:49.148474
+mistral:latest_local_baseline_rag,mistral:latest,rag,843,Warsaw's sidewalks and sanitation facilities have improved markedly.,improved markedly,True,4399.892000000001,2026-01-23T09:50:53.548421
+mistral:latest_local_baseline_rag,mistral:latest,rag,844,"The best medical facilities in East-Central Europe are located in Warsaw, Poland, specifically at the Children's Memorial Health Institute (CMHI) and the Maria Skłodowska-Curie Institute of Oncology.",Warsaw,True,6268.27,2026-01-23T09:50:59.816745
+mistral:latest_local_baseline_rag,mistral:latest,rag,845,Children's Memorial Health Institute (CMHI),Children's Memorial Health Institute,True,2811.823,2026-01-23T09:51:02.628596
+mistral:latest_local_baseline_rag,mistral:latest,rag,846,Maria Skłodowska-Curie Institute of Oncology,Maria Skłodowska-Curie Institute of Oncology,True,3804.305,2026-01-23T09:51:06.432926
+mistral:latest_local_baseline_rag,mistral:latest,rag,847,"The exact number of beds at the Maria Sklodowska-Curie Institute of Oncology is not provided in the context, but it's located in a 10-floor building, implying there are potentially several hundred beds.",700,False,7978.982,2026-01-23T09:51:14.411962
+mistral:latest_local_baseline_rag,mistral:latest,rag,848,"The infrastructure of the medical facilities in Warsaw, specifically the Maria Skłodowska-Curie Institute of Oncology, has significantly expanded and modernized over the past years.",developed,False,5028.65,2026-01-23T09:51:19.440652
+mistral:latest_local_baseline_rag,mistral:latest,rag,849,Teatr Wielki (Great Theatre) is a musical venue.,musical,True,4505.982999999999,2026-01-23T09:51:23.946676
+mistral:latest_local_baseline_rag,mistral:latest,rag,850,Events and Festivals,events and festivals,True,3512.1639999999998,2026-01-23T09:51:27.458877
+mistral:latest_local_baseline_rag,mistral:latest,rag,851,"The Congress Hall is located in Warsaw, Poland.",in the Palace of Culture and Science,False,3064.458,2026-01-23T09:51:30.523354
+mistral:latest_local_baseline_rag,mistral:latest,rag,852,Warsaw,Warsaw,True,3797.306,2026-01-23T09:51:34.320680
+mistral:latest_local_baseline_rag,mistral:latest,rag,853,One of the many events hosted by Warsaw.,festivals,False,4581.685,2026-01-23T09:51:38.902394
+mistral:latest_local_baseline_rag,mistral:latest,rag,854,Ogród Saski is called Ogród Saski in Polish as well.,Ogród Saski,True,3974.154,2026-01-23T09:51:42.876598
+mistral:latest_local_baseline_rag,mistral:latest,rag,855,Ogród Saski (the Saxon Garden),Saxon Garden,True,3073.0719999999997,2026-01-23T09:51:45.949694
+mistral:latest_local_baseline_rag,mistral:latest,rag,856,The Summer Theatre was in operation for 69 years (from 1870 to 1939).,1870 to 1939,True,4284.753000000001,2026-01-23T09:51:50.234481
+mistral:latest_local_baseline_rag,mistral:latest,rag,857,Momus,Momus,True,3617.939,2026-01-23T09:51:53.852450
+mistral:latest_local_baseline_rag,mistral:latest,rag,858,Wojciech Bogusławski Theatre,Wojciech Bogusławski Theatre,True,3377.4289999999996,2026-01-23T09:51:57.229894
+mistral:latest_local_baseline_rag,mistral:latest,rag,859,Wianki,Wianki,True,3927.608,2026-01-23T09:52:01.157516
+mistral:latest_local_baseline_rag,mistral:latest,rag,860,Thousands of people,thousands,True,3315.166,2026-01-23T09:52:04.472715
+mistral:latest_local_baseline_rag,mistral:latest,rag,861,Annually,Midsummer’s Night,False,2727.013,2026-01-23T09:52:07.199738
+mistral:latest_local_baseline_rag,mistral:latest,rag,862,Maidens will be able to predict when they will get married by floating their wreaths down the Vistula.,when they would be married,False,4281.005,2026-01-23T09:52:11.480762
+mistral:latest_local_baseline_rag,mistral:latest,rag,863,Fern Flower,the fern,False,3796.583,2026-01-23T09:52:15.277366
+mistral:latest_local_baseline_rag,mistral:latest,rag,864,art posters,art posters,True,4228.608,2026-01-23T09:52:19.506031
+mistral:latest_local_baseline_rag,mistral:latest,rag,865,60 museums,60,True,2270.737,2026-01-23T09:52:21.776857
+mistral:latest_local_baseline_rag,mistral:latest,rag,866,The National Museum in Warsaw is one of the most prestigious.,prestigious,True,4439.664,2026-01-23T09:52:26.216550
+mistral:latest_local_baseline_rag,mistral:latest,rag,867,Paintings from Adolf Hitler's private collection,some paintings,False,3665.9739999999997,2026-01-23T09:52:29.882606
+mistral:latest_local_baseline_rag,mistral:latest,rag,868,history of arms,arms,True,2878.355,2026-01-23T09:52:32.760985
+mistral:latest_local_baseline_rag,mistral:latest,rag,869,Warsaw Uprising Museum,Warsaw Uprising Museum,True,3665.9,2026-01-23T09:52:36.426904
+mistral:latest_local_baseline_rag,mistral:latest,rag,870,Katyń Museum,Katyń,True,4693.271000000001,2026-01-23T09:52:41.120277
+mistral:latest_local_baseline_rag,mistral:latest,rag,871,The Warsaw Fotoplastikon is a stereoscopic theatre.,stereoscopic,True,4609.054,2026-01-23T09:52:45.729422
+mistral:latest_local_baseline_rag,mistral:latest,rag,872,Museum of Independence,Museum of Independence,True,3252.578,2026-01-23T09:52:48.982023
+mistral:latest_local_baseline_rag,mistral:latest,rag,873,60 rooms,60,True,2459.767,2026-01-23T09:52:51.441823
+mistral:latest_local_baseline_rag,mistral:latest,rag,874,Royal Ujazdów Castle,Royal Ujazdów Castle,True,3680.35,2026-01-23T09:52:55.122181
+mistral:latest_local_baseline_rag,mistral:latest,rag,875,500,about 500,True,2828.6220000000003,2026-01-23T09:52:57.950839
+mistral:latest_local_baseline_rag,mistral:latest,rag,876,Zachęta National Gallery of Art,Zachęta National Gallery of Art,True,3656.235,2026-01-23T09:53:01.607290
+mistral:latest_local_baseline_rag,mistral:latest,rag,877,Modern art by Polish and international artists,Polish and international artists,True,3210.711,2026-01-23T09:53:04.818028
+mistral:latest_local_baseline_rag,mistral:latest,rag,878,Last weekend of September,last weekend of September,True,2571.138,2026-01-23T09:53:07.389178
+mistral:latest_local_baseline_rag,mistral:latest,rag,879,Polonia Warsaw,Polonia Warsaw,True,3946.704,2026-01-23T09:53:11.335897
+mistral:latest_local_baseline_rag,mistral:latest,rag,880,1946,1946,True,3705.006,2026-01-23T09:53:15.040919
+mistral:latest_local_baseline_rag,mistral:latest,rag,881,2 times,twice,False,3020.6059999999998,2026-01-23T09:53:18.061532
+mistral:latest_local_baseline_rag,mistral:latest,rag,882,Konwiktorska Street,at Konwiktorska Street,True,2339.426,2026-01-23T09:53:20.400968
+mistral:latest_local_baseline_rag,mistral:latest,rag,883,Disastrous financial situation,disastrous financial situation,True,2669.217,2026-01-23T09:53:23.070200
+mistral:latest_local_baseline_rag,mistral:latest,rag,884,Syrenka,syrenka,True,4492.244000000001,2026-01-23T09:53:27.562467
+mistral:latest_local_baseline_rag,mistral:latest,rag,885,The mermaid (syrenka),The mermaid,True,4363.802,2026-01-23T09:53:31.926307
+mistral:latest_local_baseline_rag,mistral:latest,rag,886,"The imagery of the mermaid has been used by Warsaw since at least the mid-14th century, as per the context provided.",since at least the mid-14th century,True,5863.62,2026-01-23T09:53:37.790012
+mistral:latest_local_baseline_rag,mistral:latest,rag,887,1390,1390,True,2957.5260000000003,2026-01-23T09:53:40.747639
+mistral:latest_local_baseline_rag,mistral:latest,rag,888,A sword,a sword,True,3354.837,2026-01-23T09:53:44.102537
+mistral:latest_local_baseline_rag,mistral:latest,rag,889,Artur Oppman gave the world the legend of the mermaid who reached the mouth of the Vistula River and plunged into its waters.,legend,True,5147.436,2026-01-23T09:53:49.250036
+mistral:latest_local_baseline_rag,mistral:latest,rag,890,The two mermaids set out on a journey through the oceans and seas.,depths of the oceans and seas,False,4024.9040000000005,2026-01-23T09:53:53.274973
+mistral:latest_local_baseline_rag,mistral:latest,rag,891,The mermaid stayed at the village of Warszowa.,coast of Denmark,False,3576.085,2026-01-23T09:53:56.851078
+mistral:latest_local_baseline_rag,mistral:latest,rag,892,Warszowa,Warszowa,True,2639.531,2026-01-23T09:53:59.490634
+mistral:latest_local_baseline_rag,mistral:latest,rag,893,The greedy merchant captured the mermaid.,captured,True,2639.446,2026-01-23T09:54:02.130112
+mistral:latest_local_baseline_rag,mistral:latest,rag,894,Warsaw,Warsaw,True,2826.951,2026-01-23T09:54:04.957096
+mistral:latest_local_baseline_rag,mistral:latest,rag,895,1916,1916,True,2566.297,2026-01-23T09:54:07.523425
+mistral:latest_local_baseline_rag,mistral:latest,rag,896,Art Deco style in painting,the Art Deco style,False,3498.893,2026-01-23T09:54:11.022341
+mistral:latest_local_baseline_rag,mistral:latest,rag,897,Israeli Poet,poet,True,3165.711,2026-01-23T09:54:14.188076
+mistral:latest_local_baseline_rag,mistral:latest,rag,898,Isaac Bashevis Singer,Isaac Bashevis Singer,True,4033.848,2026-01-23T09:54:18.221936
+mistral:latest_local_baseline_rag,mistral:latest,rag,899,Economist Intelligence Unit,Economist Intelligence Unit,True,3797.859,2026-01-23T09:54:22.019810
+mistral:latest_local_baseline_rag,mistral:latest,rag,900,2012,2012,True,2683.275,2026-01-23T09:54:24.703099
+mistral:latest_local_baseline_rag,mistral:latest,rag,901,"Warsaw's economy is characterized by FMCG manufacturing, metal processing, steel and electronic manufacturing, food processing, research and development, BPO, ITO, the Polish media industry, and the Warsaw Stock Exchange.",wide variety of industries,False,5470.507,2026-01-23T09:54:30.173620
+mistral:latest_local_baseline_rag,mistral:latest,rag,902,Warsaw Stock Exchange,Stock,True,2359.499,2026-01-23T09:54:32.533136
+mistral:latest_local_baseline_rag,mistral:latest,rag,903,Frontex,Frontex,True,2330.107,2026-01-23T09:54:34.863251
+mistral:latest_local_baseline_rag,mistral:latest,rag,904,1313,1313,True,4510.299,2026-01-23T09:54:39.373565
+mistral:latest_local_baseline_rag,mistral:latest,rag,905,Warsaw,Kraków,False,4732.938,2026-01-23T09:54:44.106519
+mistral:latest_local_baseline_rag,mistral:latest,rag,906,1596,1596,True,2980.491,2026-01-23T09:54:47.087035
+mistral:latest_local_baseline_rag,mistral:latest,rag,907,King Sigismund III Vasa,King Sigismund III Vasa,True,3822.488,2026-01-23T09:54:50.909564
+mistral:latest_local_baseline_rag,mistral:latest,rag,908,"The city required painstaking rebuilding after the extensive damage it suffered in World War II, which destroyed 85% of its buildings.","survived many wars, conflicts and invasions",False,4896.27,2026-01-23T09:54:55.805881
+mistral:latest_local_baseline_rag,mistral:latest,rag,909,Roman Catholic Archdiocese (left bank of the Vistula),Roman Catholic,True,5243.101000000001,2026-01-23T09:55:01.048998
+mistral:latest_local_baseline_rag,mistral:latest,rag,910,Polish Academy of Sciences,Polish Academy of Sciences,True,2849.003,2026-01-23T09:55:03.898019
+mistral:latest_local_baseline_rag,mistral:latest,rag,911,Warsaw's Old Town was listed as a UNESCO World Heritage Site in 1980.,a UNESCO World Heritage Site,True,3705.018,2026-01-23T09:55:07.603132
+mistral:latest_local_baseline_rag,mistral:latest,rag,912,King Sigismund's Column is an example of an architectural attraction in Warsaw.,architectural,True,3637.364,2026-01-23T09:55:11.240686
+mistral:latest_local_baseline_rag,mistral:latest,rag,913,Luxurious parks and royal gardens,luxurious parks and royal gardens,True,3055.814,2026-01-23T09:55:14.296534
+mistral:latest_local_baseline_rag,mistral:latest,rag,914,Warszawa,Warszawa,True,4184.601,2026-01-23T09:55:18.481217
+mistral:latest_local_baseline_rag,mistral:latest,rag,915,"Warszawa means ""belonging to Warsz"" in Polish.",belonging to Warsz,True,3885.013,2026-01-23T09:55:22.366273
+mistral:latest_local_baseline_rag,mistral:latest,rag,916,Warsz was a 12th/13th-century nobleman.,12th/13th-century nobleman,True,3347.984,2026-01-23T09:55:25.714301
+mistral:latest_local_baseline_rag,mistral:latest,rag,917,The context does not provide information on what Warsz owned.,a village,False,3842.6800000000003,2026-01-23T09:55:29.556992
+mistral:latest_local_baseline_rag,mistral:latest,rag,918,miasto stołeczne Warszawa,miasto stołeczne Warszawa,True,3651.224,2026-01-23T09:55:33.208248
+mistral:latest_local_baseline_rag,mistral:latest,rag,919,Jazdów,Jazdów,True,4685.3730000000005,2026-01-23T09:55:37.893640
+mistral:latest_local_baseline_rag,mistral:latest,rag,920,Bolesław II of Masovia was the prince who founded Warsaw.,The Prince of Płock,False,3159.468,2026-01-23T09:55:41.053122
+mistral:latest_local_baseline_rag,mistral:latest,rag,921,1300,1300,True,3221.6040000000003,2026-01-23T09:55:44.274744
+mistral:latest_local_baseline_rag,mistral:latest,rag,922,1413,1413,True,4927.501,2026-01-23T09:55:49.202276
+mistral:latest_local_baseline_rag,mistral:latest,rag,923,1526,1526,True,3382.638,2026-01-23T09:55:52.584934
+mistral:latest_local_baseline_rag,mistral:latest,rag,924,Warsaw served as the seat for the General Sejm in 1529.,General Sejm,True,4805.517,2026-01-23T09:55:57.390469
+mistral:latest_local_baseline_rag,mistral:latest,rag,925,1569,1569,True,3596.665,2026-01-23T09:56:00.987166
+mistral:latest_local_baseline_rag,mistral:latest,rag,926,Religious Freedom,religious freedom,True,2475.055,2026-01-23T09:56:03.462258
+mistral:latest_local_baseline_rag,mistral:latest,rag,927,King Sigismund III Vasa moved his court to Warsaw,Due to its central location,False,3934.069,2026-01-23T09:56:07.396350
+mistral:latest_local_baseline_rag,mistral:latest,rag,928,1596,1596,True,2904.135,2026-01-23T09:56:10.300533
+mistral:latest_local_baseline_rag,mistral:latest,rag,929,Warsaw was the capital of the Polish-Lithuanian Commonwealth for approximately 200 years (from its establishment to 1796).,until 1796,False,5900.594,2026-01-23T09:56:16.201165
+mistral:latest_local_baseline_rag,mistral:latest,rag,930,Kingdom of Prussia,Prussia,True,2537.701,2026-01-23T09:56:18.738880
+mistral:latest_local_baseline_rag,mistral:latest,rag,931,Napoleon's army,Napoleon's,True,2401.695,2026-01-23T09:56:21.140589
+mistral:latest_local_baseline_rag,mistral:latest,rag,932,1815,1815,True,2376.747,2026-01-23T09:56:23.517373
+mistral:latest_local_baseline_rag,mistral:latest,rag,933,1816,1816,True,2149.223,2026-01-23T09:56:25.666606
+mistral:latest_local_baseline_rag,mistral:latest,rag,934,"The occupation of Warsaw by Germany lasted for approximately three years, eight months, and twenty-five days.",from 4 August 1915 until November 1918,False,5767.776,2026-01-23T09:56:31.434424
+mistral:latest_local_baseline_rag,mistral:latest,rag,935,"Germany was required to withdraw from areas controlled by Russia in 1914, as per Article 12 of the Allied Armistice terms.",areas controlled by Russia in 1914,True,4251.162,2026-01-23T09:56:35.685793
+mistral:latest_local_baseline_rag,mistral:latest,rag,936,Piłsudski,underground leader Piłsudski,True,3356.568,2026-01-23T09:56:39.042403
+mistral:latest_local_baseline_rag,mistral:latest,rag,937,1920,1920,True,3299.351,2026-01-23T09:56:42.341783
+mistral:latest_local_baseline_rag,mistral:latest,rag,938,Red Army,the Red Army,True,3478.492,2026-01-23T09:56:45.820293
+mistral:latest_local_baseline_rag,mistral:latest,rag,939,1 September 1939,September 1939,True,3722.494,2026-01-23T09:56:49.542810
+mistral:latest_local_baseline_rag,mistral:latest,rag,940,Warsaw was under the administration of the General Government.,a German Nazi colonial administration,False,3524.569,2026-01-23T09:56:53.067401
+mistral:latest_local_baseline_rag,mistral:latest,rag,941,30%,some 30% of the city,True,3797.257,2026-01-23T09:56:56.864691
+mistral:latest_local_baseline_rag,mistral:latest,rag,942,19 April 1943,April 1943,True,4103.938999999999,2026-01-23T09:57:00.968643
+mistral:latest_local_baseline_rag,mistral:latest,rag,943,The fighters of the Warsaw Ghetto Uprising were able to hold out for approximately one month.,almost a month,False,4576.039,2026-01-23T09:57:05.544722
+mistral:latest_local_baseline_rag,mistral:latest,rag,944,Red Army,the Red Army,True,4504.330000000001,2026-01-23T09:57:10.049094
+mistral:latest_local_baseline_rag,mistral:latest,rag,945,To prevent Soviet control over Warsaw.,Stalin was hostile to the idea of an independent Poland,False,4570.01,2026-01-23T09:57:14.619147
+mistral:latest_local_baseline_rag,mistral:latest,rag,946,1 August 1944,August 1944,True,2459.646,2026-01-23T09:57:17.078824
+mistral:latest_local_baseline_rag,mistral:latest,rag,947,63 days,63 days,True,2970.7780000000002,2026-01-23T09:57:20.049627
+mistral:latest_local_baseline_rag,mistral:latest,rag,948,"Between 150,000 and 200,000 Polish civilians died during the Warsaw Uprising.","between 150,000 and 200,000",True,4361.3189999999995,2026-01-23T09:57:24.410988
+mistral:latest_local_baseline_rag,mistral:latest,rag,949,"""Bricks for Warsaw""","""Bricks for Warsaw""",True,4042.1699999999996,2026-01-23T09:57:28.453183
+mistral:latest_local_baseline_rag,mistral:latest,rag,950,Large prefabricated housing projects,prefabricated,True,3340.606,2026-01-23T09:57:31.793811
+mistral:latest_local_baseline_rag,mistral:latest,rag,951,The structures built by the Soviets in Warsaw after World War II were typical of an Eastern Bloc city.,an Eastern Bloc city,True,5330.854,2026-01-23T09:57:37.124692
+mistral:latest_local_baseline_rag,mistral:latest,rag,952,Palace of Culture and Science,Palace of Culture and Science,True,2688.737,2026-01-23T09:57:39.813440
+mistral:latest_local_baseline_rag,mistral:latest,rag,953,Warsaw's Old Town was inscribed onto UNESCO's World Heritage list in 1980.,UNESCO's World Heritage list,True,4308.848,2026-01-23T09:57:44.122319
+mistral:latest_local_baseline_rag,mistral:latest,rag,954,John Paul II,John Paul II,True,4063.624,2026-01-23T09:57:48.185975
+mistral:latest_local_baseline_rag,mistral:latest,rag,955,The visits encouraged the growth of the solidarity movement and anti-communist sentiments.,growing anti-communist fervor,False,4276.262,2026-01-23T09:57:52.462264
+mistral:latest_local_baseline_rag,mistral:latest,rag,956,John Paul II had been the pope for approximately one year in 1979.,less than a year,False,4952.424,2026-01-23T09:57:57.414732
+mistral:latest_local_baseline_rag,mistral:latest,rag,957,"Victory Square, Warsaw",Victory Square,True,2719.7149999999997,2026-01-23T09:58:00.134488
+mistral:latest_local_baseline_rag,mistral:latest,rag,958,The Polish citizens understood John Paul II's words to be an incentive for democratic changes.,incentive for the democratic changes,False,6046.187,2026-01-23T09:58:06.180694
+mistral:latest_local_baseline_rag,mistral:latest,rag,959,300 kilometers,about 300,False,4367.99,2026-01-23T09:58:10.548711
+mistral:latest_local_baseline_rag,mistral:latest,rag,960,Warsaw is approximately 324.8 miles east of Berlin.,325,False,4827.541,2026-01-23T09:58:15.376266
+mistral:latest_local_baseline_rag,mistral:latest,rag,961,Vistula River,Vistula River,True,2484.1380000000004,2026-01-23T09:58:17.860414
+mistral:latest_local_baseline_rag,mistral:latest,rag,962,138 metres (452.8 ft),452.8 ft,True,3989.509,2026-01-23T09:58:21.849952
+mistral:latest_local_baseline_rag,mistral:latest,rag,963,"At the right bank of the Vistula River, by the eastern border of Warsaw",at the right bank of the Vistula,True,3836.801,2026-01-23T09:58:25.686799
+mistral:latest_local_baseline_rag,mistral:latest,rag,964,2,two,False,3579.724,2026-01-23T09:58:29.266562
+mistral:latest_local_baseline_rag,mistral:latest,rag,965,Vistula Valley,Vistula Valley,True,2968.676,2026-01-23T09:58:32.235271
+mistral:latest_local_baseline_rag,mistral:latest,rag,966,The left part of Warsaw is on the plain moraine plateau.,moraine,True,4336.346,2026-01-23T09:58:36.571642
+mistral:latest_local_baseline_rag,mistral:latest,rag,967,Vistula River,Vistula River,True,3290.8360000000002,2026-01-23T09:58:39.862513
+mistral:latest_local_baseline_rag,mistral:latest,rag,968,Warsaw Escarpment,Warsaw Escarpment,True,2922.528,2026-01-23T09:58:42.785052
+mistral:latest_local_baseline_rag,mistral:latest,rag,969,plain moraine plateau,moraine,True,3770.9640000000004,2026-01-23T09:58:46.556039
+mistral:latest_local_baseline_rag,mistral:latest,rag,970,"The highest level of the Vistula plateau contains aeolian sand with dunes, peat swamps, small ponds, and pine forests.",former flooded terraces,False,5054.518,2026-01-23T09:58:51.610598
+mistral:latest_local_baseline_rag,mistral:latest,rag,971,Visible valleys and ground depressions with water systems,valleys,True,4090.568,2026-01-23T09:58:55.701178
+mistral:latest_local_baseline_rag,mistral:latest,rag,972,Aeolian sand with a number of dunes can be found on the highest terrace of the right side of Warsaw.,plain Vistula terraces,False,5427.003,2026-01-23T09:59:01.128193
+mistral:latest_local_baseline_rag,mistral:latest,rag,973,Pine forest,pine,True,3911.608,2026-01-23T09:59:05.039938
+mistral:latest_local_baseline_rag,mistral:latest,rag,974,Warsaw's mixture of architectural styles reflects its turbulent history.,turbulent history of the city,False,5668.924,2026-01-23T09:59:10.708886
+mistral:latest_local_baseline_rag,mistral:latest,rag,975,During the Second World War.,During the Second World War,True,2464.884,2026-01-23T09:59:13.173802
+mistral:latest_local_baseline_rag,mistral:latest,rag,976,Post-Liberation,After liberation,False,3651.6510000000003,2026-01-23T09:59:16.825467
+mistral:latest_local_baseline_rag,mistral:latest,rag,977,Leopold Kronenberg Palace,Leopold Kronenberg Palace,True,3802.6420000000003,2026-01-23T09:59:20.628125
+mistral:latest_local_baseline_rag,mistral:latest,rag,978,The mass residential blocks were designed in a style typical of Eastern bloc countries.,typical of Eastern bloc countries,True,4987.915,2026-01-23T09:59:25.616066
+mistral:latest_local_baseline_rag,mistral:latest,rag,979,Gothic,Gothic,True,6247.494,2026-01-23T09:59:31.863593
+mistral:latest_local_baseline_rag,mistral:latest,rag,980,14th century,14th century,True,3361.054,2026-01-23T09:59:35.224690
+mistral:latest_local_baseline_rag,mistral:latest,rag,981,Masovian gothic style,Masovian gothic,True,2834.571,2026-01-23T09:59:38.059274
+mistral:latest_local_baseline_rag,mistral:latest,rag,982,Renaissance,Renaissance,True,3167.733,2026-01-23T09:59:41.227036
+mistral:latest_local_baseline_rag,mistral:latest,rag,983,mannerist architecture,mannerist architecture,True,3009.755,2026-01-23T09:59:44.236845
+mistral:latest_local_baseline_rag,mistral:latest,rag,984,Building activity took place in the later decades of the 17th century.,17th century,True,5470.742,2026-01-23T09:59:49.707596
+mistral:latest_local_baseline_rag,mistral:latest,rag,985,1688-1692,1688–1692,False,3699.897,2026-01-23T09:59:53.407507
+mistral:latest_local_baseline_rag,mistral:latest,rag,986,Rococo,rococo,True,3664.863,2026-01-23T09:59:57.072390
+mistral:latest_local_baseline_rag,mistral:latest,rag,987,Neoclassical Architecture,neoclassical architecture,True,3313.602,2026-01-23T10:00:00.386008
+mistral:latest_local_baseline_rag,mistral:latest,rag,988,1775-1795,1775–1795,False,3188.725,2026-01-23T10:00:03.574760
+mistral:latest_local_baseline_rag,mistral:latest,rag,989,Bourgeois Architecture,bourgeois,True,5493.572,2026-01-23T10:00:09.068397
+mistral:latest_local_baseline_rag,mistral:latest,rag,990,The bourgeois architecture examples are not visible today due to the post-war restoration policies of communist authorities.,not restored by the communist authorities,False,5484.153,2026-01-23T10:00:14.552664
+mistral:latest_local_baseline_rag,mistral:latest,rag,991,Beaux-Arts,socialist realism,False,4576.194,2026-01-23T10:00:19.128899
+mistral:latest_local_baseline_rag,mistral:latest,rag,992,Warsaw University of Technology building (1899–1902),Warsaw University of Technology building,True,4312.754,2026-01-23T10:00:23.441740
+mistral:latest_local_baseline_rag,mistral:latest,rag,993,The Saxon Palace and Brühl Palace were significant buildings in prewar Warsaw.,the most distinctive buildings,False,4076.1929999999998,2026-01-23T10:00:27.517970
+mistral:latest_local_baseline_rag,mistral:latest,rag,994,"Pawiak, the Warsaw Citadel, the statue of Little Insurgent, and the Warsaw Uprising Monument by Wincenty Kućma are all places that commemorate Warsaw's heroic history.",many places,False,7001.931,2026-01-23T10:00:34.519967
+mistral:latest_local_baseline_rag,mistral:latest,rag,995,Pawiak,Pawiak,True,3106.434,2026-01-23T10:00:37.626463
+mistral:latest_local_baseline_rag,mistral:latest,rag,996,Warsaw Citadel,The Warsaw Citadel,True,4078.039,2026-01-23T10:00:41.704539
+mistral:latest_local_baseline_rag,mistral:latest,rag,997,The statue of Little Insurgent commemorates children who served as messengers and frontline troops in the Warsaw Uprising.,children,True,5165.255,2026-01-23T10:00:46.869838
+mistral:latest_local_baseline_rag,mistral:latest,rag,998,Warsaw Uprising Monument by Wincenty Kućma,Warsaw Uprising Monument,True,3921.69,2026-01-23T10:00:50.791588
+mistral:latest_local_baseline_rag,mistral:latest,rag,999,Parks or Botanical Gardens,green,False,5292.053,2026-01-23T10:00:56.083671

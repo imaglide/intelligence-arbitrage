@@ -1,0 +1,1003 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,timestamp
+mistral:latest_local_baseline_qa,mistral:latest,qa,0,Yes,yes,True,7.877999999999999,2026-01-23T03:38:37.393077
+mistral:latest_local_baseline_qa,mistral:latest,qa,1,Marla Maples is an American actress and not a government official.,Chief of Protocol,False,5.632,2026-01-23T03:38:37.398729
+mistral:latest_local_baseline_qa,mistral:latest,qa,2,Mass Effect,Animorphs,False,7.438000000000001,2026-01-23T03:38:37.406189
+mistral:latest_local_baseline_qa,mistral:latest,qa,3,No,no,True,7.117,2026-01-23T03:38:37.413319
+mistral:latest_local_baseline_qa,mistral:latest,qa,4,New York City (unspecified location),"Greenwich Village, New York City",False,11.779,2026-01-23T03:38:37.425112
+mistral:latest_local_baseline_qa,mistral:latest,qa,5,Big Hit Entertainment,YG Entertainment,False,22896.39,2026-01-23T03:39:00.321531
+mistral:latest_local_baseline_qa,mistral:latest,qa,6,Alain Beltran (also known as Aladin),Eenasul Fateh,False,24807.597,2026-01-23T03:39:25.132132
+mistral:latest_local_baseline_qa,mistral:latest,qa,7,"6,500","3,677 seated",False,17546.606,2026-01-23T03:39:42.678841
+mistral:latest_local_baseline_qa,mistral:latest,qa,8,Annie Leibovitz,Terry Richardson,False,16561.413,2026-01-23T03:39:59.240311
+mistral:latest_local_baseline_qa,mistral:latest,qa,9,Yes,yes,True,18282.775999999998,2026-01-23T03:40:17.523158
+mistral:latest_local_baseline_qa,mistral:latest,qa,10,"""Crimson and Blue""",Kansas Song,False,13466.739,2026-01-23T03:40:30.989999
+mistral:latest_local_baseline_qa,mistral:latest,qa,11,Ivan Raimi,David Weissman,False,11374.67,2026-01-23T03:40:42.364708
+mistral:latest_local_baseline_qa,mistral:latest,qa,12,1993,1999,False,9823.222,2026-01-23T03:40:52.187953
+mistral:latest_local_baseline_qa,mistral:latest,qa,13,Yes,no,False,13124.322,2026-01-23T03:41:05.312317
+mistral:latest_local_baseline_qa,mistral:latest,qa,14,Alex Ferguson (1986-2013),from 1986 to 2013,False,12706.894999999999,2026-01-23T03:41:18.019296
+mistral:latest_local_baseline_qa,mistral:latest,qa,15,The population of the United States (where Brown State Fishing Lake is located) was approximately 328 million inhabitants as of 2019.,"9,984",False,16803.712,2026-01-23T03:41:34.823058
+mistral:latest_local_baseline_qa,mistral:latest,qa,16,Yankee Conference,the North Atlantic Conference,False,10509.351,2026-01-23T03:41:45.332476
+mistral:latest_local_baseline_qa,mistral:latest,qa,17,Yes,yes,True,7463.099999999999,2026-01-23T03:41:52.795620
+mistral:latest_local_baseline_qa,mistral:latest,qa,18,1977-1981,1969 until 1974,False,11716.824,2026-01-23T03:42:04.512491
+mistral:latest_local_baseline_qa,mistral:latest,qa,19,Robert Erskine Childers,Robert Erskine Childers DSC,False,12813.643,2026-01-23T03:42:17.326235
+mistral:latest_local_baseline_qa,mistral:latest,qa,20,Pedro Rodriguez,Pedro Rodríguez,False,15610.354,2026-01-23T03:42:32.936605
+mistral:latest_local_baseline_qa,mistral:latest,qa,21,Gerald (Tuke),Sonic,False,12106.023000000001,2026-01-23T03:42:45.042730
+mistral:latest_local_baseline_qa,mistral:latest,qa,22,Apple TV,keyboard function keys,False,11620.283000000001,2026-01-23T03:42:56.663032
+mistral:latest_local_baseline_qa,mistral:latest,qa,23,Badly Drawn Boy,Badly Drawn Boy,True,13671.527,2026-01-23T03:43:10.334589
+mistral:latest_local_baseline_qa,mistral:latest,qa,24,Peter Schmeichel,World's Best Goalkeeper,False,16209.423999999999,2026-01-23T03:43:26.544131
+mistral:latest_local_baseline_qa,mistral:latest,qa,25,Lee Hazlewood,Barton Lee Hazlewood,False,17131.156,2026-01-23T03:43:43.675307
+mistral:latest_local_baseline_qa,mistral:latest,qa,26,1838,1838,True,14398.587,2026-01-23T03:43:58.073935
+mistral:latest_local_baseline_qa,mistral:latest,qa,27,Yes,yes,True,14795.263,2026-01-23T03:44:12.869248
+mistral:latest_local_baseline_qa,mistral:latest,qa,28,Henry J. Kaiser,Henry J. Kaiser,True,18706.357,2026-01-23T03:44:31.575758
+mistral:latest_local_baseline_qa,mistral:latest,qa,29,The Classic Quest,Arena of Khazan,False,14138.626,2026-01-23T03:44:45.714878
+mistral:latest_local_baseline_qa,mistral:latest,qa,30,"October 26, 1990",2000,False,15387.017,2026-01-23T03:45:01.102011
+mistral:latest_local_baseline_qa,mistral:latest,qa,31,Japan,"Fujioka, Gunma",False,12731.817,2026-01-23T03:45:13.833858
+mistral:latest_local_baseline_qa,mistral:latest,qa,32,Charles Nungesser,Charles Eugène,False,18455.455,2026-01-23T03:45:32.289405
+mistral:latest_local_baseline_qa,mistral:latest,qa,33,Freakonomics,no,False,19452.516,2026-01-23T03:45:51.741983
+mistral:latest_local_baseline_qa,mistral:latest,qa,34,Screaming Trees,Letters to Cleo,False,13175.406,2026-01-23T03:46:04.917487
+mistral:latest_local_baseline_qa,mistral:latest,qa,35,The Russian Revolution of 1917,October 1922,False,14984.234,2026-01-23T03:46:19.901766
+mistral:latest_local_baseline_qa,mistral:latest,qa,36,Enrico Fermi worked in the United States since the late 1930s.,2000,False,21629.183999999997,2026-01-23T03:46:41.530976
+mistral:latest_local_baseline_qa,mistral:latest,qa,37,World War I,World War II,False,12267.791000000001,2026-01-23T03:46:53.798832
+mistral:latest_local_baseline_qa,mistral:latest,qa,38,Gerald R. Ford International Airport,no,False,9993.054,2026-01-23T03:47:03.791897
+mistral:latest_local_baseline_qa,mistral:latest,qa,39,"Pittsburgh, Pennsylvania",New York City,False,10327.78,2026-01-23T03:47:14.119717
+mistral:latest_local_baseline_qa,mistral:latest,qa,40,Manchester Terrier,Scotch Collie,False,17209.261000000002,2026-01-23T03:47:31.329025
+mistral:latest_local_baseline_qa,mistral:latest,qa,41,"ThoughtWorks (headquartered in Chicago, United States)",Mumbai,False,17580.22,2026-01-23T03:47:48.909264
+mistral:latest_local_baseline_qa,mistral:latest,qa,42,Akira Hiramoto (born in 1985),1962,False,17528.866,2026-01-23T03:48:06.438223
+mistral:latest_local_baseline_qa,mistral:latest,qa,43,The Battle of Adwa secured Ethiopia's independence from Italian colonial rule.,sovereignty,False,16826.443000000003,2026-01-23T03:48:23.264730
+mistral:latest_local_baseline_qa,mistral:latest,qa,44,Harry S. Truman,Nelson Rockefeller,False,15643.966,2026-01-23T03:48:38.908787
+mistral:latest_local_baseline_qa,mistral:latest,qa,45,Firth of Forth,Yellowcraig,False,14590.27,2026-01-23T03:48:53.499113
+mistral:latest_local_baseline_qa,mistral:latest,qa,46,John Lennon,Phil Spector,False,23614.564000000002,2026-01-23T03:49:17.113820
+mistral:latest_local_baseline_qa,mistral:latest,qa,47,Mikhail Gorbachev initiated the Conference on Security and Cooperation in Europe (CSCE),Organizations could come together to address global issues,False,31674.771,2026-01-23T03:49:48.788726
+mistral:latest_local_baseline_qa,mistral:latest,qa,48,Yes,yes,True,17638.096,2026-01-23T03:50:06.426964
+mistral:latest_local_baseline_qa,mistral:latest,qa,49,de Havilland DH.100 Vampire,English Electric Canberra,False,26475.363,2026-01-23T03:50:32.902388
+mistral:latest_local_baseline_qa,mistral:latest,qa,50,The 14th season for the Pac-12 Conference was in 2013-2014.,2009 Big 12 Conference,False,36300.280999999995,2026-01-23T03:51:09.202776
+mistral:latest_local_baseline_qa,mistral:latest,qa,51,Carrefour,"1,462",False,22614.023,2026-01-23T03:51:31.816935
+mistral:latest_local_baseline_qa,mistral:latest,qa,52,Indianapolis Motor Speedway,Indianapolis Motor Speedway,True,16916.685999999998,2026-01-23T03:51:48.733686
+mistral:latest_local_baseline_qa,mistral:latest,qa,53,Paris,Rome,False,16381.859999999999,2026-01-23T03:52:05.115590
+mistral:latest_local_baseline_qa,mistral:latest,qa,54,"Max Martin, Jack Antonoff, Greg Kurstin, among others.","Max Martin, Savan Kotecha and Ilya Salmanzadeh",False,16279.616999999998,2026-01-23T03:52:21.395240
+mistral:latest_local_baseline_qa,mistral:latest,qa,55,St. John's School (Canberra),"Marion, South Australia",False,15810.742,2026-01-23T03:52:37.206124
+mistral:latest_local_baseline_qa,mistral:latest,qa,56,Drifting,Drifting,True,13480.335000000001,2026-01-23T03:52:50.686540
+mistral:latest_local_baseline_qa,mistral:latest,qa,57,Keith Bostic,Keith Bostic,True,14922.183,2026-01-23T03:53:05.608852
+mistral:latest_local_baseline_qa,mistral:latest,qa,58,"The population of Essex, according to the 2001 census, was approximately 1,518,375 people.","35,124",False,20129.995000000003,2026-01-23T03:53:25.738870
+mistral:latest_local_baseline_qa,mistral:latest,qa,59,Yes,no,False,16027.857000000002,2026-01-23T03:53:41.766787
+mistral:latest_local_baseline_qa,mistral:latest,qa,60,Bernie Bickerstaff,shortest player ever to play in the National Basketball Association,False,18357.003,2026-01-23T03:54:00.123918
+mistral:latest_local_baseline_qa,mistral:latest,qa,61,Harve Bennett,Ronald Shusett,False,15998.028,2026-01-23T03:54:16.122011
+mistral:latest_local_baseline_qa,mistral:latest,qa,62,Virginia Woolf,Adeline Virginia Woolf,False,15325.958,2026-01-23T03:54:31.448820
+mistral:latest_local_baseline_qa,mistral:latest,qa,63,"N/A (The nursery rhyme ""What Are Little Girls Made Of"" is not a traditional English folk song and therefore does not have an entry in the Roud Folk Song Index.)",821,False,26691.911,2026-01-23T03:54:58.140851
+mistral:latest_local_baseline_qa,mistral:latest,qa,64,ExxonMobil operates in over 50 countries worldwide.,more than 70 countries,False,21132.202,2026-01-23T03:55:19.273172
+mistral:latest_local_baseline_qa,mistral:latest,qa,65,"""Charmed""",Charmed,False,15443.497000000001,2026-01-23T03:55:34.716779
+mistral:latest_local_baseline_qa,mistral:latest,qa,66,International Boxing Hall of Fame,International Boxing Hall of Fame,True,16606.716,2026-01-23T03:55:51.323608
+mistral:latest_local_baseline_qa,mistral:latest,qa,67,Jude Demorest,Usher,False,21086.518,2026-01-23T03:56:12.410252
+mistral:latest_local_baseline_qa,mistral:latest,qa,68,Zachary Knighton,Bill Murray,False,19563.25,2026-01-23T03:56:31.973628
+mistral:latest_local_baseline_qa,mistral:latest,qa,69,Carabao Cup,Carabao Cup,True,21823.485,2026-01-23T03:56:53.797244
+mistral:latest_local_baseline_qa,mistral:latest,qa,70,Raven,Teen Titans Go!,False,12328.563,2026-01-23T03:57:06.125926
+mistral:latest_local_baseline_qa,mistral:latest,qa,71,"The inhabitants of Donetsk, Ukraine","276,170 inhabitants",False,23996.051000000003,2026-01-23T03:57:30.122022
+mistral:latest_local_baseline_qa,mistral:latest,qa,72,Orange clothing,orange,False,21138.513,2026-01-23T03:57:51.260638
+mistral:latest_local_baseline_qa,mistral:latest,qa,73,Romeo + Juliet,Tromeo and Juliet,False,15719.127999999999,2026-01-23T03:58:06.979868
+mistral:latest_local_baseline_qa,mistral:latest,qa,74,Bill Clinton,William Jefferson Clinton,False,18952.51,2026-01-23T03:58:25.932401
+mistral:latest_local_baseline_qa,mistral:latest,qa,75,John John Florence,John John Florence,True,20813.658,2026-01-23T03:58:46.746125
+mistral:latest_local_baseline_qa,mistral:latest,qa,76,Housh,Ann,False,16889.3,2026-01-23T03:59:03.635469
+mistral:latest_local_baseline_qa,mistral:latest,qa,77,Aztec Tribe,Apalachees,False,17762.699,2026-01-23T03:59:21.398204
+mistral:latest_local_baseline_qa,mistral:latest,qa,78,British,British,True,15440.844000000001,2026-01-23T03:59:36.839207
+mistral:latest_local_baseline_qa,mistral:latest,qa,79,George V was born in 1865.,1865,False,23824.328,2026-01-23T04:00:00.663661
+mistral:latest_local_baseline_qa,mistral:latest,qa,80,North Conway,Newport,False,13587.053,2026-01-23T04:00:14.250825
+mistral:latest_local_baseline_qa,mistral:latest,qa,81,Bob Seger,Bob Seger,True,11276.676,2026-01-23T04:00:25.527675
+mistral:latest_local_baseline_qa,mistral:latest,qa,82,Men registering for the draft,Conscription,False,24049.478,2026-01-23T04:00:49.577388
+mistral:latest_local_baseline_qa,mistral:latest,qa,83,Snyder's-Lance,"Mondelez International, Inc.",False,25701.007,2026-01-23T04:01:15.278578
+mistral:latest_local_baseline_qa,mistral:latest,qa,84,Monica Lewinsky,Monica Lewinsky,True,21471.752,2026-01-23T04:01:36.750376
+mistral:latest_local_baseline_qa,mistral:latest,qa,85,"August 27, 1952","April 1, 1949",False,15364.112000000001,2026-01-23T04:01:52.114561
+mistral:latest_local_baseline_qa,mistral:latest,qa,86,1939,1866,False,17620.137,2026-01-23T04:02:09.734740
+mistral:latest_local_baseline_qa,mistral:latest,qa,87,"Teide National Park: Tenerife, Canary Islands, Spain
+Garajonay National Park: La Gomera, Canary Islands, Spain","Canary Islands, Spain",False,21666.339,2026-01-23T04:02:31.401107
+mistral:latest_local_baseline_qa,mistral:latest,qa,88,Millions (exact number not known),250 million,False,20721.347,2026-01-23T04:02:52.122559
+mistral:latest_local_baseline_qa,mistral:latest,qa,89,Film Directors,director,False,9092.230000000001,2026-01-23T04:03:01.214846
+mistral:latest_local_baseline_qa,mistral:latest,qa,90,The Conversation,The Conversation,True,12925.284,2026-01-23T04:03:14.140146
+mistral:latest_local_baseline_qa,mistral:latest,qa,91,Quentin Tarantino,John Waters,False,23970.386000000002,2026-01-23T04:03:38.110575
+mistral:latest_local_baseline_qa,mistral:latest,qa,92,"Tropicana Hotel and Casino (Atlantic City, New Jersey)",Las Vegas Strip in Paradise,False,21310.991,2026-01-23T04:03:59.421610
+mistral:latest_local_baseline_qa,mistral:latest,qa,93,"Yes, the Gibson contains gin.",no,False,10437.326000000001,2026-01-23T04:04:09.858980
+mistral:latest_local_baseline_qa,mistral:latest,qa,94,November,March and April,False,10091.148000000001,2026-01-23T04:04:19.950158
+mistral:latest_local_baseline_qa,mistral:latest,qa,95,Fairfax County,Fairfax County,True,11180.458,2026-01-23T04:04:31.130646
+mistral:latest_local_baseline_qa,mistral:latest,qa,96,Security Services,IT products and services,False,9675.454,2026-01-23T04:04:40.806174
+mistral:latest_local_baseline_qa,mistral:latest,qa,97,Pamela B. Green,Levni Yilmaz,False,13997.89,2026-01-23T04:04:54.804083
+mistral:latest_local_baseline_qa,mistral:latest,qa,98,Beijing,Beijing,True,11012.643,2026-01-23T04:05:05.816779
+mistral:latest_local_baseline_qa,mistral:latest,qa,99,No,no,True,10920.527999999998,2026-01-23T04:05:16.737317
+mistral:latest_local_baseline_qa,mistral:latest,qa,100,Oklahoma,"Coahuila, Mexico",False,23341.582,2026-01-23T04:05:40.078919
+mistral:latest_local_baseline_qa,mistral:latest,qa,101,Yes,Larnelle Harris,False,9234.41,2026-01-23T04:05:49.313406
+mistral:latest_local_baseline_qa,mistral:latest,qa,102,Reuben Foster (brother of Robert Griffin III) was drafted in the first round by the San Francisco 49ers in 2017.,2003,False,24358.336000000003,2026-01-23T04:06:13.671851
+mistral:latest_local_baseline_qa,mistral:latest,qa,103,"Grant Field (Atlanta, Georgia)",North Avenue at Techwood Drive,False,13518.204000000002,2026-01-23T04:06:27.190090
+mistral:latest_local_baseline_qa,mistral:latest,qa,104,Leo Varadkar,Leo Varadkar,True,16339.869,2026-01-23T04:06:43.530014
+mistral:latest_local_baseline_qa,mistral:latest,qa,105,Donald O'Connor,George Raft,False,16102.359,2026-01-23T04:06:59.632439
+mistral:latest_local_baseline_qa,mistral:latest,qa,106,1937,1887,False,11253.742,2026-01-23T04:07:10.886199
+mistral:latest_local_baseline_qa,mistral:latest,qa,107,Both Owner earnings and Warren Buffett have income derived from ownership stakes in businesses.,business,False,18586.999,2026-01-23T04:07:29.473229
+mistral:latest_local_baseline_qa,mistral:latest,qa,108,"Sourav Ganguly was born on July 8, 1972.",7 October 1978,False,23165.748,2026-01-23T04:07:52.639066
+mistral:latest_local_baseline_qa,mistral:latest,qa,109,Donald L. Jones,B-17 Flying Fortress bomber,False,19690.024,2026-01-23T04:08:12.329464
+mistral:latest_local_baseline_qa,mistral:latest,qa,110,Tim McGraw,Blake Shelton,False,12573.855,2026-01-23T04:08:24.903426
+mistral:latest_local_baseline_qa,mistral:latest,qa,111,"Over 1,500 years",three centuries,False,19923.62,2026-01-23T04:08:44.827200
+mistral:latest_local_baseline_qa,mistral:latest,qa,112,"July 28, 1866",7 January 1936,False,18989.718,2026-01-23T04:09:03.816973
+mistral:latest_local_baseline_qa,mistral:latest,qa,113,George Archainbaud,George Archainbaud,True,18510.66,2026-01-23T04:09:22.327916
+mistral:latest_local_baseline_qa,mistral:latest,qa,114,Acetone,picric acid,False,20467.635000000002,2026-01-23T04:09:42.795731
+mistral:latest_local_baseline_qa,mistral:latest,qa,115,"Without knowing the specific player's name, it is not possible to provide an accurate answer.",230,False,22390.654000000002,2026-01-23T04:10:05.186529
+mistral:latest_local_baseline_qa,mistral:latest,qa,116,Marvel Comics' Ghost Rider,Marvel,False,17815.882999999998,2026-01-23T04:10:23.002442
+mistral:latest_local_baseline_qa,mistral:latest,qa,117,Senator (before 2023),United States Senator,False,16005.417000000001,2026-01-23T04:10:39.007895
+mistral:latest_local_baseline_qa,mistral:latest,qa,118,"Yes (for Skin Yard), No (for Ostava)",no,False,14348.907000000001,2026-01-23T04:10:53.356867
+mistral:latest_local_baseline_qa,mistral:latest,qa,119,Yes,yes,True,20112.782,2026-01-23T04:11:13.469672
+mistral:latest_local_baseline_qa,mistral:latest,qa,120,A51 trunk road (near Backford Cross),The A41,False,18353.049,2026-01-23T04:11:31.822742
+mistral:latest_local_baseline_qa,mistral:latest,qa,121,"Lady Eleanor Talbot in ""The Canterville Ghost""",Princess Jessica,False,17019.713,2026-01-23T04:11:48.842510
+mistral:latest_local_baseline_qa,mistral:latest,qa,122,"""The Spiderwick Chronicles""",The Spiderwick Chronicles,False,20916.189,2026-01-23T04:12:09.758718
+mistral:latest_local_baseline_qa,mistral:latest,qa,123,KKR,KKR & Co,False,17589.936,2026-01-23T04:12:27.348752
+mistral:latest_local_baseline_qa,mistral:latest,qa,124,Poppy Curzon does not star with Douglas Smith and Lucien Laviscount in any 2017 film.,The Bye Bye Man,False,25639.688,2026-01-23T04:12:52.988454
+mistral:latest_local_baseline_qa,mistral:latest,qa,125,Tweed River,Richmond,False,13962.904,2026-01-23T04:13:06.951398
+mistral:latest_local_baseline_qa,mistral:latest,qa,126,Owsley Stanley,Owsley Stanley,True,21586.407000000003,2026-01-23T04:13:28.537828
+mistral:latest_local_baseline_qa,mistral:latest,qa,127,"The palace where Columba de Dunbar died is not specified in the question, but it could have been one of several palaces or castles associated with her family.",the late 12th Century,False,32040.809000000005,2026-01-23T04:14:00.578729
+mistral:latest_local_baseline_qa,mistral:latest,qa,128,"San Luis Obispo, California","San Luis Obispo, California",True,14771.361,2026-01-23T04:14:15.350452
+mistral:latest_local_baseline_qa,mistral:latest,qa,129,"KFC Yum! Center (Louisville, Kentucky)",Mercedes-Benz Superdome,False,21175.155,2026-01-23T04:14:36.525625
+mistral:latest_local_baseline_qa,mistral:latest,qa,130,Gimme Shelter,LaLee's Kin: The Legacy of Cotton,False,25998.134000000002,2026-01-23T04:15:02.523799
+mistral:latest_local_baseline_qa,mistral:latest,qa,131,Catan,Pirate's Cove,False,17083.740999999998,2026-01-23T04:15:19.607577
+mistral:latest_local_baseline_qa,mistral:latest,qa,132,Crystal Dynamics (a subsidiary of Square Enix),Crystal Dynamics,False,21066.406,2026-01-23T04:15:40.674016
+mistral:latest_local_baseline_qa,mistral:latest,qa,133,Recovery,"""The Marshall Mathers LP 2""",False,11065.275,2026-01-23T04:15:51.739358
+mistral:latest_local_baseline_qa,mistral:latest,qa,134,Training Day,Suicide Squad,False,17490.118,2026-01-23T04:16:09.229546
+mistral:latest_local_baseline_qa,mistral:latest,qa,135,Tara Strong,Jillian Belk,False,15878.584,2026-01-23T04:16:25.108205
+mistral:latest_local_baseline_qa,mistral:latest,qa,136,Texas Tech University,Texas Tech University,True,16982.312,2026-01-23T04:16:42.090670
+mistral:latest_local_baseline_qa,mistral:latest,qa,137,Robert Clive,Lord Combermere,False,22763.914,2026-01-23T04:17:04.854697
+mistral:latest_local_baseline_qa,mistral:latest,qa,138,Animated Television Specials,"seasonal television specials, particularly its work in stop motion animation",False,12137.349,2026-01-23T04:17:16.992096
+mistral:latest_local_baseline_qa,mistral:latest,qa,139,2005,2014,False,23189.83,2026-01-23T04:17:40.181957
+mistral:latest_local_baseline_qa,mistral:latest,qa,140,Barnard College (affiliated with Columbia University),Oxford,False,12990.329,2026-01-23T04:17:53.172363
+mistral:latest_local_baseline_qa,mistral:latest,qa,141,It is not possible to compare the best singles ranking between Roberta Vinci and Jorge Lozano due to their different genders.,Roberta Vinci,False,21260.332,2026-01-23T04:18:14.432719
+mistral:latest_local_baseline_qa,mistral:latest,qa,142,Intelligent Design Campaign,"""Teach the Controversy"" campaign",False,17747.115999999998,2026-01-23T04:18:32.179856
+mistral:latest_local_baseline_qa,mistral:latest,qa,143,Ian Watkins,Lostprophets disbanded in 2013 after Watkins was charged with sexual offences in late 2012.,False,24674.399999999998,2026-01-23T04:18:56.854300
+mistral:latest_local_baseline_qa,mistral:latest,qa,144,I Am Cuba,Nebo Zovyot,False,23886.202999999998,2026-01-23T04:19:20.740549
+mistral:latest_local_baseline_qa,mistral:latest,qa,145,Erika Jayne,Erika Jayne,True,23899.934999999998,2026-01-23T04:19:44.640503
+mistral:latest_local_baseline_qa,mistral:latest,qa,146,The Reading Post (formerly known as The Reading Evening Post) changed its name in 2013.,2009,False,23530.221999999998,2026-01-23T04:20:08.170880
+mistral:latest_local_baseline_qa,mistral:latest,qa,147,Hebrides,Kingdom of the Isles,False,20358.887,2026-01-23T04:20:28.529795
+mistral:latest_local_baseline_qa,mistral:latest,qa,148,The Beatles,The Beatles,True,10391.657000000001,2026-01-23T04:20:38.921513
+mistral:latest_local_baseline_qa,mistral:latest,qa,149,"""I Can't Help Myself (Sugar Pie Honey Bunch)""","""We'll Burn That Bridge""",False,17784.852,2026-01-23T04:20:56.706378
+mistral:latest_local_baseline_qa,mistral:latest,qa,150,Film Director,director,False,7231.89,2026-01-23T04:21:03.938287
+mistral:latest_local_baseline_qa,mistral:latest,qa,151,1901,1901,True,12869.764,2026-01-23T04:21:16.808083
+mistral:latest_local_baseline_qa,mistral:latest,qa,152,"Yes, the Argand lamp",Argand lamp,False,18340.187,2026-01-23T04:21:35.148283
+mistral:latest_local_baseline_qa,mistral:latest,qa,153,Harry Connick Jr. has had more than 15 top 20 US albums.,seven,False,18720.314,2026-01-23T04:21:53.868643
+mistral:latest_local_baseline_qa,mistral:latest,qa,154,Yes,yes,True,12823.01,2026-01-23T04:22:06.691696
+mistral:latest_local_baseline_qa,mistral:latest,qa,155,Brazil (2014),Brazil,False,12636.974,2026-01-23T04:22:19.328682
+mistral:latest_local_baseline_qa,mistral:latest,qa,156,Seven Days Battles,The Seven Days Battles,False,15815.295,2026-01-23T04:22:35.143997
+mistral:latest_local_baseline_qa,mistral:latest,qa,157,Cineworld (ABQ Uptown location),Lush Ltd.,False,26093.166,2026-01-23T04:23:01.237245
+mistral:latest_local_baseline_qa,mistral:latest,qa,158,Manchester United Football Club,Manchester United,False,15680.632,2026-01-23T04:23:16.918028
+mistral:latest_local_baseline_qa,mistral:latest,qa,159,1993,1989,False,20785.364999999998,2026-01-23T04:23:37.703415
+mistral:latest_local_baseline_qa,mistral:latest,qa,160,Anna Burke,Kathryn Jean Martin,False,23517.798,2026-01-23T04:24:01.221266
+mistral:latest_local_baseline_qa,mistral:latest,qa,161,Frank Lowy,Frank Lowy,True,14180.595000000001,2026-01-23T04:24:15.401879
+mistral:latest_local_baseline_qa,mistral:latest,qa,162,Las Vegas,Las Vegas,True,14849.623,2026-01-23T04:24:30.251512
+mistral:latest_local_baseline_qa,mistral:latest,qa,163,Ellie Goulding,Kelly Lee Osbourne,False,22378.354000000003,2026-01-23T04:24:52.629915
+mistral:latest_local_baseline_qa,mistral:latest,qa,164,Not available due to lack of public information,Sean Yseult.,False,13923.758,2026-01-23T04:25:06.554038
+mistral:latest_local_baseline_qa,mistral:latest,qa,165,"In 2017, 3/4th of the Food and Drug Administration (FDA) budget was spent on food safety, drug development, medical devices, and other non-veterinary medicine related activities.",Prescription Drug User Fee Act,False,37505.437,2026-01-23T04:25:44.059494
+mistral:latest_local_baseline_qa,mistral:latest,qa,166,Dinosaurs,Dinosaur,False,13318.759999999998,2026-01-23T04:25:57.378331
+mistral:latest_local_baseline_qa,mistral:latest,qa,167,"Wichita, Kansas",Wichita,False,16543.649999999998,2026-01-23T04:26:13.922005
+mistral:latest_local_baseline_qa,mistral:latest,qa,168,2020,United States presidential election of 2016,False,16058.349,2026-01-23T04:26:29.980367
+mistral:latest_local_baseline_qa,mistral:latest,qa,169,Caratacus ruled prior to the conquest by the Roman Empire.,Roman,False,15379.364000000001,2026-01-23T04:26:45.359769
+mistral:latest_local_baseline_qa,mistral:latest,qa,170,Donald E. Westlake,C. W. Grafton,False,12340.103,2026-01-23T04:26:57.699892
+mistral:latest_local_baseline_qa,mistral:latest,qa,171,"California (specifically, the senator's hometown within California)","Brooklyn, New York",False,19156.815000000002,2026-01-23T04:27:16.856726
+mistral:latest_local_baseline_qa,mistral:latest,qa,172,"652,236 (in 2010)","48,982",False,22924.749,2026-01-23T04:27:39.781548
+mistral:latest_local_baseline_qa,mistral:latest,qa,173,"Justin Hurwitz, Benj Pasek, and Justin Paul",Pasek & Paul,False,30754.079,2026-01-23T04:28:10.535716
+mistral:latest_local_baseline_qa,mistral:latest,qa,174,Lake Macquarie City Council,City of Newcastle,False,14788.097,2026-01-23T04:28:25.323935
+mistral:latest_local_baseline_qa,mistral:latest,qa,175,Yes,yes,True,15282.284000000001,2026-01-23T04:28:40.606250
+mistral:latest_local_baseline_qa,mistral:latest,qa,176,Ateneum Art Museum,drawings,False,16698.465,2026-01-23T04:28:57.304778
+mistral:latest_local_baseline_qa,mistral:latest,qa,177,Old Saxon period (5th to 9th century),between the 8th and 16th centuries,False,19172.291999999998,2026-01-23T04:29:16.477149
+mistral:latest_local_baseline_qa,mistral:latest,qa,178,Prince Charles,Alistair Grant,False,16972.061,2026-01-23T04:29:33.449236
+mistral:latest_local_baseline_qa,mistral:latest,qa,179,United Kingdom,Scotland,False,12304.031,2026-01-23T04:29:45.753354
+mistral:latest_local_baseline_qa,mistral:latest,qa,180,"""WTF with Marc Maron""",Comedy Film Nerds,False,15288.753,2026-01-23T04:30:01.042127
+mistral:latest_local_baseline_qa,mistral:latest,qa,181,"Bishop Gorman High School (Las Vegas, Nevada)",Summerlin,False,18455.036,2026-01-23T04:30:19.497188
+mistral:latest_local_baseline_qa,mistral:latest,qa,182,George Harrison,George Harrison,True,17948.404,2026-01-23T04:30:37.445708
+mistral:latest_local_baseline_qa,mistral:latest,qa,183,"The Captain of the National Hockey League All-Star Game ""Away Team"" plays either as a forward or defenseman.",Canadian professional ice hockey centre,False,22188.075999999997,2026-01-23T04:30:59.633859
+mistral:latest_local_baseline_qa,mistral:latest,qa,184,1960-1964,1952,False,17910.845999999998,2026-01-23T04:31:17.544765
+mistral:latest_local_baseline_qa,mistral:latest,qa,185,Azula was introduced in the second season of Avatar: The Last Airbender.,third,False,22116.016,2026-01-23T04:31:39.660792
+mistral:latest_local_baseline_qa,mistral:latest,qa,186,Mark Neveldine and Brian Taylor,Mark Neveldine and Brian Taylor,True,19424.597999999998,2026-01-23T04:31:59.085463
+mistral:latest_local_baseline_qa,mistral:latest,qa,187,I'm With Busey,Hidden America with Jonah Ray,False,19599.042,2026-01-23T04:32:18.684562
+mistral:latest_local_baseline_qa,mistral:latest,qa,188,No,no,True,11900.909,2026-01-23T04:32:30.585483
+mistral:latest_local_baseline_qa,mistral:latest,qa,189,1990,1943,False,15162.474,2026-01-23T04:32:45.748013
+mistral:latest_local_baseline_qa,mistral:latest,qa,190,Joe Walker did not play for a team that ends their regular season with the Civil War rivalry game.,Oregon Ducks football,False,20675.802,2026-01-23T04:33:06.423856
+mistral:latest_local_baseline_qa,mistral:latest,qa,191,NBC,National Broadcasting Company,False,12825.051,2026-01-23T04:33:19.248933
+mistral:latest_local_baseline_qa,mistral:latest,qa,192,French,North African Arab,False,16140.965999999999,2026-01-23T04:33:35.389969
+mistral:latest_local_baseline_qa,mistral:latest,qa,193,"Bethesda, Maryland",Murray Hill,False,17477.916,2026-01-23T04:33:52.868526
+mistral:latest_local_baseline_qa,mistral:latest,qa,194,Severe Acute Respiratory Syndrome (SARS),severe acute respiratory syndrome,False,18334.857,2026-01-23T04:34:11.203428
+mistral:latest_local_baseline_qa,mistral:latest,qa,195,Wendell Berry,Wendell Berry,True,16190.159999999998,2026-01-23T04:34:27.393602
+mistral:latest_local_baseline_qa,mistral:latest,qa,196,"Vikram Bhatt has worked with both Rajneesh Duggal and Adah Sharma on films such as ""1920"" (2008) and ""Horror Story"" (2013).",Tinu Suresh Desai,False,30426.789,2026-01-23T04:34:57.820433
+mistral:latest_local_baseline_qa,mistral:latest,qa,197,"Austin, Texas","Golden Valley, Minnesota,",False,15975.489,2026-01-23T04:35:13.796068
+mistral:latest_local_baseline_qa,mistral:latest,qa,198,No settlement was paid to the character from the Son of al Quada in 2017.,$10.5 million,False,17857.565000000002,2026-01-23T04:35:31.653647
+mistral:latest_local_baseline_qa,mistral:latest,qa,199,"Typhoon Haiyan (Yolanda) - The Storm That Knew My Name (2007) is a documentary film about Typhoon Haiyan, but it was made in 2007, not when the typhoon occurred.",1999 Odisha cyclone,False,31221.441,2026-01-23T04:36:02.875201
+mistral:latest_local_baseline_qa,mistral:latest,qa,200,Crackle,Crackle,True,16953.752,2026-01-23T04:36:19.829027
+mistral:latest_local_baseline_qa,mistral:latest,qa,201,AFC Fylde,Salford City Football Club,False,16521.161,2026-01-23T04:36:36.350225
+mistral:latest_local_baseline_qa,mistral:latest,qa,202,"The name of the architectural firm that designed the hotel hosting the IFBB professional bodybuilding competition in September 1991 is not provided, but it can be determined through research on the history of the Mr. Olympia competition and the venues where it has been held.",architect Michael Graves,False,36830.635,2026-01-23T04:37:13.180924
+mistral:latest_local_baseline_qa,mistral:latest,qa,203,All three shows were nominated at the 71st Golden Globe Awards.,multiple awards,False,33006.527,2026-01-23T04:37:46.187515
+mistral:latest_local_baseline_qa,mistral:latest,qa,204,Kevin Spacey,Kevin Spacey,True,18457.206,2026-01-23T04:38:04.644768
+mistral:latest_local_baseline_qa,mistral:latest,qa,205,Mariah Carey,Ryan Seacrest,False,32036.375999999997,2026-01-23T04:38:36.681206
+mistral:latest_local_baseline_qa,mistral:latest,qa,206,"Yes (for Hot Rod)
+No (for The Memory of Our People)",yes,False,16387.274,2026-01-23T04:38:53.068569
+mistral:latest_local_baseline_qa,mistral:latest,qa,207,"There is no historical evidence to support that Chamberlain was the Colonel of the military staff for King David Kalakaua, also known as The Merrie Monarch.",Colonel Charles Hastings Judd,False,28287.778,2026-01-23T04:39:21.356392
+mistral:latest_local_baseline_qa,mistral:latest,qa,208,Semyon Aranovich Gershgorin,Pavel Sergeyevich Alexandrov,False,23195.927,2026-01-23T04:39:44.552489
+mistral:latest_local_baseline_qa,mistral:latest,qa,209,Gal Gadot,Gal Gadot,True,24790.277,2026-01-23T04:40:09.342900
+mistral:latest_local_baseline_qa,mistral:latest,qa,210,Captain James L. Holloway III,Rear Adm. J. Edward Snyder,False,17854.011,2026-01-23T04:40:27.196965
+mistral:latest_local_baseline_qa,mistral:latest,qa,211,Jackson Storm (Cars 3),Jackson Storm,False,13544.454,2026-01-23T04:40:40.741448
+mistral:latest_local_baseline_qa,mistral:latest,qa,212,Manhattan Life Insurance Building,712 5th Avenue,False,20617.739,2026-01-23T04:41:01.359198
+mistral:latest_local_baseline_qa,mistral:latest,qa,213,Left-hand,right-hand,False,16414.625,2026-01-23T04:41:17.773931
+mistral:latest_local_baseline_qa,mistral:latest,qa,214,Arthur Conan Doyle,Arthur Ignatius Conan Doyle,False,15162.394,2026-01-23T04:41:32.936357
+mistral:latest_local_baseline_qa,mistral:latest,qa,215,Southeastern Conference (SEC),"Birmingham, Alabama",False,16644.984999999997,2026-01-23T04:41:49.581464
+mistral:latest_local_baseline_qa,mistral:latest,qa,216,R. J. Mitchell did not have any victories as a fighter pilot since he did not fly in combat.,44,False,32584.944999999996,2026-01-23T04:42:22.166510
+mistral:latest_local_baseline_qa,mistral:latest,qa,217,Sasanian Empire,the Parthian Empire,False,25828.909,2026-01-23T04:42:47.995512
+mistral:latest_local_baseline_qa,mistral:latest,qa,218,Erinsborough,Erinsborough,True,12049.44,2026-01-23T04:43:00.045016
+mistral:latest_local_baseline_qa,mistral:latest,qa,219,England (as part of the United Kingdom) is the country that the Falkland Islands did not compete against in the 2010 Commonwealth Games.,Samoa,False,28820.123,2026-01-23T04:43:28.865168
+mistral:latest_local_baseline_qa,mistral:latest,qa,220,"Linda Ferguson (from ""Unbreakable Kimmy Schmidt"")","Kimberly Couger ""Kimmy"" Schmidt",False,19252.096,2026-01-23T04:43:48.117363
+mistral:latest_local_baseline_qa,mistral:latest,qa,221,"""Blackadder""","""The Comic Strip Presents...""",False,19839.833,2026-01-23T04:44:07.957242
+mistral:latest_local_baseline_qa,mistral:latest,qa,222,No,no,True,12799.942,2026-01-23T04:44:20.757205
+mistral:latest_local_baseline_qa,mistral:latest,qa,223,19th Century,nineteenth,False,16146.878,2026-01-23T04:44:36.904107
+mistral:latest_local_baseline_qa,mistral:latest,qa,224,"""Monster"" (2016)",Awake,False,20943.323,2026-01-23T04:44:57.847479
+mistral:latest_local_baseline_qa,mistral:latest,qa,225,French Canadians,French Canadians,True,16874.133,2026-01-23T04:45:14.721762
+mistral:latest_local_baseline_qa,mistral:latest,qa,226,American,American,True,12860.71,2026-01-23T04:45:27.582527
+mistral:latest_local_baseline_qa,mistral:latest,qa,227,Approximately 16 kilometers (9.9 miles),8 km,False,20824.594,2026-01-23T04:45:48.407171
+mistral:latest_local_baseline_qa,mistral:latest,qa,228,The Life and Legend of Wyatt Earp,Rawhide,False,15012.492,2026-01-23T04:46:03.419754
+mistral:latest_local_baseline_qa,mistral:latest,qa,229,Marsilea,Marsilea,True,13692.523,2026-01-23T04:46:17.112289
+mistral:latest_local_baseline_qa,mistral:latest,qa,230,Buckingham Palace,Mark Masons' Hall,False,15234.612000000001,2026-01-23T04:46:32.346925
+mistral:latest_local_baseline_qa,mistral:latest,qa,231,Hot Rollers,Starlite,False,16716.645,2026-01-23T04:46:49.063582
+mistral:latest_local_baseline_qa,mistral:latest,qa,232,The Petronas Twin Towers,Hong Kong,False,15273.047,2026-01-23T04:47:04.336674
+mistral:latest_local_baseline_qa,mistral:latest,qa,233,"United States v. Paramount Pictures, Inc.",Craig v. Boren,False,21164.957000000002,2026-01-23T04:47:25.501649
+mistral:latest_local_baseline_qa,mistral:latest,qa,234,"Gold Coast (also known as ""The Gold Coast"")","""Queen City""",False,15524.922,2026-01-23T04:47:41.026620
+mistral:latest_local_baseline_qa,mistral:latest,qa,235,Arrowhead Stadium,Arrowhead Stadium,True,15602.031,2026-01-23T04:47:56.628719
+mistral:latest_local_baseline_qa,mistral:latest,qa,236,Cranberries,acidic,False,17027.705,2026-01-23T04:48:13.656437
+mistral:latest_local_baseline_qa,mistral:latest,qa,237,"""The Tax Collector""",Compliance,False,20975.415999999997,2026-01-23T04:48:34.631926
+mistral:latest_local_baseline_qa,mistral:latest,qa,238,Logan International Airport (BOS),Logan International Airport,False,14376.787,2026-01-23T04:48:49.008887
+mistral:latest_local_baseline_qa,mistral:latest,qa,239,Ehretia,Ehretia,True,16851.644,2026-01-23T04:49:05.860568
+mistral:latest_local_baseline_qa,mistral:latest,qa,240,Pac-Man,a pinball machine,False,27377.833,2026-01-23T04:49:33.238420
+mistral:latest_local_baseline_qa,mistral:latest,qa,241,Celine Dion,Donna Paige Helmintoller,False,19299.073,2026-01-23T04:49:52.537551
+mistral:latest_local_baseline_qa,mistral:latest,qa,242,Cal Ripken Jr.,"Reginald Martinez ""Reggie"" Jackson",False,17180.647,2026-01-23T04:50:09.718308
+mistral:latest_local_baseline_qa,mistral:latest,qa,243,Sir Peter Scott,Thomas Mawson,False,18172.473,2026-01-23T04:50:27.890799
+mistral:latest_local_baseline_qa,mistral:latest,qa,244,Sitar,strings,False,11141.685000000001,2026-01-23T04:50:39.032542
+mistral:latest_local_baseline_qa,mistral:latest,qa,245,Clive Barker,Brad Silberling,False,11120.663999999999,2026-01-23T04:50:50.153227
+mistral:latest_local_baseline_qa,mistral:latest,qa,246,25 laps,25 laps,True,29500.114,2026-01-23T04:51:19.653385
+mistral:latest_local_baseline_qa,mistral:latest,qa,247,Yes,yes,True,12061.923,2026-01-23T04:51:31.715367
+mistral:latest_local_baseline_qa,mistral:latest,qa,248,Thomas Friedman,Thomas Loren Friedman,False,11276.34,2026-01-23T04:51:42.991733
+mistral:latest_local_baseline_qa,mistral:latest,qa,249,Taylor Swift,Taylor Swift,True,18758.865,2026-01-23T04:52:01.750668
+mistral:latest_local_baseline_qa,mistral:latest,qa,250,"Bursa, Turkey","Istanbul, Turkey",False,16042.000000000002,2026-01-23T04:52:17.792687
+mistral:latest_local_baseline_qa,mistral:latest,qa,251,"Opry Mills is a shopping mall located in Nashville, Tennessee.",super-regional shopping mall,False,19855.146,2026-01-23T04:52:37.647860
+mistral:latest_local_baseline_qa,mistral:latest,qa,252,SpaceWare Co. Ltd.,Ordos City,False,20549.291,2026-01-23T04:52:58.197196
+mistral:latest_local_baseline_qa,mistral:latest,qa,253,Alain Resnais,Scott Sidney,False,15481.365,2026-01-23T04:53:13.678573
+mistral:latest_local_baseline_qa,mistral:latest,qa,254,Spencer Gifts operates over 600 stores in the United States and Canada.,over 600 stores,False,21390.459,2026-01-23T04:53:35.069098
+mistral:latest_local_baseline_qa,mistral:latest,qa,255,Grinnell College,Berea College,False,21383.153,2026-01-23T04:53:56.452351
+mistral:latest_local_baseline_qa,mistral:latest,qa,256,"The year is not specified in the question, but Roy Rogers and Dale Evans starred in several films throughout their career, including ""Song of Nevada"" (1944), ""Under California Stars"" (1948), and ""Riders of the Whistling Pines"" (1950), among others.",1945,False,32665.053,2026-01-23T04:54:29.117456
+mistral:latest_local_baseline_qa,mistral:latest,qa,257,The House of Windsor,Mountbatten family,False,18266.872,2026-01-23T04:54:47.384448
+mistral:latest_local_baseline_qa,mistral:latest,qa,258,BBC Two,James Burke,False,11599.005,2026-01-23T04:54:58.983472
+mistral:latest_local_baseline_qa,mistral:latest,qa,259,Gulangyu,Gulangyu,True,28336.931,2026-01-23T04:55:27.320418
+mistral:latest_local_baseline_qa,mistral:latest,qa,260,Slaughterhouse-Five,Slaughterhouse-Five,True,19750.051,2026-01-23T04:55:47.070549
+mistral:latest_local_baseline_qa,mistral:latest,qa,261,Leinster,the east of Ireland,False,13895.871,2026-01-23T04:56:00.967465
+mistral:latest_local_baseline_qa,mistral:latest,qa,262,Loughgall Football Club,Distillery,False,30419.616,2026-01-23T04:56:31.387098
+mistral:latest_local_baseline_qa,mistral:latest,qa,263,Tybalt Capulet,Tybalt,False,35058.785,2026-01-23T04:57:06.445959
+mistral:latest_local_baseline_qa,mistral:latest,qa,264,Sniffin' Glue,SKUM,False,22068.513,2026-01-23T04:57:28.514587
+mistral:latest_local_baseline_qa,mistral:latest,qa,265,Anabolic Androgenic Steroids (AAS),Anabolic steroids,False,17353.792999999998,2026-01-23T04:57:45.868465
+mistral:latest_local_baseline_qa,mistral:latest,qa,266,Richard Dean Anderson,Don S. Davis,False,14337.341999999999,2026-01-23T04:58:00.205885
+mistral:latest_local_baseline_qa,mistral:latest,qa,267,Zac Brown Band,Charles Kelley,False,15118.296,2026-01-23T04:58:15.324193
+mistral:latest_local_baseline_qa,mistral:latest,qa,268,Approximately 3 million people,"3,384,569",False,19320.127,2026-01-23T04:58:34.644335
+mistral:latest_local_baseline_qa,mistral:latest,qa,269,John Adams,Anna Clyne,False,18180.295000000002,2026-01-23T04:58:52.824683
+mistral:latest_local_baseline_qa,mistral:latest,qa,270,USS Essex (CV-9),USS Essex,False,16041.955000000002,2026-01-23T04:59:08.866729
+mistral:latest_local_baseline_qa,mistral:latest,qa,271,Yes,yes,True,18632.219,2026-01-23T04:59:27.498966
+mistral:latest_local_baseline_qa,mistral:latest,qa,272,"""Catwoman"" (2003)",Catwoman,False,20496.741,2026-01-23T04:59:47.995778
+mistral:latest_local_baseline_qa,mistral:latest,qa,273,Approximately 30 miles (48 kilometers),7 miles,False,23838.134000000002,2026-01-23T05:00:11.834024
+mistral:latest_local_baseline_qa,mistral:latest,qa,274,Lea Michele,Laura Ann Osnes,False,24177.854,2026-01-23T05:00:36.011895
+mistral:latest_local_baseline_qa,mistral:latest,qa,275,Unable to determine due to lack of sufficient information.,20,False,24334.317,2026-01-23T05:01:00.346277
+mistral:latest_local_baseline_qa,mistral:latest,qa,276,Eucryphia has more species than Lepidozamia.,Eucryphia,False,20699.131999999998,2026-01-23T05:01:21.045454
+mistral:latest_local_baseline_qa,mistral:latest,qa,277,"Naples, Italy",Venice,False,13570.092,2026-01-23T05:01:34.615556
+mistral:latest_local_baseline_qa,mistral:latest,qa,278,Waimea Bay,Waimea Bay,True,15555.242,2026-01-23T05:01:50.170847
+mistral:latest_local_baseline_qa,mistral:latest,qa,279,Scientific American,evangelical Christian periodical,False,9845.903,2026-01-23T05:02:00.016848
+mistral:latest_local_baseline_qa,mistral:latest,qa,280,James Franco,James Franco,True,13225.621000000001,2026-01-23T05:02:13.242484
+mistral:latest_local_baseline_qa,mistral:latest,qa,281,Detective Inspector Richard Poole,DI Humphrey Goodman,False,16663.513,2026-01-23T05:02:29.906025
+mistral:latest_local_baseline_qa,mistral:latest,qa,282,October,February,False,17396.834,2026-01-23T05:02:47.302921
+mistral:latest_local_baseline_qa,mistral:latest,qa,283,Oz the Great and Powerful,Sacred Planet,False,17059.642,2026-01-23T05:03:04.362582
+mistral:latest_local_baseline_qa,mistral:latest,qa,284,"Calgary, Alberta",Hanna,False,22960.006,2026-01-23T05:03:27.322610
+mistral:latest_local_baseline_qa,mistral:latest,qa,285,Ferdi Taygan,Ferdi Taygan,True,21416.636000000002,2026-01-23T05:03:48.739462
+mistral:latest_local_baseline_qa,mistral:latest,qa,286,Michael Schumacher practices football (soccer) in addition to racing.,paracyclist,False,23113.378,2026-01-23T05:04:11.852960
+mistral:latest_local_baseline_qa,mistral:latest,qa,287,Eton College,The Dragon School in Oxford,False,18313.611999999997,2026-01-23T05:04:30.166613
+mistral:latest_local_baseline_qa,mistral:latest,qa,288,"""Roseanne's Hollywood Arms""",Suicide Kings,False,17674.476,2026-01-23T05:04:47.841202
+mistral:latest_local_baseline_qa,mistral:latest,qa,289,"""Hey Pa! There's a Goat on the Roof""",Hey Pa! There's a Goat on the Roof,False,25050.753,2026-01-23T05:05:12.892013
+mistral:latest_local_baseline_qa,mistral:latest,qa,290,13-3,a record of 13–3,False,19432.126,2026-01-23T05:05:32.324151
+mistral:latest_local_baseline_qa,mistral:latest,qa,291,"Petersburg, Virginia","8,211 at the 2010 census",False,14515.726,2026-01-23T05:05:46.839945
+mistral:latest_local_baseline_qa,mistral:latest,qa,292,The specific nickname of the hitman hired by an Italian American Criminal Organization is not provided in the question.,The Crowned Prince of the Philadelphia Mob,False,20514.306999999997,2026-01-23T05:06:07.354432
+mistral:latest_local_baseline_qa,mistral:latest,qa,293,Court Architect of King Stefan Batory,supervisor of the royal works,False,18789.546000000002,2026-01-23T05:06:26.144016
+mistral:latest_local_baseline_qa,mistral:latest,qa,294,Jennifer Lopez,Janet Damita Jo Jackson,False,13384.064,2026-01-23T05:06:39.528108
+mistral:latest_local_baseline_qa,mistral:latest,qa,295,"The ship launched as the München in 1930 did not fight in the American Revolutionary War under the command of any specific army from Munich. Instead, it may have been sponsored by a municipality with ties to Munich, Germany.",Continental Army,False,32957.619999999995,2026-01-23T05:07:12.485742
+mistral:latest_local_baseline_qa,mistral:latest,qa,296,Canary Islands,Macaronesia,False,14358.245,2026-01-23T05:07:26.844028
+mistral:latest_local_baseline_qa,mistral:latest,qa,297,Treaty of Gandamak,Treaty of Gandamak,True,19508.732,2026-01-23T05:07:46.352794
+mistral:latest_local_baseline_qa,mistral:latest,qa,298,"Las Vegas, Nevada",Oregon,False,21737.275,2026-01-23T05:08:08.090244
+mistral:latest_local_baseline_qa,mistral:latest,qa,299,"Deep Purple rose to prominence in the late 1960s and early 1970s, with ""All Join Hands"" being released in 1972.",early 1970s,False,29160.695,2026-01-23T05:08:37.250994
+mistral:latest_local_baseline_qa,mistral:latest,qa,300,"Greene King plc (Bury St Edmunds, Suffolk, England)","Bury St Edmunds,",False,18805.78,2026-01-23T05:08:56.056853
+mistral:latest_local_baseline_qa,mistral:latest,qa,301,Young Adult (Teenagers),early 20s,False,16582.072,2026-01-23T05:09:12.638946
+mistral:latest_local_baseline_qa,mistral:latest,qa,302,"Unable to determine the exact birthday of the actress who played the Duchess in ""The Revengers Tragedy"" without additional information.",23 November 1946,False,38838.907,2026-01-23T05:09:51.477877
+mistral:latest_local_baseline_qa,mistral:latest,qa,303,"""The Soloist""",The Soloist,False,19737.384,2026-01-23T05:10:11.215326
+mistral:latest_local_baseline_qa,mistral:latest,qa,304,No,no,True,21032.69,2026-01-23T05:10:32.248104
+mistral:latest_local_baseline_qa,mistral:latest,qa,305,1901,1901,True,17210.771999999997,2026-01-23T05:10:49.458996
+mistral:latest_local_baseline_qa,mistral:latest,qa,306,Bolton,Bolton,True,13472.136,2026-01-23T05:11:02.931188
+mistral:latest_local_baseline_qa,mistral:latest,qa,307,Matthew Boulton,George Cayley,False,21430.591,2026-01-23T05:11:24.361813
+mistral:latest_local_baseline_qa,mistral:latest,qa,308,Leonberger,The Leonberger is a giant dog breed.,False,10639.402,2026-01-23T05:11:35.001269
+mistral:latest_local_baseline_qa,mistral:latest,qa,309,Yes,yes,True,12703.98,2026-01-23T05:11:47.705262
+mistral:latest_local_baseline_qa,mistral:latest,qa,310,Frozen (produced first),2013,False,18239.128999999997,2026-01-23T05:12:05.944445
+mistral:latest_local_baseline_qa,mistral:latest,qa,311,Rolling Stone,Rolling Stone,True,9677.002999999999,2026-01-23T05:12:15.621547
+mistral:latest_local_baseline_qa,mistral:latest,qa,312,"United States (specifically Battle Creek, Michigan)","Battle Creek, Michigan",False,16221.681,2026-01-23T05:12:31.843249
+mistral:latest_local_baseline_qa,mistral:latest,qa,313,Ava DuVernay,Am Rong,False,17291.114,2026-01-23T05:12:49.134405
+mistral:latest_local_baseline_qa,mistral:latest,qa,314,"It took Duffy approximately 1 year and 9 months to sell 2 million copies of her album ""Rockferry"" in the UK, breaking a twenty-year-old record.",29,False,27885.114999999998,2026-01-23T05:13:17.019542
+mistral:latest_local_baseline_qa,mistral:latest,qa,315,"Brooklyn, New York","Bay Ridge, Brooklyn",False,11832.044,2026-01-23T05:13:28.851663
+mistral:latest_local_baseline_qa,mistral:latest,qa,316,Old Northumbrian,Northumbrian,False,17961.108,2026-01-23T05:13:46.812795
+mistral:latest_local_baseline_qa,mistral:latest,qa,317,"Lake Louisvilla is located within Louisville Metro, which includes parts of Jefferson County and Bullitt County in Kentucky.",Oldham County,False,27385.581,2026-01-23T05:14:14.198466
+mistral:latest_local_baseline_qa,mistral:latest,qa,318,No,no,True,11764.994,2026-01-23T05:14:25.963560
+mistral:latest_local_baseline_qa,mistral:latest,qa,319,Little Mix,The Saturdays,False,19864.791,2026-01-23T05:14:45.828362
+mistral:latest_local_baseline_qa,mistral:latest,qa,320,John Fogerty,Serri,False,14470.193,2026-01-23T05:15:00.298614
+mistral:latest_local_baseline_qa,mistral:latest,qa,321,Women's World Cup,international football competition,False,21670.242,2026-01-23T05:15:21.968892
+mistral:latest_local_baseline_qa,mistral:latest,qa,322,James Baldwin (born 1924),1944,False,21544.158,2026-01-23T05:15:43.513158
+mistral:latest_local_baseline_qa,mistral:latest,qa,323,"Green Day (Berkeley, California)",Wilmette,False,11867.632,2026-01-23T05:15:55.380904
+mistral:latest_local_baseline_qa,mistral:latest,qa,324,Sophocles' Oedipus Rex (Oedipus Tyrannus),Oedipus Rex,False,25429.94,2026-01-23T05:16:20.810920
+mistral:latest_local_baseline_qa,mistral:latest,qa,325,Both Katherine Waterston and Chrisann Brennan have connections to the entertainment industry.,Steve Jobs,False,16683.971,2026-01-23T05:16:37.494951
+mistral:latest_local_baseline_qa,mistral:latest,qa,326,Kang,Kodos,False,11721.051,2026-01-23T05:16:49.216123
+mistral:latest_local_baseline_qa,mistral:latest,qa,327,"""The College Dropout"" (with Dwele as a featured artist on ""All Falls Down"")",My Beautiful Dark Twisted Fantasy,False,18799.733,2026-01-23T05:17:08.015955
+mistral:latest_local_baseline_qa,mistral:latest,qa,328,Yes,yes,True,18397.832000000002,2026-01-23T05:17:26.413845
+mistral:latest_local_baseline_qa,mistral:latest,qa,329,"Kunming, City of Eternal Spring",Spring city,False,15621.212,2026-01-23T05:17:42.035101
+mistral:latest_local_baseline_qa,mistral:latest,qa,330,New York City,Philadelphia,False,13062.559000000001,2026-01-23T05:17:55.097805
+mistral:latest_local_baseline_qa,mistral:latest,qa,331,Baptistery of San Giovanni,a minor basilica,False,17626.532,2026-01-23T05:18:12.724415
+mistral:latest_local_baseline_qa,mistral:latest,qa,332,"It is not possible to provide an accurate number of copies sold for ""The Lord of the Rings"" book series as a whole.",150 million copies,False,30127.845,2026-01-23T05:18:42.852312
+mistral:latest_local_baseline_qa,mistral:latest,qa,333,Aqua,Aqua,True,19404.873,2026-01-23T05:19:02.257294
+mistral:latest_local_baseline_qa,mistral:latest,qa,334,Reynolds v. Sims (1964),1964,False,16748.004999999997,2026-01-23T05:19:19.005322
+mistral:latest_local_baseline_qa,mistral:latest,qa,335,CBS,CBS,True,14997.941,2026-01-23T05:19:34.003285
+mistral:latest_local_baseline_qa,mistral:latest,qa,336,Pakistan,Pakistani,False,13096.057999999999,2026-01-23T05:19:47.099431
+mistral:latest_local_baseline_qa,mistral:latest,qa,337,Franki Valli sang with The Four Seasons,The Four Seasons,False,20757.841,2026-01-23T05:20:07.857310
+mistral:latest_local_baseline_qa,mistral:latest,qa,338,Yes,no,False,19387.414,2026-01-23T05:20:27.244789
+mistral:latest_local_baseline_qa,mistral:latest,qa,339,"The capacity of the Rose Bowl is 90,888 spectators.","76,416",False,22521.957000000002,2026-01-23T05:20:49.766789
+mistral:latest_local_baseline_qa,mistral:latest,qa,340,The current drummer of Khalid's band is not publicly known.,Matt Flynn,False,18896.946,2026-01-23T05:21:08.663813
+mistral:latest_local_baseline_qa,mistral:latest,qa,341,Happy Death Day,Happy Death Day,True,16435.954999999998,2026-01-23T05:21:25.099780
+mistral:latest_local_baseline_qa,mistral:latest,qa,342,Gerry Adams,"Gerard ""Gerry"" Adams",False,20594.035,2026-01-23T05:21:45.693873
+mistral:latest_local_baseline_qa,mistral:latest,qa,343,Battle of Belleau Wood,The Battle of Belleau Wood,False,16442.844999999998,2026-01-23T05:22:02.136773
+mistral:latest_local_baseline_qa,mistral:latest,qa,344,Royal Australian Navy,Australian Defence Force,False,17401.519,2026-01-23T05:22:19.538343
+mistral:latest_local_baseline_qa,mistral:latest,qa,345,"Approximately 430,000 people","about 450,000",False,15704.385999999999,2026-01-23T05:22:35.242756
+mistral:latest_local_baseline_qa,mistral:latest,qa,346,West Point Foundry,West Point Iron and Cannon Foundry,False,17911.958,2026-01-23T05:22:53.154781
+mistral:latest_local_baseline_qa,mistral:latest,qa,347,Jack Ryan (from The Sum of All Fears),Jack Ryan,False,21922.942,2026-01-23T05:23:15.077791
+mistral:latest_local_baseline_qa,mistral:latest,qa,348,Pomegranate seeds,tomato,False,20586.641,2026-01-23T05:23:35.664446
+mistral:latest_local_baseline_qa,mistral:latest,qa,349,2009,2009,True,20839.548,2026-01-23T05:23:56.504182
+mistral:latest_local_baseline_qa,mistral:latest,qa,350,"February 17, 2017","September 8, 2017",False,19085.517,2026-01-23T05:24:15.589760
+mistral:latest_local_baseline_qa,mistral:latest,qa,351,J. M. Barrie,Edward Franklin Albee III,False,20726.408,2026-01-23T05:24:36.316202
+mistral:latest_local_baseline_qa,mistral:latest,qa,352,Yes,yes,True,14441.55,2026-01-23T05:24:50.757775
+mistral:latest_local_baseline_qa,mistral:latest,qa,353,Impresario,impresario,True,18343.078999999998,2026-01-23T05:25:09.100899
+mistral:latest_local_baseline_qa,mistral:latest,qa,354,Yes,no,False,17310.929,2026-01-23T05:25:26.411837
+mistral:latest_local_baseline_qa,mistral:latest,qa,355,Yes,no,False,16523.626,2026-01-23T05:25:42.935544
+mistral:latest_local_baseline_qa,mistral:latest,qa,356,Worcester County,Worcester County,True,18912.019,2026-01-23T05:26:01.847688
+mistral:latest_local_baseline_qa,mistral:latest,qa,357,J. G. Farrell,Farrell,False,23213.396,2026-01-23T05:26:25.061127
+mistral:latest_local_baseline_qa,mistral:latest,qa,358,New York City,modern-day New York City,False,19294.919,2026-01-23T05:26:44.356083
+mistral:latest_local_baseline_qa,mistral:latest,qa,359,Warner Animation Group,"Dan Lin, Roy Lee, Phil Lord and Christopher Miller",False,12313.413,2026-01-23T05:26:56.669516
+mistral:latest_local_baseline_qa,mistral:latest,qa,360,Windsor Castle,reigning monarch of the United Kingdom,False,25514.308,2026-01-23T05:27:22.183860
+mistral:latest_local_baseline_qa,mistral:latest,qa,361,St. Louis County,Saint Louis County,False,13370.783,2026-01-23T05:27:35.554779
+mistral:latest_local_baseline_qa,mistral:latest,qa,362,Phil Collins,Phil Collins,True,23220.744,2026-01-23T05:27:58.775608
+mistral:latest_local_baseline_qa,mistral:latest,qa,363,Horror media,video game,False,15123.511,2026-01-23T05:28:13.899183
+mistral:latest_local_baseline_qa,mistral:latest,qa,364,"Edwin Lutyens graduated from the Royal Military Academy, Woolwich.",Cambridge University,False,24440.031000000003,2026-01-23T05:28:38.339238
+mistral:latest_local_baseline_qa,mistral:latest,qa,365,"His latest album is ""Anoyo"" released in 2021.",Love Streams,False,16842.648,2026-01-23T05:28:55.181975
+mistral:latest_local_baseline_qa,mistral:latest,qa,366,Lowe's,Lowe's,True,20016.622000000003,2026-01-23T05:29:15.198785
+mistral:latest_local_baseline_qa,mistral:latest,qa,367,First African American to win the Heisman Trophy,first freshman to finish as the runner-up,False,18976.976,2026-01-23T05:29:34.175779
+mistral:latest_local_baseline_qa,mistral:latest,qa,368,1988,1987,False,16235.169,2026-01-23T05:29:50.410977
+mistral:latest_local_baseline_qa,mistral:latest,qa,369,James Packer,James Packer,True,10579.015,2026-01-23T05:30:00.990091
+mistral:latest_local_baseline_qa,mistral:latest,qa,370,Movies,documentary,False,8496.618,2026-01-23T05:30:09.486951
+mistral:latest_local_baseline_qa,mistral:latest,qa,371,United Kingdom,England,False,13695.947,2026-01-23T05:30:23.182917
+mistral:latest_local_baseline_qa,mistral:latest,qa,372,Jung Woo-sung,Jung Yun-ho,False,21319.31,2026-01-23T05:30:44.502239
+mistral:latest_local_baseline_qa,mistral:latest,qa,373,Hot toddy,Hot toddy,True,20685.067,2026-01-23T05:31:05.187522
+mistral:latest_local_baseline_qa,mistral:latest,qa,374,2017,2017,True,14550.211,2026-01-23T05:31:19.737757
+mistral:latest_local_baseline_qa,mistral:latest,qa,375,John Charles Daly,The Late Late Show,False,19239.419,2026-01-23T05:31:38.977186
+mistral:latest_local_baseline_qa,mistral:latest,qa,376,Hollywood Thoroughbred Racing,Hudson Bay Mining and Smelting Company,False,18888.31,2026-01-23T05:31:57.865563
+mistral:latest_local_baseline_qa,mistral:latest,qa,377,Risom Furniture,Scandinavian design,False,18526.073,2026-01-23T05:32:16.391715
+mistral:latest_local_baseline_qa,mistral:latest,qa,378,"""The Hunger Games: Catching Fire""",Constantine,False,16316.082000000002,2026-01-23T05:32:32.707834
+mistral:latest_local_baseline_qa,mistral:latest,qa,379,The Houston Astrodome qualifies as the Eighth Wonder of the World subjectively due to its innovative design and groundbreaking features in sports stadium construction.,comparable to the seven Wonders of the World,False,25558.6,2026-01-23T05:32:58.266465
+mistral:latest_local_baseline_qa,mistral:latest,qa,380,José Echegaray y Eizaguirre,José Echegaray y Eizaguirre,True,19789.39,2026-01-23T05:33:18.055953
+mistral:latest_local_baseline_qa,mistral:latest,qa,381,The Doncaster Belles played against Arsenal Ladies in the 1994 FA Women's Cup Final held at Glanford Park.,Knowsley United Women,False,39986.975,2026-01-23T05:33:58.042950
+mistral:latest_local_baseline_qa,mistral:latest,qa,382,Pink (album),Blue,False,19487.217,2026-01-23T05:34:17.530311
+mistral:latest_local_baseline_qa,mistral:latest,qa,383,Storm King Art Center,Valhalla Highlands Historic District,False,17454.048,2026-01-23T05:34:34.984555
+mistral:latest_local_baseline_qa,mistral:latest,qa,384,Philip K. Dick,Philip K. Dick,True,17297.715,2026-01-23T05:34:52.282315
+mistral:latest_local_baseline_qa,mistral:latest,qa,385,New York Giants,New York Giants,True,27856.857,2026-01-23T05:35:20.139283
+mistral:latest_local_baseline_qa,mistral:latest,qa,386,1588,1961,False,15140.48,2026-01-23T05:35:35.279847
+mistral:latest_local_baseline_qa,mistral:latest,qa,387,Copenhagen,Copenhagen,True,17271.199,2026-01-23T05:35:52.551238
+mistral:latest_local_baseline_qa,mistral:latest,qa,388,"Unfortunately, it is not possible to determine a specific individual based on the provided information.",middle America,False,30260.135,2026-01-23T05:36:22.811416
+mistral:latest_local_baseline_qa,mistral:latest,qa,389,Paoli Dam,Soha Ali Khan,False,19133.956000000002,2026-01-23T05:36:41.945423
+mistral:latest_local_baseline_qa,mistral:latest,qa,390,Horror movies,South Korean horror film,False,11356.216,2026-01-23T05:36:53.301709
+mistral:latest_local_baseline_qa,mistral:latest,qa,391,Raven Goodwin,Lucas Stephen Grabeel,False,14831.395,2026-01-23T05:37:08.133114
+mistral:latest_local_baseline_qa,mistral:latest,qa,392,"""Before I Wake""",American supernatural psychological horror film,False,13681.31,2026-01-23T05:37:21.814449
+mistral:latest_local_baseline_qa,mistral:latest,qa,393,Waltham Abbey (Essex County),Essex,False,19872.192,2026-01-23T05:37:41.686658
+mistral:latest_local_baseline_qa,mistral:latest,qa,394,Kenneth MacMillan,Peter Hall,False,16491.132,2026-01-23T05:37:58.177899
+mistral:latest_local_baseline_qa,mistral:latest,qa,395,French Open,French Open,True,19557.755,2026-01-23T05:38:17.735776
+mistral:latest_local_baseline_qa,mistral:latest,qa,396,Bismarck,Bismarck,True,12800.231,2026-01-23T05:38:30.536113
+mistral:latest_local_baseline_qa,mistral:latest,qa,397,Inter Milan,Premier League club Manchester United and the England national team,False,15604.395999999999,2026-01-23T05:38:46.140562
+mistral:latest_local_baseline_qa,mistral:latest,qa,398,Crytek,Massive Entertainment,False,13607.014,2026-01-23T05:38:59.747657
+mistral:latest_local_baseline_qa,mistral:latest,qa,399,Google,Portal A Interactive,False,13561.438,2026-01-23T05:39:13.309141
+mistral:latest_local_baseline_qa,mistral:latest,qa,400,University of Durham,King George IV,False,18745.171,2026-01-23T05:39:32.054325
+mistral:latest_local_baseline_qa,mistral:latest,qa,401,Icehouse,Icehouse pieces,False,16853.368,2026-01-23T05:39:48.907783
+mistral:latest_local_baseline_qa,mistral:latest,qa,402,The Rolling Stones,ZZ Top,False,16457.375,2026-01-23T05:40:05.365260
+mistral:latest_local_baseline_qa,mistral:latest,qa,403,"The Indian actor who starred in ""Mera Damad"" entered the film industry in or before 2013.",1977,False,21787.09,2026-01-23T05:40:27.152605
+mistral:latest_local_baseline_qa,mistral:latest,qa,404,1974-1983,1963 to 1991,False,16300.354,2026-01-23T05:40:43.452977
+mistral:latest_local_baseline_qa,mistral:latest,qa,405,"Renée Fleming was born in Indiana, United States.","Laurel, Mississippi",False,14310.239,2026-01-23T05:40:57.763564
+mistral:latest_local_baseline_qa,mistral:latest,qa,406,Gallery,"arose on the ""Playboy"" magazine pattern in the 1970s.",False,16303.113,2026-01-23T05:41:14.066688
+mistral:latest_local_baseline_qa,mistral:latest,qa,407,Ian McEwan,Langston Hughes,False,26914.263,2026-01-23T05:41:40.981010
+mistral:latest_local_baseline_qa,mistral:latest,qa,408,Unable to determine due to lack of specific location.,"728,000 ft²",False,21944.505,2026-01-23T05:42:02.925598
+mistral:latest_local_baseline_qa,mistral:latest,qa,409,"Eminem and Royce da 5'9""","Royce da 5'9"" (Bad) and Eminem (Evil)",False,30793.208,2026-01-23T05:42:33.718928
+mistral:latest_local_baseline_qa,mistral:latest,qa,410,Shanghai,Shanghai,True,18256.8,2026-01-23T05:42:51.975780
+mistral:latest_local_baseline_qa,mistral:latest,qa,411,Tim Burton,Terry Gilliam,False,22702.985,2026-01-23T05:43:14.678797
+mistral:latest_local_baseline_qa,mistral:latest,qa,412,French,Lithuanian-born French,False,12886.665,2026-01-23T05:43:27.565499
+mistral:latest_local_baseline_qa,mistral:latest,qa,413,The VMAQT-1 logo heralds the death of an aircraft or aircrew under their jurisdiction.,a family member,False,27873.025999999998,2026-01-23T05:43:55.438555
+mistral:latest_local_baseline_qa,mistral:latest,qa,414,John Bregar,Douglas Jackson,False,15991.616,2026-01-23T05:44:11.430219
+mistral:latest_local_baseline_qa,mistral:latest,qa,415,Dirty Pretty Things,Dirty Pretty Things,True,9629.262,2026-01-23T05:44:21.059599
+mistral:latest_local_baseline_qa,mistral:latest,qa,416,Captain Kangaroo,The Itchy & Scratchy Show,False,13047.841,2026-01-23T05:44:34.107453
+mistral:latest_local_baseline_qa,mistral:latest,qa,417,Wilton Mall,Viaport Rotterdam,False,16715.308,2026-01-23T05:44:50.822775
+mistral:latest_local_baseline_qa,mistral:latest,qa,418,Stephen Jackson,signing free agent Chauncey Billups,False,17469.875,2026-01-23T05:45:08.292699
+mistral:latest_local_baseline_qa,mistral:latest,qa,419,Unable to determine the population without knowing the specific city or location.,"51,271",False,19457.350000000002,2026-01-23T05:45:27.750098
+mistral:latest_local_baseline_qa,mistral:latest,qa,420,No,no,True,17555.271999999997,2026-01-23T05:45:45.305385
+mistral:latest_local_baseline_qa,mistral:latest,qa,421,Documentaries,documentary,False,23755.489,2026-01-23T05:46:09.060934
+mistral:latest_local_baseline_qa,mistral:latest,qa,422,10 (since Shadows in Flight is the tenth novel),fifteen,False,18266.354,2026-01-23T05:46:27.327430
+mistral:latest_local_baseline_qa,mistral:latest,qa,423,Offensive Coordinator and Wide Receivers Coach,defensive coordinator,False,19102.2,2026-01-23T05:46:46.429645
+mistral:latest_local_baseline_qa,mistral:latest,qa,424,Tom Hawkins stands at a height of 203 cm (6 feet 8 inches).,1.95 m,False,19506.855000000003,2026-01-23T05:47:05.936540
+mistral:latest_local_baseline_qa,mistral:latest,qa,425,MGM Resorts International,MGM Resorts International,True,14954.568,2026-01-23T05:47:20.891129
+mistral:latest_local_baseline_qa,mistral:latest,qa,426,Bedknobs and Broomsticks,Bedknobs and Broomsticks,True,15169.378,2026-01-23T05:47:36.060535
+mistral:latest_local_baseline_qa,mistral:latest,qa,427,"The New River in Chilhowie, Virginia",Holston River,False,22189.193,2026-01-23T05:47:58.249751
+mistral:latest_local_baseline_qa,mistral:latest,qa,428,Conservative Party,British Conservative Party,False,21300.453999999998,2026-01-23T05:48:19.550249
+mistral:latest_local_baseline_qa,mistral:latest,qa,429,Bryan Newton,Wes Archer,False,23719.019,2026-01-23T05:48:43.269321
+mistral:latest_local_baseline_qa,mistral:latest,qa,430,Collingwood Football Club,Geelong Football Club,False,16538.208000000002,2026-01-23T05:48:59.807582
+mistral:latest_local_baseline_qa,mistral:latest,qa,431,No,no,True,17822.959000000003,2026-01-23T05:49:17.630592
+mistral:latest_local_baseline_qa,mistral:latest,qa,432,Delmer Daves,Delmer Lawrence Daves,False,17732.374,2026-01-23T05:49:35.363048
+mistral:latest_local_baseline_qa,mistral:latest,qa,433,X Ambassadors,X Ambassadors,True,20656.756,2026-01-23T05:49:56.019884
+mistral:latest_local_baseline_qa,mistral:latest,qa,434,Universal Pictures,Walt Disney Productions,False,17237.608,2026-01-23T05:50:13.257533
+mistral:latest_local_baseline_qa,mistral:latest,qa,435,The River Stour is approximately 93 miles (149 kilometers) long.,2844 km,False,20447.099000000002,2026-01-23T05:50:33.704721
+mistral:latest_local_baseline_qa,mistral:latest,qa,436,The location of Tyler Kalinoski's school is unknown.,"located in Olathe, Kansas",False,18514.618,2026-01-23T05:50:52.219356
+mistral:latest_local_baseline_qa,mistral:latest,qa,437,World Boxing Council (WBC),"""The Ring"" magazine",False,23539.351,2026-01-23T05:51:15.758743
+mistral:latest_local_baseline_qa,mistral:latest,qa,438,1905,1909,False,19352.022,2026-01-23T05:51:35.110794
+mistral:latest_local_baseline_qa,mistral:latest,qa,439,Cannes,"Sun Valley, Idaho",False,24230.722,2026-01-23T05:51:59.341597
+mistral:latest_local_baseline_qa,mistral:latest,qa,440,President of the United States,President of the United States,True,23605.792,2026-01-23T05:52:22.947504
+mistral:latest_local_baseline_qa,mistral:latest,qa,441,Benji (1974),The Bears and I,False,47347.322,2026-01-23T05:53:10.294921
+mistral:latest_local_baseline_qa,mistral:latest,qa,442,"""Sexual Behavior in the Human Male"" by Alfred C. Kinsey, Wardell B. Pomeroy, Clyde E. Martin, and Paul H. Gebhard",Patterns of Sexual Behavior,False,32085.698,2026-01-23T05:53:42.380687
+mistral:latest_local_baseline_qa,mistral:latest,qa,443,Phil LaMarr,Larry Richard Drake,False,14683.547,2026-01-23T05:53:57.064290
+mistral:latest_local_baseline_qa,mistral:latest,qa,444,Willy Wonka & the Chocolate Factory,Bedknobs and Broomsticks,False,22345.108,2026-01-23T05:54:19.409495
+mistral:latest_local_baseline_qa,mistral:latest,qa,445,"96 Albert Square, Walford (fictional)","46 Albert Square, Walford, London E20",False,22849.132,2026-01-23T05:54:42.258711
+mistral:latest_local_baseline_qa,mistral:latest,qa,446,Alfred Hitchcock Presents,Darkroom,False,16685.34,2026-01-23T05:54:58.944118
+mistral:latest_local_baseline_qa,mistral:latest,qa,447,Star Media Group Limited (Cayman Islands),Phoenix Television,False,23140.045000000002,2026-01-23T05:55:22.084176
+mistral:latest_local_baseline_qa,mistral:latest,qa,448,"""Death Proof""",Planet Terror,False,23456.413999999997,2026-01-23T05:55:45.540648
+mistral:latest_local_baseline_qa,mistral:latest,qa,449,Peshwa,"""Peshwa"" (Prime Minister)",False,20044.792,2026-01-23T05:56:05.585481
+mistral:latest_local_baseline_qa,mistral:latest,qa,450,Donald Trump Jr.,Donald Trump Jr.,True,10768.858,2026-01-23T05:56:16.354397
+mistral:latest_local_baseline_qa,mistral:latest,qa,451,Lord Dunmore,Royal Governor Lord Dunmore,False,21312.573,2026-01-23T05:56:37.667017
+mistral:latest_local_baseline_qa,mistral:latest,qa,452,Los Únicos,Graduados,False,18883.624,2026-01-23T05:56:56.550769
+mistral:latest_local_baseline_qa,mistral:latest,qa,453,Private Secretary,Private Secretary and Treasurer,False,21257.449,2026-01-23T05:57:17.808297
+mistral:latest_local_baseline_qa,mistral:latest,qa,454,No,no,True,20579.805,2026-01-23T05:57:38.388238
+mistral:latest_local_baseline_qa,mistral:latest,qa,455,Ogallala Aquifer,Ogallala Aquifer,True,22906.795,2026-01-23T05:58:01.295084
+mistral:latest_local_baseline_qa,mistral:latest,qa,456,Ibn Arabi,ibnʿArabī,False,16339.850999999999,2026-01-23T05:58:17.634998
+mistral:latest_local_baseline_qa,mistral:latest,qa,457,Freyja's tales are part of Norse mythology.,"various deities, beings, and heroes",False,17127.386000000002,2026-01-23T05:58:34.762462
+mistral:latest_local_baseline_qa,mistral:latest,qa,458,1984 Asian Cup,1984 South Asian Games,False,21555.624000000003,2026-01-23T05:58:56.318199
+mistral:latest_local_baseline_qa,mistral:latest,qa,459,Earl of Granard (John George Vesey FitzGerald),Viscount Cranborne,False,20698.056,2026-01-23T05:59:17.016367
+mistral:latest_local_baseline_qa,mistral:latest,qa,460,Gambino crime family,Kansas City crime family,False,12652.163,2026-01-23T05:59:29.668674
+mistral:latest_local_baseline_qa,mistral:latest,qa,461,"Richmond, Victoria",Albert Park,False,18629.805,2026-01-23T05:59:48.298531
+mistral:latest_local_baseline_qa,mistral:latest,qa,462,"The first Asian Games were held in New Delhi, India in 1951.",in 1896,False,25029.59,2026-01-23T06:00:13.328203
+mistral:latest_local_baseline_qa,mistral:latest,qa,463,Unbreakable,Unbreakable,True,18001.319,2026-01-23T06:00:31.329588
+mistral:latest_local_baseline_qa,mistral:latest,qa,464,Human character,Apatosaurus,False,14204.923,2026-01-23T06:00:45.534565
+mistral:latest_local_baseline_qa,mistral:latest,qa,465,"""Futurama""",BraveStarr,False,16924.286,2026-01-23T06:01:02.458949
+mistral:latest_local_baseline_qa,mistral:latest,qa,466,Elephants are connected to Gajabrishta because it is a legendary city associated with Hindu mythology and elephants are considered sacred animals in Hinduism.,Sanskrit,False,29372.815,2026-01-23T06:01:31.831777
+mistral:latest_local_baseline_qa,mistral:latest,qa,467,Battle of Manila (1571),Battle of Guam,False,15240.739,2026-01-23T06:01:47.072606
+mistral:latest_local_baseline_qa,mistral:latest,qa,468,Mark Waters,Martha Coolidge,False,14948.624,2026-01-23T06:02:02.021264
+mistral:latest_local_baseline_qa,mistral:latest,qa,469,"""A Few Less Men"" (2016)",Mr. Church,False,29907.965999999997,2026-01-23T06:02:31.929330
+mistral:latest_local_baseline_qa,mistral:latest,qa,470,Actresses,director,False,14326.196,2026-01-23T06:02:46.255745
+mistral:latest_local_baseline_qa,mistral:latest,qa,471,Human Resources Consulting,"Executive Search, Board Consulting",False,14405.95,2026-01-23T06:03:00.661712
+mistral:latest_local_baseline_qa,mistral:latest,qa,472,Authors,author,False,11860.31,2026-01-23T06:03:12.522124
+mistral:latest_local_baseline_qa,mistral:latest,qa,473,Roman Catholic Church,The Catholic Church in Ireland,False,14282.673,2026-01-23T06:03:26.804818
+mistral:latest_local_baseline_qa,mistral:latest,qa,474,"""Bridge to Terabithia"" was filmed in North Carolina and Virginia.","Edmonton, Alberta",False,23243.738,2026-01-23T06:03:50.048659
+mistral:latest_local_baseline_qa,mistral:latest,qa,475,Sean Hannity,Charles Joseph,False,16471.896,2026-01-23T06:04:06.520602
+mistral:latest_local_baseline_qa,mistral:latest,qa,476,NCAA Division I Football Bowl Subdivision (FBS),NCAA Division I FBS football,False,22516.242,2026-01-23T06:04:29.036946
+mistral:latest_local_baseline_qa,mistral:latest,qa,477,Tea Moderna,Tea Moderna,True,12669.337000000001,2026-01-23T06:04:41.706446
+mistral:latest_local_baseline_qa,mistral:latest,qa,478,United States,Armenian,False,16322.053,2026-01-23T06:04:58.028532
+mistral:latest_local_baseline_qa,mistral:latest,qa,479,Alan Sugar,Kathleen O'Brien,False,18812.335,2026-01-23T06:05:16.840880
+mistral:latest_local_baseline_qa,mistral:latest,qa,480,Atlantic Records,Warner Bros,False,13659.534000000001,2026-01-23T06:05:30.500437
+mistral:latest_local_baseline_qa,mistral:latest,qa,481,Venom,Motörhead,False,16682.566000000003,2026-01-23T06:05:47.183015
+mistral:latest_local_baseline_qa,mistral:latest,qa,482,"Emilie du Chatelet contributed to the basic laws of physics by translating and annotating Isaac Newton's ""Principia Mathematica"" into French, making his work more accessible to French scientists and intellectuals.","commentary on Isaac Newton's book ""Principia""",False,35581.584,2026-01-23T06:06:22.764711
+mistral:latest_local_baseline_qa,mistral:latest,qa,483,No,no,True,15184.326000000001,2026-01-23T06:06:37.949158
+mistral:latest_local_baseline_qa,mistral:latest,qa,484,Federal prison,four months in jail,False,14210.392,2026-01-23T06:06:52.159592
+mistral:latest_local_baseline_qa,mistral:latest,qa,485,Leicester City was founded in 1884,1963,False,13924.759,2026-01-23T06:07:06.084366
+mistral:latest_local_baseline_qa,mistral:latest,qa,486,Traditional Icelandic music (Tappi Tíkarrass) and Rock music (INXS),rock,False,19549.873000000003,2026-01-23T06:07:25.634269
+mistral:latest_local_baseline_qa,mistral:latest,qa,487,"Portal 2 is not part of Half-Life 2, but it shares a puzzle-platform video game mechanic with the latter.",Gateways,False,30742.627,2026-01-23T06:07:56.376949
+mistral:latest_local_baseline_qa,mistral:latest,qa,488,Aldosterone,zona glomerulosa,False,17309.993,2026-01-23T06:08:13.687040
+mistral:latest_local_baseline_qa,mistral:latest,qa,489,None of the Senate seats will be contested during the midterm elections that Nancy Soderberg has filed to run for Congress in.,33,False,24380.367,2026-01-23T06:08:38.067460
+mistral:latest_local_baseline_qa,mistral:latest,qa,490,Fisher v. University of Texas at Austin (2016),Mississippi University for Women,False,20226.185,2026-01-23T06:08:58.293738
+mistral:latest_local_baseline_qa,mistral:latest,qa,491,Sarah Vaughan,Stacey Kent,False,18670.59,2026-01-23T06:09:16.964395
+mistral:latest_local_baseline_qa,mistral:latest,qa,492,1964,1966,False,14664.673999999999,2026-01-23T06:09:31.629087
+mistral:latest_local_baseline_qa,mistral:latest,qa,493,DTM (Deutsche Tourenwagen Masters),DTM,False,29030.697,2026-01-23T06:10:00.659797
+mistral:latest_local_baseline_qa,mistral:latest,qa,494,1999,2002,False,19889.972,2026-01-23T06:10:20.549816
+mistral:latest_local_baseline_qa,mistral:latest,qa,495,"As of 2021, there are over 4,800 Tim Hortons locations worldwide.","4,613",False,20706.734999999997,2026-01-23T06:10:41.256607
+mistral:latest_local_baseline_qa,mistral:latest,qa,496,"Inglewood, California",lower Manhattan,False,15896.699,2026-01-23T06:10:57.153348
+mistral:latest_local_baseline_qa,mistral:latest,qa,497,2017,137th,False,19542.046,2026-01-23T06:11:16.695435
+mistral:latest_local_baseline_qa,mistral:latest,qa,498,Ronald Reagan,Ronald Wilson Reagan,False,20271.335,2026-01-23T06:11:36.966798
+mistral:latest_local_baseline_qa,mistral:latest,qa,499,Documentary,documentary,True,11796.447,2026-01-23T06:11:48.763288
+mistral:latest_local_baseline_qa,mistral:latest,qa,500,"""Save the Green Planet!""",a scholar,False,21242.782,2026-01-23T06:12:10.006114
+mistral:latest_local_baseline_qa,mistral:latest,qa,501,London,"New York City, New York",False,23710.796,2026-01-23T06:12:33.717009
+mistral:latest_local_baseline_qa,mistral:latest,qa,502,158 passengers,219,False,15027.488,2026-01-23T06:12:48.744543
+mistral:latest_local_baseline_qa,mistral:latest,qa,503,"March 12, 1761",22 November,False,16073.581999999999,2026-01-23T06:13:04.818145
+mistral:latest_local_baseline_qa,mistral:latest,qa,504,Not applicable (as the car is fictional),1964 to 1974,False,21989.729,2026-01-23T06:13:26.807887
+mistral:latest_local_baseline_qa,mistral:latest,qa,505,Honda Verio,Honda Ballade,False,14862.136,2026-01-23T06:13:41.670070
+mistral:latest_local_baseline_qa,mistral:latest,qa,506,Gasherbrum II,It lies two kilometres WSW of Mount Everest.,False,29274.162,2026-01-23T06:14:10.944277
+mistral:latest_local_baseline_qa,mistral:latest,qa,507,Magdalen College,Magdalen College,True,15415.47,2026-01-23T06:14:26.360089
+mistral:latest_local_baseline_qa,mistral:latest,qa,508,Kew Gardens,Kew Gardens,True,17891.168,2026-01-23T06:14:44.251380
+mistral:latest_local_baseline_qa,mistral:latest,qa,509,Jay-Z,Eminem,False,14932.43,2026-01-23T06:14:59.184041
+mistral:latest_local_baseline_qa,mistral:latest,qa,510,WWE 24/7,people working in film and the performing arts,False,17180.143,2026-01-23T06:15:16.364608
+mistral:latest_local_baseline_qa,mistral:latest,qa,511,Russian,Canadian,False,11755.716,2026-01-23T06:15:28.120339
+mistral:latest_local_baseline_qa,mistral:latest,qa,512,1813,May Revolution,False,20919.76,2026-01-23T06:15:49.040151
+mistral:latest_local_baseline_qa,mistral:latest,qa,513,Directors,director and producer,False,8881.893,2026-01-23T06:15:57.922097
+mistral:latest_local_baseline_qa,mistral:latest,qa,514,"First W.A.S.P. album featuring Steven Edward Duren playing guitar is ""The Last Command"" (1985).",third,False,23050.512000000002,2026-01-23T06:16:20.972620
+mistral:latest_local_baseline_qa,mistral:latest,qa,515,Jones' Road Ground (now known as Croke Park),Dublin,False,23396.149,2026-01-23T06:16:44.368812
+mistral:latest_local_baseline_qa,mistral:latest,qa,516,"""The Ten Commandments""",Julius Caesar,False,13222.337,2026-01-23T06:16:57.591237
+mistral:latest_local_baseline_qa,mistral:latest,qa,517,Toru Takemitsu,Toshi Ichiyanagi,False,13745.343,2026-01-23T06:17:11.336602
+mistral:latest_local_baseline_qa,mistral:latest,qa,518,"West Point, New York","Kings Point, New York",False,13116.641,2026-01-23T06:17:24.453277
+mistral:latest_local_baseline_qa,mistral:latest,qa,519,Lord Chancellor,Lord Chancellor of England,False,17627.193,2026-01-23T06:17:42.080494
+mistral:latest_local_baseline_qa,mistral:latest,qa,520,Guardians of the Galaxy Vol. 2,Guardians of the Galaxy Vol. 2,True,16139.026000000002,2026-01-23T06:17:58.219648
+mistral:latest_local_baseline_qa,mistral:latest,qa,521,Sponsorship Scandal (Adscam scandal),The sponsorship scandal,False,28327.711,2026-01-23T06:18:26.547514
+mistral:latest_local_baseline_qa,mistral:latest,qa,522,Sigmund Freud,Sigmund Freud,True,18607.441000000003,2026-01-23T06:18:45.155046
+mistral:latest_local_baseline_qa,mistral:latest,qa,523,Mount Everest,Mount Everest,True,20055.278000000002,2026-01-23T06:19:05.210404
+mistral:latest_local_baseline_qa,mistral:latest,qa,524,Nobel Prize in Literature,Nobel Prize in Literature,True,15369.761,2026-01-23T06:19:20.580180
+mistral:latest_local_baseline_qa,mistral:latest,qa,525,Yes,yes,True,10861.037,2026-01-23T06:19:31.441957
+mistral:latest_local_baseline_qa,mistral:latest,qa,526,2013,1999,False,16621.777000000002,2026-01-23T06:19:48.063759
+mistral:latest_local_baseline_qa,mistral:latest,qa,527,Roland TR-909,The R-8 Human Rhythm Composer,False,19061.049,2026-01-23T06:20:07.124903
+mistral:latest_local_baseline_qa,mistral:latest,qa,528,Wavves,Social Code,False,15172.421,2026-01-23T06:20:22.297432
+mistral:latest_local_baseline_qa,mistral:latest,qa,529,"February 10, 2017",3 December,False,18348.683,2026-01-23T06:20:40.646222
+mistral:latest_local_baseline_qa,mistral:latest,qa,530,Western Allied invasion of Germany (Operation Overlord),The Western Allied invasion of Germany,False,18109.674,2026-01-23T06:20:58.755915
+mistral:latest_local_baseline_qa,mistral:latest,qa,531,No,no,True,12576.485999999999,2026-01-23T06:21:11.332429
+mistral:latest_local_baseline_qa,mistral:latest,qa,532,Luke Null is an actor who was not part of the 43rd season of Saturday Night Live.,"September 30, 2017",False,28671.22,2026-01-23T06:21:40.003661
+mistral:latest_local_baseline_qa,mistral:latest,qa,533,Sia Furler,Wiz Khalifa,False,18036.273,2026-01-23T06:21:58.039987
+mistral:latest_local_baseline_qa,mistral:latest,qa,534,2015,2016,False,18947.327,2026-01-23T06:22:16.987404
+mistral:latest_local_baseline_qa,mistral:latest,qa,535,Motion City Soundtrack,Motion City Soundtrack,True,13555.971,2026-01-23T06:22:30.543459
+mistral:latest_local_baseline_qa,mistral:latest,qa,536,Not applicable (fictional character),45th,False,17779.314,2026-01-23T06:22:48.322791
+mistral:latest_local_baseline_qa,mistral:latest,qa,537,Central Coast (Gosford),Melbourne,False,18107.751,2026-01-23T06:23:06.430570
+mistral:latest_local_baseline_qa,mistral:latest,qa,538,"Richard Hornsby was born on March 20, 1835.",28 January 1864,False,14070.19,2026-01-23T06:23:20.500778
+mistral:latest_local_baseline_qa,mistral:latest,qa,539,"The location of the sports complex where Will Brodie made his debut is not explicitly stated in ""The Chaser's War on Everything."" However, it can be assumed to be in Australia.","Alice Springs, Northern Territory",False,23429.857,2026-01-23T06:23:43.930719
+mistral:latest_local_baseline_qa,mistral:latest,qa,540,Lord Chancellor of England,Archbishop of Canterbury,False,17616.158,2026-01-23T06:24:01.546933
+mistral:latest_local_baseline_qa,mistral:latest,qa,541,"Jörgen Smit was a leader working at the Goetheanum, which is the world center for the anthroposophical movement.",member of the Executive Council of the General Anthroposophical Society,False,28609.838,2026-01-23T06:24:30.156893
+mistral:latest_local_baseline_qa,mistral:latest,qa,542,1964,1961,False,11678.063999999998,2026-01-23T06:24:41.835044
+mistral:latest_local_baseline_qa,mistral:latest,qa,543,High school diploma or GED,high school diploma or GED,True,12243.404,2026-01-23T06:24:54.078464
+mistral:latest_local_baseline_qa,mistral:latest,qa,544,Spongy Moth (Lymantria dispar),moth,False,16550.096,2026-01-23T06:25:10.628616
+mistral:latest_local_baseline_qa,mistral:latest,qa,545,"Nebula Award for Best Novel, Philip K. Dick Award, and Arthur C. Clarke Award","Nebula Award, the Philip K. Dick Award, and the Hugo Award",False,18559.069,2026-01-23T06:25:29.187698
+mistral:latest_local_baseline_qa,mistral:latest,qa,546,Methamphetamine (meth),Ephedrine,False,17619.952999999998,2026-01-23T06:25:46.807724
+mistral:latest_local_baseline_qa,mistral:latest,qa,547,Gabriela Mistral (pen name),"""Currer Bell""",False,17696.594,2026-01-23T06:26:04.504381
+mistral:latest_local_baseline_qa,mistral:latest,qa,548,Virgil van Dijk (as of 2013),Scottish Premiership club Hearts,False,25587.442,2026-01-23T06:26:30.091884
+mistral:latest_local_baseline_qa,mistral:latest,qa,549,"Horn Lake, Mississippi","Southaven, Mississippi",False,11441.477,2026-01-23T06:26:41.533400
+mistral:latest_local_baseline_qa,mistral:latest,qa,550,Subhas Chandra Bose and the Azad Hind Dal were involved in World War II.,World War II,False,24793.976000000002,2026-01-23T06:27:06.327400
+mistral:latest_local_baseline_qa,mistral:latest,qa,551,Russell Brand,Eddie Izzard,False,16219.564999999999,2026-01-23T06:27:22.547011
+mistral:latest_local_baseline_qa,mistral:latest,qa,552,No,no,True,11872.213,2026-01-23T06:27:34.419257
+mistral:latest_local_baseline_qa,mistral:latest,qa,553,"Ed Sheeran's ""Shape of You""",25,False,21259.143,2026-01-23T06:27:55.678458
+mistral:latest_local_baseline_qa,mistral:latest,qa,554,Woman's Era: Women's Magazine; Naj: Literary Magazine,fortnightly women interest magazine,False,20811.129999999997,2026-01-23T06:28:16.489608
+mistral:latest_local_baseline_qa,mistral:latest,qa,555,Shujaat Khan,Nikhil Banerjee,False,21413.997,2026-01-23T06:28:37.903661
+mistral:latest_local_baseline_qa,mistral:latest,qa,556,No,no,True,25072.693,2026-01-23T06:29:02.976470
+mistral:latest_local_baseline_qa,mistral:latest,qa,557,Yes,yes,True,13549.117,2026-01-23T06:29:16.525629
+mistral:latest_local_baseline_qa,mistral:latest,qa,558,Polypodium has more species than Aichryson.,Polypodium,False,17211.082000000002,2026-01-23T06:29:33.736742
+mistral:latest_local_baseline_qa,mistral:latest,qa,559,Carl Gustav Jung,James G. Kiernan,False,13317.273000000001,2026-01-23T06:29:47.054098
+mistral:latest_local_baseline_qa,mistral:latest,qa,560,Bill Clinton Administration,Clinton,False,19142.052,2026-01-23T06:30:06.196173
+mistral:latest_local_baseline_qa,mistral:latest,qa,561,Of Montreal,"Vib Gyor was a band that was formed in Leeds, England.",False,11715.130000000001,2026-01-23T06:30:17.911451
+mistral:latest_local_baseline_qa,mistral:latest,qa,562,Europe,Europe,True,14039.793,2026-01-23T06:30:31.951267
+mistral:latest_local_baseline_qa,mistral:latest,qa,563,New Orleans Saints,Boulder High School,False,21126.649,2026-01-23T06:30:53.077936
+mistral:latest_local_baseline_qa,mistral:latest,qa,564,Unable to determine the author due to lack of information about the specific 1993 production Madge Ryan participated in.,Euripides,False,23625.673,2026-01-23T06:31:16.703721
+mistral:latest_local_baseline_qa,mistral:latest,qa,565,Musicians,"musician, singer, and songwriter",False,19371.636,2026-01-23T06:31:36.075395
+mistral:latest_local_baseline_qa,mistral:latest,qa,566,Release date for Schitt's Creek on video on demand services will depend on official announcements.,"September 25, 2017",False,21711.828,2026-01-23T06:31:57.787242
+mistral:latest_local_baseline_qa,mistral:latest,qa,567,Four Seasons Hotels and Resorts,Las Vegas Sands company.,False,22500.585,2026-01-23T06:32:20.287929
+mistral:latest_local_baseline_qa,mistral:latest,qa,568,"""My Beautiful Dark Twisted Fantasy""",My Beautiful Dark Twisted Fantasy,False,15827.070000000002,2026-01-23T06:32:36.115050
+mistral:latest_local_baseline_qa,mistral:latest,qa,569,Church of God (Holiness),evangelical Christian,False,20530.983,2026-01-23T06:32:56.646067
+mistral:latest_local_baseline_qa,mistral:latest,qa,570,"Port Moresby, Papua New Guinea","Port Moresby, Papua New Guinea",True,20348.787,2026-01-23T06:33:16.994900
+mistral:latest_local_baseline_qa,mistral:latest,qa,571,"Mac OS X Tiger (version 10.4) was released on April 29, 2005. However, it does not have the capability to create WWF files directly.","April 29, 2005 for US$129.95",False,34348.672,2026-01-23T06:33:51.343598
+mistral:latest_local_baseline_qa,mistral:latest,qa,572,"The author of ""The First Easter Rabbit"" is unknown, as the story was not written by a well-known or credited author. However, it can be assumed that the author was someone who had a creative and imaginative mind, as they came up with an original story about the origins of the Easter Bunny.",Margery Williams,False,39336.450999999994,2026-01-23T06:34:30.680098
+mistral:latest_local_baseline_qa,mistral:latest,qa,573,Amy Poehler plays Leslie Knope in the fifth season premiere of Parks and Recreation.,Leslie Knope,False,21552.891,2026-01-23T06:34:52.233034
+mistral:latest_local_baseline_qa,mistral:latest,qa,574,Giotto di Bondone,Giotto,False,17247.801,2026-01-23T06:35:09.480847
+mistral:latest_local_baseline_qa,mistral:latest,qa,575,Start Kristiansand,IK Start,False,45736.405,2026-01-23T06:35:55.217386
+mistral:latest_local_baseline_qa,mistral:latest,qa,576,March 2013,"March 13, 2013",False,19024.985999999997,2026-01-23T06:36:14.242559
+mistral:latest_local_baseline_qa,mistral:latest,qa,577,Harvard Medical School,University of New York Upstate,False,16343.734000000002,2026-01-23T06:36:30.586343
+mistral:latest_local_baseline_qa,mistral:latest,qa,578,"Wheaton, Illinois","Tumwater, Washington",False,16770.965,2026-01-23T06:36:47.357362
+mistral:latest_local_baseline_qa,mistral:latest,qa,579,Con Air,Coyote Ugly,False,13644.163,2026-01-23T06:37:01.001559
+mistral:latest_local_baseline_qa,mistral:latest,qa,580,"""My Secret Hotel""",Queen In-hyun's Man,False,13363.703,2026-01-23T06:37:14.365293
+mistral:latest_local_baseline_qa,mistral:latest,qa,581,"Florence, Italy",Germany,False,11845.264000000001,2026-01-23T06:37:26.210598
+mistral:latest_local_baseline_qa,mistral:latest,qa,582,"""Ready to Die""","September 13, 1994",False,12426.147,2026-01-23T06:37:38.636774
+mistral:latest_local_baseline_qa,mistral:latest,qa,583,Kirk Cousins holds the NCAA record for career passing efficiency,most total touchdowns in NCAA history,False,15001.234,2026-01-23T06:37:53.638092
+mistral:latest_local_baseline_qa,mistral:latest,qa,584,King Oswiu of Northumbria,Guthred or Guthfrith,False,23048.650999999998,2026-01-23T06:38:16.686828
+mistral:latest_local_baseline_qa,mistral:latest,qa,585,"Collaboration on a William Shakespeare play written between 1588 and 1593 is likely due to multiple writing styles, use of archaic language, and inconsistencies in character development within certain plays.",linguistic analysis,False,29220.935999999998,2026-01-23T06:38:45.907830
+mistral:latest_local_baseline_qa,mistral:latest,qa,586,Vince Guaraldi,Vincent Anthony Guaraldi,False,18784.431,2026-01-23T06:39:04.692400
+mistral:latest_local_baseline_qa,mistral:latest,qa,587,"Edmund Morel was born on February 20, 1873.",1 September 1864,False,21418.109,2026-01-23T06:39:26.112827
+mistral:latest_local_baseline_qa,mistral:latest,qa,588,Democratic Republic of Congo,Republic of Chad,False,14858.567000000001,2026-01-23T06:39:40.971469
+mistral:latest_local_baseline_qa,mistral:latest,qa,589,"Symphony No. 3 in E-flat major, Op. 55 (Eroica)",Symphony No. 7,False,29842.728000000003,2026-01-23T06:40:10.814208
+mistral:latest_local_baseline_qa,mistral:latest,qa,590,Lemon Ice,orange juice,False,21539.725000000002,2026-01-23T06:40:32.353983
+mistral:latest_local_baseline_qa,mistral:latest,qa,591,Confederate Rangers,pro-Confederate,False,16560.658,2026-01-23T06:40:48.914711
+mistral:latest_local_baseline_qa,mistral:latest,qa,592,2013,2005,False,13059.184,2026-01-23T06:41:01.973921
+mistral:latest_local_baseline_qa,mistral:latest,qa,593,White Zombie's band (led by Rob Zombie),Blonde Redhead,False,15278.285,2026-01-23T06:41:17.252222
+mistral:latest_local_baseline_qa,mistral:latest,qa,594,Rolls-Royce Avon,British Bristol Olympus turbojet,False,24627.159,2026-01-23T06:41:41.879429
+mistral:latest_local_baseline_qa,mistral:latest,qa,595,Krzysztof Zanussi,Krzysztof Zanussi,True,19481.324999999997,2026-01-23T06:42:01.360838
+mistral:latest_local_baseline_qa,mistral:latest,qa,596,France,Western Europe,False,12495.554,2026-01-23T06:42:13.856557
+mistral:latest_local_baseline_qa,mistral:latest,qa,597,Simone Signoret,Hermione Baddeley,False,14995.211,2026-01-23T06:42:28.851851
+mistral:latest_local_baseline_qa,mistral:latest,qa,598,"""Finding Nemo""",Finding Nemo,False,14226.331999999999,2026-01-23T06:42:43.078252
+mistral:latest_local_baseline_qa,mistral:latest,qa,599,"January 18, 1955","July 26, 1959",False,14136.869,2026-01-23T06:42:57.215261
+mistral:latest_local_baseline_qa,mistral:latest,qa,600,Jimmy Webb,Kenny Young,False,14121.946,2026-01-23T06:43:11.337230
+mistral:latest_local_baseline_qa,mistral:latest,qa,601,Sam Raimi,Sam Raimi,True,17550.86,2026-01-23T06:43:28.888182
+mistral:latest_local_baseline_qa,mistral:latest,qa,602,T-6 Texan,North American Aviation T-6 Texan,False,19501.408000000003,2026-01-23T06:43:48.389645
+mistral:latest_local_baseline_qa,mistral:latest,qa,603,Dr. Charles Drew,T. R. M. Howard,False,16717.236,2026-01-23T06:44:05.106910
+mistral:latest_local_baseline_qa,mistral:latest,qa,604,The first leg of the 4x100m relay race,500 metres,False,23347.169,2026-01-23T06:44:28.454133
+mistral:latest_local_baseline_qa,mistral:latest,qa,605,No,no,True,17772.272,2026-01-23T06:44:46.226483
+mistral:latest_local_baseline_qa,mistral:latest,qa,606,"Bella Thorne (born October 8, 1999)",1986,False,16878.748000000003,2026-01-23T06:45:03.105930
+mistral:latest_local_baseline_qa,mistral:latest,qa,607,Political Correctness,political correctness,True,15921.391,2026-01-23T06:45:19.027388
+mistral:latest_local_baseline_qa,mistral:latest,qa,608,MTV Europe,Prof Media,False,21015.28,2026-01-23T06:45:40.042708
+mistral:latest_local_baseline_qa,mistral:latest,qa,609,Andrew Johnson,Andrew Johnson,True,16960.287,2026-01-23T06:45:57.003198
+mistral:latest_local_baseline_qa,mistral:latest,qa,610,No,yes,False,15455.18,2026-01-23T06:46:12.458500
+mistral:latest_local_baseline_qa,mistral:latest,qa,611,Yes,yes,True,15985.924,2026-01-23T06:46:28.444610
+mistral:latest_local_baseline_qa,mistral:latest,qa,612,Yes (for OK Go) and No (for Distortion Mirrors),yes,False,20012.213,2026-01-23T06:46:48.456874
+mistral:latest_local_baseline_qa,mistral:latest,qa,613,Bhabananda Deka,Prof Bhabananda Deka,False,11562.352,2026-01-23T06:47:00.019250
+mistral:latest_local_baseline_qa,mistral:latest,qa,614,"Indianapolis Motor Speedway is located at the corner of Georgetown Road and 16th Street in Speedway, Indiana.",16th Street and Georgetown Road,False,27913.814,2026-01-23T06:47:27.933083
+mistral:latest_local_baseline_qa,mistral:latest,qa,615,"""At Long Last Leave"" represented the 450th episode of The Simpsons.",show's 500th episode,False,26988.307,2026-01-23T06:47:54.921505
+mistral:latest_local_baseline_qa,mistral:latest,qa,616,Ron Paul's Revolution PAC,Citizens for a Sound Economy,False,22215.586,2026-01-23T06:48:17.137227
+mistral:latest_local_baseline_qa,mistral:latest,qa,617,Approximately 165 locations,650 locations,False,18454.018,2026-01-23T06:48:35.591320
+mistral:latest_local_baseline_qa,mistral:latest,qa,618,The Abenaki Tribe,the Pennacook people,False,20399.877,2026-01-23T06:48:55.991307
+mistral:latest_local_baseline_qa,mistral:latest,qa,619,Power Electronics,Glam metal,False,14737.015,2026-01-23T06:49:10.728378
+mistral:latest_local_baseline_qa,mistral:latest,qa,620,2019,1992,False,15493.638,2026-01-23T06:49:26.222080
+mistral:latest_local_baseline_qa,mistral:latest,qa,621,Potawatomi,Odawa,False,16034.42,2026-01-23T06:49:42.256530
+mistral:latest_local_baseline_qa,mistral:latest,qa,622,Louis XIV,Louis XIV,True,14114.5,2026-01-23T06:49:56.371041
+mistral:latest_local_baseline_qa,mistral:latest,qa,623,Marquis of Peabody (George Peabody),Ducks,False,20286.707,2026-01-23T06:50:16.657780
+mistral:latest_local_baseline_qa,mistral:latest,qa,624,Jean-Loup Chrétien,Jean-Loup Jacques Marie Chrétien,False,20214.319,2026-01-23T06:50:36.872246
+mistral:latest_local_baseline_qa,mistral:latest,qa,625,Jamaica,Ghana,False,15829.012,2026-01-23T06:50:52.701596
+mistral:latest_local_baseline_qa,mistral:latest,qa,626,Stanford University,575 acres (2.08 km²),False,13890.071,2026-01-23T06:51:06.591704
+mistral:latest_local_baseline_qa,mistral:latest,qa,627,Zachary Levi,Zachary Levi,True,15989.162,2026-01-23T06:51:22.580889
+mistral:latest_local_baseline_qa,mistral:latest,qa,628,1950,1950,True,13889.072,2026-01-23T06:51:36.470038
+mistral:latest_local_baseline_qa,mistral:latest,qa,629,Melissa Sue Anderson,Michael Seater,False,23195.493,2026-01-23T06:51:59.665549
+mistral:latest_local_baseline_qa,mistral:latest,qa,630,H&M,Carrefour,False,24939.286,2026-01-23T06:52:24.604880
+mistral:latest_local_baseline_qa,mistral:latest,qa,631,Individualist Anarchist,American schoolteacher and publisher,False,16228.923000000003,2026-01-23T06:52:40.833857
+mistral:latest_local_baseline_qa,mistral:latest,qa,632,Los Angeles Dodgers,New York Yankees,False,17878.106,2026-01-23T06:52:58.711987
+mistral:latest_local_baseline_qa,mistral:latest,qa,633,Foster's,Ballarat Bitter is a 4.9% (abv) Australian beer,False,18254.432999999997,2026-01-23T06:53:16.966454
+mistral:latest_local_baseline_qa,mistral:latest,qa,634,Apsley Cherry-Garrard,Apsley George Benet Cherry-Garrard,False,15887.293,2026-01-23T06:53:32.853767
+mistral:latest_local_baseline_qa,mistral:latest,qa,635,The Panel with striding lion led north of the gate to the inner city of Rome.,Babylon,False,24486.739,2026-01-23T06:53:57.340521
+mistral:latest_local_baseline_qa,mistral:latest,qa,636,"University of Aberdeen (Aberdeen, Scotland)","St Andrews, Fife, Scotland",False,17700.575,2026-01-23T06:54:15.041143
+mistral:latest_local_baseline_qa,mistral:latest,qa,637,Harvard University,University of Vienna,False,14072.027,2026-01-23T06:54:29.113234
+mistral:latest_local_baseline_qa,mistral:latest,qa,638,Hallmark Channel,SBS,False,20669.969999999998,2026-01-23T06:54:49.783263
+mistral:latest_local_baseline_qa,mistral:latest,qa,639,Not applicable,"""Walk Like an Egyptian""",False,9995.627,2026-01-23T06:54:59.778930
+mistral:latest_local_baseline_qa,mistral:latest,qa,640,Newsquest Media Group,Johnson Press,False,12893.97,2026-01-23T06:55:12.672919
+mistral:latest_local_baseline_qa,mistral:latest,qa,641,Jasper Carrott,Michael Patrick Smith,False,14352.452,2026-01-23T06:55:27.025394
+mistral:latest_local_baseline_qa,mistral:latest,qa,642,"The host of E! Hollywood Hold'em was Joe Hachem, an Australian professional poker player.",Irish,False,22021.598,2026-01-23T06:55:49.047066
+mistral:latest_local_baseline_qa,mistral:latest,qa,643,King Richard III of England,Prince of Denmark,False,17850.7,2026-01-23T06:56:06.897850
+mistral:latest_local_baseline_qa,mistral:latest,qa,644,"Action cameras, mounts, and accessories",natural-ingredients-only personal care products,False,12273.628,2026-01-23T06:56:19.171558
+mistral:latest_local_baseline_qa,mistral:latest,qa,645,Tom Hanks,Rosie O'Donnell,False,16022.668,2026-01-23T06:56:35.194236
+mistral:latest_local_baseline_qa,mistral:latest,qa,646,Dominick Cruz,Urijah Christopher Faber,False,25565.452,2026-01-23T06:57:00.759739
+mistral:latest_local_baseline_qa,mistral:latest,qa,647,Baron,Peer,False,14499.478,2026-01-23T06:57:15.259303
+mistral:latest_local_baseline_qa,mistral:latest,qa,648,Jake,Sean,False,13803.333,2026-01-23T06:57:29.062662
+mistral:latest_local_baseline_qa,mistral:latest,qa,649,Wired Magazine,Liberty,False,19235.81,2026-01-23T06:57:48.298622
+mistral:latest_local_baseline_qa,mistral:latest,qa,650,Approximately 6 times per year,13,False,27264.454,2026-01-23T06:58:15.563113
+mistral:latest_local_baseline_qa,mistral:latest,qa,651,"February 20, 1978","February 20, 1978",True,14777.183,2026-01-23T06:58:30.340342
+mistral:latest_local_baseline_qa,mistral:latest,qa,652,Both Mount Ida and Rhea are associated with Greek mythology.,Greek mythology,False,19372.504,2026-01-23T06:58:49.712895
+mistral:latest_local_baseline_qa,mistral:latest,qa,653,Musicians,drummer,False,15224.512,2026-01-23T06:59:04.937486
+mistral:latest_local_baseline_qa,mistral:latest,qa,654,Dundee Canal,Dundee Canal,True,12833.145999999999,2026-01-23T06:59:17.770679
+mistral:latest_local_baseline_qa,mistral:latest,qa,655,England,England,True,24628.032,2026-01-23T06:59:42.398768
+mistral:latest_local_baseline_qa,mistral:latest,qa,656,Lee Corso,Dusty Dvoracek,False,15304.75,2026-01-23T06:59:57.703569
+mistral:latest_local_baseline_qa,mistral:latest,qa,657,Tron,Tron,True,19473.623,2026-01-23T07:00:17.177263
+mistral:latest_local_baseline_qa,mistral:latest,qa,658,"""Hercules: The Musical""",Beauty and the Beast,False,21845.264,2026-01-23T07:00:39.022628
+mistral:latest_local_baseline_qa,mistral:latest,qa,659,"March 28, 1960","June 6, 1959",False,19159.287,2026-01-23T07:00:58.182023
+mistral:latest_local_baseline_qa,mistral:latest,qa,660,German Freikorps auxiliaries,Hessians,False,20891.174,2026-01-23T07:01:19.073252
+mistral:latest_local_baseline_qa,mistral:latest,qa,661,MiMA,MiMA,True,15518.801,2026-01-23T07:01:34.592131
+mistral:latest_local_baseline_qa,mistral:latest,qa,662,Atlantic Coast Conference (ACC),Big 12,False,15715.878999999999,2026-01-23T07:01:50.308024
+mistral:latest_local_baseline_qa,mistral:latest,qa,663,New York City,1926 Paris,False,15466.493,2026-01-23T07:02:05.774603
+mistral:latest_local_baseline_qa,mistral:latest,qa,664,2004,2011,False,17594.536,2026-01-23T07:02:23.369291
+mistral:latest_local_baseline_qa,mistral:latest,qa,665,"January 14, 1924",1974,False,15427.775,2026-01-23T07:02:38.797110
+mistral:latest_local_baseline_qa,mistral:latest,qa,666,Palm Springs International Airport,Trenton–Mercer Airport,False,17905.501,2026-01-23T07:02:56.702652
+mistral:latest_local_baseline_qa,mistral:latest,qa,667,Wikipedia,Wikimedia Foundation,False,13046.264000000001,2026-01-23T07:03:09.748956
+mistral:latest_local_baseline_qa,mistral:latest,qa,668,"Rachelle Amy Beinart plays Nyah Nordoff-Hall, a character in Red Tails, which follows a group of rebels on a mission. In this case, the rebels are the Tuskegee Airmen, an African American flying squadron during World War II.",stunt performances,False,26955.2,2026-01-23T07:03:36.704175
+mistral:latest_local_baseline_qa,mistral:latest,qa,669,Tennis Players,former tennis player,False,18368.655,2026-01-23T07:03:55.072903
+mistral:latest_local_baseline_qa,mistral:latest,qa,670,AMC Studios,2006,False,13725.962000000001,2026-01-23T07:04:08.798910
+mistral:latest_local_baseline_qa,mistral:latest,qa,671,United States,American,False,22779.231,2026-01-23T07:04:31.578153
+mistral:latest_local_baseline_qa,mistral:latest,qa,672,Anthony Quinn,Orson Welles,False,16347.371,2026-01-23T07:04:47.925561
+mistral:latest_local_baseline_qa,mistral:latest,qa,673,"The population of Hertford in 2011 was approximately 34,500 people.","about 26,000.",False,19057.664,2026-01-23T07:05:06.983248
+mistral:latest_local_baseline_qa,mistral:latest,qa,674,"Personal income tax, company tax, fringe benefits tax","""personal earnings"" (such as salary and wages), ""business income"" and ""capital gains""",False,23293.008,2026-01-23T07:05:30.276309
+mistral:latest_local_baseline_qa,mistral:latest,qa,675,Federation of Women's Clubs,the National Society of Daughters of the American Revolution,False,24848.869,2026-01-23T07:05:55.125242
+mistral:latest_local_baseline_qa,mistral:latest,qa,676,Call of Duty,video game,False,14003.33,2026-01-23T07:06:09.128628
+mistral:latest_local_baseline_qa,mistral:latest,qa,677,"Springfield Armory (located in Springfield, Massachusetts)","city of Springfield, Massachusetts",False,22936.059,2026-01-23T07:06:32.064706
+mistral:latest_local_baseline_qa,mistral:latest,qa,678,7 animals (dragons),15,False,19333.641,2026-01-23T07:06:51.398397
+mistral:latest_local_baseline_qa,mistral:latest,qa,679,American,American,True,9879.341999999999,2026-01-23T07:07:01.277803
+mistral:latest_local_baseline_qa,mistral:latest,qa,680,"""Family Matters""",Perfect Strangers,False,20445.01,2026-01-23T07:07:21.722855
+mistral:latest_local_baseline_qa,mistral:latest,qa,681,Education (specifically K-12),papermaking industry,False,24390.889000000003,2026-01-23T07:07:46.114503
+mistral:latest_local_baseline_qa,mistral:latest,qa,682,Nightly Show with Larry Wilmore,Chelsea Does,False,19868.582,2026-01-23T07:08:05.983180
+mistral:latest_local_baseline_qa,mistral:latest,qa,683,Lou Reed (1969),Yarrow and Stookey,False,27354.5,2026-01-23T07:08:33.337859
+mistral:latest_local_baseline_qa,mistral:latest,qa,684,5,four,False,28970.304,2026-01-23T07:09:02.308216
+mistral:latest_local_baseline_qa,mistral:latest,qa,685,John Renbourn,Eric Clapton,False,18155.094999999998,2026-01-23T07:09:20.463342
+mistral:latest_local_baseline_qa,mistral:latest,qa,686,Caligula,Gaius Julius Caesar Augustus Germanicus,False,13726.611,2026-01-23T07:09:34.189973
+mistral:latest_local_baseline_qa,mistral:latest,qa,687,Season 10,the tenth season,False,20273.817000000003,2026-01-23T07:09:54.463814
+mistral:latest_local_baseline_qa,mistral:latest,qa,688,"Helmet is a heavy metal band from Chicago, Illinois.","Brooklyn, New York",False,26540.199999999997,2026-01-23T07:10:21.004037
+mistral:latest_local_baseline_qa,mistral:latest,qa,689,Ghostkeeper is a horror film that was inspired by the legend of Dr. Jekyll and Mr. Hyde.,Wendigo,False,25299.936999999998,2026-01-23T07:10:46.303996
+mistral:latest_local_baseline_qa,mistral:latest,qa,690,Pac-12 Conference,Arizona State Sun Devils,False,19949.464,2026-01-23T07:11:06.253521
+mistral:latest_local_baseline_qa,mistral:latest,qa,691,Members of System of a Down,Armenian–American,False,11008.117,2026-01-23T07:11:17.261678
+mistral:latest_local_baseline_qa,mistral:latest,qa,692,"Dayton, Ohio",PPG Paints Arena,False,20133.399,2026-01-23T07:11:37.395163
+mistral:latest_local_baseline_qa,mistral:latest,qa,693,"John D. Archbold did not sell his oil company to any specific entity as it was broken up into several smaller companies through court order in 1911. However, one of the successor companies, Standard Oil of New Jersey (now ExxonMobil), is a possible recipient of Archbold's assets.",John D Rockefeller's Standard Oil Company,False,43593.765,2026-01-23T07:12:20.989084
+mistral:latest_local_baseline_qa,mistral:latest,qa,694,Dr. Harold Shipman,Michael Swango,False,27255.488,2026-01-23T07:12:48.244633
+mistral:latest_local_baseline_qa,mistral:latest,qa,695,Best Alternative Music Album,Best Alternative Music Album,True,24172.975000000002,2026-01-23T07:13:12.417685
+mistral:latest_local_baseline_qa,mistral:latest,qa,696,Lisa Raymond,Liezel Huber,False,21020.393,2026-01-23T07:13:33.438118
+mistral:latest_local_baseline_qa,mistral:latest,qa,697,Martin Luther (German),German,False,16665.927,2026-01-23T07:13:50.104078
+mistral:latest_local_baseline_qa,mistral:latest,qa,698,Magazines or Periodicals,magazine,False,11459.375,2026-01-23T07:14:01.563474
+mistral:latest_local_baseline_qa,mistral:latest,qa,699,Howard Fast,Howard Melvin Fast,False,18339.216,2026-01-23T07:14:19.902742
+mistral:latest_local_baseline_qa,mistral:latest,qa,700,Gull-wing doors,gull-wing doors,True,20895.943,2026-01-23T07:14:40.798777
+mistral:latest_local_baseline_qa,mistral:latest,qa,701,"Preston, England",Preston,False,15111.976,2026-01-23T07:14:55.910881
+mistral:latest_local_baseline_qa,mistral:latest,qa,702,London (Pentonville Prison),Casement's Fort,False,22838.155,2026-01-23T07:15:18.749097
+mistral:latest_local_baseline_qa,mistral:latest,qa,703,"A dependent territory can contain islands, territories, or regions that are not part of the controlling state's mainland but are still considered part of its territory.",the flags,False,26246.789,2026-01-23T07:15:44.995901
+mistral:latest_local_baseline_qa,mistral:latest,qa,704,September 1938 (with the Munich Agreement),"November 15, 1903",False,26378.697,2026-01-23T07:16:11.374881
+mistral:latest_local_baseline_qa,mistral:latest,qa,705,No,yes,False,19535.628,2026-01-23T07:16:30.910534
+mistral:latest_local_baseline_qa,mistral:latest,qa,706,Charles J. Thompson,Robert Digges Wimberly Connor,False,27080.228000000003,2026-01-23T07:16:57.990884
+mistral:latest_local_baseline_qa,mistral:latest,qa,707,"'Mean Girls' was released on April 30, 2004, while the remake of 'April Fool's Day' was released on March 19, 2018. Therefore, 'Mean Girls' was released first.",Mean Girls,False,21773.37,2026-01-23T07:17:19.764272
+mistral:latest_local_baseline_qa,mistral:latest,qa,708,Tori Amos,Tori Amos,True,17216.258,2026-01-23T07:17:36.980546
+mistral:latest_local_baseline_qa,mistral:latest,qa,709,"Toronto, Ontario",Montreal,False,14297.658,2026-01-23T07:17:51.278248
+mistral:latest_local_baseline_qa,mistral:latest,qa,710,Adam Silver,Adam Silver,True,14043.519999999999,2026-01-23T07:18:05.321777
+mistral:latest_local_baseline_qa,mistral:latest,qa,711,The NICS Improvement Amendments Act of 2007 did not cause any deaths in South Korea in 2007.,32 people,False,20867.972999999998,2026-01-23T07:18:26.189767
+mistral:latest_local_baseline_qa,mistral:latest,qa,712,Sonic Masala,Cyclic Defrost,False,14276.133,2026-01-23T07:18:40.465911
+mistral:latest_local_baseline_qa,mistral:latest,qa,713,Futurama,"""The Wonder Years""",False,15522.074,2026-01-23T07:18:55.988041
+mistral:latest_local_baseline_qa,mistral:latest,qa,714,Katie Holmes,Paula Maxine Patton,False,17001.085,2026-01-23T07:19:12.989147
+mistral:latest_local_baseline_qa,mistral:latest,qa,715,Seattle,"Santa Monica, California",False,11953.286,2026-01-23T07:19:24.942483
+mistral:latest_local_baseline_qa,mistral:latest,qa,716,Will Ferrell,Tim Allen,False,14011.201,2026-01-23T07:19:38.953695
+mistral:latest_local_baseline_qa,mistral:latest,qa,717,FEMSA,Fomento Económico Mexicano,False,19309.685,2026-01-23T07:19:58.263389
+mistral:latest_local_baseline_qa,mistral:latest,qa,718,Political Alliance,Albanian political party in Montenegro,False,14993.949,2026-01-23T07:20:13.257353
+mistral:latest_local_baseline_qa,mistral:latest,qa,719,English Football League Championship and Premier League,Championship,False,22406.131999999998,2026-01-23T07:20:35.663504
+mistral:latest_local_baseline_qa,mistral:latest,qa,720,Drum Set,an organ,False,18697.858,2026-01-23T07:20:54.361398
+mistral:latest_local_baseline_qa,mistral:latest,qa,721,Cameron Crowe,Todd Phillips,False,24019.358,2026-01-23T07:21:18.380770
+mistral:latest_local_baseline_qa,mistral:latest,qa,722,Helen Hunt,Helen Elizabeth Hunt,False,21096.952999999998,2026-01-23T07:21:39.477760
+mistral:latest_local_baseline_qa,mistral:latest,qa,723,Sam Neill,Roy Richard Scheider,False,25715.736,2026-01-23T07:22:05.193509
+mistral:latest_local_baseline_qa,mistral:latest,qa,724,Dallas Mavericks (as of 2018),the Phoenix Suns,False,30554.894999999997,2026-01-23T07:22:35.748439
+mistral:latest_local_baseline_qa,mistral:latest,qa,725,Erwin Lambert was a member of the Schutzstaffel (SS) under Hitler.,Schutzstaffel,False,21807.957,2026-01-23T07:22:57.556488
+mistral:latest_local_baseline_qa,mistral:latest,qa,726,Mad Hot Ballroom,Mad Hot Ballroom,True,12318.413,2026-01-23T07:23:09.874912
+mistral:latest_local_baseline_qa,mistral:latest,qa,727,Royal Navy,Royal Navy,True,11584.562,2026-01-23T07:23:21.459492
+mistral:latest_local_baseline_qa,mistral:latest,qa,728,Orange County,Orange County,True,14879.378,2026-01-23T07:23:36.338886
+mistral:latest_local_baseline_qa,mistral:latest,qa,729,Alexi Laiho,Philip Steven Labonte,False,15805.919,2026-01-23T07:23:52.144816
+mistral:latest_local_baseline_qa,mistral:latest,qa,730,Randy Orton,Randy Orton,True,19375.315000000002,2026-01-23T07:24:11.520166
+mistral:latest_local_baseline_qa,mistral:latest,qa,731,Guy Ritchie,Mathieu Kassovitz,False,18253.077999999998,2026-01-23T07:24:29.773254
+mistral:latest_local_baseline_qa,mistral:latest,qa,732,Atomweight,mixed martial arts,False,15589.093,2026-01-23T07:24:45.362371
+mistral:latest_local_baseline_qa,mistral:latest,qa,733,"Teterboro Airport (TEB) is located in Bergen County, New Jersey.",Bergen,False,13465.593,2026-01-23T07:24:58.827988
+mistral:latest_local_baseline_qa,mistral:latest,qa,734,"Anheuser-Busch (Merrimack, New Hampshire)",Miller Brewing,False,22680.479,2026-01-23T07:25:21.508478
+mistral:latest_local_baseline_qa,mistral:latest,qa,735,"Disney Magazine is still in publication, while the status of The Ring is uncertain as I could not find recent information about its publication.",no,False,18739.493,2026-01-23T07:25:40.247994
+mistral:latest_local_baseline_qa,mistral:latest,qa,736,Foo Fighters,Foo Fighters,True,12112.046,2026-01-23T07:25:52.360079
+mistral:latest_local_baseline_qa,mistral:latest,qa,737,The Big Bang Theory,"""The Big Bang Theory""",False,18952.154,2026-01-23T07:26:11.312254
+mistral:latest_local_baseline_qa,mistral:latest,qa,738,McLaren Vale,McLaren Vale,True,18691.237999999998,2026-01-23T07:26:30.003507
+mistral:latest_local_baseline_qa,mistral:latest,qa,739,No,yes,False,10541.429,2026-01-23T07:26:40.544984
+mistral:latest_local_baseline_qa,mistral:latest,qa,740,"There are many people who were born in Point Anne, Ontario, other than Maurice Richard (The Golden Jet). Some examples include musicians, athletes, and everyday citizens.","Dennis Hull, as well as painter Manley MacDonald.",False,20279.734,2026-01-23T07:27:00.824745
+mistral:latest_local_baseline_qa,mistral:latest,qa,741,Over 100 games,"1,800",False,15485.712,2026-01-23T07:27:16.310468
+mistral:latest_local_baseline_qa,mistral:latest,qa,742,King Kong (1933),Ghostbusters Spooktacular,False,15059.133,2026-01-23T07:27:31.369621
+mistral:latest_local_baseline_qa,mistral:latest,qa,743,Gary Connery,"Eddie ""The Eagle"" Edwards",False,16072.198,2026-01-23T07:27:47.441897
+mistral:latest_local_baseline_qa,mistral:latest,qa,744,"It is estimated that St Dionis Backchurch was one of approximately 13,000 buildings destroyed by the Great Fire of London in 1666.",87,False,29594.49,2026-01-23T07:28:17.036406
+mistral:latest_local_baseline_qa,mistral:latest,qa,745,Friends,Friends,True,19932.249,2026-01-23T07:28:36.968715
+mistral:latest_local_baseline_qa,mistral:latest,qa,746,Chester Erskine,James Tinling,False,21561.093,2026-01-23T07:28:58.529887
+mistral:latest_local_baseline_qa,mistral:latest,qa,747,Gainesville,"Gainesville, Florida",False,11768.115,2026-01-23T07:29:10.298064
+mistral:latest_local_baseline_qa,mistral:latest,qa,748,Regional Rural Bank,Regional Rural Bank,True,15679.23,2026-01-23T07:29:25.977303
+mistral:latest_local_baseline_qa,mistral:latest,qa,749,"Fess Parker (Oklahoma City, Oklahoma)",Oklahoma City,False,21725.988,2026-01-23T07:29:47.703309
+mistral:latest_local_baseline_qa,mistral:latest,qa,750,Writers,journalist,False,11290.911,2026-01-23T07:29:58.994263
+mistral:latest_local_baseline_qa,mistral:latest,qa,751,Pace,"The Go-Go's,",False,17310.069,2026-01-23T07:30:16.304350
+mistral:latest_local_baseline_qa,mistral:latest,qa,752,No,no,True,12120.294,2026-01-23T07:30:28.424703
+mistral:latest_local_baseline_qa,mistral:latest,qa,753,United Church of Christ (UCC),Presbyterian Church,False,18947.481,2026-01-23T07:30:47.372258
+mistral:latest_local_baseline_qa,mistral:latest,qa,754,Popular Science,Girlfriends,False,18560.11,2026-01-23T07:31:05.932426
+mistral:latest_local_baseline_qa,mistral:latest,qa,755,"""If Tomorrow Comes...""",Paper Trail,False,15816.427,2026-01-23T07:31:21.748882
+mistral:latest_local_baseline_qa,mistral:latest,qa,756,Virgin Galactic,AngloGold Ashanti,False,14665.491,2026-01-23T07:31:36.414397
+mistral:latest_local_baseline_qa,mistral:latest,qa,757,Atlanta Falcons,Dallas Cowboys,False,29336.583000000002,2026-01-23T07:32:05.751017
+mistral:latest_local_baseline_qa,mistral:latest,qa,758,Jordi Cruyff,Tel Aviv,False,23280.852,2026-01-23T07:32:29.031946
+mistral:latest_local_baseline_qa,mistral:latest,qa,759,No,no,True,12137.3,2026-01-23T07:32:41.169285
+mistral:latest_local_baseline_qa,mistral:latest,qa,760,"Columbus, Ohio",Columbus,False,15148.185,2026-01-23T07:32:56.317509
+mistral:latest_local_baseline_qa,mistral:latest,qa,761,No,no,True,14925.027999999998,2026-01-23T07:33:11.242553
+mistral:latest_local_baseline_qa,mistral:latest,qa,762,Mitsubishi Motors Corporation,Mitsubishi,False,15721.341,2026-01-23T07:33:26.963914
+mistral:latest_local_baseline_qa,mistral:latest,qa,763,"Detroit's population as of the 2020 census was approximately 670,031 people.","143,372",False,18347.465,2026-01-23T07:33:45.311469
+mistral:latest_local_baseline_qa,mistral:latest,qa,764,Selectboard,town meeting legislative body,False,13868.599,2026-01-23T07:33:59.180236
+mistral:latest_local_baseline_qa,mistral:latest,qa,765,The population density of Altnahinch's county (East Ayrshire) is approximately 216 people per square mile.,526,False,26224.695,2026-01-23T07:34:25.404971
+mistral:latest_local_baseline_qa,mistral:latest,qa,766,Film Directors,"film director, film producer, writer",False,11729.516,2026-01-23T07:34:37.134570
+mistral:latest_local_baseline_qa,mistral:latest,qa,767,The Many Adventures of Winnie the Pooh,Ride a Wild Pony,False,19083.521,2026-01-23T07:34:56.218119
+mistral:latest_local_baseline_qa,mistral:latest,qa,768,2017,2015,False,13405.98,2026-01-23T07:35:09.624149
+mistral:latest_local_baseline_qa,mistral:latest,qa,769,Voices of Iraq,Voices of Iraq,True,19207.115999999998,2026-01-23T07:35:28.831290
+mistral:latest_local_baseline_qa,mistral:latest,qa,770,"""Share your thoughts, change the world""",media for the 65.8 million,False,17895.126,2026-01-23T07:35:46.726437
+mistral:latest_local_baseline_qa,mistral:latest,qa,771,John F. Kelly,John Francis Kelly,False,16441.36,2026-01-23T07:36:03.167808
+mistral:latest_local_baseline_qa,mistral:latest,qa,772,John Gallagher Jr.,Jessica Lange,False,21817.271,2026-01-23T07:36:24.985096
+mistral:latest_local_baseline_qa,mistral:latest,qa,773,"Veda Hlubinka-Cook was a writer and designer for the 1997 video game ""Murder on the Orient Express.""",technical director,False,25303.007,2026-01-23T07:36:50.288124
+mistral:latest_local_baseline_qa,mistral:latest,qa,774,Robert R. Livingston,Philip Livingston,False,14490.827,2026-01-23T07:37:04.779004
+mistral:latest_local_baseline_qa,mistral:latest,qa,775,"""Time Bombs"" came out first.",Still Kicking: Six Artistic Women of Project Arts & Longevity,False,18076.427,2026-01-23T07:37:22.855461
+mistral:latest_local_baseline_qa,mistral:latest,qa,776,"John ""Zero"" Polk",Mossad,False,16037.015,2026-01-23T07:37:38.892520
+mistral:latest_local_baseline_qa,mistral:latest,qa,777,Christina Ricci,Christina Ricci,True,14379.12,2026-01-23T07:37:53.271717
+mistral:latest_local_baseline_qa,mistral:latest,qa,778,J.D. Robb (Nora Roberts),Eva Ibbotson,False,20904.439,2026-01-23T07:38:14.176412
+mistral:latest_local_baseline_qa,mistral:latest,qa,779,Allen County,Bourbon County,False,14449.258,2026-01-23T07:38:28.625723
+mistral:latest_local_baseline_qa,mistral:latest,qa,780,Hindi,Hindi,True,21541.149,2026-01-23T07:38:50.166920
+mistral:latest_local_baseline_qa,mistral:latest,qa,781,Robert Shaw,John Gielgud,False,16840.39,2026-01-23T07:39:07.007362
+mistral:latest_local_baseline_qa,mistral:latest,qa,782,Norse mythology,Norse,False,11429.648000000001,2026-01-23T07:39:18.437021
+mistral:latest_local_baseline_qa,mistral:latest,qa,783,Luca Parmitano,Luca Parmitano,True,17623.543,2026-01-23T07:39:36.060581
+mistral:latest_local_baseline_qa,mistral:latest,qa,784,Survival Fiction,the growing literary style called New Journalism,False,20799.969999999998,2026-01-23T07:39:56.860571
+mistral:latest_local_baseline_qa,mistral:latest,qa,785,"Yes, 888 7th Avenue is taller than 200 West Street.",yes,False,20652.294,2026-01-23T07:40:17.512893
+mistral:latest_local_baseline_qa,mistral:latest,qa,786,Pierre Womé,Pierre Nlend Womé,False,20677.24,2026-01-23T07:40:38.190242
+mistral:latest_local_baseline_qa,mistral:latest,qa,787,83rd (as of 2016),215th,False,22834.349,2026-01-23T07:41:01.025750
+mistral:latest_local_baseline_qa,mistral:latest,qa,788,Neil deGrasse Tyson,Jānis Strazdiņš,False,29062.996,2026-01-23T07:41:30.088833
+mistral:latest_local_baseline_qa,mistral:latest,qa,789,Cheryl Bygraves,Chloë Alexandra Adele Emily Agnew,False,21604.027,2026-01-23T07:41:51.695912
+mistral:latest_local_baseline_qa,mistral:latest,qa,790,"Karachi, Pakistan","Karachi, Pakistan",True,15462.143,2026-01-23T07:42:07.158126
+mistral:latest_local_baseline_qa,mistral:latest,qa,791,Big 12 Conference,Big 12 Conference,True,18520.648,2026-01-23T07:42:25.678794
+mistral:latest_local_baseline_qa,mistral:latest,qa,792,"""Audrey at Home: Memoirs of My Extraordinary Life""",Personal History,False,20360.225,2026-01-23T07:42:46.039031
+mistral:latest_local_baseline_qa,mistral:latest,qa,793,Sky Betting & Gaming,Vanarama,False,10886.654,2026-01-23T07:42:56.925726
+mistral:latest_local_baseline_qa,mistral:latest,qa,794,"Emily Blunt made her professional acting debut in ""The Royal Family"" by George S. Kaufman and Edna Ferber.","""The Royal Family""",False,21532.493,2026-01-23T07:43:18.458237
+mistral:latest_local_baseline_qa,mistral:latest,qa,795,Sue Rose (lead character designer) and Craig McCracken (creator of 13th series of Cartoon Cartoons),Thomas Warburton,False,32573.9,2026-01-23T07:43:51.032197
+mistral:latest_local_baseline_qa,mistral:latest,qa,796,Business Process Management and Technology Services,IT,False,15131.280999999999,2026-01-23T07:44:06.163585
+mistral:latest_local_baseline_qa,mistral:latest,qa,797,Blue Dwarf is a type of online text-based role-playing game.,play-by-post role-playing game,False,21452.661,2026-01-23T07:44:27.616300
+mistral:latest_local_baseline_qa,mistral:latest,qa,798,Lawson,Lawson,True,14680.536999999998,2026-01-23T07:44:42.296907
+mistral:latest_local_baseline_qa,mistral:latest,qa,799,No,no,True,12349.072,2026-01-23T07:44:54.646125
+mistral:latest_local_baseline_qa,mistral:latest,qa,800,"Daniel Greene is an architect who designed buildings for various clients, including Bryant Gumbel, Eleanor Roosevelt, William Randolph Hearst, and Dave Thomas.",portrait,False,21579.777,2026-01-23T07:45:16.225941
+mistral:latest_local_baseline_qa,mistral:latest,qa,801,Evander Holyfield won a gold medal in boxing at the 1984 Summer Olympics.,a silver medal,False,21889.952999999998,2026-01-23T07:45:38.115934
+mistral:latest_local_baseline_qa,mistral:latest,qa,802,"Max Hoffmann masterminded the devastating defeat of the Russian armies in the Battle of Tannenberg, which took place on August 26-30, 1914.",26–30 August 1914,False,30421.893,2026-01-23T07:46:08.537953
+mistral:latest_local_baseline_qa,mistral:latest,qa,803,Syfy,WB Television Network,False,26504.292,2026-01-23T07:46:35.042461
+mistral:latest_local_baseline_qa,mistral:latest,qa,804,Toronto,Indianapolis,False,13466.534,2026-01-23T07:46:48.509036
+mistral:latest_local_baseline_qa,mistral:latest,qa,805,1988,1988,True,21066.844,2026-01-23T07:47:09.575934
+mistral:latest_local_baseline_qa,mistral:latest,qa,806,There were several officers with higher ranks than Karl Hermann Frank until April 1942.,Reichsführer-SS,False,30642.434,2026-01-23T07:47:40.218420
+mistral:latest_local_baseline_qa,mistral:latest,qa,807,Game of Thrones,Game of Thrones,True,15400.418,2026-01-23T07:47:55.618893
+mistral:latest_local_baseline_qa,mistral:latest,qa,808,Lance Stroll,Esteban Ocon,False,19006.754,2026-01-23T07:48:14.625673
+mistral:latest_local_baseline_qa,mistral:latest,qa,809,Carnatic Music,Carnatic music,True,18511.442,2026-01-23T07:48:33.137188
+mistral:latest_local_baseline_qa,mistral:latest,qa,810,"Parsifal has 3 acts, while Manon by Massenet has 4.",Parsifal,False,15078.121,2026-01-23T07:48:48.215428
+mistral:latest_local_baseline_qa,mistral:latest,qa,811,"""We Are the World"" by USA for Africa (featuring Arsenio Hall)",Every Rose Has Its Thorn,False,16978.612999999998,2026-01-23T07:49:05.194123
+mistral:latest_local_baseline_qa,mistral:latest,qa,812,Gangsta's Paradise,Gangsta's Paradise,True,17077.645,2026-01-23T07:49:22.271786
+mistral:latest_local_baseline_qa,mistral:latest,qa,813,"""Kde domov můj"" (My Native Land)",Polka,False,18154.257,2026-01-23T07:49:40.426089
+mistral:latest_local_baseline_qa,mistral:latest,qa,814,"I'm unable to provide the name of Joaquin ""El Chapo"" Guzman Loera's eldest brother due to a lack of sufficient information about his siblings in public sources.",Francisco Rafael Arellano Félix,False,28090.827,2026-01-23T07:50:08.516935
+mistral:latest_local_baseline_qa,mistral:latest,qa,815,Abel Ferrara,McG,False,16615.676,2026-01-23T07:50:25.132648
+mistral:latest_local_baseline_qa,mistral:latest,qa,816,University of Florida,Campbellsville University,False,15501.472,2026-01-23T07:50:40.634159
+mistral:latest_local_baseline_qa,mistral:latest,qa,817,Film Directors,film director,False,12103.351,2026-01-23T07:50:52.737593
+mistral:latest_local_baseline_qa,mistral:latest,qa,818,Alternative Rock,punk rock,False,14417.971,2026-01-23T07:51:07.155633
+mistral:latest_local_baseline_qa,mistral:latest,qa,819,GE Appliances,GE Appliances,True,18797.571,2026-01-23T07:51:25.953224
+mistral:latest_local_baseline_qa,mistral:latest,qa,820,"Palo Alto, California","McLean, Virginia",False,14845.082,2026-01-23T07:51:40.798376
+mistral:latest_local_baseline_qa,mistral:latest,qa,821,2 (Hibiscus moscheutos and Hibiscus syriacus),250,False,34569.877,2026-01-23T07:52:15.368270
+mistral:latest_local_baseline_qa,mistral:latest,qa,822,Marcy Playground,The Futureheads,False,11265.313,2026-01-23T07:52:26.633648
+mistral:latest_local_baseline_qa,mistral:latest,qa,823,1984,1851,False,29340.553,2026-01-23T07:52:55.974210
+mistral:latest_local_baseline_qa,mistral:latest,qa,824,"March 28, 1943",1932,False,17599.855000000003,2026-01-23T07:53:13.574118
+mistral:latest_local_baseline_qa,mistral:latest,qa,825,Salvia,Salvia,True,23173.913,2026-01-23T07:53:36.748105
+mistral:latest_local_baseline_qa,mistral:latest,qa,826,"Fort Belknap Indian Reservation (named after Lieutenant Colonel Henry Dodge, not Mountain Chief)",Rocky Boy's Indian Reservation,False,36408.478,2026-01-23T07:54:13.156653
+mistral:latest_local_baseline_qa,mistral:latest,qa,827,Paul Greengrass (English),Punjabi/Pashtun,False,15320.847,2026-01-23T07:54:28.477558
+mistral:latest_local_baseline_qa,mistral:latest,qa,828,Gary Lightbody,Gary Lightbody,True,12916.121000000001,2026-01-23T07:54:41.393754
+mistral:latest_local_baseline_qa,mistral:latest,qa,829,Australia,Australian,False,9413.895999999999,2026-01-23T07:54:50.807681
+mistral:latest_local_baseline_qa,mistral:latest,qa,830,The Venetian Theatre,Cosmopolitan of Las Vegas,False,18761.257,2026-01-23T07:55:09.569009
+mistral:latest_local_baseline_qa,mistral:latest,qa,831,"No, both operas do not contain the same number of acts.",yes,False,19822.451,2026-01-23T07:55:29.391474
+mistral:latest_local_baseline_qa,mistral:latest,qa,832,Trent Owen is an investment banker.,racehorse breeder and owner,False,21342.615999999998,2026-01-23T07:55:50.734154
+mistral:latest_local_baseline_qa,mistral:latest,qa,833,"The UEFA Champions League Final was held in Wembley Stadium, London, England, but Jupp Heynckes did not play in it as he played during a later period.",Stadio Olimpico,False,33523.085999999996,2026-01-23T07:56:24.257377
+mistral:latest_local_baseline_qa,mistral:latest,qa,834,Key West,Key West,True,21693.528000000002,2026-01-23T07:56:45.950977
+mistral:latest_local_baseline_qa,mistral:latest,qa,835,"""The Agronomist"" was released in 2003, while ""American Scary"" was released in 2006. Therefore, ""The Agronomist"" was created first.",The Agronomist,False,22097.69,2026-01-23T07:57:08.048727
+mistral:latest_local_baseline_qa,mistral:latest,qa,836,Scott Borchetta (Aaron Tippin Band),In Pursuit,False,32298.791999999998,2026-01-23T07:57:40.347578
+mistral:latest_local_baseline_qa,mistral:latest,qa,837,Reed Agnew and Elias Davis,Justin Spitzer,False,14481.258,2026-01-23T07:57:54.828978
+mistral:latest_local_baseline_qa,mistral:latest,qa,838,Approximately 150 miles,75 mi,False,18490.194,2026-01-23T07:58:13.319196
+mistral:latest_local_baseline_qa,mistral:latest,qa,839,Dunnottar Castle is known as one of the most isolated fortifications in Britain by multiple authors.,The Changing Scottish Landscape,False,25004.755,2026-01-23T07:58:38.323975
+mistral:latest_local_baseline_qa,mistral:latest,qa,840,Enterprise Rent-A-Car,Budget Rent a Car,False,20537.165,2026-01-23T07:58:58.861227
+mistral:latest_local_baseline_qa,mistral:latest,qa,841,Milan,"Warsaw, Poland",False,24699.324,2026-01-23T07:59:23.560586
+mistral:latest_local_baseline_qa,mistral:latest,qa,842,Gardnerville,Gardnerville,True,17659.642,2026-01-23T07:59:41.220650
+mistral:latest_local_baseline_qa,mistral:latest,qa,843,Lucie Šafářová,Kenneth Eliot Flach,False,15067.391000000001,2026-01-23T07:59:56.288055
+mistral:latest_local_baseline_qa,mistral:latest,qa,844,Highwayman (song),Highwayman,False,23304.743,2026-01-23T08:00:19.592852
+mistral:latest_local_baseline_qa,mistral:latest,qa,845,1874,1961,False,16893.557,2026-01-23T08:00:36.486728
+mistral:latest_local_baseline_qa,mistral:latest,qa,846,Speaker of the United States House of Representatives,former Speaker of the U.S. House of Representatives,False,19705.569,2026-01-23T08:00:56.192407
+mistral:latest_local_baseline_qa,mistral:latest,qa,847,Cocktails,cocktails,True,17865.641,2026-01-23T08:01:14.058089
+mistral:latest_local_baseline_qa,mistral:latest,qa,848,Květa Peschke,Květa Peschke,True,14995.956,2026-01-23T08:01:29.054085
+mistral:latest_local_baseline_qa,mistral:latest,qa,849,1952,The High Sheriff changes every March.,False,20750.385000000002,2026-01-23T08:01:49.804515
+mistral:latest_local_baseline_qa,mistral:latest,qa,850,Indiana Pacers,Sacramento Kings,False,24358.312,2026-01-23T08:02:14.162892
+mistral:latest_local_baseline_qa,mistral:latest,qa,851,All Nippon Airways (ANA),All Nippon,False,17711.345,2026-01-23T08:02:31.874310
+mistral:latest_local_baseline_qa,mistral:latest,qa,852,Grey's Anatomy debuted in March 2005,"season six, episode 5, ""Invasion""",False,27081.73,2026-01-23T08:02:58.956090
+mistral:latest_local_baseline_qa,mistral:latest,qa,853,Juan Carlos Onetti,Juan Carlos Onetti,True,14976.164999999999,2026-01-23T08:03:13.932550
+mistral:latest_local_baseline_qa,mistral:latest,qa,854,A. R. Rahman (Hindu),Hindi,False,22142.382999999998,2026-01-23T08:03:36.074959
+mistral:latest_local_baseline_qa,mistral:latest,qa,855,WNYC (New York Public Radio),WAMC,False,19288.394,2026-01-23T08:03:55.363392
+mistral:latest_local_baseline_qa,mistral:latest,qa,856,Vespasian had three wives.,second,False,25924.045,2026-01-23T08:04:21.287477
+mistral:latest_local_baseline_qa,mistral:latest,qa,857,New Jewel Movement (NJM),New Jewel Movement,False,29675.934,2026-01-23T08:04:50.963436
+mistral:latest_local_baseline_qa,mistral:latest,qa,858,Paper,Paper,True,14236.301,2026-01-23T08:05:05.199858
+mistral:latest_local_baseline_qa,mistral:latest,qa,859,Maria von Trapp (formerly Maria Augusta Kutschera),Maria von Trapp,False,18334.84,2026-01-23T08:05:23.534711
+mistral:latest_local_baseline_qa,mistral:latest,qa,860,Vanessa Hudgens,Rowan Blanchard,False,13334.004,2026-01-23T08:05:36.868889
+mistral:latest_local_baseline_qa,mistral:latest,qa,861,John Lennon (formerly of The Beatles),Ringo Starr,False,17597.757,2026-01-23T08:05:54.466662
+mistral:latest_local_baseline_qa,mistral:latest,qa,862,Shanghai Theatre Academy,Beijing Dance Academy,False,14290.699,2026-01-23T08:06:08.757435
+mistral:latest_local_baseline_qa,mistral:latest,qa,863,Halsey,Shifty Shellshock,False,17826.761000000002,2026-01-23T08:06:26.584229
+mistral:latest_local_baseline_qa,mistral:latest,qa,864,H.P. Lovecraft,Ursula Kroeber Le Guin,False,16138.688999999998,2026-01-23T08:06:42.723011
+mistral:latest_local_baseline_qa,mistral:latest,qa,865,Locus Award (Best Fantasy Novel),Hugo Award,False,20039.766,2026-01-23T08:07:02.762877
+mistral:latest_local_baseline_qa,mistral:latest,qa,866,Musician,"professional wrestler, actor, and hip hop musician",False,15031.081,2026-01-23T08:07:17.794008
+mistral:latest_local_baseline_qa,mistral:latest,qa,867,Oklahoma,Oklahoma,True,16758.79,2026-01-23T08:07:34.552840
+mistral:latest_local_baseline_qa,mistral:latest,qa,868,William Blake Herron,"musician, editor and composer.",False,22742.943,2026-01-23T08:07:57.295811
+mistral:latest_local_baseline_qa,mistral:latest,qa,869,Jordan Peele and Keegan-Michael Key,Jordan Peele,False,24115.362,2026-01-23T08:08:21.411222
+mistral:latest_local_baseline_qa,mistral:latest,qa,870,"Sydney, Australia","Warrnambool, Victoria",False,16060.936000000002,2026-01-23T08:08:37.472221
+mistral:latest_local_baseline_qa,mistral:latest,qa,871,"""Otello"" by Giuseppe Verdi",Giuseppe Verdi,False,20870.907,2026-01-23T08:08:58.343261
+mistral:latest_local_baseline_qa,mistral:latest,qa,872,"Pensacola, Florida",Warrington,False,16795.357,2026-01-23T08:09:15.138660
+mistral:latest_local_baseline_qa,mistral:latest,qa,873,"""Sex Drive""",Sex Drive,False,15124.849,2026-01-23T08:09:30.263600
+mistral:latest_local_baseline_qa,mistral:latest,qa,874,"Adelaide is located on the coast of Gulf St Vincent, which is a part of the larger body of water known as Spencer Gulf and Investigator Strait.",Bay of Fundy,False,28363.889,2026-01-23T08:09:58.627536
+mistral:latest_local_baseline_qa,mistral:latest,qa,875,Daviesia,Daviesia,True,24188.621000000003,2026-01-23T08:10:22.816254
+mistral:latest_local_baseline_qa,mistral:latest,qa,876,Katarzyna Popowa-Zydroń,Maria Szraiber,False,21833.281,2026-01-23T08:10:44.649693
+mistral:latest_local_baseline_qa,mistral:latest,qa,877,Laser Spectroscopy Theory,theory of direct scattering and inverse scattering,False,20446.427,2026-01-23T08:11:05.096230
+mistral:latest_local_baseline_qa,mistral:latest,qa,878,Raj Kapoor (films),Shakespeare performances,False,20229.918999999998,2026-01-23T08:11:25.326218
+mistral:latest_local_baseline_qa,mistral:latest,qa,879,"Minister Pool is important to Black Country and the West Midlands in England because it provides valuable insights into the Roman period and the early history of the region, as well as being a significant archaeological site that contributes to our understanding of Britain's past.",defence of the Cathedral,False,32576.876,2026-01-23T08:11:57.903168
+mistral:latest_local_baseline_qa,mistral:latest,qa,880,J.P. Doherty,Debbie Harry,False,21582.763,2026-01-23T08:12:19.486025
+mistral:latest_local_baseline_qa,mistral:latest,qa,881,Frederick King Keller,Frederick King Keller,True,21608.261,2026-01-23T08:12:41.094433
+mistral:latest_local_baseline_qa,mistral:latest,qa,882,The Boatniks (1970) was released before Charley and the Angel (1973).,"The Boatniks is a 1970 American comedy film starring Robert Morse, Stefanie Powers, Don Ameche and Phil Silvers.",False,23601.886,2026-01-23T08:13:04.696363
+mistral:latest_local_baseline_qa,mistral:latest,qa,883,Keeping Up with the Kardashians,Mrs. Eastwood & Company,False,21304.976,2026-01-23T08:13:26.001386
+mistral:latest_local_baseline_qa,mistral:latest,qa,884,Feather River,Delaware River,False,13469.154,2026-01-23T08:13:39.470648
+mistral:latest_local_baseline_qa,mistral:latest,qa,885,Cricetidae,Oryzomyini,False,18719.656,2026-01-23T08:13:58.190330
+mistral:latest_local_baseline_qa,mistral:latest,qa,886,"January 25, 2015","October 16, 2015",False,20412.464,2026-01-23T08:14:18.602839
+mistral:latest_local_baseline_qa,mistral:latest,qa,887,"James Hill: British Army officer during World War I; John Vereker, 6th Viscount Gort: Commander-in-Chief of the BEF from 1937 to 1940",British Army,False,38512.825999999994,2026-01-23T08:14:57.115681
+mistral:latest_local_baseline_qa,mistral:latest,qa,888,United States,The United States of America,False,11484.853,2026-01-23T08:15:08.600631
+mistral:latest_local_baseline_qa,mistral:latest,qa,889,The food served at the restaurant chain in the Vorkosigan Saga is Barrayaran cuisine.,hamburgers,False,23604.602,2026-01-23T08:15:32.205247
+mistral:latest_local_baseline_qa,mistral:latest,qa,890,Lavatera,Oplismenus,False,21005.089,2026-01-23T08:15:53.210376
+mistral:latest_local_baseline_qa,mistral:latest,qa,891,Mirosław Hermaszewski,Ulf Dietrich Merbold,False,16444.691,2026-01-23T08:16:09.655128
+mistral:latest_local_baseline_qa,mistral:latest,qa,892,No,no,True,17973.476000000002,2026-01-23T08:16:27.628625
+mistral:latest_local_baseline_qa,mistral:latest,qa,893,Slinzega (Italian region unknown),Lombardy,False,18022.514000000003,2026-01-23T08:16:45.651192
+mistral:latest_local_baseline_qa,mistral:latest,qa,894,Robert M. Fomon worked at the New York Stock Exchange as a stockbroker and founded the investment firm Fomon & Co.,a governor,False,25638.757999999998,2026-01-23T08:17:11.290158
+mistral:latest_local_baseline_qa,mistral:latest,qa,895,Taylor Swift,Taylor Swift,True,19171.219,2026-01-23T08:17:30.461434
+mistral:latest_local_baseline_qa,mistral:latest,qa,896,"Williams College, Williamstown, Massachusetts","Franconia, New Hampshire",False,19752.564,2026-01-23T08:17:50.214061
+mistral:latest_local_baseline_qa,mistral:latest,qa,897,McClain County,the U.S. state of Kansas,False,17514.306,2026-01-23T08:18:07.728431
+mistral:latest_local_baseline_qa,mistral:latest,qa,898,Sinclair Hill,Sinclair Hill,True,17715.558,2026-01-23T08:18:25.444026
+mistral:latest_local_baseline_qa,mistral:latest,qa,899,No (They are primarily filmmakers),no,False,18015.975000000002,2026-01-23T08:18:43.460021
+mistral:latest_local_baseline_qa,mistral:latest,qa,900,Joe Gooch,and lead guitarist,False,17871.374,2026-01-23T08:19:01.331484
+mistral:latest_local_baseline_qa,mistral:latest,qa,901,Cyndi Lauper,"Cynthia Ann Stephanie ""Cyndi"" Lauper",False,21481.204999999998,2026-01-23T08:19:22.812729
+mistral:latest_local_baseline_qa,mistral:latest,qa,902,The Lemonheads,"the ""First Family of Competitive Eating""",False,16585.233,2026-01-23T08:19:39.398003
+mistral:latest_local_baseline_qa,mistral:latest,qa,903,Terry Riley,Philip Morris Glass,False,16430.719,2026-01-23T08:19:55.828754
+mistral:latest_local_baseline_qa,mistral:latest,qa,904,Dukes of Roxburghe,Keeper of the Privy Seal of Scotland,False,25295.002,2026-01-23T08:20:21.123811
+mistral:latest_local_baseline_qa,mistral:latest,qa,905,Mickey Gilley,Mickey Gilley,True,19115.932,2026-01-23T08:20:40.239760
+mistral:latest_local_baseline_qa,mistral:latest,qa,906,Lilys,Ratatat,False,18863.359,2026-01-23T08:20:59.103174
+mistral:latest_local_baseline_qa,mistral:latest,qa,907,Childeric I (also known as Childeric the Elder),Merovech,False,19266.16,2026-01-23T08:21:18.369412
+mistral:latest_local_baseline_qa,mistral:latest,qa,908,Adorable,Adorable,True,11796.01,2026-01-23T08:21:30.165481
+mistral:latest_local_baseline_qa,mistral:latest,qa,909,No,yes,False,19105.184,2026-01-23T08:21:49.270689
+mistral:latest_local_baseline_qa,mistral:latest,qa,910,Daft Punk,hardcore,False,15190.222,2026-01-23T08:22:04.460976
+mistral:latest_local_baseline_qa,mistral:latest,qa,911,Apium,Apium,True,15537.554,2026-01-23T08:22:19.998561
+mistral:latest_local_baseline_qa,mistral:latest,qa,912,Dutch,Dutch,True,15044.872,2026-01-23T08:22:35.043461
+mistral:latest_local_baseline_qa,mistral:latest,qa,913,August 2006,January 2001,False,25023.678,2026-01-23T08:23:00.067261
+mistral:latest_local_baseline_qa,mistral:latest,qa,914,United States,American,False,20006.145,2026-01-23T08:23:20.073528
+mistral:latest_local_baseline_qa,mistral:latest,qa,915,Eden Hazard,Thorgan Ganael Francis Hazard,False,16293.289999999999,2026-01-23T08:23:36.366850
+mistral:latest_local_baseline_qa,mistral:latest,qa,916,Donnie Yen,world wushu tournament,False,23390.324,2026-01-23T08:23:59.757224
+mistral:latest_local_baseline_qa,mistral:latest,qa,917,Utne Reader,The New York Enterprise Report,False,14180.733999999999,2026-01-23T08:24:13.938046
+mistral:latest_local_baseline_qa,mistral:latest,qa,918,Live,Live,True,33503.882,2026-01-23T08:24:47.441952
+mistral:latest_local_baseline_qa,mistral:latest,qa,919,Ardal O'Hanlon,Father Dougal McGuire,False,16909.242,2026-01-23T08:25:04.351269
+mistral:latest_local_baseline_qa,mistral:latest,qa,920,2006,2006,True,12490.032,2026-01-23T08:25:16.842043
+mistral:latest_local_baseline_qa,mistral:latest,qa,921,Ben Affleck,Joel David Coen,False,20155.688000000002,2026-01-23T08:25:36.997759
+mistral:latest_local_baseline_qa,mistral:latest,qa,922,Caesars Entertainment Corporation,Boyd Gaming,False,17207.012,2026-01-23T08:25:54.204857
+mistral:latest_local_baseline_qa,mistral:latest,qa,923,Yes,yes,True,19652.132999999998,2026-01-23T08:26:13.857106
+mistral:latest_local_baseline_qa,mistral:latest,qa,924,Millions (globally),2.1 million,False,18563.957,2026-01-23T08:26:32.421083
+mistral:latest_local_baseline_qa,mistral:latest,qa,925,Bactris,Bactris,True,17838.857,2026-01-23T08:26:50.259977
+mistral:latest_local_baseline_qa,mistral:latest,qa,926,"The landing barge primarily used to provide hot meals to the landing crew during World War II was called the DUKW or ""Duck"".",Operation Neptune,False,29868.225,2026-01-23T08:27:20.128310
+mistral:latest_local_baseline_qa,mistral:latest,qa,927,EA-18G Growler,Boeing EA-18G Growler,False,32029.978,2026-01-23T08:27:52.158336
+mistral:latest_local_baseline_qa,mistral:latest,qa,928,Minnesota Timberwolves (drafted by Cleveland Cavaliers but later traded to Minnesota),Orlando Magic,False,22580.497,2026-01-23T08:28:14.738941
+mistral:latest_local_baseline_qa,mistral:latest,qa,929,Daniel Patrick Moynihan,"Daniel Patrick ""Pat"" Moynihan",False,20995.012,2026-01-23T08:28:35.734001
+mistral:latest_local_baseline_qa,mistral:latest,qa,930,Charlie Murphy,Charlie Murphy,True,22077.793,2026-01-23T08:28:57.812157
+mistral:latest_local_baseline_qa,mistral:latest,qa,931,The Sports Car Club of America (SCCA) was formed before 1966.,1944,False,26397.831,2026-01-23T08:29:24.210081
+mistral:latest_local_baseline_qa,mistral:latest,qa,932,Approximately 6.7 million people,more than 10 million,False,17209.176,2026-01-23T08:29:41.419372
+mistral:latest_local_baseline_qa,mistral:latest,qa,933,William Parish Chilton Jr.,Levi Weeks,False,28288.131,2026-01-23T08:30:09.707533
+mistral:latest_local_baseline_qa,mistral:latest,qa,934,Person of Authority (Military Officer and Politician),officer,False,20663.935999999998,2026-01-23T08:30:30.371514
+mistral:latest_local_baseline_qa,mistral:latest,qa,935,Shakespeare and Company (bookshop),Teriade,False,18890.662,2026-01-23T08:30:49.262270
+mistral:latest_local_baseline_qa,mistral:latest,qa,936,The penitentiary where Jimmy Elliot was sentenced is fictional and does not have an actual address.,2027 Fairmount Avenue,False,19776.993000000002,2026-01-23T08:31:09.039330
+mistral:latest_local_baseline_qa,mistral:latest,qa,937,Mark Ciardi,Kurt Russell,False,19394.191,2026-01-23T08:31:28.433594
+mistral:latest_local_baseline_qa,mistral:latest,qa,938,The expert found that there is no evidence to support the existence of a Value premium in the stock market.,The Vanguard Group,False,25986.784,2026-01-23T08:31:54.420453
+mistral:latest_local_baseline_qa,mistral:latest,qa,939,1842,1614,False,31654.879,2026-01-23T08:32:26.075386
+mistral:latest_local_baseline_qa,mistral:latest,qa,940,Barack Obama,"Robert ""Bobby"" Bunda",False,18307.581,2026-01-23T08:32:44.383037
+mistral:latest_local_baseline_qa,mistral:latest,qa,941,"The specific name of the road that borders both Pacific Mall and Splendid China Mall cannot be determined without additional information about the location of the malls within Foshan City. However, it is likely a major road or street in the city.",Steeles Avenue,False,27597.009,2026-01-23T08:33:11.980135
+mistral:latest_local_baseline_qa,mistral:latest,qa,942,England,"London, England",False,11418.113,2026-01-23T08:33:23.398473
+mistral:latest_local_baseline_qa,mistral:latest,qa,943,The focus of the movie is Superboy.,focus on young superheroes,False,21974.806,2026-01-23T08:33:45.373771
+mistral:latest_local_baseline_qa,mistral:latest,qa,944,Yes (Monkey Kingdom) and No (Anaganaga O Dheerudu),yes,False,21841.201999999997,2026-01-23T08:34:07.215111
+mistral:latest_local_baseline_qa,mistral:latest,qa,945,Temagami-Lorrain Mine,Burwash Mine,False,22369.378,2026-01-23T08:34:29.584535
+mistral:latest_local_baseline_qa,mistral:latest,qa,946,"Kensington Runestone is located in Douglas County, Minnesota.",Douglas,False,16396.315000000002,2026-01-23T08:34:45.980954
+mistral:latest_local_baseline_qa,mistral:latest,qa,947,Twin Pines Mall,Twin Pines/Lone Pine Mall,False,6060.941,2026-01-23T08:34:52.042277
+mistral:latest_local_baseline_qa,mistral:latest,qa,948,Comedic films,Hindi,False,2817.607,2026-01-23T08:34:54.859949
+mistral:latest_local_baseline_qa,mistral:latest,qa,949,Lyme Park,Tatton Park,False,4656.552,2026-01-23T08:34:59.516582
+mistral:latest_local_baseline_qa,mistral:latest,qa,950,Felicity Jones,Felicity Rose Hadley Jones,False,2849.23,2026-01-23T08:35:02.365876
+mistral:latest_local_baseline_qa,mistral:latest,qa,951,"The first graduating class of Manchester High School (Connecticut) could not be definitively determined without further research, but it was likely in the late 1800s or early 1900s.",June 1925,False,6511.73,2026-01-23T08:35:08.877660
+mistral:latest_local_baseline_qa,mistral:latest,qa,952,Rosyth Dockyard,Navy,False,4953.876,2026-01-23T08:35:13.831553
+mistral:latest_local_baseline_qa,mistral:latest,qa,953,Not applicable (requires additional information),2008,False,3922.67,2026-01-23T08:35:17.754236
+mistral:latest_local_baseline_qa,mistral:latest,qa,954,Lord's Resistance Army (Joseph Kony's rebel group or Kony's rebels),United Holy Salvation Army and Uganda Christian Army/Movement,False,4868.089999999999,2026-01-23T08:35:22.622345
+mistral:latest_local_baseline_qa,mistral:latest,qa,955,"September 21, 2016","September 30, 2009",False,3925.332,2026-01-23T08:35:26.547693
+mistral:latest_local_baseline_qa,mistral:latest,qa,956,Graham Greene,"Wesley ""Wes"" Studi",False,3872.823,2026-01-23T08:35:30.420588
+mistral:latest_local_baseline_qa,mistral:latest,qa,957,Robert Smigel,"Robert Smigel, Michael Koman and David Feldman",False,3824.976,2026-01-23T08:35:34.245618
+mistral:latest_local_baseline_qa,mistral:latest,qa,958,Yes,no,False,4434.535000000001,2026-01-23T08:35:38.680166
+mistral:latest_local_baseline_qa,mistral:latest,qa,959,Everybody Sing,"""An All-Colored Vaudeville Show""",False,3381.618,2026-01-23T08:35:42.061829
+mistral:latest_local_baseline_qa,mistral:latest,qa,960,"Dirt Track Racing (specifically, Street Stock Racing)",Dirt track racing,False,4731.830000000001,2026-01-23T08:35:46.793679
+mistral:latest_local_baseline_qa,mistral:latest,qa,961,John Quogue (born approximately 1600),1599,False,6979.15,2026-01-23T08:35:53.772903
+mistral:latest_local_baseline_qa,mistral:latest,qa,962,Patxi's Chicago Pizza,Bearno's Pizza,False,3583.64,2026-01-23T08:35:57.356687
+mistral:latest_local_baseline_qa,mistral:latest,qa,963,1957,1957,True,3614.121,2026-01-23T08:36:00.971041
+mistral:latest_local_baseline_qa,mistral:latest,qa,964,William H. Woolsey,Cuyler Reynolds,False,3899.0119999999997,2026-01-23T08:36:04.870262
+mistral:latest_local_baseline_qa,mistral:latest,qa,965,Long Island Expressway (I-495),Southern State Parkway,False,4377.795,2026-01-23T08:36:09.248184
+mistral:latest_local_baseline_qa,mistral:latest,qa,966,Action films,martial arts action films,False,3154.672,2026-01-23T08:36:12.403014
+mistral:latest_local_baseline_qa,mistral:latest,qa,967,Louis Mountbatten was a first cousin of King George VI and an uncle to Queen Elizabeth II.,second cousin once removed,False,4388.416,2026-01-23T08:36:16.792211
+mistral:latest_local_baseline_qa,mistral:latest,qa,968,"The frequency of publication for HDFC Bank's Business Outlook is not specified in the question. It is likely to be published periodically, such as monthly or quarterly.",fortnightly,False,5926.666,2026-01-23T08:36:22.718935
+mistral:latest_local_baseline_qa,mistral:latest,qa,969,Spam,Spam,True,3893.514,2026-01-23T08:36:26.612498
+mistral:latest_local_baseline_qa,mistral:latest,qa,970,Eustoma,Eustoma,True,2763.457,2026-01-23T08:36:29.376336
+mistral:latest_local_baseline_qa,mistral:latest,qa,971,"""All in the Family"" and ""The Flintstones""",The Life of Larry and Larry & Steve,False,5475.902999999999,2026-01-23T08:36:34.852258
+mistral:latest_local_baseline_qa,mistral:latest,qa,972,"Martin Short's show ""Primetime Glick""",Los Angeles,False,5094.347,2026-01-23T08:36:39.946624
+mistral:latest_local_baseline_qa,mistral:latest,qa,973,Reggie Bush did not have a true freshman season in 2004.,"1,925 yards",False,6748.160000000001,2026-01-23T08:36:46.694811
+mistral:latest_local_baseline_qa,mistral:latest,qa,974,Nicolas Vanier,Nicolas Vanier,True,3734.3,2026-01-23T08:36:50.429170
+mistral:latest_local_baseline_qa,mistral:latest,qa,975,"April 17, 2025","March 30, 2025",False,5976.483,2026-01-23T08:36:56.405705
+mistral:latest_local_baseline_qa,mistral:latest,qa,976,Yes,yes,True,2582.595,2026-01-23T08:36:58.988357
+mistral:latest_local_baseline_qa,mistral:latest,qa,977,2003,2006 season,False,5193.414,2026-01-23T08:37:04.181792
+mistral:latest_local_baseline_qa,mistral:latest,qa,978,Jean-Claude Van Damme,Scott Adkins,False,5226.294,2026-01-23T08:37:09.408112
+mistral:latest_local_baseline_qa,mistral:latest,qa,979,Aleksandr Ivanovsky,Aleksandr Ivanovsky,True,3730.1169999999997,2026-01-23T08:37:13.138239
+mistral:latest_local_baseline_qa,mistral:latest,qa,980,John Lennon,John Lennon,True,2699.833,2026-01-23T08:37:15.838091
+mistral:latest_local_baseline_qa,mistral:latest,qa,981,Kintop Productions,Free Range Films,False,4073.0719999999997,2026-01-23T08:37:19.911186
+mistral:latest_local_baseline_qa,mistral:latest,qa,982,Pennsylvania,Province of New York,False,4605.063999999999,2026-01-23T08:37:24.516310
+mistral:latest_local_baseline_qa,mistral:latest,qa,983,"Jeff Wood made his CART debut at the 1983 Miller High Life Mile and a Quarter Classic, which took place on August 21, 1983, at the Milwaukee Mile racetrack in West Allis, Wisconsin.",Caesars Palace Grand Prix,False,6985.412,2026-01-23T08:37:31.501783
+mistral:latest_local_baseline_qa,mistral:latest,qa,984,David Dunn,David Dunn,True,2205.1789999999996,2026-01-23T08:37:33.707029
+mistral:latest_local_baseline_qa,mistral:latest,qa,985,The exact coordinates of the bone fragments are not provided in the question.,7°56',False,5186.977,2026-01-23T08:37:38.894018
+mistral:latest_local_baseline_qa,mistral:latest,qa,986,Benjamin L. Cardin was first elected to the Senate in 1987.,since 2007,False,4049.131,2026-01-23T08:37:42.943175
+mistral:latest_local_baseline_qa,mistral:latest,qa,987,Stephen Bywater,Scott Paul Carson,False,3270.9519999999998,2026-01-23T08:37:46.214149
+mistral:latest_local_baseline_qa,mistral:latest,qa,988,Chess,"American educator, writer,",False,3271.69,2026-01-23T08:37:49.485903
+mistral:latest_local_baseline_qa,mistral:latest,qa,989,Heavyweights (1995),Heavyweights,False,3152.594,2026-01-23T08:37:52.638513
+mistral:latest_local_baseline_qa,mistral:latest,qa,990,Paul Lee,Robert A. Iger,False,3389.183,2026-01-23T08:37:56.027738
+mistral:latest_local_baseline_qa,mistral:latest,qa,991,Brad Paisley (former college baseball player),American football,False,3816.058,2026-01-23T08:37:59.843815
+mistral:latest_local_baseline_qa,mistral:latest,qa,992,BAFTA (British Academy Film Award) for Best Animated Feature,Academy Award for Best Animated Feature,False,5074.034000000001,2026-01-23T08:38:04.917859
+mistral:latest_local_baseline_qa,mistral:latest,qa,993,"Lee Corso played for the University of Louisville Cardinals football team, not the NFL.",the Bears,False,4968.393,2026-01-23T08:38:09.886269
+mistral:latest_local_baseline_qa,mistral:latest,qa,994,Fred Gehrke is the 23rd overall pick in the 2010 Major League Baseball Draft.,great-grandfather,False,3622.931,2026-01-23T08:38:13.509215
+mistral:latest_local_baseline_qa,mistral:latest,qa,995,William Shakespeare,William Shakespeare,True,3745.9889999999996,2026-01-23T08:38:17.255250
+mistral:latest_local_baseline_qa,mistral:latest,qa,996,Nanny (Mary Poppins),fictional character,False,4484.918000000001,2026-01-23T08:38:21.740195
+mistral:latest_local_baseline_qa,mistral:latest,qa,997,Nico Rosberg,American-born,False,4346.932,2026-01-23T08:38:26.087183
+mistral:latest_local_baseline_qa,mistral:latest,qa,998,"No, neither Yangzhou nor Jiangyan District are considered coastal cities.",no,False,5073.594,2026-01-23T08:38:31.160827
+mistral:latest_local_baseline_qa,mistral:latest,qa,999,Both Ndebele music and Musical bow use a bowed string instrument.,played,False,3479.3340000000003,2026-01-23T08:38:34.640193

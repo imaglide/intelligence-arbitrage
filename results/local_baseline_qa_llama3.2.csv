@@ -1,0 +1,51 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,timestamp
+llama3.2_local_baseline_qa,llama3.2,qa,0,"Yes, Scott Derrickson and Ed Wood were of the same nationality, being American.",yes,False,2104.998,2026-01-18T14:21:41.855601
+llama3.2_local_baseline_qa,llama3.2,qa,1,"Unfortunately, I couldn't find any reliable source confirming the name of the actress who played Corliss Archer in the 2005 film Kiss and Tell. If you have any more context or details about the film, I'd be happy to try and help further.",Chief of Protocol,False,2915.883,2026-01-18T14:21:44.771504
+llama3.2_local_baseline_qa,llama3.2,qa,2,A Court of Thorns and Roses,Animorphs,False,34180.394,2026-01-18T14:22:18.951918
+llama3.2_local_baseline_qa,llama3.2,qa,3,"Yes, they are located in the same neighborhood.",no,False,1932.196,2026-01-18T14:22:20.884160
+llama3.2_local_baseline_qa,llama3.2,qa,4,Greenwich Village,"Greenwich Village, New York City",False,1866.817,2026-01-18T14:22:22.750988
+llama3.2_local_baseline_qa,llama3.2,qa,5,SM Entertainment.,YG Entertainment,False,1222.919,2026-01-18T14:22:23.973914
+llama3.2_local_baseline_qa,llama3.2,qa,6,"It's difficult to determine which person the question is referring to without more context. However, one notable figure known by the name ""Aladdin"" is Alan A. Block, an American management consultant.",Eenasul Fateh,False,3374.817,2026-01-18T14:22:27.348739
+llama3.2_local_baseline_qa,llama3.2,qa,7,"Androscoggin Bank Colisée can seat approximately 2,500 people.","3,677 seated",False,2126.5139999999997,2026-01-18T14:22:29.475273
+llama3.2_local_baseline_qa,llama3.2,qa,8,Terry Richardson is older than Annie Morton.,Terry Richardson,False,1492.945,2026-01-18T14:22:30.968227
+llama3.2_local_baseline_qa,llama3.2,qa,9,"No, they are not both from the United States.",yes,False,1803.196,2026-01-18T14:22:32.771441
+llama3.2_local_baseline_qa,llama3.2,qa,10,"""On the Rocks""",Kansas Song,False,1891.67,2026-01-18T14:22:34.663137
+llama3.2_local_baseline_qa,llama3.2,qa,11,"I couldn't find any information about a screenwriter with credits for ""Evolution"" who co-wrote a film starring Nicolas Cage and Téa Leoni.",David Weissman,False,50429.451,2026-01-18T14:23:25.092607
+llama3.2_local_baseline_qa,llama3.2,qa,12,"Guns N' Roses performed the song ""Patience"" for the 1991 film ""Terminator 2: Judgment Day"".",1999,False,3509.79,2026-01-18T14:23:28.602938
+llama3.2_local_baseline_qa,llama3.2,qa,13,"Yes, both buildings are used for real estate purposes.",no,False,2763.4370000000004,2026-01-18T14:23:31.366384
+llama3.2_local_baseline_qa,llama3.2,qa,14,Sir Alex Ferguson managed Manchester United from 1986 to 2013.,from 1986 to 2013,False,1766.5720000000001,2026-01-18T14:23:33.132966
+llama3.2_local_baseline_qa,llama3.2,qa,15,"Without more specific information about the state or country, it's difficult to provide an accurate answer regarding the number of inhabitants.","9,984",False,2038.4009999999998,2026-01-18T14:23:35.171379
+llama3.2_local_baseline_qa,llama3.2,qa,16,The conference was previously known as the Northeast-10 Conference.,the North Atlantic Conference,False,2033.6889999999999,2026-01-18T14:23:37.205090
+llama3.2_local_baseline_qa,llama3.2,qa,17,"Yes, both Giuseppe Verdi and Ambroise Thomas are opera composers.",yes,False,2252.549,2026-01-18T14:23:39.457684
+llama3.2_local_baseline_qa,llama3.2,qa,18,He served as Assistant Secretary for Health and Scientific Affairs from 2001 to 2005.,1969 until 1974,False,1562.155,2026-01-18T14:23:41.019848
+llama3.2_local_baseline_qa,llama3.2,qa,19,Robert Erskine Childers,Robert Erskine Childers DSC,False,1090.3220000000001,2026-01-18T14:23:42.110179
+llama3.2_local_baseline_qa,llama3.2,qa,20,Nico Rosberg,Pedro Rodríguez,False,46466.254,2026-01-18T14:24:28.576446
+llama3.2_local_baseline_qa,llama3.2,qa,21,Princess,Sonic,False,2102.79,2026-01-18T14:24:30.679265
+llama3.2_local_baseline_qa,llama3.2,qa,22,iTunes Remote.,keyboard function keys,False,957.0070000000001,2026-01-18T14:24:31.636280
+llama3.2_local_baseline_qa,llama3.2,qa,23,"Badly Drawn Boy likely has a higher instrument to person ratio due to his solo nature and the occasional addition of extra musicians, whereas Wolf Alice consistently performs with a full band.",Badly Drawn Boy,False,3473.589,2026-01-18T14:24:35.109877
+llama3.2_local_baseline_qa,llama3.2,qa,24,Thorvald Schmeichel,World's Best Goalkeeper,False,2170.385,2026-01-18T14:24:37.280278
+llama3.2_local_baseline_qa,llama3.2,qa,25,"Nancy Sinatra was the writer of ""These Boots Are Made for Walkin'"", but I couldn't find any information on someone dying in 2007 related to this specific question. However, it's possible that you are referring to Nancy Sinatra's father, Frank Sinatra, who passed away on May 14, 1998.",Barton Lee Hazlewood,False,3435.374,2026-01-18T14:24:40.715745
+llama3.2_local_baseline_qa,llama3.2,qa,26,"Virginia Commonwealth University was founded in 1968 as the Medical College of Virginia (MCV). In 1976, it merged with the Virginia Commonwealth University School of Medicine to form a single institution, which became known as Virginia Commonwealth University. Therefore, the founding year is 1968.",1838,False,3080.705,2026-01-18T14:24:43.796472
+llama3.2_local_baseline_qa,llama3.2,qa,27,"Yes, both Dictyosperma and Huernia are described as genera.",yes,False,2191.239,2026-01-18T14:24:45.987757
+llama3.2_local_baseline_qa,llama3.2,qa,28,"Henry J. Kaiser is often referred to as the ""father of modern American shipbuilding"" due to his innovative approaches and massive contributions to the war effort.",Henry J. Kaiser,False,2402.72,2026-01-18T14:24:48.390485
+llama3.2_local_baseline_qa,llama3.2,qa,29,"The adventure in question is called ""Deep Fire"".",Arena of Khazan,False,1858.989,2026-01-18T14:24:50.249482
+llama3.2_local_baseline_qa,llama3.2,qa,30,"The album ""Shut Up, Make Love"" by Poison was released in 2007.",2000,False,1576.018,2026-01-18T14:24:51.825511
+llama3.2_local_baseline_qa,llama3.2,qa,31,"Buck-Tick hails from Tokyo, Japan.","Fujioka, Gunma",False,1237.801,2026-01-18T14:24:53.063330
+llama3.2_local_baseline_qa,llama3.2,qa,32,"Charles Nungesser and François Coli were the most well-known pilots associated with L'Oiseau Blanc, but another notable pilot who flew it is Captain Louis Quénault. However, the most famous French ace pilot to fly L'Oiseau Blanc is likely Captain Charles Nungesser, who was an adventurer and a fighter pilot.",Charles Eugène,False,3321.397,2026-01-18T14:24:56.384764
+llama3.2_local_baseline_qa,llama3.2,qa,33,"No, they are not exclusively American documentaries.",no,False,1906.08,2026-01-18T14:24:58.290855
+llama3.2_local_baseline_qa,llama3.2,qa,34,Screaming Trees had more members than Letters to Cleo.,Letters to Cleo,False,2099.186,2026-01-18T14:25:00.390056
+llama3.2_local_baseline_qa,llama3.2,qa,35,The Russian Civil War ended with the establishment of the Soviet Union in 1922.,October 1922,False,1911.3139999999999,2026-01-18T14:25:02.301414
+llama3.2_local_baseline_qa,llama3.2,qa,36,Carlo Rovelli,2000,False,1398.478,2026-01-18T14:25:03.699903
+llama3.2_local_baseline_qa,llama3.2,qa,37,World War II.,World War II,False,1391.1899999999998,2026-01-18T14:25:05.091107
+llama3.2_local_baseline_qa,llama3.2,qa,38,"No, they are not both located in Michigan.",no,False,1940.017,2026-01-18T14:25:07.031148
+llama3.2_local_baseline_qa,llama3.2,qa,39,"I apologize, but without more context or information about Ralph Hefferline, it's difficult to provide a definitive answer.",New York City,False,2523.24,2026-01-18T14:25:09.554395
+llama3.2_local_baseline_qa,llama3.2,qa,40,"It is difficult to say with certainty which breed's ancestors include Gordon and Irish Setters, as the ancestry of both breeds is not well-documented. However, it is known that the Scottish Collie's ancestry includes dogs from Scotland, while the Manchester Terrier's ancestry may be more complex and unclear.",Scotch Collie,False,3707.497,2026-01-18T14:25:13.261900
+llama3.2_local_baseline_qa,llama3.2,qa,41,Microsoft,Mumbai,False,2246.217,2026-01-18T14:25:15.508135
+llama3.2_local_baseline_qa,llama3.2,qa,42,Yoshitoki Oima was born in 1982.,1962,False,2520.464,2026-01-18T14:25:18.028629
+llama3.2_local_baseline_qa,llama3.2,qa,43,Ethiopia's independence from Italian colonization.,sovereignty,False,1749.641,2026-01-18T14:25:19.778316
+llama3.2_local_baseline_qa,llama3.2,qa,44,Lyndon B. Johnson,Nelson Rockefeller,False,1780.5839999999998,2026-01-18T14:25:21.558913
+llama3.2_local_baseline_qa,llama3.2,qa,45,The Firth of Forth.,Yellowcraig,False,1951.649,2026-01-18T14:25:23.510575
+llama3.2_local_baseline_qa,llama3.2,qa,46,Leonard Cohen,Phil Spector,False,1366.64,2026-01-18T14:25:24.877232
+llama3.2_local_baseline_qa,llama3.2,qa,47,The Usenet.,Organizations could come together to address global issues,False,2199.953,2026-01-18T14:25:27.077195
+llama3.2_local_baseline_qa,llama3.2,qa,48,"Yes, Ferocactus and Silene are both types of plants.",yes,False,1828.691,2026-01-18T14:25:28.905897
+llama3.2_local_baseline_qa,llama3.2,qa,49,The Handley Page Halton.,English Electric Canberra,False,2340.5879999999997,2026-01-18T14:25:31.246502

@@ -1,0 +1,74 @@
+{
+  "self": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "question": "TreQuan is throwing rocks in the river and he notices that the bigger the rock, the wider the splash. Pebbles make a splash that is a 1\/4 meter wide. Rocks make a splash that is 1\/2 a meter wide, and boulders create a splash that is 2 meters wide. If he tosses 6 pebbles, 3 rocks, and 2 boulders, what is the total width of the splashes he makes?",
+        "reasoning": "First, we need to find the width of each type of splash. For pebbles, it's 1\/4 meter wide, for rocks it's 1\/2 a meter wide, and for boulders it's 2 meters wide. TreQuan tosses 6 pebbles, so their total width is 6 * (1\/4) = 1.5 meters. He tosses 3 rocks, so their total width is 3 * (1\/2) = 1.5 meters. He tosses 2 boulders, so their total width is 2 * 2 = 4 meters. Adding all the splash widths together gives us a total of 1.5 + 1.5 + 4 = 7 meters.",
+        "answer": "7"
+      },
+      {
+        "augmented": true,
+        "question": "Don throws 3 darts.  One is a bullseye worth 50 points.  One completely missed the target, so received no points. The third was worth half the points of the bullseye.  What is the final score from these 3 throws?",
+        "reasoning": "First, we find the points scored by the dart that was worth half the points of the bullseye. Since the bullseye is worth 50 points, half of it would be 50\/2 = 25 points.\n\nThe final score from these 3 throws is the sum of the scores from each throw: 50 (bullseye) + 0 (missed target) + 25 (half bullseye) = 75 points.",
+        "answer": "75"
+      },
+      {
+        "question": "Frankie's parents let him have many pets. He has six more snakes than he has cats. He has one less parrot than cats. Six of his pets have four legs. He has 2 dogs. How many pets does he have in total?",
+        "answer": "19"
+      },
+      {
+        "question": "Mimi picked up 2 dozen seashells on the beach.  Kyle found twice as many shells as Mimi and put them in his pocket. Leigh grabbed one-third of the shells that Kyle found.  How many seashells did Leigh have?",
+        "answer": "16"
+      },
+      {
+        "question": "Ezekiel hikes as a hobby. This past summer, he did a challenging three-day hike across 50 kilometers of wilderness. The first day, he covered 10 kilometers of steep mountainside. The second day was flatter and he was able to cover half the full hike distance. How many kilometers did he have to hike on the third day to finish the hike?",
+        "answer": "15"
+      }
+    ],
+    "signature": {
+      "instructions": "Solve the math word problem. Give the reasoning steps and the final answer.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Reasoning:",
+          "description": "Step-by-step calculation"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "The final numerical answer"
+        }
+      ]
+    },
+    "extended_signature": {
+      "instructions": "Ask the Language Model to provide an explanation on how to solve a given math word problem and give both the reasoning steps and the final numerical answer in a structured format.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Reasoning:",
+          "description": "Step-by-step calculation"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "The final numerical answer"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11.6",
+      "dspy": "2.6.27",
+      "cloudpickle": "3.1.2"
+    }
+  }
+}

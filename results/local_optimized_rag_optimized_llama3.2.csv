@@ -1,0 +1,1014 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,timestamp
+llama3.2_local_baseline_rag,llama3.2,rag,0,Denver Broncos,Denver Broncos,True,4.037,2026-01-22T20:04:48.568882
+llama3.2_local_baseline_rag,llama3.2,rag,1,Carolina Panthers,Carolina Panthers,True,2.601,2026-01-22T20:04:48.571491
+llama3.2_local_baseline_rag,llama3.2,rag,2,"Levi's Stadium in the San Francisco Bay Area at Santa Clara, California","Santa Clara, California",True,1.421,2026-01-22T20:04:48.572917
+llama3.2_local_baseline_rag,llama3.2,rag,3,Denver Broncos,Denver Broncos,True,4.9750000000000005,2026-01-22T20:04:48.577897
+llama3.2_local_baseline_rag,llama3.2,rag,4,gold,gold,True,6.272,2026-01-22T20:04:48.584174
+llama3.2_local_baseline_rag,llama3.2,rag,5,"The ""golden anniversary"" theme, emphasizing the 50th Super Bowl.","""golden anniversary""",True,2.1519999999999997,2026-01-22T20:04:48.586332
+llama3.2_local_baseline_rag,llama3.2,rag,6,"February 7, 2016","February 7, 2016",True,1.895,2026-01-22T20:04:48.588232
+llama3.2_local_baseline_rag,llama3.2,rag,7,American Football Conference,American Football Conference,True,1.9020000000000001,2026-01-22T20:04:48.590143
+llama3.2_local_baseline_rag,llama3.2,rag,8,"The ""golden anniversary"" theme, emphasizing the 50th Super Bowl.","""golden anniversary""",True,0.662,2026-01-22T20:04:48.590809
+llama3.2_local_baseline_rag,llama3.2,rag,9,American Football Conference,American Football Conference,True,1.895,2026-01-22T20:04:48.592708
+llama3.2_local_baseline_rag,llama3.2,rag,10,"February 7, 2016","February 7, 2016",True,1.9009999999999998,2026-01-22T20:04:48.594613
+llama3.2_local_baseline_rag,llama3.2,rag,11,Denver Broncos,Denver Broncos,True,2.02,2026-01-22T20:04:48.596637
+llama3.2_local_baseline_rag,llama3.2,rag,12,"Levi's Stadium in Santa Clara, California",Levi's Stadium,True,1.898,2026-01-22T20:04:48.598541
+llama3.2_local_baseline_rag,llama3.2,rag,13,"Santa Clara, California",Santa Clara,True,1.887,2026-01-22T20:04:48.600432
+llama3.2_local_baseline_rag,llama3.2,rag,14,Super Bowl L,Super Bowl L,True,2.041,2026-01-22T20:04:48.602477
+llama3.2_local_baseline_rag,llama3.2,rag,15,2015 season,2015,True,1.8699999999999999,2026-01-22T20:04:48.604350
+llama3.2_local_baseline_rag,llama3.2,rag,16,2016,2015,False,1.853,2026-01-22T20:04:48.606208
+llama3.2_local_baseline_rag,llama3.2,rag,17,"Santa Clara, California",Santa Clara,True,0.666,2026-01-22T20:04:48.606877
+llama3.2_local_baseline_rag,llama3.2,rag,18,Levi's Stadium,Levi's Stadium,True,1.846,2026-01-22T20:04:48.608727
+llama3.2_local_baseline_rag,llama3.2,rag,19,24–10,24–10,True,1.9009999999999998,2026-01-22T20:04:48.610632
+llama3.2_local_baseline_rag,llama3.2,rag,20,"February 7, 2016","February 7, 2016",True,1.859,2026-01-22T20:04:48.612494
+llama3.2_local_baseline_rag,llama3.2,rag,21,2016,2015,False,1.97,2026-01-22T20:04:48.614468
+llama3.2_local_baseline_rag,llama3.2,rag,22,Denver Broncos,Denver Broncos,True,1.792,2026-01-22T20:04:48.616263
+llama3.2_local_baseline_rag,llama3.2,rag,23,Carolina Panthers,Carolina Panthers,True,1.81,2026-01-22T20:04:48.618077
+llama3.2_local_baseline_rag,llama3.2,rag,24,Denver Broncos,Denver Broncos,True,0.642,2026-01-22T20:04:48.618722
+llama3.2_local_baseline_rag,llama3.2,rag,25,2015 season,2015,True,1.794,2026-01-22T20:04:48.620519
+llama3.2_local_baseline_rag,llama3.2,rag,26,Denver Broncos,Denver Broncos,True,1.84,2026-01-22T20:04:48.622363
+llama3.2_local_baseline_rag,llama3.2,rag,27,"Levi's Stadium in the San Francisco Bay Area at Santa Clara, California","Santa Clara, California.",False,1.842,2026-01-22T20:04:48.624208
+llama3.2_local_baseline_rag,llama3.2,rag,28,Super Bowl,Super Bowl,True,1.875,2026-01-22T20:04:48.626087
+llama3.2_local_baseline_rag,llama3.2,rag,29,Denver Broncos,Denver Broncos,True,1.846,2026-01-22T20:04:48.627937
+llama3.2_local_baseline_rag,llama3.2,rag,30,Cam Newton,Cam Newton,True,1.997,2026-01-22T20:04:48.629938
+llama3.2_local_baseline_rag,llama3.2,rag,31,eight,8,False,1.7619999999999998,2026-01-22T20:04:48.631703
+llama3.2_local_baseline_rag,llama3.2,rag,32,1995,1995,True,1.896,2026-01-22T20:04:48.633604
+llama3.2_local_baseline_rag,llama3.2,rag,33,the Arizona Cardinals,Arizona Cardinals,True,1.758,2026-01-22T20:04:48.635365
+llama3.2_local_baseline_rag,llama3.2,rag,34,the New England Patriots,New England Patriots,True,1.866,2026-01-22T20:04:48.637234
+llama3.2_local_baseline_rag,llama3.2,rag,35,the Arizona Cardinals,Arizona Cardinals,True,1.786,2026-01-22T20:04:48.639027
+llama3.2_local_baseline_rag,llama3.2,rag,36,the New England Patriots,New England Patriots,True,1.7619999999999998,2026-01-22T20:04:48.640794
+llama3.2_local_baseline_rag,llama3.2,rag,37,The New England Patriots,New England Patriots,True,1.9889999999999999,2026-01-22T20:04:48.642786
+llama3.2_local_baseline_rag,llama3.2,rag,38,four,four,True,1.823,2026-01-22T20:04:48.644612
+llama3.2_local_baseline_rag,llama3.2,rag,39,Cam Newton,Cam Newton,True,1.803,2026-01-22T20:04:48.646418
+llama3.2_local_baseline_rag,llama3.2,rag,40,15–1,15–1,True,2.04,2026-01-22T20:04:48.648462
+llama3.2_local_baseline_rag,llama3.2,rag,41,Cam Newton,Cam Newton,True,1.888,2026-01-22T20:04:48.650354
+llama3.2_local_baseline_rag,llama3.2,rag,42,12–4,12–4,True,1.918,2026-01-22T20:04:48.652276
+llama3.2_local_baseline_rag,llama3.2,rag,43,four,4,False,1.974,2026-01-22T20:04:48.654254
+llama3.2_local_baseline_rag,llama3.2,rag,44,the New England Patriots,New England Patriots,True,1.859,2026-01-22T20:04:48.656118
+llama3.2_local_baseline_rag,llama3.2,rag,45,Cam Newton,Cam Newton,True,1.803,2026-01-22T20:04:48.657924
+llama3.2_local_baseline_rag,llama3.2,rag,46,the Arizona Cardinals,Arizona Cardinals,True,1.797,2026-01-22T20:04:48.659724
+llama3.2_local_baseline_rag,llama3.2,rag,47,2,2,True,1.8159999999999998,2026-01-22T20:04:48.661544
+llama3.2_local_baseline_rag,llama3.2,rag,48,the New England Patriots,New England Patriots,True,1.7550000000000001,2026-01-22T20:04:48.663303
+llama3.2_local_baseline_rag,llama3.2,rag,49,Cam Newton,Cam Newton,True,1.895,2026-01-22T20:04:48.665201
+llama3.2_local_baseline_rag,llama3.2,rag,50,New England Patriots,New England Patriots,True,1.771,2026-01-22T20:04:48.666976
+llama3.2_local_baseline_rag,llama3.2,rag,51,the Arizona Cardinals,Arizona Cardinals,True,1.73,2026-01-22T20:04:48.668710
+llama3.2_local_baseline_rag,llama3.2,rag,52,Cam Newton,Cam Newton,True,2.021,2026-01-22T20:04:48.670734
+llama3.2_local_baseline_rag,llama3.2,rag,53,the Arizona Cardinals,Arizona Cardinals,True,1.8090000000000002,2026-01-22T20:04:48.672547
+llama3.2_local_baseline_rag,llama3.2,rag,54,1995,1995.,True,1.7979999999999998,2026-01-22T20:04:48.674350
+llama3.2_local_baseline_rag,llama3.2,rag,55,Von Miller,Von Miller,True,1.9629999999999999,2026-01-22T20:04:48.676317
+llama3.2_local_baseline_rag,llama3.2,rag,56,two,2,False,1.821,2026-01-22T20:04:48.678142
+llama3.2_local_baseline_rag,llama3.2,rag,57,The Broncos,Broncos,True,2.076,2026-01-22T20:04:48.680222
+llama3.2_local_baseline_rag,llama3.2,rag,58,Von Miller,linebacker Von Miller,True,2.0010000000000003,2026-01-22T20:04:48.682226
+llama3.2_local_baseline_rag,llama3.2,rag,59,5,five solo tackles,False,1.81,2026-01-22T20:04:48.684039
+llama3.2_local_baseline_rag,llama3.2,rag,60,Cam Newton,Newton was limited by Denver's defense,False,1.7930000000000001,2026-01-22T20:04:48.685836
+llama3.2_local_baseline_rag,llama3.2,rag,61,seven,seven,True,1.925,2026-01-22T20:04:48.687765
+llama3.2_local_baseline_rag,llama3.2,rag,62,Von Miller,Von Miller,True,1.843,2026-01-22T20:04:48.689611
+llama3.2_local_baseline_rag,llama3.2,rag,63,three,three,True,1.8090000000000002,2026-01-22T20:04:48.691424
+llama3.2_local_baseline_rag,llama3.2,rag,64,two,two,True,1.907,2026-01-22T20:04:48.693334
+llama3.2_local_baseline_rag,llama3.2,rag,65,Von Miller,Von Miller,True,1.986,2026-01-22T20:04:48.695324
+llama3.2_local_baseline_rag,llama3.2,rag,66,linebacker,linebacker,True,1.7750000000000001,2026-01-22T20:04:48.697102
+llama3.2_local_baseline_rag,llama3.2,rag,67,5,5,True,1.9819999999999998,2026-01-22T20:04:48.699089
+llama3.2_local_baseline_rag,llama3.2,rag,68,2,2,True,1.797,2026-01-22T20:04:48.700890
+llama3.2_local_baseline_rag,llama3.2,rag,69,Von Miller,Von Miller,True,1.7309999999999999,2026-01-22T20:04:48.702626
+llama3.2_local_baseline_rag,llama3.2,rag,70,5,5,True,1.732,2026-01-22T20:04:48.704361
+llama3.2_local_baseline_rag,llama3.2,rag,71,seven,seven,True,1.7550000000000001,2026-01-22T20:04:48.706119
+llama3.2_local_baseline_rag,llama3.2,rag,72,three,three,True,2.1870000000000003,2026-01-22T20:04:48.708309
+llama3.2_local_baseline_rag,llama3.2,rag,73,fumble which they recovered for a touchdown,a fumble,False,1.7570000000000001,2026-01-22T20:04:48.710070
+llama3.2_local_baseline_rag,llama3.2,rag,74,Von Miller,Von Miller,True,1.7979999999999998,2026-01-22T20:04:48.711871
+llama3.2_local_baseline_rag,llama3.2,rag,75,linebacker,linebacker,True,1.735,2026-01-22T20:04:48.713611
+llama3.2_local_baseline_rag,llama3.2,rag,76,seven,seven,True,2.2230000000000003,2026-01-22T20:04:48.715838
+llama3.2_local_baseline_rag,llama3.2,rag,77,three,three,True,1.9220000000000002,2026-01-22T20:04:48.717764
+llama3.2_local_baseline_rag,llama3.2,rag,78,Von Miller,Von Miller,True,2.002,2026-01-22T20:04:48.719776
+llama3.2_local_baseline_rag,llama3.2,rag,79,5,five,False,2.038,2026-01-22T20:04:48.721819
+llama3.2_local_baseline_rag,llama3.2,rag,80,CBS,CBS,True,2.005,2026-01-22T20:04:48.723829
+llama3.2_local_baseline_rag,llama3.2,rag,81,$5 million,$5 million,True,1.95,2026-01-22T20:04:48.725783
+llama3.2_local_baseline_rag,llama3.2,rag,82,Coldplay,Coldplay,True,2.219,2026-01-22T20:04:48.728005
+llama3.2_local_baseline_rag,llama3.2,rag,83,Beyoncé and Bruno Mars,Beyoncé and Bruno Mars,True,1.81,2026-01-22T20:04:48.729819
+llama3.2_local_baseline_rag,llama3.2,rag,84,Super Bowl XLVII and Super Bowl XLVIII,Super Bowl XLVII,True,1.873,2026-01-22T20:04:48.731699
+llama3.2_local_baseline_rag,llama3.2,rag,85,CBS,CBS,True,1.8719999999999999,2026-01-22T20:04:48.733574
+llama3.2_local_baseline_rag,llama3.2,rag,86,$5 million,$5 million,True,1.7489999999999999,2026-01-22T20:04:48.735327
+llama3.2_local_baseline_rag,llama3.2,rag,87,Beyoncé,Beyoncé,True,1.8920000000000001,2026-01-22T20:04:48.737223
+llama3.2_local_baseline_rag,llama3.2,rag,88,Bruno Mars,Bruno Mars,True,1.769,2026-01-22T20:04:48.738998
+llama3.2_local_baseline_rag,llama3.2,rag,89,Coldplay,Coldplay,True,1.792,2026-01-22T20:04:48.740794
+llama3.2_local_baseline_rag,llama3.2,rag,90,CBS,CBS,True,2.0660000000000003,2026-01-22T20:04:48.742863
+llama3.2_local_baseline_rag,llama3.2,rag,91,$5 million,$5 million,True,1.8370000000000002,2026-01-22T20:04:48.744704
+llama3.2_local_baseline_rag,llama3.2,rag,92,Bruno Mars,Bruno Mars,True,1.8619999999999999,2026-01-22T20:04:48.746569
+llama3.2_local_baseline_rag,llama3.2,rag,93,third-most watched U.S. broadcast ever,third,True,1.8090000000000002,2026-01-22T20:04:48.748382
+llama3.2_local_baseline_rag,llama3.2,rag,94,CBS,CBS,True,1.856,2026-01-22T20:04:48.750243
+llama3.2_local_baseline_rag,llama3.2,rag,95,$5 million,$5 million,True,1.812,2026-01-22T20:04:48.752059
+llama3.2_local_baseline_rag,llama3.2,rag,96,Coldplay,Coldplay,True,2.069,2026-01-22T20:04:48.754131
+llama3.2_local_baseline_rag,llama3.2,rag,97,Beyoncé and Bruno Mars,Beyoncé and Bruno Mars,True,1.846,2026-01-22T20:04:48.755981
+llama3.2_local_baseline_rag,llama3.2,rag,98,CBS,CBS,True,1.832,2026-01-22T20:04:48.757816
+llama3.2_local_baseline_rag,llama3.2,rag,99,Coldplay,Coldplay,True,1.811,2026-01-22T20:04:48.759632
+llama3.2_local_baseline_rag,llama3.2,rag,100,Beyoncé and Bruno Mars,Beyoncé and Bruno Mars,True,1.817,2026-01-22T20:04:48.761452
+llama3.2_local_baseline_rag,llama3.2,rag,101,Super Bowl XLVII and Super Bowl XLVIII halftime shows,Super Bowl XLVII,True,1.811,2026-01-22T20:04:48.763267
+llama3.2_local_baseline_rag,llama3.2,rag,102,$5 million,$5 million,True,1.931,2026-01-22T20:04:48.765202
+llama3.2_local_baseline_rag,llama3.2,rag,103,Coldplay,Coldplay,True,1.814,2026-01-22T20:04:48.767020
+llama3.2_local_baseline_rag,llama3.2,rag,104,Beyoncé and Bruno Mars,Beyoncé and Bruno Mars,True,1.86,2026-01-22T20:04:48.768883
+llama3.2_local_baseline_rag,llama3.2,rag,105,Bruno Mars,Bruno Mars,True,1.769,2026-01-22T20:04:48.770657
+llama3.2_local_baseline_rag,llama3.2,rag,106,Roger Goodell,Roger Goodell,True,1.845,2026-01-22T20:04:48.772506
+llama3.2_local_baseline_rag,llama3.2,rag,107,the 50th Super Bowl,the 50th Super Bowl,True,1.9929999999999999,2026-01-22T20:04:48.774503
+llama3.2_local_baseline_rag,llama3.2,rag,108,2012,2012,True,1.8010000000000002,2026-01-22T20:04:48.776308
+llama3.2_local_baseline_rag,llama3.2,rag,109,Roger Goodell,Roger Goodell,True,1.7930000000000001,2026-01-22T20:04:48.778109
+llama3.2_local_baseline_rag,llama3.2,rag,110,early 2012,early 2012,True,1.827,2026-01-22T20:04:48.779939
+llama3.2_local_baseline_rag,llama3.2,rag,111,Roger Goodell,Roger Goodell,True,1.832,2026-01-22T20:04:48.781775
+llama3.2_local_baseline_rag,llama3.2,rag,112,Roger Goodell,Roger Goodell,True,1.8079999999999998,2026-01-22T20:04:48.783586
+llama3.2_local_baseline_rag,llama3.2,rag,113,Roger Goodell,Roger Goodell,True,1.736,2026-01-22T20:04:48.785325
+llama3.2_local_baseline_rag,llama3.2,rag,114,"spectacular
+and 
+an important game for us as a league",spectacular,True,1.7730000000000001,2026-01-22T20:04:48.787101
+llama3.2_local_baseline_rag,llama3.2,rag,115,spectacular,spectacular,True,1.75,2026-01-22T20:04:48.788854
+llama3.2_local_baseline_rag,llama3.2,rag,116,2012,2012,True,1.751,2026-01-22T20:04:48.790608
+llama3.2_local_baseline_rag,llama3.2,rag,117,Mercedes-Benz Superdome,New Orleans' Mercedes-Benz Superdome,True,1.728,2026-01-22T20:04:48.792339
+llama3.2_local_baseline_rag,llama3.2,rag,118,None (the question mentions Florida but only Miami is mentioned as a venue),Miami's Sun Life Stadium,False,1.817,2026-01-22T20:04:48.794160
+llama3.2_local_baseline_rag,llama3.2,rag,119,Levi's Stadium,San Francisco Bay Area's Levi's Stadium,True,2.019,2026-01-22T20:04:48.796182
+llama3.2_local_baseline_rag,llama3.2,rag,120,Sun Life Stadium,Sun Life Stadium,True,1.7830000000000001,2026-01-22T20:04:48.797969
+llama3.2_local_baseline_rag,llama3.2,rag,121,Levi's Stadium,Levi's Stadium,True,1.77,2026-01-22T20:04:48.799742
+llama3.2_local_baseline_rag,llama3.2,rag,122,Levi's Stadium,Levi's Stadium,True,1.76,2026-01-22T20:04:48.801507
+llama3.2_local_baseline_rag,llama3.2,rag,123,Mercedes-Benz Superdome,Mercedes-Benz Superdome,True,1.745,2026-01-22T20:04:48.803255
+llama3.2_local_baseline_rag,llama3.2,rag,124,Sun Life Stadium,Sun Life Stadium,True,1.778,2026-01-22T20:04:48.805036
+llama3.2_local_baseline_rag,llama3.2,rag,125,"Mercedes-Benz Superdome, Sun Life Stadium, Levi's Stadium","New Orleans' Mercedes-Benz Superdome, Miami's Sun Life Stadium, and the San Francisco Bay Area's Levi's Stadium",False,1.7489999999999999,2026-01-22T20:04:48.806789
+llama3.2_local_baseline_rag,llama3.2,rag,126,three,three,True,2.143,2026-01-22T20:04:48.808935
+llama3.2_local_baseline_rag,llama3.2,rag,127,New Orleans,New Orleans,True,1.79,2026-01-22T20:04:48.810729
+llama3.2_local_baseline_rag,llama3.2,rag,128,Sun Life Stadium,Sun Life Stadium,True,1.9719999999999998,2026-01-22T20:04:48.812704
+llama3.2_local_baseline_rag,llama3.2,rag,129,the San Francisco Bay Area's Levi's Stadium,San Francisco,True,1.974,2026-01-22T20:04:48.814683
+llama3.2_local_baseline_rag,llama3.2,rag,130,Levi's Stadium,Levi's Stadium.,True,1.8439999999999999,2026-01-22T20:04:48.816530
+llama3.2_local_baseline_rag,llama3.2,rag,131,Sun Life Stadium,Sun Life Stadium,True,2.024,2026-01-22T20:04:48.818558
+llama3.2_local_baseline_rag,llama3.2,rag,132,Mercedes-Benz Superdome,Mercedes-Benz Superdome,True,1.8359999999999999,2026-01-22T20:04:48.820398
+llama3.2_local_baseline_rag,llama3.2,rag,133,Levi's Stadium,Levi's Stadium.,True,1.8370000000000002,2026-01-22T20:04:48.822241
+llama3.2_local_baseline_rag,llama3.2,rag,134,"October 16, 2012","October 16, 2012",True,1.835,2026-01-22T20:04:48.824080
+llama3.2_local_baseline_rag,llama3.2,rag,135,10 times,10,True,1.769,2026-01-22T20:04:48.825852
+llama3.2_local_baseline_rag,llama3.2,rag,136,Super Bowl XLIV in 2010,Super Bowl XLIV,True,1.7830000000000001,2026-01-22T20:04:48.827639
+llama3.2_local_baseline_rag,llama3.2,rag,137,Super Bowl XLIV in 2010,2010,True,1.782,2026-01-22T20:04:48.829425
+llama3.2_local_baseline_rag,llama3.2,rag,138,1985,1985,True,1.7440000000000002,2026-01-22T20:04:48.831172
+llama3.2_local_baseline_rag,llama3.2,rag,139,Sun Life Stadium,Sun Life Stadium,True,1.7440000000000002,2026-01-22T20:04:48.832920
+llama3.2_local_baseline_rag,llama3.2,rag,140,"October 16, 2012","October 16, 2012",True,1.751,2026-01-22T20:04:48.834674
+llama3.2_local_baseline_rag,llama3.2,rag,141,"Stanford Stadium in Stanford, California",Stanford Stadium,True,1.7910000000000001,2026-01-22T20:04:48.836469
+llama3.2_local_baseline_rag,llama3.2,rag,142,"May 3, 2013","May 3, 2013",True,2.013,2026-01-22T20:04:48.838485
+llama3.2_local_baseline_rag,llama3.2,rag,143,2010,2010,True,1.799,2026-01-22T20:04:48.840289
+llama3.2_local_baseline_rag,llama3.2,rag,144,10 times,two,False,1.795,2026-01-22T20:04:48.842087
+llama3.2_local_baseline_rag,llama3.2,rag,145,Super Bowl XLIV in 2010,Super Bowl XLIV,True,1.91,2026-01-22T20:04:48.844001
+llama3.2_local_baseline_rag,llama3.2,rag,146,2,two,False,1.788,2026-01-22T20:04:48.845793
+llama3.2_local_baseline_rag,llama3.2,rag,147,The Florida legislature,Florida legislature,True,1.7570000000000001,2026-01-22T20:04:48.847553
+llama3.2_local_baseline_rag,llama3.2,rag,148,1985,1985,True,1.996,2026-01-22T20:04:48.849552
+llama3.2_local_baseline_rag,llama3.2,rag,149,New Orleans,New Orleans,True,1.83,2026-01-22T20:04:48.851385
+llama3.2_local_baseline_rag,llama3.2,rag,150,"October 16, 2012","October 16, 2012",True,1.9620000000000002,2026-01-22T20:04:48.853351
+llama3.2_local_baseline_rag,llama3.2,rag,151,10 times,10.,False,1.7730000000000001,2026-01-22T20:04:48.855127
+llama3.2_local_baseline_rag,llama3.2,rag,152,New Orleans,New Orleans,True,1.778,2026-01-22T20:04:48.856910
+llama3.2_local_baseline_rag,llama3.2,rag,153,1985,1985,True,1.735,2026-01-22T20:04:48.858648
+llama3.2_local_baseline_rag,llama3.2,rag,154,the Florida legislature,Florida legislature,True,1.859,2026-01-22T20:04:48.860511
+llama3.2_local_baseline_rag,llama3.2,rag,155,"May 21, 2013","May 21, 2013",True,1.812,2026-01-22T20:04:48.862328
+llama3.2_local_baseline_rag,llama3.2,rag,156,NFL owners at their spring meetings in Boston,NFL owners,True,1.7619999999999998,2026-01-22T20:04:48.864093
+llama3.2_local_baseline_rag,llama3.2,rag,157,2014,2014,True,1.747,2026-01-22T20:04:48.865843
+llama3.2_local_baseline_rag,llama3.2,rag,158,$1.2 billion,$1.2 billion,True,1.754,2026-01-22T20:04:48.867601
+llama3.2_local_baseline_rag,llama3.2,rag,159,San Diego,San Diego,True,1.7550000000000001,2026-01-22T20:04:48.869359
+llama3.2_local_baseline_rag,llama3.2,rag,160,Boston,Boston,True,1.9589999999999999,2026-01-22T20:04:48.871321
+llama3.2_local_baseline_rag,llama3.2,rag,161,"May 21, 2013","May 21, 2013",True,1.7329999999999999,2026-01-22T20:04:48.873057
+llama3.2_local_baseline_rag,llama3.2,rag,162,$1.2 billion,$1.2 billion,True,0.623,2026-01-22T20:04:48.873683
+llama3.2_local_baseline_rag,llama3.2,rag,163,Super Bowl XXXVII,Super Bowl XXXVII,True,1.954,2026-01-22T20:04:48.875641
+llama3.2_local_baseline_rag,llama3.2,rag,164,San Diego,San Diego,True,1.8190000000000002,2026-01-22T20:04:48.877464
+llama3.2_local_baseline_rag,llama3.2,rag,165,2014,2013,False,1.9949999999999999,2026-01-22T20:04:48.879462
+llama3.2_local_baseline_rag,llama3.2,rag,166,2014,2014,True,1.752,2026-01-22T20:04:48.881217
+llama3.2_local_baseline_rag,llama3.2,rag,167,$1.2 billion,$1.2 billion,True,1.754,2026-01-22T20:04:48.882975
+llama3.2_local_baseline_rag,llama3.2,rag,168,1985,1985,True,1.7229999999999999,2026-01-22T20:04:48.884703
+llama3.2_local_baseline_rag,llama3.2,rag,169,Super Bowl XXXVII,Super Bowl XXXVII,True,1.81,2026-01-22T20:04:48.886516
+llama3.2_local_baseline_rag,llama3.2,rag,170,"May 21, 2013","May 21, 2013",True,1.9589999999999999,2026-01-22T20:04:48.888479
+llama3.2_local_baseline_rag,llama3.2,rag,171,2014,2014,True,1.789,2026-01-22T20:04:48.890273
+llama3.2_local_baseline_rag,llama3.2,rag,172,2003,2003,True,1.825,2026-01-22T20:04:48.892101
+llama3.2_local_baseline_rag,llama3.2,rag,173,Boston,Boston,True,1.851,2026-01-22T20:04:48.893956
+llama3.2_local_baseline_rag,llama3.2,rag,174,"May 21, 2013","May 21, 2013",True,1.012,2026-01-22T20:04:48.894971
+llama3.2_local_baseline_rag,llama3.2,rag,175,2014,2014.,True,0.678,2026-01-22T20:04:48.895652
+llama3.2_local_baseline_rag,llama3.2,rag,176,$1.2 billion,$1.2 billion,True,2.883,2026-01-22T20:04:48.898539
+llama3.2_local_baseline_rag,llama3.2,rag,177,2003,2003.,True,1.7619999999999998,2026-01-22T20:04:48.900304
+llama3.2_local_baseline_rag,llama3.2,rag,178,John Fox (Carolina Panthers) and John Fox (Denver Broncos),John Fox,True,1.7630000000000001,2026-01-22T20:04:48.902070
+llama3.2_local_baseline_rag,llama3.2,rag,179,ten,ten,True,1.776,2026-01-22T20:04:48.903849
+llama3.2_local_baseline_rag,llama3.2,rag,180,one,six,False,1.835,2026-01-22T20:04:48.905687
+llama3.2_local_baseline_rag,llama3.2,rag,181,the Carolina Panthers,Carolina Panthers,True,1.785,2026-01-22T20:04:48.907475
+llama3.2_local_baseline_rag,llama3.2,rag,182,Super Bowl XLVIII,Super Bowl XLVIII,True,1.747,2026-01-22T20:04:48.909226
+llama3.2_local_baseline_rag,llama3.2,rag,183,John Fox,John Fox,True,1.903,2026-01-22T20:04:48.911132
+llama3.2_local_baseline_rag,llama3.2,rag,184,eight,eight,True,1.996,2026-01-22T20:04:48.913131
+llama3.2_local_baseline_rag,llama3.2,rag,185,ten,ten,True,1.8639999999999999,2026-01-22T20:04:48.914998
+llama3.2_local_baseline_rag,llama3.2,rag,186,Super Bowl XXXVIII,Super Bowl XXXVIII,True,1.797,2026-01-22T20:04:48.916799
+llama3.2_local_baseline_rag,llama3.2,rag,187,six,six,True,1.817,2026-01-22T20:04:48.918619
+llama3.2_local_baseline_rag,llama3.2,rag,188,number one seeds from both conferences,number one,True,1.857,2026-01-22T20:04:48.920480
+llama3.2_local_baseline_rag,llama3.2,rag,189,"number one seeds from both conferences met in the Super Bowl, but the specific seed of the Denver Broncos is not mentioned in the context.",number one,True,1.794,2026-01-22T20:04:48.922277
+llama3.2_local_baseline_rag,llama3.2,rag,190,Super Bowl XLVIII,Super Bowl XLVIII,True,1.758,2026-01-22T20:04:48.924038
+llama3.2_local_baseline_rag,llama3.2,rag,191,Super Bowl XXXVIII,Super Bowl XXXVIII.,True,1.782,2026-01-22T20:04:48.925826
+llama3.2_local_baseline_rag,llama3.2,rag,192,six,six,True,1.9789999999999999,2026-01-22T20:04:48.927808
+llama3.2_local_baseline_rag,llama3.2,rag,193,one,one,True,1.986,2026-01-22T20:04:48.929797
+llama3.2_local_baseline_rag,llama3.2,rag,194,four,four,True,1.9789999999999999,2026-01-22T20:04:48.931781
+llama3.2_local_baseline_rag,llama3.2,rag,195,John Fox,John Fox,True,1.878,2026-01-22T20:04:48.933663
+llama3.2_local_baseline_rag,llama3.2,rag,196,DeAngelo Williams,DeAngelo Williams,True,0.9700000000000001,2026-01-22T20:04:48.934636
+llama3.2_local_baseline_rag,llama3.2,rag,197,Kelvin Benjamin,Kelvin Benjamin,True,2.572,2026-01-22T20:04:48.937212
+llama3.2_local_baseline_rag,llama3.2,rag,198,seven,7,False,1.7799999999999998,2026-01-22T20:04:48.938996
+llama3.2_local_baseline_rag,llama3.2,rag,199,1978,1978,True,1.8259999999999998,2026-01-22T20:04:48.940825
+llama3.2_local_baseline_rag,llama3.2,rag,200,the Carolina Panthers,Carolina Panthers,True,1.7810000000000001,2026-01-22T20:04:48.942610
+llama3.2_local_baseline_rag,llama3.2,rag,201,ten,Ten,True,1.8079999999999998,2026-01-22T20:04:48.944422
+llama3.2_local_baseline_rag,llama3.2,rag,202,8,eight,False,1.753,2026-01-22T20:04:48.946179
+llama3.2_local_baseline_rag,llama3.2,rag,203,Kelvin Benjamin,Kelvin Benjamin,True,1.7650000000000001,2026-01-22T20:04:48.947947
+llama3.2_local_baseline_rag,llama3.2,rag,204,1978,1978,True,1.785,2026-01-22T20:04:48.949735
+llama3.2_local_baseline_rag,llama3.2,rag,205,2009,2009,True,2.008,2026-01-22T20:04:48.951747
+llama3.2_local_baseline_rag,llama3.2,rag,206,1978,2011,False,1.742,2026-01-22T20:04:48.953493
+llama3.2_local_baseline_rag,llama3.2,rag,207,torn ACL,torn ACL,True,1.797,2026-01-22T20:04:48.955293
+llama3.2_local_baseline_rag,llama3.2,rag,208,Kelvin Benjamin,Kelvin Benjamin,True,1.803,2026-01-22T20:04:48.957100
+llama3.2_local_baseline_rag,llama3.2,rag,209,DeAngelo Williams,DeAngelo Williams,True,1.7429999999999999,2026-01-22T20:04:48.958846
+llama3.2_local_baseline_rag,llama3.2,rag,210,1978,1978,True,1.802,2026-01-22T20:04:48.960651
+llama3.2_local_baseline_rag,llama3.2,rag,211,10,Ten,False,1.7730000000000001,2026-01-22T20:04:48.962427
+llama3.2_local_baseline_rag,llama3.2,rag,212,the Carolina Panthers,Carolina Panthers,True,1.815,2026-01-22T20:04:48.964246
+llama3.2_local_baseline_rag,llama3.2,rag,213,1978,1978.,True,1.7489999999999999,2026-01-22T20:04:48.965998
+llama3.2_local_baseline_rag,llama3.2,rag,214,the Carolina Panthers,Carolina Panthers,True,1.96,2026-01-22T20:04:48.967961
+llama3.2_local_baseline_rag,llama3.2,rag,215,10,Ten,False,1.776,2026-01-22T20:04:48.969741
+llama3.2_local_baseline_rag,llama3.2,rag,216,six,six,True,1.778,2026-01-22T20:04:48.971522
+llama3.2_local_baseline_rag,llama3.2,rag,217,45,45,True,1.84,2026-01-22T20:04:48.973366
+llama3.2_local_baseline_rag,llama3.2,rag,218,10,10,True,1.795,2026-01-22T20:04:48.975164
+llama3.2_local_baseline_rag,llama3.2,rag,219,27,27,True,1.847,2026-01-22T20:04:48.977015
+llama3.2_local_baseline_rag,llama3.2,rag,220,Greg Olsen,Greg Olsen,True,1.991,2026-01-22T20:04:48.979010
+llama3.2_local_baseline_rag,llama3.2,rag,221,"45 total touchdowns (35 passing, 10 rushing)",45,True,1.7910000000000001,2026-01-22T20:04:48.980804
+llama3.2_local_baseline_rag,llama3.2,rag,222,99.4,99.4,True,1.8370000000000002,2026-01-22T20:04:48.982644
+llama3.2_local_baseline_rag,llama3.2,rag,223,77,77 passes,True,1.83,2026-01-22T20:04:48.984477
+llama3.2_local_baseline_rag,llama3.2,rag,224,wide receiver,receivers,False,1.799,2026-01-22T20:04:48.986281
+llama3.2_local_baseline_rag,llama3.2,rag,225,Jonathan Stewart,Jonathan Stewart,True,1.759,2026-01-22T20:04:48.988043
+llama3.2_local_baseline_rag,llama3.2,rag,226,8,six,False,1.792,2026-01-22T20:04:48.989839
+llama3.2_local_baseline_rag,llama3.2,rag,227,Cam Newton,Cam Newton,True,1.768,2026-01-22T20:04:48.991610
+llama3.2_local_baseline_rag,llama3.2,rag,228,"3,837","3,837",True,1.7489999999999999,2026-01-22T20:04:48.993362
+llama3.2_local_baseline_rag,llama3.2,rag,229,45,45,True,1.795,2026-01-22T20:04:48.995160
+llama3.2_local_baseline_rag,llama3.2,rag,230,six touchdowns,six,True,0.9859999999999999,2026-01-22T20:04:48.996151
+llama3.2_local_baseline_rag,llama3.2,rag,231,500 points,500,True,2.509,2026-01-22T20:04:48.998664
+llama3.2_local_baseline_rag,llama3.2,rag,232,"3,837","3,837",True,1.774,2026-01-22T20:04:49.000441
+llama3.2_local_baseline_rag,llama3.2,rag,233,45,45,True,1.758,2026-01-22T20:04:49.002202
+llama3.2_local_baseline_rag,llama3.2,rag,234,99.4,99.4.,True,2.091,2026-01-22T20:04:49.004296
+llama3.2_local_baseline_rag,llama3.2,rag,235,39,39,True,1.829,2026-01-22T20:04:49.006128
+llama3.2_local_baseline_rag,llama3.2,rag,236,308,308,True,1.866,2026-01-22T20:04:49.007997
+llama3.2_local_baseline_rag,llama3.2,rag,237,136,136,True,1.786,2026-01-22T20:04:49.009787
+llama3.2_local_baseline_rag,llama3.2,rag,238,118,118,True,0.9990000000000001,2026-01-22T20:04:49.010790
+llama3.2_local_baseline_rag,llama3.2,rag,239,four,four,True,2.539,2026-01-22T20:04:49.013332
+llama3.2_local_baseline_rag,llama3.2,rag,240,Kawann Short,Kawann Short,True,1.768,2026-01-22T20:04:49.015103
+llama3.2_local_baseline_rag,llama3.2,rag,241,24,24,True,1.736,2026-01-22T20:04:49.016843
+llama3.2_local_baseline_rag,llama3.2,rag,242,Kawann Short,Kawann Short,True,1.802,2026-01-22T20:04:49.018648
+llama3.2_local_baseline_rag,llama3.2,rag,243,three,four,False,1.81,2026-01-22T20:04:49.020462
+llama3.2_local_baseline_rag,llama3.2,rag,244,five and a half,four,False,1.83,2026-01-22T20:04:49.022297
+llama3.2_local_baseline_rag,llama3.2,rag,245,Kurt Coleman,Kurt Coleman,True,1.8259999999999998,2026-01-22T20:04:49.024126
+llama3.2_local_baseline_rag,llama3.2,rag,246,24,24,True,1.785,2026-01-22T20:04:49.025915
+llama3.2_local_baseline_rag,llama3.2,rag,247,Kony Ealy,Kony Ealy,True,1.7550000000000001,2026-01-22T20:04:49.027673
+llama3.2_local_baseline_rag,llama3.2,rag,248,Kawann Short,Luke Kuechly.,False,1.716,2026-01-22T20:04:49.029393
+llama3.2_local_baseline_rag,llama3.2,rag,249,2,two.,False,1.807,2026-01-22T20:04:49.031203
+llama3.2_local_baseline_rag,llama3.2,rag,250,Gary Kubiak,Gary Kubiak,True,1.856,2026-01-22T20:04:49.033063
+llama3.2_local_baseline_rag,llama3.2,rag,251,Brock Osweiler,Brock Osweiler,True,0.969,2026-01-22T20:04:49.034036
+llama3.2_local_baseline_rag,llama3.2,rag,252,the Indianapolis Colts,Indianapolis Colts,True,2.593,2026-01-22T20:04:49.036632
+llama3.2_local_baseline_rag,llama3.2,rag,253,the San Diego Chargers,San Diego Chargers,True,1.81,2026-01-22T20:04:49.038447
+llama3.2_local_baseline_rag,llama3.2,rag,254,Wade Phillips,Wade Phillips,True,2.184,2026-01-22T20:04:49.040634
+llama3.2_local_baseline_rag,llama3.2,rag,255,4 years,four,False,1.803,2026-01-22T20:04:49.042440
+llama3.2_local_baseline_rag,llama3.2,rag,256,Gary Kubiak,Gary Kubiak,True,2.033,2026-01-22T20:04:49.044476
+llama3.2_local_baseline_rag,llama3.2,rag,257,the Indianapolis Colts,Indianapolis Colts,True,1.976,2026-01-22T20:04:49.046456
+llama3.2_local_baseline_rag,llama3.2,rag,258,39,39,True,1.949,2026-01-22T20:04:49.048409
+llama3.2_local_baseline_rag,llama3.2,rag,259,plantar fasciitis injury in his heel,plantar fasciitis,True,1.8519999999999999,2026-01-22T20:04:49.050264
+llama3.2_local_baseline_rag,llama3.2,rag,260,Gary Kubiak,Gary Kubiak,True,1.871,2026-01-22T20:04:49.052140
+llama3.2_local_baseline_rag,llama3.2,rag,261,Peyton Manning,Peyton Manning,True,1.813,2026-01-22T20:04:49.054000
+llama3.2_local_baseline_rag,llama3.2,rag,262,plantar fasciitis injury in his heel,a plantar fasciitis injury,False,1.9020000000000001,2026-01-22T20:04:49.055906
+llama3.2_local_baseline_rag,llama3.2,rag,263,39,39,True,1.044,2026-01-22T20:04:49.056953
+llama3.2_local_baseline_rag,llama3.2,rag,264,0,four,False,2.621,2026-01-22T20:04:49.059578
+llama3.2_local_baseline_rag,llama3.2,rag,265,John Fox,John Fox,True,1.806,2026-01-22T20:04:49.061387
+llama3.2_local_baseline_rag,llama3.2,rag,266,Peyton Manning,Peyton Manning,True,1.7979999999999998,2026-01-22T20:04:49.063189
+llama3.2_local_baseline_rag,llama3.2,rag,267,Wade Phillips,Gary Kubiak,False,1.788,2026-01-22T20:04:49.064980
+llama3.2_local_baseline_rag,llama3.2,rag,268,left foot,left foot.,True,0.98,2026-01-22T20:04:49.065963
+llama3.2_local_baseline_rag,llama3.2,rag,269,Wade Phillips,Wade Phillips,True,2.5799999999999996,2026-01-22T20:04:49.068547
+llama3.2_local_baseline_rag,llama3.2,rag,270,67.9,67.9,True,1.753,2026-01-22T20:04:49.070303
+llama3.2_local_baseline_rag,llama3.2,rag,271,17,17,True,1.7650000000000001,2026-01-22T20:04:49.072071
+llama3.2_local_baseline_rag,llama3.2,rag,272,Demaryius Thomas,Demaryius Thomas,True,1.817,2026-01-22T20:04:49.073892
+llama3.2_local_baseline_rag,llama3.2,rag,273,C. J. Anderson,C. J. Anderson,True,1.7730000000000001,2026-01-22T20:04:49.075672
+llama3.2_local_baseline_rag,llama3.2,rag,274,10,10,True,1.976,2026-01-22T20:04:49.077651
+llama3.2_local_baseline_rag,llama3.2,rag,275,67.9,67.9,True,1.76,2026-01-22T20:04:49.079414
+llama3.2_local_baseline_rag,llama3.2,rag,276,"2,249","2,249",True,1.7910000000000001,2026-01-22T20:04:49.081208
+llama3.2_local_baseline_rag,llama3.2,rag,277,17,nine,False,1.82,2026-01-22T20:04:49.083031
+llama3.2_local_baseline_rag,llama3.2,rag,278,Demaryius Thomas,Demaryius Thomas,True,1.756,2026-01-22T20:04:49.084790
+llama3.2_local_baseline_rag,llama3.2,rag,279,receiver,receiver,True,1.768,2026-01-22T20:04:49.086561
+llama3.2_local_baseline_rag,llama3.2,rag,280,67.9,67.9,True,2.098,2026-01-22T20:04:49.088663
+llama3.2_local_baseline_rag,llama3.2,rag,281,17,17,True,1.8010000000000002,2026-01-22T20:04:49.090468
+llama3.2_local_baseline_rag,llama3.2,rag,282,Demaryius Thomas,Demaryius Thomas,True,1.7810000000000001,2026-01-22T20:04:49.092252
+llama3.2_local_baseline_rag,llama3.2,rag,283,five,5,False,1.77,2026-01-22T20:04:49.094025
+llama3.2_local_baseline_rag,llama3.2,rag,284,67.9,67.9,True,1.823,2026-01-22T20:04:49.095852
+llama3.2_local_baseline_rag,llama3.2,rag,285,17,17,True,1.817,2026-01-22T20:04:49.097672
+llama3.2_local_baseline_rag,llama3.2,rag,286,Emmanuel Sanders,Emmanuel Sanders,True,1.734,2026-01-22T20:04:49.099410
+llama3.2_local_baseline_rag,llama3.2,rag,287,C. J. Anderson,C. J. Anderson,True,2.004,2026-01-22T20:04:49.101418
+llama3.2_local_baseline_rag,llama3.2,rag,288,4.7,4.7,True,1.9940000000000002,2026-01-22T20:04:49.103415
+llama3.2_local_baseline_rag,llama3.2,rag,289,"4,530","4,530",True,1.926,2026-01-22T20:04:49.105344
+llama3.2_local_baseline_rag,llama3.2,rag,290,5½,5½,True,1.8,2026-01-22T20:04:49.107148
+llama3.2_local_baseline_rag,llama3.2,rag,291,Brandon Marshall,Brandon Marshall,True,1.739,2026-01-22T20:04:49.108891
+llama3.2_local_baseline_rag,llama3.2,rag,292,three,three,True,1.796,2026-01-22T20:04:49.110690
+llama3.2_local_baseline_rag,llama3.2,rag,293,linebacker,Linebacker,True,1.7409999999999999,2026-01-22T20:04:49.112435
+llama3.2_local_baseline_rag,llama3.2,rag,294,linebacker,Linebacker,True,1.907,2026-01-22T20:04:49.114346
+llama3.2_local_baseline_rag,llama3.2,rag,295,Defensive end,Defensive ends,True,1.878,2026-01-22T20:04:49.116227
+llama3.2_local_baseline_rag,llama3.2,rag,296,296,296,True,1.805,2026-01-22T20:04:49.118035
+llama3.2_local_baseline_rag,llama3.2,rag,297,Von Miller,Von Miller,True,1.794,2026-01-22T20:04:49.119833
+llama3.2_local_baseline_rag,llama3.2,rag,298,Brandon Marshall,Brandon Marshall,True,1.75,2026-01-22T20:04:49.121586
+llama3.2_local_baseline_rag,llama3.2,rag,299,three,three.,True,1.732,2026-01-22T20:04:49.123324
+llama3.2_local_baseline_rag,llama3.2,rag,300,Von Miller,Von Miller,True,1.7619999999999998,2026-01-22T20:04:49.125089
+llama3.2_local_baseline_rag,llama3.2,rag,301,Brandon Marshall,Linebacker Brandon Marshall,True,1.7570000000000001,2026-01-22T20:04:49.126850
+llama3.2_local_baseline_rag,llama3.2,rag,302,Derek Wolfe and Malik Jackson,Derek Wolfe and Malik Jackson,True,1.784,2026-01-22T20:04:49.128637
+llama3.2_local_baseline_rag,llama3.2,rag,303,the Seattle Seahawks,Seattle Seahawks,True,1.771,2026-01-22T20:04:49.130414
+llama3.2_local_baseline_rag,llama3.2,rag,304,the Arizona Cardinals,Arizona Cardinals,True,1.811,2026-01-22T20:04:49.132228
+llama3.2_local_baseline_rag,llama3.2,rag,305,487,487,True,1.737,2026-01-22T20:04:49.133969
+llama3.2_local_baseline_rag,llama3.2,rag,306,seven,seven,True,0.958,2026-01-22T20:04:49.134930
+llama3.2_local_baseline_rag,llama3.2,rag,307,31–24,31–24,True,2.614,2026-01-22T20:04:49.137548
+llama3.2_local_baseline_rag,llama3.2,rag,308,Seattle Seahawks,Seattle Seahawks,True,1.753,2026-01-22T20:04:49.139305
+llama3.2_local_baseline_rag,llama3.2,rag,309,31-24,31–24,False,1.787,2026-01-22T20:04:49.141096
+llama3.2_local_baseline_rag,llama3.2,rag,310,487,487,True,1.833,2026-01-22T20:04:49.142932
+llama3.2_local_baseline_rag,llama3.2,rag,311,Seattle Seahawks,Seattle Seahawks,True,1.772,2026-01-22T20:04:49.144707
+llama3.2_local_baseline_rag,llama3.2,rag,312,the Arizona Cardinals,Arizona Cardinals,True,1.825,2026-01-22T20:04:49.146536
+llama3.2_local_baseline_rag,llama3.2,rag,313,seven,seven,True,1.941,2026-01-22T20:04:49.148480
+llama3.2_local_baseline_rag,llama3.2,rag,314,the Seattle Seahawks,Seattle Seahawks,True,1.964,2026-01-22T20:04:49.150448
+llama3.2_local_baseline_rag,llama3.2,rag,315,49-15,49–15,False,1.811,2026-01-22T20:04:49.152265
+llama3.2_local_baseline_rag,llama3.2,rag,316,the Arizona Cardinals,Arizona Cardinals,True,1.823,2026-01-22T20:04:49.154091
+llama3.2_local_baseline_rag,llama3.2,rag,317,487,487,True,1.797,2026-01-22T20:04:49.155894
+llama3.2_local_baseline_rag,llama3.2,rag,318,the Pittsburgh Steelers,Pittsburgh Steelers,True,1.827,2026-01-22T20:04:49.157724
+llama3.2_local_baseline_rag,llama3.2,rag,319,11,11,True,2.042,2026-01-22T20:04:49.159770
+llama3.2_local_baseline_rag,llama3.2,rag,320,the Broncos,New England Patriots,False,1.806,2026-01-22T20:04:49.161579
+llama3.2_local_baseline_rag,llama3.2,rag,321,20–18,20–18,True,1.812,2026-01-22T20:04:49.163397
+llama3.2_local_baseline_rag,llama3.2,rag,322,17 seconds,17 seconds,True,1.9449999999999998,2026-01-22T20:04:49.165345
+llama3.2_local_baseline_rag,llama3.2,rag,323,the Pittsburgh Steelers,Broncos,False,1.7429999999999999,2026-01-22T20:04:49.167092
+llama3.2_local_baseline_rag,llama3.2,rag,324,23–16,23–16,True,1.8010000000000002,2026-01-22T20:04:49.168896
+llama3.2_local_baseline_rag,llama3.2,rag,325,the Broncos,New England Patriots,False,0.656,2026-01-22T20:04:49.169556
+llama3.2_local_baseline_rag,llama3.2,rag,326,17 seconds,17,True,1.813,2026-01-22T20:04:49.171372
+llama3.2_local_baseline_rag,llama3.2,rag,327,"Manning's problems with interceptions during the season, he didn't throw any in their two playoff games refers to Manning himself. However, the question is asking about someone else who did not throw at all.
+
+The correct interpretation of the question would be that it is referring to the Patriots' quarterback, Tom Brady, as he was intercepted by the Broncos but did not throw a pass during the game.",Manning,True,1.82,2026-01-22T20:04:49.173196
+llama3.2_local_baseline_rag,llama3.2,rag,328,the Pittsburgh Steelers,Pittsburgh Steelers,True,1.813,2026-01-22T20:04:49.175012
+llama3.2_local_baseline_rag,llama3.2,rag,329,11,11,True,1.014,2026-01-22T20:04:49.176034
+llama3.2_local_baseline_rag,llama3.2,rag,330,the New England Patriots,New England Patriots,True,2.536,2026-01-22T20:04:49.178573
+llama3.2_local_baseline_rag,llama3.2,rag,331,the Pittsburgh Steelers,Pittsburgh Steelers,True,1.7930000000000001,2026-01-22T20:04:49.180372
+llama3.2_local_baseline_rag,llama3.2,rag,332,the New England Patriots,New England Patriots,True,1.931,2026-01-22T20:04:49.182309
+llama3.2_local_baseline_rag,llama3.2,rag,333,17 seconds,17,True,1.761,2026-01-22T20:04:49.184073
+llama3.2_local_baseline_rag,llama3.2,rag,334,Thomas Davis,Thomas Davis,True,1.7799999999999998,2026-01-22T20:04:49.185857
+llama3.2_local_baseline_rag,llama3.2,rag,335,a broken arm,a broken arm,True,1.964,2026-01-22T20:04:49.187825
+llama3.2_local_baseline_rag,llama3.2,rag,336,three,three,True,1.841,2026-01-22T20:04:49.189670
+llama3.2_local_baseline_rag,llama3.2,rag,337,11 years,11,True,1.8339999999999999,2026-01-22T20:04:49.191508
+llama3.2_local_baseline_rag,llama3.2,rag,338,ACL tears,ACL tears,True,1.881,2026-01-22T20:04:49.193392
+llama3.2_local_baseline_rag,llama3.2,rag,339,arm,arm,True,1.807,2026-01-22T20:04:49.195202
+llama3.2_local_baseline_rag,llama3.2,rag,340,11 years,11,True,0.6679999999999999,2026-01-22T20:04:49.195873
+llama3.2_local_baseline_rag,llama3.2,rag,341,Super Bowl,Super Bowl,True,1.8550000000000002,2026-01-22T20:04:49.197732
+llama3.2_local_baseline_rag,llama3.2,rag,342,three,three,True,1.7570000000000001,2026-01-22T20:04:49.199493
+llama3.2_local_baseline_rag,llama3.2,rag,343,a broken arm,broken arm,True,1.768,2026-01-22T20:04:49.201265
+llama3.2_local_baseline_rag,llama3.2,rag,344,11 years,11,True,1.9789999999999999,2026-01-22T20:04:49.203249
+llama3.2_local_baseline_rag,llama3.2,rag,345,Thomas Davis,Thomas Davis,True,1.771,2026-01-22T20:04:49.205023
+llama3.2_local_baseline_rag,llama3.2,rag,346,39,39,True,1.768,2026-01-22T20:04:49.206794
+llama3.2_local_baseline_rag,llama3.2,rag,347,John Elway,John Elway,True,1.9189999999999998,2026-01-22T20:04:49.208716
+llama3.2_local_baseline_rag,llama3.2,rag,348,38,38,True,1.737,2026-01-22T20:04:49.210456
+llama3.2_local_baseline_rag,llama3.2,rag,349,Executive Vice President of Football Operations and General Manager,Executive Vice President of Football Operations and General Manager,True,1.9,2026-01-22T20:04:49.212359
+llama3.2_local_baseline_rag,llama3.2,rag,350,the Broncos,Broncos,True,1.7249999999999999,2026-01-22T20:04:49.214087
+llama3.2_local_baseline_rag,llama3.2,rag,351,The Broncos,Broncos,True,1.196,2026-01-22T20:04:49.215287
+llama3.2_local_baseline_rag,llama3.2,rag,352,John Elway,John Elway,True,1.805,2026-01-22T20:04:49.217096
+llama3.2_local_baseline_rag,llama3.2,rag,353,38,38,True,2.695,2026-01-22T20:04:49.219794
+llama3.2_local_baseline_rag,llama3.2,rag,354,John Elway,Peyton Manning,False,1.7930000000000001,2026-01-22T20:04:49.221591
+llama3.2_local_baseline_rag,llama3.2,rag,355,two,two,True,1.804,2026-01-22T20:04:49.223398
+llama3.2_local_baseline_rag,llama3.2,rag,356,two,two,True,1.7830000000000001,2026-01-22T20:04:49.225186
+llama3.2_local_baseline_rag,llama3.2,rag,357,John Elway,Peyton Manning,False,1.7830000000000001,2026-01-22T20:04:49.226972
+llama3.2_local_baseline_rag,llama3.2,rag,358,John Elway,John Elway,True,1.81,2026-01-22T20:04:49.228785
+llama3.2_local_baseline_rag,llama3.2,rag,359,Super Bowl XXXIII,Super Bowl XXXIII,True,1.768,2026-01-22T20:04:49.230556
+llama3.2_local_baseline_rag,llama3.2,rag,360,Peyton Manning,Peyton Manning,True,1.751,2026-01-22T20:04:49.232310
+llama3.2_local_baseline_rag,llama3.2,rag,361,39,39.,True,1.7309999999999999,2026-01-22T20:04:49.234044
+llama3.2_local_baseline_rag,llama3.2,rag,362,John Elway,John Elway,True,1.72,2026-01-22T20:04:49.235768
+llama3.2_local_baseline_rag,llama3.2,rag,363,1998,1998,True,0.9810000000000001,2026-01-22T20:04:49.236752
+llama3.2_local_baseline_rag,llama3.2,rag,364,2011,2011,True,1.764,2026-01-22T20:04:49.238520
+llama3.2_local_baseline_rag,llama3.2,rag,365,26,26,True,2.528,2026-01-22T20:04:49.241052
+llama3.2_local_baseline_rag,llama3.2,rag,366,13 years and 48 days,13 years and 48 days,True,1.952,2026-01-22T20:04:49.243008
+llama3.2_local_baseline_rag,llama3.2,rag,367,Von Miller,Von Miller,True,1.771,2026-01-22T20:04:49.244782
+llama3.2_local_baseline_rag,llama3.2,rag,368,Manning,Manning,True,1.7429999999999999,2026-01-22T20:04:49.246529
+llama3.2_local_baseline_rag,llama3.2,rag,369,Cam Newton,Newton,True,1.953,2026-01-22T20:04:49.248485
+llama3.2_local_baseline_rag,llama3.2,rag,370,26,26,True,0.657,2026-01-22T20:04:49.249145
+llama3.2_local_baseline_rag,llama3.2,rag,371,quarterback,quarterback,True,1.821,2026-01-22T20:04:49.250970
+llama3.2_local_baseline_rag,llama3.2,rag,372,1998,1998,True,1.76,2026-01-22T20:04:49.252737
+llama3.2_local_baseline_rag,llama3.2,rag,373,2011,2011,True,1.83,2026-01-22T20:04:49.254570
+llama3.2_local_baseline_rag,llama3.2,rag,374,Von Miller,Von Miller,True,1.869,2026-01-22T20:04:49.256442
+llama3.2_local_baseline_rag,llama3.2,rag,375,2011,2011.,True,1.858,2026-01-22T20:04:49.258304
+llama3.2_local_baseline_rag,llama3.2,rag,376,26,26,True,1.776,2026-01-22T20:04:49.260083
+llama3.2_local_baseline_rag,llama3.2,rag,377,13 years and 48 days,13 years and 48 days,True,1.76,2026-01-22T20:04:49.261846
+llama3.2_local_baseline_rag,llama3.2,rag,378,Super Bowl XX,Super Bowl XX,True,1.717,2026-01-22T20:04:49.263567
+llama3.2_local_baseline_rag,llama3.2,rag,379,Chicago Bears,Chicago Bears,True,1.742,2026-01-22T20:04:49.265312
+llama3.2_local_baseline_rag,llama3.2,rag,380,linebacker,linebacker,True,1.7229999999999999,2026-01-22T20:04:49.267038
+llama3.2_local_baseline_rag,llama3.2,rag,381,Elway,Elway,True,1.779,2026-01-22T20:04:49.268820
+llama3.2_local_baseline_rag,llama3.2,rag,382,Chicago Bears,Broncos,False,2.0730000000000004,2026-01-22T20:04:49.270896
+llama3.2_local_baseline_rag,llama3.2,rag,383,linebacker,linebacker,True,0.9600000000000001,2026-01-22T20:04:49.271860
+llama3.2_local_baseline_rag,llama3.2,rag,384,Elway,Elway,True,2.539,2026-01-22T20:04:49.274402
+llama3.2_local_baseline_rag,llama3.2,rag,385,"Not supplied for this particular question. The context only mentions the coaches of the Chicago Bears, Denver Broncos, and does not provide information about the Carolina Panthers or their head coach for the 2015 season.",Rivera,False,1.7650000000000001,2026-01-22T20:04:49.276171
+llama3.2_local_baseline_rag,llama3.2,rag,386,Super Bowl XX,Super Bowl XX,True,1.76,2026-01-22T20:04:49.277935
+llama3.2_local_baseline_rag,llama3.2,rag,387,Justin Tucker,Justin Tucker,True,1.767,2026-01-22T20:04:49.279705
+llama3.2_local_baseline_rag,llama3.2,rag,388,Bermuda 419 turf,Bermuda 419,True,1.756,2026-01-22T20:04:49.281464
+llama3.2_local_baseline_rag,llama3.2,rag,389,Ed Mangan,Ed Mangan,True,1.939,2026-01-22T20:04:49.283406
+llama3.2_local_baseline_rag,llama3.2,rag,390,Baltimore Ravens,Baltimore Ravens,True,1.785,2026-01-22T20:04:49.285195
+llama3.2_local_baseline_rag,llama3.2,rag,391,kicker,kicker,True,1.804,2026-01-22T20:04:49.287002
+llama3.2_local_baseline_rag,llama3.2,rag,392,Justin Tucker,Justin Tucker,True,2.056,2026-01-22T20:04:49.289061
+llama3.2_local_baseline_rag,llama3.2,rag,393,kicker,kicker,True,1.779,2026-01-22T20:04:49.290847
+llama3.2_local_baseline_rag,llama3.2,rag,394,hybrid Bermuda 419 turf,hybrid Bermuda 419 turf,True,1.8079999999999998,2026-01-22T20:04:49.292661
+llama3.2_local_baseline_rag,llama3.2,rag,395,Justin Tucker,Justin Tucker,True,1.789,2026-01-22T20:04:49.294454
+llama3.2_local_baseline_rag,llama3.2,rag,396,"re-sodded the field with a new playing surface, specifically a hybrid Bermuda 419 turf",a new playing surface,True,1.817,2026-01-22T20:04:49.296275
+llama3.2_local_baseline_rag,llama3.2,rag,397,Bermuda 419 turf,a hybrid Bermuda 419 turf.,True,1.971,2026-01-22T20:04:49.298250
+llama3.2_local_baseline_rag,llama3.2,rag,398,their cleats,their cleats,True,1.824,2026-01-22T20:04:49.300077
+llama3.2_local_baseline_rag,llama3.2,rag,399,Justin Tucker,Justin Tucker,True,1.782,2026-01-22T20:04:49.301862
+llama3.2_local_baseline_rag,llama3.2,rag,400,natural grass,natural grass,True,1.796,2026-01-22T20:04:49.303662
+llama3.2_local_baseline_rag,llama3.2,rag,401,the Broncos,Broncos,True,2.02,2026-01-22T20:04:49.305687
+llama3.2_local_baseline_rag,llama3.2,rag,402,34–19,34–19,True,1.0250000000000001,2026-01-22T20:04:49.306715
+llama3.2_local_baseline_rag,llama3.2,rag,403,the Atlanta Falcons,Atlanta Falcons,True,2.685,2026-01-22T20:04:49.309403
+llama3.2_local_baseline_rag,llama3.2,rag,404,matching white pants,white,True,1.8,2026-01-22T20:04:49.311208
+llama3.2_local_baseline_rag,llama3.2,rag,405,Super Bowl XXXIII,Super Bowl XXXIII,True,1.8159999999999998,2026-01-22T20:04:49.313027
+llama3.2_local_baseline_rag,llama3.2,rag,406,Super Bowl XXXIII,Super Bowl XXXIII,True,1.813,2026-01-22T20:04:49.314844
+llama3.2_local_baseline_rag,llama3.2,rag,407,34–19,34–19,True,1.9919999999999998,2026-01-22T20:04:49.316841
+llama3.2_local_baseline_rag,llama3.2,rag,408,the Atlanta Falcons,Atlanta Falcons,True,2.007,2026-01-22T20:04:49.318852
+llama3.2_local_baseline_rag,llama3.2,rag,409,white,white,True,1.827,2026-01-22T20:04:49.320682
+llama3.2_local_baseline_rag,llama3.2,rag,410,road white jerseys with matching white pants,road white jerseys,True,1.827,2026-01-22T20:04:49.322512
+llama3.2_local_baseline_rag,llama3.2,rag,411,the Pittsburgh Steelers,Pittsburgh Steelers,True,1.807,2026-01-22T20:04:49.324323
+llama3.2_local_baseline_rag,llama3.2,rag,412,Super Bowl XXXIII,Super Bowl XXXIII,True,1.8550000000000002,2026-01-22T20:04:49.326182
+llama3.2_local_baseline_rag,llama3.2,rag,413,blue,blue,True,1.96,2026-01-22T20:04:49.328145
+llama3.2_local_baseline_rag,llama3.2,rag,414,orange,orange,True,2.004,2026-01-22T20:04:49.330152
+llama3.2_local_baseline_rag,llama3.2,rag,415,black jerseys with silver pants,black jerseys with silver pants.,True,1.7810000000000001,2026-01-22T20:04:49.331937
+llama3.2_local_baseline_rag,llama3.2,rag,416,San Jose State University,San Jose State,True,1.832,2026-01-22T20:04:49.333773
+llama3.2_local_baseline_rag,llama3.2,rag,417,Stanford University,Stanford University,True,1.739,2026-01-22T20:04:49.335515
+llama3.2_local_baseline_rag,llama3.2,rag,418,San Jose,San Jose,True,1.7799999999999998,2026-01-22T20:04:49.337299
+llama3.2_local_baseline_rag,llama3.2,rag,419,Santa Clara,Santa Clara,True,1.77,2026-01-22T20:04:49.339076
+llama3.2_local_baseline_rag,llama3.2,rag,420,San Jose Marriott,San Jose Marriott,True,1.832,2026-01-22T20:04:49.340911
+llama3.2_local_baseline_rag,llama3.2,rag,421,San Jose Marriott,Santa Clara Marriott,False,1.7830000000000001,2026-01-22T20:04:49.342698
+llama3.2_local_baseline_rag,llama3.2,rag,422,San Jose State practice facility,San Jose State practice facility,True,1.751,2026-01-22T20:04:49.344455
+llama3.2_local_baseline_rag,llama3.2,rag,423,Stanford University,Stanford University,True,1.7630000000000001,2026-01-22T20:04:49.346222
+llama3.2_local_baseline_rag,llama3.2,rag,424,San Jose State practice facility,San Jose State practice facility,True,1.77,2026-01-22T20:04:49.347996
+llama3.2_local_baseline_rag,llama3.2,rag,425,San Jose Marriott,San Jose Marriott.,True,1.742,2026-01-22T20:04:49.349742
+llama3.2_local_baseline_rag,llama3.2,rag,426,Stanford University,Stanford University,True,1.727,2026-01-22T20:04:49.351472
+llama3.2_local_baseline_rag,llama3.2,rag,427,Santa Clara Marriott,Santa Clara Marriott.,True,1.777,2026-01-22T20:04:49.353253
+llama3.2_local_baseline_rag,llama3.2,rag,428,San Jose State practice facility,San Jose,True,1.777,2026-01-22T20:04:49.355033
+llama3.2_local_baseline_rag,llama3.2,rag,429,San Jose Marriott,San Jose Marriott.,True,0.993,2026-01-22T20:04:49.356030
+llama3.2_local_baseline_rag,llama3.2,rag,430,Stanford University,Stanford University,True,0.643,2026-01-22T20:04:49.356677
+llama3.2_local_baseline_rag,llama3.2,rag,431,Santa Clara Marriott,Santa Clara Marriott.,True,1.7429999999999999,2026-01-22T20:04:49.358423
+llama3.2_local_baseline_rag,llama3.2,rag,432,"June 4, 2014","June 4, 2014",True,2.532,2026-01-22T20:04:49.360958
+llama3.2_local_baseline_rag,llama3.2,rag,433,Super Bowl V,Super Bowl V,True,1.76,2026-01-22T20:04:49.362721
+llama3.2_local_baseline_rag,llama3.2,rag,434,Jaime Weston,Jaime Weston,True,1.75,2026-01-22T20:04:49.364474
+llama3.2_local_baseline_rag,llama3.2,rag,435,Super Bowl XLV,Super Bowl XLV,True,1.716,2026-01-22T20:04:49.366194
+llama3.2_local_baseline_rag,llama3.2,rag,436,Vince Lombardi,Vince Lombardi,True,1.8370000000000002,2026-01-22T20:04:49.368035
+llama3.2_local_baseline_rag,llama3.2,rag,437,2014,2014,True,1.752,2026-01-22T20:04:49.369791
+llama3.2_local_baseline_rag,llama3.2,rag,438,Super Bowl LI,Super Bowl LI,True,1.759,2026-01-22T20:04:49.371554
+llama3.2_local_baseline_rag,llama3.2,rag,439,L,L,True,1.9849999999999999,2026-01-22T20:04:49.373542
+llama3.2_local_baseline_rag,llama3.2,rag,440,gold,gold,True,1.7730000000000001,2026-01-22T20:04:49.375319
+llama3.2_local_baseline_rag,llama3.2,rag,441,"June 4, 2014","June 4, 2014",True,1.7429999999999999,2026-01-22T20:04:49.377065
+llama3.2_local_baseline_rag,llama3.2,rag,442,Arabic numerals,Arabic numerals,True,1.782,2026-01-22T20:04:49.378851
+llama3.2_local_baseline_rag,llama3.2,rag,443,L,L.,True,2.148,2026-01-22T20:04:49.381002
+llama3.2_local_baseline_rag,llama3.2,rag,444,gold,gold,True,1.7630000000000001,2026-01-22T20:04:49.382768
+llama3.2_local_baseline_rag,llama3.2,rag,445,Super Bowl LI,Super Bowl LI.,True,1.8940000000000001,2026-01-22T20:04:49.384666
+llama3.2_local_baseline_rag,llama3.2,rag,446,Arabic numerals,Arabic,True,1.868,2026-01-22T20:04:49.386537
+llama3.2_local_baseline_rag,llama3.2,rag,447,LII,LI.,False,1.024,2026-01-22T20:04:49.387564
+llama3.2_local_baseline_rag,llama3.2,rag,448,gold,gold,True,2.665,2026-01-22T20:04:49.390233
+llama3.2_local_baseline_rag,llama3.2,rag,449,week 7,week 7,True,1.878,2026-01-22T20:04:49.392114
+llama3.2_local_baseline_rag,llama3.2,rag,450,the 50-yard line,50,True,1.8699999999999999,2026-01-22T20:04:49.393987
+llama3.2_local_baseline_rag,llama3.2,rag,451,gold,gold,True,1.83,2026-01-22T20:04:49.395820
+llama3.2_local_baseline_rag,llama3.2,rag,452,gold,gold,True,1.754,2026-01-22T20:04:49.397577
+llama3.2_local_baseline_rag,llama3.2,rag,453,The Golden Super Bowl,Golden Super Bowl,True,1.7550000000000001,2026-01-22T20:04:49.399335
+llama3.2_local_baseline_rag,llama3.2,rag,454,gold footballs,Gold footballs,True,1.7489999999999999,2026-01-22T20:04:49.401087
+llama3.2_local_baseline_rag,llama3.2,rag,455,the 50-yard line,the 50-yard line,True,1.729,2026-01-22T20:04:49.402819
+llama3.2_local_baseline_rag,llama3.2,rag,456,gold,gold,True,1.721,2026-01-22T20:04:49.404543
+llama3.2_local_baseline_rag,llama3.2,rag,457,The Moscone Center in San Francisco,Moscone Center,True,1.77,2026-01-22T20:04:49.406317
+llama3.2_local_baseline_rag,llama3.2,rag,458,San Francisco,San Francisco,True,1.812,2026-01-22T20:04:49.408132
+llama3.2_local_baseline_rag,llama3.2,rag,459,Ed Lee,Ed Lee,True,1.977,2026-01-22T20:04:49.410112
+llama3.2_local_baseline_rag,llama3.2,rag,460,Jane Kim,Jane Kim,True,1.7650000000000001,2026-01-22T20:04:49.411880
+llama3.2_local_baseline_rag,llama3.2,rag,461,January 30,January 30,True,1.77,2026-01-22T20:04:49.413654
+llama3.2_local_baseline_rag,llama3.2,rag,462,1 million,1 million,True,1.831,2026-01-22T20:04:49.415489
+llama3.2_local_baseline_rag,llama3.2,rag,463,Ed Lee,Ed Lee,True,1.9020000000000001,2026-01-22T20:04:49.417394
+llama3.2_local_baseline_rag,llama3.2,rag,464,The Moscone Center in San Francisco,Moscone Center,True,1.732,2026-01-22T20:04:49.419129
+llama3.2_local_baseline_rag,llama3.2,rag,465,Super Bowl City,Super Bowl City,True,1.748,2026-01-22T20:04:49.420881
+llama3.2_local_baseline_rag,llama3.2,rag,466,The Moscone Center in San Francisco,Moscone Center,True,1.858,2026-01-22T20:04:49.422742
+llama3.2_local_baseline_rag,llama3.2,rag,467,Super Bowl City,Super Bowl City,True,0.982,2026-01-22T20:04:49.423727
+llama3.2_local_baseline_rag,llama3.2,rag,468,Ed Lee,Ed Lee,True,1.52,2026-01-22T20:04:49.425251
+llama3.2_local_baseline_rag,llama3.2,rag,469,Super Bowl City,Super Bowl City,True,1.82,2026-01-22T20:04:49.427075
+llama3.2_local_baseline_rag,llama3.2,rag,470,1 million,More than 1 million,True,1.788,2026-01-22T20:04:49.428867
+llama3.2_local_baseline_rag,llama3.2,rag,471,San Francisco mayor Ed Lee,mayor Ed Lee,True,1.923,2026-01-22T20:04:49.430793
+llama3.2_local_baseline_rag,llama3.2,rag,472,$5 million,$5 million.,True,1.678,2026-01-22T20:04:49.432474
+llama3.2_local_baseline_rag,llama3.2,rag,473,the annual NFL Experience,The annual NFL Experience,True,0.9560000000000001,2026-01-22T20:04:49.433434
+llama3.2_local_baseline_rag,llama3.2,rag,474,Santa Clara University,Santa Clara University,True,2.678,2026-01-22T20:04:49.436115
+llama3.2_local_baseline_rag,llama3.2,rag,475,$2 million,$2 million,True,1.788,2026-01-22T20:04:49.437906
+llama3.2_local_baseline_rag,llama3.2,rag,476,A week-long event,a week,True,1.9719999999999998,2026-01-22T20:04:49.439881
+llama3.2_local_baseline_rag,llama3.2,rag,477,$2 million,$2 million,True,1.7830000000000001,2026-01-22T20:04:49.441667
+llama3.2_local_baseline_rag,llama3.2,rag,478,pep rally,pep rally,True,1.897,2026-01-22T20:04:49.443568
+llama3.2_local_baseline_rag,llama3.2,rag,479,the city council,city council,True,1.938,2026-01-22T20:04:49.445510
+llama3.2_local_baseline_rag,llama3.2,rag,480,Bellomy Field at Santa Clara University,Bellomy Field,True,1.818,2026-01-22T20:04:49.447331
+llama3.2_local_baseline_rag,llama3.2,rag,481,A professional fundraiser,A professional fundraiser,True,1.882,2026-01-22T20:04:49.449217
+llama3.2_local_baseline_rag,llama3.2,rag,482,The city council,city council,True,1.818,2026-01-22T20:04:49.451040
+llama3.2_local_baseline_rag,llama3.2,rag,483,$2 million,$2 million,True,1.7630000000000001,2026-01-22T20:04:49.452806
+llama3.2_local_baseline_rag,llama3.2,rag,484,"individual donors
+and 
+business sponsors",city council,False,1.933,2026-01-22T20:04:49.454743
+llama3.2_local_baseline_rag,llama3.2,rag,485,Monday evening,Monday,True,1.832,2026-01-22T20:04:49.456578
+llama3.2_local_baseline_rag,llama3.2,rag,486,Tuesday afternoon,Tuesday,True,1.8550000000000002,2026-01-22T20:04:49.458437
+llama3.2_local_baseline_rag,llama3.2,rag,487,SAP Center in San Jose,SAP Center,True,1.991,2026-01-22T20:04:49.460432
+llama3.2_local_baseline_rag,llama3.2,rag,488,San Jose,San Jose,True,1.823,2026-01-22T20:04:49.462259
+llama3.2_local_baseline_rag,llama3.2,rag,489,the Golden Gate Bridge,the Golden Gate Bridge,True,1.842,2026-01-22T20:04:49.464105
+llama3.2_local_baseline_rag,llama3.2,rag,490,Tuesday,Tuesday,True,1.8090000000000002,2026-01-22T20:04:49.465919
+llama3.2_local_baseline_rag,llama3.2,rag,491,Monday,Monday,True,1.792,2026-01-22T20:04:49.467714
+llama3.2_local_baseline_rag,llama3.2,rag,492,Super Bowl Opening Night,Super Bowl Opening Night,True,1.797,2026-01-22T20:04:49.469514
+llama3.2_local_baseline_rag,llama3.2,rag,493,SAP Center in San Jose,SAP Center,True,1.738,2026-01-22T20:04:49.471256
+llama3.2_local_baseline_rag,llama3.2,rag,494,San Jose,San Jose,True,1.737,2026-01-22T20:04:49.472997
+llama3.2_local_baseline_rag,llama3.2,rag,495,Tuesday afternoon,the Tuesday afternoon prior to the game,True,0.9740000000000001,2026-01-22T20:04:49.473974
+llama3.2_local_baseline_rag,llama3.2,rag,496,Super Bowl Opening Night,Super Bowl Opening Night.,True,2.559,2026-01-22T20:04:49.476537
+llama3.2_local_baseline_rag,llama3.2,rag,497,SAP Center in San Jose,SAP Center in San Jose.,True,1.754,2026-01-22T20:04:49.478294
+llama3.2_local_baseline_rag,llama3.2,rag,498,the Golden Gate Bridge,the Golden Gate Bridge.,True,1.802,2026-01-22T20:04:49.480100
+llama3.2_local_baseline_rag,llama3.2,rag,499,Monday evening,Monday,True,1.9200000000000002,2026-01-22T20:04:49.482024
+llama3.2_local_baseline_rag,llama3.2,rag,500,Super Bowl Opening Night,Super Bowl Opening Night.,True,1.776,2026-01-22T20:04:49.483803
+llama3.2_local_baseline_rag,llama3.2,rag,501,SAP Center in San Jose,SAP Center in San Jose.,True,1.714,2026-01-22T20:04:49.485521
+llama3.2_local_baseline_rag,llama3.2,rag,502,The Golden Gate Bridge,Golden Gate Bridge.,False,1.771,2026-01-22T20:04:49.487295
+llama3.2_local_baseline_rag,llama3.2,rag,503,"February 1, 2016","February 1, 2016",True,1.7440000000000002,2026-01-22T20:04:49.489042
+llama3.2_local_baseline_rag,llama3.2,rag,504,Business Connect,Business Connect,True,1.795,2026-01-22T20:04:49.490841
+llama3.2_local_baseline_rag,llama3.2,rag,505,$40 million,$40 million,True,1.736,2026-01-22T20:04:49.492581
+llama3.2_local_baseline_rag,llama3.2,rag,506,Dignity Health,Dignity Health,True,1.724,2026-01-22T20:04:49.494308
+llama3.2_local_baseline_rag,llama3.2,rag,507,Gap,Gap,True,1.787,2026-01-22T20:04:49.496098
+llama3.2_local_baseline_rag,llama3.2,rag,508,Chevron,Chevron,True,1.732,2026-01-22T20:04:49.497834
+llama3.2_local_baseline_rag,llama3.2,rag,509,The Super Bowl 50 Host Committee,Super Bowl 50 Host Committee,True,1.787,2026-01-22T20:04:49.499625
+llama3.2_local_baseline_rag,llama3.2,rag,510,$40 million,over $40 million,True,1.717,2026-01-22T20:04:49.501345
+llama3.2_local_baseline_rag,llama3.2,rag,511,"Through sponsorships from companies such as Apple, Google, Yahoo!, Intel, Gap, Chevron, and Dignity Health.",sponsors,True,1.7309999999999999,2026-01-22T20:04:49.503079
+llama3.2_local_baseline_rag,llama3.2,rag,512,Business Connect,Business Connect,True,1.746,2026-01-22T20:04:49.504828
+llama3.2_local_baseline_rag,llama3.2,rag,513,Business Connect,Business Connect,True,1.817,2026-01-22T20:04:49.506648
+llama3.2_local_baseline_rag,llama3.2,rag,514,$40 million,over $40 million,True,1.751,2026-01-22T20:04:49.508402
+llama3.2_local_baseline_rag,llama3.2,rag,515,25 percent,25,True,1.782,2026-01-22T20:04:49.510187
+llama3.2_local_baseline_rag,llama3.2,rag,516,The 50 fund,the 50 fund,True,1.778,2026-01-22T20:04:49.511968
+llama3.2_local_baseline_rag,llama3.2,rag,517,25 percent,25 percent,True,1.9400000000000002,2026-01-22T20:04:49.513911
+llama3.2_local_baseline_rag,llama3.2,rag,518,The 50 fund,50 fund,True,1.913,2026-01-22T20:04:49.515828
+llama3.2_local_baseline_rag,llama3.2,rag,519,giving,the most giving Super Bowl ever,True,1.761,2026-01-22T20:04:49.517592
+llama3.2_local_baseline_rag,llama3.2,rag,520,25 percent,25 percent,True,1.7619999999999998,2026-01-22T20:04:49.519360
+llama3.2_local_baseline_rag,llama3.2,rag,521,The 50 fund,the 50 fund,True,1.8439999999999999,2026-01-22T20:04:49.521208
+llama3.2_local_baseline_rag,llama3.2,rag,522,25 percent,25 percent,True,1.805,2026-01-22T20:04:49.523017
+llama3.2_local_baseline_rag,llama3.2,rag,523,The 50 fund,50 fund,True,1.7750000000000001,2026-01-22T20:04:49.524797
+llama3.2_local_baseline_rag,llama3.2,rag,524,Tiffany & Co.,Vince Lombardi,False,1.76,2026-01-22T20:04:49.526561
+llama3.2_local_baseline_rag,llama3.2,rag,525,18-karat,18,True,1.782,2026-01-22T20:04:49.528396
+llama3.2_local_baseline_rag,llama3.2,rag,526,66 lb,66,True,1.767,2026-01-22T20:04:49.530167
+llama3.2_local_baseline_rag,llama3.2,rag,527,Tiffany & Co.,Tiffany & Co.,True,1.8339999999999999,2026-01-22T20:04:49.532005
+llama3.2_local_baseline_rag,llama3.2,rag,528,Tiffany & Co.,Tiffany & Co.,True,1.824,2026-01-22T20:04:49.533832
+llama3.2_local_baseline_rag,llama3.2,rag,529,"The Vince Lombardi Trophy is not specified as the only trophy given to a Super Bowl winner, but it is mentioned that in addition to the Vince Lombardi Trophy, the ""50"" trophy will also be awarded.",Vince Lombardi Trophy,True,1.7650000000000001,2026-01-22T20:04:49.535600
+llama3.2_local_baseline_rag,llama3.2,rag,530,18-karat gold-plated,18-karat gold-plated,True,1.761,2026-01-22T20:04:49.537364
+llama3.2_local_baseline_rag,llama3.2,rag,531,Tiffany & Co.,Tiffany & Co,True,0.969,2026-01-22T20:04:49.538337
+llama3.2_local_baseline_rag,llama3.2,rag,532,The Vince Lombardi Trophy,the Vince Lombardi Trophy,True,2.568,2026-01-22T20:04:49.540908
+llama3.2_local_baseline_rag,llama3.2,rag,533,Tiffany & Co.,Tiffany & Co.,True,1.8,2026-01-22T20:04:49.542711
+llama3.2_local_baseline_rag,llama3.2,rag,534,CBS,CBS,True,1.907,2026-01-22T20:04:49.544623
+llama3.2_local_baseline_rag,llama3.2,rag,535,Phil Simms,Phil Simms,True,1.746,2026-01-22T20:04:49.546372
+llama3.2_local_baseline_rag,llama3.2,rag,536,Tracy Wolfson,Tracy Wolfson,True,2.057,2026-01-22T20:04:49.548433
+llama3.2_local_baseline_rag,llama3.2,rag,537,36,36,True,1.888,2026-01-22T20:04:49.550324
+llama3.2_local_baseline_rag,llama3.2,rag,538,5K resolution,5K,True,1.83,2026-01-22T20:04:49.552158
+llama3.2_local_baseline_rag,llama3.2,rag,539,three,three,True,1.794,2026-01-22T20:04:49.553956
+llama3.2_local_baseline_rag,llama3.2,rag,540,The sidelines,sidelines,True,1.7489999999999999,2026-01-22T20:04:49.555708
+llama3.2_local_baseline_rag,llama3.2,rag,541,360-degree view,360-degree,True,1.768,2026-01-22T20:04:49.557479
+llama3.2_local_baseline_rag,llama3.2,rag,542,5K resolution,5K resolution,True,1.756,2026-01-22T20:04:49.559239
+llama3.2_local_baseline_rag,llama3.2,rag,543,on the sidelines,sidelines,True,1.8079999999999998,2026-01-22T20:04:49.561050
+llama3.2_local_baseline_rag,llama3.2,rag,544,CBS,CBS,True,1.8,2026-01-22T20:04:49.562853
+llama3.2_local_baseline_rag,llama3.2,rag,545,three,three,True,1.7650000000000001,2026-01-22T20:04:49.564622
+llama3.2_local_baseline_rag,llama3.2,rag,546,CBS,CBS,True,1.7730000000000001,2026-01-22T20:04:49.566399
+llama3.2_local_baseline_rag,llama3.2,rag,547,Jim Nantz and Phil Simms,Jim Nantz and Phil Simms,True,1.7489999999999999,2026-01-22T20:04:49.568151
+llama3.2_local_baseline_rag,llama3.2,rag,548,Tracy Wolfson and Evan Washburn,Tracy Wolfson and Evan Washburn,True,1.734,2026-01-22T20:04:49.569888
+llama3.2_local_baseline_rag,llama3.2,rag,549,5K resolution,5K,True,1.776,2026-01-22T20:04:49.571667
+llama3.2_local_baseline_rag,llama3.2,rag,550,microphones,cameras,False,1.79,2026-01-22T20:04:49.573460
+llama3.2_local_baseline_rag,llama3.2,rag,551,ESPN Deportes,ESPN Deportes,True,1.806,2026-01-22T20:04:49.575270
+llama3.2_local_baseline_rag,llama3.2,rag,552,John Sutcliffe,John Sutcliffe,True,1.964,2026-01-22T20:04:49.577238
+llama3.2_local_baseline_rag,llama3.2,rag,553,Alvaro Martin,Alvaro Martin,True,1.8090000000000002,2026-01-22T20:04:49.579050
+llama3.2_local_baseline_rag,llama3.2,rag,554,"December 28, 2015","December 28, 2015",True,1.865,2026-01-22T20:04:49.580919
+llama3.2_local_baseline_rag,llama3.2,rag,555,Spanish,Spanish,True,1.7910000000000001,2026-01-22T20:04:49.582713
+llama3.2_local_baseline_rag,llama3.2,rag,556,ESPN Deportes,CBS,False,1.774,2026-01-22T20:04:49.584490
+llama3.2_local_baseline_rag,llama3.2,rag,557,ESPN Deportes,ESPN Deportes,True,1.771,2026-01-22T20:04:49.586264
+llama3.2_local_baseline_rag,llama3.2,rag,558,John Sutcliffe,John Sutcliffe.,True,2.0349999999999997,2026-01-22T20:04:49.588303
+llama3.2_local_baseline_rag,llama3.2,rag,559,ESPN Deportes,ESPN Deportes,True,1.761,2026-01-22T20:04:49.590067
+llama3.2_local_baseline_rag,llama3.2,rag,560,Alvaro Martin and Raul Allegre,Alvaro Martin and Raul Allegre,True,1.772,2026-01-22T20:04:49.591843
+llama3.2_local_baseline_rag,llama3.2,rag,561,John Sutcliffe,John Sutcliffe.,True,1.8339999999999999,2026-01-22T20:04:49.593680
+llama3.2_local_baseline_rag,llama3.2,rag,562,NFL Mobile service,NFL Mobile,True,1.799,2026-01-22T20:04:49.595482
+llama3.2_local_baseline_rag,llama3.2,rag,563,WatchESPN,WatchESPN,True,1.758,2026-01-22T20:04:49.597244
+llama3.2_local_baseline_rag,llama3.2,rag,564,CBSSports.com,CBSSports.com,True,1.931,2026-01-22T20:04:49.599178
+llama3.2_local_baseline_rag,llama3.2,rag,565,"Windows 10
+Xbox One",Xbox One,True,1.9620000000000002,2026-01-22T20:04:49.601143
+llama3.2_local_baseline_rag,llama3.2,rag,566,Windows 10,10,True,1.848,2026-01-22T20:04:49.602995
+llama3.2_local_baseline_rag,llama3.2,rag,567,CBSSports.com,CBSSports.com,True,1.8,2026-01-22T20:04:49.604799
+llama3.2_local_baseline_rag,llama3.2,rag,568,various digital media players (such as Chromecast and Roku),Xbox One,False,1.839,2026-01-22T20:04:49.606643
+llama3.2_local_baseline_rag,llama3.2,rag,569,Verizon Wireless customers,Verizon Wireless customers,True,1.821,2026-01-22T20:04:49.608467
+llama3.2_local_baseline_rag,llama3.2,rag,570,NFL Mobile service (via Verizon Wireless),NFL Mobile service,True,1.747,2026-01-22T20:04:49.610218
+llama3.2_local_baseline_rag,llama3.2,rag,571,Verizon Wireless,Verizon,True,1.7630000000000001,2026-01-22T20:04:49.611985
+llama3.2_local_baseline_rag,llama3.2,rag,572,NFL Mobile service,NFL Mobile service.,True,1.759,2026-01-22T20:04:49.613747
+llama3.2_local_baseline_rag,llama3.2,rag,573,digital streams,digital streams of the game,True,1.824,2026-01-22T20:04:49.615575
+llama3.2_local_baseline_rag,llama3.2,rag,574,Verizon Communications,Verizon,True,1.7630000000000001,2026-01-22T20:04:49.617341
+llama3.2_local_baseline_rag,llama3.2,rag,575,WatchESPN,WatchESPN.,True,1.75,2026-01-22T20:04:49.619095
+llama3.2_local_baseline_rag,llama3.2,rag,576,The Late Show with Stephen Colbert,The Late Show with Stephen Colbert,True,1.772,2026-01-22T20:04:49.620871
+llama3.2_local_baseline_rag,llama3.2,rag,577,The Late Late Show with James Corden,The Late Late Show with James Corden,True,1.739,2026-01-22T20:04:49.622614
+llama3.2_local_baseline_rag,llama3.2,rag,578,The Late Show with Stephen Colbert,The Late Show with Stephen Colbert,True,1.73,2026-01-22T20:04:49.624348
+llama3.2_local_baseline_rag,llama3.2,rag,579,The Late Late Show with James Corden,The Late Late Show with James Corden,True,2.036,2026-01-22T20:04:49.626390
+llama3.2_local_baseline_rag,llama3.2,rag,580,The Late Show with Stephen Colbert,The Late Show with Stephen Colbert,True,1.768,2026-01-22T20:04:49.628162
+llama3.2_local_baseline_rag,llama3.2,rag,581,a break for late local programming,late local programming,True,1.885,2026-01-22T20:04:49.630051
+llama3.2_local_baseline_rag,llama3.2,rag,582,a special episode of The Late Show with Stephen Colbert,The Late Late Show with James Corden.,False,1.761,2026-01-22T20:04:49.631815
+llama3.2_local_baseline_rag,llama3.2,rag,583,"$5,000,000","$5,000,000",True,1.8090000000000002,2026-01-22T20:04:49.633628
+llama3.2_local_baseline_rag,llama3.2,rag,584,Anheuser-Busch InBev,Anheuser-Busch InBev,True,1.784,2026-01-22T20:04:49.635415
+llama3.2_local_baseline_rag,llama3.2,rag,585,Doritos,Doritos,True,1.776,2026-01-22T20:04:49.637196
+llama3.2_local_baseline_rag,llama3.2,rag,586,20th anniversary,20th,True,1.767,2026-01-22T20:04:49.638966
+llama3.2_local_baseline_rag,llama3.2,rag,587,"$5,000,000","$5,000,000",True,1.79,2026-01-22T20:04:49.640761
+llama3.2_local_baseline_rag,llama3.2,rag,588,Anheuser-Busch InBev,Anheuser-Busch InBev,True,1.814,2026-01-22T20:04:49.642579
+llama3.2_local_baseline_rag,llama3.2,rag,589,Doritos,Doritos,True,1.8010000000000002,2026-01-22T20:04:49.644387
+llama3.2_local_baseline_rag,llama3.2,rag,590,Nintendo,Nintendo,True,1.761,2026-01-22T20:04:49.646153
+llama3.2_local_baseline_rag,llama3.2,rag,591,The Pokémon Company,The Pokémon Company,True,1.806,2026-01-22T20:04:49.647962
+llama3.2_local_baseline_rag,llama3.2,rag,592,Anheuser-Busch InBev,Anheuser-Busch InBev,True,1.752,2026-01-22T20:04:49.649717
+llama3.2_local_baseline_rag,llama3.2,rag,593,Doritos,Doritos,True,1.748,2026-01-22T20:04:49.651468
+llama3.2_local_baseline_rag,llama3.2,rag,594,Anheuser-Busch InBev,Anheuser-Busch InBev,True,1.7489999999999999,2026-01-22T20:04:49.653220
+llama3.2_local_baseline_rag,llama3.2,rag,595,Doritos,Doritos,True,1.7489999999999999,2026-01-22T20:04:49.654972
+llama3.2_local_baseline_rag,llama3.2,rag,596,"""Crash the Super Bowl""",Crash the Super Bowl,True,1.814,2026-01-22T20:04:49.656789
+llama3.2_local_baseline_rag,llama3.2,rag,597,Small Business Big Game,"""Small Business Big Game""",True,1.766,2026-01-22T20:04:49.658558
+llama3.2_local_baseline_rag,llama3.2,rag,598,Death Wish Coffee,Death Wish Coffee,True,1.751,2026-01-22T20:04:49.660312
+llama3.2_local_baseline_rag,llama3.2,rag,599,30 seconds,30-second,False,1.859,2026-01-22T20:04:49.662174
+llama3.2_local_baseline_rag,llama3.2,rag,600,nine,nine,True,1.954,2026-01-22T20:04:49.664131
+llama3.2_local_baseline_rag,llama3.2,rag,601,Death Wish Coffee,Death Wish Coffee,True,1.73,2026-01-22T20:04:49.665866
+llama3.2_local_baseline_rag,llama3.2,rag,602,nine,nine,True,1.845,2026-01-22T20:04:49.667714
+llama3.2_local_baseline_rag,llama3.2,rag,603,QuickBooks,QuickBooks.,True,1.8339999999999999,2026-01-22T20:04:49.669552
+llama3.2_local_baseline_rag,llama3.2,rag,604,Death Wish Coffee,Death Wish Coffee,True,1.751,2026-01-22T20:04:49.671306
+llama3.2_local_baseline_rag,llama3.2,rag,605,ten,ten,True,0.963,2026-01-22T20:04:49.672272
+llama3.2_local_baseline_rag,llama3.2,rag,606,QuickBooks,QuickBooks.,True,2.4789999999999996,2026-01-22T20:04:49.674755
+llama3.2_local_baseline_rag,llama3.2,rag,607,Death Wish Coffee,Death Wish Coffee,True,1.753,2026-01-22T20:04:49.676511
+llama3.2_local_baseline_rag,llama3.2,rag,608,the debut trailer for Jason Bourne,Jason Bourne,True,1.976,2026-01-22T20:04:49.678490
+llama3.2_local_baseline_rag,llama3.2,rag,609,Gods of Egypt,Gods of Egypt,True,1.984,2026-01-22T20:04:49.680477
+llama3.2_local_baseline_rag,llama3.2,rag,610,Teenage Mutant Ninja Turtles: Out of the Shadows,Teenage Mutant Ninja Turtles: Out of the Shadows,True,1.827,2026-01-22T20:04:49.682307
+llama3.2_local_baseline_rag,llama3.2,rag,611,Resurgence,Resurgence,True,1.7910000000000001,2026-01-22T20:04:49.684102
+llama3.2_local_baseline_rag,llama3.2,rag,612,Gods of Egypt,Gods of Egypt,True,1.766,2026-01-22T20:04:49.685872
+llama3.2_local_baseline_rag,llama3.2,rag,613,Teenage Mutant Ninja Turtles: Out of the Shadows,Teenage Mutant Ninja Turtles: Out of the Shadows,True,1.8840000000000001,2026-01-22T20:04:49.687761
+llama3.2_local_baseline_rag,llama3.2,rag,614,the debut trailer for Jason Bourne,Jason Bourne,True,1.856,2026-01-22T20:04:49.689620
+llama3.2_local_baseline_rag,llama3.2,rag,615,Captain America: Civil War,Captain America: Civil War,True,1.779,2026-01-22T20:04:49.691402
+llama3.2_local_baseline_rag,llama3.2,rag,616,Independence Day: Resurgence,Independence Day,True,1.767,2026-01-22T20:04:49.693173
+llama3.2_local_baseline_rag,llama3.2,rag,617,Universal Studios,Universal,True,1.881,2026-01-22T20:04:49.695057
+llama3.2_local_baseline_rag,llama3.2,rag,618,20th Century Fox,Fox,True,1.771,2026-01-22T20:04:49.696832
+llama3.2_local_baseline_rag,llama3.2,rag,619,Westwood One,Westwood One,True,1.7619999999999998,2026-01-22T20:04:49.698597
+llama3.2_local_baseline_rag,llama3.2,rag,620,Kevin Harlan,Kevin Harlan,True,1.818,2026-01-22T20:04:49.700419
+llama3.2_local_baseline_rag,llama3.2,rag,621,Jim Gray,Jim Gray,True,1.756,2026-01-22T20:04:49.702178
+llama3.2_local_baseline_rag,llama3.2,rag,622,Boomer Esiason,Boomer Esiason,True,1.76,2026-01-22T20:04:49.703941
+llama3.2_local_baseline_rag,llama3.2,rag,623,James Lofton,James Lofton,True,1.812,2026-01-22T20:04:49.705756
+llama3.2_local_baseline_rag,llama3.2,rag,624,2,two,False,1.777,2026-01-22T20:04:49.707537
+llama3.2_local_baseline_rag,llama3.2,rag,625,Kevin Harlan,Kevin Harlan,True,1.734,2026-01-22T20:04:49.709274
+llama3.2_local_baseline_rag,llama3.2,rag,626,Westwood One,Westwood One,True,1.7229999999999999,2026-01-22T20:04:49.711001
+llama3.2_local_baseline_rag,llama3.2,rag,627,Kevin Harlan,Kevin Harlan,True,1.734,2026-01-22T20:04:49.712738
+llama3.2_local_baseline_rag,llama3.2,rag,628,Jim Gray,Jim Gray,True,1.986,2026-01-22T20:04:49.714727
+llama3.2_local_baseline_rag,llama3.2,rag,629,Jim Gray,Kevin Harlan,False,1.736,2026-01-22T20:04:49.716466
+llama3.2_local_baseline_rag,llama3.2,rag,630,Boomer Esiason and Dan Fouts,Boomer Esiason and Dan Fouts,True,2.0149999999999997,2026-01-22T20:04:49.718485
+llama3.2_local_baseline_rag,llama3.2,rag,631,James Lofton and Mark Malone,James Lofton and Mark Malone,True,1.8339999999999999,2026-01-22T20:04:49.720322
+llama3.2_local_baseline_rag,llama3.2,rag,632,pre-game and halftime coverage,pre-game and halftime coverage.,True,2.093,2026-01-22T20:04:49.722422
+llama3.2_local_baseline_rag,llama3.2,rag,633,North America,North America,True,2.0860000000000003,2026-01-22T20:04:49.724513
+llama3.2_local_baseline_rag,llama3.2,rag,634,KRFX,KRFX,True,2.4139999999999997,2026-01-22T20:04:49.726931
+llama3.2_local_baseline_rag,llama3.2,rag,635,Dave Logan,Dave Logan,True,1.9729999999999999,2026-01-22T20:04:49.728913
+llama3.2_local_baseline_rag,llama3.2,rag,636,1110 AM and 99.3 FM,1110 AM,True,2.064,2026-01-22T20:04:49.730981
+llama3.2_local_baseline_rag,llama3.2,rag,637,"Chester, South Carolina","Chester, South Carolina",True,2.021,2026-01-22T20:04:49.733007
+llama3.2_local_baseline_rag,llama3.2,rag,638,Mick Mixon,Mick Mixon,True,1.823,2026-01-22T20:04:49.734833
+llama3.2_local_baseline_rag,llama3.2,rag,639,Dave Logan,Dave Logan,True,1.835,2026-01-22T20:04:49.736671
+llama3.2_local_baseline_rag,llama3.2,rag,640,Ed McCaffrey,Ed McCaffrey,True,1.804,2026-01-22T20:04:49.738478
+llama3.2_local_baseline_rag,llama3.2,rag,641,WBT (1110 AM) and WBT-FM (99.3 FM),WBT,True,1.86,2026-01-22T20:04:49.740342
+llama3.2_local_baseline_rag,llama3.2,rag,642,Mick Mixon,Mick Mixon,True,1.91,2026-01-22T20:04:49.742256
+llama3.2_local_baseline_rag,llama3.2,rag,643,KOA (850 AM) and KRFX (103.5 FM),KOA (850 AM) and KRFX (103.5 FM),True,2.024,2026-01-22T20:04:49.744283
+llama3.2_local_baseline_rag,llama3.2,rag,644,WBT-FM (99.3 FM),WBT-FM (99.3 FM),True,1.795,2026-01-22T20:04:49.746081
+llama3.2_local_baseline_rag,llama3.2,rag,645,BBC Radio 5 Live,BBC Radio 5,True,1.782,2026-01-22T20:04:49.747867
+llama3.2_local_baseline_rag,llama3.2,rag,646,5 Live Sports Extra,5 Live Sports Extra,True,1.752,2026-01-22T20:04:49.749622
+llama3.2_local_baseline_rag,llama3.2,rag,647,Darren Fletcher,Darren Fletcher,True,1.839,2026-01-22T20:04:49.751464
+llama3.2_local_baseline_rag,llama3.2,rag,648,BBC Radio 5 Live and 5 Live Sports Extra,BBC,True,1.767,2026-01-22T20:04:49.753235
+llama3.2_local_baseline_rag,llama3.2,rag,649,Greg Brady,Greg Brady,True,1.799,2026-01-22T20:04:49.755037
+llama3.2_local_baseline_rag,llama3.2,rag,650,Bart Starr,Bart Starr,True,1.839,2026-01-22T20:04:49.756880
+llama3.2_local_baseline_rag,llama3.2,rag,651,Chuck Howley,Chuck Howley,True,1.8,2026-01-22T20:04:49.758684
+llama3.2_local_baseline_rag,llama3.2,rag,652,Peyton Manning,Peyton Manning,True,1.738,2026-01-22T20:04:49.760425
+llama3.2_local_baseline_rag,llama3.2,rag,653,2001,2001,True,1.815,2026-01-22T20:04:49.762243
+llama3.2_local_baseline_rag,llama3.2,rag,654,Peyton Manning,Peyton Manning,True,1.991,2026-01-22T20:04:49.764237
+llama3.2_local_baseline_rag,llama3.2,rag,655,39,39,True,1.7750000000000001,2026-01-22T20:04:49.766016
+llama3.2_local_baseline_rag,llama3.2,rag,656,Peyton Manning,Peyton Manning,True,1.802,2026-01-22T20:04:49.767824
+llama3.2_local_baseline_rag,llama3.2,rag,657,Harvey Martin,Harvey Martin,True,1.787,2026-01-22T20:04:49.769614
+llama3.2_local_baseline_rag,llama3.2,rag,658,39,43,False,1.8519999999999999,2026-01-22T20:04:49.771471
+llama3.2_local_baseline_rag,llama3.2,rag,659,39,39,True,1.767,2026-01-22T20:04:49.773241
+llama3.2_local_baseline_rag,llama3.2,rag,660,Bart Starr,Bart Starr,True,1.74,2026-01-22T20:04:49.774984
+llama3.2_local_baseline_rag,llama3.2,rag,661,Peyton Manning,Peyton Manning,True,1.785,2026-01-22T20:04:49.776772
+llama3.2_local_baseline_rag,llama3.2,rag,662,Harvey Martin,Harvey Martin,True,1.782,2026-01-22T20:04:49.778557
+llama3.2_local_baseline_rag,llama3.2,rag,663,six,Six,True,1.9559999999999997,2026-01-22T20:04:49.780516
+llama3.2_local_baseline_rag,llama3.2,rag,664,the national anthem,the national anthem,True,1.764,2026-01-22T20:04:49.782283
+llama3.2_local_baseline_rag,llama3.2,rag,665,Academy Award,Academy Award,True,1.828,2026-01-22T20:04:49.784114
+llama3.2_local_baseline_rag,llama3.2,rag,666,American Sign Language (ASL),the national anthem,False,1.7830000000000001,2026-01-22T20:04:49.785901
+llama3.2_local_baseline_rag,llama3.2,rag,667,American Sign Language (ASL),American Sign Language,True,1.9269999999999998,2026-01-22T20:04:49.787831
+llama3.2_local_baseline_rag,llama3.2,rag,668,Lady Gaga,Lady Gaga,True,1.806,2026-01-22T20:04:49.789640
+llama3.2_local_baseline_rag,llama3.2,rag,669,Marlee Matlin,Marlee Matlin,True,1.76,2026-01-22T20:04:49.791403
+llama3.2_local_baseline_rag,llama3.2,rag,670,Lady Gaga,Lady Gaga,True,1.839,2026-01-22T20:04:49.793245
+llama3.2_local_baseline_rag,llama3.2,rag,671,Marlee Matlin,Marlee Matlin,True,1.823,2026-01-22T20:04:49.795072
+llama3.2_local_baseline_rag,llama3.2,rag,672,Lady Gaga,Lady Gaga,True,1.79,2026-01-22T20:04:49.796865
+llama3.2_local_baseline_rag,llama3.2,rag,673,six,Six,True,1.805,2026-01-22T20:04:49.798673
+llama3.2_local_baseline_rag,llama3.2,rag,674,Marlee Matlin,Marlee Matlin,True,1.873,2026-01-22T20:04:49.800549
+llama3.2_local_baseline_rag,llama3.2,rag,675,December 3,December 3,True,1.814,2026-01-22T20:04:49.802368
+llama3.2_local_baseline_rag,llama3.2,rag,676,British,British,True,1.827,2026-01-22T20:04:49.804198
+llama3.2_local_baseline_rag,llama3.2,rag,677,Super Bowl XLVII,Super Bowl XLVII,True,1.859,2026-01-22T20:04:49.806062
+llama3.2_local_baseline_rag,llama3.2,rag,678,"""Hymn for the Weekend""","""Hymn for the Weekend""",True,1.847,2026-01-22T20:04:49.807912
+llama3.2_local_baseline_rag,llama3.2,rag,679,Super Bowl XLVIII,Super Bowl XLVIII,True,1.784,2026-01-22T20:04:49.809700
+llama3.2_local_baseline_rag,llama3.2,rag,680,Coldplay,Coldplay.,True,1.805,2026-01-22T20:04:49.811508
+llama3.2_local_baseline_rag,llama3.2,rag,681,Pepsi,Pepsi,True,1.782,2026-01-22T20:04:49.813294
+llama3.2_local_baseline_rag,llama3.2,rag,682,"""Hymn for the Weekend""","""Hymn for the Weekend""",True,1.789,2026-01-22T20:04:49.815086
+llama3.2_local_baseline_rag,llama3.2,rag,683,Coldplay,Coldplay.,True,1.754,2026-01-22T20:04:49.816844
+llama3.2_local_baseline_rag,llama3.2,rag,684,Beyoncé,Beyoncé,True,1.759,2026-01-22T20:04:49.818606
+llama3.2_local_baseline_rag,llama3.2,rag,685,Hymn for the Weekend,Hymn for the Weekend,True,1.7489999999999999,2026-01-22T20:04:49.820360
+llama3.2_local_baseline_rag,llama3.2,rag,686,Bruno Mars,Bruno Mars,True,0.9650000000000001,2026-01-22T20:04:49.821328
+llama3.2_local_baseline_rag,llama3.2,rag,687,Denver,Denver,True,2.532,2026-01-22T20:04:49.823864
+llama3.2_local_baseline_rag,llama3.2,rag,688,receiver Andre Caldwell,Andre Caldwell,True,1.79,2026-01-22T20:04:49.825657
+llama3.2_local_baseline_rag,llama3.2,rag,689,Ronnie Hillman,Ronnie Hillman,True,1.98,2026-01-22T20:04:49.827640
+llama3.2_local_baseline_rag,llama3.2,rag,690,Brandon McManus,Brandon McManus,True,1.794,2026-01-22T20:04:49.829439
+llama3.2_local_baseline_rag,llama3.2,rag,691,C. J. Anderson,C. J. Anderson,True,1.784,2026-01-22T20:04:49.831227
+llama3.2_local_baseline_rag,llama3.2,rag,692,18 + 22 = 40 yards,18,True,1.0430000000000001,2026-01-22T20:04:49.832274
+llama3.2_local_baseline_rag,llama3.2,rag,693,Shaq Thompson,Shaq Thompson,True,2.511,2026-01-22T20:04:49.834788
+llama3.2_local_baseline_rag,llama3.2,rag,694,Brandon McManus,Brandon McManus,True,1.8090000000000002,2026-01-22T20:04:49.836600
+llama3.2_local_baseline_rag,llama3.2,rag,695,a deficit,a deficit.,True,2.036,2026-01-22T20:04:49.838639
+llama3.2_local_baseline_rag,llama3.2,rag,696,Denver,Denver,True,0.992,2026-01-22T20:04:49.839634
+llama3.2_local_baseline_rag,llama3.2,rag,697,tight end Owen Daniels,Owen Daniels,True,2.798,2026-01-22T20:04:49.842435
+llama3.2_local_baseline_rag,llama3.2,rag,698,C. J. Anderson,C. J. Anderson,True,1.778,2026-01-22T20:04:49.844217
+llama3.2_local_baseline_rag,llama3.2,rag,699,Brandon McManus,Brandon McManus,True,1.842,2026-01-22T20:04:49.846062
+llama3.2_local_baseline_rag,llama3.2,rag,700,a deficit,a deficit.,True,1.807,2026-01-22T20:04:49.847872
+llama3.2_local_baseline_rag,llama3.2,rag,701,Mike Carey,Mike Carey,True,1.777,2026-01-22T20:04:49.849653
+llama3.2_local_baseline_rag,llama3.2,rag,702,Cam Newton,Cam Newton,True,1.8339999999999999,2026-01-22T20:04:49.851490
+llama3.2_local_baseline_rag,llama3.2,rag,703,Von Miller,Von Miller,True,1.8190000000000002,2026-01-22T20:04:49.853312
+llama3.2_local_baseline_rag,llama3.2,rag,704,Malik Jackson,Malik Jackson,True,1.954,2026-01-22T20:04:49.855270
+llama3.2_local_baseline_rag,llama3.2,rag,705,Super Bowl XXVIII,Super Bowl XXVIII,True,1.79,2026-01-22T20:04:49.857063
+llama3.2_local_baseline_rag,llama3.2,rag,706,Jerricho Cotchery,Jerricho Cotchery,True,1.771,2026-01-22T20:04:49.858837
+llama3.2_local_baseline_rag,llama3.2,rag,707,Mike Carey,Mike Carey,True,1.814,2026-01-22T20:04:49.860654
+llama3.2_local_baseline_rag,llama3.2,rag,708,Von Miller,Von Miller,True,1.8010000000000002,2026-01-22T20:04:49.862458
+llama3.2_local_baseline_rag,llama3.2,rag,709,Malik Jackson,Malik Jackson,True,1.788,2026-01-22T20:04:49.864250
+llama3.2_local_baseline_rag,llama3.2,rag,710,1993,1993,True,1.759,2026-01-22T20:04:49.866013
+llama3.2_local_baseline_rag,llama3.2,rag,711,Mike Carey,Mike Carey,True,1.779,2026-01-22T20:04:49.867796
+llama3.2_local_baseline_rag,llama3.2,rag,712,Von Miller,Von Miller,True,1.8259999999999998,2026-01-22T20:04:49.869626
+llama3.2_local_baseline_rag,llama3.2,rag,713,Malik Jackson,Malik Jackson,True,1.802,2026-01-22T20:04:49.871433
+llama3.2_local_baseline_rag,llama3.2,rag,714,Super Bowl XXVIII at the end of the 1993 season,Super Bowl XXVIII,True,1.848,2026-01-22T20:04:49.873284
+llama3.2_local_baseline_rag,llama3.2,rag,715,Jonathan Stewart,Jonathan Stewart,True,1.786,2026-01-22T20:04:49.875073
+llama3.2_local_baseline_rag,llama3.2,rag,716,Brad Nortman,Brad Nortman,True,1.779,2026-01-22T20:04:49.876855
+llama3.2_local_baseline_rag,llama3.2,rag,717,28 yards,28,True,1.7570000000000001,2026-01-22T20:04:49.878615
+llama3.2_local_baseline_rag,llama3.2,rag,718,61 yards,61,True,1.7489999999999999,2026-01-22T20:04:49.880367
+llama3.2_local_baseline_rag,llama3.2,rag,719,33 yards,33,True,1.787,2026-01-22T20:04:49.882157
+llama3.2_local_baseline_rag,llama3.2,rag,720,51 yards,51,True,1.9620000000000002,2026-01-22T20:04:49.884123
+llama3.2_local_baseline_rag,llama3.2,rag,721,Jonathan Stewart,Jonathan Stewart,True,1.7570000000000001,2026-01-22T20:04:49.885884
+llama3.2_local_baseline_rag,llama3.2,rag,722,11:28,11:28,True,1.797,2026-01-22T20:04:49.887684
+llama3.2_local_baseline_rag,llama3.2,rag,723,Jordan Norwood,Jordan Norwood,True,1.7979999999999998,2026-01-22T20:04:49.889485
+llama3.2_local_baseline_rag,llama3.2,rag,724,33 yards,33,True,1.76,2026-01-22T20:04:49.891249
+llama3.2_local_baseline_rag,llama3.2,rag,725,Jonathan Stewart,Jonathan Stewart,True,1.771,2026-01-22T20:04:49.893023
+llama3.2_local_baseline_rag,llama3.2,rag,726,kicked a 33-yard field goal,field goal,True,1.767,2026-01-22T20:04:49.894794
+llama3.2_local_baseline_rag,llama3.2,rag,727,Darian Stewart,Darian Stewart,True,1.776,2026-01-22T20:04:49.896574
+llama3.2_local_baseline_rag,llama3.2,rag,728,linebacker,linebacker,True,1.779,2026-01-22T20:04:49.898356
+llama3.2_local_baseline_rag,llama3.2,rag,729,Kony Ealy,Kony Ealy,True,1.75,2026-01-22T20:04:49.900110
+llama3.2_local_baseline_rag,llama3.2,rag,730,Newton,Newton,True,1.751,2026-01-22T20:04:49.901864
+llama3.2_local_baseline_rag,llama3.2,rag,731,DeMarcus Ware,DeMarcus Ware,True,1.748,2026-01-22T20:04:49.903615
+llama3.2_local_baseline_rag,llama3.2,rag,732,Mike Tolbert,Mike Tolbert,True,1.769,2026-01-22T20:04:49.905388
+llama3.2_local_baseline_rag,llama3.2,rag,733,Kony Ealy,Kony Ealy,True,0.9779999999999999,2026-01-22T20:04:49.906369
+llama3.2_local_baseline_rag,llama3.2,rag,734,19 yards,19,True,2.4979999999999998,2026-01-22T20:04:49.908871
+llama3.2_local_baseline_rag,llama3.2,rag,735,DeMarcus Ware,DeMarcus Ware,True,1.829,2026-01-22T20:04:49.910704
+llama3.2_local_baseline_rag,llama3.2,rag,736,Mike Tolbert,Mike Tolbert,True,1.74,2026-01-22T20:04:49.912447
+llama3.2_local_baseline_rag,llama3.2,rag,737,Danny Trevathan,Danny Trevathan,True,1.7329999999999999,2026-01-22T20:04:49.914183
+llama3.2_local_baseline_rag,llama3.2,rag,738,Kony Ealy,Kony Ealy,True,1.751,2026-01-22T20:04:49.915937
+llama3.2_local_baseline_rag,llama3.2,rag,739,sacked by DeMarcus Ware as time expired in the half,punt,False,1.789,2026-01-22T20:04:49.917730
+llama3.2_local_baseline_rag,llama3.2,rag,740,DeMarcus Ware,DeMarcus Ware,True,1.74,2026-01-22T20:04:49.919474
+llama3.2_local_baseline_rag,llama3.2,rag,741,Ted Ginn Jr.,Ted Ginn Jr.,True,1.751,2026-01-22T20:04:49.921228
+llama3.2_local_baseline_rag,llama3.2,rag,742,Graham Gano,Graham Gano,True,1.794,2026-01-22T20:04:49.923025
+llama3.2_local_baseline_rag,llama3.2,rag,743,44 yards,44,True,1.745,2026-01-22T20:04:49.924775
+llama3.2_local_baseline_rag,llama3.2,rag,744,McManus,McManus,True,1.774,2026-01-22T20:04:49.926552
+llama3.2_local_baseline_rag,llama3.2,rag,745,T. J. Ward,T. J. Ward,True,1.746,2026-01-22T20:04:49.928301
+llama3.2_local_baseline_rag,llama3.2,rag,746,Ted Ginn Jr.,Ted Ginn Jr.,True,1.752,2026-01-22T20:04:49.930056
+llama3.2_local_baseline_rag,llama3.2,rag,747,the uprights,the uprights,True,1.752,2026-01-22T20:04:49.931812
+llama3.2_local_baseline_rag,llama3.2,rag,748,T. J. Ward,T. J. Ward.,True,1.751,2026-01-22T20:04:49.933566
+llama3.2_local_baseline_rag,llama3.2,rag,749,Trevathan,Trevathan,True,0.948,2026-01-22T20:04:49.934517
+llama3.2_local_baseline_rag,llama3.2,rag,750,Ted Ginn Jr.,Ted Ginn Jr.,True,2.5709999999999997,2026-01-22T20:04:49.937091
+llama3.2_local_baseline_rag,llama3.2,rag,751,26-yard line,26-yard line,True,1.754,2026-01-22T20:04:49.938849
+llama3.2_local_baseline_rag,llama3.2,rag,752,Graham Gano,Graham Gano,True,1.846,2026-01-22T20:04:49.940698
+llama3.2_local_baseline_rag,llama3.2,rag,753,Emmanuel Sanders,Emmanuel Sanders,True,1.8539999999999999,2026-01-22T20:04:49.942557
+llama3.2_local_baseline_rag,llama3.2,rag,754,Ealy,Ealy,True,1.906,2026-01-22T20:04:49.944467
+llama3.2_local_baseline_rag,llama3.2,rag,755,39 yards,39,True,2.058,2026-01-22T20:04:49.946531
+llama3.2_local_baseline_rag,llama3.2,rag,756,Devin Funchess,Devin Funchess,True,4.235,2026-01-22T20:04:49.950777
+llama3.2_local_baseline_rag,llama3.2,rag,757,Stewart,Stewart,True,2.339,2026-01-22T20:04:49.953125
+llama3.2_local_baseline_rag,llama3.2,rag,758,41-yard line,41-yard line.,True,9.894,2026-01-22T20:04:49.963028
+llama3.2_local_baseline_rag,llama3.2,rag,759,Ealy,Ealy,True,14.472999999999999,2026-01-22T20:04:49.977513
+llama3.2_local_baseline_rag,llama3.2,rag,760,the 50-yard line,50-yard line.,False,12.555,2026-01-22T20:04:49.990085
+llama3.2_local_baseline_rag,llama3.2,rag,761,punts,punts.,True,4.552,2026-01-22T20:04:49.994663
+llama3.2_local_baseline_rag,llama3.2,rag,762,Ealy,Ealy,True,7.432,2026-01-22T20:04:50.002403
+llama3.2_local_baseline_rag,llama3.2,rag,763,41-yard line,50-yard line.,False,6.6610000000000005,2026-01-22T20:04:50.009082
+llama3.2_local_baseline_rag,llama3.2,rag,764,39 yards,39-yard,False,8.86,2026-01-22T20:04:50.017957
+llama3.2_local_baseline_rag,llama3.2,rag,765,three,three,True,1.538,2026-01-22T20:04:50.019504
+llama3.2_local_baseline_rag,llama3.2,rag,766,24-yard line,24,True,3.469,2026-01-22T20:04:50.022979
+llama3.2_local_baseline_rag,llama3.2,rag,767,Newton,Newton,True,2.2230000000000003,2026-01-22T20:04:50.025209
+llama3.2_local_baseline_rag,llama3.2,rag,768,Josh Norman,Josh Norman,True,5.643,2026-01-22T20:04:50.030860
+llama3.2_local_baseline_rag,llama3.2,rag,769,Ward,Anderson,False,2.745,2026-01-22T20:04:50.033615
+llama3.2_local_baseline_rag,llama3.2,rag,770,Bennie Fowler,Bennie Fowler,True,2.383,2026-01-22T20:04:50.036006
+llama3.2_local_baseline_rag,llama3.2,rag,771,Miller,Miller,True,2.13,2026-01-22T20:04:50.038142
+llama3.2_local_baseline_rag,llama3.2,rag,772,Ward,wards,True,2.016,2026-01-22T20:04:50.040163
+llama3.2_local_baseline_rag,llama3.2,rag,773,Newton,Newton,True,1.877,2026-01-22T20:04:50.042044
+llama3.2_local_baseline_rag,llama3.2,rag,774,Josh Norman,Josh Norman,True,2.1510000000000002,2026-01-22T20:04:50.044199
+llama3.2_local_baseline_rag,llama3.2,rag,775,3:08,3:08,True,1.818,2026-01-22T20:04:50.046021
+llama3.2_local_baseline_rag,llama3.2,rag,776,4:51,4:51,True,1.009,2026-01-22T20:04:50.047033
+llama3.2_local_baseline_rag,llama3.2,rag,777,Miller,Miller,True,2.564,2026-01-22T20:04:50.049602
+llama3.2_local_baseline_rag,llama3.2,rag,778,Ward,wards,True,1.877,2026-01-22T20:04:50.051483
+llama3.2_local_baseline_rag,llama3.2,rag,779,3,three,False,1.921,2026-01-22T20:04:50.053408
+llama3.2_local_baseline_rag,llama3.2,rag,780,Anderson,Anderson,True,1.907,2026-01-22T20:04:50.055320
+llama3.2_local_baseline_rag,llama3.2,rag,781,five,five,True,1.858,2026-01-22T20:04:50.057182
+llama3.2_local_baseline_rag,llama3.2,rag,782,zero,zero,True,1.909,2026-01-22T20:04:50.059095
+llama3.2_local_baseline_rag,llama3.2,rag,783,four,four,True,1.878,2026-01-22T20:04:50.060977
+llama3.2_local_baseline_rag,llama3.2,rag,784,Thomas Davis,Thomas Davis,True,2.1020000000000003,2026-01-22T20:04:50.063082
+llama3.2_local_baseline_rag,llama3.2,rag,785,one interception,one,True,2.0439999999999996,2026-01-22T20:04:50.065131
+llama3.2_local_baseline_rag,llama3.2,rag,786,one,one,True,1.873,2026-01-22T20:04:50.067008
+llama3.2_local_baseline_rag,llama3.2,rag,787,zero,zero,True,1.9729999999999999,2026-01-22T20:04:50.068986
+llama3.2_local_baseline_rag,llama3.2,rag,788,Anderson,Anderson,True,1.827,2026-01-22T20:04:50.070817
+llama3.2_local_baseline_rag,llama3.2,rag,789,Sanders,Sanders,True,1.0959999999999999,2026-01-22T20:04:50.072085
+llama3.2_local_baseline_rag,llama3.2,rag,790,Thomas Davis,Thomas Davis,True,2.783,2026-01-22T20:04:50.074872
+llama3.2_local_baseline_rag,llama3.2,rag,791,Sanders,Sanders,True,1.925,2026-01-22T20:04:50.076801
+llama3.2_local_baseline_rag,llama3.2,rag,792,Newton,Anderson,False,1.943,2026-01-22T20:04:50.078748
+llama3.2_local_baseline_rag,llama3.2,rag,793,all 4 of his attempts,all four,False,1.9269999999999998,2026-01-22T20:04:50.080679
+llama3.2_local_baseline_rag,llama3.2,rag,794,one,one,True,1.858,2026-01-22T20:04:50.082541
+llama3.2_local_baseline_rag,llama3.2,rag,795,four total tackles,four,True,1.924,2026-01-22T20:04:50.084469
+llama3.2_local_baseline_rag,llama3.2,rag,796,194,194,True,1.8699999999999999,2026-01-22T20:04:50.086342
+llama3.2_local_baseline_rag,llama3.2,rag,797,11,11,True,1.869,2026-01-22T20:04:50.088215
+llama3.2_local_baseline_rag,llama3.2,rag,798,The Baltimore Ravens,Baltimore Ravens,True,1.9020000000000001,2026-01-22T20:04:50.090121
+llama3.2_local_baseline_rag,llama3.2,rag,799,Jordan Norwood,Jordan Norwood,True,1.861,2026-01-22T20:04:50.091985
+llama3.2_local_baseline_rag,llama3.2,rag,800,Manning,Manning,True,2.209,2026-01-22T20:04:50.094197
+llama3.2_local_baseline_rag,llama3.2,rag,801,315,194,False,1.7930000000000001,2026-01-22T20:04:50.095994
+llama3.2_local_baseline_rag,llama3.2,rag,802,11,11,True,1.6360000000000001,2026-01-22T20:04:50.097634
+llama3.2_local_baseline_rag,llama3.2,rag,803,the Chicago Bears,Chicago Bears,True,2.206,2026-01-22T20:04:50.099844
+llama3.2_local_baseline_rag,llama3.2,rag,804,the same franchise he went to the Super Bowl with as a player (presumably the Denver Broncos),Broncos,True,1.7489999999999999,2026-01-22T20:04:50.101596
+llama3.2_local_baseline_rag,llama3.2,rag,805,11,21,False,1.7810000000000001,2026-01-22T20:04:50.103380
+llama3.2_local_baseline_rag,llama3.2,rag,806,11,11,True,2.084,2026-01-22T20:04:50.105469
+llama3.2_local_baseline_rag,llama3.2,rag,807,Denver Broncos,The Broncos,False,2.111,2026-01-22T20:04:50.107585
+llama3.2_local_baseline_rag,llama3.2,rag,808,the Chicago Bears,Chicago Bears,True,1.899,2026-01-22T20:04:50.109489
+llama3.2_local_baseline_rag,llama3.2,rag,809,two,two,True,2.121,2026-01-22T20:04:50.111620
+llama3.2_local_baseline_rag,llama3.2,rag,810,Nobel Prize,Nobel Prize,True,1.938,2026-01-22T20:04:50.113562
+llama3.2_local_baseline_rag,llama3.2,rag,811,1745,1745,True,2.2079999999999997,2026-01-22T20:04:50.115775
+llama3.2_local_baseline_rag,llama3.2,rag,812,Maria Skłodowska-Curie,Maria Skłodowska-Curie,True,2.4650000000000003,2026-01-22T20:04:50.118244
+llama3.2_local_baseline_rag,llama3.2,rag,813,Frédéric Chopin,Famous musicians,False,2.077,2026-01-22T20:04:50.120325
+llama3.2_local_baseline_rag,llama3.2,rag,814,seven months old,seven months old,True,2.0709999999999997,2026-01-22T20:04:50.122399
+llama3.2_local_baseline_rag,llama3.2,rag,815,over 100,100,True,2.19,2026-01-22T20:04:50.124597
+llama3.2_local_baseline_rag,llama3.2,rag,816,The Krasiński Palace Garden,Krasiński Palace Garden,True,1.8920000000000001,2026-01-22T20:04:50.126492
+llama3.2_local_baseline_rag,llama3.2,rag,817,The Saxon Garden,The Saxon Garden,True,1.9989999999999999,2026-01-22T20:04:50.128499
+llama3.2_local_baseline_rag,llama3.2,rag,818,The east end of the park,east end,True,1.934,2026-01-22T20:04:50.130437
+llama3.2_local_baseline_rag,llama3.2,rag,819,Łazienki Park,Łazienki,True,2.022,2026-01-22T20:04:50.132464
+llama3.2_local_baseline_rag,llama3.2,rag,820,15 kilometres (9 miles),15 kilometres,True,2.3440000000000003,2026-01-22T20:04:50.134815
+llama3.2_local_baseline_rag,llama3.2,rag,821,"otter
+beaver
+hundreds of bird species","otter, beaver and hundreds of bird species",False,1.221,2026-01-22T20:04:50.136044
+llama3.2_local_baseline_rag,llama3.2,rag,822,13,13,True,3.485,2026-01-22T20:04:50.139535
+llama3.2_local_baseline_rag,llama3.2,rag,823,several (exact number not specified),several,True,2.1359999999999997,2026-01-22T20:04:50.141677
+llama3.2_local_baseline_rag,llama3.2,rag,824,to clean them of plants and sediments,to clean them,True,1.924,2026-01-22T20:04:50.143606
+llama3.2_local_baseline_rag,llama3.2,rag,825,city,city,True,1.873,2026-01-22T20:04:50.145485
+llama3.2_local_baseline_rag,llama3.2,rag,826,"833,500","833,500",True,1.805,2026-01-22T20:04:50.147293
+llama3.2_local_baseline_rag,llama3.2,rag,827,34%,around 34%,True,1.9,2026-01-22T20:04:50.149200
+llama3.2_local_baseline_rag,llama3.2,rag,828,Jews,Jewish,False,1.812,2026-01-22T20:04:50.151015
+llama3.2_local_baseline_rag,llama3.2,rag,829,internal migration and urbanisation,migration and urbanisation,True,1.7730000000000001,2026-01-22T20:04:50.152791
+llama3.2_local_baseline_rag,llama3.2,rag,830,Warsaw University of Technology,Warsaw University of Technology,True,1.83,2026-01-22T20:04:50.154624
+llama3.2_local_baseline_rag,llama3.2,rag,831,"2,000","2,000",True,2.011,2026-01-22T20:04:50.156639
+llama3.2_local_baseline_rag,llama3.2,rag,832,The Medical University of Warsaw,Medical University of Warsaw,True,1.8339999999999999,2026-01-22T20:04:50.158477
+llama3.2_local_baseline_rag,llama3.2,rag,833,1816,1816,True,1.761,2026-01-22T20:04:50.160241
+llama3.2_local_baseline_rag,llama3.2,rag,834,Fryderyk Chopin University of Music,Fryderyk Chopin University of Music,True,1.795,2026-01-22T20:04:50.162039
+llama3.2_local_baseline_rag,llama3.2,rag,835,1816,1816,True,1.899,2026-01-22T20:04:50.163943
+llama3.2_local_baseline_rag,llama3.2,rag,836,over two million,over two million,True,1.8,2026-01-22T20:04:50.165746
+llama3.2_local_baseline_rag,llama3.2,rag,837,architect,architects,True,1.782,2026-01-22T20:04:50.167531
+llama3.2_local_baseline_rag,llama3.2,rag,838,Irena Bajerska,Irena Bajerska,True,1.768,2026-01-22T20:04:50.169303
+llama3.2_local_baseline_rag,llama3.2,rag,839,"10,000 m2 (107,639.10 sq ft)","10,000 m2",True,1.782,2026-01-22T20:04:50.171089
+llama3.2_local_baseline_rag,llama3.2,rag,840,infrastructure,infrastructure,True,1.825,2026-01-22T20:04:50.172918
+llama3.2_local_baseline_rag,llama3.2,rag,841,The initial Three-Year Plan to rebuild Poland (especially Warsaw),Three-Year Plan,True,1.887,2026-01-22T20:04:50.174809
+llama3.2_local_baseline_rag,llama3.2,rag,842,"solid economic growth, an increase in foreign investment as well as funding from the European Union",solid economic growth,True,1.874,2026-01-22T20:04:50.176688
+llama3.2_local_baseline_rag,llama3.2,rag,843,improved,improved markedly,True,1.784,2026-01-22T20:04:50.178476
+llama3.2_local_baseline_rag,llama3.2,rag,844,Warsaw,Warsaw,True,1.79,2026-01-22T20:04:50.180271
+llama3.2_local_baseline_rag,llama3.2,rag,845,Children's Memorial Health Institute (CMHI),Children's Memorial Health Institute,True,2.736,2026-01-22T20:04:50.183010
+llama3.2_local_baseline_rag,llama3.2,rag,846,The Maria Skłodowska-Curie Institute of Oncology,Maria Skłodowska-Curie Institute of Oncology,True,1.815,2026-01-22T20:04:50.184829
+llama3.2_local_baseline_rag,llama3.2,rag,847,700,700,True,1.8159999999999998,2026-01-22T20:04:50.186648
+llama3.2_local_baseline_rag,llama3.2,rag,848,developed a lot,developed,True,1.77,2026-01-22T20:04:50.188422
+llama3.2_local_baseline_rag,llama3.2,rag,849,musical venues,musical,True,2.02,2026-01-22T20:04:50.190445
+llama3.2_local_baseline_rag,llama3.2,rag,850,events and festivals,events and festivals,True,1.8190000000000002,2026-01-22T20:04:50.192268
+llama3.2_local_baseline_rag,llama3.2,rag,851,The Palace of Culture and Science,in the Palace of Culture and Science,True,1.936,2026-01-22T20:04:50.194207
+llama3.2_local_baseline_rag,llama3.2,rag,852,Warsaw,Warsaw,True,1.885,2026-01-22T20:04:50.196096
+llama3.2_local_baseline_rag,llama3.2,rag,853,music festivals,festivals,True,1.8079999999999998,2026-01-22T20:04:50.197908
+llama3.2_local_baseline_rag,llama3.2,rag,854,Ogród Saski,Ogród Saski,True,1.7650000000000001,2026-01-22T20:04:50.199677
+llama3.2_local_baseline_rag,llama3.2,rag,855,Ogród Saski (the Saxon Garden),Saxon Garden,True,1.788,2026-01-22T20:04:50.201469
+llama3.2_local_baseline_rag,llama3.2,rag,856,from 1870 to 1939,1870 to 1939,True,1.7550000000000001,2026-01-22T20:04:50.203227
+llama3.2_local_baseline_rag,llama3.2,rag,857,Momus,Momus,True,1.806,2026-01-22T20:04:50.205037
+llama3.2_local_baseline_rag,llama3.2,rag,858,Wojciech Bogusławski Theatre,Wojciech Bogusławski Theatre,True,1.7570000000000001,2026-01-22T20:04:50.206797
+llama3.2_local_baseline_rag,llama3.2,rag,859,Wianki,Wianki,True,1.758,2026-01-22T20:04:50.208559
+llama3.2_local_baseline_rag,llama3.2,rag,860,thousands of people,thousands,True,1.795,2026-01-22T20:04:50.210357
+llama3.2_local_baseline_rag,llama3.2,rag,861,Midsummer’s Night (on the banks of the Vistula),Midsummer’s Night,True,2.036,2026-01-22T20:04:50.212398
+llama3.2_local_baseline_rag,llama3.2,rag,862,"when they would be married, to whom",when they would be married,True,2.4699999999999998,2026-01-22T20:04:50.214875
+llama3.2_local_baseline_rag,llama3.2,rag,863,the fern flower,the fern,True,2.1510000000000002,2026-01-22T20:04:50.217031
+llama3.2_local_baseline_rag,llama3.2,rag,864,art posters,art posters,True,1.827,2026-01-22T20:04:50.218866
+llama3.2_local_baseline_rag,llama3.2,rag,865,60,60,True,1.887,2026-01-22T20:04:50.220757
+llama3.2_local_baseline_rag,llama3.2,rag,866,prestigious,prestigious,True,1.823,2026-01-22T20:04:50.222583
+llama3.2_local_baseline_rag,llama3.2,rag,867,paintings,some paintings,True,1.268,2026-01-22T20:04:50.223855
+llama3.2_local_baseline_rag,llama3.2,rag,868,the history of arms,arms,True,1.82,2026-01-22T20:04:50.225680
+llama3.2_local_baseline_rag,llama3.2,rag,869,the Warsaw Uprising Museum,Warsaw Uprising Museum,True,2.6580000000000004,2026-01-22T20:04:50.228341
+llama3.2_local_baseline_rag,llama3.2,rag,870,Katyń Museum,Katyń,True,1.821,2026-01-22T20:04:50.230165
+llama3.2_local_baseline_rag,llama3.2,rag,871,historic stereoscopic theatre,stereoscopic,True,1.7730000000000001,2026-01-22T20:04:50.231941
+llama3.2_local_baseline_rag,llama3.2,rag,872,The Museum of Independence,Museum of Independence,True,1.815,2026-01-22T20:04:50.233760
+llama3.2_local_baseline_rag,llama3.2,rag,873,60,60,True,1.77,2026-01-22T20:04:50.235533
+llama3.2_local_baseline_rag,llama3.2,rag,874,Royal Ujazdów Castle,Royal Ujazdów Castle,True,1.774,2026-01-22T20:04:50.237311
+llama3.2_local_baseline_rag,llama3.2,rag,875,500,about 500,True,1.77,2026-01-22T20:04:50.239084
+llama3.2_local_baseline_rag,llama3.2,rag,876,Zachęta National Gallery of Art,Zachęta National Gallery of Art,True,1.879,2026-01-22T20:04:50.240966
+llama3.2_local_baseline_rag,llama3.2,rag,877,Polish and international artists,Polish and international artists,True,1.823,2026-01-22T20:04:50.242792
+llama3.2_local_baseline_rag,llama3.2,rag,878,last weekend of September,last weekend of September,True,1.778,2026-01-22T20:04:50.244575
+llama3.2_local_baseline_rag,llama3.2,rag,879,Polonia Warsaw,Polonia Warsaw,True,1.769,2026-01-22T20:04:50.246347
+llama3.2_local_baseline_rag,llama3.2,rag,880,1946,1946,True,1.911,2026-01-22T20:04:50.248263
+llama3.2_local_baseline_rag,llama3.2,rag,881,twice,twice,True,1.784,2026-01-22T20:04:50.250051
+llama3.2_local_baseline_rag,llama3.2,rag,882,"Konwiktorska Street, a ten-minute walk north from the Old Town",at Konwiktorska Street,False,1.79,2026-01-22T20:04:50.251844
+llama3.2_local_baseline_rag,llama3.2,rag,883,Their disastrous financial situation,disastrous financial situation,True,1.785,2026-01-22T20:04:50.253632
+llama3.2_local_baseline_rag,llama3.2,rag,884,syrenka,syrenka,True,1.7910000000000001,2026-01-22T20:04:50.255426
+llama3.2_local_baseline_rag,llama3.2,rag,885,the mermaid (syrenka),The mermaid,True,2.222,2026-01-22T20:04:50.257652
+llama3.2_local_baseline_rag,llama3.2,rag,886,at least the mid-14th century,since at least the mid-14th century,True,1.8010000000000002,2026-01-22T20:04:50.259456
+llama3.2_local_baseline_rag,llama3.2,rag,887,1390,1390,True,1.8639999999999999,2026-01-22T20:04:50.261323
+llama3.2_local_baseline_rag,llama3.2,rag,888,a sword,a sword,True,1.7750000000000001,2026-01-22T20:04:50.263102
+llama3.2_local_baseline_rag,llama3.2,rag,889,a legend about mermaids,legend,True,1.82,2026-01-22T20:04:50.264927
+llama3.2_local_baseline_rag,llama3.2,rag,890,the depths of the oceans and seas,depths of the oceans and seas,True,1.77,2026-01-22T20:04:50.266700
+llama3.2_local_baseline_rag,llama3.2,rag,891,the coast of Denmark,coast of Denmark,True,1.7630000000000001,2026-01-22T20:04:50.268467
+llama3.2_local_baseline_rag,llama3.2,rag,892,Warszowa,Warszowa,True,1.7810000000000001,2026-01-22T20:04:50.270251
+llama3.2_local_baseline_rag,llama3.2,rag,893,He captured her,captured,True,1.752,2026-01-22T20:04:50.272007
+llama3.2_local_baseline_rag,llama3.2,rag,894,Warsaw,Warsaw,True,1.756,2026-01-22T20:04:50.273766
+llama3.2_local_baseline_rag,llama3.2,rag,895,1916,1916,True,1.7910000000000001,2026-01-22T20:04:50.275561
+llama3.2_local_baseline_rag,llama3.2,rag,896,the Art Deco style in painting and art,the Art Deco style,True,2.009,2026-01-22T20:04:50.277573
+llama3.2_local_baseline_rag,llama3.2,rag,897,"poet
+lyricist
+composer
+pianist",poet,True,1.7650000000000001,2026-01-22T20:04:50.279341
+llama3.2_local_baseline_rag,llama3.2,rag,898,Isaac Bashevis Singer,Isaac Bashevis Singer,True,1.81,2026-01-22T20:04:50.281154
+llama3.2_local_baseline_rag,llama3.2,rag,899,The Economist Intelligence Unit,Economist Intelligence Unit,True,1.9819999999999998,2026-01-22T20:04:50.283141
+llama3.2_local_baseline_rag,llama3.2,rag,900,2012,2012,True,1.756,2026-01-22T20:04:50.284900
+llama3.2_local_baseline_rag,llama3.2,rag,901,"FMCG manufacturing, metal processing, steel and electronic manufacturing, food processing",wide variety of industries,False,1.778,2026-01-22T20:04:50.286681
+llama3.2_local_baseline_rag,llama3.2,rag,902,Warsaw Stock Exchange,Stock,True,2.078,2026-01-22T20:04:50.288762
+llama3.2_local_baseline_rag,llama3.2,rag,903,Frontex,Frontex,True,1.8550000000000002,2026-01-22T20:04:50.290621
+llama3.2_local_baseline_rag,llama3.2,rag,904,1313,1313,True,1.888,2026-01-22T20:04:50.292513
+llama3.2_local_baseline_rag,llama3.2,rag,905,Warsaw,Kraków,False,1.2,2026-01-22T20:04:50.293717
+llama3.2_local_baseline_rag,llama3.2,rag,906,1596,1596,True,2.803,2026-01-22T20:04:50.296523
+llama3.2_local_baseline_rag,llama3.2,rag,907,King Sigismund III Vasa,King Sigismund III Vasa,True,1.838,2026-01-22T20:04:50.298364
+llama3.2_local_baseline_rag,llama3.2,rag,908,"because it has survived many wars, conflicts and invasions throughout its long history","survived many wars, conflicts and invasions",True,1.831,2026-01-22T20:04:50.300200
+llama3.2_local_baseline_rag,llama3.2,rag,909,Roman Catholic archdiocese (left bank of the Vistula),Roman Catholic,True,1.869,2026-01-22T20:04:50.302072
+llama3.2_local_baseline_rag,llama3.2,rag,910,Polish Academy of Sciences,Polish Academy of Sciences,True,1.795,2026-01-22T20:04:50.303871
+llama3.2_local_baseline_rag,llama3.2,rag,911,a UNESCO World Heritage Site,a UNESCO World Heritage Site,True,1.8010000000000002,2026-01-22T20:04:50.305675
+llama3.2_local_baseline_rag,llama3.2,rag,912,architectural attraction,architectural,True,2.0860000000000003,2026-01-22T20:04:50.307765
+llama3.2_local_baseline_rag,llama3.2,rag,913,luxurious parks and royal gardens,luxurious parks and royal gardens,True,1.77,2026-01-22T20:04:50.309539
+llama3.2_local_baseline_rag,llama3.2,rag,914,Warszawa,Warszawa,True,1.827,2026-01-22T20:04:50.311369
+llama3.2_local_baseline_rag,llama3.2,rag,915,belonging to Warsz,belonging to Warsz,True,1.815,2026-01-22T20:04:50.313189
+llama3.2_local_baseline_rag,llama3.2,rag,916,Warsz was a 12th/13th-century nobleman who owned a village located at the modern-day site of Mariensztat neighbourhood.,12th/13th-century nobleman,True,1.847,2026-01-22T20:04:50.315039
+llama3.2_local_baseline_rag,llama3.2,rag,917,a village,a village,True,1.806,2026-01-22T20:04:50.316849
+llama3.2_local_baseline_rag,llama3.2,rag,918,miasto stołeczne Warszawa,miasto stołeczne Warszawa,True,1.822,2026-01-22T20:04:50.318674
+llama3.2_local_baseline_rag,llama3.2,rag,919,Jazdów,Jazdów,True,1.84,2026-01-22T20:04:50.320517
+llama3.2_local_baseline_rag,llama3.2,rag,920,The Prince of Płock,The Prince of Płock,True,1.7910000000000001,2026-01-22T20:04:50.322311
+llama3.2_local_baseline_rag,llama3.2,rag,921,about 1300,1300,True,1.735,2026-01-22T20:04:50.324050
+llama3.2_local_baseline_rag,llama3.2,rag,922,1413,1413,True,1.7630000000000001,2026-01-22T20:04:50.325816
+llama3.2_local_baseline_rag,llama3.2,rag,923,1526,1526,True,1.736,2026-01-22T20:04:50.327555
+llama3.2_local_baseline_rag,llama3.2,rag,924,the General Sejm,General Sejm,True,1.827,2026-01-22T20:04:50.329385
+llama3.2_local_baseline_rag,llama3.2,rag,925,1529,1569,False,2.108,2026-01-22T20:04:50.331498
+llama3.2_local_baseline_rag,llama3.2,rag,926,religious freedom in the Polish–Lithuanian Commonwealth,religious freedom,True,1.8190000000000002,2026-01-22T20:04:50.333321
+llama3.2_local_baseline_rag,llama3.2,rag,927,"Due to its central location between the Commonwealth's capitals of Kraków and Vilnius, King Sigismund III Vasa moved his court from Kraków to Warsaw in 1596.",Due to its central location,True,1.835,2026-01-22T20:04:50.335159
+llama3.2_local_baseline_rag,llama3.2,rag,928,1596,1596,True,1.866,2026-01-22T20:04:50.337029
+llama3.2_local_baseline_rag,llama3.2,rag,929,until 1796,until 1796,True,1.8259999999999998,2026-01-22T20:04:50.338858
+llama3.2_local_baseline_rag,llama3.2,rag,930,Kingdom of Prussia,Prussia,True,1.81,2026-01-22T20:04:50.340671
+llama3.2_local_baseline_rag,llama3.2,rag,931,Napoleon's army,Napoleon's,True,1.8010000000000002,2026-01-22T20:04:50.342476
+llama3.2_local_baseline_rag,llama3.2,rag,932,1815,1815,True,1.7630000000000001,2026-01-22T20:04:50.344242
+llama3.2_local_baseline_rag,llama3.2,rag,933,1816,1816,True,1.784,2026-01-22T20:04:50.346031
+llama3.2_local_baseline_rag,llama3.2,rag,934,4 August 1915 to November 1918,from 4 August 1915 until November 1918,False,2.0349999999999997,2026-01-22T20:04:50.348070
+llama3.2_local_baseline_rag,llama3.2,rag,935,areas controlled by Russia in 1914,areas controlled by Russia in 1914,True,2.078,2026-01-22T20:04:50.350158
+llama3.2_local_baseline_rag,llama3.2,rag,936,Piłsudski,underground leader Piłsudski,True,1.97,2026-01-22T20:04:50.352132
+llama3.2_local_baseline_rag,llama3.2,rag,937,1920,1920,True,2.022,2026-01-22T20:04:50.354160
+llama3.2_local_baseline_rag,llama3.2,rag,938,the Red Army,the Red Army,True,2.026,2026-01-22T20:04:50.356194
+llama3.2_local_baseline_rag,llama3.2,rag,939,1 September 1939,September 1939,True,2.251,2026-01-22T20:04:50.358450
+llama3.2_local_baseline_rag,llama3.2,rag,940,the General Government,a German Nazi colonial administration,False,1.8860000000000001,2026-01-22T20:04:50.360340
+llama3.2_local_baseline_rag,llama3.2,rag,941,30%,some 30% of the city,True,1.9040000000000001,2026-01-22T20:04:50.362250
+llama3.2_local_baseline_rag,llama3.2,rag,942,19 April 1943,April 1943,True,2.117,2026-01-22T20:04:50.364371
+llama3.2_local_baseline_rag,llama3.2,rag,943,almost a month,almost a month,True,1.81,2026-01-22T20:04:50.366185
+llama3.2_local_baseline_rag,llama3.2,rag,944,the Red Army,the Red Army,True,1.8,2026-01-22T20:04:50.367990
+llama3.2_local_baseline_rag,llama3.2,rag,945,Because Stalin was hostile to the idea of an independent Poland.,Stalin was hostile to the idea of an independent Poland,True,2.02,2026-01-22T20:04:50.370013
+llama3.2_local_baseline_rag,llama3.2,rag,946,1 August 1944,August 1944,True,1.8090000000000002,2026-01-22T20:04:50.371825
+llama3.2_local_baseline_rag,llama3.2,rag,947,63 days,63 days,True,1.842,2026-01-22T20:04:50.373672
+llama3.2_local_baseline_rag,llama3.2,rag,948,"150,000 to 200,000","between 150,000 and 200,000",False,2.0100000000000002,2026-01-22T20:04:50.375686
+llama3.2_local_baseline_rag,llama3.2,rag,949,"""Bricks for Warsaw""","""Bricks for Warsaw""",True,1.908,2026-01-22T20:04:50.377597
+llama3.2_local_baseline_rag,llama3.2,rag,950,prefabricated housing projects,prefabricated,True,1.874,2026-01-22T20:04:50.379475
+llama3.2_local_baseline_rag,llama3.2,rag,951,an Eastern Bloc city,an Eastern Bloc city,True,1.847,2026-01-22T20:04:50.381326
+llama3.2_local_baseline_rag,llama3.2,rag,952,The Palace of Culture and Science,Palace of Culture and Science,True,1.802,2026-01-22T20:04:50.383133
+llama3.2_local_baseline_rag,llama3.2,rag,953,UNESCO's World Heritage list,UNESCO's World Heritage list,True,1.759,2026-01-22T20:04:50.384895
+llama3.2_local_baseline_rag,llama3.2,rag,954,John Paul II,John Paul II,True,1.753,2026-01-22T20:04:50.386651
+llama3.2_local_baseline_rag,llama3.2,rag,955,the growing anti-communist fervor in Poland,growing anti-communist fervor,True,1.766,2026-01-22T20:04:50.388420
+llama3.2_local_baseline_rag,llama3.2,rag,956,"less than a year
+or 1 year (since he became pope in 1978)",less than a year,True,1.727,2026-01-22T20:04:50.390151
+llama3.2_local_baseline_rag,llama3.2,rag,957,Victory Square,Victory Square,True,1.835,2026-01-22T20:04:50.391991
+llama3.2_local_baseline_rag,llama3.2,rag,958,an incentive for democratic changes,incentive for the democratic changes,False,1.795,2026-01-22T20:04:50.393790
+llama3.2_local_baseline_rag,llama3.2,rag,959,300 km,about 300,False,1.794,2026-01-22T20:04:50.395587
+llama3.2_local_baseline_rag,llama3.2,rag,960,260 miles,325,False,1.957,2026-01-22T20:04:50.397547
+llama3.2_local_baseline_rag,llama3.2,rag,961,Vistula River,Vistula River,True,1.756,2026-01-22T20:04:50.399306
+llama3.2_local_baseline_rag,llama3.2,rag,962,379.6 ft (115.7 metres),452.8 ft,False,1.8639999999999999,2026-01-22T20:04:50.401174
+llama3.2_local_baseline_rag,llama3.2,rag,963,"at a height of 75.6 metres (248.0 ft) on the right bank of the Vistula River, by the eastern border of Warsaw.",at the right bank of the Vistula,False,1.8760000000000001,2026-01-22T20:04:50.403057
+llama3.2_local_baseline_rag,llama3.2,rag,964,two,two,True,1.8699999999999999,2026-01-22T20:04:50.404930
+llama3.2_local_baseline_rag,llama3.2,rag,965,the Vistula Valley,Vistula Valley,True,1.827,2026-01-22T20:04:50.406761
+llama3.2_local_baseline_rag,llama3.2,rag,966,the moraine plateau,moraine,True,1.784,2026-01-22T20:04:50.408548
+llama3.2_local_baseline_rag,llama3.2,rag,967,The Vistula River,Vistula River,True,1.792,2026-01-22T20:04:50.410343
+llama3.2_local_baseline_rag,llama3.2,rag,968,Warsaw Escarpment,Warsaw Escarpment,True,1.835,2026-01-22T20:04:50.412183
+llama3.2_local_baseline_rag,llama3.2,rag,969,the plain moraine plateau,moraine,True,1.802,2026-01-22T20:04:50.413989
+llama3.2_local_baseline_rag,llama3.2,rag,970,former flooded terraces,former flooded terraces,True,1.77,2026-01-22T20:04:50.415762
+llama3.2_local_baseline_rag,llama3.2,rag,971,valleys and ground depressions with water systems coming from the Vistula old – riverbed,valleys,True,1.746,2026-01-22T20:04:50.417511
+llama3.2_local_baseline_rag,llama3.2,rag,972,"the highest terrace of the plain Vistula terraces, mainly forested areas (pine forest)",plain Vistula terraces,True,1.794,2026-01-22T20:04:50.419309
+llama3.2_local_baseline_rag,llama3.2,rag,973,pine forest,pine,True,1.817,2026-01-22T20:04:50.421130
+llama3.2_local_baseline_rag,llama3.2,rag,974,the turbulent history of the city and country,turbulent history of the city,True,1.7830000000000001,2026-01-22T20:04:50.422917
+llama3.2_local_baseline_rag,llama3.2,rag,975,During the Second World War,During the Second World War,True,1.7979999999999998,2026-01-22T20:04:50.424719
+llama3.2_local_baseline_rag,llama3.2,rag,976,After liberation,After liberation,True,1.804,2026-01-22T20:04:50.426526
+llama3.2_local_baseline_rag,llama3.2,rag,977,Leopold Kronenberg Palace,Leopold Kronenberg Palace,True,1.7730000000000001,2026-01-22T20:04:50.428302
+llama3.2_local_baseline_rag,llama3.2,rag,978,basic design typical of Eastern bloc countries,typical of Eastern bloc countries,True,1.8359999999999999,2026-01-22T20:04:50.430142
+llama3.2_local_baseline_rag,llama3.2,rag,979,Gothic architecture,Gothic,True,1.839,2026-01-22T20:04:50.431985
+llama3.2_local_baseline_rag,llama3.2,rag,980,14th century,14th century,True,1.787,2026-01-22T20:04:50.433776
+llama3.2_local_baseline_rag,llama3.2,rag,981,Masovian gothic style,Masovian gothic,True,1.753,2026-01-22T20:04:50.435532
+llama3.2_local_baseline_rag,llama3.2,rag,982,Renaissance architecture,Renaissance,True,1.779,2026-01-22T20:04:50.437314
+llama3.2_local_baseline_rag,llama3.2,rag,983,mannerist architecture,mannerist architecture,True,1.732,2026-01-22T20:04:50.439050
+llama3.2_local_baseline_rag,llama3.2,rag,984,the 17th century,17th century,True,1.7810000000000001,2026-01-22T20:04:50.440834
+llama3.2_local_baseline_rag,llama3.2,rag,985,1688–1692,1688–1692,True,1.823,2026-01-22T20:04:50.442661
+llama3.2_local_baseline_rag,llama3.2,rag,986,rococo architecture,rococo,True,1.7619999999999998,2026-01-22T20:04:50.444426
+llama3.2_local_baseline_rag,llama3.2,rag,987,Neoclassical architecture,neoclassical architecture,True,1.8090000000000002,2026-01-22T20:04:50.446239
+llama3.2_local_baseline_rag,llama3.2,rag,988,1775–1795,1775–1795,True,1.768,2026-01-22T20:04:50.448010
+llama3.2_local_baseline_rag,llama3.2,rag,989,bourgeois,bourgeois,True,1.746,2026-01-22T20:04:50.449759
+llama3.2_local_baseline_rag,llama3.2,rag,990,"They were not restored by the communist authorities after the war, or they were rebuilt in socialist realism style.",not restored by the communist authorities,True,1.7630000000000001,2026-01-22T20:04:50.451525
+llama3.2_local_baseline_rag,llama3.2,rag,991,socialist realism style,socialist realism,True,1.99,2026-01-22T20:04:50.453520
+llama3.2_local_baseline_rag,llama3.2,rag,992,Warsaw University of Technology building,Warsaw University of Technology building,True,1.799,2026-01-22T20:04:50.455323
+llama3.2_local_baseline_rag,llama3.2,rag,993,distinctive buildings,the most distinctive buildings,True,1.8760000000000001,2026-01-22T20:04:50.457202
+llama3.2_local_baseline_rag,llama3.2,rag,994,Many places,many places,True,1.9949999999999999,2026-01-22T20:04:50.459202
+llama3.2_local_baseline_rag,llama3.2,rag,995,Pawiak,Pawiak,True,1.766,2026-01-22T20:04:50.460971
+llama3.2_local_baseline_rag,llama3.2,rag,996,Warsaw Citadel,The Warsaw Citadel,True,1.729,2026-01-22T20:04:50.462703
+llama3.2_local_baseline_rag,llama3.2,rag,997,the children who served as messengers and frontline troops in the Warsaw Uprising,children,True,0.983,2026-01-22T20:04:50.463690
+llama3.2_local_baseline_rag,llama3.2,rag,998,Warsaw Uprising Monument,Warsaw Uprising Monument,True,2.555,2026-01-22T20:04:50.466249
+llama3.2_local_baseline_rag,llama3.2,rag,999,green spaces,green,True,1.874,2026-01-22T20:04:50.468126

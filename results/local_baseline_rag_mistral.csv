@@ -1,0 +1,51 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,timestamp
+mistral_local_baseline_rag,mistral,rag,0,Denver Broncos,Denver Broncos,True,9591.079,2026-01-19T15:24:43.373910
+mistral_local_baseline_rag,mistral,rag,1,Carolina Panthers,Carolina Panthers,True,3470.322,2026-01-19T15:24:46.844261
+mistral_local_baseline_rag,mistral,rag,2,"Super Bowl 50 took place in Santa Clara, California.","Santa Clara, California",True,2940.0170000000003,2026-01-19T15:24:49.784299
+mistral_local_baseline_rag,mistral,rag,3,Denver Broncos,Denver Broncos,True,3247.734,2026-01-19T15:24:53.032097
+mistral_local_baseline_rag,mistral,rag,4,Gold,gold,True,3262.7039999999997,2026-01-19T15:24:56.294878
+mistral_local_baseline_rag,mistral,rag,5,Golden Anniversary,"""golden anniversary""",True,3053.882,2026-01-19T15:24:59.348782
+mistral_local_baseline_rag,mistral,rag,6,"February 7, 2016","February 7, 2016",True,2602.561,2026-01-19T15:25:01.951380
+mistral_local_baseline_rag,mistral,rag,7,The AFC stands for American Football Conference.,American Football Conference,True,3323.159,2026-01-19T15:25:05.274561
+mistral_local_baseline_rag,mistral,rag,8,Golden Anniversary,"""golden anniversary""",True,2.0300000000000002,2026-01-19T15:25:05.276626
+mistral_local_baseline_rag,mistral,rag,9,American Football Conference (AFC),American Football Conference,True,3546.681,2026-01-19T15:25:08.823315
+mistral_local_baseline_rag,mistral,rag,10,"February 7, 2016","February 7, 2016",True,2542.599,2026-01-19T15:25:11.365925
+mistral_local_baseline_rag,mistral,rag,11,Denver Broncos,Denver Broncos,True,3366.6580000000004,2026-01-19T15:25:14.732592
+mistral_local_baseline_rag,mistral,rag,12,Levi's Stadium,Levi's Stadium,True,2636.931,2026-01-19T15:25:17.369535
+mistral_local_baseline_rag,mistral,rag,13,"Super Bowl 50 took place in Santa Clara, California.",Santa Clara,True,3053.674,2026-01-19T15:25:20.423218
+mistral_local_baseline_rag,mistral,rag,14,Super Bowl L,Super Bowl L,True,3759.709,2026-01-19T15:25:24.182947
+mistral_local_baseline_rag,mistral,rag,15,2015,2015,True,3035.047,2026-01-19T15:25:27.218058
+mistral_local_baseline_rag,mistral,rag,16,2016,2015,False,3609.547,2026-01-19T15:25:30.827679
+mistral_local_baseline_rag,mistral,rag,17,"Super Bowl 50 took place in Santa Clara, California.",Santa Clara,True,0.897,2026-01-19T15:25:30.828585
+mistral_local_baseline_rag,mistral,rag,18,Levi's Stadium,Levi's Stadium,True,2663.178,2026-01-19T15:25:33.491769
+mistral_local_baseline_rag,mistral,rag,19,"Denver Broncos 24, Carolina Panthers 10",24–10,False,3463.589,2026-01-19T15:25:36.955416
+mistral_local_baseline_rag,mistral,rag,20,"February 7, 2016","February 7, 2016",True,3103.8,2026-01-19T15:25:40.059283
+mistral_local_baseline_rag,mistral,rag,21,2016,2015,False,3073.4469999999997,2026-01-19T15:25:43.132738
+mistral_local_baseline_rag,mistral,rag,22,Denver Broncos,Denver Broncos,True,2285.43,2026-01-19T15:25:45.418200
+mistral_local_baseline_rag,mistral,rag,23,Carolina Panthers,Carolina Panthers,True,2253.98,2026-01-19T15:25:47.672249
+mistral_local_baseline_rag,mistral,rag,24,Denver Broncos,Denver Broncos,True,0.325,2026-01-19T15:25:47.672582
+mistral_local_baseline_rag,mistral,rag,25,2015,2015,True,3035.363,2026-01-19T15:25:50.707963
+mistral_local_baseline_rag,mistral,rag,26,Denver Broncos,Denver Broncos,True,2943.286,2026-01-19T15:25:53.651276
+mistral_local_baseline_rag,mistral,rag,27,"Super Bowl 50 was held at Levi's Stadium in Santa Clara, California.","Santa Clara, California.",True,3330.025,2026-01-19T15:25:56.981313
+mistral_local_baseline_rag,mistral,rag,28,Super Bowl,Super Bowl,True,4808.539,2026-01-19T15:26:01.789874
+mistral_local_baseline_rag,mistral,rag,29,Denver Broncos,Denver Broncos,True,4069.52,2026-01-19T15:26:05.859407
+mistral_local_baseline_rag,mistral,rag,30,Cam Newton,Cam Newton,True,2836.366,2026-01-19T15:26:08.695784
+mistral_local_baseline_rag,mistral,rag,31,8,8,True,2983.729,2026-01-19T15:26:11.679526
+mistral_local_baseline_rag,mistral,rag,32,1995,1995,True,4720.6089999999995,2026-01-19T15:26:16.400156
+mistral_local_baseline_rag,mistral,rag,33,The Panthers defeated the Arizona Cardinals.,Arizona Cardinals,True,3272.6820000000002,2026-01-19T15:26:19.672848
+mistral_local_baseline_rag,mistral,rag,34,The New England Patriots,New England Patriots,True,2483.5319999999997,2026-01-19T15:26:22.156411
+mistral_local_baseline_rag,mistral,rag,35,Arizona Cardinals,Arizona Cardinals,True,2374.163,2026-01-19T15:26:24.530613
+mistral_local_baseline_rag,mistral,rag,36,The New England Patriots,New England Patriots,True,3032.816,2026-01-19T15:26:27.563450
+mistral_local_baseline_rag,mistral,rag,37,The defending Super Bowl champions are not mentioned in the provided context.,New England Patriots,False,4414.702,2026-01-19T15:26:31.978187
+mistral_local_baseline_rag,mistral,rag,38,There are 3 teams that have been in the Super Bowl eight times.,four,False,6138.93,2026-01-19T15:26:38.117152
+mistral_local_baseline_rag,mistral,rag,39,Cam Newton,Cam Newton,True,2128.8089999999997,2026-01-19T15:26:40.245987
+mistral_local_baseline_rag,mistral,rag,40,"The win/loss ratio for the Carolina Panthers during their regular season in 2015 was 15-1, which simplifies to 0.9375 or approximately 93.75%.",15–1,False,5760.242,2026-01-19T15:26:46.006244
+mistral_local_baseline_rag,mistral,rag,41,Cam Newton,Cam Newton,True,3453.3269999999998,2026-01-19T15:26:49.459617
+mistral_local_baseline_rag,mistral,rag,42,The win/loss game stats for the Denver Broncos' regular season in 2015 were 12 wins and 4 losses.,12–4,False,5056.675,2026-01-19T15:26:54.516336
+mistral_local_baseline_rag,mistral,rag,43,"Three teams have played in the Super Bowl eight times: the Broncos, Patriots, and Steelers.",4,False,5186.899,2026-01-19T15:26:59.703273
+mistral_local_baseline_rag,mistral,rag,44,The New England Patriots did not get a chance to defend their Super Bowl XLIX win in Super Bowl 50.,New England Patriots,True,5992.508,2026-01-19T15:27:05.695819
+mistral_local_baseline_rag,mistral,rag,45,Cam Newton,Cam Newton,True,3860.642,2026-01-19T15:27:09.556495
+mistral_local_baseline_rag,mistral,rag,46,Carolina beat the Arizona Cardinals in the NFC championship game.,Arizona Cardinals,True,3140.602,2026-01-19T15:27:12.697138
+mistral_local_baseline_rag,mistral,rag,47,2 times,2,True,2947.8089999999997,2026-01-19T15:27:15.645007
+mistral_local_baseline_rag,mistral,rag,48,The Broncos beat the New England Patriots in the AFC championship.,New England Patriots,True,2992.509,2026-01-19T15:27:18.637630
+mistral_local_baseline_rag,mistral,rag,49,Cam Newton,Cam Newton,True,2639.906,2026-01-19T15:27:21.277609

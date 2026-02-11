@@ -1,0 +1,76 @@
+{
+  "self": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "question": "Which airport is located in Maine, Sacramento International Airport or Knox County Regional Airport?",
+        "reasoning": "Sacramento International Airport is located in California, not Maine. Knox County Regional Airport is located in Maine.",
+        "answer": "Knox County Regional Airport"
+      },
+      {
+        "augmented": true,
+        "question": "Were both Gabriela Mistral and G. K. Chesterton authors?",
+        "reasoning": "Both Gabriela Mistral and G. K. Chesterton are known authors, as they have both published multiple works of literature.",
+        "answer": "Yes"
+      },
+      {
+        "augmented": true,
+        "question": "What city, other than San Jose del Cabo, is at the the southern tip of Baja California Peninsula and is also encompassed in the Los Cabos Municipality?",
+        "reasoning": "The city at the southern tip of Baja California Peninsula is Cabo San Lucas. It is part of Los Cabos Municipality, which also includes San Jose del Cabo.",
+        "answer": "Cabo San Lucas"
+      },
+      {
+        "question": "Sir Thomas Kyriell was executed after which battle from the Wars of the Roses?",
+        "answer": "Second Battle of St Albans"
+      },
+      {
+        "question": "What event occured at the Red Bull Arena in Salzburg, Austria and Switzerland in 2008?",
+        "answer": "UEFA Euro 2008"
+      }
+    ],
+    "signature": {
+      "instructions": "Answer the question based on common knowledge or context.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Short answer to the question"
+        }
+      ]
+    },
+    "extended_signature": {
+      "instructions": "Engage as a knowledgeable trivia guide who is able to answer questions based on extensive general knowledge. Given a question, provide a brief reasoning explaining how you arrived at your answer, followed by an accurate response.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Short answer to the question"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11.6",
+      "dspy": "2.6.27",
+      "cloudpickle": "3.1.2"
+    }
+  }
+}

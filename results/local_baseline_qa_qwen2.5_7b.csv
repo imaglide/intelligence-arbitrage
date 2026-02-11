@@ -1,0 +1,51 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,timestamp
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,0,"Yes, Scott Derrickson and Ed Wood were of the same nationality, both being American.",yes,False,5017.813,2026-01-18T17:25:55.870840
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,1,"Cybill Shepherd, who played Corliss Archer in ""Kiss and Tell,"" held the government position of United States Ambassador to France.",Chief of Protocol,False,5903.494000000001,2026-01-18T17:26:01.774348
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,2,"The science fantasy young adult series with a first-person narrative and companion books narrating stories of enslaved worlds and alien species is likely part of the ""Star Wars: Young Adult"" collection, particularly the ""Tales of the Jedi"" and ""Dark Nest Trilogy.""",Animorphs,False,8336.726999999999,2026-01-18T17:26:10.111101
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,3,No,no,True,4325.138,2026-01-18T17:26:14.436280
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,4,New York City,"Greenwich Village, New York City",False,2601.803,2026-01-18T17:26:17.038098
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,5,S.M. Entertainment,YG Entertainment,False,3289.364,2026-01-18T17:26:20.327474
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,6,Alan Page,Eenasul Fateh,False,3758.582,2026-01-18T17:26:24.086068
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,7,"The Androscoggin Bank Colisée can seat approximately 5,034 people.","3,677 seated",False,3694.928,2026-01-18T17:26:27.781015
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,8,Annie Morton,Terry Richardson,False,3311.2940000000003,2026-01-18T17:26:31.092332
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,9,No,yes,False,2948.9770000000003,2026-01-18T17:26:34.041422
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,10,KU Victory Song,Kansas Song,False,2736.409,2026-01-18T17:26:36.777839
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,11,Gary Fleder,David Weissman,False,4590.647,2026-01-18T17:26:41.368508
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,12,1994,1999,False,3846.0420000000004,2026-01-18T17:26:45.214616
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,13,Yes,no,False,4064.0850000000005,2026-01-18T17:26:49.278721
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,14,Sir Alex Ferguson,from 1986 to 2013,False,2924.6859999999997,2026-01-18T17:26:52.203416
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,15,Insufficient information to provide an accurate answer.,"9,984",False,3765.973,2026-01-18T17:26:55.969406
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,16,Colonial Athletic Association (CAA),the North Atlantic Conference,False,4030.627,2026-01-18T17:27:00.000041
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,17,Yes,yes,True,4754.284000000001,2026-01-18T17:27:04.754356
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,18,1963-1969,1969 until 1974,False,4556.316,2026-01-18T17:27:09.310766
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,19,Robert Erskine Childers,Robert Erskine Childers DSC,False,5995.196,2026-01-18T17:27:15.305982
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,20,Sergio Pérez,Pedro Rodríguez,False,4307.802,2026-01-18T17:27:19.613802
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,21,Humphrey the Hedgehog,Sonic,False,3506.529,2026-01-18T17:27:23.120347
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,22,The Apple TV is another device that can use the Apple Remote for control.,keyboard function keys,False,4140.761,2026-01-18T17:27:27.261131
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,23,"Wolf Alice has a higher instrument to person ratio because they require a full band setup (typically 4 or more people) compared to Badly Drawn Boy, who often performs solo with multiple instruments.",Badly Drawn Boy,False,8011.575000000001,2026-01-18T17:27:35.272778
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,24,"The father of Kasper Schmeichel, Peter Schmeichel, was voted the European Footballer of the Year in 1992 by the IFFHS.",World's Best Goalkeeper,False,5698.534000000001,2026-01-18T17:27:40.971327
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,25,Lee Hazlewood,Barton Lee Hazlewood,False,4517.976,2026-01-18T17:27:45.489339
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,26,Virginia Commonwealth University was founded in 1838.,1838,False,4062.792,2026-01-18T17:27:49.552154
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,27,Yes,yes,True,4473.849999999999,2026-01-18T17:27:54.026059
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,28,Yes,Henry J. Kaiser,False,3003.092,2026-01-18T17:27:57.029207
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,29,"The name for the adventure in ""Tunnels and Trolls"" is a module.",Arena of Khazan,False,4182.976,2026-01-18T17:28:01.212199
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,30,"The album ""Shut Up, Make Love"" by Poison was released in 1987.",2000,False,4518.866,2026-01-18T17:28:05.731098
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,31,Buck-Tick hails from Japan.,"Fujioka, Gunma",False,2894.184,2026-01-18T17:28:08.625290
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,32,Charles Nungesser and François Coli,Charles Eugène,False,5152.084000000001,2026-01-18T17:28:13.777381
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,33,"Yes, both Freakonomics and In the Realm of the Hackers are American documentaries.",no,False,5020.351,2026-01-18T17:28:18.797775
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,34,Letters to Cleo had more members than Screaming Trees.,Letters to Cleo,False,4868.063,2026-01-18T17:28:23.665859
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,35,The Russian Civil War ended in 1922.,October 1922,False,4632.569,2026-01-18T17:28:28.298499
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,36,1987,2000,False,3874.9410000000003,2026-01-18T17:28:32.173450
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,37,World War I,World War II,False,3859.262,2026-01-18T17:28:36.032727
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,38,No,no,True,2269.7090000000003,2026-01-18T17:28:38.302448
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,39,Urbana,New York City,False,3323.048,2026-01-18T17:28:41.625508
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,40,Neither the Manchester Terrier nor the Scotch Collie's ancestors include Gordon or Irish Setters.,Scotch Collie,False,8211.936,2026-01-18T17:28:49.837460
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,41,"The company that Sachin Warrier worked for as a software engineer, Zoho Corporation, is headquartered in Sulthan Bathery, Kerala, India.",Mumbai,False,3896.1820000000002,2026-01-18T17:28:53.733684
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,42,1987,1962,False,3966.384,2026-01-18T17:28:57.700084
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,43,The battle in which Giuseppe Arimondi lost his life secured the annexation of Ethiopia by Italy.,sovereignty,False,5159.461,2026-01-18T17:29:02.859556
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,44,Alfred Balk served under United States Vice President Al Gore.,Nelson Rockefeller,False,4073.2039999999997,2026-01-18T17:29:06.932775
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,45,Firth of Forth,Yellowcraig,False,5345.492,2026-01-18T17:29:12.278278
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,46,The writer of the song inspired by words on a tombstone and the first track on the box set Back to Mono is Johnny Cash.,Phil Spector,False,5716.425,2026-01-18T17:29:17.994734
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,47,The type of forum that a former Soviet statesman initiated was the Commonwealth of Independent States (CIS).,Organizations could come together to address global issues,False,4661.338,2026-01-18T17:29:22.656081
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,48,Yes,yes,True,3320.861,2026-01-18T17:29:25.976954
+qwen2.5:7b_local_baseline_qa,qwen2.5:7b,qa,49,There was no British first-generation jet-powered medium bomber used in the South West Pacific theatre of World War II.,English Electric Canberra,False,8593.12,2026-01-18T17:29:34.570102

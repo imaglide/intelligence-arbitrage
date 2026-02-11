@@ -1,0 +1,74 @@
+{
+  "self": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "text": "I can't seem to make a standard bank transfer. I have tried at least five times already but none of them are going through. Please tell me what is wrong?",
+        "reasoning": "The user is attempting to make a standard bank transfer multiple times and it is not going through, indicating the transfer is failing rather than being declined for a specific reason or merely pending.",
+        "label": "failed_transfer"
+      },
+      {
+        "augmented": true,
+        "text": "My disposable virtual card got rejected",
+        "reasoning": "The user reports a disposable virtual card being rejected, which indicates the disposable\/virtual card is not functioning for a payment attempt.",
+        "label": "virtual_card_not_working"
+      },
+      {
+        "text": "What can you use the disposable cards for?",
+        "label": "get_disposable_virtual_card"
+      },
+      {
+        "text": "am afraid someone may have gained access to the info on my card.",
+        "label": "compromised_card"
+      },
+      {
+        "text": "I'm in China and really need a new card.",
+        "label": "card_about_to_expire"
+      }
+    ],
+    "signature": {
+      "instructions": "Classify the user query into one of the 77 banking intent categories.\nValid labels:\nactual_feature_request, beneficiary_not_allowed, cancel_transfer, card_about_to_expire, card_acceptance, card_arrival, card_delivery_estimate, card_linking, card_not_working, card_payment_fee_charged, card_payment_not_recognised, card_payment_wrong_exchange_rate, card_swallowed, cash_withdrawal_charge, cash_withdrawal_not_recognised, change_pin, compromised_card, contactless_not_working, country_support, declined_card_payment, declined_cash_withdrawal, declined_transfer, direct_debit_payment_not_recognised, disposable_card_limits, edit_personal_details, exchange_charge, exchange_rate, exchange_via_app, extra_charge_on_statement, failed_transfer, fiat_currency_support, get_disposable_virtual_card, get_physical_card, getting_spare_card, getting_virtual_card, lost_or_stolen_card, lost_or_stolen_phone, order_physical_card, passcode_forgotten, pending_card_payment, pending_cash_withdrawal, pending_top_up, pending_transfer, pin_blocked, receiving_money, refund_not_showing_up, request_refund, reverted_card_payment?, supported_cards_and_currencies, terminate_account, top_up_by_bank_transfer_charge, top_up_by_card_charge, top_up_by_cash_or_cheque, top_up_failed, top_up_limits, top_up_reverted, top_up_server_error, transaction_charged_twice, transfer_fee_charged, transfer_into_account, transfer_not_received_by_recipient, transfer_timing, unable_to_verify_identity, verify_my_identity, verify_source_of_funds, verify_top_up, virtual_card_not_working, visa_or_mastercard, why_verify_identity, wrong_amount_of_cash_received, wrong_exchange_rate_for_cash_withdrawal",
+      "fields": [
+        {
+          "prefix": "Text:",
+          "description": "User query about banking"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Label:",
+          "description": "The specific intent category label from the valid list"
+        }
+      ]
+    },
+    "extended_signature": {
+      "instructions": "You are an intent classifier for a financial app\u2019s customer-support messages. Read the user message and assign **exactly one** intent label from the valid list.\n\nGuidelines:\n- Choose the **single best-matching** label based on the user\u2019s primary issue\/request (not what you would reply with).\n- Be robust to typos, slang, missing context, and ungrammatical phrasing; infer the most likely intent from clues.\n- If multiple issues appear, pick the one that is **most urgent or central** to the request.\n- Distinguish closely related cases:\n  - **Not recognised \/ unauthorized**: use `*_not_recognised` when the user disputes a specific card payment\/cash withdrawal\/direct debit.\n  - **Compromised vs lost**: use `compromised_card` for suspected leaked details\/unauthorized access; use `lost_or_stolen_card` only when the physical card is missing.\n  - **Declined vs failed**: use `declined_*` when the user reports a decline message; use `failed_transfer`\/`top_up_failed` when it attempts but doesn\u2019t complete (not explicitly \u201cdeclined\u201d).\n  - **Pending**: use `pending_*` when the user says pending\/reversed-in-progress\/waiting to complete.\n  - **Fees\/extra charges**: use `*_fee_charged` for explicit fees; use `extra_charge_on_statement` for unexpected extra charges; use `transaction_charged_twice` for duplicate charges.\n  - **Refunds**: use `request_refund` when asking to initiate; use `refund_not_showing_up` when already processed\/expected but not received.\n- Output format:\n  - `Reasoning:` brief justification referencing key words\/phrases.\n  - `Label:` exactly one label, copied verbatim from the valid labels (no new labels, no extra text).\n\nValid labels:\nactual_feature_request, beneficiary_not_allowed, cancel_transfer, card_about_to_expire, card_acceptance, card_arrival, card_delivery_estimate, card_linking, card_not_working, card_payment_fee_charged, card_payment_not_recognised, card_payment_wrong_exchange_rate, card_swallowed, cash_withdrawal_charge, cash_withdrawal_not_recognised, change_pin, compromised_card, contactless_not_working, country_support, declined_card_payment, declined_cash_withdrawal, declined_transfer, direct_debit_payment_not_recognised, disposable_card_limits, edit_personal_details, exchange_charge, exchange_rate, exchange_via_app, extra_charge_on_statement, failed_transfer, fiat_currency_support, get_disposable_virtual_card, get_physical_card, getting_spare_card, getting_virtual_card, lost_or_stolen_card, lost_or_stolen_phone, order_physical_card, passcode_forgotten, pending_card_payment, pending_cash_withdrawal, pending_top_up, pending_transfer, pin_blocked, receiving_money, refund_not_showing_up, request_refund, reverted_card_payment?, supported_cards_and_currencies, terminate_account, top_up_by_bank_transfer_charge, top_up_by_card_charge, top_up_by_cash_or_cheque, top_up_failed, top_up_limits, top_up_reverted, top_up_server_error, transaction_charged_twice, transfer_fee_charged, transfer_into_account, transfer_not_received_by_recipient, transfer_timing, unable_to_verify_identity, verify_my_identity, verify_source_of_funds, verify_top_up, virtual_card_not_working, visa_or_mastercard, why_verify_identity, wrong_amount_of_cash_received, wrong_exchange_rate_for_cash_withdrawal",
+      "fields": [
+        {
+          "prefix": "Text:",
+          "description": "User query about banking"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Label:",
+          "description": "The specific intent category label from the valid list"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11.6",
+      "dspy": "2.6.27",
+      "cloudpickle": "3.1.2"
+    }
+  }
+}

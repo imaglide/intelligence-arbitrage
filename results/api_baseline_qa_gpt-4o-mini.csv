@@ -1,0 +1,51 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,input_tokens,output_tokens,api_cost_usd,timestamp
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,0,"Yes, they were both American.",yes,False,3.92,179,71,6.945e-05,2026-01-19T15:21:06.610225
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,1,Janet Gaynor held a position on the California Arts Council.,Chief of Protocol,False,2.091,188,88,8.099999999999999e-05,2026-01-19T15:21:06.612329
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,2,The Illuminae Files,Animorphs,False,1.0150000000000001,197,105,9.255e-05,2026-01-19T15:21:06.613353
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,3,"No, they are not located in the same neighborhood.",no,False,0.945,183,75,7.245e-05,2026-01-19T15:21:06.614306
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,4,New York City,"Greenwich Village, New York City",False,0.92,186,73,7.17e-05,2026-01-19T15:21:06.615235
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,5,JYP Entertainment,YG Entertainment,False,0.969,187,65,6.704999999999999e-05,2026-01-19T15:21:06.616212
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,6,Aladin,Eenasul Fateh,False,0.906,186,71,7.049999999999999e-05,2026-01-19T15:21:06.617125
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,7,"3,500","3,677 seated",False,0.912,186,92,8.31e-05,2026-01-19T15:21:06.618052
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,8,Terry Richardson is older.,Terry Richardson,False,1.075,177,74,7.094999999999999e-05,2026-01-19T15:21:06.619136
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,9,"Yes, both Local H and For Against are from the United States.",yes,False,0.794,179,92,8.205e-05,2026-01-19T15:21:06.619939
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,10,"Rock Chalk, Jayhawk",Kansas Song,False,0.754,198,80,7.769999999999999e-05,2026-01-19T15:21:06.620699
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,11,Don Jakoby,David Weissman,False,0.832,190,72,7.170000000000001e-05,2026-01-19T15:21:06.621540
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,12,1991,1999,False,0.9269999999999999,191,92,8.385e-05,2026-01-19T15:21:06.622475
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,13,"Yes, both Random House Tower and 888 7th Avenue are used for real estate.",no,False,1.1199999999999999,184,139,0.00011099999999999999,2026-01-19T15:21:06.623603
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,14,1986 to 2003,from 1986 to 2013,False,0.903,181,94,8.355e-05,2026-01-19T15:21:06.624514
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,15,Approximately 331 million inhabitants (for the United States).,"9,984",False,0.8180000000000001,184,113,9.539999999999999e-05,2026-01-19T15:21:06.625339
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,16,North Atlantic Conference (NAC),the North Atlantic Conference,False,0.5599999999999999,196,71,7.199999999999999e-05,2026-01-19T15:21:06.625907
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,17,"Yes, both are opera composers.",yes,False,0.973,180,108,9.18e-05,2026-01-19T15:21:06.626886
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,18,1969 to 1974,1969 until 1974,False,0.857,193,79,7.634999999999999e-05,2026-01-19T15:21:06.627749
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,19,Robert Erskine Childers,Robert Erskine Childers DSC,False,0.988,183,102,8.865e-05,2026-01-19T15:21:06.628743
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,20,Pedro Rodríguez,Pedro Rodríguez,True,1.081,190,98,8.73e-05,2026-01-19T15:21:06.629830
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,21,Sonic the Hedgehog,Sonic,False,0.876,183,74,7.185e-05,2026-01-19T15:21:06.630714
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,22,iPhone or iPad,keyboard function keys,False,1.02,189,101,8.895e-05,2026-01-19T15:21:06.631743
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,23,Badly Drawn Boy,Badly Drawn Boy,True,0.9520000000000001,188,135,0.0001092,2026-01-19T15:21:06.632702
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,24,Peter Schmeichel was voted the World's Best Goalkeeper by the IFFHS in 1992.,World's Best Goalkeeper,False,1.163,190,115,9.75e-05,2026-01-19T15:21:06.633873
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,25,Lee Hazlewood,Barton Lee Hazlewood,False,1.0610000000000002,188,71,7.08e-05,2026-01-19T15:21:06.634940
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,26,1968,1838,False,0.842,201,52,6.135e-05,2026-01-19T15:21:06.635790
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,27,"Yes, both Dictyosperma and Huernia are described as genera.",yes,False,1.239,184,127,0.0001038,2026-01-19T15:21:06.637036
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,28,Henry J. Kaiser,Henry J. Kaiser,True,1.028,190,96,8.61e-05,2026-01-19T15:21:06.638073
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,29,The Warlock of Firetop Mountain,Arena of Khazan,False,0.937,191,77,7.485e-05,2026-01-19T15:21:06.639018
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,30,1988,2000,False,0.944,182,83,7.71e-05,2026-01-19T15:21:06.639971
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,31,Buck-Tick hails from Japan.,"Fujioka, Gunma",False,0.746,185,64,6.615e-05,2026-01-19T15:21:06.640723
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,32,Charles Nungesser and François Coli,Charles Eugène,False,0.841,181,94,8.355e-05,2026-01-19T15:21:06.641572
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,33,"No, only Freakonomics is an American documentary.",no,False,0.721,183,138,0.00011025,2026-01-19T15:21:06.642299
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,34,Screaming Trees had more members overall due to additional members in their early years.,Letters to Cleo,False,0.726,183,136,0.00010905,2026-01-19T15:21:06.643031
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,35,1922,October 1922,False,0.719,190,110,9.45e-05,2026-01-19T15:21:06.643758
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,36,1990,2000,False,0.714,188,72,7.14e-05,2026-01-19T15:21:06.644478
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,37,World War II,World War II,True,0.9990000000000001,189,66,6.795e-05,2026-01-19T15:21:06.645484
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,38,"No, only Gerald R. Ford International Airport is located in Michigan.",no,False,0.983,184,77,7.38e-05,2026-01-19T15:21:06.646475
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,39,New York City,New York City,True,1.132,186,72,7.11e-05,2026-01-19T15:21:06.647615
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,40,Scotch Collie,Scotch Collie,True,1.107,186,115,9.69e-05,2026-01-19T15:21:06.648730
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,41,"CureMetrix is headquartered in San Diego, California.",Mumbai,False,0.9970000000000001,185,71,7.035e-05,2026-01-19T15:21:06.649735
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,42,1970,1962,False,0.9890000000000001,197,59,6.494999999999999e-05,2026-01-19T15:21:06.650732
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,43,The battle secured Ethiopia's sovereignty and independence from colonial rule.,sovereignty,False,0.772,183,117,9.765e-05,2026-01-19T15:21:06.651512
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,44,Lyndon B. Johnson,Nelson Rockefeller,False,0.8809999999999999,194,76,7.47e-05,2026-01-19T15:21:06.652401
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,45,Firth of Forth,Yellowcraig,False,1.186,190,89,8.19e-05,2026-01-19T15:21:06.653597
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,46,Phil Spector,Phil Spector,True,0.955,196,98,8.819999999999999e-05,2026-01-19T15:21:06.654559
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,47,"Mikhail Gorbachev initiated the ""Green Cross International"" forum.",Organizations could come together to address global issues,False,0.9740000000000001,179,104,8.925e-05,2026-01-19T15:21:06.655541
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,48,"Yes, Ferocactus and Silene are both types of plants.",yes,False,1.06,179,112,9.405e-05,2026-01-19T15:21:06.656612
+gpt-4o-mini_baseline_qa,gpt-4o-mini,qa,49,"The de Havilland Mosquito (not jet-powered) and the de Havilland Vampire (jet-powered, limited use).",English Electric Canberra,False,1.39,188,142,0.00011339999999999999,2026-01-19T15:21:06.658010

@@ -1,0 +1,72 @@
+{
+  "self": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "question": "Would a packed Wembley stadium be likely to have a descendant of the Mongols inside?",
+        "reasoning": "Wembley Stadium has a seating capacity of approximately 90,000 people. The Mongol Empire, at its height, was the largest contiguous empire in history and covered a vast area of Asia and Europe. Many people today can trace their ancestry back to the Mongols due to the extensive reach and influence of the empire. Given the large number of people in a packed Wembley Stadium and the widespread genetic legacy of the Mongols, it is statistically likely that at least one person in the stadium would have Mongol ancestry.",
+        "answer": "Yes"
+      },
+      {
+        "question": "Could one Amazon share ever buy twenty year Netflix subscription?",
+        "answer": "Yes"
+      },
+      {
+        "question": "Is Menthol associated with Thanksgiving?",
+        "answer": "No"
+      },
+      {
+        "question": "Can a strawberry get worms similar to dogs?",
+        "answer": "Yes"
+      },
+      {
+        "question": "Can Hulk's alter ego explain atomic events?",
+        "answer": "Yes"
+      }
+    ],
+    "signature": {
+      "instructions": "Answer the question that requires multi-step reasoning. Give the Answer as Yes or No.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Reasoning:",
+          "description": "Step-by-step reasoning"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Yes or No"
+        }
+      ]
+    },
+    "extended_signature": {
+      "instructions": "You are a logical reasoning expert tasked with answering questions that require multi-step analysis. For each question presented, provide a detailed step-by-step reasoning to arrive at your conclusion. Your final answer should be clearly stated as either \"Yes\" or \"No.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Reasoning:",
+          "description": "Step-by-step reasoning"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Yes or No"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11.6",
+      "dspy": "2.6.27",
+      "cloudpickle": "3.1.2"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+dspy-ai
+pandas
+python-dotenv
+matplotlib
+seaborn
+rich
+datasets
+evaluate
+scikit-learn

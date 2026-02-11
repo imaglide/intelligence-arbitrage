@@ -1,0 +1,53 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,timestamp
+llama3.2_local_baseline_math,llama3.2,math,0,$18,18,False,3.242,2026-01-18T14:29:10.039315
+llama3.2_local_baseline_math,llama3.2,math,1,3,3,True,0.816,2026-01-18T14:29:10.040139
+llama3.2_local_baseline_math,llama3.2,math,2,"-$10,000",70000,False,4.306,2026-01-18T14:29:10.044451
+llama3.2_local_baseline_math,llama3.2,math,3,540 meters,540,False,4.557,2026-01-18T14:29:10.049013
+llama3.2_local_baseline_math,llama3.2,math,4,80,20,False,2.2300000000000004,2026-01-18T14:29:10.051248
+llama3.2_local_baseline_math,llama3.2,math,5,$64,64,False,1.534,2026-01-18T14:29:10.052787
+llama3.2_local_baseline_math,llama3.2,math,6,260,260,True,1.534,2026-01-18T14:29:10.054326
+llama3.2_local_baseline_math,llama3.2,math,7,140,160,False,1.596,2026-01-18T14:29:10.055935
+llama3.2_local_baseline_math,llama3.2,math,8,95,45,False,1.578,2026-01-18T14:29:10.057517
+llama3.2_local_baseline_math,llama3.2,math,9,$460,460,False,1.406,2026-01-18T14:29:10.058926
+llama3.2_local_baseline_math,llama3.2,math,10,366,366,True,1.501,2026-01-18T14:29:10.060430
+llama3.2_local_baseline_math,llama3.2,math,11,$694,694,False,1.484,2026-01-18T14:29:10.061920
+llama3.2_local_baseline_math,llama3.2,math,12,1,13,False,1.453,2026-01-18T14:29:10.063376
+llama3.2_local_baseline_math,llama3.2,math,13,18,18,True,1.26,2026-01-18T14:29:10.064639
+llama3.2_local_baseline_math,llama3.2,math,14,60,60,True,1.456,2026-01-18T14:29:10.066099
+llama3.2_local_baseline_math,llama3.2,math,15,$96,125,False,1.389,2026-01-18T14:29:10.067491
+llama3.2_local_baseline_math,llama3.2,math,16,"The distance covered by each train in the two days is:
+- Westward: 80 miles
+- Northward: 75 miles",230,False,1.436,2026-01-18T14:29:10.068930
+llama3.2_local_baseline_math,llama3.2,math,17,"$57,500",57500,False,1.66,2026-01-18T14:29:10.070594
+llama3.2_local_baseline_math,llama3.2,math,18,7,7,True,1.414,2026-01-18T14:29:10.072013
+llama3.2_local_baseline_math,llama3.2,math,19,8,6,False,1.554,2026-01-18T14:29:10.073570
+llama3.2_local_baseline_math,llama3.2,math,20,44/3 ≈ 14.67 liters,15,False,1.446,2026-01-18T14:29:10.075020
+llama3.2_local_baseline_math,llama3.2,math,21,2,14,False,1.265,2026-01-18T14:29:10.076288
+llama3.2_local_baseline_math,llama3.2,math,22,7,7,True,1.511,2026-01-18T14:29:10.077803
+llama3.2_local_baseline_math,llama3.2,math,23,8 cm,8,False,1.397,2026-01-18T14:29:10.079204
+llama3.2_local_baseline_math,llama3.2,math,24,$26,26,False,1.504,2026-01-18T14:29:10.080712
+llama3.2_local_baseline_math,llama3.2,math,25,2,2,True,1.483,2026-01-18T14:29:10.082199
+llama3.2_local_baseline_math,llama3.2,math,26,$243,243,False,1.375,2026-01-18T14:29:10.083577
+llama3.2_local_baseline_math,llama3.2,math,27,$16.00,16,False,1.411,2026-01-18T14:29:10.084991
+llama3.2_local_baseline_math,llama3.2,math,28,25 miles,25,False,1.405,2026-01-18T14:29:10.086399
+llama3.2_local_baseline_math,llama3.2,math,29,The boots cost $104.,104,False,1.444,2026-01-18T14:29:10.087846
+llama3.2_local_baseline_math,llama3.2,math,30,109,109,True,1.362,2026-01-18T14:29:10.089211
+llama3.2_local_baseline_math,llama3.2,math,31,80,80,True,1.225,2026-01-18T14:29:10.090440
+llama3.2_local_baseline_math,llama3.2,math,32,35,35,True,1.376,2026-01-18T14:29:10.091819
+llama3.2_local_baseline_math,llama3.2,math,33,70,70,True,1.393,2026-01-18T14:29:10.093216
+llama3.2_local_baseline_math,llama3.2,math,34,23,23,True,1.482,2026-01-18T14:29:10.094701
+llama3.2_local_baseline_math,llama3.2,math,35,9,9,True,1.36,2026-01-18T14:29:10.096064
+llama3.2_local_baseline_math,llama3.2,math,36,$75.00,75,False,1.359,2026-01-18T14:29:10.097427
+llama3.2_local_baseline_math,llama3.2,math,37,0,2,False,4.420999999999999,2026-01-18T14:29:10.101853
+llama3.2_local_baseline_math,llama3.2,math,38,8,10,False,1.495,2026-01-18T14:29:10.103352
+llama3.2_local_baseline_math,llama3.2,math,39,24,18,False,1.426,2026-01-18T14:29:10.104781
+llama3.2_local_baseline_math,llama3.2,math,40,8,8,True,1.498,2026-01-18T14:29:10.106283
+llama3.2_local_baseline_math,llama3.2,math,41,200 feet,200,False,1.4,2026-01-18T14:29:10.107686
+llama3.2_local_baseline_math,llama3.2,math,42,26,26,True,1.575,2026-01-18T14:29:10.109265
+llama3.2_local_baseline_math,llama3.2,math,43,240,48,False,1.269,2026-01-18T14:29:10.110537
+llama3.2_local_baseline_math,llama3.2,math,44,$200.00,20,False,1.39,2026-01-18T14:29:10.111931
+llama3.2_local_baseline_math,llama3.2,math,45,104,104,True,1.375,2026-01-18T14:29:10.113309
+llama3.2_local_baseline_math,llama3.2,math,46,163,163,True,1.386,2026-01-18T14:29:10.114698
+llama3.2_local_baseline_math,llama3.2,math,47,$800,800,False,1.515,2026-01-18T14:29:10.116217
+llama3.2_local_baseline_math,llama3.2,math,48,8,8,True,0.47,2026-01-18T14:29:10.116690
+llama3.2_local_baseline_math,llama3.2,math,49,30,30,True,2.038,2026-01-18T14:29:10.118731

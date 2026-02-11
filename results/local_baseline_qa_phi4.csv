@@ -1,0 +1,51 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,timestamp
+phi4_local_baseline_qa,phi4,qa,0,"Yes, Scott Derrickson and Ed Wood were both American.",yes,False,15867.535,2026-01-18T16:37:34.729909
+phi4_local_baseline_qa,phi4,qa,1,U.S. Ambassador to Belgium,Chief of Protocol,False,13154.47,2026-01-18T16:37:47.884443
+phi4_local_baseline_qa,phi4,qa,2,"""The Illuminae Files"" by Amie Kaufman and Jay Kristoff",Animorphs,False,18416.217,2026-01-18T16:38:06.301873
+phi4_local_baseline_qa,phi4,qa,3,"Yes, the Laleli Mosque and Esma Sultan Mansion are located in the same neighborhood in the Fatih district of Istanbul.",no,False,12056.995,2026-01-18T16:38:18.359022
+phi4_local_baseline_qa,phi4,qa,4,Manhattan,"Greenwich Village, New York City",False,6959.421,2026-01-18T16:38:25.318601
+phi4_local_baseline_qa,phi4,qa,5,SM Entertainment,YG Entertainment,False,10484.451,2026-01-18T16:38:35.803279
+phi4_local_baseline_qa,phi4,qa,6,Alvin Toffler,Eenasul Fateh,False,11688.873,2026-01-18T16:38:47.492525
+phi4_local_baseline_qa,phi4,qa,7,"The Androscoggin Bank Colisée can seat approximately 6,500 people.","3,677 seated",False,11610.725999999999,2026-01-18T16:38:59.103466
+phi4_local_baseline_qa,phi4,qa,8,Annie Morton,Terry Richardson,False,6248.876,2026-01-18T16:39:05.352576
+phi4_local_baseline_qa,phi4,qa,9,"Yes, both Local H and For Against are from the United States.",yes,False,11176.342,2026-01-18T16:39:16.528977
+phi4_local_baseline_qa,phi4,qa,10,"""Rock Chalk, Jayhawk""",Kansas Song,False,8880.943000000001,2026-01-18T16:39:25.410099
+phi4_local_baseline_qa,phi4,qa,11,"There is no single screenwriter who co-wrote both ""Evolution"" and a film starring Nicolas Cage and Téa Leoni. The credits for ""Evolution"" are David Howard and Robert Gordon, while ""The Family Man,"" featuring Nicolas Cage and Téa Leoni, was written by Glenn Ficarra and John Requa.",David Weissman,False,20103.513,2026-01-18T16:39:45.513931
+phi4_local_baseline_qa,phi4,qa,12,1993,1999,False,9110.564999999999,2026-01-18T16:39:54.624995
+phi4_local_baseline_qa,phi4,qa,13,"Yes, both Random House Tower and 888 7th Avenue are used for real estate purposes. Random House Tower has a mix of residential and commercial use, whereas 888 7th Avenue is primarily used as office space.",no,False,18652.392,2026-01-18T16:40:13.277443
+phi4_local_baseline_qa,phi4,qa,14,Alex Ferguson managed Manchester United from November 1986 to May 2013.,from 1986 to 2013,False,10420.444,2026-01-18T16:40:23.697937
+phi4_local_baseline_qa,phi4,qa,15,The United States has a population of approximately 331 million inhabitants (as of the latest available data in 2023).,"9,984",False,11398.891000000001,2026-01-18T16:40:35.096878
+phi4_local_baseline_qa,phi4,qa,16,Atlantic 10,the North Atlantic Conference,False,6338.561000000001,2026-01-18T16:40:41.435806
+phi4_local_baseline_qa,phi4,qa,17,"Yes, Giuseppe Verdi and Ambroise Thomas are both opera composers.",yes,False,12242.577000000001,2026-01-18T16:40:53.679455
+phi4_local_baseline_qa,phi4,qa,18,1969-1974,1969 until 1974,False,7771.725,2026-01-18T16:41:01.451269
+phi4_local_baseline_qa,phi4,qa,19,Robert Erskine Childers,Robert Erskine Childers DSC,False,15788.403,2026-01-18T16:41:17.239917
+phi4_local_baseline_qa,phi4,qa,20,No other Mexican Formula One race car driver besides Sergio Pérez has held the podium.,Pedro Rodríguez,False,16529.898,2026-01-18T16:41:33.770731
+phi4_local_baseline_qa,phi4,qa,21,"Elton John did not voice any hedgehog; the hedgehog character Mary in ""WALL-E"" was voiced by Kathy Najimy.",Sonic,False,17280.241,2026-01-18T16:41:51.051056
+phi4_local_baseline_qa,phi4,qa,22,"Other devices that can control iTunes include Apple TV, iOS devices (iPhone, iPad), Mac computers with the Apple Remote app, and third-party universal remotes.",keyboard function keys,False,18458.372,2026-01-18T16:42:09.509807
+phi4_local_baseline_qa,phi4,qa,23,Wolf Alice,Badly Drawn Boy,False,21785.271,2026-01-18T16:42:31.295246
+phi4_local_baseline_qa,phi4,qa,24,Peter Schmeichel was voted to be the World's Best Goalkeeper by the IFFHS in 1992.,World's Best Goalkeeper,False,12775.278999999999,2026-01-18T16:42:44.070839
+phi4_local_baseline_qa,phi4,qa,25,"The writer of ""These Boots Are Made for Walkin'"" was Lee Hazlewood. Johnny Cash died in 2007.",Barton Lee Hazlewood,False,14134.965,2026-01-18T16:42:58.207273
+phi4_local_baseline_qa,phi4,qa,26,1838,1838,True,9149.163,2026-01-18T16:43:07.356672
+phi4_local_baseline_qa,phi4,qa,27,"Yes, both Dictyosperma and Huernia are described as a genus.",yes,False,15982.319,2026-01-18T16:43:23.339208
+phi4_local_baseline_qa,phi4,qa,28,Henry J. Kaiser,Henry J. Kaiser,True,8037.741000000001,2026-01-18T16:43:31.377054
+phi4_local_baseline_qa,phi4,qa,29,"The name for the adventure in ""Tunnels & Trolls"" is typically called a ""campaign"" or ""adventure.""",Arena of Khazan,False,19216.07,2026-01-18T16:43:50.593267
+phi4_local_baseline_qa,phi4,qa,30,"June 24, 2006",2000,False,18039.538,2026-01-18T16:44:08.633602
+phi4_local_baseline_qa,phi4,qa,31,Buck-Tick hails from Japan.,"Fujioka, Gunma",False,8697.297,2026-01-18T16:44:17.331243
+phi4_local_baseline_qa,phi4,qa,32,Charles Nungesser,Charles Eugène,False,10115.759,2026-01-18T16:44:27.447060
+phi4_local_baseline_qa,phi4,qa,33,"Yes, both Freakonomics and In the Realm of the Hackers are American documentaries.",no,False,15738.45,2026-01-18T16:44:43.185568
+phi4_local_baseline_qa,phi4,qa,34,Letters to Cleo,Letters to Cleo,True,19117.653000000002,2026-01-18T16:45:02.303403
+phi4_local_baseline_qa,phi4,qa,35,"The civil war ended in 1922 with the defeat of the last major White forces, although some resistance continued until 1923.",October 1922,False,22718.826,2026-01-18T16:45:25.022662
+phi4_local_baseline_qa,phi4,qa,36,1988,2000,False,7752.893,2026-01-18T16:45:32.777318
+phi4_local_baseline_qa,phi4,qa,37,World War I,World War II,False,7222.083,2026-01-18T16:45:39.999447
+phi4_local_baseline_qa,phi4,qa,38,"No, only Gerald R. Ford International Airport is located in Michigan; Elko Regional Airport is in Nevada.",no,False,6920.456999999999,2026-01-18T16:45:46.919960
+phi4_local_baseline_qa,phi4,qa,39,Middletown,New York City,False,7388.03,2026-01-18T16:45:54.308058
+phi4_local_baseline_qa,phi4,qa,40,The Scotch Collie (Border Collie),Scotch Collie,False,17946.443,2026-01-18T16:46:12.254547
+phi4_local_baseline_qa,phi4,qa,41,"Menlo Park, California, USA",Mumbai,False,5707.728,2026-01-18T16:46:17.962530
+phi4_local_baseline_qa,phi4,qa,42,1968,1962,False,8799.917000000001,2026-01-18T16:46:26.762516
+phi4_local_baseline_qa,phi4,qa,43,The battle secured Ethiopian territory for Italy.,sovereignty,False,10795.359,2026-01-18T16:46:37.557936
+phi4_local_baseline_qa,phi4,qa,44,Nelson Rockefeller,Nelson Rockefeller,True,9562.019,2026-01-18T16:46:47.121217
+phi4_local_baseline_qa,phi4,qa,45,The Firth of Forth,Yellowcraig,False,8334.425,2026-01-18T16:46:55.455695
+phi4_local_baseline_qa,phi4,qa,46,Paul McCartney and John Lennon,Phil Spector,False,9388.871,2026-01-18T16:47:04.844644
+phi4_local_baseline_qa,phi4,qa,47,"Mikhail Gorbachev initiated forums promoting openness (Glasnost) and international dialogue, such as the ""Common European Home.""",Organizations could come together to address global issues,False,13697.611,2026-01-18T16:47:18.542453
+phi4_local_baseline_qa,phi4,qa,48,"Yes, both Ferocactus and Silene are types of plants.",yes,False,11344.13,2026-01-18T16:47:29.887079
+phi4_local_baseline_qa,phi4,qa,49,There was no British first-generation jet-powered medium bomber used in the South West Pacific theatre of World War II.,English Electric Canberra,False,21617.496,2026-01-18T16:47:51.504650

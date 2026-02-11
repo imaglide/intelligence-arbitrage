@@ -1,0 +1,51 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,input_tokens,output_tokens,api_cost_usd,timestamp
+gpt-4o_baseline_rag,gpt-4o,rag,0,Denver Broncos,Denver Broncos,True,3.842,366,74,0.001655,2026-01-19T15:20:41.668501
+gpt-4o_baseline_rag,gpt-4o,rag,1,Carolina Panthers,Carolina Panthers,True,1.245,366,93,0.0018449999999999,2026-01-19T15:20:41.669757
+gpt-4o_baseline_rag,gpt-4o,rag,2,"Levi's Stadium in Santa Clara, California.","Santa Clara, California",True,1.173,363,68,0.0015875,2026-01-19T15:20:41.670938
+gpt-4o_baseline_rag,gpt-4o,rag,3,Denver Broncos,Denver Broncos,True,1.971,363,93,0.0018375,2026-01-19T15:20:41.672917
+gpt-4o_baseline_rag,gpt-4o,rag,4,Gold,gold,True,0.909,370,67,0.001595,2026-01-19T15:20:41.673834
+gpt-4o_baseline_rag,gpt-4o,rag,5,"The theme of Super Bowl 50 was the ""golden anniversary,"" celebrated with various gold-themed initiatives.","""golden anniversary""",False,0.871,364,128,0.00219,2026-01-19T15:20:41.674713
+gpt-4o_baseline_rag,gpt-4o,rag,6,"February 7, 2016","February 7, 2016",True,1.024,362,75,0.0016549999999999,2026-01-19T15:20:41.675744
+gpt-4o_baseline_rag,gpt-4o,rag,7,American Football Conference,American Football Conference,True,0.976,361,48,0.0013825,2026-01-19T15:20:41.676734
+gpt-4o_baseline_rag,gpt-4o,rag,8,"The theme of Super Bowl 50 was the ""golden anniversary,"" celebrated with various gold-themed initiatives.","""golden anniversary""",False,0.216,364,128,0.00219,2026-01-19T15:20:41.676956
+gpt-4o_baseline_rag,gpt-4o,rag,9,American Football Conference,American Football Conference,True,0.8260000000000001,360,93,0.00183,2026-01-19T15:20:41.677789
+gpt-4o_baseline_rag,gpt-4o,rag,10,"February 7, 2016","February 7, 2016",True,0.8180000000000001,363,76,0.0016675,2026-01-19T15:20:41.678613
+gpt-4o_baseline_rag,gpt-4o,rag,11,Denver Broncos,Denver Broncos,True,1.111,361,92,0.0018225,2026-01-19T15:20:41.679731
+gpt-4o_baseline_rag,gpt-4o,rag,12,Levi's Stadium,Levi's Stadium,True,0.8220000000000001,365,89,0.0018024999999999,2026-01-19T15:20:41.680559
+gpt-4o_baseline_rag,gpt-4o,rag,13,"Santa Clara, California",Santa Clara,True,0.79,365,88,0.0017924999999999,2026-01-19T15:20:41.681355
+gpt-4o_baseline_rag,gpt-4o,rag,14,Super Bowl L,Super Bowl L,True,0.76,371,78,0.0017075,2026-01-19T15:20:41.682121
+gpt-4o_baseline_rag,gpt-4o,rag,15,2015 season,2015,True,0.809,366,67,0.001585,2026-01-19T15:20:41.682936
+gpt-4o_baseline_rag,gpt-4o,rag,16,2016,2015,False,0.8220000000000001,370,78,0.001705,2026-01-19T15:20:41.683763
+gpt-4o_baseline_rag,gpt-4o,rag,17,"Santa Clara, California",Santa Clara,True,0.2269999999999999,365,88,0.0017924999999999,2026-01-19T15:20:41.683998
+gpt-4o_baseline_rag,gpt-4o,rag,18,Levi's Stadium,Levi's Stadium,True,0.787,365,84,0.0017524999999999,2026-01-19T15:20:41.684790
+gpt-4o_baseline_rag,gpt-4o,rag,19,24–10,24–10,True,0.777,366,72,0.001635,2026-01-19T15:20:41.685573
+gpt-4o_baseline_rag,gpt-4o,rag,20,"February 7, 2016","February 7, 2016",True,0.846,369,75,0.0016725,2026-01-19T15:20:41.686425
+gpt-4o_baseline_rag,gpt-4o,rag,21,2016,2015,False,0.877,362,70,0.0016049999999999,2026-01-19T15:20:41.687309
+gpt-4o_baseline_rag,gpt-4o,rag,22,Denver Broncos,Denver Broncos,True,0.8069999999999999,361,69,0.0015925,2026-01-19T15:20:41.688123
+gpt-4o_baseline_rag,gpt-4o,rag,23,Carolina Panthers,Carolina Panthers,True,0.76,361,56,0.0014624999999999,2026-01-19T15:20:41.688888
+gpt-4o_baseline_rag,gpt-4o,rag,24,Denver Broncos,Denver Broncos,True,0.25,361,92,0.0018225,2026-01-19T15:20:41.689144
+gpt-4o_baseline_rag,gpt-4o,rag,25,2015 season,2015,True,0.8989999999999999,366,79,0.001705,2026-01-19T15:20:41.690050
+gpt-4o_baseline_rag,gpt-4o,rag,26,Denver Broncos,Denver Broncos,True,1.0,362,96,0.001865,2026-01-19T15:20:41.691057
+gpt-4o_baseline_rag,gpt-4o,rag,27,"Levi's Stadium in Santa Clara, California.","Santa Clara, California.",True,0.897,362,79,0.001695,2026-01-19T15:20:41.691960
+gpt-4o_baseline_rag,gpt-4o,rag,28,Super Bowl,Super Bowl,True,0.894,363,74,0.0016475,2026-01-19T15:20:41.692861
+gpt-4o_baseline_rag,gpt-4o,rag,29,Denver Broncos,Denver Broncos,True,0.909,365,97,0.0018824999999999,2026-01-19T15:20:41.693775
+gpt-4o_baseline_rag,gpt-4o,rag,30,Cam Newton,Cam Newton,True,0.8540000000000001,331,66,0.0014875,2026-01-19T15:20:41.694636
+gpt-4o_baseline_rag,gpt-4o,rag,31,Eight,8,False,0.803,334,61,0.001445,2026-01-19T15:20:41.695445
+gpt-4o_baseline_rag,gpt-4o,rag,32,1995,1995,True,0.839,330,54,0.001365,2026-01-19T15:20:41.696290
+gpt-4o_baseline_rag,gpt-4o,rag,33,Arizona Cardinals,Arizona Cardinals,True,0.559,328,80,0.00162,2026-01-19T15:20:41.696856
+gpt-4o_baseline_rag,gpt-4o,rag,34,The Broncos prevented the New England Patriots from going to the Super Bowl.,New England Patriots,True,1.481,333,89,0.0017225,2026-01-19T15:20:41.698343
+gpt-4o_baseline_rag,gpt-4o,rag,35,The Panthers beat the Arizona Cardinals in the NFC Championship Game.,Arizona Cardinals,True,1.0579999999999998,332,87,0.0017,2026-01-19T15:20:41.699408
+gpt-4o_baseline_rag,gpt-4o,rag,36,The New England Patriots lost to the Broncos in the AFC Championship.,New England Patriots,True,0.955,331,75,0.0015775,2026-01-19T15:20:41.700372
+gpt-4o_baseline_rag,gpt-4o,rag,37,The New England Patriots were the defending Super Bowl champions.,New England Patriots,True,1.0399999999999998,329,71,0.0015325,2026-01-19T15:20:41.701419
+gpt-4o_baseline_rag,gpt-4o,rag,38,Four teams have been in the Super Bowl eight times.,four,True,1.032,333,76,0.0015925,2026-01-19T15:20:41.702459
+gpt-4o_baseline_rag,gpt-4o,rag,39,Cam Newton,Cam Newton,True,0.6669999999999999,329,68,0.0015025,2026-01-19T15:20:41.703132
+gpt-4o_baseline_rag,gpt-4o,rag,40,15,15–1,True,1.195,341,99,0.0018425,2026-01-19T15:20:41.704333
+gpt-4o_baseline_rag,gpt-4o,rag,41,Cam Newton,Cam Newton,True,0.824,338,99,0.0018349999999999,2026-01-19T15:20:41.705163
+gpt-4o_baseline_rag,gpt-4o,rag,42,The Denver Broncos had a 12–4 win/loss record in the 2015 regular season.,12–4,True,0.839,342,88,0.001735,2026-01-19T15:20:41.706009
+gpt-4o_baseline_rag,gpt-4o,rag,43,Four teams have played in the Super Bowl eight times.,4,False,0.905,333,79,0.0016224999999999,2026-01-19T15:20:41.706920
+gpt-4o_baseline_rag,gpt-4o,rag,44,The New England Patriots did not get a chance to defend their Super Bowl XLIX win in Super Bowl 50.,New England Patriots,True,0.812,342,100,0.001855,2026-01-19T15:20:41.707739
+gpt-4o_baseline_rag,gpt-4o,rag,45,Cam Newton,Cam Newton,True,0.755,329,67,0.0014925,2026-01-19T15:20:41.708500
+gpt-4o_baseline_rag,gpt-4o,rag,46,Arizona Cardinals,Arizona Cardinals,True,0.944,331,63,0.0014575,2026-01-19T15:20:41.709450
+gpt-4o_baseline_rag,gpt-4o,rag,47,2,2,True,0.916,333,76,0.0015925,2026-01-19T15:20:41.710378
+gpt-4o_baseline_rag,gpt-4o,rag,48,The Denver Broncos beat the New England Patriots in the AFC Championship.,New England Patriots,True,0.887,330,86,0.001685,2026-01-19T15:20:41.711271
+gpt-4o_baseline_rag,gpt-4o,rag,49,Cam Newton,Cam Newton,True,0.799,335,80,0.0016375,2026-01-19T15:20:41.712076

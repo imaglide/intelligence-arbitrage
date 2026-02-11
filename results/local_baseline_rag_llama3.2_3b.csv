@@ -1,0 +1,60 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,timestamp
+llama3.2_local_baseline_rag,llama3.2,rag,0,Denver Broncos,Denver Broncos,True,3.9170000000000003,2026-01-19T15:24:29.601182
+llama3.2_local_baseline_rag,llama3.2,rag,1,The Carolina Panthers represented the NFC at Super Bowl 50.,Carolina Panthers,True,2.385,2026-01-19T15:24:29.603576
+llama3.2_local_baseline_rag,llama3.2,rag,2,"Levi's Stadium in the San Francisco Bay Area at Santa Clara, California.","Santa Clara, California",True,2.336,2026-01-19T15:24:29.605920
+llama3.2_local_baseline_rag,llama3.2,rag,3,Denver Broncos,Denver Broncos,True,3.592,2026-01-19T15:24:29.609519
+llama3.2_local_baseline_rag,llama3.2,rag,4,Gold,gold,True,5.2509999999999994,2026-01-19T15:24:29.614776
+llama3.2_local_baseline_rag,llama3.2,rag,5,"The theme of Super Bowl 50 was a ""golden anniversary"".","""golden anniversary""",True,1.76,2026-01-19T15:24:29.616542
+llama3.2_local_baseline_rag,llama3.2,rag,6,"February 7, 2016","February 7, 2016",True,1.568,2026-01-19T15:24:29.618114
+llama3.2_local_baseline_rag,llama3.2,rag,7,AFC stands for American Football Conference.,American Football Conference,True,1.686,2026-01-19T15:24:29.619814
+llama3.2_local_baseline_rag,llama3.2,rag,8,"The theme of Super Bowl 50 was a ""golden anniversary"".","""golden anniversary""",True,0.248,2026-01-19T15:24:29.620067
+llama3.2_local_baseline_rag,llama3.2,rag,9,AFC stands for American Football Conference.,American Football Conference,True,1.3760000000000001,2026-01-19T15:24:29.621446
+llama3.2_local_baseline_rag,llama3.2,rag,10,"February 7, 2016","February 7, 2016",True,1.518,2026-01-19T15:24:29.622968
+llama3.2_local_baseline_rag,llama3.2,rag,11,The Denver Broncos won Super Bowl 50.,Denver Broncos,True,1.363,2026-01-19T15:24:29.624336
+llama3.2_local_baseline_rag,llama3.2,rag,12,Levi's Stadium,Levi's Stadium,True,1.504,2026-01-19T15:24:29.625844
+llama3.2_local_baseline_rag,llama3.2,rag,13,"Santa Clara, California",Santa Clara,True,1.582,2026-01-19T15:24:29.627430
+llama3.2_local_baseline_rag,llama3.2,rag,14,"Super Bowl 50 would have been called ""L"" (for 50).",Super Bowl L,False,1.477,2026-01-19T15:24:29.628912
+llama3.2_local_baseline_rag,llama3.2,rag,15,Super Bowl 50 decided the NFL champion for the 2015 season.,2015,True,1.932,2026-01-19T15:24:29.630849
+llama3.2_local_baseline_rag,llama3.2,rag,16,2014,2015,False,1.711,2026-01-19T15:24:29.632566
+llama3.2_local_baseline_rag,llama3.2,rag,17,"Santa Clara, California",Santa Clara,True,0.263,2026-01-19T15:24:29.632834
+llama3.2_local_baseline_rag,llama3.2,rag,18,Levi's Stadium,Levi's Stadium,True,1.663,2026-01-19T15:24:29.634501
+llama3.2_local_baseline_rag,llama3.2,rag,19,The final score of Super Bowl 50 was 24-10 in favor of the Denver Broncos.,24–10,False,1.9580000000000002,2026-01-19T15:24:29.636464
+llama3.2_local_baseline_rag,llama3.2,rag,20,"Super Bowl 50 took place on February 7, 2016.","February 7, 2016",True,1.727,2026-01-19T15:24:29.638197
+llama3.2_local_baseline_rag,llama3.2,rag,21,2016,2015,False,1.5330000000000001,2026-01-19T15:24:29.639735
+llama3.2_local_baseline_rag,llama3.2,rag,22,Denver Broncos,Denver Broncos,True,1.624,2026-01-19T15:24:29.641365
+llama3.2_local_baseline_rag,llama3.2,rag,23,Carolina Panthers,Carolina Panthers,True,1.663,2026-01-19T15:24:29.643034
+llama3.2_local_baseline_rag,llama3.2,rag,24,The Denver Broncos won Super Bowl 50.,Denver Broncos,True,0.28200000000000003,2026-01-19T15:24:29.643322
+llama3.2_local_baseline_rag,llama3.2,rag,25,Super Bowl 50 determined the NFL champion for the 2015 season.,2015,True,1.625,2026-01-19T15:24:29.644951
+llama3.2_local_baseline_rag,llama3.2,rag,26,The Denver Broncos won Super Bowl 50.,Denver Broncos,True,1.797,2026-01-19T15:24:29.646752
+llama3.2_local_baseline_rag,llama3.2,rag,27,"Levi's Stadium in the San Francisco Bay Area at Santa Clara, California.","Santa Clara, California.",True,1.466,2026-01-19T15:24:29.648223
+llama3.2_local_baseline_rag,llama3.2,rag,28,"Super Bowl L was not used; instead, the game was referred to as Super Bowl 50.",Super Bowl,True,0.7290000000000001,2026-01-19T15:24:29.648956
+llama3.2_local_baseline_rag,llama3.2,rag,29,Denver Broncos,Denver Broncos,True,2.088,2026-01-19T15:24:29.651047
+llama3.2_local_baseline_rag,llama3.2,rag,30,Cam Newton,Cam Newton,True,1.383,2026-01-19T15:24:29.652434
+llama3.2_local_baseline_rag,llama3.2,rag,31,"The Denver Broncos have appeared in the Super Bowl eight times: 
+
+1. Super Bowl XXXIII
+2. Super Bowl XXXV
+3. Super Bowl XLVIII
+4. Super Bowl 50
+5. Super Bowl LII
+6. Super Bowl LIII 
+7. Super Bowl LVIII
+8. Super Bowl LVII",8,True,1.38,2026-01-19T15:24:29.653819
+llama3.2_local_baseline_rag,llama3.2,rag,32,1995,1995,True,1.474,2026-01-19T15:24:29.655296
+llama3.2_local_baseline_rag,llama3.2,rag,33,The Carolina Panthers.,Arizona Cardinals,False,1.492,2026-01-19T15:24:29.656793
+llama3.2_local_baseline_rag,llama3.2,rag,34,The New England Patriots.,New England Patriots,True,1.4289999999999998,2026-01-19T15:24:29.658226
+llama3.2_local_baseline_rag,llama3.2,rag,35,The Arizona Cardinals.,Arizona Cardinals,True,0.6809999999999999,2026-01-19T15:24:29.658911
+llama3.2_local_baseline_rag,llama3.2,rag,36,The New England Patriots.,New England Patriots,True,2.438,2026-01-19T15:24:29.661354
+llama3.2_local_baseline_rag,llama3.2,rag,37,"There is no direct information in the context about the defending Super Bowl champions. The New England Patriots are mentioned as being denied a chance to defend their title by the Broncos, but it's unclear if this means they were the previous year's champions.",New England Patriots,True,1.714,2026-01-19T15:24:29.663073
+llama3.2_local_baseline_rag,llama3.2,rag,38,These four teams have been in the Super Bowl eight times.,four,True,1.511,2026-01-19T15:24:29.664588
+llama3.2_local_baseline_rag,llama3.2,rag,39,Cam Newton,Cam Newton,True,1.38,2026-01-19T15:24:29.665972
+llama3.2_local_baseline_rag,llama3.2,rag,40,15-1,15–1,False,1.716,2026-01-19T15:24:29.667692
+llama3.2_local_baseline_rag,llama3.2,rag,41,Cam Newton,Cam Newton,True,0.634,2026-01-19T15:24:29.668331
+llama3.2_local_baseline_rag,llama3.2,rag,42,The Denver Broncos' regular season win/loss stats in 2015 were 12-4.,12–4,False,2.34,2026-01-19T15:24:29.670678
+llama3.2_local_baseline_rag,llama3.2,rag,43,These four teams have played in the Super Bowl eight times.,4,False,1.383,2026-01-19T15:24:29.672065
+llama3.2_local_baseline_rag,llama3.2,rag,44,The New England Patriots.,New England Patriots,True,1.4120000000000001,2026-01-19T15:24:29.673482
+llama3.2_local_baseline_rag,llama3.2,rag,45,Cam Newton,Cam Newton,True,1.535,2026-01-19T15:24:29.675021
+llama3.2_local_baseline_rag,llama3.2,rag,46,The Carolina Panthers beat the Arizona Cardinals in the NFC Championship Game.,Arizona Cardinals,True,1.706,2026-01-19T15:24:29.676731
+llama3.2_local_baseline_rag,llama3.2,rag,47,"The Panthers have been in the Super Bowl twice, as of the given context.",2,False,1.485,2026-01-19T15:24:29.678221
+llama3.2_local_baseline_rag,llama3.2,rag,48,The Denver Broncos beat the New England Patriots 20–18 in the AFC Championship Game.,New England Patriots,True,1.5,2026-01-19T15:24:29.679724
+llama3.2_local_baseline_rag,llama3.2,rag,49,Cam Newton,Cam Newton,True,1.489,2026-01-19T15:24:29.681217

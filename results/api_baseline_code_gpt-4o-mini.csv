@@ -1,0 +1,1011 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,input_tokens,output_tokens,api_cost_usd,timestamp
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,0,"```python
+from typing import List
+
+def has_close_elements(numbers: List[float], threshold: float) -> bool:
+    """""" Check if in given list of numbers, are any two numbers closer to each other than
+    given threshold.
+    >>> has_close_elements([1.0, 2.0, 3.0], 0.5)
+    False
+    >>> has_close_elements([1.0, 2.8, 3.0, 4.0, 5.0, 2.0], 0.3)
+    True
+    """"""
+    n = len(numbers)
+    for i in range(n):
+        for j in range(i + 1, n):
+            if abs(numbers[i] - numbers[j]) < threshold:
+                return True
+    return False
+```","    for idx, elem in enumerate(numbers):
+        for idx2, elem2 in enumerate(numbers):
+            if idx != idx2:
+                distance = abs(elem - elem2)
+                if distance < threshold:
+                    return True
+
+    return False
+",True,3.993,291,287,0.00021585,2026-01-19T15:20:34.738736
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,1,"def separate_paren_groups(paren_string: str) -> List[str]:
+    """""" Input to this function is a string containing multiple groups of nested parentheses. Your goal is to
+    separate those group into separate strings and return the list of those.
+    Separate groups are balanced (each open brace is properly closed) and not nested within each other
+    Ignore any spaces in the input string.
+    >>> separate_paren_groups('( ) (( )) (( )( ))')
+    ['()', '(())', '(()())']
+    """"""
+    # Remove spaces from the input string
+    paren_string = paren_string.replace("" "", """")
+    result = []
+    balance = 0
+    current_group = []
+
+    for char in paren_string:
+        if char == '(':
+            balance += 1
+            current_group.append(char)
+        elif char == ')':
+            balance -= 1
+            current_group.append(char)
+        
+        # When balance is zero, we have a complete group
+        if balance == 0 and current_group:
+            result.append(''.join(current_group))
+            current_group = []
+
+    return result","    result = []
+    current_string = []
+    current_depth = 0
+
+    for c in paren_string:
+        if c == '(':
+            current_depth += 1
+            current_string.append(c)
+        elif c == ')':
+            current_depth -= 1
+            current_string.append(c)
+
+            if current_depth == 0:
+                result.append(''.join(current_string))
+                current_string.clear()
+
+    return result
+",True,2.412,281,401,0.00028275,2026-01-19T15:20:34.741161
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,2,"def truncate_number(number: float) -> float:
+    """""" Given a positive floating point number, it can be decomposed into
+    and integer part (largest integer smaller than given number) and decimals
+    (leftover part always smaller than 1).
+
+    Return the decimal part of the number.
+    >>> truncate_number(3.5)
+    0.5
+    """"""
+    integer_part = int(number)
+    decimal_part = number - integer_part
+    return decimal_part","    return number % 1.0
+",True,1.139,251,221,0.00017025,2026-01-19T15:20:34.742310
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,3,"def below_zero(operations: List[int]) -> bool:
+    balance = 0
+    for operation in operations:
+        balance += operation
+        if balance < 0:
+            return True
+    return False","    balance = 0
+
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+
+    return False
+",True,1.093,284,165,0.0001416,2026-01-19T15:20:34.743411
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,4,"```python
+def mean_absolute_deviation(numbers: List[float]) -> float:
+    if not numbers:
+        return 0.0  # Handle empty list case
+    
+    mean = sum(numbers) / len(numbers)
+    mad = sum(abs(x - mean) for x in numbers) / len(numbers)
+    return mad
+```","    mean = sum(numbers) / len(numbers)
+    return sum(abs(x - mean) for x in numbers) / len(numbers)
+",True,1.064,284,192,0.0001578,2026-01-19T15:20:34.744483
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,5,"```python
+def intersperse(numbers: List[int], delimeter: int) -> List[int]:
+    if not numbers:
+        return []
+    result = []
+    for i in range(len(numbers) - 1):
+        result.append(numbers[i])
+        result.append(delimeter)
+    result.append(numbers[-1])  # Append the last element without the delimiter
+    return result
+```","    if not numbers:
+        return []
+
+    result = []
+
+    for n in numbers[:-1]:
+        result.append(n)
+        result.append(delimeter)
+
+    result.append(numbers[-1])
+
+    return result
+",True,1.064,264,271,0.00020219999999999998,2026-01-19T15:20:34.745557
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,6,"def parse_nested_parens(paren_string: str) -> List[int]:
+    groups = paren_string.split()
+    max_depths = []
+    
+    for group in groups:
+        current_depth = 0
+        max_depth = 0
+        
+        for char in group:
+            if char == '(':
+                current_depth += 1
+                max_depth = max(max_depth, current_depth)
+            elif char == ')':
+                current_depth -= 1
+        
+        max_depths.append(max_depth)
+    
+    return max_depths","    def parse_paren_group(s):
+        depth = 0
+        max_depth = 0
+        for c in s:
+            if c == '(':
+                depth += 1
+                max_depth = max(depth, max_depth)
+            else:
+                depth -= 1
+
+        return max_depth
+
+    return [parse_paren_group(x) for x in paren_string.split(' ') if x]
+",True,1.342,276,285,0.00021239999999999999,2026-01-19T15:20:34.746907
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,7,"def filter_by_substring(strings: List[str], substring: str) -> List[str]:
+    """""" Filter an input list of strings only for ones that contain given substring
+    >>> filter_by_substring([], 'a')
+    []
+    >>> filter_by_substring(['abc', 'bacd', 'cde', 'array'], 'a')
+    ['abc', 'bacd', 'array']
+    """"""
+    return [s for s in strings if substring in s]","    return [x for x in strings if substring in x]
+",True,1.034,259,214,0.00016725,2026-01-19T15:20:34.747955
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,8,"def sum_product(numbers: List[int]) -> Tuple[int, int]:
+    """""" For a given list of integers, return a tuple consisting of a sum and a product of all the integers in a list.
+    Empty sum should be equal to 0 and empty product should be equal to 1.
+    >>> sum_product([])
+    (0, 1)
+    >>> sum_product([1, 2, 3, 4])
+    (10, 24)
+    """"""
+    if not numbers:
+        return (0, 1)
+    
+    total_sum = sum(numbers)
+    total_product = 1
+    for number in numbers:
+        total_product *= number
+    
+    return (total_sum, total_product)","    sum_value = 0
+    prod_value = 1
+
+    for n in numbers:
+        sum_value += n
+        prod_value *= n
+    return sum_value, prod_value
+",True,1.008,276,297,0.0002196,2026-01-19T15:20:34.748972
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,9,"def rolling_max(numbers: List[int]) -> List[int]:
+    """""" From a given list of integers, generate a list of rolling maximum element found until given moment
+    in the sequence.
+    >>> rolling_max([1, 2, 3, 2, 3, 4, 2])
+    [1, 2, 3, 3, 3, 4, 4]
+    """"""
+    if not numbers:
+        return []
+    
+    rolling_max_list = []
+    current_max = numbers[0]
+    
+    for number in numbers:
+        current_max = max(current_max, number)
+        rolling_max_list.append(current_max)
+    
+    return rolling_max_list","    running_max = None
+    result = []
+
+    for n in numbers:
+        if running_max is None:
+            running_max = n
+        else:
+            running_max = max(running_max, n)
+
+        result.append(running_max)
+
+    return result
+",True,1.1360000000000001,266,257,0.0001941,2026-01-19T15:20:34.750115
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,10,"def make_palindrome(string: str) -> str:
+    """""" Find the shortest palindrome that begins with a supplied string.
+    Algorithm idea is simple:
+    - Find the longest postfix of supplied string that is a palindrome.
+    - Append to the end of the string reverse of a string prefix that comes before the palindromic suffix.
+    >>> make_palindrome('')
+    ''
+    >>> make_palindrome('cat')
+    'catac'
+    >>> make_palindrome('cata')
+    'catac'
+    """"""
+    # Find the longest palindromic suffix
+    for i in range(len(string), -1, -1):
+        if is_palindrome(string[i:]):
+            # The prefix that needs to be reversed and added
+            prefix = string[:i]
+            # Create the palindrome by appending the reversed prefix
+            return string + prefix[::-1]
+    return string  # In case of an empty string","    if not string:
+        return ''
+
+    beginning_of_suffix = 0
+
+    while not is_palindrome(string[beginning_of_suffix:]):
+        beginning_of_suffix += 1
+
+    return string + string[:beginning_of_suffix][::-1]
+",False,0.9890000000000001,307,394,0.00028244999999999995,2026-01-19T15:20:34.751112
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,11,"def string_xor(a: str, b: str) -> str:
+    result = []
+    for bit_a, bit_b in zip(a, b):
+        # Perform XOR operation
+        result_bit = '1' if bit_a != bit_b else '0'
+        result.append(result_bit)
+    return ''.join(result)","    def xor(i, j):
+        if i == j:
+            return '0'
+        else:
+            return '1'
+
+    return ''.join(xor(x, y) for x, y in zip(a, b))
+",True,0.939,244,208,0.0001614,2026-01-19T15:20:34.752058
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,12,"```python
+def longest(strings: List[str]) -> Optional[str]:
+    """""" Out of list of strings, return the longest one. Return the first one in case of multiple
+    strings of the same length. Return None in case the input list is empty.
+    >>> longest([])
+
+    >>> longest(['a', 'b', 'c'])
+    'a'
+    >>> longest(['a', 'bb', 'ccc'])
+    'ccc'
+    """"""
+    if not strings:
+        return None
+    
+    longest_string = strings[0]
+    
+    for string in strings:
+        if len(string) > len(longest_string):
+            longest_string = string
+            
+    return longest_string
+```","    if not strings:
+        return None
+
+    maxlen = max(len(x) for x in strings)
+    for s in strings:
+        if len(s) == maxlen:
+            return s
+",True,1.002,268,285,0.00021119999999999998,2026-01-19T15:20:34.753068
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,13,"def greatest_common_divisor(a: int, b: int) -> int:
+    """""" Return a greatest common divisor of two integers a and b
+    >>> greatest_common_divisor(3, 5)
+    1
+    >>> greatest_common_divisor(25, 15)
+    5
+    """"""
+    while b != 0:
+        a, b = b, a % b
+    return a","    while b:
+        a, b = b, a % b
+    return a
+",True,1.138,237,256,0.00018915,2026-01-19T15:20:34.754213
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,14,"def all_prefixes(string: str) -> List[str]:
+    """""" Return list of all prefixes from shortest to longest of the input string
+    >>> all_prefixes('abc')
+    ['a', 'ab', 'abc']
+    """"""
+    return [string[:i] for i in range(1, len(string) + 1)]","    result = []
+
+    for i in range(len(string)):
+        result.append(string[:i+1])
+    return result
+",True,0.966,225,211,0.00016035,2026-01-19T15:20:34.755186
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,15,"def string_sequence(n: int) -> str:
+    """""" Return a string containing space-delimited numbers starting from 0 upto n inclusive.
+    >>> string_sequence(0)
+    '0'
+    >>> string_sequence(5)
+    '0 1 2 3 4 5'
+    """"""
+    return ' '.join(str(i) for i in range(n + 1))","    return ' '.join([str(x) for x in range(n + 1)])
+",True,0.876,235,191,0.00014984999999999998,2026-01-19T15:20:34.756069
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,16,"def count_distinct_characters(string: str) -> int:
+    """""" Given a string, find out how many distinct characters (regardless of case) does it consist of
+    >>> count_distinct_characters('xyzXYZ')
+    3
+    >>> count_distinct_characters('Jerry')
+    4
+    """"""
+    return len(set(string.lower()))","    return len(set(string.lower()))
+",True,0.8450000000000001,240,190,0.00015000000000000001,2026-01-19T15:20:34.756921
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,17,"def parse_music(music_string: str) -> List[int]:
+    """""" Input to this function is a string representing musical notes in a special ASCII format.
+    Your task is to parse this string and return list of integers corresponding to how many beats does each
+    not last.
+
+    Here is a legend:
+    'o' - whole note, lasts four beats
+    'o|' - half note, lasts two beats
+    '.|' - quater note, lasts one beat
+
+    >>> parse_music('o o| .| o| o| .| .| .| .| o o')
+    [4, 2, 1, 2, 2, 1, 1, 1, 1, 4, 4]
+    """"""
+    note_to_beats = {
+        'o': 4,
+        'o|': 2,
+        '.|': 1
+    }
+    
+    notes = music_string.split()
+    beats = [note_to_beats[note] for note in notes]
+    
+    return beats","    note_map = {'o': 4, 'o|': 2, '.|': 1}
+    return [note_map[x] for x in music_string.split(' ') if x]
+",True,1.186,336,416,0.0003,2026-01-19T15:20:34.758115
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,18,"def how_many_times(string: str, substring: str) -> int:
+    """""" Find how many times a given substring can be found in the original string. Count overlapping cases.
+    >>> how_many_times('', 'a')
+    0
+    >>> how_many_times('aaa', 'a')
+    3
+    >>> how_many_times('aaaa', 'aa')
+    3
+    """"""
+    if not substring:
+        return 0
+    count = 0
+    start = 0
+    while True:
+        start = string.find(substring, start)
+        if start == -1:
+            break
+        count += 1
+        start += 1  # Move to the next character to allow for overlapping
+    return count","    times = 0
+
+    for i in range(len(string) - len(substring) + 1):
+        if string[i:i+len(substring)] == substring:
+            times += 1
+
+    return times
+",True,0.9349999999999999,255,258,0.00019305,2026-01-19T15:20:34.759056
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,19,"def sort_numbers(numbers: str) -> str:
+    """""" Input is a space-delimited string of numberals from 'zero' to 'nine'.
+    Valid choices are 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight' and 'nine'.
+    Return the string with numbers sorted from smallest to largest
+    >>> sort_numbers('three one five')
+    'one three five'
+    """"""
+    # Mapping from words to numbers
+    word_to_num = {
+        'zero': 0,
+        'one': 1,
+        'two': 2,
+        'three': 3,
+        'four': 4,
+        'five': 5,
+        'six': 6,
+        'seven': 7,
+        'eight': 8,
+        'nine': 9
+    }
+    
+    # Mapping from numbers back to words
+    num_to_word = {v: k for k, v in word_to_num.items()}
+    
+    # Split the input string into words
+    number_words = numbers.split()
+    
+    # Convert words to numbers
+    number_list = [word_to_num[word] for word in number_words]
+    
+    # Sort the numbers
+    number_list.sort()
+    
+    # Convert numbers back to words
+    sorted_words = [num_to_word[num] for num in number_list]
+    
+    # Join the sorted words into a single string
+    return ' '.join(sorted_words)","    value_map = {
+        'zero': 0,
+        'one': 1,
+        'two': 2,
+        'three': 3,
+        'four': 4,
+        'five': 5,
+        'six': 6,
+        'seven': 7,
+        'eight': 8,
+        'nine': 9
+    }
+    return ' '.join(sorted([x for x in numbers.split(' ') if x], key=lambda x: value_map[x]))
+",True,1.51,271,555,0.00037365,2026-01-19T15:20:34.760573
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,20,"def find_closest_elements(numbers: List[float]) -> Tuple[float, float]:
+    # Sort the numbers
+    sorted_numbers = sorted(numbers)
+    
+    # Initialize variables to track the closest pair
+    min_diff = float('inf')
+    closest_pair = (0.0, 0.0)
+    
+    # Iterate through the sorted list to find the closest pair
+    for i in range(len(sorted_numbers) - 1):
+        diff = sorted_numbers[i + 1] - sorted_numbers[i]
+        if diff < min_diff:
+            min_diff = diff
+            closest_pair = (sorted_numbers[i], sorted_numbers[i + 1])
+    
+    return closest_pair","    closest_pair = None
+    distance = None
+
+    for idx, elem in enumerate(numbers):
+        for idx2, elem2 in enumerate(numbers):
+            if idx != idx2:
+                if distance is None:
+                    distance = abs(elem - elem2)
+                    closest_pair = tuple(sorted([elem, elem2]))
+                else:
+                    new_distance = abs(elem - elem2)
+                    if new_distance < distance:
+                        distance = new_distance
+                        closest_pair = tuple(sorted([elem, elem2]))
+
+    return closest_pair
+",True,1.31,334,344,0.0002565,2026-01-19T15:20:34.761891
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,21,"def rescale_to_unit(numbers: List[float]) -> List[float]:
+    if len(numbers) < 2:
+        raise ValueError(""The list must contain at least two elements."")
+    
+    min_value = min(numbers)
+    max_value = max(numbers)
+    
+    return [(number - min_value) / (max_value - min_value) for number in numbers]","    min_number = min(numbers)
+    max_number = max(numbers)
+    return [(x - min_number) / (max_number - min_number) for x in numbers]
+",True,1.467,291,269,0.00020505,2026-01-19T15:20:34.763368
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,22,"def filter_integers(values: List[Any]) -> List[int]:
+    """""" Filter given list of any python values only for integers
+    >>> filter_integers(['a', 3.14, 5])
+    [5]
+    >>> filter_integers([1, 2, 3, 'abc', {}, []])
+    [1, 2, 3]
+    """"""
+    return [value for value in values if isinstance(value, int)]","    return [x for x in values if isinstance(x, int)]
+",True,1.0,260,225,0.000174,2026-01-19T15:20:34.764375
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,23,"def strlen(string: str) -> int:
+    """""" Return length of given string
+    >>> strlen('')
+    0
+    >>> strlen('abc')
+    3
+    """"""
+    return len(string)","    return len(string)
+",True,0.962,210,145,0.00011850000000000001,2026-01-19T15:20:34.765344
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,24,"def largest_divisor(n: int) -> int:
+    """""" For a given number n, find the largest number that divides n evenly, smaller than n
+    >>> largest_divisor(15)
+    5
+    """"""
+    for i in range(n - 1, 0, -1):
+        if n % i == 0:
+            return i","    for i in reversed(range(n)):
+        if n % i == 0:
+            return i
+",True,0.99,219,175,0.00013785,2026-01-19T15:20:34.766342
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,25,"def factorize(n: int) -> List[int]:
+    factors = []
+    divisor = 2
+    while n > 1:
+        while n % divisor == 0:
+            factors.append(divisor)
+            n //= divisor
+        divisor += 1
+    return factors","    import math
+    fact = []
+    i = 2
+    while i <= int(math.sqrt(n) + 1):
+        if n % i == 0:
+            fact.append(i)
+            n //= i
+        else:
+            i += 1
+
+    if n > 1:
+        fact.append(n)
+    return fact
+",True,1.277,292,206,0.0001674,2026-01-19T15:20:34.767626
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,26,"def remove_duplicates(numbers: List[int]) -> List[int]:
+    count = {}
+    
+    # Count occurrences of each number
+    for number in numbers:
+        if number in count:
+            count[number] += 1
+        else:
+            count[number] = 1
+    
+    # Create a new list with numbers that occur only once
+    result = [number for number in numbers if count[number] == 1]
+    
+    return result","    import collections
+    c = collections.Counter(numbers)
+    return [n for n in numbers if c[n] <= 1]
+",True,0.896,250,193,0.00015329999999999999,2026-01-19T15:20:34.768529
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,27,"def flip_case(string: str) -> str:
+    """""" For a given string, flip lowercase characters to uppercase and uppercase to lowercase.
+    >>> flip_case('Hello')
+    'hELLO'
+    """"""
+    return string.swapcase()","    return string.swapcase()
+",True,0.886,215,150,0.00012225,2026-01-19T15:20:34.769422
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,28,"def concatenate(strings: List[str]) -> str:
+    """""" Concatenate list of strings into a single string
+    >>> concatenate([])
+    ''
+    >>> concatenate(['a', 'b', 'c'])
+    'abc'
+    """"""
+    return ''.join(strings)","    return ''.join(strings)
+",True,1.0050000000000001,223,170,0.00013545,2026-01-19T15:20:34.770433
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,29,"def filter_by_prefix(strings: List[str], prefix: str) -> List[str]:
+    """""" Filter an input list of strings only for ones that start with a given prefix.
+    >>> filter_by_prefix([], 'a')
+    []
+    >>> filter_by_prefix(['abc', 'bcd', 'cde', 'array'], 'a')
+    ['abc', 'array']
+    """"""
+    return [s for s in strings if s.startswith(prefix)]","    return [x for x in strings if x.startswith(prefix)]
+",True,1.1260000000000001,254,205,0.00016109999999999999,2026-01-19T15:20:34.771567
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,30,"def get_positive(l: list):
+    """"""Return only positive numbers in the list.
+    >>> get_positive([-1, 2, -4, 5, 6])
+    [2, 5, 6]
+    >>> get_positive([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])
+    [5, 3, 2, 3, 9, 123, 1]
+    """"""
+    return [x for x in l if x > 0]","    return [e for e in l if e > 0]
+",True,1.092,280,217,0.00017219999999999998,2026-01-19T15:20:34.772668
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,31,"def is_prime(n):
+    """"""Return true if a given number is prime, and false otherwise.
+    >>> is_prime(6)
+    False
+    >>> is_prime(101)
+    True
+    >>> is_prime(11)
+    True
+    >>> is_prime(13441)
+    True
+    >>> is_prime(61)
+    True
+    >>> is_prime(4)
+    False
+    >>> is_prime(1)
+    False
+    """"""
+    if n <= 1:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True","    if n < 2:
+        return False
+    for k in range(2, n - 1):
+        if n % k == 0:
+            return False
+    return True
+",True,1.27,266,337,0.0002421,2026-01-19T15:20:34.773947
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,32,"import numpy as np
+from scipy.optimize import fsolve
+
+def find_zero(xs: list):
+    """""" xs are coefficients of a polynomial.
+    find_zero find x such that poly(x) = 0.
+    find_zero returns only only zero point, even if there are many.
+    Moreover, find_zero only takes list xs having even number of coefficients
+    and largest non zero coefficient as it guarantees
+    a solution.
+    >>> round(find_zero([1, 2]), 2) # f(x) = 1 + 2x
+    -0.5
+    >>> round(find_zero([-6, 11, -6, 1]), 2) # (x - 1) * (x - 2) * (x - 3) = -6 + 11x - 6x^2 + x^3
+    1.0
+    """"""
+    
+    # Define the polynomial function
+    def polynomial(x):
+        return poly(xs, x)
+    
+    # Use fsolve to find the root, starting from an initial guess of 0
+    root = fsolve(polynomial, 0)[0]
+    return root","    begin, end = -1., 1.
+    while poly(xs, begin) * poly(xs, end) > 0:
+        begin *= 2.0
+        end *= 2.0
+    while end - begin > 1e-10:
+        center = (begin + end) / 2.0
+        if poly(xs, center) * poly(xs, begin) > 0:
+            begin = center
+        else:
+            end = center
+    return begin
+",False,1130.7659999999998,426,444,0.00033029999999999995,2026-01-19T15:20:35.904725
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,33,"def sort_third(l: list):
+    """"""This function takes a list l and returns a list l' such that
+    l' is identical to l in the indicies that are not divisible by three, while its values at the indicies that are divisible by three are equal
+    to the values of the corresponding indicies of l, but sorted.
+    >>> sort_third([1, 2, 3])
+    [1, 2, 3]
+    >>> sort_third([5, 6, 3, 4, 8, 9, 2])
+    [2, 6, 3, 4, 8, 9, 5]
+    """"""
+    # Extract elements at indices divisible by 3
+    divisible_by_three = [l[i] for i in range(len(l)) if i % 3 == 0]
+    # Sort the extracted elements
+    sorted_elements = sorted(divisible_by_three)
+    
+    # Create a new list to hold the result
+    result = []
+    sorted_index = 0
+    
+    for i in range(len(l)):
+        if i % 3 == 0:
+            result.append(sorted_elements[sorted_index])
+            sorted_index += 1
+        else:
+            result.append(l[i])
+    
+    return result","    l = list(l)
+    l[::3] = sorted(l[::3])
+    return l
+",False,1.4580000000000002,320,441,0.0003126,2026-01-19T15:20:35.906204
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,34,"def unique(l: list):
+    """"""Return sorted unique elements in a list
+    >>> unique([5, 3, 5, 2, 3, 3, 9, 0, 123])
+    [0, 2, 3, 5, 9, 123]
+    """"""
+    return sorted(set(l))","    return sorted(list(set(l)))
+",True,1.343,240,185,0.000147,2026-01-19T15:20:35.907555
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,35,"def max_element(l: list):
+    """"""Return maximum element in the list.
+    >>> max_element([1, 2, 3])
+    3
+    >>> max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])
+    123
+    """"""
+    return max(l)","    m = l[0]
+    for e in l:
+        if e > m:
+            m = e
+    return m
+",True,1.127,249,222,0.00017054999999999997,2026-01-19T15:20:35.908691
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,36,"def fizz_buzz(n: int):
+    """"""Return the number of times the digit 7 appears in integers less than n which are divisible by 11 or 13.
+    >>> fizz_buzz(50)
+    0
+    >>> fizz_buzz(78)
+    2
+    >>> fizz_buzz(79)
+    3
+    """"""
+    count = 0
+    for i in range(n):
+        if i % 11 == 0 or i % 13 == 0:
+            count += str(i).count('7')
+    return count","    ns = []
+    for i in range(n):
+        if i % 11 == 0 or i % 13 == 0:
+            ns.append(i)
+    s = ''.join(list(map(str, ns)))
+    ans = 0
+    for c in s:
+        ans += (c == '7')
+    return ans
+",True,7.739,246,219,0.0001683,2026-01-19T15:20:35.916442
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,37,"def sort_even(l: list):
+    """"""This function takes a list l and returns a list l' such that
+    l' is identical to l in the odd indicies, while its values at the even indicies are equal
+    to the values of the even indicies of l, but sorted.
+    >>> sort_even([1, 2, 3])
+    [1, 2, 3]
+    >>> sort_even([5, 6, 3, 4])
+    [3, 6, 5, 4]
+    """"""
+    # Extract even indexed values
+    even_values = [l[i] for i in range(0, len(l), 2)]
+    # Sort the even indexed values
+    even_values.sort()
+    
+    # Create a new list to hold the result
+    result = []
+    even_index = 0
+    
+    for i in range(len(l)):
+        if i % 2 == 0:  # Even index
+            result.append(even_values[even_index])
+            even_index += 1
+        else:  # Odd index
+            result.append(l[i])
+    
+    return result","    evens = l[::2]
+    odds = l[1::2]
+    evens.sort()
+    ans = []
+    for e, o in zip(evens, odds):
+        ans.extend([e, o])
+    if len(evens) > len(odds):
+        ans.append(evens[-1])
+    return ans
+",True,1.528,290,394,0.0002799,2026-01-19T15:20:35.917981
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,38,"```python
+def decode_cyclic(s: str):
+    """"""
+    takes as input string encoded with encode_cyclic function. Returns decoded string.
+    """"""
+    # split string to groups. Each of length 3.
+    groups = [s[(3 * i):min((3 * i + 3), len(s))] for i in range((len(s) + 2) // 3)]
+    # reverse the cycling of elements in each group. Unless group has fewer elements than 3.
+    groups = [(group[-1] + group[:-1]) if len(group) == 3 else group for group in groups]
+    return """".join(groups)
+```","    return encode_cyclic(encode_cyclic(s))
+",False,1.4289999999999998,326,306,0.00023249999999999999,2026-01-19T15:20:35.919420
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,39,"def prime_fib(n: int):
+    """"""
+    prime_fib returns n-th number that is a Fibonacci number and it's also prime.
+    >>> prime_fib(1)
+    2
+    >>> prime_fib(2)
+    3
+    >>> prime_fib(3)
+    5
+    >>> prime_fib(4)
+    13
+    >>> prime_fib(5)
+    89
+    """"""
+    def is_prime(num):
+        if num <= 1:
+            return False
+        for i in range(2, int(num**0.5) + 1):
+            if num % i == 0:
+                return False
+        return True
+
+    fib1, fib2 = 0, 1
+    prime_fib_count = 0
+    prime_fib_number = 0
+
+    while prime_fib_count < n:
+        fib_next = fib1 + fib2
+        fib1, fib2 = fib2, fib_next
+        
+        if is_prime(fib_next):
+            prime_fib_count += 1
+            prime_fib_number = fib_next
+
+    return prime_fib_number","    import math
+
+    def is_prime(p):
+        if p < 2:
+            return False
+        for k in range(2, min(int(math.sqrt(p)) + 1, p - 1)):
+            if p % k == 0:
+                return False
+        return True
+    f = [0, 1]
+    while True:
+        f.append(f[-1] + f[-2])
+        if is_prime(f[-1]):
+            n -= 1
+        if n == 0:
+            return f[-1]
+",True,2.3089999999999997,263,376,0.00026504999999999996,2026-01-19T15:20:35.921738
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,40,"def triples_sum_to_zero(l: list):
+    """"""
+    triples_sum_to_zero takes a list of integers as an input.
+    it returns True if there are three distinct elements in the list that
+    sum to zero, and False otherwise.
+
+    >>> triples_sum_to_zero([1, 3, 5, 0])
+    False
+    >>> triples_sum_to_zero([1, 3, -2, 1])
+    True
+    >>> triples_sum_to_zero([1, 2, 3, 7])
+    False
+    >>> triples_sum_to_zero([2, 4, -5, 3, 9, 7])
+    True
+    >>> triples_sum_to_zero([1])
+    False
+    """"""
+    l.sort()
+    n = len(l)
+    
+    for i in range(n - 2):
+        if i > 0 and l[i] == l[i - 1]:  # Skip duplicates
+            continue
+        left, right = i + 1, n - 1
+        
+        while left < right:
+            total = l[i] + l[left] + l[right]
+            if total == 0:
+                return True
+            elif total < 0:
+                left += 1
+            else:
+                right -= 1
+                
+    return False","    for i in range(len(l)):
+        for j in range(i + 1, len(l)):
+            for k in range(j + 1, len(l)):
+                if l[i] + l[j] + l[k] == 0:
+                    return True
+    return False
+",True,1.1139999999999999,326,514,0.0003573,2026-01-19T15:20:35.922861
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,41,"def car_race_collision(n: int) -> int:
+    """"""
+    Imagine a road that's a perfectly straight infinitely long line.
+    n cars are driving left to right;  simultaneously, a different set of n cars
+    are driving right to left.   The two sets of cars start out being very far from
+    each other.  All cars move in the same speed.  Two cars are said to collide
+    when a car that's moving left to right hits a car that's moving right to left.
+    However, the cars are infinitely sturdy and strong; as a result, they continue moving
+    in their trajectory as if they did not collide.
+
+    This function outputs the number of such collisions.
+    """"""
+    return n * n","    return n**2
+",True,1.221,316,299,0.00022679999999999998,2026-01-19T15:20:35.924088
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,42,"def incr_list(l: list):
+    """"""Return list with elements incremented by 1.
+    >>> incr_list([1, 2, 3])
+    [2, 3, 4]
+    >>> incr_list([5, 3, 5, 2, 3, 3, 9, 0, 123])
+    [6, 4, 6, 3, 4, 4, 10, 1, 124]
+    """"""
+    return [x + 1 for x in l]","    return [(e + 1) for e in l]
+",True,1.088,276,219,0.0001728,2026-01-19T15:20:35.925183
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,43,"def pairs_sum_to_zero(l):
+    seen = set()
+    for x in l:
+        if -x in seen:
+            return True
+        seen.add(x)
+    return False","    for i, l1 in enumerate(l):
+        for j in range(i + 1, len(l)):
+            if l1 + l[j] == 0:
+                return True
+    return False
+",True,0.977,324,181,0.0001572,2026-01-19T15:20:35.926168
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,44,"def change_base(x: int, base: int) -> str:
+    if base < 2 or base >= 10:
+        raise ValueError(""Base must be between 2 and 9 inclusive."")
+    
+    if x == 0:
+        return '0'
+    
+    digits = []
+    while x > 0:
+        remainder = x % base
+        digits.append(str(remainder))
+        x //= base
+    
+    # The digits are in reverse order, so we need to reverse them
+    digits.reverse()
+    return ''.join(digits)","    ret = """"
+    while x > 0:
+        ret = str(x % base) + ret
+        x //= base
+    return ret
+",True,0.869,258,233,0.00017849999999999997,2026-01-19T15:20:35.927044
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,45,"def triangle_area(a, h):
+    """"""Given length of a side and high return area for a triangle.
+    >>> triangle_area(5, 3)
+    7.5
+    """"""
+    return 0.5 * a * h","    return a * h / 2.0
+",True,1.184,213,160,0.00012795,2026-01-19T15:20:35.928236
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,46,"def fib4(n: int):
+    """"""The Fib4 number sequence is a sequence similar to the Fibbonacci sequnece that's defined as follows:
+    fib4(0) -> 0
+    fib4(1) -> 0
+    fib4(2) -> 2
+    fib4(3) -> 0
+    fib4(n) -> fib4(n-1) + fib4(n-2) + fib4(n-3) + fib4(n-4).
+    Please write a function to efficiently compute the n-th element of the fib4 number sequence.  Do not use recursion.
+    >>> fib4(5)
+    4
+    >>> fib4(6)
+    8
+    >>> fib4(7)
+    14
+    """"""
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 0
+    elif n == 2:
+        return 2
+    elif n == 3:
+        return 0
+    
+    fib = [0] * (n + 1)
+    fib[0], fib[1], fib[2], fib[3] = 0, 0, 2, 0
+    
+    for i in range(4, n + 1):
+        fib[i] = fib[i - 1] + fib[i - 2] + fib[i - 3] + fib[i - 4]
+    
+    return fib[n]","    results = [0, 0, 2, 0]
+    if n < 4:
+        return results[n]
+
+    for _ in range(4, n + 1):
+        results.append(results[-1] + results[-2] + results[-3] + results[-4])
+        results.pop(0)
+
+    return results[-1]
+",True,1.048,337,550,0.00038055,2026-01-19T15:20:35.929291
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,47,"def median(l: list):
+    """"""Return median of elements in the list l.
+    >>> median([3, 1, 2, 4, 5])
+    3
+    >>> median([-10, 4, 6, 1000, 10, 20])
+    15.0
+    """"""
+    l.sort()
+    n = len(l)
+    mid = n // 2
+    if n % 2 == 1:
+        return l[mid]
+    else:
+        return (l[mid - 1] + l[mid]) / 2","    l = sorted(l)
+    if len(l) % 2 == 1:
+        return l[len(l) // 2]
+    else:
+        return (l[len(l) // 2 - 1] + l[len(l) // 2]) / 2.0
+",True,0.993,242,248,0.0001851,2026-01-19T15:20:35.930292
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,48,"def is_palindrome(text: str) -> bool:
+    return text == text[::-1]","    for i in range(len(text)):
+        if text[i] != text[len(text) - 1 - i]:
+            return False
+    return True
+",True,0.883,238,164,0.0001341,2026-01-19T15:20:35.931183
+gpt-4o-mini_baseline_code,gpt-4o-mini,code,49,"def modp(n: int, p: int):
+    """"""Return 2^n modulo p (be aware of numerics).
+    >>> modp(3, 5)
+    3
+    >>> modp(1101, 101)
+    2
+    >>> modp(0, 101)
+    1
+    >>> modp(3, 11)
+    8
+    >>> modp(100, 101)
+    1
+    """"""
+    if p <= 1:
+        raise ValueError(""p must be greater than 1"")
+    return pow(2, n, p)","    ret = 1
+    for i in range(n):
+        ret = (2 * ret) % p
+    return ret
+",True,1.067,273,343,0.00024675,2026-01-19T15:20:35.932256

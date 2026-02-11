@@ -1,0 +1,51 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,timestamp
+phi4_local_baseline_rag,phi4,rag,0,Denver Broncos,Denver Broncos,True,25240.409,2026-01-19T15:27:52.462172
+phi4_local_baseline_rag,phi4,rag,1,Carolina Panthers,Carolina Panthers,True,9028.297,2026-01-19T15:28:01.490941
+phi4_local_baseline_rag,phi4,rag,2,"Super Bowl 50 took place at Levi's Stadium in the San Francisco Bay Area at Santa Clara, California.","Santa Clara, California",True,17263.176000000003,2026-01-19T15:28:18.755430
+phi4_local_baseline_rag,phi4,rag,3,Denver Broncos,Denver Broncos,True,12069.405,2026-01-19T15:28:30.825033
+phi4_local_baseline_rag,phi4,rag,4,Gold,gold,True,18226.078,2026-01-19T15:28:49.051477
+phi4_local_baseline_rag,phi4,rag,5,"The theme of Super Bowl 50 was the ""golden anniversary,"" emphasizing gold-themed initiatives and prominently featuring the Arabic numerals 50.","""golden anniversary""",False,18486.681,2026-01-19T15:29:07.539969
+phi4_local_baseline_rag,phi4,rag,6,"February 7, 2016","February 7, 2016",True,13352.371,2026-01-19T15:29:20.893673
+phi4_local_baseline_rag,phi4,rag,7,American Football Conference,American Football Conference,True,24183.257,2026-01-19T15:29:45.077030
+phi4_local_baseline_rag,phi4,rag,8,"The theme of Super Bowl 50 was the ""golden anniversary,"" emphasizing gold-themed initiatives and prominently featuring the Arabic numerals 50.","""golden anniversary""",False,9.834,2026-01-19T15:29:45.087334
+phi4_local_baseline_rag,phi4,rag,9,American Football Conference,American Football Conference,True,34722.213,2026-01-19T15:30:19.809607
+phi4_local_baseline_rag,phi4,rag,10,"February 7, 2016","February 7, 2016",True,29138.67,2026-01-19T15:30:48.949189
+phi4_local_baseline_rag,phi4,rag,11,The Denver Broncos won Super Bowl 50.,Denver Broncos,True,24185.587000000003,2026-01-19T15:31:13.137026
+phi4_local_baseline_rag,phi4,rag,12,Levi's Stadium,Levi's Stadium,True,20685.882,2026-01-19T15:31:33.825477
+phi4_local_baseline_rag,phi4,rag,13,Santa Clara,Santa Clara,True,16438.377,2026-01-19T15:31:50.264436
+phi4_local_baseline_rag,phi4,rag,14,Super Bowl L,Super Bowl L,True,26110.526,2026-01-19T15:32:16.377249
+phi4_local_baseline_rag,phi4,rag,15,2015,2015,True,49092.465,2026-01-19T15:33:05.470871
+phi4_local_baseline_rag,phi4,rag,16,2016,2015,False,33805.676,2026-01-19T15:33:39.276947
+phi4_local_baseline_rag,phi4,rag,17,Santa Clara,Santa Clara,True,174.104,2026-01-19T15:33:39.451175
+phi4_local_baseline_rag,phi4,rag,18,Levi's Stadium,Levi's Stadium,True,34032.757,2026-01-19T15:34:13.484045
+phi4_local_baseline_rag,phi4,rag,19,The final score of Super Bowl 50 was 24–10 in favor of the Denver Broncos.,24–10,True,26815.021999999997,2026-01-19T15:34:40.299753
+phi4_local_baseline_rag,phi4,rag,20,"February 7, 2016","February 7, 2016",True,21407.101,2026-01-19T15:35:01.707216
+phi4_local_baseline_rag,phi4,rag,21,2016,2015,False,19960.8,2026-01-19T15:35:21.670125
+phi4_local_baseline_rag,phi4,rag,22,Denver Broncos,Denver Broncos,True,25270.787,2026-01-19T15:35:46.944387
+phi4_local_baseline_rag,phi4,rag,23,Carolina Panthers,Carolina Panthers,True,23953.836,2026-01-19T15:36:10.898331
+phi4_local_baseline_rag,phi4,rag,24,The Denver Broncos won Super Bowl 50.,Denver Broncos,True,51.303,2026-01-19T15:36:10.950844
+phi4_local_baseline_rag,phi4,rag,25,2015,2015,True,17643.703999999998,2026-01-19T15:36:28.596333
+phi4_local_baseline_rag,phi4,rag,26,Denver Broncos,Denver Broncos,True,14772.087,2026-01-19T15:36:43.368785
+phi4_local_baseline_rag,phi4,rag,27,"Super Bowl 50 was held at Levi's Stadium in the San Francisco Bay Area at Santa Clara, California.","Santa Clara, California.",True,16253.13,2026-01-19T15:36:59.622441
+phi4_local_baseline_rag,phi4,rag,28,"The name of the NFL championship game is ""Super Bowl.""",Super Bowl,True,18611.236999999997,2026-01-19T15:37:18.240423
+phi4_local_baseline_rag,phi4,rag,29,Denver Broncos,Denver Broncos,True,19656.569,2026-01-19T15:37:37.898048
+phi4_local_baseline_rag,phi4,rag,30,Cam Newton,Cam Newton,True,28263.392,2026-01-19T15:38:06.165655
+phi4_local_baseline_rag,phi4,rag,31,Eight,8,False,18174.992,2026-01-19T15:38:24.341928
+phi4_local_baseline_rag,phi4,rag,32,1995,1995,True,21249.396,2026-01-19T15:38:45.591391
+phi4_local_baseline_rag,phi4,rag,33,The Panthers defeated the Arizona Cardinals.,Arizona Cardinals,True,15766.464,2026-01-19T15:39:01.357940
+phi4_local_baseline_rag,phi4,rag,34,The Broncos prevented the New England Patriots from going to the Super Bowl.,New England Patriots,True,12174.501,2026-01-19T15:39:13.533019
+phi4_local_baseline_rag,phi4,rag,35,The Panthers beat the Arizona Cardinals in the NFC Championship Game.,Arizona Cardinals,True,18859.967999999997,2026-01-19T15:39:32.399476
+phi4_local_baseline_rag,phi4,rag,36,New England Patriots,New England Patriots,True,14874.472000000002,2026-01-19T15:39:47.277347
+phi4_local_baseline_rag,phi4,rag,37,New England Patriots,New England Patriots,True,21641.290999999997,2026-01-19T15:40:08.918752
+phi4_local_baseline_rag,phi4,rag,38,Four,four,True,19315.612,2026-01-19T15:40:28.234431
+phi4_local_baseline_rag,phi4,rag,39,Cam Newton,Cam Newton,True,20695.412999999997,2026-01-19T15:40:48.930212
+phi4_local_baseline_rag,phi4,rag,40,The win/loss ratio for the Carolina Panthers during their regular season in 2015 was 15:1.,15–1,False,27496.561,2026-01-19T15:41:16.428235
+phi4_local_baseline_rag,phi4,rag,41,Cam Newton,Cam Newton,True,19625.864,2026-01-19T15:41:36.055197
+phi4_local_baseline_rag,phi4,rag,42,The Denver Broncos had a 12–4 win/loss record for their regular season in 2015.,12–4,True,17028.587000000003,2026-01-19T15:41:53.085085
+phi4_local_baseline_rag,phi4,rag,43,Four,4,False,8776.847,2026-01-19T15:42:01.862014
+phi4_local_baseline_rag,phi4,rag,44,New England Patriots,New England Patriots,True,7575.799,2026-01-19T15:42:09.438259
+phi4_local_baseline_rag,phi4,rag,45,Cam Newton,Cam Newton,True,6614.427,2026-01-19T15:42:16.052727
+phi4_local_baseline_rag,phi4,rag,46,Arizona Cardinals,Arizona Cardinals,True,8574.605,2026-01-19T15:42:24.627375
+phi4_local_baseline_rag,phi4,rag,47,2,2,True,4845.013,2026-01-19T15:42:29.472425
+phi4_local_baseline_rag,phi4,rag,48,New England Patriots,New England Patriots,True,8178.639,2026-01-19T15:42:37.651133
+phi4_local_baseline_rag,phi4,rag,49,Cam Newton,Cam Newton,True,7940.842,2026-01-19T15:42:45.593085

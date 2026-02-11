@@ -1,0 +1,51 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,input_tokens,output_tokens,api_cost_usd,timestamp
+gpt-5.2_baseline_rag,gpt-5.2,rag,0,Denver Broncos,Denver Broncos,True,1174.848,365,49,0.0051199999999999,2026-01-19T15:19:43.784503
+gpt-5.2_baseline_rag,gpt-5.2,rag,1,Carolina Panthers,Carolina Panthers,True,1187.448,365,50,0.00515,2026-01-19T15:19:44.971985
+gpt-5.2_baseline_rag,gpt-5.2,rag,2,"Super Bowl 50 took place at Levi's Stadium in Santa Clara, California (San Francisco Bay Area).","Santa Clara, California",True,1212.901,362,71,0.00575,2026-01-19T15:19:46.184911
+gpt-5.2_baseline_rag,gpt-5.2,rag,3,Denver Broncos,Denver Broncos,True,1013.802,362,55,0.00527,2026-01-19T15:19:47.198726
+gpt-5.2_baseline_rag,gpt-5.2,rag,4,Gold,gold,True,922.827,369,45,0.00504,2026-01-19T15:19:48.121569
+gpt-5.2_baseline_rag,gpt-5.2,rag,5,"The theme of Super Bowl 50 was the “golden anniversary,” featuring gold-themed initiatives.","""golden anniversary""",False,1080.066,363,66,0.00561,2026-01-19T15:19:49.201650
+gpt-5.2_baseline_rag,gpt-5.2,rag,6,"February 7, 2016.","February 7, 2016",True,1270.686,361,54,0.00523,2026-01-19T15:19:50.472358
+gpt-5.2_baseline_rag,gpt-5.2,rag,7,American Football Conference,American Football Conference,True,1316.139,360,49,0.00507,2026-01-19T15:19:51.788526
+gpt-5.2_baseline_rag,gpt-5.2,rag,8,"The theme of Super Bowl 50 was the “golden anniversary,” featuring gold-themed initiatives.","""golden anniversary""",False,0.388,363,66,0.00561,2026-01-19T15:19:51.788930
+gpt-5.2_baseline_rag,gpt-5.2,rag,9,AFC stands for the American Football Conference.,American Football Conference,True,1168.475,359,53,0.00518,2026-01-19T15:19:52.957413
+gpt-5.2_baseline_rag,gpt-5.2,rag,10,"February 7, 2016.","February 7, 2016",True,1227.7530000000002,362,54,0.00524,2026-01-19T15:19:54.185179
+gpt-5.2_baseline_rag,gpt-5.2,rag,11,The Denver Broncos.,Denver Broncos,True,991.737,360,55,0.00525,2026-01-19T15:19:55.176929
+gpt-5.2_baseline_rag,gpt-5.2,rag,12,"Levi's Stadium (Santa Clara, California).",Levi's Stadium,True,1226.697,364,54,0.00526,2026-01-19T15:19:56.403646
+gpt-5.2_baseline_rag,gpt-5.2,rag,13,"Santa Clara, California",Santa Clara,True,2393.711,364,53,0.00523,2026-01-19T15:19:58.797374
+gpt-5.2_baseline_rag,gpt-5.2,rag,14,Super Bowl L,Super Bowl L,True,1493.688,370,67,0.00571,2026-01-19T15:20:00.291102
+gpt-5.2_baseline_rag,gpt-5.2,rag,15,The 2015 season.,2015,True,30851.894,365,42,0.0049099999999999,2026-01-19T15:20:31.147928
+gpt-5.2_baseline_rag,gpt-5.2,rag,16,2016,2015,False,1523.375,369,78,0.00603,2026-01-19T15:20:32.671372
+gpt-5.2_baseline_rag,gpt-5.2,rag,17,"Santa Clara, California",Santa Clara,True,0.294,364,53,0.00523,2026-01-19T15:20:32.671677
+gpt-5.2_baseline_rag,gpt-5.2,rag,18,Levi's Stadium.,Levi's Stadium,True,901.508,364,50,0.00514,2026-01-19T15:20:33.573194
+gpt-5.2_baseline_rag,gpt-5.2,rag,19,"The final score of Super Bowl 50 was 24–10 (Denver Broncos 24, Carolina Panthers 10).",24–10,True,1197.64,365,67,0.00566,2026-01-19T15:20:34.770845
+gpt-5.2_baseline_rag,gpt-5.2,rag,20,"February 7, 2016","February 7, 2016",True,987.814,368,55,0.00533,2026-01-19T15:20:35.758670
+gpt-5.2_baseline_rag,gpt-5.2,rag,21,2016,2015,False,934.289,361,48,0.00505,2026-01-19T15:20:36.692971
+gpt-5.2_baseline_rag,gpt-5.2,rag,22,Denver Broncos,Denver Broncos,True,1025.41,360,54,0.00522,2026-01-19T15:20:37.718403
+gpt-5.2_baseline_rag,gpt-5.2,rag,23,Carolina Panthers,Carolina Panthers,True,1778.7679999999998,360,47,0.00501,2026-01-19T15:20:39.497185
+gpt-5.2_baseline_rag,gpt-5.2,rag,24,The Denver Broncos.,Denver Broncos,True,0.509,360,55,0.00525,2026-01-19T15:20:39.497715
+gpt-5.2_baseline_rag,gpt-5.2,rag,25,The 2015 season.,2015,True,996.646,365,46,0.00503,2026-01-19T15:20:40.494368
+gpt-5.2_baseline_rag,gpt-5.2,rag,26,The Denver Broncos won Super Bowl 50.,Denver Broncos,True,964.993,361,61,0.00544,2026-01-19T15:20:41.459373
+gpt-5.2_baseline_rag,gpt-5.2,rag,27,"Super Bowl 50 was held at Levi's Stadium in Santa Clara, California (San Francisco Bay Area).","Santa Clara, California.",False,1073.3919999999998,361,71,0.00574,2026-01-19T15:20:42.532777
+gpt-5.2_baseline_rag,gpt-5.2,rag,28,Super Bowl,Super Bowl,True,1426.325,362,50,0.0051199999999999,2026-01-19T15:20:43.959114
+gpt-5.2_baseline_rag,gpt-5.2,rag,29,The Denver Broncos.,Denver Broncos,True,1669.477,364,82,0.0060999999999999,2026-01-19T15:20:45.628634
+gpt-5.2_baseline_rag,gpt-5.2,rag,30,Cam Newton,Cam Newton,True,769.89,330,39,0.00447,2026-01-19T15:20:46.398615
+gpt-5.2_baseline_rag,gpt-5.2,rag,31,8,8,True,1418.485,333,61,0.00516,2026-01-19T15:20:47.817113
+gpt-5.2_baseline_rag,gpt-5.2,rag,32,1995,1995,True,974.588,329,52,0.0048499999999999,2026-01-19T15:20:48.791727
+gpt-5.2_baseline_rag,gpt-5.2,rag,33,The Arizona Cardinals.,Arizona Cardinals,True,1001.701,327,42,0.0045299999999999,2026-01-19T15:20:49.793441
+gpt-5.2_baseline_rag,gpt-5.2,rag,34,The New England Patriots.,New England Patriots,True,1023.478,332,65,0.00527,2026-01-19T15:20:50.816934
+gpt-5.2_baseline_rag,gpt-5.2,rag,35,The Arizona Cardinals.,Arizona Cardinals,True,973.01,331,42,0.00457,2026-01-19T15:20:51.789958
+gpt-5.2_baseline_rag,gpt-5.2,rag,36,The New England Patriots.,New England Patriots,True,1041.998,330,56,0.00498,2026-01-19T15:20:52.832014
+gpt-5.2_baseline_rag,gpt-5.2,rag,37,The New England Patriots.,New England Patriots,True,1197.251,328,56,0.00496,2026-01-19T15:20:54.029276
+gpt-5.2_baseline_rag,gpt-5.2,rag,38,4,four,False,1099.5680000000002,332,58,0.00506,2026-01-19T15:20:55.128857
+gpt-5.2_baseline_rag,gpt-5.2,rag,39,Cam Newton,Cam Newton,True,797.876,328,42,0.00454,2026-01-19T15:20:55.926746
+gpt-5.2_baseline_rag,gpt-5.2,rag,40,15–1,15–1,True,966.356,340,51,0.00493,2026-01-19T15:20:56.893125
+gpt-5.2_baseline_rag,gpt-5.2,rag,41,Cam Newton,Cam Newton,True,1089.571,337,58,0.00511,2026-01-19T15:20:57.982709
+gpt-5.2_baseline_rag,gpt-5.2,rag,42,The Denver Broncos finished the 2015 regular season with a **12–4** win–loss record.,12–4,True,1218.966,341,73,0.0056,2026-01-19T15:20:59.201693
+gpt-5.2_baseline_rag,gpt-5.2,rag,43,4,4,True,1057.468,332,58,0.00506,2026-01-19T15:21:00.259197
+gpt-5.2_baseline_rag,gpt-5.2,rag,44,The New England Patriots.,New England Patriots,True,1705.0069999999998,341,86,0.00599,2026-01-19T15:21:01.964252
+gpt-5.2_baseline_rag,gpt-5.2,rag,45,Cam Newton,Cam Newton,True,718.484,328,39,0.00445,2026-01-19T15:21:02.682749
+gpt-5.2_baseline_rag,gpt-5.2,rag,46,Carolina beat the Arizona Cardinals in the NFC Championship Game.,Arizona Cardinals,True,1042.9440000000002,330,50,0.0048,2026-01-19T15:21:03.725704
+gpt-5.2_baseline_rag,gpt-5.2,rag,47,2 times.,2,True,1013.854,332,55,0.00497,2026-01-19T15:21:04.739579
+gpt-5.2_baseline_rag,gpt-5.2,rag,48,The New England Patriots.,New England Patriots,True,1023.706,329,53,0.00488,2026-01-19T15:21:05.763295
+gpt-5.2_baseline_rag,gpt-5.2,rag,49,Cam Newton,Cam Newton,True,1256.952,334,43,0.00463,2026-01-19T15:21:07.020259

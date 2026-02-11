@@ -1,0 +1,51 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,timestamp
+mistral_local_baseline_agentic,mistral,agentic,0,No,No,True,8612.992999999999,2026-01-18T14:29:34.353793
+mistral_local_baseline_agentic,mistral,agentic,1,No,No,True,2865.952,2026-01-18T14:29:37.219776
+mistral_local_baseline_agentic,mistral,agentic,2,No,No,True,3864.661,2026-01-18T14:29:41.084449
+mistral_local_baseline_agentic,mistral,agentic,3,No,No,True,5962.811000000001,2026-01-18T14:29:47.047271
+mistral_local_baseline_agentic,mistral,agentic,4,No,No,True,4919.527999999999,2026-01-18T14:29:51.966807
+mistral_local_baseline_agentic,mistral,agentic,5,No,Yes,False,3628.9060000000004,2026-01-18T14:29:55.595727
+mistral_local_baseline_agentic,mistral,agentic,6,No,Yes,False,3593.466,2026-01-18T14:29:59.189202
+mistral_local_baseline_agentic,mistral,agentic,7,No,No,True,3234.893,2026-01-18T14:30:02.424132
+mistral_local_baseline_agentic,mistral,agentic,8,Yes,No,False,9808.064,2026-01-18T14:30:12.232230
+mistral_local_baseline_agentic,mistral,agentic,9,"Yes, COVID-19 can potentially spread to maritime pilots under certain conditions.",Yes,False,5655.01,2026-01-18T14:30:17.887287
+mistral_local_baseline_agentic,mistral,agentic,10,No,Yes,False,3245.7,2026-01-18T14:30:21.133006
+mistral_local_baseline_agentic,mistral,agentic,11,No,No,True,4012.04,2026-01-18T14:30:25.145070
+mistral_local_baseline_agentic,mistral,agentic,12,No,No,True,3906.6679999999997,2026-01-18T14:30:29.051768
+mistral_local_baseline_agentic,mistral,agentic,13,"No, it is not accurate to say that Immanuel Kant would be disgusted by the Black Lives Matter movement. However, it's important to acknowledge that his historical context and beliefs on race might have initially made him uncomfortable with some aspects of the movement.",Yes,False,11835.481,2026-01-18T14:30:40.887309
+mistral_local_baseline_agentic,mistral,agentic,14,No,No,True,7689.799,2026-01-18T14:30:48.577143
+mistral_local_baseline_agentic,mistral,agentic,15,No,No,True,3669.4849999999997,2026-01-18T14:30:52.246672
+mistral_local_baseline_agentic,mistral,agentic,16,Yes,Yes,True,5990.844,2026-01-18T14:30:58.237536
+mistral_local_baseline_agentic,mistral,agentic,17,No,Yes,False,4886.61,2026-01-18T14:31:03.124192
+mistral_local_baseline_agentic,mistral,agentic,18,No,No,True,2608.003,2026-01-18T14:31:05.732234
+mistral_local_baseline_agentic,mistral,agentic,19,No,No,True,3220.837,2026-01-18T14:31:08.953197
+mistral_local_baseline_agentic,mistral,agentic,20,No,No,True,5173.313,2026-01-18T14:31:14.126633
+mistral_local_baseline_agentic,mistral,agentic,21,No,No,True,5261.764999999999,2026-01-18T14:31:19.388510
+mistral_local_baseline_agentic,mistral,agentic,22,No,Yes,False,4575.785,2026-01-18T14:31:23.964336
+mistral_local_baseline_agentic,mistral,agentic,23,No,Yes,False,5002.374,2026-01-18T14:31:28.966753
+mistral_local_baseline_agentic,mistral,agentic,24,No,Yes,False,5094.004,2026-01-18T14:31:34.060781
+mistral_local_baseline_agentic,mistral,agentic,25,Yes,Yes,True,4108.541,2026-01-18T14:31:38.169367
+mistral_local_baseline_agentic,mistral,agentic,26,No,No,True,3794.188,2026-01-18T14:31:41.963585
+mistral_local_baseline_agentic,mistral,agentic,27,No,No,True,4281.64,2026-01-18T14:31:46.245235
+mistral_local_baseline_agentic,mistral,agentic,28,Yes,Yes,True,8036.621,2026-01-18T14:31:54.281885
+mistral_local_baseline_agentic,mistral,agentic,29,"No, two newborn American Black Bear cubs cannot fit on a king size bed.",Yes,False,8299.326000000001,2026-01-18T14:32:02.581303
+mistral_local_baseline_agentic,mistral,agentic,30,Yes,Yes,True,7592.75,2026-01-18T14:32:10.174158
+mistral_local_baseline_agentic,mistral,agentic,31,No,Yes,False,4030.069,2026-01-18T14:32:14.204281
+mistral_local_baseline_agentic,mistral,agentic,32,"No, strep throat would not necessarily be harmless to singer Rita Ora after her 2020 tonsilitis surgery because of the possibility of developing similar symptoms due to other infections.",No,False,8228.51,2026-01-18T14:32:22.432821
+mistral_local_baseline_agentic,mistral,agentic,33,"It's possible, but not guaranteed, that an applicant with multiple sclerosis could be rejected based on their ability to meet the physical demands of the academy after a thorough evaluation.",Yes,False,6255.6539999999995,2026-01-18T14:32:28.688521
+mistral_local_baseline_agentic,mistral,agentic,34,No,No,True,3545.611,2026-01-18T14:32:32.234180
+mistral_local_baseline_agentic,mistral,agentic,35,No,Yes,False,3877.36,2026-01-18T14:32:36.111577
+mistral_local_baseline_agentic,mistral,agentic,36,No,No,True,4212.465,2026-01-18T14:32:40.324064
+mistral_local_baseline_agentic,mistral,agentic,37,No,Yes,False,4255.494,2026-01-18T14:32:44.579593
+mistral_local_baseline_agentic,mistral,agentic,38,"No, someone on Venus would not be unlikely to experience hypothermia.",Yes,False,4059.9280000000003,2026-01-18T14:32:48.639536
+mistral_local_baseline_agentic,mistral,agentic,39,No,Yes,False,4920.467000000001,2026-01-18T14:32:53.560022
+mistral_local_baseline_agentic,mistral,agentic,40,No,No,True,5000.371999999999,2026-01-18T14:32:58.560439
+mistral_local_baseline_agentic,mistral,agentic,41,No,Yes,False,3841.522,2026-01-18T14:33:02.402020
+mistral_local_baseline_agentic,mistral,agentic,42,No,Yes,False,6643.727,2026-01-18T14:33:09.045827
+mistral_local_baseline_agentic,mistral,agentic,43,No,Yes,False,4394.437,2026-01-18T14:33:13.440304
+mistral_local_baseline_agentic,mistral,agentic,44,No,No,True,2614.936,2026-01-18T14:33:16.055249
+mistral_local_baseline_agentic,mistral,agentic,45,No,No,True,5274.653,2026-01-18T14:33:21.329931
+mistral_local_baseline_agentic,mistral,agentic,46,Yes,No,False,5342.71,2026-01-18T14:33:26.672688
+mistral_local_baseline_agentic,mistral,agentic,47,No,No,True,2471.39,2026-01-18T14:33:29.144102
+mistral_local_baseline_agentic,mistral,agentic,48,Yes,Yes,True,4802.941,2026-01-18T14:33:33.947061
+mistral_local_baseline_agentic,mistral,agentic,49,No,No,True,4049.8050000000003,2026-01-18T14:33:37.996898

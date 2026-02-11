@@ -1,0 +1,51 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,input_tokens,output_tokens,api_cost_usd,timestamp
+gpt-5.2_baseline_qa,gpt-5.2,qa,0,Yes—both were American.,yes,False,1150.806,178,51,0.0033099999999999996,2026-01-18T13:52:18.496005
+gpt-5.2_baseline_qa,gpt-5.2,qa,1,United States Ambassador to Ghana,Chief of Protocol,False,2113.587,187,110,0.00517,2026-01-18T13:52:20.609624
+gpt-5.2_baseline_qa,gpt-5.2,qa,2,*Animorphs* (with the companion *Animorphs Chronicles* books),Animorphs,False,2263.1389999999997,196,114,0.00538,2026-01-18T13:52:22.872784
+gpt-5.2_baseline_qa,gpt-5.2,qa,3,"No, they are in different neighborhoods (Laleli in Fatih vs. Ortaköy in Beşiktaş).",no,False,1839.256,182,103,0.0049099999999999994,2026-01-18T13:52:24.712075
+gpt-5.2_baseline_qa,gpt-5.2,qa,4,New York City,"Greenwich Village, New York City",False,1017.538,185,48,0.0032900000000000004,2026-01-18T13:52:25.729641
+gpt-5.2_baseline_qa,gpt-5.2,qa,5,YG Entertainment,YG Entertainment,True,1950.423,186,60,0.00366,2026-01-18T13:52:27.680081
+gpt-5.2_baseline_qa,gpt-5.2,qa,6,Aladin Jallad,Eenasul Fateh,False,1845.943,185,85,0.0044,2026-01-18T13:52:29.526059
+gpt-5.2_baseline_qa,gpt-5.2,qa,7,"6,677","3,677 seated",False,1528.3210000000001,185,59,0.00362,2026-01-18T13:52:31.054442
+gpt-5.2_baseline_qa,gpt-5.2,qa,8,Terry Richardson,Terry Richardson,True,1025.279,176,58,0.0034999999999999996,2026-01-18T13:52:32.079739
+gpt-5.2_baseline_qa,gpt-5.2,qa,9,Yes—both Local H and For Against are from the United States.,yes,False,1526.277,178,68,0.00382,2026-01-18T13:52:33.606039
+gpt-5.2_baseline_qa,gpt-5.2,qa,10,I’m a Jayhawk,Kansas Song,False,1444.126,197,64,0.00389,2026-01-18T13:52:35.050183
+gpt-5.2_baseline_qa,gpt-5.2,qa,11,David Diamond,David Weissman,False,1896.565,189,106,0.00507,2026-01-18T13:52:36.946773
+gpt-5.2_baseline_qa,gpt-5.2,qa,12,1999,1999,True,1654.4019999999998,190,78,0.004240000000000001,2026-01-18T13:52:38.601200
+gpt-5.2_baseline_qa,gpt-5.2,qa,13,Yes—both are commercial real estate (office buildings).,no,False,1775.359,183,80,0.00423,2026-01-18T13:52:40.376583
+gpt-5.2_baseline_qa,gpt-5.2,qa,14,1986–2013,from 1986 to 2013,False,1839.77,180,66,0.0037800000000000004,2026-01-18T13:52:42.216385
+gpt-5.2_baseline_qa,gpt-5.2,qa,15,"About 334,000,000 inhabitants.","9,984",False,1931.9660000000001,183,78,0.00417,2026-01-18T13:52:44.148373
+gpt-5.2_baseline_qa,gpt-5.2,qa,16,North Atlantic Conference (NAC),the North Atlantic Conference,False,1344.1380000000001,195,64,0.0038699999999999997,2026-01-18T13:52:45.492547
+gpt-5.2_baseline_qa,gpt-5.2,qa,17,"Yes, both Giuseppe Verdi and Ambroise Thomas are opera composers.",yes,False,2086.1580000000004,179,91,0.00452,2026-01-18T13:52:47.578716
+gpt-5.2_baseline_qa,gpt-5.2,qa,18,1969–1974,1969 until 1974,False,3678.306,192,72,0.00408,2026-01-18T13:52:51.257041
+gpt-5.2_baseline_qa,gpt-5.2,qa,19,Robert Erskine Childers,Robert Erskine Childers DSC,False,1507.335,182,69,0.00389,2026-01-18T13:52:52.764467
+gpt-5.2_baseline_qa,gpt-5.2,qa,20,Pedro Rodríguez,Pedro Rodríguez,True,1535.0919999999999,189,72,0.00405,2026-01-18T13:52:54.299586
+gpt-5.2_baseline_qa,gpt-5.2,qa,21,Sonic the Hedgehog,Sonic,False,2153.7320000000004,182,72,0.00398,2026-01-18T13:52:56.453342
+gpt-5.2_baseline_qa,gpt-5.2,qa,22,"A keyboard (e.g., the Mac’s keyboard).",keyboard function keys,False,1580.746,188,74,0.0040999999999999995,2026-01-18T13:52:58.034119
+gpt-5.2_baseline_qa,gpt-5.2,qa,23,Badly Drawn Boy,Badly Drawn Boy,True,2145.722,187,74,0.00409,2026-01-18T13:53:00.179872
+gpt-5.2_baseline_qa,gpt-5.2,qa,24,IFFHS World’s Best Goalkeeper (1992),World's Best Goalkeeper,False,1165.847,189,64,0.00381,2026-01-18T13:53:01.345749
+gpt-5.2_baseline_qa,gpt-5.2,qa,25,Lee Hazlewood.,Barton Lee Hazlewood,False,1187.259,187,56,0.00355,2026-01-18T13:53:02.533030
+gpt-5.2_baseline_qa,gpt-5.2,qa,26,1968,1838,False,1401.408,200,74,0.00422,2026-01-18T13:53:03.934451
+gpt-5.2_baseline_qa,gpt-5.2,qa,27,"Yes, both Dictyosperma and Huernia are genera.",yes,False,1405.74,183,72,0.0039900000000000005,2026-01-18T13:53:05.340240
+gpt-5.2_baseline_qa,gpt-5.2,qa,28,Henry J. Kaiser,Henry J. Kaiser,True,1787.725,189,63,0.0037800000000000004,2026-01-18T13:53:07.127985
+gpt-5.2_baseline_qa,gpt-5.2,qa,29,Solo adventure,Arena of Khazan,False,1201.274,190,59,0.00367,2026-01-18T13:53:08.329288
+gpt-5.2_baseline_qa,gpt-5.2,qa,30,"Poison never released an album called “Shut Up, Make Love,” so it has no release date.",2000,False,2551.6079999999997,181,137,0.00592,2026-01-18T13:53:10.880922
+gpt-5.2_baseline_qa,gpt-5.2,qa,31,"Japan (Fujioka, Gunma Prefecture).","Fujioka, Gunma",False,1651.676,184,58,0.00358,2026-01-18T13:53:12.532623
+gpt-5.2_baseline_qa,gpt-5.2,qa,32,Charles Nungesser and François Coli,Charles Eugène,False,1738.4360000000001,180,69,0.00387,2026-01-18T13:53:14.271091
+gpt-5.2_baseline_qa,gpt-5.2,qa,33,"No—Freakonomics is American, but In the Realm of the Hackers is German.",no,False,1535.265,182,86,0.0044,2026-01-18T13:53:15.806390
+gpt-5.2_baseline_qa,gpt-5.2,qa,34,Neither—both Letters to Cleo and Screaming Trees had four members.,Letters to Cleo,False,1862.8590000000002,182,103,0.0049099999999999994,2026-01-18T13:53:17.669274
+gpt-5.2_baseline_qa,gpt-5.2,qa,35,1922,October 1922,False,2354.556,189,96,0.00477,2026-01-18T13:53:20.023858
+gpt-5.2_baseline_qa,gpt-5.2,qa,36,2000,2000,True,1414.04,187,55,0.0035199999999999997,2026-01-18T13:53:21.437928
+gpt-5.2_baseline_qa,gpt-5.2,qa,37,World War II,World War II,True,1229.26,188,49,0.0033499999999999997,2026-01-18T13:53:22.667216
+gpt-5.2_baseline_qa,gpt-5.2,qa,38,No—only Gerald R. Ford International Airport is in Michigan; Elko Regional Airport is in Nevada.,no,False,1420.1299999999999,183,74,0.00405,2026-01-18T13:53:24.087378
+gpt-5.2_baseline_qa,gpt-5.2,qa,39,New York City,New York City,True,1041.439,185,44,0.00317,2026-01-18T13:53:25.128844
+gpt-5.2_baseline_qa,gpt-5.2,qa,40,Scotch Collie,Scotch Collie,True,1636.814,185,75,0.0040999999999999995,2026-01-18T13:53:26.765689
+gpt-5.2_baseline_qa,gpt-5.2,qa,41,"Redmond, Washington, United States.",Mumbai,False,1532.326,184,81,0.00427,2026-01-18T13:53:28.298046
+gpt-5.2_baseline_qa,gpt-5.2,qa,42,1962,1962,True,1538.836,196,64,0.0038799999999999998,2026-01-18T13:53:29.836911
+gpt-5.2_baseline_qa,gpt-5.2,qa,43,Ethiopia’s independence (its sovereignty from Italian colonization).,sovereignty,False,1947.298,182,88,0.00446,2026-01-18T13:53:31.784243
+gpt-5.2_baseline_qa,gpt-5.2,qa,44,Hubert H. Humphrey,Nelson Rockefeller,False,1234.087,193,63,0.00382,2026-01-18T13:53:33.018364
+gpt-5.2_baseline_qa,gpt-5.2,qa,45,the Firth of Forth,Yellowcraig,False,1611.26,189,70,0.0039900000000000005,2026-01-18T13:53:34.629651
+gpt-5.2_baseline_qa,gpt-5.2,qa,46,Ellie Greenwich,Phil Spector,False,2361.775,195,95,0.0048000000000000004,2026-01-18T13:53:36.991436
+gpt-5.2_baseline_qa,gpt-5.2,qa,47,An international forum (the State of the World Forum).,Organizations could come together to address global issues,False,1527.353,178,73,0.00397,2026-01-18T13:53:38.518821
+gpt-5.2_baseline_qa,gpt-5.2,qa,48,Yes—Ferocactus (a cactus genus) and Silene (a flowering plant genus) are both types of plant.,yes,False,1752.379,178,79,0.004149999999999999,2026-01-18T13:53:40.271230
+gpt-5.2_baseline_qa,gpt-5.2,qa,49,Bristol Brigand,English Electric Canberra,False,1436.973,187,66,0.00385,2026-01-18T13:53:41.708226

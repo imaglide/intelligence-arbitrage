@@ -1,0 +1,89 @@
+{
+  "self": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "passage": "Henry Daniel Mills is a fictional character in ABC's television series Once Upon a Time. Henry is the boy Emma Swan gave up to adoption; Regina Mills adopted him. Henry was originally portrayed as a child by Jared S. Gilmore, who won the Young Artist Award for Best Performance in a TV Series -- Leading Young Actor in 2012. For the show's seventh and final season, Andrew J. West later took over the role of Henry as an adult and father to a eight-year-old girl named Lucy, with Gilmore also making three appearances as Henry during the season.",
+        "question": "did henry die in once upon a time",
+        "reasoning": "The passage provides information about Henry Daniel Mills' character in \"Once Upon a Time,\" including his portrayal by different actors over time. It mentions that Jared S. Gilmore played him as a child, and Andrew J. West took over the role for the seventh season when Henry was an adult. The passage also notes that Gilmore made three appearances as Henry during this final season. However, there is no mention of Henry's death in the passage.",
+        "answer": "No"
+      },
+      {
+        "augmented": true,
+        "passage": "Straight Talk offers a variety of prepaid, no contract, phones on their website for use with their plans. Straight Talk also allows customers to bring AT&T, T-Mobile, Sprint, Verizon, or unlocked GSM phones to Straight Talk by buying a SIM card or activation kit and air time from the company. This program does not work with branded Straight Talk, SafeLink, TracFone, Total Wireless, and NET10 phones.",
+        "question": "can i use a tracfone with straight talk service",
+        "reasoning": "The passage states that Straight Talk's program does not work with branded Straight Talk, SafeLink, TracFone, Total Wireless, and NET10 phones. Since TracFone is explicitly mentioned as one of these brands, it implies that a TracFone cannot be used with Straight Talk service.",
+        "answer": "No"
+      },
+      {
+        "augmented": true,
+        "passage": "The following is the list of teams to overcome 3--1 series deficits by winning three straight games to win a best-of-seven playoff series. In the history of major North American pro sports, teams that were down 3--1 in the series came back and won the series 52 times, more than half of them were accomplished by National Hockey League (NHL) teams. Teams overcame 3--1 deficit in the final championship round eight times, six were accomplished by Major League Baseball (MLB) teams in the World Series. Teams overcoming 3--0 deficit by winning four straight games were accomplished five times, four times in the NHL and once in MLB.",
+        "question": "has any nba team ever come back from 3-0 in playoffs",
+        "reasoning": "The passage provides information about teams overcoming 3--1 series deficits in major North American pro sports, specifically mentioning accomplishments by NHL and MLB teams. It also mentions instances of teams coming back from a 3--0 deficit by winning four straight games, with all such occurrences being in the NHL and once in MLB. There is no mention of any NBA team overcoming a 3--0 series deficit.",
+        "answer": "No"
+      },
+      {
+        "passage": "The longest game by innings in Major League Baseball was a 1--1 tie in the National League between the Boston Braves and the Brooklyn Robins in 26 innings, at Braves Field in Boston on May 1, 1920. It had become too dark to see the ball (fields did not have lights yet and the sun was setting), and the game was considered a draw. Played rapidly by modern standards, those 26 innings were completed in 3 hours and 50 minutes. As was the custom, the first pitch was thrown at 3:00 p.m.; home plate umpire Barry McCormick called the game as lights began appearing in the windows of buildings across the Charles River, just before 7:00 p.m.",
+        "question": "has a mlb game ever ended in a tie",
+        "answer": "Yes"
+      },
+      {
+        "passage": "Kava or kava kava or Piper methysticum (Latin ``pepper'' and Latinized Greek ``intoxicating'') is a crop of the Pacific Islands. The name kava(-kava) is from Tongan and Marquesan, meaning ``bitter''; other names for kava include \u02bbawa (Hawai\u02bbi), \u02bbava (Samoa), yaqona (Fiji), sakau (Pohnpei), and malok or malogu (parts of Vanuatu). Kava is consumed throughout the Pacific Ocean cultures of Polynesia, including Hawaii and Vanuatu, and Melanesia and some parts of Micronesia for its sedating effects.",
+        "question": "is there a difference between kava and kava kava",
+        "answer": "No"
+      }
+    ],
+    "signature": {
+      "instructions": "Answer the question based on the passage with a simple Yes or No.",
+      "fields": [
+        {
+          "prefix": "Passage:",
+          "description": "Context passage"
+        },
+        {
+          "prefix": "Question:",
+          "description": "Question about the passage"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Yes or No"
+        }
+      ]
+    },
+    "extended_signature": {
+      "instructions": "As an expert linguist specializing in text analysis, your task is to determine whether specific statements in a question are supported by a given context. You need to provide your answer as \"Yes\" or \"No,\" along with reasoning that outlines the logical steps you took based on the information within the passage. Make sure your explanation reflects careful consideration of the details presented.",
+      "fields": [
+        {
+          "prefix": "Passage:",
+          "description": "Context passage"
+        },
+        {
+          "prefix": "Question:",
+          "description": "Question about the passage"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Yes or No"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11.6",
+      "dspy": "2.6.27",
+      "cloudpickle": "3.1.2"
+    }
+  }
+}

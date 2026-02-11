@@ -1,0 +1,74 @@
+{
+  "self": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "question": "Emma's bank account has $100 in it. Each day of the week, she spends $8. At the end of the week, she goes to the bank and asks for as many $5 bills as her account can give her. She leaves the rest in the account. How many dollars remain in the account?",
+        "reasoning": "1. Emma starts with $100 in her bank account.\n2. She spends $8 each day for 7 days, which totals to $8 * 7 = $56.\n3. After spending, the remaining balance in her account is $100 - $56 = $44.\n4. She goes to the bank to withdraw as many $5 bills as possible from the $44.\n5. The number of $5 bills she can get is $44 \u00f7 $5 = 8 (since 8 * $5 = $40).\n6. After withdrawing $40, the remaining balance in her account is $44 - $40 = $4.",
+        "answer": "4"
+      },
+      {
+        "augmented": true,
+        "question": "Don throws 3 darts.  One is a bullseye worth 50 points.  One completely missed the target, so received no points. The third was worth half the points of the bullseye.  What is the final score from these 3 throws?",
+        "reasoning": "Don's first dart is a bullseye worth 50 points. The second dart completely missed the target, so it is worth 0 points. The third dart is worth half the points of the bullseye, which is 50 \/ 2 = 25 points. To find the final score, we add the points from all three darts: 50 (bullseye) + 0 (missed) + 25 (half bullseye) = 75 points.",
+        "answer": "75"
+      },
+      {
+        "question": "Mimi picked up 2 dozen seashells on the beach.  Kyle found twice as many shells as Mimi and put them in his pocket. Leigh grabbed one-third of the shells that Kyle found.  How many seashells did Leigh have?",
+        "answer": "16"
+      },
+      {
+        "question": "Olaf collects colorful toy cars. At first, his collection consisted of 150 cars. His family, knowing his hobby, decided to give him some toy cars. Grandpa gave Olaf twice as many toy cars as the uncle. Dad gave Olaf 10 toy cars, 5 less than Mum. Auntie gave Olaf 6 toy cars, 1 more than the uncle. How many toy cars does Olaf have in total, after receiving all these gifts?",
+        "answer": "196"
+      },
+      {
+        "question": "Ezekiel hikes as a hobby. This past summer, he did a challenging three-day hike across 50 kilometers of wilderness. The first day, he covered 10 kilometers of steep mountainside. The second day was flatter and he was able to cover half the full hike distance. How many kilometers did he have to hike on the third day to finish the hike?",
+        "answer": "15"
+      }
+    ],
+    "signature": {
+      "instructions": "Solve the math word problem. Give the reasoning steps and the final answer.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Reasoning:",
+          "description": "Step-by-step calculation"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "The final numerical answer"
+        }
+      ]
+    },
+    "extended_signature": {
+      "instructions": "Carefully read the math word problem provided. Break it down into logical reasoning steps, detailing each calculation and thought process. Provide a clear and concise explanation of how each part of the problem is solved to arrive at the solution. Finally, present the final numerical answer. Ensure that your explanation is complete and easy to follow, demonstrating how keywords and context from the problem are used in the calculations.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Reasoning:",
+          "description": "Step-by-step calculation"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "The final numerical answer"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11.6",
+      "dspy": "2.6.27",
+      "cloudpickle": "3.1.2"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,timestamp
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,0,The Denver Broncos represented the AFC at Super Bowl 50.,Denver Broncos,True,10006.018,2026-01-19T15:43:05.605350
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,1,The NFL team that represented the NFC at Super Bowl 50 was the Carolina Panthers.,Carolina Panthers,True,3974.313,2026-01-19T15:43:09.579702
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,2,"Super Bowl 50 took place at Levi's Stadium in Santa Clara, California.","Santa Clara, California",True,3188.9280000000003,2026-01-19T15:43:12.768692
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,3,The Denver Broncos won Super Bowl 50.,Denver Broncos,True,3374.572,2026-01-19T15:43:16.143288
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,4,Gold was used to emphasize the 50th anniversary of the Super Bowl.,gold,True,2992.663,2026-01-19T15:43:19.135973
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,5,"The theme of Super Bowl 50 was the golden anniversary, celebrating its 50th edition with gold-themed initiatives.","""golden anniversary""",False,4209.526000000001,2026-01-19T15:43:23.345541
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,6,"February 7, 2016","February 7, 2016",True,2508.299,2026-01-19T15:43:25.853873
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,7,American Football Conference (AFC),American Football Conference,True,2963.715,2026-01-19T15:43:28.817621
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,8,"The theme of Super Bowl 50 was the golden anniversary, celebrating its 50th edition with gold-themed initiatives.","""golden anniversary""",False,2.199,2026-01-19T15:43:28.819895
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,9,AFC stands for American Football Conference.,American Football Conference,True,3419.238,2026-01-19T15:43:32.239142
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,10,"February 7, 2016","February 7, 2016",True,2518.036,2026-01-19T15:43:34.757194
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,11,Denver Broncos,Denver Broncos,True,3077.903,2026-01-19T15:43:37.835148
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,12,Levi's Stadium,Levi's Stadium,True,3141.502,2026-01-19T15:43:40.977010
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,13,Santa Clara,Santa Clara,True,2653.677,2026-01-19T15:43:43.630732
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,14,"Super Bowl 50 would have been called ""Super Bowl L"" if Roman numerals were used.",Super Bowl L,True,3802.966,2026-01-19T15:43:47.433718
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,15,Super Bowl 50 decided the NFL champion for the 2015 season.,2015,True,3284.981,2026-01-19T15:43:50.718723
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,16,"In 2016, the Denver Broncos secured a Super Bowl title for the third time.",2015,False,4991.924,2026-01-19T15:43:55.710699
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,17,Santa Clara,Santa Clara,True,1.021,2026-01-19T15:43:55.711755
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,18,Levi's Stadium,Levi's Stadium,True,3033.517,2026-01-19T15:43:58.745285
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,19,"The final score of Super Bowl 50 was Denver Broncos 24, Carolina Panthers 10.",24–10,False,3911.018,2026-01-19T15:44:02.656325
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,20,"Super Bowl 50 took place on February 7, 2016.","February 7, 2016",True,3419.433,2026-01-19T15:44:06.075796
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,21,2016,2015,False,2880.743,2026-01-19T15:44:08.956571
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,22,The AFC champion was the Denver Broncos.,Denver Broncos,True,2919.391,2026-01-19T15:44:11.875977
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,23,The NFC champion team was the Carolina Panthers.,Carolina Panthers,True,3089.0460000000003,2026-01-19T15:44:14.965088
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,24,Denver Broncos,Denver Broncos,True,0.524,2026-01-19T15:44:14.965668
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,25,Super Bowl 50 determined the NFL champion for the 2015 season.,2015,True,3269.055,2026-01-19T15:44:18.234733
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,26,The Denver Broncos won Super Bowl 50.,Denver Broncos,True,3448.237,2026-01-19T15:44:21.683011
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,27,"Super Bowl 50 was held at Levi's Stadium in Santa Clara, California.","Santa Clara, California.",True,3159.994,2026-01-19T15:44:24.843054
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,28,Super Bowl,Super Bowl,True,3377.418,2026-01-19T15:44:28.220500
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,29,The Denver Broncos,Denver Broncos,True,3680.604,2026-01-19T15:44:31.901223
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,30,Cam Newton,Cam Newton,True,3484.302,2026-01-19T15:44:35.385711
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,31,8,8,True,2353.691,2026-01-19T15:44:37.739633
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,32,1995,1995,True,2438.475,2026-01-19T15:44:40.178148
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,33,The Panthers defeated the Arizona Cardinals.,Arizona Cardinals,True,2494.88,2026-01-19T15:44:42.673070
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,34,The Broncos prevented the New England Patriots from going to the Super Bowl.,New England Patriots,True,3346.4010000000003,2026-01-19T15:44:46.019535
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,35,The Panthers beat the Arizona Cardinals in the NFC Championship Game.,Arizona Cardinals,True,2523.3500000000004,2026-01-19T15:44:48.542901
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,36,The New England Patriots lost to the Broncos in the AFC Championship.,New England Patriots,True,2645.328,2026-01-19T15:44:51.188245
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,37,The defending Super Bowl champions were the New England Patriots.,New England Patriots,True,3488.3959999999997,2026-01-19T15:44:54.676662
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,38,4,four,False,3227.245,2026-01-19T15:44:57.903954
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,39,Cam Newton,Cam Newton,True,2382.2230000000004,2026-01-19T15:45:00.286206
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,40,The win/loss ratio for the Carolina Panthers during their regular season in 2015 was 15/16.,15–1,False,7057.715,2026-01-19T15:45:07.343973
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,41,Cam Newton,Cam Newton,True,2698.06,2026-01-19T15:45:10.042074
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,42,The win/loss game stats for the Denver Broncos' regular season in 2015 were 12 wins and 4 losses.,12–4,False,3356.463,2026-01-19T15:45:13.398558
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,43,4,4,True,3230.0930000000003,2026-01-19T15:45:16.628685
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,44,The New England Patriots,New England Patriots,True,3320.367,2026-01-19T15:45:19.949078
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,45,Cam Newton,Cam Newton,True,2148.669,2026-01-19T15:45:22.097795
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,46,Carolina beat the Arizona Cardinals in the NFC championship game.,Arizona Cardinals,True,2518.289,2026-01-19T15:45:24.616094
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,47,The Panthers have been in the Super Bowl twice.,2,False,3504.436,2026-01-19T15:45:28.120544
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,48,Denver beat the New England Patriots in the AFC championship.,New England Patriots,True,2571.919,2026-01-19T15:45:30.692472
+qwen2.5:7b_local_baseline_rag,qwen2.5:7b,rag,49,Cam Newton,Cam Newton,True,2355.631,2026-01-19T15:45:33.048116

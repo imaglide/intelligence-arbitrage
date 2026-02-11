@@ -1,0 +1,101 @@
+{
+  "gpt-4o": {
+    "agentic": 0.82,
+    "analysis": 0.78,
+    "classification": 0.56,
+    "code": 0.76,
+    "extraction": 0.46,
+    "math": 0.68,
+    "qa": 0.32,
+    "rag": 0.88,
+    "synthesis": 0.4328
+  },
+  "gpt-4o-mini": {
+    "agentic": 0.86,
+    "analysis": 0.84,
+    "classification": 0.3,
+    "code": 0.92,
+    "extraction": 0.48,
+    "math": 0.52,
+    "qa": 0.14,
+    "rag": 0.88,
+    "synthesis": 0.4277
+  },
+  "gpt-5.2": {
+    "agentic": 0.86,
+    "analysis": 0.88,
+    "classification": 0.64,
+    "code": 0.9,
+    "extraction": 0.44,
+    "math": 0.9,
+    "qa": 0.22,
+    "rag": 0.88,
+    "synthesis": 0.3986
+  },
+  "gpt-5.2-chat-latest": {
+    "agentic": 0.92,
+    "analysis": 0.84,
+    "classification": 0.72,
+    "code": 0.9,
+    "extraction": 0.52,
+    "math": 0.32,
+    "qa": 0.3,
+    "rag": 0.84,
+    "synthesis": 0.4027
+  },
+  "llama3.2": {
+    "agentic": 0.66,
+    "analysis": 0.68,
+    "classification": 0.28,
+    "code": 0.68,
+    "extraction": 0.5,
+    "math": 0.4,
+    "qa": 0.0,
+    "rag": 0.82,
+    "synthesis": 0.4488
+  },
+  "llama3.2_3b": {
+    "agentic": 0.66,
+    "analysis": 0.68,
+    "classification": 0.28,
+    "code": 0.68,
+    "extraction": 0.5,
+    "math": 0.4,
+    "qa": 0.0,
+    "rag": 0.82,
+    "synthesis": 0.4488
+  },
+  "mistral": {
+    "agentic": 0.56,
+    "analysis": 0.76,
+    "classification": 0.1,
+    "code": 0.56,
+    "extraction": 0.5,
+    "math": 0.02,
+    "qa": 0.0,
+    "rag": 0.84,
+    "synthesis": 0.4455
+  },
+  "phi4": {
+    "agentic": 0.74,
+    "analysis": 0.8,
+    "classification": 0.26,
+    "code": 0.9,
+    "extraction": 0.52,
+    "math": 0.48,
+    "qa": 0.08,
+    "rag": 0.86,
+    "synthesis": 0.4123
+  },
+  "qwen2.5_7b": {
+    "agentic": 0.74,
+    "analysis": 0.78,
+    "classification": 0.18,
+    "code": 0.84,
+    "extraction": 0.4,
+    "math": 0.36,
+    "qa": 0.1,
+    "rag": 0.82,
+    "synthesis": 0.4315
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "self": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "text": "Res - Karl Fairbank , Lee Crooks",
+        "entities": "{\"PER\": [\"Karl Fairbank\", \"Lee Crooks\"], \"ORG\": [], \"LOC\": [], \"MISC\": []}"
+      },
+      {
+        "text": "Communes of the Moselle department",
+        "entities": "{\"PER\": [], \"ORG\": [], \"LOC\": [\"Communes of the Moselle department\"], \"MISC\": []}"
+      },
+      {
+        "text": "' '' Jim Meskimen '' '",
+        "entities": "{\"PER\": [\"Jim Meskimen\"], \"ORG\": [], \"LOC\": [], \"MISC\": []}"
+      },
+      {
+        "text": "Adolf Hitler ( the F\u00fchrer ) ( Nazi Party )",
+        "entities": "{\"PER\": [\"Adolf Hitler\", \"F\\u00fchrer\"], \"ORG\": [\"Nazi Party\"], \"LOC\": [], \"MISC\": []}"
+      },
+      {
+        "text": "Cap-d'Ail , France ( H )",
+        "entities": "{\"PER\": [], \"ORG\": [], \"LOC\": [\"Cap-d'Ail\", \"France\"], \"MISC\": []}"
+      }
+    ],
+    "signature": {
+      "instructions": "Extract named entities from the text. Return entities as a JSON object with keys: PER (persons), ORG (organizations), LOC (locations), MISC (miscellaneous).",
+      "fields": [
+        {
+          "prefix": "Text:",
+          "description": "Text to extract entities from"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Entities:",
+          "description": "JSON object with keys PER, ORG, LOC, MISC, each containing a list of entity strings"
+        }
+      ]
+    },
+    "extended_signature": {
+      "instructions": "Extract named entities from the given text. Categorize them into persons (PER), organizations (ORG), locations (LOC), or miscellaneous (MISC). Return your result as a JSON object with keys: PER, ORG, LOC, MISC, each containing lists of entity strings identified in the text.",
+      "fields": [
+        {
+          "prefix": "Text:",
+          "description": "Text to extract entities from"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Entities:",
+          "description": "JSON object with keys PER, ORG, LOC, MISC, each containing a list of entity strings"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11.6",
+      "dspy": "2.6.27",
+      "cloudpickle": "3.1.2"
+    }
+  }
+}

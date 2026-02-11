@@ -1,0 +1,325 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,timestamp
+phi4_local_baseline_extraction,phi4,extraction,0,"{
+    ""PER"": [],
+    ""ORG"": [""Adyar""],
+    ""LOC"": [""India""],
+    ""MISC"": []
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""India"", ""Adyar""], ""MISC"": []}",True,13160.745,2026-01-18T16:15:58.604562
+phi4_local_baseline_extraction,phi4,extraction,1,"{
+    ""PER"": [""Kanye West"", ""Jamie Foxx""],
+    ""ORG"": [],
+    ""LOC"": [],
+    ""MISC"": []
+}","{""PER"": [""Kanye West"", ""Jamie Foxx""], ""ORG"": [""Gold Digger""], ""LOC"": [], ""MISC"": []}",True,4302.204,2026-01-18T16:16:02.907119
+phi4_local_baseline_extraction,phi4,extraction,2,"{
+    ""PER"": [""Hewitson""],
+    ""ORG"": [],
+    ""LOC"": [],
+    ""MISC"": [""Mycalesis perseus lalassis"", ""1864""]
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""Mycalesis perseus lalassis""], ""MISC"": []}",False,5014.9220000000005,2026-01-18T16:16:07.922266
+phi4_local_baseline_extraction,phi4,extraction,3,"{
+  ""PER"": [""Jonny Lee Miller"", ""Eli Stone""],
+  ""ORG"": [],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [""Jonny Lee Miller""], ""ORG"": [""Eli Stone""], ""LOC"": [], ""MISC"": []}",True,4165.73,2026-01-18T16:16:12.090120
+phi4_local_baseline_extraction,phi4,extraction,4,"{
+  ""PER"": [],
+  ""ORG"": [""United States""],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [""Admission to the bar in the United States""], ""LOC"": [], ""MISC"": []}",False,3553.823,2026-01-18T16:16:15.643994
+phi4_local_baseline_extraction,phi4,extraction,5,"{
+    ""PER"": [""Willy Unger""],
+    ""ORG"": [],
+    ""LOC"": [],
+    ""MISC"": []
+}","{""PER"": [""Willy Unger""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",True,3705.746,2026-01-18T16:16:19.349785
+phi4_local_baseline_extraction,phi4,extraction,6,"{
+  ""PER"": [],
+  ""ORG"": [],
+  ""LOC"": [""Palermo""],
+  ""MISC"": [""Palermo Cathedral""]
+}","{""PER"": [], ""ORG"": [""Palermo Cathedral""], ""LOC"": [], ""MISC"": []}",False,4038.286,2026-01-18T16:16:23.388110
+phi4_local_baseline_extraction,phi4,extraction,7,"{
+  ""PER"": [
+    ""Ryan Atwood"",
+    ""Seth Cohen"",
+    ""Marissa Cooper"",
+    ""Summer Roberts"",
+    ""Kaitlin Cooper"",
+    ""Luke Ward"",
+    ""Taylor Townsend"",
+    ""Alex Kelly"",
+    ""Caleb Nichol"",
+    ""Julie Cooper"",
+    ""Freddie Benson"",
+    ""George Williams"",
+    ""Kenny"",
+    ""Sandy Cohen"",
+    "" Kirsten Cohen"",
+    ""Martha Plimpton""
+  ],
+  ""ORG"": [],
+  ""LOC"": [
+    ""The O.C.""
+  ],
+  ""MISC"": []
+}","{""PER"": [""List of The O.C. characters""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",False,11946.83,2026-01-18T16:16:35.335147
+phi4_local_baseline_extraction,phi4,extraction,8,"{
+  ""PER"": [],
+  ""ORG"": [""Cardiff Royal Infirmary""],
+  ""LOC"": [""Roath"", ""Cardiff""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [""Cardiff Royal Infirmary""], ""LOC"": [""Roath , Cardiff""], ""MISC"": []}",False,4784.899,2026-01-18T16:16:40.120251
+phi4_local_baseline_extraction,phi4,extraction,9,"{
+    ""PER"": [""Roger Houdet""],
+    ""ORG"": [],
+    ""LOC"": [],
+    ""MISC"": []
+}","{""PER"": [""Roger Houdet""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",True,3981.366,2026-01-18T16:16:44.103466
+phi4_local_baseline_extraction,phi4,extraction,10,"{
+  ""PER"": [],
+  ""ORG"": [""Oz""],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [""List of Oz ( TV series ) characters""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",False,3582.065,2026-01-18T16:16:47.685571
+phi4_local_baseline_extraction,phi4,extraction,11,"{
+    ""PER"": [""Jack"", ""Diane"", ""John Mellencamp""],
+    ""ORG"": [],
+    ""LOC"": [],
+    ""MISC"": []
+}","{""PER"": [""John Mellencamp""], ""ORG"": [""Jack and Diane""], ""LOC"": [], ""MISC"": []}",False,4323.063999999999,2026-01-18T16:16:52.008665
+phi4_local_baseline_extraction,phi4,extraction,12,"{
+  ""PER"": [],
+  ""ORG"": [],
+  ""LOC"": [
+    ""Antarctic"",
+    ""sub-Antarctic islands""
+  ],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [""List of Antarctic and sub-Antarctic islands""], ""LOC"": [], ""MISC"": []}",False,4675.2919999999995,2026-01-18T16:16:56.683996
+phi4_local_baseline_extraction,phi4,extraction,13,"{
+  ""PER"": [],
+  ""ORG"": [""1st Foreign Legion Cavalry Regiment""],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [""1st Foreign Legion Cavalry Regiment""], ""LOC"": [], ""MISC"": []}",True,3972.435,2026-01-18T16:17:00.656469
+phi4_local_baseline_extraction,phi4,extraction,14,"{
+    ""PER"": [""John Reid""],
+    ""ORG"": [],
+    ""LOC"": [],
+    ""MISC"": []
+}","{""PER"": [""John Reid""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",True,3557.776,2026-01-18T16:17:04.214307
+phi4_local_baseline_extraction,phi4,extraction,15,"{
+  ""PER"": [""Manuel 'Flaco' Ibáñez""],
+  ""ORG"": [],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [""Manuel `` Flaco '' Ib\u00e1\u00f1ez""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",False,4395.825999999999,2026-01-18T16:17:08.610227
+phi4_local_baseline_extraction,phi4,extraction,16,"```json
+{
+    ""PER"": [],
+    ""ORG"": [""Moments and Mine""],
+    ""LOC"": [],
+    ""MISC"": []
+}
+```","{""PER"": [], ""ORG"": [""Moments and Mine""], ""LOC"": [], ""MISC"": []}",True,4178.033,2026-01-18T16:17:12.788607
+phi4_local_baseline_extraction,phi4,extraction,17,"{
+  ""PER"": [],
+  ""ORG"": [""Akritas Chlorakas""],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [""Akritas Chlorakas""], ""LOC"": [], ""MISC"": []}",True,3879.385,2026-01-18T16:17:16.668036
+phi4_local_baseline_extraction,phi4,extraction,18,"{
+    ""PER"": [],
+    ""ORG"": [""Farmers' Almanac""],
+    ""LOC"": [],
+    ""MISC"": []
+}","{""PER"": [], ""ORG"": [""Farmers ' Almanac""], ""LOC"": [], ""MISC"": []}",False,3894.482,2026-01-18T16:17:20.562576
+phi4_local_baseline_extraction,phi4,extraction,19,"{
+    ""PER"": [],
+    ""ORG"": [""Kuomintang""],
+    ""LOC"": [""Tianjin""],
+    ""MISC"": []
+}","{""PER"": [], ""ORG"": [""Kuomintang""], ""LOC"": [""Tianjin""], ""MISC"": []}",True,4141.139,2026-01-18T16:17:24.704704
+phi4_local_baseline_extraction,phi4,extraction,20,"{
+  ""PER"": [],
+  ""ORG"": [],
+  ""LOC"": [""Peru""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""Peru""], ""MISC"": []}",True,3558.0080000000003,2026-01-18T16:17:28.262928
+phi4_local_baseline_extraction,phi4,extraction,21,"{
+  ""PER"": [""Han Suyin""],
+  ""ORG"": [],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [""Han Suyin""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",True,3702.51,2026-01-18T16:17:31.965485
+phi4_local_baseline_extraction,phi4,extraction,22,"{
+    ""PER"": [""Bishop John J. Kinney""],
+    ""ORG"": [],
+    ""LOC"": [""Bismarck"", ""Saint Cloud""],
+    ""MISC"": []
+}","{""PER"": [""Bishop John J. Kinney""], ""ORG"": [], ""LOC"": [""Bishop of Bismarck"", ""Bishop of Saint Cloud""], ""MISC"": []}",False,4978.048000000001,2026-01-18T16:17:36.943569
+phi4_local_baseline_extraction,phi4,extraction,23,"{
+  ""PER"": [""Wilson""],
+  ""ORG"": [],
+  ""LOC"": [""Eau Claire County"", ""Wisconsin""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""Wilson , Eau Claire County , Wisconsin""], ""MISC"": []}",False,4547.264,2026-01-18T16:17:41.490901
+phi4_local_baseline_extraction,phi4,extraction,24,"{
+  ""PER"": [],
+  ""ORG"": [""Sydney Theatre Company""],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [""Sydney Theatre Company""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",False,3835.456,2026-01-18T16:17:45.328564
+phi4_local_baseline_extraction,phi4,extraction,25,"{
+    ""PER"": [],
+    ""ORG"": [],
+    ""LOC"": [],
+    ""MISC"": [""Time Well Wasted""]
+}","{""PER"": [], ""ORG"": [""Time Well Wasted""], ""LOC"": [], ""MISC"": []}",False,3706.964,2026-01-18T16:17:49.035568
+phi4_local_baseline_extraction,phi4,extraction,26,"{
+  ""PER"": [],
+  ""ORG"": [""Jhansi""],
+  ""LOC"": [""JHS""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [""Jhansi""], ""LOC"": [], ""MISC"": []}",True,3885.182,2026-01-18T16:17:52.920800
+phi4_local_baseline_extraction,phi4,extraction,27,"{
+    ""PER"": [],
+    ""ORG"": [""Kashiwa Reysol"", ""Jeonbuk Hyundai Motors""],
+    ""LOC"": [],
+    ""MISC"": []
+}","{""PER"": [], ""ORG"": [""Kashiwa Reysol"", ""Jeonbuk Hyundai Motors""], ""LOC"": [], ""MISC"": []}",True,4753.0960000000005,2026-01-18T16:17:57.673945
+phi4_local_baseline_extraction,phi4,extraction,28,"{
+  ""PER"": [],
+  ""ORG"": [],
+  ""LOC"": [""Merritt Island"", ""Florida""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""Merritt Island , Florida""], ""MISC"": []}",False,3997.419,2026-01-18T16:18:01.671415
+phi4_local_baseline_extraction,phi4,extraction,29,"{
+  ""PER"": [],
+  ""ORG"": [""Roman Catholic Archdiocese of Edmonton""],
+  ""LOC"": [""Edmonton""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""Roman Catholic Archdiocese of Edmonton""], ""MISC"": []}",False,4314.003,2026-01-18T16:18:05.985495
+phi4_local_baseline_extraction,phi4,extraction,30,"{
+    ""PER"": [],
+    ""ORG"": [""St. Louis Rams""],
+    ""LOC"": [],
+    ""MISC"": []
+}","{""PER"": [], ""ORG"": [""St. Louis Rams""], ""LOC"": [], ""MISC"": []}",True,4192.399,2026-01-18T16:18:10.178000
+phi4_local_baseline_extraction,phi4,extraction,31,"{
+    ""PER"": [""Jean Colombera""],
+    ""ORG"": [""Chamber of Deputies"", ""Alternative Democratic Reform Party""],
+    ""LOC"": [],
+    ""MISC"": []
+}","{""PER"": [""Jean Colombera""], ""ORG"": [""Chamber of Deputies"", ""Alternative Democratic Reform Party"", ""2009 election""], ""LOC"": [], ""MISC"": []}",True,5176.695,2026-01-18T16:18:15.354754
+phi4_local_baseline_extraction,phi4,extraction,32,"{
+    ""PER"": [""Ashley Tappin"", ""Erin Phenix"", ""Courtney Shealy"", ""Amy Van Dyken""],
+    ""ORG"": [],
+    ""LOC"": [],
+    ""MISC"": []
+}","{""PER"": [""Ashley Tappin"", ""Erin Phenix"", ""Courtney Shealy"", ""Amy Van Dyken""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",True,5532.491,2026-01-18T16:18:20.887296
+phi4_local_baseline_extraction,phi4,extraction,33,"{
+  ""PER"": [""Romy Kermer"", ""Rolf""],
+  ""ORG"": [],
+  ""LOC"": [""Österreich""],
+  ""MISC"": []
+}","{""PER"": [""Romy Kermer"", ""Rolf \u00d6sterreich""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",False,4291.532,2026-01-18T16:18:25.178901
+phi4_local_baseline_extraction,phi4,extraction,34,"{
+  ""PER"": [],
+  ""ORG"": [""Gates-Chili High School""],
+  ""LOC"": [""Gates""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [""Gates-Chili High School""], ""LOC"": [""Gates""], ""MISC"": []}",True,4121.805,2026-01-18T16:18:29.300778
+phi4_local_baseline_extraction,phi4,extraction,35,"{
+    ""PER"": [""Riki Lindhome""],
+    ""ORG"": [],
+    ""LOC"": [],
+    ""MISC"": []
+}","{""PER"": [""Riki Lindhome""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",True,3758.993,2026-01-18T16:18:33.059849
+phi4_local_baseline_extraction,phi4,extraction,36,"{
+  ""PER"": [],
+  ""ORG"": [],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [""Raindrops Keep Fallin ' on My Head""], ""LOC"": [], ""MISC"": []}",False,3349.098,2026-01-18T16:18:36.409244
+phi4_local_baseline_extraction,phi4,extraction,37,"{
+    ""PER"": [],
+    ""ORG"": [],
+    ""LOC"": [""Hermanus"", ""Western Cape"", ""South Africa"", ""Israel""],
+    ""MISC"": []
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""Hermanus"", ""Western Cape"", ""South Africa"", ""Israel""], ""MISC"": []}",True,4635.988,2026-01-18T16:18:41.045324
+phi4_local_baseline_extraction,phi4,extraction,38,"{
+    ""PER"": [],
+    ""ORG"": [],
+    ""LOC"": [],
+    ""MISC"": [""Type 1 Diabetes""]
+}","{""PER"": [], ""ORG"": [""Type 1 Diabetes""], ""LOC"": [], ""MISC"": []}",False,3960.926,2026-01-18T16:18:45.006317
+phi4_local_baseline_extraction,phi4,extraction,39,"{
+  ""PER"": [],
+  ""ORG"": [],
+  ""LOC"": [""Earls Court"", ""West Norwood Cemetery""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [""West Norwood Cemetery""], ""LOC"": [""Earls Court""], ""MISC"": []}",True,4206.089999999999,2026-01-18T16:18:49.212770
+phi4_local_baseline_extraction,phi4,extraction,40,"{
+  ""PER"": [],
+  ""ORG"": [""Super Bowl""],
+  ""LOC"": [""XLIX""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [""Super Bowl XLIX""], ""LOC"": [], ""MISC"": []}",False,3813.229,2026-01-18T16:18:53.026051
+phi4_local_baseline_extraction,phi4,extraction,41,"{
+  ""PER"": [],
+  ""ORG"": [""Encash Network Service""],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""Encash Network Service""], ""MISC"": []}",False,3698.33,2026-01-18T16:18:56.724425
+phi4_local_baseline_extraction,phi4,extraction,42,"{
+  ""PER"": [],
+  ""ORG"": [""Turning Stone Casino""],
+  ""LOC"": [""Verona"", ""New York"", ""United States""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [""Turning Stone Casino""], ""LOC"": [""Verona , New York"", ""United States""], ""MISC"": []}",True,4553.683999999999,2026-01-18T16:19:01.278162
+phi4_local_baseline_extraction,phi4,extraction,43,"{
+  ""PER"": [],
+  ""ORG"": [""Crown""],
+  ""LOC"": [""Monongalia County"", ""West Virginia""],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""Crown , Monongalia County , West Virginia""], ""MISC"": []}",False,4310.496,2026-01-18T16:19:05.588762
+phi4_local_baseline_extraction,phi4,extraction,44,"{
+  ""PER"": [""Tang Yik Chun"", ""Lai Chun Ho"", ""Ng Ka Fung"", ""Tsui Chi Ho""],
+  ""ORG"": [],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [""Tang Yik Chun"", ""Lai Chun Ho"", ""Ng Ka Fung"", ""Tsui Chi Ho""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",True,5303.825,2026-01-18T16:19:10.892754
+phi4_local_baseline_extraction,phi4,extraction,45,"{
+    ""PER"": [""Prince""],
+    ""ORG"": [],
+    ""LOC"": [],
+    ""MISC"": []
+}","{""PER"": [""Prince""], ""ORG"": [""1999""], ""LOC"": [], ""MISC"": []}",True,3471.138,2026-01-18T16:19:14.363939
+phi4_local_baseline_extraction,phi4,extraction,46,"{
+    ""PER"": [""Heathcliff""],
+    ""ORG"": [],
+    ""LOC"": [],
+    ""MISC"": []
+}","{""PER"": [""Heathcliff""], ""ORG"": [], ""LOC"": [], ""MISC"": []}",True,3706.437,2026-01-18T16:19:18.070415
+phi4_local_baseline_extraction,phi4,extraction,47,"{
+  ""PER"": [],
+  ""ORG"": [""Galician Academy""],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [""Galician Academy""], ""LOC"": [], ""MISC"": []}",True,3619.566,2026-01-18T16:19:21.690103
+phi4_local_baseline_extraction,phi4,extraction,48,"{
+    ""PER"": [],
+    ""ORG"": [""Fabricius""],
+    ""LOC"": [],
+    ""MISC"": [""Thysanoplusia orichalcea""]
+}","{""PER"": [], ""ORG"": [], ""LOC"": [""Thysanoplusia orichalcea""], ""MISC"": []}",False,4640.523,2026-01-18T16:19:26.331183
+phi4_local_baseline_extraction,phi4,extraction,49,"{
+  ""PER"": [""George III""],
+  ""ORG"": [],
+  ""LOC"": [],
+  ""MISC"": []
+}","{""PER"": [], ""ORG"": [""George III"", ""Chaplain-in-Ordinary""], ""LOC"": [], ""MISC"": []}",False,3812.222,2026-01-18T16:19:30.143998

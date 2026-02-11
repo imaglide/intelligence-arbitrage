@@ -1,0 +1,51 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,timestamp
+mistral_local_baseline_math,mistral,math,0,$18,18,False,5831.926,2026-01-18T14:48:31.392529
+mistral_local_baseline_math,mistral,math,1,The total number of bolts required for a robe is 3 bolts.,3,False,4238.625,2026-01-18T14:48:35.631185
+mistral_local_baseline_math,mistral,math,2,"$42,000",70000,False,8316.589,2026-01-18T14:48:43.947857
+mistral_local_baseline_math,mistral,math,3,540 meters,540,False,5234.948,2026-01-18T14:48:49.182875
+mistral_local_baseline_math,mistral,math,4,Wendi needs to give her chickens 20 cups of feed in the final meal of the day.,20,False,10763.786,2026-01-18T14:48:59.946700
+mistral_local_baseline_math,mistral,math,5,$64,64,False,11795.35,2026-01-18T14:49:11.742088
+mistral_local_baseline_math,mistral,math,6,"The total number of sheep in Toulouse, Charleston, and Seattle is 260.",260,False,9959.787,2026-01-18T14:49:21.701916
+mistral_local_baseline_math,mistral,math,7,It takes Carla 80 minutes to download the file after the interruption.,160,False,9767.111,2026-01-18T14:49:31.469069
+mistral_local_baseline_math,mistral,math,8,John is 475 miles from home at the end of those 4 hours.,45,False,10234.496,2026-01-18T14:49:41.703601
+mistral_local_baseline_math,mistral,math,9,$460,460,False,6656.856000000001,2026-01-18T14:49:48.360488
+mistral_local_baseline_math,mistral,math,10,The program had a total of 394 downloads over the three months.,366,False,8908.421,2026-01-18T14:49:57.268924
+mistral_local_baseline_math,mistral,math,11,$794,694,False,7486.983,2026-01-18T14:50:04.755937
+mistral_local_baseline_math,mistral,math,12,It will take Carlos 3 years before he starts earning money on the lemon tree.,13,False,14329.972,2026-01-18T14:50:19.085949
+mistral_local_baseline_math,mistral,math,13,x = 20,18,False,9494.132,2026-01-18T14:50:28.580114
+mistral_local_baseline_math,mistral,math,14,The percentage of the entire students enrolled in hip-hop dance is 60%.,60,False,12118.081,2026-01-18T14:50:40.698231
+mistral_local_baseline_math,mistral,math,15,"The merchant would make a profit of $8,096 by choosing electronic gadgets.",125,False,12553.781,2026-01-18T14:50:53.252045
+mistral_local_baseline_math,mistral,math,16,Each train covers a total of 230 miles in two days.,230,False,7630.143,2026-01-18T14:51:00.882321
+mistral_local_baseline_math,mistral,math,17,"$57,500",57500,False,8125.182000000001,2026-01-18T14:51:09.007542
+mistral_local_baseline_math,mistral,math,18,Claire will eat 6 dozens of eggs in 4 weeks.,7,False,7828.819,2026-01-18T14:51:16.836398
+mistral_local_baseline_math,mistral,math,19,Marissa needs to walk the remaining distance at a speed of 4 miles per hour.,6,False,10778.911,2026-01-18T14:51:27.615340
+mistral_local_baseline_math,mistral,math,20,The final amount of water in the remaining 24 liters is 15.00 liters.,15,False,14403.821,2026-01-18T14:51:42.019210
+mistral_local_baseline_math,mistral,math,21,2 years ago,14,False,5420.056,2026-01-18T14:51:47.439314
+mistral_local_baseline_math,mistral,math,22,Billy sold 6 DVDs on Tuesday.,7,False,8003.145,2026-01-18T14:51:55.442476
+mistral_local_baseline_math,mistral,math,23,The candle will be 8 centimeters shorter after burning from 1:00 PM to 5:00 PM.,8,False,6894.302,2026-01-18T14:52:02.336814
+mistral_local_baseline_math,mistral,math,24,The original price of the book was $24.00.,26,False,7104.776,2026-01-18T14:52:09.441622
+mistral_local_baseline_math,mistral,math,25,Marie ordered approximately 2 boxes of pizza.,2,False,9512.083,2026-01-18T14:52:18.953758
+mistral_local_baseline_math,mistral,math,26,$243,243,False,8301.701,2026-01-18T14:52:27.255498
+mistral_local_baseline_math,mistral,math,27,$16,16,False,8133.884,2026-01-18T14:52:35.389418
+mistral_local_baseline_math,mistral,math,28,Henry did not travel any miles between his first and second stops.,25,False,8320.198,2026-01-18T14:52:43.709653
+mistral_local_baseline_math,mistral,math,29,The cost of the boots is one dollar more than the cost of one pair of high heels.,104,False,19279.108,2026-01-18T14:53:02.988804
+mistral_local_baseline_math,mistral,math,30,Allen's age 10 years from now is approximately 9645.73 years.,109,False,19725.857,2026-01-18T14:53:22.714691
+mistral_local_baseline_math,mistral,math,31,Their average guess is approximately 83.33 jelly beans.,80,False,9109.856,2026-01-18T14:53:31.824597
+mistral_local_baseline_math,mistral,math,32,John spends 35 hours per week taking care of dogs.,35,False,9011.409,2026-01-18T14:53:40.836047
+mistral_local_baseline_math,mistral,math,33,Gretchen has 70 gold coins.,70,False,11709.913,2026-01-18T14:53:52.546001
+mistral_local_baseline_math,mistral,math,34,29,23,False,10322.486,2026-01-18T14:54:02.868532
+mistral_local_baseline_math,mistral,math,35,9 points,9,False,8253.463,2026-01-18T14:54:11.122029
+mistral_local_baseline_math,mistral,math,36,The total amount Terry spends on yogurt over 30 days is $75.00,75,False,9199.381,2026-01-18T14:54:20.321457
+mistral_local_baseline_math,mistral,math,37,"There is an error in the given information or there are additional expenses that were not accounted for, so it's impossible to determine how many lego sets John still has based on the provided data.",2,False,9186.687,2026-01-18T14:54:29.508176
+mistral_local_baseline_math,mistral,math,38,John runs at a speed of 20 miles per hour.,10,False,9191.033,2026-01-18T14:54:38.699241
+mistral_local_baseline_math,mistral,math,39,"The final answer is that Dana can travel 18W miles in six hours if she spends one-third of the time running and two-thirds of the time walking. Since we don't have a specific value for W, the answer remains as an expression: 18W miles.",18,False,13898.227,2026-01-18T14:54:52.597544
+mistral_local_baseline_math,mistral,math,40,Brandon's iPhone is 8 years old.,8,False,6201.241,2026-01-18T14:54:58.798818
+mistral_local_baseline_math,mistral,math,41,Polly can stand 200 feet outside of the reach of the dragon's flames and still hit the dragon with the gold javelin when holding the sapphire gemstone.,200,False,9454.017,2026-01-18T14:55:08.252856
+mistral_local_baseline_math,mistral,math,42,26,26,True,6647.463,2026-01-18T14:55:14.900354
+mistral_local_baseline_math,mistral,math,43,You can eat approximately 50 grams of chips.,48,False,16170.936000000002,2026-01-18T14:55:31.071307
+mistral_local_baseline_math,mistral,math,44,The net profit is $20.00.,20,False,9206.66,2026-01-18T14:55:40.278015
+mistral_local_baseline_math,mistral,math,45,104 hours,104,False,9382.12,2026-01-18T14:55:49.660174
+mistral_local_baseline_math,mistral,math,46,"The number of Post-it notes in the package is 48, and the number of Post-it notes she used at work is 317.",163,False,13964.907,2026-01-18T14:56:03.625128
+mistral_local_baseline_math,mistral,math,47,The total amount spent on ties is $84b dollars.,800,False,9577.1,2026-01-18T14:56:13.202286
+mistral_local_baseline_math,mistral,math,48,8 pieces,8,False,7431.71,2026-01-18T14:56:20.634047
+mistral_local_baseline_math,mistral,math,49,30 units,30,False,7189.599,2026-01-18T14:56:27.823668

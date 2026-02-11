@@ -1,0 +1,72 @@
+{
+  "self": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "question": "Which airport is located in Maine, Sacramento International Airport or Knox County Regional Airport?",
+        "reasoning": "Sacramento International Airport is located in Sacramento, California. Knox County Regional Airport, on the other hand, is located in Maine. Specifically, it serves Rockland, which is part of Knox County.",
+        "answer": "Knox County Regional Airport"
+      },
+      {
+        "question": "Sir Thomas Kyriell was executed after which battle from the Wars of the Roses?",
+        "answer": "Second Battle of St Albans"
+      },
+      {
+        "question": "What event occured at the Red Bull Arena in Salzburg, Austria and Switzerland in 2008?",
+        "answer": "UEFA Euro 2008"
+      },
+      {
+        "question": "Peter Hobbs founded the company that is based in what town in Manchester?",
+        "answer": "Failsworth"
+      },
+      {
+        "question": "Were both Gabriela Mistral and G. K. Chesterton authors?",
+        "answer": "yes"
+      }
+    ],
+    "signature": {
+      "instructions": "Answer the question based on common knowledge or context.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Short answer to the question"
+        }
+      ]
+    },
+    "extended_signature": {
+      "instructions": "**\n\nTo improve upon the basic instruction of answering factual questions based on common knowledge or context, let's create a more engaging and structured approach. This new instruction includes an emphasis on clarity, step-by-step reasoning demonstration, and confirmation for accuracy:\n\n\"Utilize your broad reservoirs of general knowledge and logical deduction to answer fact-based questions accurately. Break down the information into clear steps: (1) Identify specific keywords or context provided in the question. (2) Utilize relevant facts from memory or infer logical connections based on common knowledge. (3) Offer a brief, reasoned explanation that demonstrates understanding before giving your final answer.\"\n\nFor instance, when given questions about locations of airports, authorship verification, or distinguishing cities within particular geographies:\n- For **location-based queries** like identifying an airport in Maine, focus on the relevant geographical identifiers and confirm them against known facts.\n- When verifying individuals as authors, explore their biography or contributions to literature to provide a reasoned conclusion.\n\nThis structured format enriches the task by enhancing transparency of the reasoning process while staying true to providing concise factual conclusions.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Short answer to the question"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11.6",
+      "dspy": "2.6.27",
+      "cloudpickle": "3.1.2"
+    }
+  }
+}

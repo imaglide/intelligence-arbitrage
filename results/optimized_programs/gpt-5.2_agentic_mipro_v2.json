@@ -1,0 +1,49 @@
+{
+  "self": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Answer the question that requires multi-step reasoning. Give the Answer as Yes or No.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Reasoning:",
+          "description": "Step-by-step reasoning"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Yes or No"
+        }
+      ]
+    },
+    "extended_signature": {
+      "instructions": "Answer the question that requires multi-step reasoning. Give the Answer as Yes or No.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Reasoning:",
+          "description": "Step-by-step reasoning"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Yes or No"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11.6",
+      "dspy": "2.6.27",
+      "cloudpickle": "3.1.2"
+    }
+  }
+}

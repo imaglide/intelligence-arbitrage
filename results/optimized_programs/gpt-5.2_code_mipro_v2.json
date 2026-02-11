@@ -1,0 +1,49 @@
+{
+  "self": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Complete the python function based on the docstring.",
+      "fields": [
+        {
+          "prefix": "Prompt:",
+          "description": "Function signature and docstring"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Completion:",
+          "description": "The implementation code"
+        }
+      ]
+    },
+    "extended_signature": {
+      "instructions": "Complete the python function based on the docstring.",
+      "fields": [
+        {
+          "prefix": "Prompt:",
+          "description": "Function signature and docstring"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Completion:",
+          "description": "The implementation code"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11.6",
+      "dspy": "2.6.27",
+      "cloudpickle": "3.1.2"
+    }
+  }
+}

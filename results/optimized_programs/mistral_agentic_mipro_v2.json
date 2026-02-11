@@ -1,0 +1,74 @@
+{
+  "self": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "question": "If you bottle your own milk, would there be cream on top of it?",
+        "reasoning": "When milk is not homogenized, cream rises to the top due to its higher fat content. Bottling your own milk without homogenization would result in cream on top of it.",
+        "answer": "Yes"
+      },
+      {
+        "augmented": true,
+        "question": "Can a strawberry get worms similar to dogs?",
+        "reasoning": "Strawberries can host larvae of certain fruit flies, which are often mistaken for worms. These larvae can infest strawberries and other fruits, but they are not true worms like those that affect dogs.",
+        "answer": "Yes"
+      },
+      {
+        "question": "Can Hulk's alter ego explain atomic events?",
+        "answer": "Yes"
+      },
+      {
+        "question": "Is Menthol associated with Thanksgiving?",
+        "answer": "No"
+      },
+      {
+        "question": "Has Ringo Starr been in a relatively large number of bands?",
+        "answer": "No"
+      }
+    ],
+    "signature": {
+      "instructions": "Answer the question that requires multi-step reasoning. Give the Answer as Yes or No.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Reasoning:",
+          "description": "Step-by-step reasoning"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Yes or No"
+        }
+      ]
+    },
+    "extended_signature": {
+      "instructions": "Prompt a Language Model by providing it with detailed information to support its reasoning process and offer a clear yes\/no answer. Encourage multi-step thinking and relevant, concise responses that demonstrate understanding of complex topics:\n\n\"Question provided: 'Question: $[question]'. Generate step-by-step reasoning: '[Reasoning]' and final answer: 'Answer: $[answer]' for the question.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Reasoning:",
+          "description": "Step-by-step reasoning"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Yes or No"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11.6",
+      "dspy": "2.6.27",
+      "cloudpickle": "3.1.2"
+    }
+  }
+}

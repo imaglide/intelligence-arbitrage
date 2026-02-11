@@ -1,0 +1,49 @@
+{
+  "self": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Summarize the document into a concise one-sentence summary.",
+      "fields": [
+        {
+          "prefix": "Document:",
+          "description": "News article or document"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Summary:",
+          "description": "One-sentence summary"
+        }
+      ]
+    },
+    "extended_signature": {
+      "instructions": "Summarize the document into a concise one-sentence summary.",
+      "fields": [
+        {
+          "prefix": "Document:",
+          "description": "News article or document"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Summary:",
+          "description": "One-sentence summary"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11.6",
+      "dspy": "2.6.27",
+      "cloudpickle": "3.1.2"
+    }
+  }
+}

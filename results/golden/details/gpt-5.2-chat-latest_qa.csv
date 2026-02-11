@@ -1,0 +1,51 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,input_tokens,output_tokens,api_cost_usd,timestamp
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,0,"Yes, both Scott Derrickson and Ed Wood were American.",yes,False,3200.8390000000004,178,143,0.0,2026-01-19T15:38:59.372910
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,1,She served as a United States Ambassador.,Chief of Protocol,False,4558.406,187,224,0.0,2026-01-19T15:39:03.931369
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,2,*Animorphs* by K. A. Applegate,Animorphs,False,4955.769,196,259,0.0,2026-01-19T15:39:08.888436
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,3,"No, they are not located in the same neighborhood.",no,False,2859.429,182,171,0.0,2026-01-19T15:39:11.747943
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,4,New York City,"Greenwich Village, New York City",False,9823.643,256,189,0.0,2026-01-19T15:39:21.572172
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,5,YG Entertainment,YG Entertainment,True,3666.443,186,136,0.0,2026-01-19T15:39:25.243819
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,6,Alain de Botton,Eenasul Fateh,False,27472.293,256,829,0.0,2026-01-19T15:39:52.717113
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,7,"3,677 people","3,677 seated",False,4471.269,185,198,0.0,2026-01-19T15:39:57.196459
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,8,Terry Richardson,Terry Richardson,True,2477.641,176,64,0.0,2026-01-19T15:39:59.677320
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,9,"Yes, both Local H and For Against are from the United States.",yes,False,3639.755,178,136,0.0,2026-01-19T15:40:03.319580
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,10,I'm a Jayhawk,Kansas Song,False,3767.583,197,138,0.0,2026-01-19T15:40:07.087533
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,11,David Diamond,David Weissman,False,10702.03,260,283,0.0,2026-01-19T15:40:17.790771
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,12,1999,1999,True,6294.6,190,280,0.0,2026-01-19T15:40:24.092473
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,13,"Yes, both are used as commercial office real estate.",no,False,5159.682,183,269,0.0,2026-01-19T15:40:29.254128
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,14,1986 to 2013,from 1986 to 2013,False,3850.947,180,185,0.0,2026-01-19T15:40:33.105171
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,15,Approximately 330 million inhabitants,"9,984",False,2827.906,183,136,0.0,2026-01-19T15:40:35.933163
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,16,North Atlantic Conference,the North Atlantic Conference,False,3813.142,195,198,0.0,2026-01-19T15:40:39.746464
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,17,Yes,yes,True,2374.2670000000003,179,91,0.0,2026-01-19T15:40:42.120986
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,18,1969 to 1974,1969 until 1974,False,4518.518,192,257,0.0,2026-01-19T15:40:46.639879
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,19,Robert Erskine Childers,Robert Erskine Childers DSC,False,3608.727,182,187,0.0,2026-01-19T15:40:50.251591
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,20,Pedro Rodríguez,Pedro Rodríguez,True,3283.739,189,145,0.0,2026-01-19T15:40:53.535877
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,21,Mr. Hedgehog,Sonic,False,9151.928,182,478,0.0,2026-01-19T15:41:02.688173
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,22,A keyboard,keyboard function keys,False,5171.006,188,247,0.0,2026-01-19T15:41:07.861226
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,23,Badly Drawn Boy,Badly Drawn Boy,True,5998.273,187,275,0.0,2026-01-19T15:41:13.862540
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,24,World’s Best Goalkeeper,World's Best Goalkeeper,False,3262.991,189,206,0.0,2026-01-19T15:41:17.126190
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,25,Lee Hazlewood,Barton Lee Hazlewood,False,2555.363,187,119,0.0,2026-01-19T15:41:19.682881
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,26,1838,1838,True,3584.631,200,203,0.0,2026-01-19T15:41:23.267619
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,27,"Yes, both Dictyosperma and Huernia are described as a genus.",yes,False,2466.554,183,140,0.0,2026-01-19T15:41:25.734267
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,28,Henry J. Kaiser,Henry J. Kaiser,True,4756.414000000001,189,263,0.0,2026-01-19T15:41:30.490988
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,29,Buffalo Castle,Arena of Khazan,False,5887.67,190,334,0.0,2026-01-19T15:41:36.378814
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,30,"Poison never released an album titled *Shut Up, Make Love*, so there is no release date.",2000,False,9603.853,181,610,0.0,2026-01-19T15:41:45.982873
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,31,Japan (Gunma Prefecture),"Fujioka, Gunma",False,3283.47,184,125,0.0,2026-01-19T15:41:49.273010
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,32,Charles Nungesser (with navigator François Coli),Charles Eugène,False,4619.262,180,210,0.0,2026-01-19T15:41:53.894645
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,33,No,no,True,7806.683999999999,182,455,0.0,2026-01-19T15:42:01.701517
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,34,Neither—both Letters to Cleo and Screaming Trees had four members.,Letters to Cleo,False,4050.271,182,216,0.0,2026-01-19T15:42:05.752634
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,35,1921,October 1922,False,3325.942,189,138,0.0,2026-01-19T15:42:09.078809
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,36,2000,2000,True,4640.159,187,271,0.0,2026-01-19T15:42:13.719066
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,37,World War II,World War II,True,2441.5710000000004,188,133,0.0,2026-01-19T15:42:16.160709
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,38,No,no,True,1924.459,183,62,0.0,2026-01-19T15:42:18.085476
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,39,New York City,New York City,True,10471.752,256,246,0.0,2026-01-19T15:42:28.557313
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,40,The Scotch Collie,Scotch Collie,False,4978.887000000001,185,258,0.0,2026-01-19T15:42:33.536260
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,41,"Armonk, New York, United States",Mumbai,False,5918.938,184,333,0.0,2026-01-19T15:42:39.455275
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,42,1962,1962,True,3016.721,196,203,0.0,2026-01-19T15:42:42.472090
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,43,It secured Ethiopia’s independence and sovereignty.,sovereignty,False,4169.602,182,197,0.0,2026-01-19T15:42:46.641766
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,44,Hubert H. Humphrey,Nelson Rockefeller,False,4844.3589999999995,193,290,0.0,2026-01-19T15:42:51.486185
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,45,The Firth of Forth,Yellowcraig,False,4290.893,189,279,0.0,2026-01-19T15:42:55.777128
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,46,Phil Spector,Phil Spector,True,4544.423,195,274,0.0,2026-01-19T15:43:00.321564
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,47,A world political forum,Organizations could come together to address global issues,False,3672.875,178,213,0.0,2026-01-19T15:43:03.994507
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,48,"Yes, both Ferocactus and Silene are types of plants.",yes,False,2912.814,178,193,0.0,2026-01-19T15:43:06.907456
+gpt-5.2-chat-latest_baseline_qa,gpt-5.2-chat-latest,qa,49,None — no British first-generation jet-powered medium bomber was used in the South West Pacific theatre during World War II.,English Electric Canberra,False,4261.121,187,234,0.0,2026-01-19T15:43:11.168632

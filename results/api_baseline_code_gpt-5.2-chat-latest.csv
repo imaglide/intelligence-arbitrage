@@ -1,0 +1,1158 @@
+experiment_id,model,task,example_id,prediction,ground_truth,is_correct,latency_ms,input_tokens,output_tokens,api_cost_usd,timestamp
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,0,"from typing import List
+
+
+def has_close_elements(numbers: List[float], threshold: float) -> bool:
+    """""" Check if in given list of numbers, are any two numbers closer to each other than
+    given threshold.
+    >>> has_close_elements([1.0, 2.0, 3.0], 0.5)
+    False
+    >>> has_close_elements([1.0, 2.8, 3.0, 4.0, 5.0, 2.0], 0.3)
+    True
+    """"""
+    if len(numbers) < 2:
+        return False
+
+    numbers_sorted = sorted(numbers)
+    for i in range(1, len(numbers_sorted)):
+        if numbers_sorted[i] - numbers_sorted[i - 1] < threshold:
+            return True
+
+    return False","    for idx, elem in enumerate(numbers):
+        for idx2, elem2 in enumerate(numbers):
+            if idx != idx2:
+                distance = abs(elem - elem2)
+                if distance < threshold:
+                    return True
+
+    return False
+",True,3827.768,290,309,0.0,2026-01-19T15:24:01.177362
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,1,"```python
+from typing import List
+
+
+def separate_paren_groups(paren_string: str) -> List[str]:
+    """""" Input to this function is a string containing multiple groups of nested parentheses. Your goal is to
+    separate those group into separate strings and return the list of those.
+    Separate groups are balanced (each open brace is properly closed) and not nested within each other
+    Ignore any spaces in the input string.
+    >>> separate_paren_groups('( ) (( )) (( )( ))')
+    ['()', '(())', '(()())']
+    """"""
+    groups: List[str] = []
+    current = []
+    depth = 0
+
+    for ch in paren_string:
+        if ch == ' ':
+            continue
+        if ch == '(':
+            depth += 1
+            current.append(ch)
+        elif ch == ')':
+            current.append(ch)
+            depth -= 1
+            if depth == 0:
+                groups.append(''.join(current))
+                current = []
+
+    return groups
+```","    result = []
+    current_string = []
+    current_depth = 0
+
+    for c in paren_string:
+        if c == '(':
+            current_depth += 1
+            current_string.append(c)
+        elif c == ')':
+            current_depth -= 1
+            current_string.append(c)
+
+            if current_depth == 0:
+                result.append(''.join(current_string))
+                current_string.clear()
+
+    return result
+",True,4927.044000000001,280,403,0.0,2026-01-19T15:24:06.104449
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,2,"```python
+def truncate_number(number: float) -> float:
+    """""" Given a positive floating point number, it can be decomposed into
+    and integer part (largest integer smaller than given number) and decimals
+    (leftover part always smaller than 1).
+
+    Return the decimal part of the number.
+    >>> truncate_number(3.5)
+    0.5
+    """"""
+    return number - int(number)
+```","    return number % 1.0
+",True,3156.647,250,239,0.0,2026-01-19T15:24:09.261140
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,3,"```python
+from typing import List
+
+
+def below_zero(operations: List[int]) -> bool:
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False
+```","    balance = 0
+
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+
+    return False
+",True,2668.9120000000003,283,175,0.0,2026-01-19T15:24:11.930064
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,4,"```python
+from typing import List
+
+
+def mean_absolute_deviation(numbers: List[float]) -> float:
+    """""" For a given list of input numbers, calculate Mean Absolute Deviation
+    around the mean of this dataset.
+    Mean Absolute Deviation is the average absolute difference between each
+    element and a centerpoint (mean in this case):
+    MAD = average | x - x_mean |
+    >>> mean_absolute_deviation([1.0, 2.0, 3.0, 4.0])
+    1.0
+    """"""
+    if not numbers:
+        raise ValueError(""mean_absolute_deviation requires at least one number"")
+
+    mean = sum(numbers) / len(numbers)
+    return sum(abs(x - mean) for x in numbers) / len(numbers)
+```","    mean = sum(numbers) / len(numbers)
+    return sum(abs(x - mean) for x in numbers) / len(numbers)
+",True,4170.798,283,357,0.0,2026-01-19T15:24:16.100893
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,5,"```python
+from typing import List
+
+
+def intersperse(numbers: List[int], delimeter: int) -> List[int]:
+    """""" Insert a number 'delimeter' between every two consecutive elements of input list `numbers'
+    >>> intersperse([], 4)
+    []
+    >>> intersperse([1, 2, 3], 4)
+    [1, 4, 2, 4, 3]
+    """"""
+    if not numbers:
+        return []
+
+    result: List[int] = []
+    for i, num in enumerate(numbers):
+        result.append(num)
+        if i < len(numbers) - 1:
+            result.append(delimeter)
+    return result
+```","    if not numbers:
+        return []
+
+    result = []
+
+    for n in numbers[:-1]:
+        result.append(n)
+        result.append(delimeter)
+
+    result.append(numbers[-1])
+
+    return result
+",True,3507.896,263,253,0.0,2026-01-19T15:24:19.608812
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,6,"```python
+from typing import List
+
+
+def parse_nested_parens(paren_string: str) -> List[int]:
+    """""" Input to this function is a string represented multiple groups for nested parentheses separated by spaces.
+    For each of the group, output the deepest level of nesting of parentheses.
+    E.g. (()()) has maximum two levels of nesting while ((())) has three.
+
+    >>> parse_nested_parens('(()()) ((())) () ((())()())')
+    [2, 3, 1, 3]
+    """"""
+    results: List[int] = []
+
+    for group in paren_string.split():
+        current_depth = 0
+        max_depth = 0
+        for ch in group:
+            if ch == '(':
+                current_depth += 1
+                max_depth = max(max_depth, current_depth)
+            elif ch == ')':
+                current_depth -= 1
+        results.append(max_depth)
+
+    return results
+```","    def parse_paren_group(s):
+        depth = 0
+        max_depth = 0
+        for c in s:
+            if c == '(':
+                depth += 1
+                max_depth = max(depth, max_depth)
+            else:
+                depth -= 1
+
+        return max_depth
+
+    return [parse_paren_group(x) for x in paren_string.split(' ') if x]
+",True,3818.4049999999997,275,288,0.0,2026-01-19T15:24:23.427295
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,7,"from typing import List
+
+
+def filter_by_substring(strings: List[str], substring: str) -> List[str]:
+    """""" Filter an input list of strings only for ones that contain given substring
+    >>> filter_by_substring([], 'a')
+    []
+    >>> filter_by_substring(['abc', 'bacd', 'cde', 'array'], 'a')
+    ['abc', 'bacd', 'array']
+    """"""
+    return [s for s in strings if substring in s]","    return [x for x in strings if substring in x]
+",True,2941.397,258,188,0.0,2026-01-19T15:24:26.368752
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,8,"from typing import List, Tuple
+
+
+def sum_product(numbers: List[int]) -> Tuple[int, int]:
+    """""" For a given list of integers, return a tuple consisting of a sum and a product of all the integers in a list.
+    Empty sum should be equal to 0 and empty product should be equal to 1.
+    >>> sum_product([])
+    (0, 1)
+    >>> sum_product([1, 2, 3, 4])
+    (10, 24)
+    """"""
+    total_sum = 0
+    total_product = 1
+
+    for n in numbers:
+        total_sum += n
+        total_product *= n
+
+    return total_sum, total_product","    sum_value = 0
+    prod_value = 1
+
+    for n in numbers:
+        sum_value += n
+        prod_value *= n
+    return sum_value, prod_value
+",True,3161.9030000000002,275,268,0.0,2026-01-19T15:24:29.530672
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,9,"def rolling_max(numbers: List[int]) -> List[int]:
+    """""" From a given list of integers, generate a list of rolling maximum element found until given moment
+    in the sequence.
+    >>> rolling_max([1, 2, 3, 2, 3, 4, 2])
+    [1, 2, 3, 3, 3, 4, 4]
+    """"""
+    result: List[int] = []
+    current_max = None
+
+    for num in numbers:
+        if current_max is None or num > current_max:
+            current_max = num
+        result.append(current_max)
+
+    return result","    running_max = None
+    result = []
+
+    for n in numbers:
+        if running_max is None:
+            running_max = n
+        else:
+            running_max = max(running_max, n)
+
+        result.append(running_max)
+
+    return result
+",True,2981.613,265,226,0.0,2026-01-19T15:24:32.512305
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,10,"```python
+def make_palindrome(string: str) -> str:
+    """""" Find the shortest palindrome that begins with a supplied string.
+    Algorithm idea is simple:
+    - Find the longest postfix of supplied string that is a palindrome.
+    - Append to the end of the string reverse of a string prefix that comes before the palindromic suffix.
+    >>> make_palindrome('')
+    ''
+    >>> make_palindrome('cat')
+    'catac'
+    >>> make_palindrome('cata')
+    'catac'
+    """"""
+    n = len(string)
+    for i in range(n):
+        suffix = string[i:]
+        if is_palindrome(suffix):
+            return string + string[:i][::-1]
+    return string
+```","    if not string:
+        return ''
+
+    beginning_of_suffix = 0
+
+    while not is_palindrome(string[beginning_of_suffix:]):
+        beginning_of_suffix += 1
+
+    return string + string[:beginning_of_suffix][::-1]
+",False,4210.4169999999995,306,313,0.0,2026-01-19T15:24:36.722738
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,11,"def string_xor(a: str, b: str) -> str:
+    """""" Input are two strings a and b consisting only of 1s and 0s.
+    Perform binary XOR on these inputs and return result also as a string.
+    >>> string_xor('010', '110')
+    '100'
+    """"""
+    return ''.join('1' if x != y else '0' for x, y in zip(a, b))","    def xor(i, j):
+        if i == j:
+            return '0'
+        else:
+            return '1'
+
+    return ''.join(xor(x, y) for x, y in zip(a, b))
+",True,3475.237,243,225,0.0,2026-01-19T15:24:40.198050
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,12,"from typing import List, Optional
+
+
+def longest(strings: List[str]) -> Optional[str]:
+    """""" Out of list of strings, return the longest one. Return the first one in case of multiple
+    strings of the same length. Return None in case the input list is empty.
+    >>> longest([])
+
+    >>> longest(['a', 'b', 'c'])
+    'a'
+    >>> longest(['a', 'bb', 'ccc'])
+    'ccc'
+    """"""
+    if not strings:
+        return None
+    return max(strings, key=len)","    if not strings:
+        return None
+
+    maxlen = max(len(x) for x in strings)
+    for s in strings:
+        if len(s) == maxlen:
+            return s
+",True,4601.634,267,311,0.0,2026-01-19T15:24:44.799714
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,13,"```python
+def greatest_common_divisor(a: int, b: int) -> int:
+    """""" Return a greatest common divisor of two integers a and b
+    >>> greatest_common_divisor(3, 5)
+    1
+    >>> greatest_common_divisor(25, 15)
+    5
+    """"""
+    a, b = abs(a), abs(b)
+    while b != 0:
+        a, b = b, a % b
+    return a
+```","    while b:
+        a, b = b, a % b
+    return a
+",True,3584.077,236,216,0.0,2026-01-19T15:24:48.383803
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,14,"from typing import List
+
+
+def all_prefixes(string: str) -> List[str]:
+    """""" Return list of all prefixes from shortest to longest of the input string
+    >>> all_prefixes('abc')
+    ['a', 'ab', 'abc']
+    """"""
+    return [string[:i] for i in range(1, len(string) + 1)]","    result = []
+
+    for i in range(len(string)):
+        result.append(string[:i+1])
+    return result
+",True,2885.025,224,191,0.0,2026-01-19T15:24:51.268852
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,15,"```python
+def string_sequence(n: int) -> str:
+    """""" Return a string containing space-delimited numbers starting from 0 upto n inclusive.
+    >>> string_sequence(0)
+    '0'
+    >>> string_sequence(5)
+    '0 1 2 3 4 5'
+    """"""
+    return "" "".join(str(i) for i in range(n + 1))
+```","    return ' '.join([str(x) for x in range(n + 1)])
+",True,4837.2390000000005,234,324,0.0,2026-01-19T15:24:56.106180
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,16,"def count_distinct_characters(string: str) -> int:
+    """""" Given a string, find out how many distinct characters (regardless of case) does it consist of
+    >>> count_distinct_characters('xyzXYZ')
+    3
+    >>> count_distinct_characters('Jerry')
+    4
+    """"""
+    return len(set(string.lower()))","    return len(set(string.lower()))
+",True,2511.041,239,165,0.0,2026-01-19T15:24:58.617274
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,17,"```python
+from typing import List
+
+
+def parse_music(music_string: str) -> List[int]:
+    """""" Input to this function is a string representing musical notes in a special ASCII format.
+    Your task is to parse this string and return list of integers corresponding to how many beats does each
+    not last.
+
+    Here is a legend:
+    'o' - whole note, lasts four beats
+    'o|' - half note, lasts two beats
+    '.|' - quater note, lasts one beat
+
+    >>> parse_music('o o| .| o| o| .| .| .| .| o o')
+    [4, 2, 1, 2, 2, 1, 1, 1, 1, 4, 4]
+    """"""
+    note_to_beats = {
+        'o': 4,
+        'o|': 2,
+        '.|': 1
+    }
+
+    return [note_to_beats[token] for token in music_string.split()]
+```","    note_map = {'o': 4, 'o|': 2, '.|': 1}
+    return [note_map[x] for x in music_string.split(' ') if x]
+",True,3940.623,335,359,0.0,2026-01-19T15:25:02.557918
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,18,"```python
+def how_many_times(string: str, substring: str) -> int:
+    """""" Find how many times a given substring can be found in the original string. Count overlaping cases.
+    >>> how_many_times('', 'a')
+    0
+    >>> how_many_times('aaa', 'a')
+    3
+    >>> how_many_times('aaaa', 'aa')
+    3
+    """"""
+    if not string or not substring:
+        return 0
+
+    count = 0
+    sub_len = len(substring)
+
+    for i in range(len(string) - sub_len + 1):
+        if string[i:i + sub_len] == substring:
+            count += 1
+
+    return count
+```","    times = 0
+
+    for i in range(len(string) - len(substring) + 1):
+        if string[i:i+len(substring)] == substring:
+            times += 1
+
+    return times
+",True,4211.564,254,300,0.0,2026-01-19T15:25:06.769643
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,19,"```python
+from typing import List
+
+
+def sort_numbers(numbers: str) -> str:
+    """""" Input is a space-delimited string of numberals from 'zero' to 'nine'.
+    Valid choices are 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight' and 'nine'.
+    Return the string with numbers sorted from smallest to largest
+    >>> sort_numbers('three one five')
+    'one three five'
+    """"""
+    order = {
+        ""zero"": 0,
+        ""one"": 1,
+        ""two"": 2,
+        ""three"": 3,
+        ""four"": 4,
+        ""five"": 5,
+        ""six"": 6,
+        ""seven"": 7,
+        ""eight"": 8,
+        ""nine"": 9,
+    }
+
+    words = numbers.split()
+    words.sort(key=lambda w: order[w])
+    return "" "".join(words)
+```","    value_map = {
+        'zero': 0,
+        'one': 1,
+        'two': 2,
+        'three': 3,
+        'four': 4,
+        'five': 5,
+        'six': 6,
+        'seven': 7,
+        'eight': 8,
+        'nine': 9
+    }
+    return ' '.join(sorted([x for x in numbers.split(' ') if x], key=lambda x: value_map[x]))
+",True,3391.152,270,265,0.0,2026-01-19T15:25:10.160964
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,20,"```python
+from typing import List, Tuple
+
+
+def find_closest_elements(numbers: List[float]) -> Tuple[float, float]:
+    """""" From a supplied list of numbers (of length at least two) select and return two that are the closest to each
+    other and return them in order (smaller number, larger number).
+    >>> find_closest_elements([1.0, 2.0, 3.0, 4.0, 5.0, 2.2])
+    (2.0, 2.2)
+    >>> find_closest_elements([1.0, 2.0, 3.0, 4.0, 5.0, 2.0])
+    (2.0, 2.0)
+    """"""
+    sorted_numbers = sorted(numbers)
+    min_diff = float(""inf"")
+    closest_pair = (sorted_numbers[0], sorted_numbers[1])
+
+    for i in range(len(sorted_numbers) - 1):
+        diff = abs(sorted_numbers[i + 1] - sorted_numbers[i])
+        if diff < min_diff:
+            min_diff = diff
+            closest_pair = (sorted_numbers[i], sorted_numbers[i + 1])
+
+    return closest_pair
+```","    closest_pair = None
+    distance = None
+
+    for idx, elem in enumerate(numbers):
+        for idx2, elem2 in enumerate(numbers):
+            if idx != idx2:
+                if distance is None:
+                    distance = abs(elem - elem2)
+                    closest_pair = tuple(sorted([elem, elem2]))
+                else:
+                    new_distance = abs(elem - elem2)
+                    if new_distance < distance:
+                        distance = new_distance
+                        closest_pair = tuple(sorted([elem, elem2]))
+
+    return closest_pair
+",True,4550.141,333,416,0.0,2026-01-19T15:25:14.711134
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,21,"from typing import List
+
+
+def rescale_to_unit(numbers: List[float]) -> List[float]:
+    """""" Given list of numbers (of at least two elements), apply a linear transform to that list,
+    such that the smallest number will become 0 and the largest will become 1
+    >>> rescale_to_unit([1.0, 2.0, 3.0, 4.0, 5.0])
+    [0.0, 0.25, 0.5, 0.75, 1.0]
+    """"""
+    min_val = min(numbers)
+    max_val = max(numbers)
+    range_val = max_val - min_val
+
+    if range_val == 0:
+        return [0.0 for _ in numbers]
+
+    return [(x - min_val) / range_val for x in numbers]","    min_number = min(numbers)
+    max_number = max(numbers)
+    return [(x - min_number) / (max_number - min_number) for x in numbers]
+",True,9208.511,358,352,0.0,2026-01-19T15:25:23.919659
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,22,"from typing import List, Any
+
+
+def filter_integers(values: List[Any]) -> List[int]:
+    """""" Filter given list of any python values only for integers
+    >>> filter_integers(['a', 3.14, 5])
+    [5]
+    >>> filter_integers([1, 2, 3, 'abc', {}, []])
+    [1, 2, 3]
+    """"""
+    return [v for v in values if isinstance(v, int) and not isinstance(v, bool)]","    return [x for x in values if isinstance(x, int)]
+",True,5553.531000000001,259,356,0.0,2026-01-19T15:25:29.473239
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,23,"```python
+def strlen(string: str) -> int:
+    """""" Return length of given string
+    >>> strlen('')
+    0
+    >>> strlen('abc')
+    3
+    """"""
+    return len(string)
+```","    return len(string)
+",True,2634.047,209,162,0.0,2026-01-19T15:25:32.107369
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,24,"```python
+def largest_divisor(n: int) -> int:
+    """""" For a given number n, find the largest number that divides n evenly, smaller than n
+    >>> largest_divisor(15)
+    5
+    """"""
+    if n <= 1:
+        raise ValueError(""n must be greater than 1"")
+
+    # Find the smallest divisor greater than 1
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
+            return n // i
+
+    # If no divisor found, n is prime
+    return 1
+```","    for i in reversed(range(n)):
+        if n % i == 0:
+            return i
+",True,7466.383000000001,218,482,0.0,2026-01-19T15:25:39.573770
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,25,"```python
+from typing import List
+
+
+def factorize(n: int) -> List[int]:
+    """""" Return list of prime factors of given integer in the order from smallest to largest.
+    Each of the factors should be listed number of times corresponding to how many times it appeares in factorization.
+    Input number should be equal to the product of all factors
+    >>> factorize(8)
+    [2, 2, 2]
+    >>> factorize(25)
+    [5, 5]
+    >>> factorize(70)
+    [2, 5, 7]
+    """"""
+    factors: List[int] = []
+    
+    if n <= 1:
+        return factors
+
+    divisor = 2
+    while divisor * divisor <= n:
+        while n % divisor == 0:
+            factors.append(divisor)
+            n //= divisor
+        divisor += 1
+
+    if n > 1:
+        factors.append(n)
+
+    return factors
+```","    import math
+    fact = []
+    i = 2
+    while i <= int(math.sqrt(n) + 1):
+        if n % i == 0:
+            fact.append(i)
+            n //= i
+        else:
+            i += 1
+
+    if n > 1:
+        fact.append(n)
+    return fact
+",True,4245.317,291,340,0.0,2026-01-19T15:25:43.819191
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,26,"from typing import List
+from collections import Counter
+
+
+def remove_duplicates(numbers: List[int]) -> List[int]:
+    """""" From a list of integers, remove all elements that occur more than once.
+    Keep order of elements left the same as in the input.
+    >>> remove_duplicates([1, 2, 3, 2, 4])
+    [1, 3, 4]
+    """"""
+    counts = Counter(numbers)
+    return [n for n in numbers if counts[n] == 1]","    import collections
+    c = collections.Counter(numbers)
+    return [n for n in numbers if c[n] <= 1]
+",False,3885.926,249,224,0.0,2026-01-19T15:25:47.705139
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,27,"def flip_case(string: str) -> str:
+    """""" For a given string, flip lowercase characters to uppercase and uppercase to lowercase.
+    >>> flip_case('Hello')
+    'hELLO'
+    """"""
+    return string.swapcase()","    return string.swapcase()
+",True,2838.2900000000004,214,170,0.0,2026-01-19T15:25:50.543477
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,28,"def concatenate(strings: List[str]) -> str:
+    """""" Concatenate list of strings into a single string
+    >>> concatenate([])
+    ''
+    >>> concatenate(['a', 'b', 'c'])
+    'abc'
+    """"""
+    return """".join(strings)","    return ''.join(strings)
+",True,2707.381,222,176,0.0,2026-01-19T15:25:53.250873
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,29,"from typing import List
+
+
+def filter_by_prefix(strings: List[str], prefix: str) -> List[str]:
+    """""" Filter an input list of strings only for ones that start with a given prefix.
+    >>> filter_by_prefix([], 'a')
+    []
+    >>> filter_by_prefix(['abc', 'bcd', 'cde', 'array'], 'a')
+    ['abc', 'array']
+    """"""
+    return [s for s in strings if s.startswith(prefix)]","    return [x for x in strings if x.startswith(prefix)]
+",True,3089.646,253,235,0.0,2026-01-19T15:25:56.340582
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,30,"def get_positive(l: list):
+    """"""Return only positive numbers in the list.
+    >>> get_positive([-1, 2, -4, 5, 6])
+    [2, 5, 6]
+    >>> get_positive([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])
+    [5, 3, 2, 3, 9, 123, 1]
+    """"""
+    return [x for x in l if x > 0]","    return [e for e in l if e > 0]
+",True,2905.172,279,226,0.0,2026-01-19T15:25:59.245776
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,31,"```python
+def is_prime(n):
+    """"""Return true if a given number is prime, and false otherwise.
+    >>> is_prime(6)
+    False
+    >>> is_prime(101)
+    True
+    >>> is_prime(11)
+    True
+    >>> is_prime(13441)
+    True
+    >>> is_prime(61)
+    True
+    >>> is_prime(4)
+    False
+    >>> is_prime(1)
+    False
+    """"""
+    if n < 2:
+        return False
+    if n == 2:
+        return True
+    if n % 2 == 0:
+        return False
+    i = 3
+    while i * i <= n:
+        if n % i == 0:
+            return False
+        i += 2
+    return True
+```","    if n < 2:
+        return False
+    for k in range(2, n - 1):
+        if n % k == 0:
+            return False
+    return True
+",True,4197.759999999999,265,290,0.0,2026-01-19T15:26:03.443567
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,32,"def find_zero(xs: list):
+    """""" xs are coefficients of a polynomial.
+    find_zero find x such that poly(x) = 0.
+    find_zero returns only only zero point, even if there are many.
+    Moreover, find_zero only takes list xs having even number of coefficients
+    and largest non zero coefficient as it guarantees
+    a solution.
+    """"""
+
+    def f(x):
+        return poly(xs, x)
+
+    # Step 1: find an interval with a sign change
+    a, b = -1.0, 1.0
+    fa, fb = f(a), f(b)
+
+    # Expand interval until a sign change is found
+    while fa * fb > 0:
+        a *= 2
+        b *= 2
+        fa, fb = f(a), f(b)
+
+    # Step 2: bisection method
+    for _ in range(100):  # sufficient for good precision
+        m = (a + b) / 2
+        fm = f(m)
+        if abs(fm) < 1e-10:
+            return m
+        if fa * fm <= 0:
+            b, fb = m, fm
+        else:
+            a, fa = m, fm
+
+    return (a + b) / 2","    begin, end = -1., 1.
+    while poly(xs, begin) * poly(xs, end) > 0:
+        begin *= 2.0
+        end *= 2.0
+    while end - begin > 1e-10:
+        center = (begin + end) / 2.0
+        if poly(xs, center) * poly(xs, begin) > 0:
+            begin = center
+        else:
+            end = center
+    return begin
+",False,17332.231,493,559,0.0,2026-01-19T15:26:20.775848
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,33,"Completion:
+```python
+def sort_third(l: list):
+    # Copy the list so we do not modify the original
+    result = list(l)
+    
+    # Collect values at indices divisible by 3
+    indices = [i for i in range(len(l)) if i % 3 == 0]
+    values = sorted(l[i] for i in indices)
+    
+    # Place sorted values back into the corresponding indices
+    for i, v in zip(indices, values):
+        result[i] = v
+    
+    return result
+```","    l = list(l)
+    l[::3] = sorted(l[::3])
+    return l
+",False,10214.905,387,348,0.0,2026-01-19T15:26:30.990892
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,34,"```python
+def unique(l: list):
+    """"""Return sorted unique elements in a list
+    >>> unique([5, 3, 5, 2, 3, 3, 9, 0, 123])
+    [0, 2, 3, 5, 9, 123]
+    """"""
+    return sorted(set(l))
+```","    return sorted(list(set(l)))
+",True,3177.404,239,200,0.0,2026-01-19T15:26:34.168346
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,35,"def max_element(l: list):
+    """"""Return maximum element in the list.
+    >>> max_element([1, 2, 3])
+    3
+    >>> max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])
+    123
+    """"""
+    return max(l)","    m = l[0]
+    for e in l:
+        if e > m:
+            m = e
+    return m
+",True,2780.573,248,157,0.0,2026-01-19T15:26:36.948957
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,36,"```python
+def fizz_buzz(n: int):
+    """"""Return the number of times the digit 7 appears in integers less than n which are divisible by 11 or 13.
+    >>> fizz_buzz(50)
+    0
+    >>> fizz_buzz(78)
+    2
+    >>> fizz_buzz(79)
+    3
+    """"""
+    count = 0
+    for i in range(n):
+        if i % 11 == 0 or i % 13 == 0:
+            count += str(i).count('7')
+    return count
+```","    ns = []
+    for i in range(n):
+        if i % 11 == 0 or i % 13 == 0:
+            ns.append(i)
+    s = ''.join(list(map(str, ns)))
+    ans = 0
+    for c in s:
+        ans += (c == '7')
+    return ans
+",True,6955.447,245,511,0.0,2026-01-19T15:26:43.904468
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,37,"```python
+def sort_even(l: list):
+    """"""This function takes a list l and returns a list l' such that
+    l' is identical to l in the odd indicies, while its values at the even indicies are equal
+    to the values of the even indicies of l, but sorted.
+    >>> sort_even([1, 2, 3])
+    [1, 2, 3]
+    >>> sort_even([5, 6, 3, 4])
+    [3, 6, 5, 4]
+    """"""
+    # Extract and sort values at even indices
+    even_vals = sorted(l[::2])
+    
+    # Rebuild the list
+    result = []
+    even_idx = 0
+    for i, val in enumerate(l):
+        if i % 2 == 0:
+            result.append(even_vals[even_idx])
+            even_idx += 1
+        else:
+            result.append(val)
+    return result
+```","    evens = l[::2]
+    odds = l[1::2]
+    evens.sort()
+    ans = []
+    for e, o in zip(evens, odds):
+        ans.extend([e, o])
+    if len(evens) > len(odds):
+        ans.append(evens[-1])
+    return ans
+",True,4833.559,289,397,0.0,2026-01-19T15:26:48.738280
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,38,"```python
+def decode_cyclic(s: str):
+    """"""
+    takes as input string encoded with encode_cyclic function. Returns decoded string.
+    """"""
+    # split string to groups. Each of length 3.
+    groups = [s[(3 * i):min((3 * i + 3), len(s))] for i in range((len(s) + 2) // 3)]
+    # reverse the cycle for each full group of length 3
+    groups = [(group[-1] + group[:-1]) if len(group) == 3 else group for group in groups]
+    return """".join(groups)
+```","    return encode_cyclic(encode_cyclic(s))
+",False,3599.3179999999998,325,278,0.0,2026-01-19T15:26:52.337691
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,39,"```python
+def prime_fib(n: int):
+    """"""
+    prime_fib returns n-th number that is a Fibonacci number and it's also prime.
+    >>> prime_fib(1)
+    2
+    >>> prime_fib(2)
+    3
+    >>> prime_fib(3)
+    5
+    >>> prime_fib(4)
+    13
+    >>> prime_fib(5)
+    89
+    """"""
+    if n < 1:
+        raise ValueError(""n must be a positive integer"")
+
+    def is_prime(x: int) -> bool:
+        if x < 2:
+            return False
+        if x == 2:
+            return True
+        if x % 2 == 0:
+            return False
+        i = 3
+        while i * i <= x:
+            if x % i == 0:
+                return False
+            i += 2
+        return True
+
+    count = 0
+    a, b = 1, 1  # Fibonacci sequence start
+
+    while True:
+        a, b = b, a + b
+        if is_prime(a):
+            count += 1
+            if count == n:
+                return a
+```","    import math
+
+    def is_prime(p):
+        if p < 2:
+            return False
+        for k in range(2, min(int(math.sqrt(p)) + 1, p - 1)):
+            if p % k == 0:
+                return False
+        return True
+    f = [0, 1]
+    while True:
+        f.append(f[-1] + f[-2])
+        if is_prime(f[-1]):
+            n -= 1
+        if n == 0:
+            return f[-1]
+",True,5496.696,262,456,0.0,2026-01-19T15:26:57.834635
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,40,"```python
+def triples_sum_to_zero(l: list):
+    """"""
+    triples_sum_to_zero takes a list of integers as an input.
+    it returns True if there are three distinct elements in the list that
+    sum to zero, and False otherwise.
+    """"""
+    if len(l) < 3:
+        return False
+
+    l = sorted(l)
+    n = len(l)
+
+    for i in range(n - 2):
+        left = i + 1
+        right = n - 1
+
+        while left < right:
+            s = l[i] + l[left] + l[right]
+            if s == 0:
+                return True
+            elif s < 0:
+                left += 1
+            else:
+                right -= 1
+
+    return False
+```","    for i in range(len(l)):
+        for j in range(i + 1, len(l)):
+            for k in range(j + 1, len(l)):
+                if l[i] + l[j] + l[k] == 0:
+                    return True
+    return False
+",True,4254.4529999999995,325,315,0.0,2026-01-19T15:27:02.089144
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,41,"def car_race_collision(n: int):
+    """"""
+    Imagine a road that's a perfectly straight infinitely long line.
+    n cars are driving left to right;  simultaneously, a different set of n cars
+    are driving right to left.   The two sets of cars start out being very far from
+    each other.  All cars move in the same speed.  Two cars are said to collide
+    when a car that's moving left to right hits a car that's moving right to left.
+    However, the cars are infinitely sturdy and strong; as a result, they continue moving
+    in their trajectory as if they did not collide.
+
+    This function outputs the number of such collisions.
+    """"""
+    return n * n","    return n**2
+",True,3631.49,315,307,0.0,2026-01-19T15:27:05.720695
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,42,"```python
+def incr_list(l: list):
+    """"""Return list with elements incremented by 1.
+    >>> incr_list([1, 2, 3])
+    [2, 3, 4]
+    >>> incr_list([5, 3, 5, 2, 3, 3, 9, 0, 123])
+    [6, 4, 6, 3, 4, 4, 10, 1, 124]
+    """"""
+    return [x + 1 for x in l]
+```","    return [(e + 1) for e in l]
+",True,3107.6730000000002,275,252,0.0,2026-01-19T15:27:08.828492
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,43,"```python
+def pairs_sum_to_zero(l):
+    """"""
+    pairs_sum_to_zero takes a list of integers as an input.
+    it returns True if there are two distinct elements in the list that
+    sum to zero, and False otherwise.
+    >>> pairs_sum_to_zero([1, 3, 5, 0])
+    False
+    >>> pairs_sum_to_zero([1, 3, -2, 1])
+    False
+    >>> pairs_sum_to_zero([1, 2, 3, 7])
+    False
+    >>> pairs_sum_to_zero([2, 4, -5, 3, 5, 7])
+    True
+    >>> pairs_sum_to_zero([1])
+    False
+    """"""
+    seen = set()
+    for x in l:
+        if -x in seen:
+            return True
+        seen.add(x)
+    return False
+```","    for i, l1 in enumerate(l):
+        for j in range(i + 1, len(l)):
+            if l1 + l[j] == 0:
+                return True
+    return False
+",True,4863.28,323,385,0.0,2026-01-19T15:27:13.691859
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,44,"```python
+def change_base(x: int, base: int):
+    """"""Change numerical base of input number x to base.
+    return string representation after the conversion.
+    base numbers are less than 10.
+    >>> change_base(8, 3)
+    '22'
+    >>> change_base(8, 2)
+    '1000'
+    >>> change_base(7, 2)
+    '111'
+    """"""
+    if base < 2 or base >= 10:
+        raise ValueError(""base must be between 2 and 9"")
+
+    if x == 0:
+        return ""0""
+
+    digits = []
+    n = x
+    while n > 0:
+        digits.append(str(n % base))
+        n //= base
+
+    return """".join(reversed(digits))
+```","    ret = """"
+    while x > 0:
+        ret = str(x % base) + ret
+        x //= base
+    return ret
+",True,4246.468,257,308,0.0,2026-01-19T15:27:17.938408
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,45,"```python
+def triangle_area(a, h):
+    """"""Given length of a side and high return area for a triangle.
+    >>> triangle_area(5, 3)
+    7.5
+    """"""
+    return a * h / 2
+```","    return a * h / 2.0
+",True,2768.382,212,135,0.0,2026-01-19T15:27:20.707132
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,46,"```python
+def fib4(n: int):
+    """"""The Fib4 number sequence is a sequence similar to the Fibbonacci sequnece that's defined as follows:
+    fib4(0) -> 0
+    fib4(1) -> 0
+    fib4(2) -> 2
+    fib4(3) -> 0
+    fib4(n) -> fib4(n-1) + fib4(n-2) + fib4(n-3) + fib4(n-4).
+    Please write a function to efficiently compute the n-th element of the fib4 number sequence.  Do not use recursion.
+    >>> fib4(5)
+    4
+    >>> fib4(6)
+    8
+    >>> fib4(7)
+    14
+    """"""
+    if n < 0:
+        raise ValueError(""n must be a non-negative integer"")
+
+    # Base cases
+    base = [0, 0, 2, 0]
+    if n < 4:
+        return base[n]
+
+    a, b, c, d = base  # fib4(0), fib4(1), fib4(2), fib4(3)
+    for _ in range(4, n + 1):
+        a, b, c, d = b, c, d, a + b + c + d
+
+    return d
+```","    results = [0, 0, 2, 0]
+    if n < 4:
+        return results[n]
+
+    for _ in range(4, n + 1):
+        results.append(results[-1] + results[-2] + results[-3] + results[-4])
+        results.pop(0)
+
+    return results[-1]
+",True,6307.344,336,557,0.0,2026-01-19T15:27:27.014532
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,47,"def median(l: list):
+    """"""Return median of elements in the list l.
+    >>> median([3, 1, 2, 4, 5])
+    3
+    >>> median([-10, 4, 6, 1000, 10, 20])
+    15.0
+    """"""
+    n = len(l)
+    if n == 0:
+        raise ValueError(""median() arg is an empty list"")
+    s = sorted(l)
+    mid = n // 2
+    if n % 2 == 1:
+        return s[mid]
+    else:
+        return (s[mid - 1] + s[mid]) / 2","    l = sorted(l)
+    if len(l) % 2 == 1:
+        return l[len(l) // 2]
+    else:
+        return (l[len(l) // 2 - 1] + l[len(l) // 2]) / 2.0
+",True,15868.76,309,286,0.0,2026-01-19T15:27:42.883360
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,48,"```python
+def is_palindrome(text: str):
+    """"""
+    Checks if given string is a palindrome
+    >>> is_palindrome('')
+    True
+    >>> is_palindrome('aba')
+    True
+    >>> is_palindrome('aaaaa')
+    True
+    >>> is_palindrome('zbcd')
+    False
+    """"""
+    return text == text[::-1]
+```","    for i in range(len(text)):
+        if text[i] != text[len(text) - 1 - i]:
+            return False
+    return True
+",True,4820.802,237,256,0.0,2026-01-19T15:27:47.704726
+gpt-5.2-chat-latest_baseline_code,gpt-5.2-chat-latest,code,49,"def modp(n: int, p: int):
+    """"""Return 2^n modulo p (be aware of numerics).
+    >>> modp(3, 5)
+    3
+    >>> modp(1101, 101)
+    2
+    >>> modp(0, 101)
+    1
+    >>> modp(3, 11)
+    8
+    >>> modp(100, 101)
+    1
+    """"""
+    return pow(2, n, p)","    ret = 1
+    for i in range(n):
+        ret = (2 * ret) % p
+    return ret
+",True,10354.497,340,331,0.0,2026-01-19T15:27:58.059644

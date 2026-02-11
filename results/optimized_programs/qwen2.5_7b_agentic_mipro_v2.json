@@ -1,0 +1,74 @@
+{
+  "self": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "question": "Was Al-Farabi a student of the Great Sheikh?",
+        "reasoning": "Al-Farabi, also known as Abu Nasr Farabi, was a prominent philosopher, musician, and scholar from the Islamic Golden Age. He is often referred to as \"the Second Teacher\" after Aristotle, indicating his significant contributions in philosophy. However, there is no historical evidence or reliable sources suggesting that Al-Farabi had a direct student-student relationship with someone called the \"Great Sheikh.\" The term \"Great Sheikh\" might refer to other notable scholars of his time.",
+        "answer": "No"
+      },
+      {
+        "augmented": true,
+        "question": "If you bottle your own milk, would there be cream on top of it?",
+        "reasoning": "When milk is left to sit, the fat content in the milk rises to the top due to its lower density. This process is why cream is often separated from whole milk. If you bottle your own milk without homogenization (a process that prevents the fat from separating), there would likely be cream on top.",
+        "answer": "Yes"
+      },
+      {
+        "question": "Can a strawberry get worms similar to dogs?",
+        "answer": "Yes"
+      },
+      {
+        "question": "Would a packed Wembley stadium be likely to have a descendant of the Mongols inside?",
+        "answer": "Yes"
+      },
+      {
+        "question": "Has Ringo Starr been in a relatively large number of bands?",
+        "answer": "No"
+      }
+    ],
+    "signature": {
+      "instructions": "Answer the question that requires multi-step reasoning. Give the Answer as Yes or No.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Reasoning:",
+          "description": "Step-by-step reasoning"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Yes or No"
+        }
+      ]
+    },
+    "extended_signature": {
+      "instructions": "Answer the following question that requires multi-step reasoning. Provide a detailed step-by-step reasoning process to understand and address the underlying aspects of the question, followed by a concise yes or no answer.\n\nQuestion: Would it be unusual for a randomly selected person from an internet chatroom to have visited every continent at least once?\n\nReasoning:\n1. Consider the global distribution of internet users.\n2. Estimate the likelihood that a randomly selected user might visit all continents in their lifetime.\n3. Factor in constraints such as geographical barriers, cost of travel, and personal circumstances.\n\nAnswer: No",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Reasoning:",
+          "description": "Step-by-step reasoning"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Yes or No"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11.6",
+      "dspy": "2.6.27",
+      "cloudpickle": "3.1.2"
+    }
+  }
+}
